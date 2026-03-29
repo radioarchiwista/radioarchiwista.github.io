@@ -131,6 +131,10 @@ h1 {
   color: #1c4580;
 }
 
+.deploy-status-error {
+  margin-top: 1rem;
+}
+
 .summary-grid,
 .panel-card {
   margin-top: 1.5rem;
@@ -326,6 +330,11 @@ h1 {
 
 .button:hover {
   filter: brightness(0.97);
+}
+
+.text-link {
+  color: var(--accent-strong);
+  font-weight: 600;
 }
 
 .button:focus-visible,
