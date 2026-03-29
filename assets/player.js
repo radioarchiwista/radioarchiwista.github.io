@@ -587,9 +587,5 @@
 
   async function bootstrapPlayer() {
     await loadStationIndex();
-    if (stationSelect.options.length === 2) {
-      stationSelect.value = stationSelect.options[1].value;
-      stationSelect.dispatchEvent(new Event("change"));
-    }
   }
 })();
