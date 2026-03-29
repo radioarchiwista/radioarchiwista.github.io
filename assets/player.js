@@ -491,12 +491,12 @@
       return;
     }
     if (!generatedAt) {
-      snapshotMetaNode.textContent = "Katalog działa bez znacznika czasu ostatniego eksportu.";
+      snapshotMetaNode.textContent = "Katalog nie ma jeszcze znacznika ostatniej zmiany.";
       return;
     }
     const generatedDate = new Date(generatedAt);
     if (Number.isNaN(generatedDate.getTime())) {
-      snapshotMetaNode.textContent = "Nie udało się odczytać czasu ostatniego eksportu katalogu.";
+      snapshotMetaNode.textContent = "Nie udało się odczytać czasu ostatniej zmiany katalogu.";
       return;
     }
     const formatter = new Intl.DateTimeFormat("pl-PL", {
@@ -504,7 +504,7 @@
       timeStyle: "short",
     });
     snapshotMetaNode.textContent =
-      `Snapshot katalogu wygenerowano: ${formatter.format(generatedDate)}.`;
+      `Ostatnia zmiana katalogu: ${formatter.format(generatedDate)}.`;
   }
 
   function buildCatalogUrl(slug) {
