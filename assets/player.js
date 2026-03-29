@@ -231,14 +231,17 @@
       const stations = Array.isArray(payload.stations) ? payload.stations : [];
       populateStationOptions(stations);
       updateStationCount(stations.length);
-      updateSnapshotMeta(payload.generated_at || null);
+      updateSnapshotMeta(
+        payload.published_at || payload.generated_at || null,
+        payload.latest_archive_hour_started_at || null,
+      );
       if (stations.length === 0) {
         setStatus("Brak opublikowanych godzin do odsłuchu.");
       }
       return;
     } catch (error) {
       if (fallbackStationCount > 0) {
-        updateSnapshotMeta(null);
+        updateSnapshotMeta(null, null);
         setStatus("Nie udało się odświeżyć listy stacji. Używam danych wstępnych.");
         return;
       }
@@ -486,25 +489,32 @@
     stationCountNode.textContent = String(Math.max(0, count));
   }
 
-  function updateSnapshotMeta(generatedAt) {
+  function updateSnapshotMeta(publishedAt, latestArchiveHourStartedAt) {
     if (!snapshotMetaNode) {
-      return;
-    }
-    if (!generatedAt) {
-      snapshotMetaNode.textContent = "Brak informacji o najnowszej dostępnej godzinie.";
-      return;
-    }
-    const generatedDate = new Date(generatedAt);
-    if (Number.isNaN(generatedDate.getTime())) {
-      snapshotMetaNode.textContent = "Nie udało się odczytać czasu najnowszej dostępnej godziny.";
       return;
     }
     const formatter = new Intl.DateTimeFormat("pl-PL", {
       dateStyle: "medium",
       timeStyle: "short",
     });
-    snapshotMetaNode.textContent =
-      `Najnowsza dostępna godzina archiwum: ${formatter.format(generatedDate)}.`;
+    const parts = [];
+    if (publishedAt) {
+      const publishedDate = new Date(publishedAt);
+      if (!Number.isNaN(publishedDate.getTime())) {
+        parts.push(`Katalog opublikowano: ${formatter.format(publishedDate)}.`);
+      }
+    }
+    if (latestArchiveHourStartedAt) {
+      const latestArchiveDate = new Date(latestArchiveHourStartedAt);
+      if (!Number.isNaN(latestArchiveDate.getTime())) {
+        parts.push(`Najnowsza godzina w katalogu: ${formatter.format(latestArchiveDate)}.`);
+      }
+    }
+    if (parts.length === 0) {
+      snapshotMetaNode.textContent = "Brak informacji o ostatniej publikacji archiwum.";
+      return;
+    }
+    snapshotMetaNode.textContent = parts.join(" ");
   }
 
   function buildCatalogUrl(slug) {
