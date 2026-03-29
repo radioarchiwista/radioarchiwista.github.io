@@ -20,6 +20,8 @@
   const downloadLink = document.getElementById("player-download-link");
   const stationCountNode = document.getElementById("player-station-count");
   const snapshotMetaNode = document.getElementById("player-snapshot-meta");
+  const emptyStateNode = document.getElementById("player-empty-state");
+  const loadedStateNode = document.getElementById("player-loaded-state");
   const seekStepSeconds = 15;
   const youtubeSeekStepSeconds = 10;
   const stationsEndpoint =
@@ -45,7 +47,9 @@
     !seekInput ||
     !currentTimeNode ||
     !durationNode ||
-    !downloadLink
+    !downloadLink ||
+    !emptyStateNode ||
+    !loadedStateNode
   ) {
     return;
   }
@@ -383,6 +387,7 @@
     currentTimeNode.textContent = "00:00";
     durationNode.textContent = formatDuration(archive.duration_seconds);
     playButton.textContent = "Odtwórz";
+    setPlayerLoadedState(true);
     setStatus(`Załadowano nagranie ${archive.local_hour_label || formatHourLabel(archive.hour)}.`);
   }
 
@@ -409,6 +414,7 @@
     subtitleNode.textContent =
       "Po załadowaniu zobaczysz tutaj datę i godzinę w lokalnym czasie stacji.";
     playButton.textContent = "Odtwórz";
+    setPlayerLoadedState(false);
   }
 
   function clearSelect(select, placeholder, disabled) {
@@ -488,6 +494,11 @@
     downloadLink.href = url;
     downloadLink.setAttribute("aria-disabled", "false");
     downloadLink.tabIndex = 0;
+  }
+
+  function setPlayerLoadedState(isLoaded) {
+    emptyStateNode.hidden = isLoaded;
+    loadedStateNode.hidden = !isLoaded;
   }
 
   function updateStationCount(count) {

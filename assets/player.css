@@ -580,6 +580,19 @@ textarea {
   min-width: 0;
 }
 
+.player-empty-state {
+  padding: 1.25rem;
+  border: 1px dashed rgba(15, 92, 75, 0.28);
+  border-radius: 1rem;
+  background: rgba(255, 253, 248, 0.82);
+}
+
+.player-empty-copy {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.6;
+}
+
 .player-main-header {
   display: grid;
   gap: 0.8rem;

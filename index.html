@@ -4,8 +4,8 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Radio Archiwista, odtwarzacz archiwów radiowych</title>
-    <link rel="stylesheet" href="./assets/player.css" />
-    <script defer src="./assets/player.js"></script>
+    <link rel="stylesheet" href="./assets/player.css?v=1774820271" />
+    <script defer src="./assets/player.js?v=1774820271"></script>
   </head>
   <body>
     <main
@@ -152,64 +152,73 @@
             aria-hidden="true"
           ></audio>
 
-          <div class="player-control-bar" aria-label="Sterowanie odtwarzaniem">
-            <button type="button" class="button button-primary player-button" id="player-play-button">
-              Odtwórz
-            </button>
-            <button type="button" class="button button-secondary player-button" id="player-back-button">
-              -15 s
-            </button>
-            <button type="button" class="button button-secondary player-button" id="player-forward-button">
-              +15 s
-            </button>
-            <div class="field player-rate-field">
-              <label for="player-rate">Prędkość</label>
-              <select id="player-rate" name="rate">
-                <option value="1">1x</option>
-                <option value="1.25">1.25x</option>
-                <option value="1.5">1.5x</option>
-                <option value="2">2x</option>
-                <option value="2.5">2.5x</option>
-                <option value="3">3x</option>
-              </select>
+          <div id="player-empty-state" class="player-empty-state">
+            <p class="player-empty-copy">
+              Wybierz stację, dzień i godzinę, a następnie kliknij
+              <strong>Załaduj wybraną godzinę</strong>.
+            </p>
+          </div>
+
+          <div id="player-loaded-state" hidden>
+            <div class="player-control-bar" aria-label="Sterowanie odtwarzaniem">
+              <button type="button" class="button button-primary player-button" id="player-play-button">
+                Odtwórz
+              </button>
+              <button type="button" class="button button-secondary player-button" id="player-back-button">
+                -15 s
+              </button>
+              <button type="button" class="button button-secondary player-button" id="player-forward-button">
+                +15 s
+              </button>
+              <div class="field player-rate-field">
+                <label for="player-rate">Prędkość</label>
+                <select id="player-rate" name="rate">
+                  <option value="1">1x</option>
+                  <option value="1.25">1.25x</option>
+                  <option value="1.5">1.5x</option>
+                  <option value="2">2x</option>
+                  <option value="2.5">2.5x</option>
+                  <option value="3">3x</option>
+                </select>
+              </div>
             </div>
-          </div>
 
-          <div class="player-action-row">
-            <a
-              id="player-download-link"
-              class="button button-secondary player-button player-download-link"
-              href="#"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-disabled="true"
-              tabindex="-1"
-            >
-              Pobierz plik z archive.org
-            </a>
-          </div>
+            <div class="player-action-row">
+              <a
+                id="player-download-link"
+                class="button button-secondary player-button player-download-link"
+                href="#"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-disabled="true"
+                tabindex="-1"
+              >
+                Pobierz plik z archive.org
+              </a>
+            </div>
 
-          <div class="field player-seek-field">
-            <label for="player-seek">Pozycja odtwarzania</label>
-            <input
-              id="player-seek"
-              type="range"
-              min="0"
-              max="0"
-              step="1"
-              value="0"
-              disabled
-              aria-describedby="player-time-readout"
-            />
-          </div>
+            <div class="field player-seek-field">
+              <label for="player-seek">Pozycja odtwarzania</label>
+              <input
+                id="player-seek"
+                type="range"
+                min="0"
+                max="0"
+                step="1"
+                value="0"
+                disabled
+                aria-describedby="player-time-readout"
+              />
+            </div>
 
-          <div class="player-time-row" id="player-time-readout">
-            <span id="player-current-time">00:00</span>
-            <span id="player-duration">00:00</span>
-          </div>
+            <div class="player-time-row" id="player-time-readout">
+              <span id="player-current-time">00:00</span>
+              <span id="player-duration">00:00</span>
+            </div>
 
-          <div class="player-keyboard-note table-meta">
-            Skróty 0-9 i J/K/L/M działają, gdy fokus nie jest w polu wyboru.
+            <div class="player-keyboard-note table-meta">
+              Skróty 0-9 i J/K/L/M działają, gdy fokus nie jest w polu wyboru.
+            </div>
           </div>
         </section>
       </section>
