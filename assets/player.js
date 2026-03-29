@@ -662,6 +662,9 @@
     if (!(target instanceof HTMLElement)) {
       return false;
     }
+    if (target === rateSelect || target.closest("#player-rate")) {
+      return false;
+    }
     return Boolean(target.closest("input, select, textarea, [contenteditable='true']"));
   }
 
