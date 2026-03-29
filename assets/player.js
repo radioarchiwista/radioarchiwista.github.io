@@ -255,10 +255,15 @@
       clearSelect(stationSelect, "Wybierz stację", true);
       return;
     }
-    fillSelect(stationSelect, stations, (station) => ({
-      value: station.slug,
-      label: `${station.display_name} (${station.archive_count} h)`,
-    }));
+    fillSelect(
+      stationSelect,
+      stations,
+      (station) => ({
+        value: station.slug,
+        label: `${station.display_name} (${station.archive_count} h)`,
+      }),
+      { autoSelectFirst: false },
+    );
   }
 
   function populateYearOptions() {
@@ -415,7 +420,8 @@
     select.disabled = disabled;
   }
 
-  function fillSelect(select, values, toOption) {
+  function fillSelect(select, values, toOption, options = {}) {
+    const { autoSelectFirst = true } = options;
     const previousValue = select.value;
     clearSelect(select, select.options[0]?.textContent || "Wybierz", false);
     values.forEach((value) => {
@@ -428,7 +434,9 @@
     const nextValue =
       values.some((value) => String(toOption(value).value) === previousValue)
         ? previousValue
-        : select.options[1]?.value || "";
+        : autoSelectFirst
+          ? select.options[1]?.value || ""
+          : "";
     select.value = nextValue;
     select.disabled = values.length === 0;
   }
