@@ -1,9 +1,16 @@
 {
-  "generated_at": "2026-03-29T20:14:15.074469+00:00",
-  "latest_archive_hour_started_at": "2026-03-29T19:00:00+00:00",
-  "published_at": "2026-03-29T20:14:15.074469+00:00",
+  "generated_at": "2026-03-29T21:03:26.785030+00:00",
+  "latest_archive_hour_started_at": "2026-03-29T20:00:00+00:00",
+  "published_at": "2026-03-29T21:03:26.785030+00:00",
   "station_count": 9,
   "stations": [
+    {
+      "archive_count": 4,
+      "display_name": "Polskie Radio 24",
+      "public_name": "Polskie Radio 24",
+      "slug": "pr24",
+      "timezone": "Europe/Warsaw"
+    },
     {
       "archive_count": 7,
       "display_name": "Program 1",
@@ -27,13 +34,6 @@
     },
     {
       "archive_count": 4,
-      "display_name": "Polskie Radio 24",
-      "public_name": "Polskie Radio 24",
-      "slug": "pr24",
-      "timezone": "Europe/Warsaw"
-    },
-    {
-      "archive_count": 3,
       "display_name": "Radio 357",
       "public_name": "Radio 357",
       "slug": "radio357",
@@ -48,9 +48,9 @@
     },
     {
       "archive_count": 3,
-      "display_name": "TOK FM",
-      "public_name": "TOK FM",
-      "slug": "tokfm",
+      "display_name": "Radio Republika",
+      "public_name": "Radio Republika",
+      "slug": "republika",
       "timezone": "Europe/Warsaw"
     },
     {
@@ -62,9 +62,9 @@
     },
     {
       "archive_count": 3,
-      "display_name": "Radio Republika",
-      "public_name": "Radio Republika",
-      "slug": "republika",
+      "display_name": "TOK FM",
+      "public_name": "TOK FM",
+      "slug": "tokfm",
       "timezone": "Europe/Warsaw"
     }
   ]
