@@ -99,6 +99,16 @@
     loadArchiveIntoPlayer(selectedArchive);
   });
 
+  downloadLink.addEventListener("click", async (event) => {
+    if (!selectedArchive || downloadLink.getAttribute("aria-disabled") === "true") {
+      event.preventDefault();
+      setStatus("Najpierw załaduj godzinę do pobrania.");
+      return;
+    }
+    event.preventDefault();
+    await triggerArchiveDownload(selectedArchive);
+  });
+
   playButton.addEventListener("click", async () => {
     if (!audio.src) {
       setStatus("Najpierw załaduj godzinę do odtworzenia.");
@@ -375,7 +385,7 @@
     audio.src = archive.audio_url;
     audio.load();
     audio.playbackRate = Number(rateSelect.value);
-    setDownloadLinkState(archive.download_url);
+    setDownloadLinkState(archive.download_url, archive.remote_filename || null);
     titleNode.textContent = `${stationCatalog.station.display_name} · ${archive.local_date_label || formatDateLabel(archive)}`;
     subtitleNode.textContent =
       `${archive.local_hour_label || formatHourLabel(archive.hour)} (${Math.round(
@@ -399,7 +409,7 @@
     clearSelect(daySelect, "Wybierz dzień", true);
     clearSelect(hourSelect, "Wybierz godzinę", true);
     loadButton.disabled = true;
-    setDownloadLinkState(null);
+    setDownloadLinkState(null, null);
     audio.pause();
     audio.removeAttribute("src");
     audio.load();
@@ -484,14 +494,20 @@
     statusNode.textContent = message;
   }
 
-  function setDownloadLinkState(url) {
+  function setDownloadLinkState(url, filename) {
     if (!url) {
       downloadLink.href = "#";
+      delete downloadLink.dataset.filename;
       downloadLink.setAttribute("aria-disabled", "true");
       downloadLink.tabIndex = -1;
       return;
     }
     downloadLink.href = url;
+    if (filename) {
+      downloadLink.dataset.filename = filename;
+    } else {
+      delete downloadLink.dataset.filename;
+    }
     downloadLink.setAttribute("aria-disabled", "false");
     downloadLink.tabIndex = 0;
   }
@@ -583,6 +599,53 @@
   function toggleMute() {
     audio.muted = !audio.muted;
     setStatus(audio.muted ? "Dźwięk wyciszony." : "Dźwięk przywrócony.");
+  }
+
+  async function triggerArchiveDownload(archive) {
+    const filename =
+      archive.remote_filename ||
+      downloadLink.dataset.filename ||
+      extractFilenameFromUrl(archive.download_url) ||
+      "archiwum.mp3";
+    const originalLabel = downloadLink.textContent;
+    downloadLink.setAttribute("aria-disabled", "true");
+    downloadLink.tabIndex = -1;
+    downloadLink.textContent = "Pobieranie...";
+    setStatus(`Pobieram plik ${filename} z archive.org...`);
+
+    try {
+      const response = await fetch(archive.download_url, { mode: "cors", credentials: "omit" });
+      if (!response.ok) {
+        throw new Error(`HTTP ${response.status}`);
+      }
+      const blob = await response.blob();
+      const blobUrl = URL.createObjectURL(blob);
+      const anchor = document.createElement("a");
+      anchor.href = blobUrl;
+      anchor.download = filename;
+      anchor.rel = "noopener";
+      anchor.style.display = "none";
+      document.body.append(anchor);
+      anchor.click();
+      anchor.remove();
+      window.setTimeout(() => URL.revokeObjectURL(blobUrl), 60_000);
+      setStatus(`Pobieranie pliku ${filename} zostało rozpoczęte.`);
+    } catch (error) {
+      setStatus(`Nie udało się pobrać pliku: ${error}`);
+    } finally {
+      downloadLink.textContent = originalLabel;
+      setDownloadLinkState(archive.download_url, filename);
+    }
+  }
+
+  function extractFilenameFromUrl(url) {
+    try {
+      const parsed = new URL(url, window.location.href);
+      const parts = parsed.pathname.split("/");
+      return parts[parts.length - 1] || null;
+    } catch (_error) {
+      return null;
+    }
   }
 
   function extractDigitShortcut(event) {
