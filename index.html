@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Odtwarzacz archiwum radiowego</title>
+    <link rel="stylesheet" href="./assets/player.css" />
+    <script defer src="./assets/player.js"></script>
+  </head>
+  <body>
+    <main
+      class="page player-page"
+      data-player-stations-endpoint="./data/stations.json"
+      data-player-catalog-url-template="./data/stations/{slug}.json"
+    >
+      <header class="hero">
+        <p class="eyebrow">Radio Archive</p>
+        <h1>Odtwarzacz archiwum</h1>
+        <p class="hero-copy">
+          Publiczny odtwarzacz godzin archiwum radiowego. Wybierz stację, lokalną datę i
+          godzinę stacji, a potem odtwarzaj zapis z przewijaniem i skrótami
+          <code>0-9</code>, <code>J</code>, <code>K</code>, <code>L</code> oraz <code>M</code>.
+        </p>
+        <p class="table-meta">
+          Odtwarzanie i pobieranie plików odbywa się bezpośrednio z <strong>archive.org</strong>.
+        </p>
+        <p id="player-snapshot-meta" class="table-meta">
+          Ładowanie snapshotu katalogu...
+        </p>
+      </header>
+
+      <section class="summary-grid" aria-labelledby="player-summary-heading">
+        <h2 id="player-summary-heading" class="section-title">Katalog odsłuchu</h2>
+        <div class="stats">
+          <article class="stat-card">
+            <h3>Stacje z archiwum</h3>
+            <p class="stat-value" id="player-station-count">0</p>
+            <p class="stat-meta">widoczne tylko stacje z opublikowanymi godzinami</p>
+          </article>
+          <article class="stat-card">
+            <h3>Nawigacja</h3>
+            <p class="stat-value">rok / miesiąc / dzień / godzina</p>
+            <p class="stat-meta">godzina wybierana w lokalnym czasie stacji</p>
+          </article>
+          <article class="stat-card">
+            <h3>Skróty</h3>
+            <p class="stat-value">0-9</p>
+            <p class="stat-meta">skok do 0-90% aktualnego nagrania</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="player-layout" aria-labelledby="player-controls-heading">
+        <section class="panel-card player-sidebar" aria-labelledby="player-controls-heading">
+          <h2 id="player-controls-heading" class="section-title">Wybór archiwum</h2>
+          <form class="station-form" id="player-form">
+            <div class="field">
+              <label for="player-station">Stacja</label>
+              <select
+                id="player-station"
+                name="station"
+                required
+                data-placeholder="Wybierz stację"
+              >
+                <option value="">Wybierz stację</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="player-year">Rok</label>
+              <select id="player-year" name="year" disabled>
+                <option value="">Wybierz rok</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="player-month">Miesiąc</label>
+              <select id="player-month" name="month" disabled>
+                <option value="">Wybierz miesiąc</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="player-day">Dzień</label>
+              <select id="player-day" name="day" disabled>
+                <option value="">Wybierz dzień</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="player-hour">Godzina</label>
+              <select
+                id="player-hour"
+                name="hour"
+                disabled
+                aria-describedby="player-hour-hint"
+              >
+                <option value="">Wybierz godzinę</option>
+              </select>
+              <p id="player-hour-hint" class="field-hint">
+                Godziny są pokazywane wyłącznie w lokalnym czasie wybranej stacji.
+              </p>
+            </div>
+            <button type="button" class="button button-primary" id="player-load-button" disabled>
+              Załaduj wybraną godzinę
+            </button>
+          </form>
+
+          <div
+            id="player-status"
+            class="flash flash-info player-status"
+            role="status"
+            aria-live="polite"
+            aria-atomic="true"
+          >
+            Wybierz stację, aby załadować katalog godzin.
+          </div>
+
+          <div class="panel-card player-help" aria-labelledby="player-help-heading">
+            <h3 id="player-help-heading" class="section-title">Sterowanie</h3>
+            <ul class="player-shortcut-list">
+              <li><strong>0-9</strong>: skok do 0-90% aktualnego nagrania</li>
+              <li><strong>J / L</strong>: przewinięcie o 10 sekund w tył lub w przód</li>
+              <li><strong>K</strong>: odtwarzanie lub pauza</li>
+              <li><strong>M</strong>: wyciszenie lub przywrócenie dźwięku</li>
+              <li><strong>Przyspieszenie</strong>: do <strong>3x</strong></li>
+              <li><strong>Przewijanie</strong>: suwak czasu lub przyciski -/+ 15 s</li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="panel-card player-main" aria-labelledby="player-now-heading">
+          <h2 id="player-now-heading" class="section-title">Odtwarzanie</h2>
+          <div class="player-meta">
+            <p class="player-title" id="player-title">Nie wybrano godziny</p>
+            <p class="player-subtitle" id="player-subtitle">
+              Po załadowaniu zobaczysz tutaj datę i godzinę w lokalnym czasie stacji.
+            </p>
+          </div>
+
+          <audio
+            id="archive-audio"
+            preload="metadata"
+            class="visually-hidden"
+            aria-hidden="true"
+          ></audio>
+
+          <div class="player-control-bar" aria-label="Sterowanie odtwarzaniem">
+            <button type="button" class="button button-primary player-button" id="player-play-button">
+              Odtwórz
+            </button>
+            <button type="button" class="button button-secondary player-button" id="player-back-button">
+              -15 s
+            </button>
+            <button type="button" class="button button-secondary player-button" id="player-forward-button">
+              +15 s
+            </button>
+            <div class="field player-rate-field">
+              <label for="player-rate">Prędkość</label>
+              <select id="player-rate" name="rate">
+                <option value="1">1x</option>
+                <option value="1.25">1.25x</option>
+                <option value="1.5">1.5x</option>
+                <option value="2">2x</option>
+                <option value="2.5">2.5x</option>
+                <option value="3">3x</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="player-action-row">
+            <a
+              id="player-download-link"
+              class="button button-secondary player-button player-download-link"
+              href="#"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-disabled="true"
+              tabindex="-1"
+            >
+              Pobierz plik z archive.org
+            </a>
+          </div>
+
+          <div class="field player-seek-field">
+            <label for="player-seek">Pozycja odtwarzania</label>
+            <input
+              id="player-seek"
+              type="range"
+              min="0"
+              max="0"
+              step="1"
+              value="0"
+              disabled
+              aria-describedby="player-time-readout"
+            />
+          </div>
+
+          <div class="player-time-row" id="player-time-readout">
+            <span id="player-current-time">00:00</span>
+            <span id="player-duration">00:00</span>
+          </div>
+
+          <div class="player-keyboard-note table-meta">
+            Skróty 0-9 i J/K/L/M działają, gdy fokus nie jest w polu wyboru.
+          </div>
+        </section>
+      </section>
+    </main>
+  </body>
+</html>
