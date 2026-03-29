@@ -491,12 +491,12 @@
       return;
     }
     if (!generatedAt) {
-      snapshotMetaNode.textContent = "Katalog nie ma jeszcze znacznika ostatniej zmiany.";
+      snapshotMetaNode.textContent = "Brak informacji o najnowszej dostępnej godzinie.";
       return;
     }
     const generatedDate = new Date(generatedAt);
     if (Number.isNaN(generatedDate.getTime())) {
-      snapshotMetaNode.textContent = "Nie udało się odczytać czasu ostatniej zmiany katalogu.";
+      snapshotMetaNode.textContent = "Nie udało się odczytać czasu najnowszej dostępnej godziny.";
       return;
     }
     const formatter = new Intl.DateTimeFormat("pl-PL", {
@@ -504,7 +504,7 @@
       timeStyle: "short",
     });
     snapshotMetaNode.textContent =
-      `Ostatnia zmiana katalogu: ${formatter.format(generatedDate)}.`;
+      `Najnowsza dostępna godzina archiwum: ${formatter.format(generatedDate)}.`;
   }
 
   function buildCatalogUrl(slug) {
