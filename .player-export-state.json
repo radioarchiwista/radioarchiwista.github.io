@@ -78,6 +78,7 @@
     "data/stations/radiokatowice/2026/index.json",
     "data/stations/radiokatowice/index.json",
     "data/stations/radiokielce/2026/3/30.json",
+    "data/stations/radiokielce/2026/3/31.json",
     "data/stations/radiokielce/2026/3/index.json",
     "data/stations/radiokielce/2026/index.json",
     "data/stations/radiokielce/index.json",
@@ -228,7 +229,8 @@
       "2026-3-31": "1:2026-03-30T23:28:48.905050+00:00"
     },
     "radiokielce": {
-      "2026-3-30": "8:2026-03-30T23:13:42.215021+00:00"
+      "2026-3-30": "8:2026-03-30T23:13:42.215021+00:00",
+      "2026-3-31": "1:2026-03-30T23:30:42.792030+00:00"
     },
     "radiokoszalin": {
       "2026-3-30": "8:2026-03-30T23:05:47.580963+00:00"
@@ -287,7 +289,7 @@
     },
     "rns": {
       "2026-3-29": "5:2026-03-30T04:31:33.269663+00:00",
-      "2026-3-30": "22:2026-03-30T22:35:17.989820+00:00"
+      "2026-3-30": "21:2026-03-30T22:35:17.989820+00:00"
     },
     "tokfm": {
       "2026-3-29": "5:2026-03-30T04:31:33.298338+00:00",
@@ -405,7 +407,7 @@
       "timezone": "Europe/Warsaw"
     },
     "radiokielce": {
-      "archive_count": 8,
+      "archive_count": 9,
       "display_name": "Radio Kielce",
       "public_name": "Radio Kielce",
       "slug": "radiokielce",
@@ -538,7 +540,7 @@
       "timezone": "Europe/Warsaw"
     },
     "rns": {
-      "archive_count": 27,
+      "archive_count": 26,
       "display_name": "Radio Nowy Świat",
       "public_name": "Radio Nowy Świat",
       "slug": "rns",
