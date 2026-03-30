@@ -1,8 +1,8 @@
 {
-  "archive_count": 311,
+  "archive_count": 312,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-03-30T19:26:33.400238+00:00",
+  "generated_at": "2026-03-30T19:27:51.456207+00:00",
   "latest_archive_hour_expected_station_count": 38,
   "latest_archive_hour_started_at": "2026-03-30T18:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -13,6 +13,7 @@
     "Radio Republika",
     "Radio Afera",
     "Radio Białystok",
+    "Radio Dla Ciebie",
     "Radio Gdańsk",
     "Radio Kielce",
     "Radio Kraków",
@@ -23,7 +24,7 @@
     "Radio Łódź"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-03-30T19:26:33.400238+00:00",
+  "published_at": "2026-03-30T19:27:51.456207+00:00",
   "station_count": 37,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
