@@ -1,8 +1,8 @@
 {
-  "archive_count": 422,
+  "archive_count": 423,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-03-30T21:08:39.927353+00:00",
+  "generated_at": "2026-03-30T21:09:40.104271+00:00",
   "latest_archive_hour_expected_station_count": 38,
   "latest_archive_hour_started_at": "2026-03-30T20:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -10,10 +10,11 @@
     "Radio Nowy Świat",
     "TOK FM",
     "Radio Wnet",
-    "Radio Republika"
+    "Radio Republika",
+    "Radio Afera"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-03-30T21:08:39.927353+00:00",
+  "published_at": "2026-03-30T21:09:40.104271+00:00",
   "station_count": 37,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
