@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Radio Archiwista, odtwarzacz archiwów radiowych</title>
     <link rel="stylesheet" href="./assets/player.css?v=6df95c00ccef" />
-    <script defer src="./assets/player.js?v=b41625ae70db"></script>
+    <script defer src="./assets/player.js?v=dbe66d1bb1e0"></script>
   </head>
   <body>
     <main
@@ -165,7 +165,11 @@
               <div id="player-output-device-group" class="field player-device-field" hidden>
                 <label for="player-output-device">Urządzenie odtwarzające</label>
                 <div class="player-device-controls">
-                  <select id="player-output-device" name="output-device">
+                  <select
+                    id="player-output-device"
+                    name="output-device"
+                    aria-describedby="player-output-device-hint"
+                  >
                     <option value="default">Domyślne urządzenie systemowe</option>
                   </select>
                   <button
@@ -177,6 +181,10 @@
                     Wybierz z przeglądarki
                   </button>
                 </div>
+                <p id="player-output-device-hint" class="field-hint">
+                  W Chrome i Edge pełna lista urządzeń może pojawić się dopiero po kliknięciu
+                  przycisku obok i zatwierdzeniu wyboru w przeglądarce.
+                </p>
               </div>
               <a
                 id="player-download-link"

@@ -926,6 +926,7 @@
       );
       outputDeviceSelect.value = preferredSinkId;
       outputDeviceGroup.hidden = optionsList.length <= 1 && !sinkPromptSupported;
+      updateAudioOutputChooserLabel(optionsList.length);
 
       if (announce && !outputDeviceGroup.hidden) {
         setStatus(`Odświeżono listę urządzeń odtwarzających.`);
@@ -949,6 +950,16 @@
     });
 
     return options;
+  }
+
+  function updateAudioOutputChooserLabel(optionCount) {
+    if (!outputDeviceChooser) {
+      return;
+    }
+    outputDeviceChooser.textContent =
+      optionCount <= 1
+        ? "Pokaż pełną listę urządzeń"
+        : "Wybierz z przeglądarki";
   }
 
   async function applyAudioOutputDevice(nextSinkId, options = {}) {
