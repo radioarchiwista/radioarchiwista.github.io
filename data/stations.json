@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-03-30T19:26:14.797955+00:00",
+  "generated_at": "2026-03-30T19:26:33.400238+00:00",
   "latest_archive_hour_expected_station_count": 38,
   "latest_archive_hour_started_at": "2026-03-30T18:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -11,16 +11,18 @@
     "Radio Wnet",
     "Radio Republika",
     "Radio Afera",
+    "Radio Białystok",
     "Radio Gdańsk",
     "Radio Kielce",
     "Radio Kraków",
     "Radio Lublin",
     "Radio Olsztyn",
     "Radio Opole",
+    "Radio Poznań",
     "Radio Łódź"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-03-30T19:26:14.797955+00:00",
+  "published_at": "2026-03-30T19:26:33.400238+00:00",
   "station_count": 37,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -102,7 +104,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4,
+      "archive_count": 5,
       "display_name": "Radio Białystok",
       "public_name": "Radio Białystok",
       "slug": "radiobialystok",
@@ -221,7 +223,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3,
+      "archive_count": 4,
       "display_name": "Radio Poznań",
       "public_name": "Radio Poznań",
       "slug": "radiopoznan",
