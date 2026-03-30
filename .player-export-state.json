@@ -168,7 +168,7 @@
   ],
   "station_day_fingerprints": {
     "afera": {
-      "2026-3-30": "6:2026-03-30T22:39:57.304338+00:00"
+      "2026-3-30": "7:2026-03-30T23:22:25.983396+00:00"
     },
     "pr1": {
       "2026-3-29": "9:2026-03-30T04:31:32.531257+00:00",
@@ -263,10 +263,10 @@
       "2026-3-30": "8:2026-03-30T23:19:10.468892+00:00"
     },
     "radiozak": {
-      "2026-3-30": "7:2026-03-30T22:11:49.324988+00:00"
+      "2026-3-30": "8:2026-03-30T23:22:34.291140+00:00"
     },
     "radiozielonagora": {
-      "2026-3-30": "7:2026-03-30T21:34:45.288842+00:00"
+      "2026-3-30": "8:2026-03-30T23:22:57.995538+00:00"
     },
     "rdc": {
       "2026-3-30": "10:2026-03-30T22:45:45.377179+00:00"
@@ -285,12 +285,12 @@
     },
     "wnet": {
       "2026-3-29": "5:2026-03-30T04:31:33.286171+00:00",
-      "2026-3-30": "22:2026-03-30T22:36:36.507471+00:00"
+      "2026-3-30": "21:2026-03-30T22:36:36.507471+00:00"
     }
   },
   "station_summaries": {
     "afera": {
-      "archive_count": 6,
+      "archive_count": 7,
       "display_name": "Radio Afera",
       "public_name": "Radio Afera",
       "slug": "afera",
@@ -500,14 +500,14 @@
       "timezone": "Europe/Warsaw"
     },
     "radiozak": {
-      "archive_count": 7,
+      "archive_count": 8,
       "display_name": "Radio Żak",
       "public_name": "Radio Żak",
       "slug": "radiozak",
       "timezone": "Europe/Warsaw"
     },
     "radiozielonagora": {
-      "archive_count": 7,
+      "archive_count": 8,
       "display_name": "Radio Zielona Góra",
       "public_name": "Radio Zielona Góra",
       "slug": "radiozielonagora",
@@ -542,7 +542,7 @@
       "timezone": "Europe/Warsaw"
     },
     "wnet": {
-      "archive_count": 27,
+      "archive_count": 26,
       "display_name": "Radio Wnet",
       "public_name": "Radio Wnet",
       "slug": "wnet",
