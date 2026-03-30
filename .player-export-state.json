@@ -53,10 +53,12 @@
     "data/stations/radiobialystok/2026/index.json",
     "data/stations/radiobialystok/index.json",
     "data/stations/radiocentrumlublin/2026/3/30.json",
+    "data/stations/radiocentrumlublin/2026/3/31.json",
     "data/stations/radiocentrumlublin/2026/3/index.json",
     "data/stations/radiocentrumlublin/2026/index.json",
     "data/stations/radiocentrumlublin/index.json",
     "data/stations/radiocentrumrzeszow/2026/3/30.json",
+    "data/stations/radiocentrumrzeszow/2026/3/31.json",
     "data/stations/radiocentrumrzeszow/2026/3/index.json",
     "data/stations/radiocentrumrzeszow/2026/index.json",
     "data/stations/radiocentrumrzeszow/index.json",
@@ -224,10 +226,12 @@
       "2026-3-31": "1:2026-03-30T23:26:12.013882+00:00"
     },
     "radiocentrumlublin": {
-      "2026-3-30": "8:2026-03-30T23:53:21.495917+00:00"
+      "2026-3-30": "8:2026-03-30T23:53:21.495917+00:00",
+      "2026-3-31": "1:2026-03-30T23:55:33.182451+00:00"
     },
     "radiocentrumrzeszow": {
-      "2026-3-30": "8:2026-03-30T23:49:34.524243+00:00"
+      "2026-3-30": "8:2026-03-30T23:49:34.524243+00:00",
+      "2026-3-31": "1:2026-03-30T23:55:42.396914+00:00"
     },
     "radiogdansk": {
       "2026-3-30": "10:2026-03-30T23:14:03.189562+00:00",
@@ -384,14 +388,14 @@
       "timezone": "Europe/Warsaw"
     },
     "radiocentrumlublin": {
-      "archive_count": 8,
+      "archive_count": 9,
       "display_name": "Radio Centrum Lublin",
       "public_name": "Radio Centrum Lublin",
       "slug": "radiocentrumlublin",
       "timezone": "Europe/Warsaw"
     },
     "radiocentrumrzeszow": {
-      "archive_count": 8,
+      "archive_count": 9,
       "display_name": "Radio Centrum Rzeszów",
       "public_name": "Radio Centrum Rzeszów",
       "slug": "radiocentrumrzeszow",
