@@ -34,6 +34,7 @@
     "data/stations/pr3/index.json",
     "data/stations/radio357/2026/3/29.json",
     "data/stations/radio357/2026/3/30.json",
+    "data/stations/radio357/2026/3/31.json",
     "data/stations/radio357/2026/3/index.json",
     "data/stations/radio357/2026/index.json",
     "data/stations/radio357/index.json",
@@ -193,7 +194,8 @@
     },
     "radio357": {
       "2026-3-29": "5:2026-03-30T04:31:33.217867+00:00",
-      "2026-3-30": "24:2026-03-30T22:34:33.467907+00:00"
+      "2026-3-30": "24:2026-03-30T22:34:33.467907+00:00",
+      "2026-3-31": "1:2026-03-30T23:29:48.702138+00:00"
     },
     "radioakadera": {
       "2026-3-30": "8:2026-03-30T23:06:20.117719+00:00"
@@ -333,7 +335,7 @@
       "timezone": "Europe/Warsaw"
     },
     "radio357": {
-      "archive_count": 29,
+      "archive_count": 30,
       "display_name": "Radio 357",
       "public_name": "Radio 357",
       "slug": "radio357",
