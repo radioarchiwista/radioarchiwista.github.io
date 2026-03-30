@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-03-30T19:42:25.125247+00:00",
+  "generated_at": "2026-03-30T19:43:33.817133+00:00",
   "latest_archive_hour_expected_station_count": 38,
   "latest_archive_hour_started_at": "2026-03-30T18:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -12,8 +12,10 @@
     "Radio Republika",
     "Radio Afera",
     "Radio Białystok",
+    "Radio Centrum Lublin",
     "Radio Dla Ciebie",
     "Radio Gdańsk",
+    "Radio Gorzów",
     "Radio Katowice",
     "Radio Kielce",
     "Radio Koszalin",
@@ -28,10 +30,11 @@
     "Radio Słupsk",
     "Radio Wrocław",
     "Radio Zachód",
+    "Radio Zielona Góra",
     "Radio Łódź"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-03-30T19:42:25.125247+00:00",
+  "published_at": "2026-03-30T19:43:33.817133+00:00",
   "station_count": 37,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -120,7 +123,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3,
+      "archive_count": 4,
       "display_name": "Radio Centrum Lublin",
       "public_name": "Radio Centrum Lublin",
       "slug": "radiocentrumlublin",
@@ -148,7 +151,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3,
+      "archive_count": 4,
       "display_name": "Radio Gorzów",
       "public_name": "Radio Gorzów",
       "slug": "radiogorzow",
@@ -274,7 +277,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3,
+      "archive_count": 4,
       "display_name": "Radio Zielona Góra",
       "public_name": "Radio Zielona Góra",
       "slug": "radiozielonagora",
