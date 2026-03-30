@@ -1038,20 +1038,11 @@
         : "Odświeżam listę urządzeń odtwarzających dla tej strony...",
     );
     try {
-      await requestAudioDeviceAccessIfNeeded();
       if (sinkPromptSupported) {
-        const permissionState = await querySpeakerSelectionPermission();
-        if (permissionState === "denied") {
-          setOutputDeviceStatus(
-            "Przeglądarka zablokowała uprawnienie wyboru urządzenia odtwarzającego dla tej strony.",
-          );
-          setStatus(
-            "Przeglądarka blokuje wybór urządzeń audio dla tej strony. Sprawdź uprawnienie wyboru głośnika i spróbuj ponownie.",
-          );
-          return;
-        }
+        // Keep transient user activation intact for browsers that require it.
         const device = await navigator.mediaDevices.selectAudioOutput();
         const selectedSinkId = normalizeSinkId(device?.deviceId);
+        await requestAudioDeviceAccessIfNeeded({ force: false });
         await refreshAudioOutputDevices();
         const switched = await applyAudioOutputDevice(selectedSinkId);
         if (!switched) {
@@ -1062,6 +1053,7 @@
         return;
       }
 
+      await requestAudioDeviceAccessIfNeeded({ force: true });
       await refreshAudioOutputDevices({ announce: true });
       if (outputDeviceSelect.options.length > 1) {
         setOutputDeviceStatus(
@@ -1079,9 +1071,7 @@
         return;
       }
       if (error?.name === "NotAllowedError") {
-        setOutputDeviceStatus(
-          "Przeglądarka nie otworzyła listy urządzeń lub zablokowała to uprawnienie.",
-        );
+        void explainAudioOutputPermissionState();
         setStatus(
           "Przeglądarka nie pokazała wyboru urządzeń albo zablokowała to uprawnienie. W Chrome sprawdź ustawienia witryny i spróbuj ponownie.",
         );
@@ -1096,11 +1086,12 @@
     }
   }
 
-  async function requestAudioDeviceAccessIfNeeded() {
+  async function requestAudioDeviceAccessIfNeeded(options = {}) {
+    const { force = false } = options;
     if (!mediaPermissionSupported || !outputDeviceSelect) {
       return;
     }
-    if (outputDeviceSelect.options.length > 1) {
+    if (!force && outputDeviceSelect.options.length > 1) {
       return;
     }
     let stream = null;
@@ -1119,7 +1110,31 @@
     }
   }
 
+  async function explainAudioOutputPermissionState() {
+    const speakerPermission = await querySpeakerSelectionPermission();
+    const microphonePermission = await queryMediaPermission("microphone");
+    if (speakerPermission === "denied") {
+      setOutputDeviceStatus(
+        "Przeglądarka zablokowała uprawnienie wyboru urządzenia odtwarzającego dla tej strony.",
+      );
+      return;
+    }
+    if (microphonePermission === "denied") {
+      setOutputDeviceStatus(
+        "Przeglądarka zablokowała uprawnienie audio dla tej strony, więc pełna lista urządzeń może być ukryta.",
+      );
+      return;
+    }
+    setOutputDeviceStatus(
+      "Przeglądarka nie otworzyła listy urządzeń lub ogranicza ją dla tej strony w tym kontekście.",
+    );
+  }
+
   async function querySpeakerSelectionPermission() {
+    return queryMediaPermission("speaker-selection");
+  }
+
+  async function queryMediaPermission(name) {
     if (
       typeof navigator === "undefined" ||
       !navigator.permissions ||
@@ -1128,7 +1143,7 @@
       return null;
     }
     try {
-      const status = await navigator.permissions.query({ name: "speaker-selection" });
+      const status = await navigator.permissions.query({ name });
       return typeof status?.state === "string" ? status.state : null;
     } catch (_error) {
       return null;
