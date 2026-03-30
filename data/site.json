@@ -1,8 +1,8 @@
 {
-  "archive_count": 457,
+  "archive_count": 458,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-03-30T22:38:46.362318+00:00",
+  "generated_at": "2026-03-30T22:39:48.394103+00:00",
   "latest_archive_hour_expected_station_count": 38,
   "latest_archive_hour_started_at": "2026-03-30T21:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -13,7 +13,7 @@
     "Radio Republika"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-03-30T22:38:46.362318+00:00",
+  "published_at": "2026-03-30T22:39:48.394103+00:00",
   "station_count": 37,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
