@@ -20,11 +20,13 @@
     "data/stations/pr1/index.json",
     "data/stations/pr2/2026/3/29.json",
     "data/stations/pr2/2026/3/30.json",
+    "data/stations/pr2/2026/3/31.json",
     "data/stations/pr2/2026/3/index.json",
     "data/stations/pr2/2026/index.json",
     "data/stations/pr2/index.json",
     "data/stations/pr24/2026/3/29.json",
     "data/stations/pr24/2026/3/30.json",
+    "data/stations/pr24/2026/3/31.json",
     "data/stations/pr24/2026/3/index.json",
     "data/stations/pr24/2026/index.json",
     "data/stations/pr24/index.json",
@@ -193,11 +195,13 @@
     },
     "pr2": {
       "2026-3-29": "6:2026-03-30T04:31:32.766985+00:00",
-      "2026-3-30": "24:2026-03-30T23:17:02.605625+00:00"
+      "2026-3-30": "24:2026-03-30T23:17:02.605625+00:00",
+      "2026-3-31": "1:2026-03-30T23:53:29.955084+00:00"
     },
     "pr24": {
       "2026-3-29": "6:2026-03-30T04:31:33.082386+00:00",
-      "2026-3-30": "24:2026-03-30T23:17:03.011274+00:00"
+      "2026-3-30": "24:2026-03-30T23:17:03.011274+00:00",
+      "2026-3-31": "1:2026-03-30T23:53:39.962858+00:00"
     },
     "pr3": {
       "2026-3-29": "6:2026-03-30T04:31:32.951356+00:00",
@@ -216,7 +220,7 @@
       "2026-3-31": "1:2026-03-30T23:26:12.013882+00:00"
     },
     "radiocentrumlublin": {
-      "2026-3-30": "7:2026-03-30T23:06:29.293426+00:00"
+      "2026-3-30": "8:2026-03-30T23:53:21.495917+00:00"
     },
     "radiocentrumrzeszow": {
       "2026-3-30": "8:2026-03-30T23:49:34.524243+00:00"
@@ -259,7 +263,7 @@
       "2026-3-31": "1:2026-03-30T23:39:16.398188+00:00"
     },
     "radioluz": {
-      "2026-3-30": "7:2026-03-30T23:10:52.669485+00:00"
+      "2026-3-30": "8:2026-03-30T23:53:03.049929+00:00"
     },
     "radioolsztyn": {
       "2026-3-30": "8:2026-03-30T22:55:04.490657+00:00",
@@ -287,7 +291,7 @@
       "2026-3-30": "8:2026-03-30T23:15:21.745370+00:00"
     },
     "radiowroclaw": {
-      "2026-3-30": "7:2026-03-30T23:18:43.870501+00:00"
+      "2026-3-30": "8:2026-03-30T23:53:12.123068+00:00"
     },
     "radiozachod": {
       "2026-3-30": "8:2026-03-30T23:19:10.468892+00:00"
@@ -334,14 +338,14 @@
       "timezone": "Europe/Warsaw"
     },
     "pr2": {
-      "archive_count": 30,
+      "archive_count": 31,
       "display_name": "Program 2",
       "public_name": "Polskie Radio Program 2",
       "slug": "pr2",
       "timezone": "Europe/Warsaw"
     },
     "pr24": {
-      "archive_count": 30,
+      "archive_count": 31,
       "display_name": "Polskie Radio 24",
       "public_name": "Polskie Radio 24",
       "slug": "pr24",
@@ -376,7 +380,7 @@
       "timezone": "Europe/Warsaw"
     },
     "radiocentrumlublin": {
-      "archive_count": 7,
+      "archive_count": 8,
       "display_name": "Radio Centrum Lublin",
       "public_name": "Radio Centrum Lublin",
       "slug": "radiocentrumlublin",
@@ -460,7 +464,7 @@
       "timezone": "Europe/Warsaw"
     },
     "radioluz": {
-      "archive_count": 7,
+      "archive_count": 8,
       "display_name": "Radio Luz",
       "public_name": "Radio Luz",
       "slug": "radioluz",
@@ -516,7 +520,7 @@
       "timezone": "Europe/Warsaw"
     },
     "radiowroclaw": {
-      "archive_count": 7,
+      "archive_count": 8,
       "display_name": "Radio Wrocław",
       "public_name": "Radio Wrocław",
       "slug": "radiowroclaw",

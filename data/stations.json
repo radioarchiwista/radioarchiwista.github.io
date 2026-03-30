@@ -1,11 +1,13 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-03-30T23:49:01.754979+00:00",
+  "generated_at": "2026-03-30T23:53:42.466839+00:00",
   "latest_archive_hour_expected_station_count": 38,
   "latest_archive_hour_started_at": "2026-03-30T22:00:00+00:00",
   "latest_archive_hour_stations": [
     "Program 1",
+    "Program 2",
+    "Polskie Radio 24",
     "Radio 357",
     "Radio Afera",
     "Radio Białystok",
@@ -22,7 +24,7 @@
     "Radio Łódź"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-03-30T23:49:01.754979+00:00",
+  "published_at": "2026-03-30T23:53:42.466839+00:00",
   "station_count": 37,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -34,7 +36,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 30,
+      "archive_count": 31,
       "display_name": "Program 2",
       "public_name": "Polskie Radio Program 2",
       "slug": "pr2",
@@ -48,7 +50,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 30,
+      "archive_count": 31,
       "display_name": "Polskie Radio 24",
       "public_name": "Polskie Radio 24",
       "slug": "pr24",
@@ -111,7 +113,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 7,
+      "archive_count": 8,
       "display_name": "Radio Centrum Lublin",
       "public_name": "Radio Centrum Lublin",
       "slug": "radiocentrumlublin",
@@ -195,7 +197,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 7,
+      "archive_count": 8,
       "display_name": "Radio Luz",
       "public_name": "Radio Luz",
       "slug": "radioluz",
@@ -251,7 +253,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 7,
+      "archive_count": 8,
       "display_name": "Radio Wrocław",
       "public_name": "Radio Wrocław",
       "slug": "radiowroclaw",
