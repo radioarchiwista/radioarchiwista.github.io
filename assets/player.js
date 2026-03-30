@@ -703,7 +703,11 @@
     stationCountNode.textContent = String(Math.max(0, count));
   }
 
-  function updateSnapshotMeta(publishedAt, latestArchiveHourStartedAt) {
+  function updateSnapshotMeta(
+    publishedAt,
+    latestArchiveHourStartedAt,
+    latestArchiveHourStations = [],
+  ) {
     if (!snapshotMetaNode) {
       return;
     }
@@ -723,6 +727,9 @@
       if (!Number.isNaN(latestArchiveDate.getTime())) {
         parts.push(`Najnowsza godzina w katalogu: ${formatter.format(latestArchiveDate)}.`);
       }
+    }
+    if (Array.isArray(latestArchiveHourStations) && latestArchiveHourStations.length > 0) {
+      parts.push(`Mają ją już: ${latestArchiveHourStations.join(", ")}.`);
     }
     if (parts.length === 0) {
       snapshotMetaNode.textContent = "Brak informacji o ostatniej publikacji archiwum.";
@@ -818,6 +825,30 @@
 
   function formatDateLabel(archive) {
     return `${String(archive.day).padStart(2, "0")}.${String(archive.month).padStart(2, "0")}.${archive.year}`;
+  }
+
+  function getCurrentStationDateParts() {
+    const timezone = stationCatalog?.station?.timezone || "UTC";
+    const formatter = new Intl.DateTimeFormat("en-CA", {
+      timeZone: timezone,
+      year: "numeric",
+      month: "numeric",
+      day: "numeric",
+    });
+    const parts = formatter.formatToParts(new Date());
+    return {
+      year: Number(parts.find((part) => part.type === "year")?.value || 0),
+      month: Number(parts.find((part) => part.type === "month")?.value || 0),
+      day: Number(parts.find((part) => part.type === "day")?.value || 0),
+    };
+  }
+
+  function setSelectToCurrentDatePart(select, value) {
+    const nextValue = String(value);
+    const exists = Array.from(select.options).some((option) => option.value === nextValue);
+    if (exists) {
+      select.value = nextValue;
+    }
   }
 
   async function togglePlayback() {
