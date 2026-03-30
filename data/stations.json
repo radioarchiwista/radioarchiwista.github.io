@@ -1,11 +1,11 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-03-30T15:25:14.576086+00:00",
+  "generated_at": "2026-03-30T15:30:20.551664+00:00",
   "latest_archive_hour_started_at": "2026-03-30T14:00:00+00:00",
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-03-30T15:25:14.576086+00:00",
-  "station_count": 28,
+  "published_at": "2026-03-30T15:30:20.551664+00:00",
+  "station_count": 30,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
     {
@@ -86,6 +86,13 @@
       "timezone": "Europe/Warsaw"
     },
     {
+      "archive_count": 1,
+      "display_name": "Radio Centrum Lublin",
+      "public_name": "Radio Centrum Lublin",
+      "slug": "radiocentrumlublin",
+      "timezone": "Europe/Warsaw"
+    },
+    {
       "archive_count": 2,
       "display_name": "Radio Dla Ciebie",
       "public_name": "Radio Dla Ciebie",
@@ -97,6 +104,13 @@
       "display_name": "Radio Gdańsk",
       "public_name": "Radio Gdańsk",
       "slug": "radiogdansk",
+      "timezone": "Europe/Warsaw"
+    },
+    {
+      "archive_count": 1,
+      "display_name": "Radio Gorzów",
+      "public_name": "Radio Gorzów",
+      "slug": "radiogorzow",
       "timezone": "Europe/Warsaw"
     },
     {

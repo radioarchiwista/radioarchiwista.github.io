@@ -96,6 +96,7 @@
     typeof navigator !== "undefined" &&
     Boolean(navigator.mediaDevices) &&
     typeof navigator.mediaDevices.getUserMedia === "function";
+  const outputDeviceRefreshSupported = sinkSelectionSupported || mediaPermissionSupported;
 
   stationSelect.addEventListener("change", async () => {
     resetArchiveSelection();
@@ -898,7 +899,7 @@
       return;
     }
     if (outputDeviceChooser) {
-      outputDeviceChooser.hidden = !sinkPromptSupported;
+      outputDeviceChooser.hidden = !outputDeviceRefreshSupported;
     }
     await refreshAudioOutputDevices({ announce: false });
     const storedSinkId = getStoredSinkId();
@@ -908,7 +909,7 @@
     setOutputDeviceStatus(
       sinkSelectionSupported
         ? "Wspierane przeglądarki pozwalają wybrać wyjście audio bez zatrzymywania odtwarzania."
-        : "Ta przeglądarka nie udostępnia stronie wyboru urządzenia odtwarzającego.",
+        : "Ta przeglądarka nie udostępnia stronie zmiany urządzenia odtwarzającego.",
     );
   }
 
@@ -935,7 +936,7 @@
         { autoSelectFirst: false },
       );
       outputDeviceSelect.value = preferredSinkId;
-      outputDeviceGroup.hidden = optionsList.length <= 1 && !sinkPromptSupported;
+      outputDeviceGroup.hidden = optionsList.length <= 1 && !outputDeviceRefreshSupported;
       updateAudioOutputChooserLabel(optionsList.length);
 
       if (announce && !outputDeviceGroup.hidden) {
@@ -968,7 +969,7 @@
       return;
     }
     outputDeviceChooser.textContent =
-      optionCount <= 1
+      !sinkPromptSupported || optionCount <= 1
         ? "Pokaż pełną listę urządzeń"
         : "Wybierz z przeglądarki";
   }
@@ -1018,35 +1019,57 @@
   }
 
   async function promptForAudioOutputDevice() {
-    if (!sinkPromptSupported) {
+    if (!outputDeviceRefreshSupported) {
       setOutputDeviceStatus(
-        "Ta przeglądarka nie wspiera systemowego wyboru urządzenia odtwarzającego z poziomu strony.",
+        "Ta przeglądarka nie udostępnia stronie zmiany urządzenia odtwarzającego.",
       );
-      setStatus("Ta przeglądarka nie wspiera wyboru urządzenia odtwarzającego z poziomu strony.");
+      setStatus("Ta przeglądarka nie udostępnia stronie zmiany urządzenia odtwarzającego.");
       return;
     }
     outputDeviceChooser?.setAttribute("aria-busy", "true");
-    setOutputDeviceStatus("Próbuję otworzyć wybór urządzenia odtwarzającego...");
-    setStatus("Proszę przeglądarkę o pokazanie listy urządzeń odtwarzających...");
+    setOutputDeviceStatus(
+      sinkPromptSupported
+        ? "Próbuję otworzyć wybór urządzenia odtwarzającego..."
+        : "Próbuję odświeżyć pełną listę urządzeń odtwarzających...",
+    );
+    setStatus(
+      sinkPromptSupported
+        ? "Proszę przeglądarkę o pokazanie listy urządzeń odtwarzających..."
+        : "Odświeżam listę urządzeń odtwarzających dla tej strony...",
+    );
     try {
-      const permissionState = await querySpeakerSelectionPermission();
-      if (permissionState === "denied") {
-        setOutputDeviceStatus(
-          "Przeglądarka zablokowała uprawnienie wyboru urządzenia odtwarzającego dla tej strony.",
-        );
-        setStatus(
-          "Przeglądarka blokuje wybór urządzeń audio dla tej strony. Sprawdź uprawnienie wyboru głośnika i spróbuj ponownie.",
-        );
+      await requestAudioDeviceAccessIfNeeded();
+      if (sinkPromptSupported) {
+        const permissionState = await querySpeakerSelectionPermission();
+        if (permissionState === "denied") {
+          setOutputDeviceStatus(
+            "Przeglądarka zablokowała uprawnienie wyboru urządzenia odtwarzającego dla tej strony.",
+          );
+          setStatus(
+            "Przeglądarka blokuje wybór urządzeń audio dla tej strony. Sprawdź uprawnienie wyboru głośnika i spróbuj ponownie.",
+          );
+          return;
+        }
+        const device = await navigator.mediaDevices.selectAudioOutput();
+        const selectedSinkId = normalizeSinkId(device?.deviceId);
+        await refreshAudioOutputDevices();
+        const switched = await applyAudioOutputDevice(selectedSinkId);
+        if (!switched) {
+          setOutputDeviceStatus(
+            "Przeglądarka pokazała wybór urządzeń, ale nie udało się przełączyć wyjścia audio.",
+          );
+        }
         return;
       }
-      await requestAudioDeviceAccessIfNeeded();
-      const device = await navigator.mediaDevices.selectAudioOutput();
-      const selectedSinkId = normalizeSinkId(device?.deviceId);
-      await refreshAudioOutputDevices();
-      const switched = await applyAudioOutputDevice(selectedSinkId);
-      if (!switched) {
+
+      await refreshAudioOutputDevices({ announce: true });
+      if (outputDeviceSelect.options.length > 1) {
         setOutputDeviceStatus(
-          "Przeglądarka pokazała wybór urządzeń, ale nie udało się przełączyć wyjścia audio.",
+          "Lista urządzeń została odświeżona. Możesz teraz wybrać konkretne wyjście z rozwijanej listy.",
+        );
+      } else {
+        setOutputDeviceStatus(
+          "Przeglądarka nadal udostępnia tylko urządzenie domyślne. To zwykle ograniczenie uprawnień albo platformy.",
         );
       }
     } catch (error) {

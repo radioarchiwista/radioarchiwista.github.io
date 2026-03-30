@@ -40,10 +40,18 @@
     "data/stations/radiobialystok/2026/3/index.json",
     "data/stations/radiobialystok/2026/index.json",
     "data/stations/radiobialystok/index.json",
+    "data/stations/radiocentrumlublin/2026/3/30.json",
+    "data/stations/radiocentrumlublin/2026/3/index.json",
+    "data/stations/radiocentrumlublin/2026/index.json",
+    "data/stations/radiocentrumlublin/index.json",
     "data/stations/radiogdansk/2026/3/30.json",
     "data/stations/radiogdansk/2026/3/index.json",
     "data/stations/radiogdansk/2026/index.json",
     "data/stations/radiogdansk/index.json",
+    "data/stations/radiogorzow/2026/3/30.json",
+    "data/stations/radiogorzow/2026/3/index.json",
+    "data/stations/radiogorzow/2026/index.json",
+    "data/stations/radiogorzow/index.json",
     "data/stations/radiokatowice/2026/3/30.json",
     "data/stations/radiokatowice/2026/3/index.json",
     "data/stations/radiokatowice/2026/index.json",
@@ -157,8 +165,14 @@
     "radiobialystok": {
       "2026-3-30": "2:2026-03-30T15:12:08.878969+00:00"
     },
+    "radiocentrumlublin": {
+      "2026-3-30": "1:2026-03-30T15:30:17.493862+00:00"
+    },
     "radiogdansk": {
       "2026-3-30": "2:2026-03-30T15:13:01.897770+00:00"
+    },
+    "radiogorzow": {
+      "2026-3-30": "1:2026-03-30T15:28:26.307450+00:00"
     },
     "radiokatowice": {
       "2026-3-30": "2:2026-03-30T15:12:59.728821+00:00"
@@ -275,11 +289,25 @@
       "slug": "radiobialystok",
       "timezone": "Europe/Warsaw"
     },
+    "radiocentrumlublin": {
+      "archive_count": 1,
+      "display_name": "Radio Centrum Lublin",
+      "public_name": "Radio Centrum Lublin",
+      "slug": "radiocentrumlublin",
+      "timezone": "Europe/Warsaw"
+    },
     "radiogdansk": {
       "archive_count": 2,
       "display_name": "Radio Gdańsk",
       "public_name": "Radio Gdańsk",
       "slug": "radiogdansk",
+      "timezone": "Europe/Warsaw"
+    },
+    "radiogorzow": {
+      "archive_count": 1,
+      "display_name": "Radio Gorzów",
+      "public_name": "Radio Gorzów",
+      "slug": "radiogorzow",
       "timezone": "Europe/Warsaw"
     },
     "radiokatowice": {
