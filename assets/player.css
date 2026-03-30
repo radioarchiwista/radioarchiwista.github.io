@@ -705,6 +705,10 @@ textarea {
   flex: 0 0 auto;
 }
 
+.player-device-current {
+  margin-top: 0.5rem;
+}
+
 .player-device-status {
   margin-top: 0.35rem;
 }

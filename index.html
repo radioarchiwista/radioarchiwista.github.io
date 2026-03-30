@@ -4,8 +4,8 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Radio Archiwista, odtwarzacz archiwów radiowych</title>
-    <link rel="stylesheet" href="./assets/player.css?v=6497e42e6b54" />
-    <script defer src="./assets/player.js?v=d1ea9bcbbc2f"></script>
+    <link rel="stylesheet" href="./assets/player.css?v=9fdc96ac1428" />
+    <script defer src="./assets/player.js?v=94be84629b68"></script>
   </head>
   <body>
     <main
@@ -180,10 +180,22 @@
                   >
                     Wybierz z przeglądarki
                   </button>
+                  <button
+                    type="button"
+                    class="button button-secondary player-button player-device-button"
+                    id="player-output-device-reset"
+                    hidden
+                  >
+                    Użyj domyślnego
+                  </button>
                 </div>
                 <p id="player-output-device-hint" class="field-hint">
                   W Chrome i Edge pełna lista urządzeń może pojawić się dopiero po kliknięciu
                   przycisku obok i zatwierdzeniu wyboru w przeglądarce.
+                </p>
+                <p class="field-hint player-device-current">
+                  Aktualne wyjście:
+                  <strong id="player-output-device-current">Domyślne urządzenie systemowe</strong>
                 </p>
                 <p
                   id="player-output-device-status"

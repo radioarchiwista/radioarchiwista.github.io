@@ -21,6 +21,8 @@
   const outputDeviceGroup = document.getElementById("player-output-device-group");
   const outputDeviceSelect = document.getElementById("player-output-device");
   const outputDeviceChooser = document.getElementById("player-output-device-chooser");
+  const outputDeviceReset = document.getElementById("player-output-device-reset");
+  const outputDeviceCurrentNode = document.getElementById("player-output-device-current");
   const outputDeviceStatusNode = document.getElementById("player-output-device-status");
   const stationCountNode = document.getElementById("player-station-count");
   const snapshotMetaNode = document.getElementById("player-snapshot-meta");
@@ -150,6 +152,14 @@
 
   outputDeviceChooser?.addEventListener("click", async () => {
     await promptForAudioOutputDevice();
+  });
+
+  outputDeviceReset?.addEventListener("click", async () => {
+    if (!outputDeviceSelect) {
+      return;
+    }
+    outputDeviceSelect.value = "default";
+    await applyAudioOutputDevice("default");
   });
 
   playButton.addEventListener("click", async () => {
@@ -938,6 +948,10 @@
       outputDeviceSelect.value = preferredSinkId;
       outputDeviceGroup.hidden = optionsList.length <= 1 && !outputDeviceRefreshSupported;
       updateAudioOutputChooserLabel(optionsList.length);
+      updateCurrentAudioOutputLabel();
+      if (outputDeviceReset) {
+        outputDeviceReset.hidden = outputDeviceSelect.value === "default";
+      }
 
       if (announce && !outputDeviceGroup.hidden) {
         setOutputDeviceStatus("Lista urządzeń odtwarzających została odświeżona.");
@@ -969,9 +983,11 @@
       return;
     }
     outputDeviceChooser.textContent =
-      !sinkPromptSupported || optionCount <= 1
-        ? "Pokaż pełną listę urządzeń"
-        : "Wybierz z przeglądarki";
+      sinkPromptSupported
+        ? optionCount <= 1
+          ? "Otwórz wybór urządzenia"
+          : "Zmień w przeglądarce"
+        : "Odśwież listę urządzeń";
   }
 
   async function applyAudioOutputDevice(nextSinkId, options = {}) {
@@ -993,6 +1009,10 @@
       await audio.setSinkId(normalizedSinkId);
       storeSinkId(normalizedSinkId);
       outputDeviceSelect.value = normalizedSinkId;
+      updateCurrentAudioOutputLabel();
+      if (outputDeviceReset) {
+        outputDeviceReset.hidden = normalizedSinkId === "default";
+      }
       if (wasPlaying && audio.paused) {
         await audio.play();
       }
@@ -1008,6 +1028,10 @@
       return true;
     } catch (error) {
       outputDeviceSelect.value = previousSinkId;
+      updateCurrentAudioOutputLabel();
+      if (outputDeviceReset) {
+        outputDeviceReset.hidden = previousSinkId === "default";
+      }
       if (announce) {
         setOutputDeviceStatus(
           `Nie udało się przełączyć wyjścia audio: ${formatErrorMessage(error)}.`,
@@ -1179,6 +1203,15 @@
       return;
     }
     outputDeviceStatusNode.textContent = message;
+  }
+
+  function updateCurrentAudioOutputLabel() {
+    if (!outputDeviceCurrentNode || !outputDeviceSelect) {
+      return;
+    }
+    const selectedOption = outputDeviceSelect.selectedOptions[0];
+    outputDeviceCurrentNode.textContent =
+      selectedOption?.textContent || "Domyślne urządzenie systemowe";
   }
 
   function formatErrorMessage(error) {
