@@ -60,6 +60,10 @@
     "data/stations/radiogorzow/2026/3/index.json",
     "data/stations/radiogorzow/2026/index.json",
     "data/stations/radiogorzow/index.json",
+    "data/stations/radioindex/2026/3/30.json",
+    "data/stations/radioindex/2026/3/index.json",
+    "data/stations/radioindex/2026/index.json",
+    "data/stations/radioindex/index.json",
     "data/stations/radiokampus/2026/3/30.json",
     "data/stations/radiokampus/2026/3/index.json",
     "data/stations/radiokampus/2026/index.json",
@@ -124,6 +128,10 @@
     "data/stations/radiozachod/2026/3/index.json",
     "data/stations/radiozachod/2026/index.json",
     "data/stations/radiozachod/index.json",
+    "data/stations/radiozak/2026/3/30.json",
+    "data/stations/radiozak/2026/3/index.json",
+    "data/stations/radiozak/2026/index.json",
+    "data/stations/radiozak/index.json",
     "data/stations/radiozielonagora/2026/3/30.json",
     "data/stations/radiozielonagora/2026/3/index.json",
     "data/stations/radiozielonagora/2026/index.json",
@@ -160,19 +168,19 @@
     },
     "pr1": {
       "2026-3-29": "9:2026-03-30T04:31:32.531257+00:00",
-      "2026-3-30": "16:2026-03-30T15:31:49.261577+00:00"
+      "2026-3-30": "17:2026-03-30T15:40:31.637837+00:00"
     },
     "pr2": {
       "2026-3-29": "6:2026-03-30T04:31:32.766985+00:00",
-      "2026-3-30": "16:2026-03-30T15:31:49.565601+00:00"
+      "2026-3-30": "17:2026-03-30T15:40:36.886644+00:00"
     },
     "pr24": {
       "2026-3-29": "6:2026-03-30T04:31:33.082386+00:00",
-      "2026-3-30": "16:2026-03-30T15:31:50.013321+00:00"
+      "2026-3-30": "17:2026-03-30T15:40:41.440636+00:00"
     },
     "pr3": {
       "2026-3-29": "6:2026-03-30T04:31:32.951356+00:00",
-      "2026-3-30": "16:2026-03-30T15:31:49.802854+00:00"
+      "2026-3-30": "17:2026-03-30T15:40:39.003716+00:00"
     },
     "radio357": {
       "2026-3-29": "5:2026-03-30T04:31:33.217867+00:00",
@@ -195,6 +203,9 @@
     },
     "radiogorzow": {
       "2026-3-30": "1:2026-03-30T15:28:26.307450+00:00"
+    },
+    "radioindex": {
+      "2026-3-30": "1:2026-03-30T15:40:28.538721+00:00"
     },
     "radiokampus": {
       "2026-3-30": "1:2026-03-30T15:32:29.440425+00:00"
@@ -244,6 +255,9 @@
     "radiozachod": {
       "2026-3-30": "1:2026-03-30T15:25:10.299135+00:00"
     },
+    "radiozak": {
+      "2026-3-30": "1:2026-03-30T15:40:26.390818+00:00"
+    },
     "radiozielonagora": {
       "2026-3-30": "1:2026-03-30T15:25:12.802580+00:00"
     },
@@ -276,28 +290,28 @@
       "timezone": "Europe/Warsaw"
     },
     "pr1": {
-      "archive_count": 25,
+      "archive_count": 26,
       "display_name": "Program 1",
       "public_name": "Polskie Radio Program 1",
       "slug": "pr1",
       "timezone": "Europe/Warsaw"
     },
     "pr2": {
-      "archive_count": 22,
+      "archive_count": 23,
       "display_name": "Program 2",
       "public_name": "Polskie Radio Program 2",
       "slug": "pr2",
       "timezone": "Europe/Warsaw"
     },
     "pr24": {
-      "archive_count": 22,
+      "archive_count": 23,
       "display_name": "Polskie Radio 24",
       "public_name": "Polskie Radio 24",
       "slug": "pr24",
       "timezone": "Europe/Warsaw"
     },
     "pr3": {
-      "archive_count": 22,
+      "archive_count": 23,
       "display_name": "Program 3",
       "public_name": "Polskie Radio Program 3",
       "slug": "pr3",
@@ -350,6 +364,13 @@
       "display_name": "Radio Gorzów",
       "public_name": "Radio Gorzów",
       "slug": "radiogorzow",
+      "timezone": "Europe/Warsaw"
+    },
+    "radioindex": {
+      "archive_count": 1,
+      "display_name": "Radio Index",
+      "public_name": "Radio Index",
+      "slug": "radioindex",
       "timezone": "Europe/Warsaw"
     },
     "radiokampus": {
@@ -462,6 +483,13 @@
       "display_name": "Radio Zachód",
       "public_name": "Radio Zachód",
       "slug": "radiozachod",
+      "timezone": "Europe/Warsaw"
+    },
+    "radiozak": {
+      "archive_count": 1,
+      "display_name": "Radio Żak",
+      "public_name": "Radio Żak",
+      "slug": "radiozak",
       "timezone": "Europe/Warsaw"
     },
     "radiozielonagora": {
