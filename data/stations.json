@@ -1,10 +1,10 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-03-30T16:04:04.374478+00:00",
+  "generated_at": "2026-03-30T16:09:50.065959+00:00",
   "latest_archive_hour_started_at": "2026-03-30T15:00:00+00:00",
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-03-30T16:04:04.374478+00:00",
+  "published_at": "2026-03-30T16:09:50.065959+00:00",
   "station_count": 36,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -30,21 +30,21 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 23,
+      "archive_count": 24,
       "display_name": "Polskie Radio 24",
       "public_name": "Polskie Radio 24",
       "slug": "pr24",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 21,
+      "archive_count": 22,
       "display_name": "Radio 357",
       "public_name": "Radio 357",
       "slug": "radio357",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 20,
+      "archive_count": 21,
       "display_name": "Radio Nowy Świat",
       "public_name": "Radio Nowy Świat",
       "slug": "rns",
@@ -58,7 +58,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 21,
+      "archive_count": 22,
       "display_name": "Radio Wnet",
       "public_name": "Radio Wnet",
       "slug": "wnet",
