@@ -1,10 +1,11 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-03-30T21:44:41.898176+00:00",
+  "generated_at": "2026-03-30T21:47:16.602382+00:00",
   "latest_archive_hour_expected_station_count": 38,
   "latest_archive_hour_started_at": "2026-03-30T20:00:00+00:00",
   "latest_archive_hour_stations": [
+    "Program 1",
     "Radio 357",
     "Radio Nowy Świat",
     "TOK FM",
@@ -18,6 +19,7 @@
     "Radio Dla Ciebie",
     "Radio Gdańsk",
     "Radio Gorzów",
+    "Radio Index",
     "Radio Kampus",
     "Radio Katowice",
     "Radio Kielce",
@@ -39,12 +41,12 @@
     "Radio Żak"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-03-30T21:44:41.898176+00:00",
+  "published_at": "2026-03-30T21:47:16.602382+00:00",
   "station_count": 37,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
     {
-      "archive_count": 31,
+      "archive_count": 32,
       "display_name": "Program 1",
       "public_name": "Polskie Radio Program 1",
       "slug": "pr1",
@@ -163,7 +165,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 6,
+      "archive_count": 7,
       "display_name": "Radio Index",
       "public_name": "Radio Index",
       "slug": "radioindex",
