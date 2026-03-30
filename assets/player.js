@@ -282,12 +282,12 @@
       return;
     }
 
-    populateYearOptions();
+    populateYearOptions({ preferCurrentDate: true });
     if (hierarchicalCatalogEnabled) {
-      await handleYearChange();
+      await handleYearChange({ preferCurrentDate: true });
     } else {
-      populateMonthOptions();
-      populateDayOptions();
+      populateMonthOptions({ preferCurrentDate: true });
+      populateDayOptions({ preferCurrentDate: true });
       populateHourOptions();
     }
     const archiveCount = stationCatalog?.station?.archive_count ?? stationCatalog?.archives?.length ?? 0;
@@ -311,6 +311,9 @@
       updateSnapshotMeta(
         payload.published_at || payload.generated_at || null,
         payload.latest_archive_hour_started_at || null,
+        Array.isArray(payload.latest_archive_hour_stations)
+          ? payload.latest_archive_hour_stations
+          : [],
       );
       if (stations.length === 0) {
         setStatus("Brak opublikowanych godzin do odsłuchu.");
@@ -318,7 +321,7 @@
       return;
     } catch (error) {
       if (fallbackStationCount > 0) {
-        updateSnapshotMeta(null, null);
+        updateSnapshotMeta(null, null, []);
         setStatus("Nie udało się odświeżyć listy stacji. Używam danych wstępnych.");
         return;
       }
@@ -343,7 +346,8 @@
     );
   }
 
-  function populateYearOptions() {
+  function populateYearOptions(options = {}) {
+    const { preferCurrentDate = false } = options;
     const years = hierarchicalCatalogEnabled
       ? [...(stationCatalog?.years || [])]
       : uniqueValues(stationCatalog.archives.map((archive) => archive.year)).sort(
@@ -353,9 +357,13 @@
       value: String(year),
       label: String(year),
     }));
+    if (preferCurrentDate) {
+      setSelectToCurrentDatePart(yearSelect, getCurrentStationDateParts().year);
+    }
   }
 
-  function populateMonthOptions() {
+  function populateMonthOptions(options = {}) {
+    const { preferCurrentDate = false } = options;
     const selectedYear = Number(yearSelect.value);
     const months = hierarchicalCatalogEnabled
       ? [...(currentYearIndex?.months || [])]
@@ -372,9 +380,14 @@
       value: String(month),
       label: formatMonthLabel(month),
     }));
+    if (preferCurrentDate && selectedYear === getCurrentStationDateParts().year) {
+      setSelectToCurrentDatePart(monthSelect, getCurrentStationDateParts().month);
+    }
   }
 
-  function populateDayOptions() {
+  function populateDayOptions(options = {}) {
+    const { preferCurrentDate = false } = options;
+    const selectedYear = Number(yearSelect.value);
     const selectedMonth = Number(monthSelect.value);
     const days = hierarchicalCatalogEnabled
       ? [...(currentMonthIndex?.days || [])]
@@ -390,6 +403,14 @@
       value: String(day),
       label: String(day).padStart(2, "0"),
     }));
+    const currentDateParts = getCurrentStationDateParts();
+    if (
+      preferCurrentDate &&
+      selectedYear === currentDateParts.year &&
+      selectedMonth === currentDateParts.month
+    ) {
+      setSelectToCurrentDatePart(daySelect, currentDateParts.day);
+    }
   }
 
   function populateHourOptions() {
@@ -503,10 +524,11 @@
     setPlayerLoadedState(false);
   }
 
-  async function handleYearChange() {
+  async function handleYearChange(options = {}) {
+    const { preferCurrentDate = false } = options;
     if (!hierarchicalCatalogEnabled) {
-      populateMonthOptions();
-      populateDayOptions();
+      populateMonthOptions({ preferCurrentDate });
+      populateDayOptions({ preferCurrentDate });
       populateHourOptions();
       return;
     }
@@ -528,13 +550,14 @@
       setStatus(`Nie udało się pobrać miesięcy: ${error}`);
       return;
     }
-    populateMonthOptions();
-    await handleMonthChange();
+    populateMonthOptions({ preferCurrentDate });
+    await handleMonthChange({ preferCurrentDate });
   }
 
-  async function handleMonthChange() {
+  async function handleMonthChange(options = {}) {
+    const { preferCurrentDate = false } = options;
     if (!hierarchicalCatalogEnabled) {
-      populateDayOptions();
+      populateDayOptions({ preferCurrentDate });
       populateHourOptions();
       return;
     }
@@ -555,7 +578,7 @@
       setStatus(`Nie udało się pobrać dni: ${error}`);
       return;
     }
-    populateDayOptions();
+    populateDayOptions({ preferCurrentDate });
     await handleDayChange();
   }
 
