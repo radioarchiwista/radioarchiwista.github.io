@@ -83,10 +83,12 @@
     "data/stations/radiokielce/2026/index.json",
     "data/stations/radiokielce/index.json",
     "data/stations/radiokoszalin/2026/3/30.json",
+    "data/stations/radiokoszalin/2026/3/31.json",
     "data/stations/radiokoszalin/2026/3/index.json",
     "data/stations/radiokoszalin/2026/index.json",
     "data/stations/radiokoszalin/index.json",
     "data/stations/radiokrakow/2026/3/30.json",
+    "data/stations/radiokrakow/2026/3/31.json",
     "data/stations/radiokrakow/2026/3/index.json",
     "data/stations/radiokrakow/2026/index.json",
     "data/stations/radiokrakow/index.json",
@@ -233,10 +235,12 @@
       "2026-3-31": "1:2026-03-30T23:30:42.792030+00:00"
     },
     "radiokoszalin": {
-      "2026-3-30": "8:2026-03-30T23:05:47.580963+00:00"
+      "2026-3-30": "8:2026-03-30T23:05:47.580963+00:00",
+      "2026-3-31": "1:2026-03-30T23:33:10.649186+00:00"
     },
     "radiokrakow": {
-      "2026-3-30": "8:2026-03-30T23:00:25.663624+00:00"
+      "2026-3-30": "8:2026-03-30T23:00:25.663624+00:00",
+      "2026-3-31": "1:2026-03-30T23:33:19.825775+00:00"
     },
     "radiolodz": {
       "2026-3-30": "8:2026-03-30T22:54:08.607454+00:00"
@@ -275,7 +279,7 @@
       "2026-3-30": "8:2026-03-30T23:19:10.468892+00:00"
     },
     "radiozak": {
-      "2026-3-30": "8:2026-03-30T23:22:34.291140+00:00"
+      "2026-3-30": "7:2026-03-30T23:22:34.291140+00:00"
     },
     "radiozielonagora": {
       "2026-3-30": "8:2026-03-30T23:22:57.995538+00:00"
@@ -414,14 +418,14 @@
       "timezone": "Europe/Warsaw"
     },
     "radiokoszalin": {
-      "archive_count": 8,
+      "archive_count": 9,
       "display_name": "Radio Koszalin",
       "public_name": "Radio Koszalin",
       "slug": "radiokoszalin",
       "timezone": "Europe/Warsaw"
     },
     "radiokrakow": {
-      "archive_count": 8,
+      "archive_count": 9,
       "display_name": "Radio Kraków",
       "public_name": "Radio Kraków",
       "slug": "radiokrakow",
@@ -512,7 +516,7 @@
       "timezone": "Europe/Warsaw"
     },
     "radiozak": {
-      "archive_count": 8,
+      "archive_count": 7,
       "display_name": "Radio Żak",
       "public_name": "Radio Żak",
       "slug": "radiozak",
