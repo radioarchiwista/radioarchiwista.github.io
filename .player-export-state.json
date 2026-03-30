@@ -122,6 +122,7 @@
     "data/stations/radiopik/2026/index.json",
     "data/stations/radiopik/index.json",
     "data/stations/radiopoznan/2026/3/30.json",
+    "data/stations/radiopoznan/2026/3/31.json",
     "data/stations/radiopoznan/2026/3/index.json",
     "data/stations/radiopoznan/2026/index.json",
     "data/stations/radiopoznan/index.json",
@@ -271,7 +272,8 @@
       "2026-3-31": "1:2026-03-30T23:40:15.062650+00:00"
     },
     "radiopoznan": {
-      "2026-3-30": "8:2026-03-30T23:22:09.049476+00:00"
+      "2026-3-30": "8:2026-03-30T23:22:09.049476+00:00",
+      "2026-3-31": "1:2026-03-30T23:40:38.416460+00:00"
     },
     "radiorzeszow": {
       "2026-3-30": "8:2026-03-30T23:14:48.968644+00:00"
@@ -484,7 +486,7 @@
       "timezone": "Europe/Warsaw"
     },
     "radiopoznan": {
-      "archive_count": 8,
+      "archive_count": 9,
       "display_name": "Radio Poznań",
       "public_name": "Radio Poznań",
       "slug": "radiopoznan",
