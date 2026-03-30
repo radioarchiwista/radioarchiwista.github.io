@@ -8,6 +8,7 @@
     "data/site.json",
     "data/stations.json",
     "data/stations/afera/2026/3/30.json",
+    "data/stations/afera/2026/3/31.json",
     "data/stations/afera/2026/3/index.json",
     "data/stations/afera/2026/index.json",
     "data/stations/afera/index.json",
@@ -168,7 +169,8 @@
   ],
   "station_day_fingerprints": {
     "afera": {
-      "2026-3-30": "7:2026-03-30T23:22:25.983396+00:00"
+      "2026-3-30": "7:2026-03-30T23:22:25.983396+00:00",
+      "2026-3-31": "1:2026-03-30T23:24:24.753100+00:00"
     },
     "pr1": {
       "2026-3-29": "9:2026-03-30T04:31:32.531257+00:00",
@@ -290,7 +292,7 @@
   },
   "station_summaries": {
     "afera": {
-      "archive_count": 7,
+      "archive_count": 8,
       "display_name": "Radio Afera",
       "public_name": "Radio Afera",
       "slug": "afera",
