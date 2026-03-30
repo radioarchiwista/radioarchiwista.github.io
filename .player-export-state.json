@@ -36,6 +36,10 @@
     "data/stations/radio357/2026/3/index.json",
     "data/stations/radio357/2026/index.json",
     "data/stations/radio357/index.json",
+    "data/stations/radioakadera/2026/3/30.json",
+    "data/stations/radioakadera/2026/3/index.json",
+    "data/stations/radioakadera/2026/index.json",
+    "data/stations/radioakadera/index.json",
     "data/stations/radiobialystok/2026/3/30.json",
     "data/stations/radiobialystok/2026/3/index.json",
     "data/stations/radiobialystok/2026/index.json",
@@ -44,6 +48,10 @@
     "data/stations/radiocentrumlublin/2026/3/index.json",
     "data/stations/radiocentrumlublin/2026/index.json",
     "data/stations/radiocentrumlublin/index.json",
+    "data/stations/radiocentrumrzeszow/2026/3/30.json",
+    "data/stations/radiocentrumrzeszow/2026/3/index.json",
+    "data/stations/radiocentrumrzeszow/2026/index.json",
+    "data/stations/radiocentrumrzeszow/index.json",
     "data/stations/radiogdansk/2026/3/30.json",
     "data/stations/radiogdansk/2026/3/index.json",
     "data/stations/radiogdansk/2026/index.json",
@@ -52,6 +60,10 @@
     "data/stations/radiogorzow/2026/3/index.json",
     "data/stations/radiogorzow/2026/index.json",
     "data/stations/radiogorzow/index.json",
+    "data/stations/radiokampus/2026/3/30.json",
+    "data/stations/radiokampus/2026/3/index.json",
+    "data/stations/radiokampus/2026/index.json",
+    "data/stations/radiokampus/index.json",
     "data/stations/radiokatowice/2026/3/30.json",
     "data/stations/radiokatowice/2026/3/index.json",
     "data/stations/radiokatowice/2026/index.json",
@@ -76,6 +88,10 @@
     "data/stations/radiolublin/2026/3/index.json",
     "data/stations/radiolublin/2026/index.json",
     "data/stations/radiolublin/index.json",
+    "data/stations/radioluz/2026/3/30.json",
+    "data/stations/radioluz/2026/3/index.json",
+    "data/stations/radioluz/2026/index.json",
+    "data/stations/radioluz/index.json",
     "data/stations/radioolsztyn/2026/3/30.json",
     "data/stations/radioolsztyn/2026/3/index.json",
     "data/stations/radioolsztyn/2026/index.json",
@@ -144,23 +160,26 @@
     },
     "pr1": {
       "2026-3-29": "9:2026-03-30T04:31:32.531257+00:00",
-      "2026-3-30": "16:2026-03-30T14:31:47.354324+00:00"
+      "2026-3-30": "16:2026-03-30T15:31:49.261577+00:00"
     },
     "pr2": {
       "2026-3-29": "6:2026-03-30T04:31:32.766985+00:00",
-      "2026-3-30": "16:2026-03-30T14:31:47.604780+00:00"
+      "2026-3-30": "16:2026-03-30T15:31:49.565601+00:00"
     },
     "pr24": {
       "2026-3-29": "6:2026-03-30T04:31:33.082386+00:00",
-      "2026-3-30": "16:2026-03-30T14:31:48.001747+00:00"
+      "2026-3-30": "16:2026-03-30T15:31:50.013321+00:00"
     },
     "pr3": {
       "2026-3-29": "6:2026-03-30T04:31:32.951356+00:00",
-      "2026-3-30": "16:2026-03-30T14:31:47.814366+00:00"
+      "2026-3-30": "16:2026-03-30T15:31:49.802854+00:00"
     },
     "radio357": {
       "2026-3-29": "5:2026-03-30T04:31:33.217867+00:00",
-      "2026-3-30": "16:2026-03-30T15:03:01.642941+00:00"
+      "2026-3-30": "16:2026-03-30T15:31:50.197238+00:00"
+    },
+    "radioakadera": {
+      "2026-3-30": "1:2026-03-30T15:32:27.363556+00:00"
     },
     "radiobialystok": {
       "2026-3-30": "2:2026-03-30T15:12:08.878969+00:00"
@@ -168,11 +187,17 @@
     "radiocentrumlublin": {
       "2026-3-30": "1:2026-03-30T15:30:17.493862+00:00"
     },
+    "radiocentrumrzeszow": {
+      "2026-3-30": "1:2026-03-30T15:31:52.203123+00:00"
+    },
     "radiogdansk": {
       "2026-3-30": "2:2026-03-30T15:13:01.897770+00:00"
     },
     "radiogorzow": {
       "2026-3-30": "1:2026-03-30T15:28:26.307450+00:00"
+    },
+    "radiokampus": {
+      "2026-3-30": "1:2026-03-30T15:32:29.440425+00:00"
     },
     "radiokatowice": {
       "2026-3-30": "2:2026-03-30T15:12:59.728821+00:00"
@@ -191,6 +216,9 @@
     },
     "radiolublin": {
       "2026-3-30": "1:2026-03-30T15:19:47.792311+00:00"
+    },
+    "radioluz": {
+      "2026-3-30": "1:2026-03-30T15:31:54.231066+00:00"
     },
     "radioolsztyn": {
       "2026-3-30": "1:2026-03-30T15:21:34.133932+00:00"
@@ -224,19 +252,19 @@
     },
     "republika": {
       "2026-3-29": "5:2026-03-30T04:31:33.342545+00:00",
-      "2026-3-30": "15:2026-03-30T15:06:26.417938+00:00"
+      "2026-3-30": "15:2026-03-30T15:31:50.296531+00:00"
     },
     "rns": {
       "2026-3-29": "5:2026-03-30T04:31:33.269663+00:00",
-      "2026-3-30": "15:2026-03-30T15:03:50.854412+00:00"
+      "2026-3-30": "15:2026-03-30T15:31:50.222525+00:00"
     },
     "tokfm": {
       "2026-3-29": "5:2026-03-30T04:31:33.298338+00:00",
-      "2026-3-30": "15:2026-03-30T15:05:45.799868+00:00"
+      "2026-3-30": "15:2026-03-30T15:31:50.272299+00:00"
     },
     "wnet": {
       "2026-3-29": "5:2026-03-30T04:31:33.286171+00:00",
-      "2026-3-30": "16:2026-03-30T15:05:04.187291+00:00"
+      "2026-3-30": "16:2026-03-30T15:31:50.252297+00:00"
     }
   },
   "station_summaries": {
@@ -282,6 +310,13 @@
       "slug": "radio357",
       "timezone": "Europe/Warsaw"
     },
+    "radioakadera": {
+      "archive_count": 1,
+      "display_name": "Radio Akadera",
+      "public_name": "Radio Akadera",
+      "slug": "radioakadera",
+      "timezone": "Europe/Warsaw"
+    },
     "radiobialystok": {
       "archive_count": 2,
       "display_name": "Radio Białystok",
@@ -296,6 +331,13 @@
       "slug": "radiocentrumlublin",
       "timezone": "Europe/Warsaw"
     },
+    "radiocentrumrzeszow": {
+      "archive_count": 1,
+      "display_name": "Radio Centrum Rzeszów",
+      "public_name": "Radio Centrum Rzeszów",
+      "slug": "radiocentrumrzeszow",
+      "timezone": "Europe/Warsaw"
+    },
     "radiogdansk": {
       "archive_count": 2,
       "display_name": "Radio Gdańsk",
@@ -308,6 +350,13 @@
       "display_name": "Radio Gorzów",
       "public_name": "Radio Gorzów",
       "slug": "radiogorzow",
+      "timezone": "Europe/Warsaw"
+    },
+    "radiokampus": {
+      "archive_count": 1,
+      "display_name": "Radio Kampus",
+      "public_name": "Radio Kampus",
+      "slug": "radiokampus",
       "timezone": "Europe/Warsaw"
     },
     "radiokatowice": {
@@ -350,6 +399,13 @@
       "display_name": "Radio Lublin",
       "public_name": "Radio Lublin",
       "slug": "radiolublin",
+      "timezone": "Europe/Warsaw"
+    },
+    "radioluz": {
+      "archive_count": 1,
+      "display_name": "Radio Luz",
+      "public_name": "Radio Luz",
+      "slug": "radioluz",
       "timezone": "Europe/Warsaw"
     },
     "radioolsztyn": {
