@@ -32,6 +32,22 @@
     "data/stations/radio357/2026/3/index.json",
     "data/stations/radio357/2026/index.json",
     "data/stations/radio357/index.json",
+    "data/stations/radiobialystok/2026/3/30.json",
+    "data/stations/radiobialystok/2026/3/index.json",
+    "data/stations/radiobialystok/2026/index.json",
+    "data/stations/radiobialystok/index.json",
+    "data/stations/radiogdansk/2026/3/30.json",
+    "data/stations/radiogdansk/2026/3/index.json",
+    "data/stations/radiogdansk/2026/index.json",
+    "data/stations/radiogdansk/index.json",
+    "data/stations/radiokatowice/2026/3/30.json",
+    "data/stations/radiokatowice/2026/3/index.json",
+    "data/stations/radiokatowice/2026/index.json",
+    "data/stations/radiokatowice/index.json",
+    "data/stations/rdc/2026/3/30.json",
+    "data/stations/rdc/2026/3/index.json",
+    "data/stations/rdc/2026/index.json",
+    "data/stations/rdc/index.json",
     "data/stations/republika/2026/3/29.json",
     "data/stations/republika/2026/3/30.json",
     "data/stations/republika/2026/3/index.json",
@@ -57,100 +73,140 @@
   "station_day_fingerprints": {
     "pr1": {
       "2026-3-29": "9:2026-03-30T04:31:32.531257+00:00",
-      "2026-3-30": "13:2026-03-30T12:31:43.329806+00:00"
+      "2026-3-30": "15:2026-03-30T13:27:40.128178+00:00"
     },
     "pr2": {
       "2026-3-29": "6:2026-03-30T04:31:32.766985+00:00",
-      "2026-3-30": "13:2026-03-30T12:31:43.588737+00:00"
+      "2026-3-30": "15:2026-03-30T13:27:40.128178+00:00"
     },
     "pr24": {
       "2026-3-29": "6:2026-03-30T04:31:33.082386+00:00",
-      "2026-3-30": "13:2026-03-30T12:31:43.872295+00:00"
+      "2026-3-30": "15:2026-03-30T13:27:40.128178+00:00"
     },
     "pr3": {
       "2026-3-29": "6:2026-03-30T04:31:32.951356+00:00",
-      "2026-3-30": "13:2026-03-30T12:31:43.728147+00:00"
+      "2026-3-30": "15:2026-03-30T13:27:40.128178+00:00"
     },
     "radio357": {
       "2026-3-29": "5:2026-03-30T04:31:33.217867+00:00",
-      "2026-3-30": "13:2026-03-30T12:31:44.019352+00:00"
+      "2026-3-30": "15:2026-03-30T13:27:40.128178+00:00"
+    },
+    "radiobialystok": {
+      "2026-3-30": "1:2026-03-30T13:27:40.128178+00:00"
+    },
+    "radiogdansk": {
+      "2026-3-30": "1:2026-03-30T13:27:40.128178+00:00"
+    },
+    "radiokatowice": {
+      "2026-3-30": "1:2026-03-30T13:27:40.128178+00:00"
+    },
+    "rdc": {
+      "2026-3-30": "1:2026-03-30T13:27:40.128178+00:00"
     },
     "republika": {
       "2026-3-29": "5:2026-03-30T04:31:33.342545+00:00",
-      "2026-3-30": "13:2026-03-30T12:31:44.101773+00:00"
+      "2026-3-30": "14:2026-03-30T13:27:40.128178+00:00"
     },
     "rns": {
       "2026-3-29": "5:2026-03-30T04:31:33.269663+00:00",
-      "2026-3-30": "13:2026-03-30T12:31:44.045995+00:00"
+      "2026-3-30": "14:2026-03-30T13:27:40.128178+00:00"
     },
     "tokfm": {
       "2026-3-29": "5:2026-03-30T04:31:33.298338+00:00",
-      "2026-3-30": "13:2026-03-30T12:31:44.082126+00:00"
+      "2026-3-30": "14:2026-03-30T13:27:40.128178+00:00"
     },
     "wnet": {
       "2026-3-29": "5:2026-03-30T04:31:33.286171+00:00",
-      "2026-3-30": "13:2026-03-30T12:31:44.067206+00:00"
+      "2026-3-30": "15:2026-03-30T13:27:40.128178+00:00"
     }
   },
   "station_summaries": {
     "pr1": {
-      "archive_count": 22,
+      "archive_count": 24,
       "display_name": "Program 1",
       "public_name": "Polskie Radio Program 1",
       "slug": "pr1",
       "timezone": "Europe/Warsaw"
     },
     "pr2": {
-      "archive_count": 19,
+      "archive_count": 21,
       "display_name": "Program 2",
       "public_name": "Polskie Radio Program 2",
       "slug": "pr2",
       "timezone": "Europe/Warsaw"
     },
     "pr24": {
-      "archive_count": 19,
+      "archive_count": 21,
       "display_name": "Polskie Radio 24",
       "public_name": "Polskie Radio 24",
       "slug": "pr24",
       "timezone": "Europe/Warsaw"
     },
     "pr3": {
-      "archive_count": 19,
+      "archive_count": 21,
       "display_name": "Program 3",
       "public_name": "Polskie Radio Program 3",
       "slug": "pr3",
       "timezone": "Europe/Warsaw"
     },
     "radio357": {
-      "archive_count": 18,
+      "archive_count": 20,
       "display_name": "Radio 357",
       "public_name": "Radio 357",
       "slug": "radio357",
       "timezone": "Europe/Warsaw"
     },
+    "radiobialystok": {
+      "archive_count": 1,
+      "display_name": "Radio Białystok",
+      "public_name": "Radio Białystok",
+      "slug": "radiobialystok",
+      "timezone": "Europe/Warsaw"
+    },
+    "radiogdansk": {
+      "archive_count": 1,
+      "display_name": "Radio Gdańsk",
+      "public_name": "Radio Gdańsk",
+      "slug": "radiogdansk",
+      "timezone": "Europe/Warsaw"
+    },
+    "radiokatowice": {
+      "archive_count": 1,
+      "display_name": "Radio Katowice",
+      "public_name": "Radio Katowice",
+      "slug": "radiokatowice",
+      "timezone": "Europe/Warsaw"
+    },
+    "rdc": {
+      "archive_count": 1,
+      "display_name": "Radio Dla Ciebie",
+      "public_name": "Radio Dla Ciebie",
+      "slug": "rdc",
+      "timezone": "Europe/Warsaw"
+    },
     "republika": {
-      "archive_count": 18,
+      "archive_count": 19,
       "display_name": "Radio Republika",
       "public_name": "Radio Republika",
       "slug": "republika",
       "timezone": "Europe/Warsaw"
     },
     "rns": {
-      "archive_count": 18,
+      "archive_count": 19,
       "display_name": "Radio Nowy Świat",
       "public_name": "Radio Nowy Świat",
       "slug": "rns",
       "timezone": "Europe/Warsaw"
     },
     "tokfm": {
-      "archive_count": 18,
+      "archive_count": 19,
       "display_name": "TOK FM",
       "public_name": "TOK FM",
       "slug": "tokfm",
       "timezone": "Europe/Warsaw"
     },
     "wnet": {
-      "archive_count": 18,
+      "archive_count": 20,
       "display_name": "Radio Wnet",
       "public_name": "Radio Wnet",
       "slug": "wnet",
