@@ -1,11 +1,11 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-03-30T15:12:13.418011+00:00",
+  "generated_at": "2026-03-30T15:14:50.146359+00:00",
   "latest_archive_hour_started_at": "2026-03-30T14:00:00+00:00",
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-03-30T15:12:13.418011+00:00",
-  "station_count": 15,
+  "published_at": "2026-03-30T15:14:50.146359+00:00",
+  "station_count": 17,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
     {
@@ -86,24 +86,38 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1,
+      "archive_count": 2,
       "display_name": "Radio Dla Ciebie",
       "public_name": "Radio Dla Ciebie",
       "slug": "rdc",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1,
+      "archive_count": 2,
       "display_name": "Radio Gdańsk",
       "public_name": "Radio Gdańsk",
       "slug": "radiogdansk",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1,
+      "archive_count": 2,
       "display_name": "Radio Katowice",
       "public_name": "Radio Katowice",
       "slug": "radiokatowice",
+      "timezone": "Europe/Warsaw"
+    },
+    {
+      "archive_count": 1,
+      "display_name": "Radio Kielce",
+      "public_name": "Radio Kielce",
+      "slug": "radiokielce",
+      "timezone": "Europe/Warsaw"
+    },
+    {
+      "archive_count": 1,
+      "display_name": "Radio Koszalin",
+      "public_name": "Radio Koszalin",
+      "slug": "radiokoszalin",
       "timezone": "Europe/Warsaw"
     },
     {
