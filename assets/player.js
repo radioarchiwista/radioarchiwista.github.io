@@ -314,6 +314,7 @@
         Array.isArray(payload.latest_archive_hour_stations)
           ? payload.latest_archive_hour_stations
           : [],
+        stations.length,
       );
       if (stations.length === 0) {
         setStatus("Brak opublikowanych godzin do odsłuchu.");
@@ -321,7 +322,7 @@
       return;
     } catch (error) {
       if (fallbackStationCount > 0) {
-        updateSnapshotMeta(null, null, []);
+        updateSnapshotMeta(null, null, [], fallbackStationCount);
         setStatus("Nie udało się odświeżyć listy stacji. Używam danych wstępnych.");
         return;
       }
@@ -707,6 +708,7 @@
     publishedAt,
     latestArchiveHourStartedAt,
     latestArchiveHourStations = [],
+    stationCount = 0,
   ) {
     if (!snapshotMetaNode) {
       return;
@@ -729,7 +731,11 @@
       }
     }
     if (Array.isArray(latestArchiveHourStations) && latestArchiveHourStations.length > 0) {
-      parts.push(`Mają ją już: ${latestArchiveHourStations.join(", ")}.`);
+      if (stationCount > 0 && latestArchiveHourStations.length >= stationCount) {
+        parts.push("Tę godzinę mają już wszystkie stacje.");
+      } else {
+        parts.push(`Mają ją już: ${latestArchiveHourStations.join(", ")}.`);
+      }
     }
     if (parts.length === 0) {
       snapshotMetaNode.textContent = "Brak informacji o ostatniej publikacji archiwum.";
