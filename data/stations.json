@@ -1,11 +1,11 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-03-30T15:06:29.712569+00:00",
+  "generated_at": "2026-03-30T15:12:13.418011+00:00",
   "latest_archive_hour_started_at": "2026-03-30T14:00:00+00:00",
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-03-30T15:06:29.712569+00:00",
-  "station_count": 13,
+  "published_at": "2026-03-30T15:12:13.418011+00:00",
+  "station_count": 15,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
     {
@@ -73,6 +73,13 @@
     },
     {
       "archive_count": 1,
+      "display_name": "Radio Afera",
+      "public_name": "Radio Afera",
+      "slug": "afera",
+      "timezone": "Europe/Warsaw"
+    },
+    {
+      "archive_count": 2,
       "display_name": "Radio Białystok",
       "public_name": "Radio Białystok",
       "slug": "radiobialystok",
@@ -97,6 +104,13 @@
       "display_name": "Radio Katowice",
       "public_name": "Radio Katowice",
       "slug": "radiokatowice",
+      "timezone": "Europe/Warsaw"
+    },
+    {
+      "archive_count": 1,
+      "display_name": "Radio Poznań",
+      "public_name": "Radio Poznań",
+      "slug": "radiopoznan",
       "timezone": "Europe/Warsaw"
     }
   ],
