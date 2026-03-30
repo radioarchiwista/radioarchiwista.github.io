@@ -142,10 +142,12 @@
     "data/stations/radiorzeszow/2026/index.json",
     "data/stations/radiorzeszow/index.json",
     "data/stations/radioslupsk/2026/3/30.json",
+    "data/stations/radioslupsk/2026/3/31.json",
     "data/stations/radioslupsk/2026/3/index.json",
     "data/stations/radioslupsk/2026/index.json",
     "data/stations/radioslupsk/index.json",
     "data/stations/radioszczecin/2026/3/30.json",
+    "data/stations/radioszczecin/2026/3/31.json",
     "data/stations/radioszczecin/2026/3/index.json",
     "data/stations/radioszczecin/2026/index.json",
     "data/stations/radioszczecin/index.json",
@@ -301,10 +303,12 @@
       "2026-3-31": "1:2026-03-30T23:56:41.930102+00:00"
     },
     "radioslupsk": {
-      "2026-3-30": "8:2026-03-30T23:05:38.386357+00:00"
+      "2026-3-30": "8:2026-03-30T23:05:38.386357+00:00",
+      "2026-3-31": "1:2026-03-30T23:56:51.361285+00:00"
     },
     "radioszczecin": {
-      "2026-3-30": "8:2026-03-30T23:15:21.745370+00:00"
+      "2026-3-30": "8:2026-03-30T23:57:07.799958+00:00",
+      "2026-3-31": "1:2026-03-30T23:57:38.105467+00:00"
     },
     "radiowroclaw": {
       "2026-3-30": "8:2026-03-30T23:53:12.123068+00:00"
@@ -522,14 +526,14 @@
       "timezone": "Europe/Warsaw"
     },
     "radioslupsk": {
-      "archive_count": 8,
+      "archive_count": 9,
       "display_name": "Radio Słupsk",
       "public_name": "Radio Słupsk",
       "slug": "radioslupsk",
       "timezone": "Europe/Warsaw"
     },
     "radioszczecin": {
-      "archive_count": 8,
+      "archive_count": 9,
       "display_name": "Radio Szczecin",
       "public_name": "Radio Szczecin",
       "slug": "radioszczecin",
