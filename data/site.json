@@ -1,11 +1,11 @@
 {
-  "archive_count": 228,
+  "archive_count": 229,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-03-30T15:40:43.583752+00:00",
-  "latest_archive_hour_started_at": "2026-03-30T14:00:00+00:00",
+  "generated_at": "2026-03-30T16:02:07.104996+00:00",
+  "latest_archive_hour_started_at": "2026-03-30T15:00:00+00:00",
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-03-30T15:40:43.583752+00:00",
+  "published_at": "2026-03-30T16:02:07.104996+00:00",
   "station_count": 36,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
