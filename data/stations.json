@@ -1,8 +1,12 @@
 {
+  "catalog_version": 2,
+  "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
   "generated_at": "2026-03-30T10:12:57.782235+00:00",
   "latest_archive_hour_started_at": "2026-03-30T09:00:00+00:00",
+  "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
   "published_at": "2026-03-30T10:12:57.782235+00:00",
   "station_count": 9,
+  "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
     {
       "archive_count": 21,
@@ -67,5 +71,6 @@
       "slug": "republika",
       "timezone": "Europe/Warsaw"
     }
-  ]
+  ],
+  "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
 }
