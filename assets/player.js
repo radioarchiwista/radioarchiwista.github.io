@@ -301,7 +301,9 @@
     const fallbackStationCount = Math.max(stationSelect.options.length - 1, 0);
     updateStationCount(fallbackStationCount);
     try {
-      const response = await fetch(stationsEndpoint);
+      const response = await fetch(withRuntimeNoCache(stationsEndpoint), {
+        cache: "no-store",
+      });
       if (!response.ok) {
         throw new Error(`HTTP ${response.status}`);
       }
@@ -782,6 +784,17 @@
     } catch (_error) {
       const separator = url.includes("?") ? "&" : "?";
       return `${url}${separator}v=${encodeURIComponent(catalogVersionToken)}`;
+    }
+  }
+
+  function withRuntimeNoCache(url) {
+    try {
+      const resolvedUrl = new URL(url, window.location.href);
+      resolvedUrl.searchParams.set("_", String(Date.now()));
+      return resolvedUrl.toString();
+    } catch (_error) {
+      const separator = url.includes("?") ? "&" : "?";
+      return `${url}${separator}_=${Date.now()}`;
     }
   }
 
