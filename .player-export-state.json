@@ -100,6 +100,10 @@
     "data/stations/radioolsztyn/2026/3/index.json",
     "data/stations/radioolsztyn/2026/index.json",
     "data/stations/radioolsztyn/index.json",
+    "data/stations/radioopole/2026/3/30.json",
+    "data/stations/radioopole/2026/3/index.json",
+    "data/stations/radioopole/2026/index.json",
+    "data/stations/radioopole/index.json",
     "data/stations/radiopik/2026/3/30.json",
     "data/stations/radiopik/2026/3/index.json",
     "data/stations/radiopik/2026/index.json",
@@ -223,19 +227,22 @@
       "2026-3-30": "2:2026-03-30T16:23:42.125052+00:00"
     },
     "radiolodz": {
-      "2026-3-30": "1:2026-03-30T15:21:26.649114+00:00"
+      "2026-3-30": "2:2026-03-30T16:29:53.926347+00:00"
     },
     "radiolublin": {
-      "2026-3-30": "1:2026-03-30T15:19:47.792311+00:00"
+      "2026-3-30": "2:2026-03-30T16:29:51.439470+00:00"
     },
     "radioluz": {
       "2026-3-30": "1:2026-03-30T15:31:54.231066+00:00"
     },
     "radioolsztyn": {
-      "2026-3-30": "1:2026-03-30T15:21:34.133932+00:00"
+      "2026-3-30": "2:2026-03-30T16:29:56.344536+00:00"
+    },
+    "radioopole": {
+      "2026-3-30": "1:2026-03-30T16:29:59.138036+00:00"
     },
     "radiopik": {
-      "2026-3-30": "1:2026-03-30T15:21:37.008942+00:00"
+      "2026-3-30": "2:2026-03-30T16:30:04.399399+00:00"
     },
     "radiopoznan": {
       "2026-3-30": "2:2026-03-30T16:15:21.966929+00:00"
@@ -409,14 +416,14 @@
       "timezone": "Europe/Warsaw"
     },
     "radiolodz": {
-      "archive_count": 1,
+      "archive_count": 2,
       "display_name": "Radio Łódź",
       "public_name": "Radio Łódź",
       "slug": "radiolodz",
       "timezone": "Europe/Warsaw"
     },
     "radiolublin": {
-      "archive_count": 1,
+      "archive_count": 2,
       "display_name": "Radio Lublin",
       "public_name": "Radio Lublin",
       "slug": "radiolublin",
@@ -430,14 +437,21 @@
       "timezone": "Europe/Warsaw"
     },
     "radioolsztyn": {
-      "archive_count": 1,
+      "archive_count": 2,
       "display_name": "Radio Olsztyn",
       "public_name": "Radio Olsztyn",
       "slug": "radioolsztyn",
       "timezone": "Europe/Warsaw"
     },
-    "radiopik": {
+    "radioopole": {
       "archive_count": 1,
+      "display_name": "Radio Opole",
+      "public_name": "Radio Opole",
+      "slug": "radioopole",
+      "timezone": "Europe/Warsaw"
+    },
+    "radiopik": {
+      "archive_count": 2,
       "display_name": "Radio PiK",
       "public_name": "Radio PiK",
       "slug": "radiopik",
