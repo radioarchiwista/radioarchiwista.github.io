@@ -1,10 +1,11 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-03-30T19:19:53.236529+00:00",
+  "generated_at": "2026-03-30T19:21:14.545540+00:00",
   "latest_archive_hour_expected_station_count": 38,
   "latest_archive_hour_started_at": "2026-03-30T18:00:00+00:00",
   "latest_archive_hour_stations": [
+    "Radio 357",
     "Radio Nowy Świat",
     "TOK FM",
     "Radio Gdańsk",
@@ -16,7 +17,7 @@
     "Radio Łódź"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-03-30T19:19:53.236529+00:00",
+  "published_at": "2026-03-30T19:21:14.545540+00:00",
   "station_count": 37,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -49,7 +50,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 24,
+      "archive_count": 25,
       "display_name": "Radio 357",
       "public_name": "Radio 357",
       "slug": "radio357",
