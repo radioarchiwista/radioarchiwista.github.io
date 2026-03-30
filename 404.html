@@ -4,8 +4,8 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Radio Archiwista, odtwarzacz archiwów radiowych</title>
-    <link rel="stylesheet" href="./assets/player.css?v=bc3ed4b384a8" />
-    <script defer src="./assets/player.js?v=7d444c75d262"></script>
+    <link rel="stylesheet" href="./assets/player.css?v=6df95c00ccef" />
+    <script defer src="./assets/player.js?v=b41625ae70db"></script>
   </head>
   <body>
     <main
@@ -162,6 +162,22 @@
             </div>
 
             <div class="player-action-row">
+              <div id="player-output-device-group" class="field player-device-field" hidden>
+                <label for="player-output-device">Urządzenie odtwarzające</label>
+                <div class="player-device-controls">
+                  <select id="player-output-device" name="output-device">
+                    <option value="default">Domyślne urządzenie systemowe</option>
+                  </select>
+                  <button
+                    type="button"
+                    class="button button-secondary player-button player-device-button"
+                    id="player-output-device-chooser"
+                    hidden
+                  >
+                    Wybierz z przeglądarki
+                  </button>
+                </div>
+              </div>
               <a
                 id="player-download-link"
                 class="button button-secondary player-button player-download-link"

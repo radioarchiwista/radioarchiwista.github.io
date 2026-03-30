@@ -18,6 +18,9 @@
   const currentTimeNode = document.getElementById("player-current-time");
   const durationNode = document.getElementById("player-duration");
   const downloadLink = document.getElementById("player-download-link");
+  const outputDeviceGroup = document.getElementById("player-output-device-group");
+  const outputDeviceSelect = document.getElementById("player-output-device");
+  const outputDeviceChooser = document.getElementById("player-output-device-chooser");
   const stationCountNode = document.getElementById("player-station-count");
   const snapshotMetaNode = document.getElementById("player-snapshot-meta");
   const emptyStateNode = document.getElementById("player-empty-state");
@@ -79,6 +82,15 @@
     month: "long",
     timeZone: "UTC",
   });
+  const sinkIdStorageKey = "radio-archiwista-player-sink-id";
+  const sinkSelectionSupported =
+    typeof audio.setSinkId === "function" &&
+    typeof navigator !== "undefined" &&
+    Boolean(navigator.mediaDevices) &&
+    typeof navigator.mediaDevices.enumerateDevices === "function";
+  const sinkPromptSupported =
+    sinkSelectionSupported &&
+    typeof navigator.mediaDevices.selectAudioOutput === "function";
 
   stationSelect.addEventListener("change", async () => {
     resetArchiveSelection();
@@ -123,6 +135,15 @@
     }
     event.preventDefault();
     await triggerArchiveDownload(selectedArchive);
+  });
+
+  outputDeviceSelect?.addEventListener("change", async () => {
+    const nextSinkId = normalizeSinkId(outputDeviceSelect.value);
+    await applyAudioOutputDevice(nextSinkId);
+  });
+
+  outputDeviceChooser?.addEventListener("click", async () => {
+    await promptForAudioOutputDevice();
   });
 
   playButton.addEventListener("click", async () => {
@@ -179,6 +200,12 @@
   audio.addEventListener("error", () => {
     setStatus("Nie udało się załadować pliku audio dla wybranej godziny.");
   });
+
+  if (navigator.mediaDevices && typeof navigator.mediaDevices.addEventListener === "function") {
+    navigator.mediaDevices.addEventListener("devicechange", () => {
+      void refreshAudioOutputDevices();
+    });
+  }
 
   window.addEventListener("keydown", (event) => {
     if (event.defaultPrevented || !audio.src) {
@@ -856,6 +883,150 @@
   void bootstrapPlayer();
 
   async function bootstrapPlayer() {
+    await initializeAudioOutputSelection();
     await loadStationIndex();
+  }
+
+  async function initializeAudioOutputSelection() {
+    if (!outputDeviceGroup || !outputDeviceSelect || !sinkSelectionSupported) {
+      outputDeviceGroup?.setAttribute("hidden", "");
+      return;
+    }
+    if (outputDeviceChooser) {
+      outputDeviceChooser.hidden = !sinkPromptSupported;
+    }
+    await refreshAudioOutputDevices({ announce: false });
+    const storedSinkId = getStoredSinkId();
+    if (storedSinkId !== "default") {
+      await applyAudioOutputDevice(storedSinkId, { announce: false });
+    }
+  }
+
+  async function refreshAudioOutputDevices(options = {}) {
+    const { announce = false } = options;
+    if (!outputDeviceGroup || !outputDeviceSelect || !sinkSelectionSupported) {
+      return;
+    }
+
+    try {
+      const devices = await navigator.mediaDevices.enumerateDevices();
+      const audioOutputs = devices.filter((device) => device.kind === "audiooutput");
+      const optionsList = buildAudioOutputOptions(audioOutputs);
+      const currentSinkId = getCurrentSinkId();
+      const storedSinkId = getStoredSinkId();
+      const preferredSinkId = [currentSinkId, storedSinkId, "default"].find((candidate) =>
+        optionsList.some((option) => option.value === candidate),
+      ) || "default";
+
+      fillSelect(
+        outputDeviceSelect,
+        optionsList,
+        (option) => option,
+        { autoSelectFirst: false },
+      );
+      outputDeviceSelect.value = preferredSinkId;
+      outputDeviceGroup.hidden = optionsList.length <= 1 && !sinkPromptSupported;
+
+      if (announce && !outputDeviceGroup.hidden) {
+        setStatus(`Odświeżono listę urządzeń odtwarzających.`);
+      }
+    } catch (_error) {
+      outputDeviceGroup.hidden = true;
+    }
+  }
+
+  function buildAudioOutputOptions(audioOutputs) {
+    const options = [{ value: "default", label: "Domyślne urządzenie systemowe" }];
+    let unnamedCounter = 1;
+
+    audioOutputs.forEach((device) => {
+      const value = normalizeSinkId(device.deviceId);
+      if (options.some((option) => option.value === value)) {
+        return;
+      }
+      const label = device.label?.trim() || `Urządzenie audio ${unnamedCounter++}`;
+      options.push({ value, label });
+    });
+
+    return options;
+  }
+
+  async function applyAudioOutputDevice(nextSinkId, options = {}) {
+    const { announce = true } = options;
+    if (!sinkSelectionSupported || !outputDeviceSelect) {
+      return false;
+    }
+
+    const normalizedSinkId = normalizeSinkId(nextSinkId);
+    const previousSinkId = getCurrentSinkId();
+    if (normalizedSinkId === previousSinkId) {
+      storeSinkId(normalizedSinkId);
+      return true;
+    }
+
+    const wasPlaying = !audio.paused && !audio.ended;
+
+    try {
+      await audio.setSinkId(normalizedSinkId);
+      storeSinkId(normalizedSinkId);
+      outputDeviceSelect.value = normalizedSinkId;
+      if (wasPlaying && audio.paused) {
+        await audio.play();
+      }
+      if (announce) {
+        const selectedOption = outputDeviceSelect.selectedOptions[0];
+        setStatus(
+          `Dźwięk przełączono na ${selectedOption?.textContent || "wybrane urządzenie"}.`,
+        );
+      }
+      return true;
+    } catch (error) {
+      outputDeviceSelect.value = previousSinkId;
+      if (announce) {
+        setStatus(`Nie udało się przełączyć urządzenia odtwarzającego: ${error}`);
+      }
+      return false;
+    }
+  }
+
+  async function promptForAudioOutputDevice() {
+    if (!sinkPromptSupported) {
+      return;
+    }
+    try {
+      const device = await navigator.mediaDevices.selectAudioOutput();
+      const selectedSinkId = normalizeSinkId(device?.deviceId);
+      await refreshAudioOutputDevices();
+      await applyAudioOutputDevice(selectedSinkId);
+    } catch (error) {
+      if (error?.name === "NotAllowedError" || error?.name === "AbortError") {
+        return;
+      }
+      setStatus(`Nie udało się pobrać listy urządzeń odtwarzających: ${error}`);
+    }
+  }
+
+  function normalizeSinkId(sinkId) {
+    return typeof sinkId === "string" && sinkId.trim() ? sinkId : "default";
+  }
+
+  function getCurrentSinkId() {
+    return normalizeSinkId(audio.sinkId);
+  }
+
+  function getStoredSinkId() {
+    try {
+      return normalizeSinkId(window.localStorage.getItem(sinkIdStorageKey));
+    } catch (_error) {
+      return "default";
+    }
+  }
+
+  function storeSinkId(sinkId) {
+    try {
+      window.localStorage.setItem(sinkIdStorageKey, normalizeSinkId(sinkId));
+    } catch (_error) {
+      // Ignore storage errors in private browsing or restricted contexts.
+    }
   }
 })();
