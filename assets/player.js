@@ -78,6 +78,7 @@
   let currentMonthIndex = null;
   let currentDayCatalog = null;
   let selectedArchive = null;
+  let catalogVersionToken = "";
   const yearIndexCache = new Map();
   const monthIndexCache = new Map();
   const dayCatalogCache = new Map();
@@ -305,6 +306,9 @@
         throw new Error(`HTTP ${response.status}`);
       }
       const payload = await response.json();
+      setCatalogVersionToken(
+        payload.published_at || payload.generated_at || payload.latest_archive_hour_started_at || "",
+      );
       const stations = Array.isArray(payload.stations) ? payload.stations : [];
       populateStationOptions(stations);
       updateStationCount(stations.length);
@@ -756,11 +760,36 @@
   }
 
   async function fetchJson(url) {
-    const response = await fetch(url);
+    const response = await fetch(withCatalogVersion(url), { cache: "no-store" });
     if (!response.ok) {
       throw new Error(`HTTP ${response.status}`);
     }
     return response.json();
+  }
+
+  function withCatalogVersion(url) {
+    if (!catalogVersionToken) {
+      return url;
+    }
+    try {
+      const resolvedUrl = new URL(url, window.location.href);
+      resolvedUrl.searchParams.set("v", catalogVersionToken);
+      return resolvedUrl.toString();
+    } catch (_error) {
+      const separator = url.includes("?") ? "&" : "?";
+      return `${url}${separator}v=${encodeURIComponent(catalogVersionToken)}`;
+    }
+  }
+
+  function setCatalogVersionToken(nextToken) {
+    const normalizedToken = typeof nextToken === "string" ? nextToken : "";
+    if (normalizedToken === catalogVersionToken) {
+      return;
+    }
+    catalogVersionToken = normalizedToken;
+    yearIndexCache.clear();
+    monthIndexCache.clear();
+    dayCatalogCache.clear();
   }
 
   async function fetchYearIndex(slug, year) {
