@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-03-30T22:45:34.061608+00:00",
+  "generated_at": "2026-03-30T22:45:57.013151+00:00",
   "latest_archive_hour_expected_station_count": 38,
   "latest_archive_hour_started_at": "2026-03-30T21:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -12,10 +12,12 @@
     "Radio Republika",
     "Radio Afera",
     "Radio Białystok",
+    "Radio Dla Ciebie",
+    "Radio Katowice",
     "Radio Poznań"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-03-30T22:45:34.061608+00:00",
+  "published_at": "2026-03-30T22:45:57.013151+00:00",
   "station_count": 37,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -118,7 +120,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 9,
+      "archive_count": 10,
       "display_name": "Radio Dla Ciebie",
       "public_name": "Radio Dla Ciebie",
       "slug": "rdc",
@@ -153,7 +155,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 9,
+      "archive_count": 10,
       "display_name": "Radio Katowice",
       "public_name": "Radio Katowice",
       "slug": "radiokatowice",
