@@ -93,6 +93,7 @@
     "data/stations/radiokrakow/2026/index.json",
     "data/stations/radiokrakow/index.json",
     "data/stations/radiolodz/2026/3/30.json",
+    "data/stations/radiolodz/2026/3/31.json",
     "data/stations/radiolodz/2026/3/index.json",
     "data/stations/radiolodz/2026/index.json",
     "data/stations/radiolodz/index.json",
@@ -243,7 +244,8 @@
       "2026-3-31": "1:2026-03-30T23:33:19.825775+00:00"
     },
     "radiolodz": {
-      "2026-3-30": "8:2026-03-30T22:54:08.607454+00:00"
+      "2026-3-30": "8:2026-03-30T22:54:08.607454+00:00",
+      "2026-3-31": "1:2026-03-30T23:38:08.128456+00:00"
     },
     "radiolublin": {
       "2026-3-30": "8:2026-03-30T22:59:03.284246+00:00"
@@ -432,7 +434,7 @@
       "timezone": "Europe/Warsaw"
     },
     "radiolodz": {
-      "archive_count": 8,
+      "archive_count": 9,
       "display_name": "Radio Łódź",
       "public_name": "Radio Łódź",
       "slug": "radiolodz",
