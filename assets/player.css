@@ -705,6 +705,10 @@ textarea {
   flex: 0 0 auto;
 }
 
+.player-device-status {
+  margin-top: 0.35rem;
+}
+
 .player-download-link[aria-disabled="true"] {
   pointer-events: none;
   opacity: 0.55;

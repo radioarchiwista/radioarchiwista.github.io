@@ -56,6 +56,14 @@
     "data/stations/radiokoszalin/2026/3/index.json",
     "data/stations/radiokoszalin/2026/index.json",
     "data/stations/radiokoszalin/index.json",
+    "data/stations/radiokrakow/2026/3/30.json",
+    "data/stations/radiokrakow/2026/3/index.json",
+    "data/stations/radiokrakow/2026/index.json",
+    "data/stations/radiokrakow/index.json",
+    "data/stations/radiolublin/2026/3/30.json",
+    "data/stations/radiolublin/2026/3/index.json",
+    "data/stations/radiolublin/2026/index.json",
+    "data/stations/radiolublin/index.json",
     "data/stations/radiopoznan/2026/3/30.json",
     "data/stations/radiopoznan/2026/3/index.json",
     "data/stations/radiopoznan/2026/index.json",
@@ -128,6 +136,12 @@
     },
     "radiokoszalin": {
       "2026-3-30": "1:2026-03-30T15:14:44.679156+00:00"
+    },
+    "radiokrakow": {
+      "2026-3-30": "1:2026-03-30T15:19:45.733062+00:00"
+    },
+    "radiolublin": {
+      "2026-3-30": "1:2026-03-30T15:19:47.792311+00:00"
     },
     "radiopoznan": {
       "2026-3-30": "1:2026-03-30T15:09:04.316093+00:00"
@@ -231,6 +245,20 @@
       "display_name": "Radio Koszalin",
       "public_name": "Radio Koszalin",
       "slug": "radiokoszalin",
+      "timezone": "Europe/Warsaw"
+    },
+    "radiokrakow": {
+      "archive_count": 1,
+      "display_name": "Radio Kraków",
+      "public_name": "Radio Kraków",
+      "slug": "radiokrakow",
+      "timezone": "Europe/Warsaw"
+    },
+    "radiolublin": {
+      "archive_count": 1,
+      "display_name": "Radio Lublin",
+      "public_name": "Radio Lublin",
+      "slug": "radiolublin",
       "timezone": "Europe/Warsaw"
     },
     "radiopoznan": {

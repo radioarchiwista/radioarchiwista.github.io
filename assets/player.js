@@ -21,6 +21,7 @@
   const outputDeviceGroup = document.getElementById("player-output-device-group");
   const outputDeviceSelect = document.getElementById("player-output-device");
   const outputDeviceChooser = document.getElementById("player-output-device-chooser");
+  const outputDeviceStatusNode = document.getElementById("player-output-device-status");
   const stationCountNode = document.getElementById("player-station-count");
   const snapshotMetaNode = document.getElementById("player-snapshot-meta");
   const emptyStateNode = document.getElementById("player-empty-state");
@@ -91,6 +92,10 @@
   const sinkPromptSupported =
     sinkSelectionSupported &&
     typeof navigator.mediaDevices.selectAudioOutput === "function";
+  const mediaPermissionSupported =
+    typeof navigator !== "undefined" &&
+    Boolean(navigator.mediaDevices) &&
+    typeof navigator.mediaDevices.getUserMedia === "function";
 
   stationSelect.addEventListener("change", async () => {
     resetArchiveSelection();
@@ -900,6 +905,11 @@
     if (storedSinkId !== "default") {
       await applyAudioOutputDevice(storedSinkId, { announce: false });
     }
+    setOutputDeviceStatus(
+      sinkSelectionSupported
+        ? "Wspierane przeglądarki pozwalają wybrać wyjście audio bez zatrzymywania odtwarzania."
+        : "Ta przeglądarka nie udostępnia stronie wyboru urządzenia odtwarzającego.",
+    );
   }
 
   async function refreshAudioOutputDevices(options = {}) {
@@ -929,6 +939,7 @@
       updateAudioOutputChooserLabel(optionsList.length);
 
       if (announce && !outputDeviceGroup.hidden) {
+        setOutputDeviceStatus("Lista urządzeń odtwarzających została odświeżona.");
         setStatus(`Odświeżono listę urządzeń odtwarzających.`);
       }
     } catch (_error) {
@@ -986,6 +997,9 @@
       }
       if (announce) {
         const selectedOption = outputDeviceSelect.selectedOptions[0];
+        setOutputDeviceStatus(
+          `Wybrane wyjście audio: ${selectedOption?.textContent || "wybrane urządzenie"}.`,
+        );
         setStatus(
           `Dźwięk przełączono na ${selectedOption?.textContent || "wybrane urządzenie"}.`,
         );
@@ -994,6 +1008,9 @@
     } catch (error) {
       outputDeviceSelect.value = previousSinkId;
       if (announce) {
+        setOutputDeviceStatus(
+          `Nie udało się przełączyć wyjścia audio: ${formatErrorMessage(error)}.`,
+        );
         setStatus(`Nie udało się przełączyć urządzenia odtwarzającego: ${error}`);
       }
       return false;
@@ -1002,34 +1019,80 @@
 
   async function promptForAudioOutputDevice() {
     if (!sinkPromptSupported) {
+      setOutputDeviceStatus(
+        "Ta przeglądarka nie wspiera systemowego wyboru urządzenia odtwarzającego z poziomu strony.",
+      );
       setStatus("Ta przeglądarka nie wspiera wyboru urządzenia odtwarzającego z poziomu strony.");
       return;
     }
+    outputDeviceChooser?.setAttribute("aria-busy", "true");
+    setOutputDeviceStatus("Próbuję otworzyć wybór urządzenia odtwarzającego...");
     setStatus("Proszę przeglądarkę o pokazanie listy urządzeń odtwarzających...");
     try {
       const permissionState = await querySpeakerSelectionPermission();
       if (permissionState === "denied") {
+        setOutputDeviceStatus(
+          "Przeglądarka zablokowała uprawnienie wyboru urządzenia odtwarzającego dla tej strony.",
+        );
         setStatus(
           "Przeglądarka blokuje wybór urządzeń audio dla tej strony. Sprawdź uprawnienie wyboru głośnika i spróbuj ponownie.",
         );
         return;
       }
+      await requestAudioDeviceAccessIfNeeded();
       const device = await navigator.mediaDevices.selectAudioOutput();
       const selectedSinkId = normalizeSinkId(device?.deviceId);
       await refreshAudioOutputDevices();
-      await applyAudioOutputDevice(selectedSinkId);
+      const switched = await applyAudioOutputDevice(selectedSinkId);
+      if (!switched) {
+        setOutputDeviceStatus(
+          "Przeglądarka pokazała wybór urządzeń, ale nie udało się przełączyć wyjścia audio.",
+        );
+      }
     } catch (error) {
       if (error?.name === "AbortError") {
+        setOutputDeviceStatus("Wybór urządzenia został anulowany.");
         setStatus("Wybór urządzenia został anulowany w przeglądarce.");
         return;
       }
       if (error?.name === "NotAllowedError") {
+        setOutputDeviceStatus(
+          "Przeglądarka nie otworzyła listy urządzeń lub zablokowała to uprawnienie.",
+        );
         setStatus(
           "Przeglądarka nie pokazała wyboru urządzeń albo zablokowała to uprawnienie. W Chrome sprawdź ustawienia witryny i spróbuj ponownie.",
         );
         return;
       }
+      setOutputDeviceStatus(
+        `Nie udało się pobrać listy urządzeń odtwarzających: ${formatErrorMessage(error)}.`,
+      );
       setStatus(`Nie udało się pobrać listy urządzeń odtwarzających: ${error}`);
+    } finally {
+      outputDeviceChooser?.removeAttribute("aria-busy");
+    }
+  }
+
+  async function requestAudioDeviceAccessIfNeeded() {
+    if (!mediaPermissionSupported || !outputDeviceSelect) {
+      return;
+    }
+    if (outputDeviceSelect.options.length > 1) {
+      return;
+    }
+    let stream = null;
+    try {
+      setOutputDeviceStatus(
+        "Przeglądarka może poprosić jeszcze o zgodę na audio, aby ujawnić pełną listę urządzeń.",
+      );
+      stream = await navigator.mediaDevices.getUserMedia({ audio: true, video: false });
+      await refreshAudioOutputDevices({ announce: true });
+    } catch (error) {
+      setOutputDeviceStatus(
+        `Nie udało się odblokować pełnej listy urządzeń przez uprawnienie audio: ${formatErrorMessage(error)}.`,
+      );
+    } finally {
+      stream?.getTracks().forEach((track) => track.stop());
     }
   }
 
@@ -1071,5 +1134,19 @@
     } catch (_error) {
       // Ignore storage errors in private browsing or restricted contexts.
     }
+  }
+
+  function setOutputDeviceStatus(message) {
+    if (!outputDeviceStatusNode) {
+      return;
+    }
+    outputDeviceStatusNode.textContent = message;
+  }
+
+  function formatErrorMessage(error) {
+    if (error instanceof Error && error.message) {
+      return error.message;
+    }
+    return String(error);
   }
 })();

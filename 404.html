@@ -4,8 +4,8 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Radio Archiwista, odtwarzacz archiwów radiowych</title>
-    <link rel="stylesheet" href="./assets/player.css?v=6df95c00ccef" />
-    <script defer src="./assets/player.js?v=7bdcc694f1c4"></script>
+    <link rel="stylesheet" href="./assets/player.css?v=6497e42e6b54" />
+    <script defer src="./assets/player.js?v=711c91d93bce"></script>
   </head>
   <body>
     <main
@@ -184,6 +184,15 @@
                 <p id="player-output-device-hint" class="field-hint">
                   W Chrome i Edge pełna lista urządzeń może pojawić się dopiero po kliknięciu
                   przycisku obok i zatwierdzeniu wyboru w przeglądarce.
+                </p>
+                <p
+                  id="player-output-device-status"
+                  class="field-hint player-device-status"
+                  role="status"
+                  aria-live="polite"
+                  aria-atomic="true"
+                >
+                  Wspierane przeglądarki pozwalają wybrać wyjście audio bez zatrzymywania odtwarzania.
                 </p>
               </div>
               <a
