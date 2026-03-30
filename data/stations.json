@@ -1,10 +1,10 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-03-30T13:11:51.595077+00:00",
-  "latest_archive_hour_started_at": "2026-03-30T12:00:00+00:00",
+  "generated_at": "2026-03-30T14:02:03.450310+00:00",
+  "latest_archive_hour_started_at": "2026-03-30T13:00:00+00:00",
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-03-30T13:11:51.595077+00:00",
+  "published_at": "2026-03-30T14:02:03.450310+00:00",
   "station_count": 13,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -23,7 +23,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 21,
+      "archive_count": 22,
       "display_name": "Program 3",
       "public_name": "Polskie Radio Program 3",
       "slug": "pr3",
