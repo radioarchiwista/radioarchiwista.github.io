@@ -73,15 +73,15 @@
   "station_day_fingerprints": {
     "pr1": {
       "2026-3-29": "9:2026-03-30T04:31:32.531257+00:00",
-      "2026-3-30": "15:2026-03-30T13:31:45.169249+00:00"
+      "2026-3-30": "16:2026-03-30T14:06:04.175679+00:00"
     },
     "pr2": {
       "2026-3-29": "6:2026-03-30T04:31:32.766985+00:00",
-      "2026-3-30": "15:2026-03-30T13:31:45.429127+00:00"
+      "2026-3-30": "16:2026-03-30T14:06:06.965981+00:00"
     },
     "pr24": {
       "2026-3-29": "6:2026-03-30T04:31:33.082386+00:00",
-      "2026-3-30": "15:2026-03-30T13:31:45.737348+00:00"
+      "2026-3-30": "16:2026-03-30T14:02:42.898892+00:00"
     },
     "pr3": {
       "2026-3-29": "6:2026-03-30T04:31:32.951356+00:00",
@@ -122,21 +122,21 @@
   },
   "station_summaries": {
     "pr1": {
-      "archive_count": 24,
+      "archive_count": 25,
       "display_name": "Program 1",
       "public_name": "Polskie Radio Program 1",
       "slug": "pr1",
       "timezone": "Europe/Warsaw"
     },
     "pr2": {
-      "archive_count": 21,
+      "archive_count": 22,
       "display_name": "Program 2",
       "public_name": "Polskie Radio Program 2",
       "slug": "pr2",
       "timezone": "Europe/Warsaw"
     },
     "pr24": {
-      "archive_count": 21,
+      "archive_count": 22,
       "display_name": "Polskie Radio 24",
       "public_name": "Polskie Radio 24",
       "slug": "pr24",
