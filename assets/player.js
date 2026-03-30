@@ -26,8 +26,21 @@
   const youtubeSeekStepSeconds = 10;
   const stationsEndpoint =
     pageRoot?.dataset.playerStationsEndpoint || "/player/api/stations";
+  const stationIndexUrlTemplate =
+    pageRoot?.dataset.playerStationIndexTemplate || "";
+  const yearIndexUrlTemplate =
+    pageRoot?.dataset.playerYearIndexTemplate || "";
+  const monthIndexUrlTemplate =
+    pageRoot?.dataset.playerMonthIndexTemplate || "";
+  const dayCatalogUrlTemplate =
+    pageRoot?.dataset.playerDayCatalogTemplate || "";
   const catalogUrlTemplate =
     pageRoot?.dataset.playerCatalogUrlTemplate || "/player/api/stations/{slug}/catalog";
+  const hierarchicalCatalogEnabled =
+    Boolean(stationIndexUrlTemplate) &&
+    Boolean(yearIndexUrlTemplate) &&
+    Boolean(monthIndexUrlTemplate) &&
+    Boolean(dayCatalogUrlTemplate);
 
   if (
     !stationSelect ||
@@ -55,7 +68,13 @@
   }
 
   let stationCatalog = null;
+  let currentYearIndex = null;
+  let currentMonthIndex = null;
+  let currentDayCatalog = null;
   let selectedArchive = null;
+  const yearIndexCache = new Map();
+  const monthIndexCache = new Map();
+  const dayCatalogCache = new Map();
   const monthFormatter = new Intl.DateTimeFormat("pl-PL", {
     month: "long",
     timeZone: "UTC",
@@ -72,19 +91,16 @@
     await loadStationCatalog(slug);
   });
 
-  yearSelect.addEventListener("change", () => {
-    populateMonthOptions();
-    populateDayOptions();
-    populateHourOptions();
+  yearSelect.addEventListener("change", async () => {
+    await handleYearChange();
   });
 
-  monthSelect.addEventListener("change", () => {
-    populateDayOptions();
-    populateHourOptions();
+  monthSelect.addEventListener("change", async () => {
+    await handleMonthChange();
   });
 
-  daySelect.addEventListener("change", () => {
-    populateHourOptions();
+  daySelect.addEventListener("change", async () => {
+    await handleDayChange();
   });
 
   hourSelect.addEventListener("change", () => {
@@ -208,12 +224,11 @@
 
   async function loadStationCatalog(slug) {
     setStatus(`Ładuję katalog dla ${slug}...`);
+    clearDependentCatalogState();
     try {
-      const response = await fetch(buildCatalogUrl(slug));
-      if (!response.ok) {
-        throw new Error(`HTTP ${response.status}`);
-      }
-      stationCatalog = await response.json();
+      stationCatalog = hierarchicalCatalogEnabled
+        ? await fetchJson(buildTemplateUrl(stationIndexUrlTemplate, { slug }))
+        : await fetchJson(buildCatalogUrl(slug));
     } catch (error) {
       stationCatalog = null;
       setStatus(`Nie udało się pobrać katalogu archiwum: ${error}`);
@@ -225,11 +240,16 @@
     }
 
     populateYearOptions();
-    populateMonthOptions();
-    populateDayOptions();
-    populateHourOptions();
+    if (hierarchicalCatalogEnabled) {
+      await handleYearChange();
+    } else {
+      populateMonthOptions();
+      populateDayOptions();
+      populateHourOptions();
+    }
+    const archiveCount = stationCatalog?.station?.archive_count ?? stationCatalog?.archives?.length ?? 0;
     setStatus(
-      `Załadowano ${stationCatalog.archives.length} godzin dla ${stationCatalog.station.display_name}.`,
+      `Załadowano ${archiveCount} godzin dla ${stationCatalog.station.display_name}.`,
     );
   }
 
@@ -281,9 +301,11 @@
   }
 
   function populateYearOptions() {
-    const years = uniqueValues(stationCatalog.archives.map((archive) => archive.year)).sort(
-      (left, right) => right - left,
-    );
+    const years = hierarchicalCatalogEnabled
+      ? [...(stationCatalog?.years || [])]
+      : uniqueValues(stationCatalog.archives.map((archive) => archive.year)).sort(
+          (left, right) => right - left,
+        );
     fillSelect(yearSelect, years, (year) => ({
       value: String(year),
       label: String(year),
@@ -292,9 +314,11 @@
 
   function populateMonthOptions() {
     const selectedYear = Number(yearSelect.value);
-    const months = uniqueValues(
-      filteredArchives().map((archive) => archive.month),
-    ).sort((left, right) => left - right);
+    const months = hierarchicalCatalogEnabled
+      ? [...(currentYearIndex?.months || [])]
+      : uniqueValues(
+          filteredArchives().map((archive) => archive.month),
+        ).sort((left, right) => left - right);
     if (!selectedYear || months.length === 0) {
       clearSelect(monthSelect, "Wybierz miesiąc", true);
       clearSelect(daySelect, "Wybierz dzień", true);
@@ -309,9 +333,11 @@
 
   function populateDayOptions() {
     const selectedMonth = Number(monthSelect.value);
-    const days = uniqueValues(
-      filteredArchives().map((archive) => archive.day),
-    ).sort((left, right) => left - right);
+    const days = hierarchicalCatalogEnabled
+      ? [...(currentMonthIndex?.days || [])]
+      : uniqueValues(
+          filteredArchives().map((archive) => archive.day),
+        ).sort((left, right) => left - right);
     if (!selectedMonth || days.length === 0) {
       clearSelect(daySelect, "Wybierz dzień", true);
       clearSelect(hourSelect, "Wybierz godzinę", true);
@@ -325,7 +351,9 @@
 
   function populateHourOptions() {
     const selectedDay = Number(daySelect.value);
-    const archives = filteredArchives();
+    const archives = hierarchicalCatalogEnabled
+      ? [...(currentDayCatalog?.archives || [])]
+      : filteredArchives();
     if (!selectedDay || archives.length === 0) {
       clearSelect(hourSelect, "Wybierz godzinę", true);
       syncSelectedArchive();
@@ -349,6 +377,9 @@
     if (!stationCatalog) {
       return [];
     }
+    if (hierarchicalCatalogEnabled) {
+      return currentDayCatalog?.archives || [];
+    }
     const selectedYear = Number(yearSelect.value);
     const selectedMonth = Number(monthSelect.value);
     const selectedDay = Number(daySelect.value);
@@ -369,9 +400,10 @@
 
   function syncSelectedArchive() {
     const archiveId = Number(hourSelect.value);
-    selectedArchive = stationCatalog
-      ? stationCatalog.archives.find((archive) => archive.hourly_archive_id === archiveId) || null
-      : null;
+    const archives = hierarchicalCatalogEnabled
+      ? currentDayCatalog?.archives || []
+      : stationCatalog?.archives || [];
+    selectedArchive = archives.find((archive) => archive.hourly_archive_id === archiveId) || null;
     loadButton.disabled = !selectedArchive;
     if (selectedArchive) {
       setStatus(
@@ -403,6 +435,7 @@
 
   function resetArchiveSelection() {
     stationCatalog = null;
+    clearDependentCatalogState();
     selectedArchive = null;
     clearSelect(yearSelect, "Wybierz rok", true);
     clearSelect(monthSelect, "Wybierz miesiąc", true);
@@ -425,6 +458,86 @@
       "Po załadowaniu zobaczysz tutaj datę i godzinę w lokalnym czasie stacji.";
     playButton.textContent = "Odtwórz";
     setPlayerLoadedState(false);
+  }
+
+  async function handleYearChange() {
+    if (!hierarchicalCatalogEnabled) {
+      populateMonthOptions();
+      populateDayOptions();
+      populateHourOptions();
+      return;
+    }
+    const slug = stationSelect.value;
+    const year = Number(yearSelect.value);
+    currentYearIndex = null;
+    currentMonthIndex = null;
+    currentDayCatalog = null;
+    clearSelect(monthSelect, "Wybierz miesiąc", true);
+    clearSelect(daySelect, "Wybierz dzień", true);
+    clearSelect(hourSelect, "Wybierz godzinę", true);
+    syncSelectedArchive();
+    if (!slug || !year) {
+      return;
+    }
+    try {
+      currentYearIndex = await fetchYearIndex(slug, year);
+    } catch (error) {
+      setStatus(`Nie udało się pobrać miesięcy: ${error}`);
+      return;
+    }
+    populateMonthOptions();
+    await handleMonthChange();
+  }
+
+  async function handleMonthChange() {
+    if (!hierarchicalCatalogEnabled) {
+      populateDayOptions();
+      populateHourOptions();
+      return;
+    }
+    const slug = stationSelect.value;
+    const year = Number(yearSelect.value);
+    const month = Number(monthSelect.value);
+    currentMonthIndex = null;
+    currentDayCatalog = null;
+    clearSelect(daySelect, "Wybierz dzień", true);
+    clearSelect(hourSelect, "Wybierz godzinę", true);
+    syncSelectedArchive();
+    if (!slug || !year || !month) {
+      return;
+    }
+    try {
+      currentMonthIndex = await fetchMonthIndex(slug, year, month);
+    } catch (error) {
+      setStatus(`Nie udało się pobrać dni: ${error}`);
+      return;
+    }
+    populateDayOptions();
+    await handleDayChange();
+  }
+
+  async function handleDayChange() {
+    if (!hierarchicalCatalogEnabled) {
+      populateHourOptions();
+      return;
+    }
+    const slug = stationSelect.value;
+    const year = Number(yearSelect.value);
+    const month = Number(monthSelect.value);
+    const day = Number(daySelect.value);
+    currentDayCatalog = null;
+    clearSelect(hourSelect, "Wybierz godzinę", true);
+    syncSelectedArchive();
+    if (!slug || !year || !month || !day) {
+      return;
+    }
+    try {
+      currentDayCatalog = await fetchDayCatalog(slug, year, month, day);
+    } catch (error) {
+      setStatus(`Nie udało się pobrać godzin: ${error}`);
+      return;
+    }
+    populateHourOptions();
   }
 
   function clearSelect(select, placeholder, disabled) {
@@ -554,6 +667,78 @@
 
   function buildCatalogUrl(slug) {
     return catalogUrlTemplate.replace("{slug}", encodeURIComponent(slug));
+  }
+
+  function buildTemplateUrl(template, replacements) {
+    return Object.entries(replacements).reduce(
+      (url, [key, value]) => url.replaceAll(`{${key}}`, encodeURIComponent(String(value))),
+      template,
+    );
+  }
+
+  async function fetchJson(url) {
+    const response = await fetch(url);
+    if (!response.ok) {
+      throw new Error(`HTTP ${response.status}`);
+    }
+    return response.json();
+  }
+
+  async function fetchYearIndex(slug, year) {
+    const cacheKey = `${slug}:${year}`;
+    if (yearIndexCache.has(cacheKey)) {
+      return yearIndexCache.get(cacheKey);
+    }
+    const payload = await fetchJson(
+      buildTemplateUrl(yearIndexUrlTemplate, {
+        slug,
+        year,
+      }),
+    );
+    yearIndexCache.set(cacheKey, payload);
+    return payload;
+  }
+
+  async function fetchMonthIndex(slug, year, month) {
+    const cacheKey = `${slug}:${year}:${month}`;
+    if (monthIndexCache.has(cacheKey)) {
+      return monthIndexCache.get(cacheKey);
+    }
+    const payload = await fetchJson(
+      buildTemplateUrl(monthIndexUrlTemplate, {
+        slug,
+        year,
+        month,
+      }),
+    );
+    monthIndexCache.set(cacheKey, payload);
+    return payload;
+  }
+
+  async function fetchDayCatalog(slug, year, month, day) {
+    const cacheKey = `${slug}:${year}:${month}:${day}`;
+    if (dayCatalogCache.has(cacheKey)) {
+      return dayCatalogCache.get(cacheKey);
+    }
+    const payload = await fetchJson(
+      buildTemplateUrl(dayCatalogUrlTemplate, {
+        slug,
+        year,
+        month,
+        day,
+      }),
+    );
+    dayCatalogCache.set(cacheKey, payload);
+    return payload;
+  }
+
+  function clearDependentCatalogState() {
+    currentYearIndex = null;
+    currentMonthIndex = null;
+    currentDayCatalog = null;
+    yearIndexCache.clear();
+    monthIndexCache.clear();
+    dayCatalogCache.clear();
   }
 
   function formatMonthLabel(month) {

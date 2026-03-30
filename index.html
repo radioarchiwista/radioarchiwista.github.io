@@ -11,6 +11,10 @@
     <main
       class="page player-page"
       data-player-stations-endpoint="./data/stations.json"
+      data-player-station-index-template="./data/stations/{slug}/index.json"
+      data-player-year-index-template="./data/stations/{slug}/{year}/index.json"
+      data-player-month-index-template="./data/stations/{slug}/{year}/{month}/index.json"
+      data-player-day-catalog-template="./data/stations/{slug}/{year}/{month}/{day}.json"
       data-player-catalog-url-template="./data/stations/{slug}.json"
     >
       <header class="hero">
