@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-03-30T19:15:06.901362+00:00",
+  "generated_at": "2026-03-30T19:15:18.918906+00:00",
   "latest_archive_hour_expected_station_count": 38,
   "latest_archive_hour_started_at": "2026-03-30T18:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -9,10 +9,11 @@
     "TOK FM",
     "Radio Gdańsk",
     "Radio Kielce",
-    "Radio Kraków"
+    "Radio Kraków",
+    "Radio Lublin"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-03-30T19:15:06.901362+00:00",
+  "published_at": "2026-03-30T19:15:18.918906+00:00",
   "station_count": 37,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -178,7 +179,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 2,
+      "archive_count": 3,
       "display_name": "Radio Lublin",
       "public_name": "Radio Lublin",
       "slug": "radiolublin",
