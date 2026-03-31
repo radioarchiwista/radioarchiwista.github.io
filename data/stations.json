@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-03-31T04:23:15.869548+00:00",
+  "generated_at": "2026-03-31T04:24:40.162860+00:00",
   "latest_archive_hour_expected_station_count": 38,
   "latest_archive_hour_started_at": "2026-03-31T03:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -21,10 +21,11 @@
     "Radio Katowice",
     "Radio Kielce",
     "Radio Koszalin",
-    "Radio Kraków"
+    "Radio Kraków",
+    "Radio Łódź"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-03-31T04:23:15.869548+00:00",
+  "published_at": "2026-03-31T04:24:40.162860+00:00",
   "station_count": 37,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -274,7 +275,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 13,
+      "archive_count": 14,
       "display_name": "Radio Łódź",
       "public_name": "Radio Łódź",
       "slug": "radiolodz",
