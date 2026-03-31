@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-03-31T17:21:32.679979+00:00",
+  "generated_at": "2026-03-31T17:22:32.361150+00:00",
   "latest_archive_hour_expected_station_count": 38,
   "latest_archive_hour_started_at": "2026-03-31T16:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -17,10 +17,11 @@
     "Radio Gdańsk",
     "Radio Index",
     "Radio Kampus",
-    "Radio Katowice"
+    "Radio Katowice",
+    "Radio Kielce"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-03-31T17:21:32.679979+00:00",
+  "published_at": "2026-03-31T17:22:32.361150+00:00",
   "station_count": 38,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -165,7 +166,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 22,
+      "archive_count": 23,
       "display_name": "Radio Kielce",
       "public_name": "Radio Kielce",
       "slug": "radiokielce",
