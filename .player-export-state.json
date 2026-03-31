@@ -202,7 +202,7 @@
   ],
   "station_day_fingerprints": {
     "afera": {
-      "2026-3-30": "4:2026-03-31T12:17:46.664642+00:00",
+      "2026-3-30": "5:2026-03-31T14:10:55.639820+00:00",
       "2026-3-31": "14:2026-03-31T13:19:21.936623+00:00"
     },
     "pr1": {
@@ -227,15 +227,15 @@
     },
     "radio357": {
       "2026-3-29": "1:2026-03-31T09:57:11.871001+00:00",
-      "2026-3-30": "8:2026-03-31T12:17:46.461419+00:00",
-      "2026-3-31": "3:2026-03-31T13:20:50.451042+00:00"
+      "2026-3-30": "9:2026-03-31T14:10:55.639820+00:00",
+      "2026-3-31": "4:2026-03-31T14:10:55.639820+00:00"
     },
     "radioakadera": {
       "2026-3-30": "5:2026-03-31T08:17:33.285081+00:00",
       "2026-3-31": "13:2026-03-31T13:21:24.079626+00:00"
     },
     "radiobialystok": {
-      "2026-3-30": "2:2026-03-31T12:47:48.230750+00:00",
+      "2026-3-30": "3:2026-03-31T14:10:55.639820+00:00",
       "2026-3-31": "2:2026-03-31T13:21:53.277455+00:00"
     },
     "radiocentrumlublin": {
@@ -287,7 +287,7 @@
     },
     "radioluz": {
       "2026-3-30": "5:2026-03-31T07:17:30.020335+00:00",
-      "2026-3-31": "12:2026-03-31T13:32:20.728283+00:00"
+      "2026-3-31": "14:2026-03-31T14:10:55.639820+00:00"
     },
     "radioolsztyn": {
       "2026-3-30": "5:2026-03-31T08:27:08.584398+00:00",
@@ -307,7 +307,7 @@
     },
     "radiorzeszow": {
       "2026-3-30": "5:2026-03-31T08:17:33.111805+00:00",
-      "2026-3-31": "13:2026-03-31T13:47:51.832173+00:00"
+      "2026-3-31": "14:2026-03-31T14:10:55.639820+00:00"
     },
     "radioslupsk": {
       "2026-3-30": "6:2026-03-31T12:47:48.350472+00:00",
@@ -322,7 +322,7 @@
       "2026-3-31": "14:2026-03-31T13:50:27.259473+00:00"
     },
     "radiozachod": {
-      "2026-3-31": "5:2026-03-31T14:06:10.729609+00:00"
+      "2026-3-31": "6:2026-03-31T14:10:55.639820+00:00"
     },
     "radiozak": {
       "2026-3-30": "5:2026-03-31T07:57:07.070918+00:00",
@@ -338,7 +338,7 @@
     "republika": {
       "2026-3-29": "2:2026-03-31T09:57:13.188604+00:00",
       "2026-3-30": "19:2026-03-31T12:17:46.623508+00:00",
-      "2026-3-31": "13:2026-03-31T13:47:51.523212+00:00"
+      "2026-3-31": "14:2026-03-31T14:10:55.639820+00:00"
     },
     "rns": {
       "2026-3-29": "2:2026-03-31T09:57:13.098323+00:00",
@@ -352,13 +352,13 @@
     },
     "wnet": {
       "2026-3-29": "2:2026-03-30T04:31:33.286171+00:00",
-      "2026-3-30": "18:2026-03-31T12:17:46.544203+00:00",
+      "2026-3-30": "19:2026-03-31T14:10:55.639820+00:00",
       "2026-3-31": "14:2026-03-31T13:47:51.498753+00:00"
     }
   },
   "station_summaries": {
     "afera": {
-      "archive_count": 18,
+      "archive_count": 19,
       "display_name": "Radio Afera",
       "public_name": "Radio Afera",
       "slug": "afera",
@@ -393,7 +393,7 @@
       "timezone": "Europe/Warsaw"
     },
     "radio357": {
-      "archive_count": 12,
+      "archive_count": 14,
       "display_name": "Radio 357",
       "public_name": "Radio 357",
       "slug": "radio357",
@@ -407,7 +407,7 @@
       "timezone": "Europe/Warsaw"
     },
     "radiobialystok": {
-      "archive_count": 4,
+      "archive_count": 5,
       "display_name": "Radio Białystok",
       "public_name": "Radio Białystok",
       "slug": "radiobialystok",
@@ -498,7 +498,7 @@
       "timezone": "Europe/Warsaw"
     },
     "radioluz": {
-      "archive_count": 17,
+      "archive_count": 19,
       "display_name": "Radio Luz",
       "public_name": "Radio Luz",
       "slug": "radioluz",
@@ -533,7 +533,7 @@
       "timezone": "Europe/Warsaw"
     },
     "radiorzeszow": {
-      "archive_count": 18,
+      "archive_count": 19,
       "display_name": "Radio Rzeszów",
       "public_name": "Radio Rzeszów",
       "slug": "radiorzeszow",
@@ -561,7 +561,7 @@
       "timezone": "Europe/Warsaw"
     },
     "radiozachod": {
-      "archive_count": 5,
+      "archive_count": 6,
       "display_name": "Radio Zachód",
       "public_name": "Radio Zachód",
       "slug": "radiozachod",
@@ -589,7 +589,7 @@
       "timezone": "Europe/Warsaw"
     },
     "republika": {
-      "archive_count": 34,
+      "archive_count": 35,
       "display_name": "Radio Republika",
       "public_name": "Radio Republika",
       "slug": "republika",
@@ -610,7 +610,7 @@
       "timezone": "Europe/Warsaw"
     },
     "wnet": {
-      "archive_count": 34,
+      "archive_count": 35,
       "display_name": "Radio Wnet",
       "public_name": "Radio Wnet",
       "slug": "wnet",
