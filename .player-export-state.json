@@ -152,6 +152,7 @@
     "data/stations/radioszczecin/2026/3/index.json",
     "data/stations/radioszczecin/2026/index.json",
     "data/stations/radioszczecin/index.json",
+    "data/stations/radiouwmfm/2026/3/30.json",
     "data/stations/radiouwmfm/2026/3/31.json",
     "data/stations/radiouwmfm/2026/3/index.json",
     "data/stations/radiouwmfm/2026/index.json",
@@ -326,6 +327,7 @@
       "2026-3-31": "20:2026-03-31T19:59:47.882823+00:00"
     },
     "radiouwmfm": {
+      "2026-3-30": "2:2026-03-31T20:12:56.338077+00:00",
       "2026-3-31": "4:2026-03-31T17:21:27.420571+00:00"
     },
     "radiowroclaw": {
@@ -567,7 +569,7 @@
       "timezone": "Europe/Warsaw"
     },
     "radiouwmfm": {
-      "archive_count": 4,
+      "archive_count": 6,
       "display_name": "Radio UWM FM",
       "public_name": "Radio UWM FM",
       "slug": "radiouwmfm",
