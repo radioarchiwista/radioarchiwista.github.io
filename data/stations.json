@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-03-31T13:08:49.303944+00:00",
+  "generated_at": "2026-03-31T13:12:56.701464+00:00",
   "latest_archive_hour_expected_station_count": 38,
   "latest_archive_hour_started_at": "2026-03-31T11:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -11,8 +11,8 @@
     "Polskie Radio 24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-03-31T13:08:49.303944+00:00",
-  "station_count": 36,
+  "published_at": "2026-03-31T13:12:56.701464+00:00",
+  "station_count": 37,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
     {
@@ -135,7 +135,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 13,
+      "archive_count": 14,
       "display_name": "Radio Index",
       "public_name": "Radio Index",
       "slug": "radioindex",
@@ -251,6 +251,13 @@
       "display_name": "Radio Zachód",
       "public_name": "Radio Zachód",
       "slug": "radiozachod",
+      "timezone": "Europe/Warsaw"
+    },
+    {
+      "archive_count": 1,
+      "display_name": "Radio Zielona Góra",
+      "public_name": "Radio Zielona Góra",
+      "slug": "radiozielonagora",
       "timezone": "Europe/Warsaw"
     },
     {
