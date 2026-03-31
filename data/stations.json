@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-03-31T03:19:54.447221+00:00",
+  "generated_at": "2026-03-31T03:23:24.901850+00:00",
   "latest_archive_hour_expected_station_count": 38,
   "latest_archive_hour_started_at": "2026-03-31T01:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -38,7 +38,7 @@
     "Radio Łódź"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-03-31T03:19:54.447221+00:00",
+  "published_at": "2026-03-31T03:23:24.901850+00:00",
   "station_count": 37,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -99,7 +99,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 30,
+      "archive_count": 31,
       "display_name": "Radio Republika",
       "public_name": "Radio Republika",
       "slug": "republika",
@@ -218,7 +218,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 11,
+      "archive_count": 12,
       "display_name": "Radio Olsztyn",
       "public_name": "Radio Olsztyn",
       "slug": "radioolsztyn",
@@ -274,7 +274,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 11,
+      "archive_count": 12,
       "display_name": "Radio Zachód",
       "public_name": "Radio Zachód",
       "slug": "radiozachod",
