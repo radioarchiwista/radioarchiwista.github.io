@@ -178,6 +178,7 @@
     "data/stations/rdc/index.json",
     "data/stations/republika/2026/3/29.json",
     "data/stations/republika/2026/3/30.json",
+    "data/stations/republika/2026/3/31.json",
     "data/stations/republika/2026/3/index.json",
     "data/stations/republika/2026/index.json",
     "data/stations/republika/index.json",
@@ -337,7 +338,8 @@
     },
     "republika": {
       "2026-3-29": "5:2026-03-30T04:31:33.342545+00:00",
-      "2026-3-30": "23:2026-03-30T23:22:17.707573+00:00"
+      "2026-3-30": "23:2026-03-30T23:22:17.707573+00:00",
+      "2026-3-31": "1:2026-03-31T00:06:14.885791+00:00"
     },
     "rns": {
       "2026-3-29": "5:2026-03-30T04:31:33.269663+00:00",
@@ -585,7 +587,7 @@
       "timezone": "Europe/Warsaw"
     },
     "republika": {
-      "archive_count": 28,
+      "archive_count": 29,
       "display_name": "Radio Republika",
       "public_name": "Radio Republika",
       "slug": "republika",
