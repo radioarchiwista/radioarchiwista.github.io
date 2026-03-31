@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-03-31T03:44:50.723329+00:00",
+  "generated_at": "2026-03-31T03:45:47.706351+00:00",
   "latest_archive_hour_expected_station_count": 38,
   "latest_archive_hour_started_at": "2026-03-31T02:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -25,11 +25,14 @@
     "Radio Lublin",
     "Radio Luz",
     "Radio Olsztyn",
+    "Radio Opole",
     "Radio PiK",
+    "Radio Poznań",
+    "Radio Rzeszów",
     "Radio Łódź"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-03-31T03:44:50.723329+00:00",
+  "published_at": "2026-03-31T03:45:47.706351+00:00",
   "station_count": 37,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -216,7 +219,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 11,
+      "archive_count": 12,
       "display_name": "Radio Opole",
       "public_name": "Radio Opole",
       "slug": "radioopole",
@@ -230,14 +233,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 12,
+      "archive_count": 13,
       "display_name": "Radio Poznań",
       "public_name": "Radio Poznań",
       "slug": "radiopoznan",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 12,
+      "archive_count": 13,
       "display_name": "Radio Rzeszów",
       "public_name": "Radio Rzeszów",
       "slug": "radiorzeszow",
