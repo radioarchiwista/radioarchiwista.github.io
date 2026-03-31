@@ -203,7 +203,7 @@
   "station_day_fingerprints": {
     "afera": {
       "2026-3-30": "5:2026-03-31T14:17:53.369315+00:00",
-      "2026-3-31": "15:2026-03-31T15:17:57.086747+00:00"
+      "2026-3-31": "16:2026-03-31T15:25:03.116572+00:00"
     },
     "pr1": {
       "2026-3-29": "8:2026-03-30T04:31:32.531257+00:00",
@@ -275,11 +275,11 @@
     },
     "radiokrakow": {
       "2026-3-30": "5:2026-03-31T12:47:48.413717+00:00",
-      "2026-3-31": "15:2026-03-31T14:50:45.667795+00:00"
+      "2026-3-31": "16:2026-03-31T15:24:23.281590+00:00"
     },
     "radiolodz": {
       "2026-3-30": "6:2026-03-31T12:47:48.490537+00:00",
-      "2026-3-31": "15:2026-03-31T14:51:54.339022+00:00"
+      "2026-3-31": "16:2026-03-31T15:25:10.970540+00:00"
     },
     "radiolublin": {
       "2026-3-30": "6:2026-03-31T12:47:48.439627+00:00",
@@ -358,7 +358,7 @@
   },
   "station_summaries": {
     "afera": {
-      "archive_count": 20,
+      "archive_count": 21,
       "display_name": "Radio Afera",
       "public_name": "Radio Afera",
       "slug": "afera",
@@ -477,14 +477,14 @@
       "timezone": "Europe/Warsaw"
     },
     "radiokrakow": {
-      "archive_count": 20,
+      "archive_count": 21,
       "display_name": "Radio Kraków",
       "public_name": "Radio Kraków",
       "slug": "radiokrakow",
       "timezone": "Europe/Warsaw"
     },
     "radiolodz": {
-      "archive_count": 21,
+      "archive_count": 22,
       "display_name": "Radio Łódź",
       "public_name": "Radio Łódź",
       "slug": "radiolodz",
