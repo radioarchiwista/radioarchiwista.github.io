@@ -172,6 +172,7 @@
     "data/stations/radiozielonagora/2026/index.json",
     "data/stations/radiozielonagora/index.json",
     "data/stations/rdc/2026/3/30.json",
+    "data/stations/rdc/2026/3/31.json",
     "data/stations/rdc/2026/3/index.json",
     "data/stations/rdc/2026/index.json",
     "data/stations/rdc/index.json",
@@ -331,7 +332,8 @@
       "2026-3-31": "1:2026-03-31T00:04:02.000485+00:00"
     },
     "rdc": {
-      "2026-3-30": "10:2026-03-30T22:45:45.377179+00:00"
+      "2026-3-30": "10:2026-03-30T22:45:45.377179+00:00",
+      "2026-3-31": "1:2026-03-31T00:05:27.348035+00:00"
     },
     "republika": {
       "2026-3-29": "5:2026-03-30T04:31:33.342545+00:00",
@@ -576,7 +578,7 @@
       "timezone": "Europe/Warsaw"
     },
     "rdc": {
-      "archive_count": 10,
+      "archive_count": 11,
       "display_name": "Radio Dla Ciebie",
       "public_name": "Radio Dla Ciebie",
       "slug": "rdc",
