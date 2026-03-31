@@ -1,8 +1,8 @@
 {
-  "archive_count": 552,
+  "archive_count": 553,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-03-31T00:44:59.197518+00:00",
+  "generated_at": "2026-03-31T00:45:45.895999+00:00",
   "latest_archive_hour_expected_station_count": 38,
   "latest_archive_hour_started_at": "2026-03-30T23:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -30,10 +30,11 @@
     "Radio PiK",
     "Radio Poznań",
     "Radio Rzeszów",
+    "Radio Słupsk",
     "Radio Łódź"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-03-31T00:44:59.197518+00:00",
+  "published_at": "2026-03-31T00:45:45.895999+00:00",
   "station_count": 37,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
