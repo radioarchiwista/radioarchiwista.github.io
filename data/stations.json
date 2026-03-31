@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-03-31T21:36:30.518803+00:00",
+  "generated_at": "2026-03-31T21:37:47.787655+00:00",
   "latest_archive_hour_expected_station_count": 38,
   "latest_archive_hour_started_at": "2026-03-31T20:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -28,10 +28,11 @@
     "Radio Olsztyn",
     "Radio Opole",
     "Radio PiK",
+    "Radio Poznań",
     "Radio Łódź"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-03-31T21:36:30.518803+00:00",
+  "published_at": "2026-03-31T21:37:47.787655+00:00",
   "station_count": 38,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -232,7 +233,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 27,
+      "archive_count": 28,
       "display_name": "Radio Poznań",
       "public_name": "Radio Poznań",
       "slug": "radiopoznan",
