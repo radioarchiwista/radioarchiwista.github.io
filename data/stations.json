@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-03-31T15:35:20.257668+00:00",
+  "generated_at": "2026-03-31T15:35:40.451520+00:00",
   "latest_archive_hour_expected_station_count": 38,
   "latest_archive_hour_started_at": "2026-03-31T14:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -29,10 +29,11 @@
     "Radio PiK",
     "Radio Poznań",
     "Radio Rzeszów",
+    "Radio Słupsk",
     "Radio Łódź"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-03-31T15:35:20.257668+00:00",
+  "published_at": "2026-03-31T15:35:40.451520+00:00",
   "station_count": 37,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -254,7 +255,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 21,
+      "archive_count": 22,
       "display_name": "Radio Słupsk",
       "public_name": "Radio Słupsk",
       "slug": "radioslupsk",
