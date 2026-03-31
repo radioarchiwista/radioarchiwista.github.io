@@ -47,6 +47,10 @@
     "data/stations/radioakadera/2026/3/index.json",
     "data/stations/radioakadera/2026/index.json",
     "data/stations/radioakadera/index.json",
+    "data/stations/radiobialystok/2026/3/31.json",
+    "data/stations/radiobialystok/2026/3/index.json",
+    "data/stations/radiobialystok/2026/index.json",
+    "data/stations/radiobialystok/index.json",
     "data/stations/radiocentrumlublin/2026/3/30.json",
     "data/stations/radiocentrumlublin/2026/3/31.json",
     "data/stations/radiocentrumlublin/2026/3/index.json",
@@ -215,6 +219,9 @@
       "2026-3-30": "5:2026-03-31T08:17:33.285081+00:00",
       "2026-3-31": "11:2026-03-31T11:17:43.505856+00:00"
     },
+    "radiobialystok": {
+      "2026-3-31": "1:2026-03-31T12:00:44.245526+00:00"
+    },
     "radiocentrumlublin": {
       "2026-3-30": "5:2026-03-31T08:17:33.234279+00:00",
       "2026-3-31": "11:2026-03-31T10:17:40.498160+00:00"
@@ -370,6 +377,13 @@
       "display_name": "Radio Akadera",
       "public_name": "Radio Akadera",
       "slug": "radioakadera",
+      "timezone": "Europe/Warsaw"
+    },
+    "radiobialystok": {
+      "archive_count": 1,
+      "display_name": "Radio Białystok",
+      "public_name": "Radio Białystok",
+      "slug": "radiobialystok",
       "timezone": "Europe/Warsaw"
     },
     "radiocentrumlublin": {
