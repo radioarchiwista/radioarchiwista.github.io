@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-03-31T02:53:50.405282+00:00",
+  "generated_at": "2026-03-31T02:54:25.774819+00:00",
   "latest_archive_hour_expected_station_count": 38,
   "latest_archive_hour_started_at": "2026-03-31T01:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -20,10 +20,11 @@
     "Radio Index",
     "Radio Katowice",
     "Radio Kraków",
-    "Radio Lublin"
+    "Radio Lublin",
+    "Radio Poznań"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-03-31T02:53:50.405282+00:00",
+  "published_at": "2026-03-31T02:54:25.774819+00:00",
   "station_count": 37,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -77,7 +78,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 30,
+      "archive_count": 29,
       "display_name": "Radio Wnet",
       "public_name": "Radio Wnet",
       "slug": "wnet",
@@ -224,7 +225,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 11,
+      "archive_count": 12,
       "display_name": "Radio Poznań",
       "public_name": "Radio Poznań",
       "slug": "radiopoznan",
