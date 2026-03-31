@@ -1,20 +1,22 @@
 {
-  "archive_count": 598,
+  "archive_count": 600,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-03-31T12:02:02.147106+00:00",
+  "generated_at": "2026-03-31T12:03:05.851911+00:00",
   "latest_archive_hour_expected_station_count": 38,
   "latest_archive_hour_started_at": "2026-03-31T10:00:00+00:00",
   "latest_archive_hour_stations": [
     "Radio 357",
     "Radio Afera",
     "Radio Białystok",
+    "Radio Dla Ciebie",
     "Radio Gdańsk",
     "Radio Katowice",
-    "Radio Kielce"
+    "Radio Kielce",
+    "Radio Poznań"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-03-31T12:02:02.147106+00:00",
+  "published_at": "2026-03-31T12:03:05.851911+00:00",
   "station_count": 34,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
