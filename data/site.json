@@ -1,8 +1,8 @@
 {
-  "archive_count": 883,
+  "archive_count": 885,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-03-31T17:22:32.361150+00:00",
+  "generated_at": "2026-03-31T17:24:54.799089+00:00",
   "latest_archive_hour_expected_station_count": 38,
   "latest_archive_hour_started_at": "2026-03-31T16:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -19,10 +19,12 @@
     "Radio Index",
     "Radio Kampus",
     "Radio Katowice",
-    "Radio Kielce"
+    "Radio Kielce",
+    "Radio Koszalin",
+    "Radio Kraków"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-03-31T17:22:32.361150+00:00",
+  "published_at": "2026-03-31T17:24:54.799089+00:00",
   "station_count": 38,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
