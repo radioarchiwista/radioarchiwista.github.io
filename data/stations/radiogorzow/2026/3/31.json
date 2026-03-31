@@ -2,6 +2,29 @@
   "archives": [
     {
       "archive_item_identifier": "radiogorzow-2026-03-31",
+      "audio_url": "https://archive.org/download/radiogorzow-2026-03-31/2026-03-31T01-00-00Z.mp3",
+      "completeness_ratio": 0.9995,
+      "day": 31,
+      "download_url": "https://archive.org/download/radiogorzow-2026-03-31/2026-03-31T01-00-00Z.mp3",
+      "duration_seconds": 3572.136,
+      "hour": 3,
+      "hourly_archive_id": 1286,
+      "local_date_label": "31.03.2026",
+      "local_hour_label": "03:00",
+      "local_label": "2026-03-31 03:00 CEST",
+      "local_started_at": "2026-03-31T03:00:00+02:00",
+      "local_timezone_label": "CEST",
+      "month": 3,
+      "published_at": "2026-03-31T02:41:23.499065+00:00",
+      "published_local_label": "2026-03-31 04:41 CEST",
+      "remote_filename": "2026-03-31T01-00-00Z.mp3",
+      "status": "published",
+      "utc_label": "2026-03-31 01:00 UTC",
+      "utc_started_at": "2026-03-31T01:00:00+00:00",
+      "year": 2026
+    },
+    {
+      "archive_item_identifier": "radiogorzow-2026-03-31",
       "audio_url": "https://archive.org/download/radiogorzow-2026-03-31/2026-03-31T02-00-00Z.mp3",
       "completeness_ratio": 0.9984,
       "day": 31,
@@ -307,7 +330,7 @@
   "month": 3,
   "published_at": "2026-03-31T16:16:36.591852+00:00",
   "station": {
-    "archive_count": 13,
+    "archive_count": 14,
     "display_name": "Radio Gorzów",
     "public_name": "Radio Gorzów",
     "slug": "radiogorzow",
