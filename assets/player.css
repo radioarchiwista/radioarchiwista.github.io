@@ -731,6 +731,109 @@ textarea {
   text-align: center;
 }
 
+.feed-layout {
+  display: grid;
+  gap: 1.75rem;
+  grid-template-columns: minmax(320px, 430px) minmax(0, 1fr);
+  align-items: start;
+  margin-top: 1.5rem;
+}
+
+.feed-sidebar {
+  display: grid;
+  gap: 1.25rem;
+  position: sticky;
+  top: 1rem;
+}
+
+.feed-main {
+  display: grid;
+  gap: 1.25rem;
+}
+
+.feed-main-header {
+  padding-bottom: 1rem;
+  border-bottom: 1px solid rgba(213, 205, 191, 0.7);
+}
+
+.feed-builder-status {
+  margin: 0;
+}
+
+.feed-rule-section {
+  display: grid;
+  gap: 1rem;
+}
+
+.feed-rule-header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 0.75rem;
+  align-items: center;
+}
+
+.feed-rule-list {
+  display: grid;
+  gap: 1rem;
+}
+
+.feed-rule-card {
+  display: grid;
+  gap: 0.9rem;
+  margin: 0;
+  padding: 1rem;
+  border: 1px solid rgba(15, 92, 75, 0.16);
+  border-radius: 1rem;
+  background: rgba(255, 255, 255, 0.76);
+}
+
+.feed-rule-legend {
+  padding: 0 0.35rem;
+  font-family: "IBM Plex Serif", Georgia, serif;
+  font-size: 1.05rem;
+  font-weight: 700;
+}
+
+.feed-rule-actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 0.75rem;
+  align-items: center;
+}
+
+.feed-inline-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  align-items: center;
+}
+
+.feed-inline-actions input {
+  flex: 1 1 18rem;
+}
+
+.feed-form-actions {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.feed-result-panel {
+  display: grid;
+  gap: 1rem;
+}
+
+.feed-token-output {
+  min-height: 5.75rem;
+  font-family: "IBM Plex Mono", "SFMono-Regular", monospace;
+}
+
+.feed-help {
+  padding-top: 1rem;
+  border-top: 1px solid rgba(213, 205, 191, 0.7);
+}
+
 input[type="range"] {
   padding: 0;
 }
@@ -775,6 +878,15 @@ input[type="range"] {
   }
 
   .player-sidebar {
+    position: static;
+    top: auto;
+  }
+
+  .feed-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .feed-sidebar {
     position: static;
     top: auto;
   }
