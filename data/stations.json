@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-03-31T15:42:38.673565+00:00",
+  "generated_at": "2026-03-31T15:44:51.774982+00:00",
   "latest_archive_hour_expected_station_count": 38,
   "latest_archive_hour_started_at": "2026-03-31T14:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -10,11 +10,13 @@
     "Program 3",
     "Polskie Radio 24",
     "Radio 357",
+    "Radio Republika",
     "Radio Afera",
     "Radio Akadera",
     "Radio Białystok",
     "Radio Centrum Lublin",
     "Radio Centrum Rzeszów",
+    "Radio Dla Ciebie",
     "Radio Gdańsk",
     "Radio Gorzów",
     "Radio Index",
@@ -39,7 +41,7 @@
     "Radio Żak"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-03-31T15:42:38.673565+00:00",
+  "published_at": "2026-03-31T15:44:51.774982+00:00",
   "station_count": 37,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -100,7 +102,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 35,
+      "archive_count": 36,
       "display_name": "Radio Republika",
       "public_name": "Radio Republika",
       "slug": "republika",
@@ -142,7 +144,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 17,
+      "archive_count": 18,
       "display_name": "Radio Dla Ciebie",
       "public_name": "Radio Dla Ciebie",
       "slug": "rdc",
