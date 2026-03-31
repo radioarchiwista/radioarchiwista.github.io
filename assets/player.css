@@ -778,6 +778,11 @@ textarea {
   gap: 1rem;
 }
 
+.feed-rule-add-row {
+  display: flex;
+  justify-content: flex-start;
+}
+
 .feed-rule-card {
   display: grid;
   gap: 0.9rem;

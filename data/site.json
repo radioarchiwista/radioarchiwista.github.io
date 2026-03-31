@@ -1,8 +1,8 @@
 {
-  "archive_count": 1000,
+  "archive_count": 1001,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-03-31T19:47:50.750787+00:00",
+  "generated_at": "2026-03-31T19:48:58.643751+00:00",
   "latest_archive_hour_expected_station_count": 38,
   "latest_archive_hour_started_at": "2026-03-31T18:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -12,6 +12,7 @@
     "Polskie Radio 24",
     "Radio 357",
     "Radio Nowy Świat",
+    "TOK FM",
     "Radio Republika",
     "Radio Afera",
     "Radio Akadera",
@@ -43,7 +44,7 @@
     "Radio Żak"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-03-31T19:47:50.750787+00:00",
+  "published_at": "2026-03-31T19:48:58.643751+00:00",
   "station_count": 38,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
