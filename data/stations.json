@@ -1,17 +1,19 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-03-31T12:00:47.610934+00:00",
+  "generated_at": "2026-03-31T12:02:02.147106+00:00",
   "latest_archive_hour_expected_station_count": 38,
   "latest_archive_hour_started_at": "2026-03-31T10:00:00+00:00",
   "latest_archive_hour_stations": [
     "Radio 357",
     "Radio Afera",
     "Radio Białystok",
+    "Radio Gdańsk",
+    "Radio Katowice",
     "Radio Kielce"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-03-31T12:00:47.610934+00:00",
+  "published_at": "2026-03-31T12:02:02.147106+00:00",
   "station_count": 34,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -44,7 +46,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 10,
+      "archive_count": 11,
       "display_name": "Radio 357",
       "public_name": "Radio 357",
       "slug": "radio357",
@@ -58,7 +60,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 9,
+      "archive_count": 10,
       "display_name": "TOK FM",
       "public_name": "TOK FM",
       "slug": "tokfm",
@@ -79,7 +81,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 16,
+      "archive_count": 17,
       "display_name": "Radio Afera",
       "public_name": "Radio Afera",
       "slug": "afera",
@@ -93,7 +95,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1,
+      "archive_count": 2,
       "display_name": "Radio Białystok",
       "public_name": "Radio Białystok",
       "slug": "radiobialystok",
@@ -121,7 +123,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 13,
+      "archive_count": 14,
       "display_name": "Radio Gdańsk",
       "public_name": "Radio Gdańsk",
       "slug": "radiogdansk",
@@ -142,7 +144,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 17,
+      "archive_count": 18,
       "display_name": "Radio Katowice",
       "public_name": "Radio Katowice",
       "slug": "radiokatowice",

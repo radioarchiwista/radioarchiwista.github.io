@@ -47,6 +47,7 @@
     "data/stations/radioakadera/2026/3/index.json",
     "data/stations/radioakadera/2026/index.json",
     "data/stations/radioakadera/index.json",
+    "data/stations/radiobialystok/2026/3/30.json",
     "data/stations/radiobialystok/2026/3/31.json",
     "data/stations/radiobialystok/2026/3/index.json",
     "data/stations/radiobialystok/2026/index.json",
@@ -187,7 +188,7 @@
   ],
   "station_day_fingerprints": {
     "afera": {
-      "2026-3-30": "3:2026-03-31T07:57:06.803016+00:00",
+      "2026-3-30": "4:2026-03-31T12:01:43.883445+00:00",
       "2026-3-31": "13:2026-03-31T11:57:50.412348+00:00"
     },
     "pr1": {
@@ -212,7 +213,7 @@
     },
     "radio357": {
       "2026-3-29": "1:2026-03-31T09:57:11.871001+00:00",
-      "2026-3-30": "7:2026-03-31T06:27:00.603669+00:00",
+      "2026-3-30": "8:2026-03-31T12:01:43.883445+00:00",
       "2026-3-31": "2:2026-03-31T11:59:18.953154+00:00"
     },
     "radioakadera": {
@@ -220,6 +221,7 @@
       "2026-3-31": "11:2026-03-31T11:17:43.505856+00:00"
     },
     "radiobialystok": {
+      "2026-3-30": "1:2026-03-31T12:01:43.883445+00:00",
       "2026-3-31": "1:2026-03-31T12:00:44.245526+00:00"
     },
     "radiocentrumlublin": {
@@ -232,7 +234,7 @@
     },
     "radiogdansk": {
       "2026-3-30": "4:2026-03-31T08:27:08.447323+00:00",
-      "2026-3-31": "9:2026-03-31T10:17:40.458433+00:00"
+      "2026-3-31": "10:2026-03-31T12:01:51.366888+00:00"
     },
     "radioindex": {
       "2026-3-30": "2:2026-03-31T06:47:28.350026+00:00",
@@ -243,7 +245,7 @@
     },
     "radiokatowice": {
       "2026-3-30": "5:2026-03-31T07:47:31.385007+00:00",
-      "2026-3-31": "12:2026-03-31T11:47:44.886717+00:00"
+      "2026-3-31": "13:2026-03-31T12:02:00.233515+00:00"
     },
     "radiokielce": {
       "2026-3-30": "5:2026-03-31T07:47:31.404174+00:00",
@@ -321,7 +323,7 @@
     },
     "tokfm": {
       "2026-3-29": "2:2026-03-30T04:31:33.298338+00:00",
-      "2026-3-30": "7:2026-03-30T18:31:57.168613+00:00"
+      "2026-3-30": "8:2026-03-31T12:01:43.883445+00:00"
     },
     "wnet": {
       "2026-3-29": "2:2026-03-30T04:31:33.286171+00:00",
@@ -331,7 +333,7 @@
   },
   "station_summaries": {
     "afera": {
-      "archive_count": 16,
+      "archive_count": 17,
       "display_name": "Radio Afera",
       "public_name": "Radio Afera",
       "slug": "afera",
@@ -366,7 +368,7 @@
       "timezone": "Europe/Warsaw"
     },
     "radio357": {
-      "archive_count": 10,
+      "archive_count": 11,
       "display_name": "Radio 357",
       "public_name": "Radio 357",
       "slug": "radio357",
@@ -380,7 +382,7 @@
       "timezone": "Europe/Warsaw"
     },
     "radiobialystok": {
-      "archive_count": 1,
+      "archive_count": 2,
       "display_name": "Radio Białystok",
       "public_name": "Radio Białystok",
       "slug": "radiobialystok",
@@ -401,7 +403,7 @@
       "timezone": "Europe/Warsaw"
     },
     "radiogdansk": {
-      "archive_count": 13,
+      "archive_count": 14,
       "display_name": "Radio Gdańsk",
       "public_name": "Radio Gdańsk",
       "slug": "radiogdansk",
@@ -422,7 +424,7 @@
       "timezone": "Europe/Warsaw"
     },
     "radiokatowice": {
-      "archive_count": 17,
+      "archive_count": 18,
       "display_name": "Radio Katowice",
       "public_name": "Radio Katowice",
       "slug": "radiokatowice",
@@ -555,7 +557,7 @@
       "timezone": "Europe/Warsaw"
     },
     "tokfm": {
-      "archive_count": 9,
+      "archive_count": 10,
       "display_name": "TOK FM",
       "public_name": "TOK FM",
       "slug": "tokfm",
