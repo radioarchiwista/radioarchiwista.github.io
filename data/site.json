@@ -1,8 +1,8 @@
 {
-  "archive_count": 692,
+  "archive_count": 693,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-03-31T13:40:02.531988+00:00",
+  "generated_at": "2026-03-31T13:40:47.825850+00:00",
   "latest_archive_hour_expected_station_count": 38,
   "latest_archive_hour_started_at": "2026-03-31T12:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -33,10 +33,11 @@
     "Radio Szczecin",
     "Radio Słupsk",
     "Radio Wrocław",
+    "Radio Zachód",
     "Radio Łódź"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-03-31T13:40:02.531988+00:00",
+  "published_at": "2026-03-31T13:40:47.825850+00:00",
   "station_count": 37,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
