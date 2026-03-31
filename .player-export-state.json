@@ -77,6 +77,7 @@
     "data/stations/radioindex/2026/index.json",
     "data/stations/radioindex/index.json",
     "data/stations/radiokampus/2026/3/30.json",
+    "data/stations/radiokampus/2026/3/31.json",
     "data/stations/radiokampus/2026/3/index.json",
     "data/stations/radiokampus/2026/index.json",
     "data/stations/radiokampus/index.json",
@@ -249,7 +250,8 @@
       "2026-3-31": "11:2026-03-31T13:03:08.468055+00:00"
     },
     "radiokampus": {
-      "2026-3-30": "4:2026-03-31T07:57:06.852222+00:00"
+      "2026-3-30": "4:2026-03-31T07:57:06.852222+00:00",
+      "2026-3-31": "1:2026-03-31T13:05:03.725767+00:00"
     },
     "radiokatowice": {
       "2026-3-30": "5:2026-03-31T07:47:31.385007+00:00",
@@ -277,7 +279,7 @@
     },
     "radioluz": {
       "2026-3-30": "5:2026-03-31T07:17:30.020335+00:00",
-      "2026-3-31": "10:2026-03-31T12:47:48.633169+00:00"
+      "2026-3-31": "11:2026-03-31T13:05:12.292421+00:00"
     },
     "radioolsztyn": {
       "2026-3-30": "5:2026-03-31T08:27:08.584398+00:00",
@@ -433,7 +435,7 @@
       "timezone": "Europe/Warsaw"
     },
     "radiokampus": {
-      "archive_count": 4,
+      "archive_count": 5,
       "display_name": "Radio Kampus",
       "public_name": "Radio Kampus",
       "slug": "radiokampus",
@@ -482,7 +484,7 @@
       "timezone": "Europe/Warsaw"
     },
     "radioluz": {
-      "archive_count": 15,
+      "archive_count": 16,
       "display_name": "Radio Luz",
       "public_name": "Radio Luz",
       "slug": "radioluz",
