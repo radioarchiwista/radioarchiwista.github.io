@@ -151,6 +151,10 @@
     "data/stations/radioszczecin/2026/3/index.json",
     "data/stations/radioszczecin/2026/index.json",
     "data/stations/radioszczecin/index.json",
+    "data/stations/radiouwmfm/2026/3/31.json",
+    "data/stations/radiouwmfm/2026/3/index.json",
+    "data/stations/radiouwmfm/2026/index.json",
+    "data/stations/radiouwmfm/index.json",
     "data/stations/radiowroclaw/2026/3/30.json",
     "data/stations/radiowroclaw/2026/3/31.json",
     "data/stations/radiowroclaw/2026/3/index.json",
@@ -240,7 +244,7 @@
     },
     "radiocentrumlublin": {
       "2026-3-30": "5:2026-03-31T08:17:33.234279+00:00",
-      "2026-3-31": "17:2026-03-31T16:18:01.136878+00:00"
+      "2026-3-31": "18:2026-03-31T17:15:44.900755+00:00"
     },
     "radiocentrumrzeszow": {
       "2026-3-30": "4:2026-03-31T08:17:33.262074+00:00",
@@ -316,6 +320,9 @@
     "radioszczecin": {
       "2026-3-30": "4:2026-03-31T08:17:33.165301+00:00",
       "2026-3-31": "17:2026-03-31T16:36:16.388829+00:00"
+    },
+    "radiouwmfm": {
+      "2026-3-31": "1:2026-03-31T17:15:42.694833+00:00"
     },
     "radiowroclaw": {
       "2026-3-30": "5:2026-03-31T08:17:33.187415+00:00",
@@ -414,7 +421,7 @@
       "timezone": "Europe/Warsaw"
     },
     "radiocentrumlublin": {
-      "archive_count": 22,
+      "archive_count": 23,
       "display_name": "Radio Centrum Lublin",
       "public_name": "Radio Centrum Lublin",
       "slug": "radiocentrumlublin",
@@ -551,6 +558,13 @@
       "display_name": "Radio Szczecin",
       "public_name": "Radio Szczecin",
       "slug": "radioszczecin",
+      "timezone": "Europe/Warsaw"
+    },
+    "radiouwmfm": {
+      "archive_count": 1,
+      "display_name": "Radio UWM FM",
+      "public_name": "Radio UWM FM",
+      "slug": "radiouwmfm",
       "timezone": "Europe/Warsaw"
     },
     "radiowroclaw": {
