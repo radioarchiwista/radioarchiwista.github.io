@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-03-31T02:25:31.768560+00:00",
+  "generated_at": "2026-03-31T02:26:03.996055+00:00",
   "latest_archive_hour_expected_station_count": 38,
   "latest_archive_hour_started_at": "2026-03-31T01:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -9,7 +9,7 @@
     "Program 2"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-03-31T02:25:31.768560+00:00",
+  "published_at": "2026-03-31T02:26:03.996055+00:00",
   "station_count": 37,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -119,7 +119,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 13,
+      "archive_count": 12,
       "display_name": "Radio Gdańsk",
       "public_name": "Radio Gdańsk",
       "slug": "radiogdansk",
@@ -161,7 +161,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 9,
+      "archive_count": 10,
       "display_name": "Radio Koszalin",
       "public_name": "Radio Koszalin",
       "slug": "radiokoszalin",
