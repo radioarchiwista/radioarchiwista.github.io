@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-03-31T00:29:00.831593+00:00",
+  "generated_at": "2026-03-31T00:30:47.706829+00:00",
   "latest_archive_hour_expected_station_count": 38,
   "latest_archive_hour_started_at": "2026-03-30T23:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -18,10 +18,11 @@
     "Radio Gdańsk",
     "Radio Gorzów",
     "Radio Index",
-    "Radio Katowice"
+    "Radio Katowice",
+    "Radio Kielce"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-03-31T00:29:00.831593+00:00",
+  "published_at": "2026-03-31T00:30:47.706829+00:00",
   "station_count": 37,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -166,7 +167,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 9,
+      "archive_count": 10,
       "display_name": "Radio Kielce",
       "public_name": "Radio Kielce",
       "slug": "radiokielce",
@@ -187,7 +188,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 8,
+      "archive_count": 9,
       "display_name": "Radio Lublin",
       "public_name": "Radio Lublin",
       "slug": "radiolublin",
