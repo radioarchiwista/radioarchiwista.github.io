@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-03-31T13:46:38.743796+00:00",
+  "generated_at": "2026-03-31T13:47:49.104035+00:00",
   "latest_archive_hour_expected_station_count": 38,
   "latest_archive_hour_started_at": "2026-03-31T12:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -43,7 +43,7 @@
     "Radio Żak"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-03-31T13:46:38.743796+00:00",
+  "published_at": "2026-03-31T13:47:49.104035+00:00",
   "station_count": 37,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -258,7 +258,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 16,
+      "archive_count": 17,
       "display_name": "Radio Szczecin",
       "public_name": "Radio Szczecin",
       "slug": "radioszczecin",
