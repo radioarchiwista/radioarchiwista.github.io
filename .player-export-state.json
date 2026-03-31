@@ -67,7 +67,6 @@
     "data/stations/radiogdansk/2026/3/index.json",
     "data/stations/radiogdansk/2026/index.json",
     "data/stations/radiogdansk/index.json",
-    "data/stations/radiogorzow/2026/3/30.json",
     "data/stations/radiogorzow/2026/3/31.json",
     "data/stations/radiogorzow/2026/3/index.json",
     "data/stations/radiogorzow/2026/index.json",
@@ -237,7 +236,7 @@
       "2026-3-31": "10:2026-03-31T22:29:58.812921+00:00"
     },
     "radioakadera": {
-      "2026-3-30": "6:2026-03-31T23:00:22.461791+00:00",
+      "2026-3-30": "5:2026-03-31T08:17:33.285081+00:00",
       "2026-3-31": "20:2026-03-31T22:29:59.392608+00:00"
     },
     "radiobialystok": {
@@ -245,19 +244,18 @@
       "2026-3-31": "8:2026-03-31T22:29:58.944746+00:00"
     },
     "radiocentrumlublin": {
-      "2026-3-30": "6:2026-03-31T23:00:22.461791+00:00",
+      "2026-3-30": "5:2026-03-31T08:17:33.234279+00:00",
       "2026-3-31": "20:2026-03-31T22:29:59.326050+00:00"
     },
     "radiocentrumrzeszow": {
-      "2026-3-30": "5:2026-03-31T23:00:22.461791+00:00",
+      "2026-3-30": "4:2026-03-31T08:17:33.262074+00:00",
       "2026-3-31": "21:2026-03-31T22:47:13.362108+00:00"
     },
     "radiogdansk": {
-      "2026-3-30": "6:2026-03-31T23:00:22.461791+00:00",
+      "2026-3-30": "5:2026-03-31T12:47:48.280729+00:00",
       "2026-3-31": "17:2026-03-31T22:29:58.978351+00:00"
     },
     "radiogorzow": {
-      "2026-3-30": "1:2026-03-31T23:00:22.461791+00:00",
       "2026-3-31": "18:2026-03-31T22:29:59.285757+00:00"
     },
     "radioindex": {
@@ -266,18 +264,18 @@
     },
     "radiokampus": {
       "2026-3-30": "5:2026-03-31T23:00:18.186408+00:00",
-      "2026-3-31": "10:2026-03-31T23:00:22.461791+00:00"
+      "2026-3-31": "9:2026-03-31T23:00:01.486914+00:00"
     },
     "radiokatowice": {
       "2026-3-30": "6:2026-03-31T23:00:18.186408+00:00",
       "2026-3-31": "20:2026-03-31T23:00:01.119812+00:00"
     },
     "radiokielce": {
-      "2026-3-30": "5:2026-03-31T07:47:31.404174+00:00",
+      "2026-3-30": "6:2026-03-31T23:05:06.916916+00:00",
       "2026-3-31": "20:2026-03-31T22:29:59.025528+00:00"
     },
     "radiokoszalin": {
-      "2026-3-30": "6:2026-03-31T12:47:48.313314+00:00",
+      "2026-3-30": "7:2026-03-31T23:05:06.916916+00:00",
       "2026-3-31": "20:2026-03-31T22:29:59.047611+00:00"
     },
     "radiokrakow": {
@@ -411,7 +409,7 @@
       "timezone": "Europe/Warsaw"
     },
     "radioakadera": {
-      "archive_count": 26,
+      "archive_count": 25,
       "display_name": "Radio Akadera",
       "public_name": "Radio Akadera",
       "slug": "radioakadera",
@@ -425,28 +423,28 @@
       "timezone": "Europe/Warsaw"
     },
     "radiocentrumlublin": {
-      "archive_count": 26,
+      "archive_count": 25,
       "display_name": "Radio Centrum Lublin",
       "public_name": "Radio Centrum Lublin",
       "slug": "radiocentrumlublin",
       "timezone": "Europe/Warsaw"
     },
     "radiocentrumrzeszow": {
-      "archive_count": 26,
+      "archive_count": 25,
       "display_name": "Radio Centrum Rzeszów",
       "public_name": "Radio Centrum Rzeszów",
       "slug": "radiocentrumrzeszow",
       "timezone": "Europe/Warsaw"
     },
     "radiogdansk": {
-      "archive_count": 23,
+      "archive_count": 22,
       "display_name": "Radio Gdańsk",
       "public_name": "Radio Gdańsk",
       "slug": "radiogdansk",
       "timezone": "Europe/Warsaw"
     },
     "radiogorzow": {
-      "archive_count": 19,
+      "archive_count": 18,
       "display_name": "Radio Gorzów",
       "public_name": "Radio Gorzów",
       "slug": "radiogorzow",
@@ -460,7 +458,7 @@
       "timezone": "Europe/Warsaw"
     },
     "radiokampus": {
-      "archive_count": 15,
+      "archive_count": 14,
       "display_name": "Radio Kampus",
       "public_name": "Radio Kampus",
       "slug": "radiokampus",
@@ -474,14 +472,14 @@
       "timezone": "Europe/Warsaw"
     },
     "radiokielce": {
-      "archive_count": 25,
+      "archive_count": 26,
       "display_name": "Radio Kielce",
       "public_name": "Radio Kielce",
       "slug": "radiokielce",
       "timezone": "Europe/Warsaw"
     },
     "radiokoszalin": {
-      "archive_count": 26,
+      "archive_count": 27,
       "display_name": "Radio Koszalin",
       "public_name": "Radio Koszalin",
       "slug": "radiokoszalin",
