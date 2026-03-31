@@ -167,6 +167,7 @@
     "data/stations/radiozak/2026/index.json",
     "data/stations/radiozak/index.json",
     "data/stations/radiozielonagora/2026/3/30.json",
+    "data/stations/radiozielonagora/2026/3/31.json",
     "data/stations/radiozielonagora/2026/3/index.json",
     "data/stations/radiozielonagora/2026/index.json",
     "data/stations/radiozielonagora/index.json",
@@ -326,7 +327,8 @@
       "2026-3-31": "1:2026-03-31T00:03:16.779145+00:00"
     },
     "radiozielonagora": {
-      "2026-3-30": "8:2026-03-30T23:22:57.995538+00:00"
+      "2026-3-30": "8:2026-03-30T23:22:57.995538+00:00",
+      "2026-3-31": "1:2026-03-31T00:04:02.000485+00:00"
     },
     "rdc": {
       "2026-3-30": "10:2026-03-30T22:45:45.377179+00:00"
@@ -567,7 +569,7 @@
       "timezone": "Europe/Warsaw"
     },
     "radiozielonagora": {
-      "archive_count": 8,
+      "archive_count": 9,
       "display_name": "Radio Zielona Góra",
       "public_name": "Radio Zielona Góra",
       "slug": "radiozielonagora",
