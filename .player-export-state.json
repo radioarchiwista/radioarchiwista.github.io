@@ -161,6 +161,7 @@
     "data/stations/radiowroclaw/2026/3/index.json",
     "data/stations/radiowroclaw/2026/index.json",
     "data/stations/radiowroclaw/index.json",
+    "data/stations/radiozachod/2026/3/30.json",
     "data/stations/radiozachod/2026/3/31.json",
     "data/stations/radiozachod/2026/3/index.json",
     "data/stations/radiozachod/2026/index.json",
@@ -331,6 +332,7 @@
       "2026-3-31": "19:2026-03-31T18:41:21.646914+00:00"
     },
     "radiozachod": {
+      "2026-3-30": "1:2026-03-31T18:51:32.664967+00:00",
       "2026-3-31": "19:2026-03-31T18:41:32.053480+00:00"
     },
     "radiozak": {
@@ -577,7 +579,7 @@
       "timezone": "Europe/Warsaw"
     },
     "radiozachod": {
-      "archive_count": 19,
+      "archive_count": 20,
       "display_name": "Radio Zachód",
       "public_name": "Radio Zachód",
       "slug": "radiozachod",
