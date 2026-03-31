@@ -311,6 +311,10 @@ h1 {
   text-decoration: none;
 }
 
+.button-inline {
+  width: auto;
+}
+
 .button-primary {
   background: var(--accent);
   color: #fff;
