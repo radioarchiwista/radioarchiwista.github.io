@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-03-31T16:15:21.049152+00:00",
+  "generated_at": "2026-03-31T16:15:49.579581+00:00",
   "latest_archive_hour_expected_station_count": 38,
   "latest_archive_hour_started_at": "2026-03-31T15:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -12,10 +12,12 @@
     "Radio 357",
     "Radio Afera",
     "Radio Białystok",
-    "Radio Centrum Lublin"
+    "Radio Centrum Lublin",
+    "Radio Centrum Rzeszów",
+    "Radio Gdańsk"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-03-31T16:15:21.049152+00:00",
+  "published_at": "2026-03-31T16:15:49.579581+00:00",
   "station_count": 37,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -76,7 +78,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 36,
+      "archive_count": 37,
       "display_name": "Radio Republika",
       "public_name": "Radio Republika",
       "slug": "republika",
@@ -111,7 +113,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 20,
+      "archive_count": 21,
       "display_name": "Radio Centrum Rzeszów",
       "public_name": "Radio Centrum Rzeszów",
       "slug": "radiocentrumrzeszow",
@@ -125,7 +127,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 18,
+      "archive_count": 19,
       "display_name": "Radio Gdańsk",
       "public_name": "Radio Gdańsk",
       "slug": "radiogdansk",
