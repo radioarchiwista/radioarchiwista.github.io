@@ -1,8 +1,8 @@
 {
-  "archive_count": 745,
+  "archive_count": 746,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-03-31T14:36:31.603009+00:00",
+  "generated_at": "2026-03-31T14:37:37.210344+00:00",
   "latest_archive_hour_expected_station_count": 38,
   "latest_archive_hour_started_at": "2026-03-31T13:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -10,10 +10,11 @@
     "Program 3",
     "Polskie Radio 24",
     "Radio 357",
-    "Radio Afera"
+    "Radio Afera",
+    "Radio Akadera"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-03-31T14:36:31.603009+00:00",
+  "published_at": "2026-03-31T14:37:37.210344+00:00",
   "station_count": 37,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
