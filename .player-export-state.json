@@ -162,6 +162,7 @@
     "data/stations/radiozachod/2026/index.json",
     "data/stations/radiozachod/index.json",
     "data/stations/radiozak/2026/3/30.json",
+    "data/stations/radiozak/2026/3/31.json",
     "data/stations/radiozak/2026/3/index.json",
     "data/stations/radiozak/2026/index.json",
     "data/stations/radiozak/index.json",
@@ -321,7 +322,8 @@
       "2026-3-31": "1:2026-03-31T00:01:22.271528+00:00"
     },
     "radiozak": {
-      "2026-3-30": "8:2026-03-30T23:34:50.224018+00:00"
+      "2026-3-30": "8:2026-03-30T23:34:50.224018+00:00",
+      "2026-3-31": "1:2026-03-31T00:03:16.779145+00:00"
     },
     "radiozielonagora": {
       "2026-3-30": "8:2026-03-30T23:22:57.995538+00:00"
@@ -558,7 +560,7 @@
       "timezone": "Europe/Warsaw"
     },
     "radiozak": {
-      "archive_count": 8,
+      "archive_count": 9,
       "display_name": "Radio Żak",
       "public_name": "Radio Żak",
       "slug": "radiozak",
