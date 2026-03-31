@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-03-31T21:41:38.170296+00:00",
+  "generated_at": "2026-03-31T21:42:21.607373+00:00",
   "latest_archive_hour_expected_station_count": 38,
   "latest_archive_hour_started_at": "2026-03-31T20:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -29,11 +29,13 @@
     "Radio Opole",
     "Radio PiK",
     "Radio Poznań",
+    "Radio Szczecin",
     "Radio Słupsk",
+    "Radio Wrocław",
     "Radio Łódź"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-03-31T21:41:38.170296+00:00",
+  "published_at": "2026-03-31T21:42:21.607373+00:00",
   "station_count": 38,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -248,7 +250,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 26,
+      "archive_count": 27,
       "display_name": "Radio Szczecin",
       "public_name": "Radio Szczecin",
       "slug": "radioszczecin",
@@ -269,7 +271,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 27,
+      "archive_count": 28,
       "display_name": "Radio Wrocław",
       "public_name": "Radio Wrocław",
       "slug": "radiowroclaw",
