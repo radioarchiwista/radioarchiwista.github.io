@@ -358,12 +358,12 @@
     "radiokampus": {
       "2026-3-30": "6:2026-04-01T13:46:22.734118+00:00",
       "2026-3-31": "12:2026-04-01T08:30:45.675095+00:00",
-      "2026-4-1": "14:2026-04-01T13:01:13.054530+00:00"
+      "2026-4-1": "15:2026-04-01T13:55:37.142600+00:00"
     },
     "radiokatowice": {
       "2026-3-30": "8:2026-04-01T13:46:22.734118+00:00",
       "2026-3-31": "23:2026-04-01T08:30:45.248678+00:00",
-      "2026-4-1": "14:2026-04-01T13:01:12.155600+00:00"
+      "2026-4-1": "15:2026-04-01T13:55:37.142600+00:00"
     },
     "radiokielce": {
       "2026-3-30": "6:2026-04-01T09:00:48.315767+00:00",
@@ -373,7 +373,7 @@
     "radiokoszalin": {
       "2026-3-30": "8:2026-04-01T13:48:03.603470+00:00",
       "2026-3-31": "23:2026-04-01T09:00:48.354633+00:00",
-      "2026-4-1": "14:2026-04-01T13:01:12.276316+00:00"
+      "2026-4-1": "15:2026-04-01T13:55:37.142600+00:00"
     },
     "radiokrakow": {
       "2026-3-30": "7:2026-04-01T13:48:03.603470+00:00",
@@ -578,14 +578,14 @@
       "timezone": "Europe/Warsaw"
     },
     "radiokampus": {
-      "archive_count": 32,
+      "archive_count": 33,
       "display_name": "Radio Kampus",
       "public_name": "Radio Kampus",
       "slug": "radiokampus",
       "timezone": "Europe/Warsaw"
     },
     "radiokatowice": {
-      "archive_count": 45,
+      "archive_count": 46,
       "display_name": "Radio Katowice",
       "public_name": "Radio Katowice",
       "slug": "radiokatowice",
@@ -599,7 +599,7 @@
       "timezone": "Europe/Warsaw"
     },
     "radiokoszalin": {
-      "archive_count": 45,
+      "archive_count": 46,
       "display_name": "Radio Koszalin",
       "public_name": "Radio Koszalin",
       "slug": "radiokoszalin",
