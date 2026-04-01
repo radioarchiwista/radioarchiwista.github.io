@@ -1,5 +1,5 @@
 {
-  "archive_count": 1841,
+  "archive_count": 1830,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
   "generated_at": "2026-04-01T18:41:33.217074+00:00",
@@ -8,16 +8,11 @@
   "latest_archive_hour_stations": [
     "Radio Republika",
     "Radio Centrum Rzeszów",
-    "Radio Dla Ciebie",
     "Radio Index",
     "Radio Kampus",
     "Radio Koszalin",
-    "Radio Szczecin",
     "Radio Słupsk",
-    "Radio UWM FM",
-    "Radio Wrocław",
-    "Radio Zachód",
-    "Radio Zielona Góra"
+    "Radio UWM FM"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
   "published_at": "2026-04-01T18:41:33.217074+00:00",
