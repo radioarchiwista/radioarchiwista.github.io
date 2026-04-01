@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-01T09:19:57.657313+00:00",
+  "generated_at": "2026-04-01T09:32:41.165483+00:00",
   "latest_archive_hour_expected_station_count": 38,
   "latest_archive_hour_started_at": "2026-04-01T07:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -43,7 +43,7 @@
     "Radio Żak"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-01T09:19:57.657313+00:00",
+  "published_at": "2026-04-01T09:32:41.165483+00:00",
   "station_count": 38,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -118,14 +118,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 37,
+      "archive_count": 38,
       "display_name": "Radio Akadera",
       "public_name": "Radio Akadera",
       "slug": "radioakadera",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 25,
+      "archive_count": 26,
       "display_name": "Radio Białystok",
       "public_name": "Radio Białystok",
       "slug": "radiobialystok",
@@ -174,21 +174,21 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 27,
+      "archive_count": 28,
       "display_name": "Radio Kampus",
       "public_name": "Radio Kampus",
       "slug": "radiokampus",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 40,
+      "archive_count": 41,
       "display_name": "Radio Katowice",
       "public_name": "Radio Katowice",
       "slug": "radiokatowice",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 35,
+      "archive_count": 36,
       "display_name": "Radio Kielce",
       "public_name": "Radio Kielce",
       "slug": "radiokielce",
@@ -286,7 +286,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 32,
+      "archive_count": 33,
       "display_name": "Radio Zachód",
       "public_name": "Radio Zachód",
       "slug": "radiozachod",
