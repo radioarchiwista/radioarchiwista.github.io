@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-01T06:34:15.518471+00:00",
+  "generated_at": "2026-04-01T06:37:53.457925+00:00",
   "latest_archive_hour_expected_station_count": 38,
   "latest_archive_hour_started_at": "2026-04-01T04:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -33,10 +33,12 @@
     "Radio Szczecin",
     "Radio Słupsk",
     "Radio Wrocław",
-    "Radio Łódź"
+    "Radio Zachód",
+    "Radio Łódź",
+    "Radio Żak"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-01T06:34:15.518471+00:00",
+  "published_at": "2026-04-01T06:37:53.457925+00:00",
   "station_count": 38,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -83,14 +85,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 27,
+      "archive_count": 29,
       "display_name": "TOK FM",
       "public_name": "TOK FM",
       "slug": "tokfm",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 47,
+      "archive_count": 48,
       "display_name": "Radio Wnet",
       "public_name": "Radio Wnet",
       "slug": "wnet",
@@ -118,7 +120,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 19,
+      "archive_count": 20,
       "display_name": "Radio Białystok",
       "public_name": "Radio Białystok",
       "slug": "radiobialystok",
@@ -279,7 +281,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 25,
+      "archive_count": 26,
       "display_name": "Radio Zachód",
       "public_name": "Radio Zachód",
       "slug": "radiozachod",
@@ -300,7 +302,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 24,
+      "archive_count": 25,
       "display_name": "Radio Żak",
       "public_name": "Radio Żak",
       "slug": "radiozak",
