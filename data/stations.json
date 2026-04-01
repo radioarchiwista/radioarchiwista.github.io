@@ -1,14 +1,16 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-01T14:34:54.905480+00:00",
+  "generated_at": "2026-04-01T14:37:36.227808+00:00",
   "latest_archive_hour_expected_station_count": 38,
   "latest_archive_hour_started_at": "2026-04-01T13:00:00+00:00",
   "latest_archive_hour_stations": [
-    "Program 1"
+    "Program 1",
+    "Program 2",
+    "Polskie Radio 24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-01T14:34:54.905480+00:00",
+  "published_at": "2026-04-01T14:37:36.227808+00:00",
   "station_count": 38,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -20,7 +22,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 64,
+      "archive_count": 65,
       "display_name": "Program 2",
       "public_name": "Polskie Radio Program 2",
       "slug": "pr2",
@@ -34,7 +36,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 63,
+      "archive_count": 64,
       "display_name": "Polskie Radio 24",
       "public_name": "Polskie Radio 24",
       "slug": "pr24",
@@ -55,7 +57,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 42,
+      "archive_count": 43,
       "display_name": "TOK FM",
       "public_name": "TOK FM",
       "slug": "tokfm",
@@ -90,7 +92,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 31,
+      "archive_count": 32,
       "display_name": "Radio Białystok",
       "public_name": "Radio Białystok",
       "slug": "radiobialystok",
