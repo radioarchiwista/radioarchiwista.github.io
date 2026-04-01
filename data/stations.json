@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-01T06:39:44.927313+00:00",
+  "generated_at": "2026-04-01T06:43:26.394416+00:00",
   "latest_archive_hour_expected_station_count": 38,
   "latest_archive_hour_started_at": "2026-04-01T04:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -15,6 +15,7 @@
     "Radio Białystok",
     "Radio Centrum Lublin",
     "Radio Centrum Rzeszów",
+    "Radio Dla Ciebie",
     "Radio Gdańsk",
     "Radio Gorzów",
     "Radio Index",
@@ -34,11 +35,12 @@
     "Radio Słupsk",
     "Radio Wrocław",
     "Radio Zachód",
+    "Radio Zielona Góra",
     "Radio Łódź",
     "Radio Żak"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-01T06:39:44.927313+00:00",
+  "published_at": "2026-04-01T06:43:26.394416+00:00",
   "station_count": 38,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -85,7 +87,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 29,
+      "archive_count": 30,
       "display_name": "TOK FM",
       "public_name": "TOK FM",
       "slug": "tokfm",
@@ -99,7 +101,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 48,
+      "archive_count": 49,
       "display_name": "Radio Republika",
       "public_name": "Radio Republika",
       "slug": "republika",
@@ -141,7 +143,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 31,
+      "archive_count": 32,
       "display_name": "Radio Dla Ciebie",
       "public_name": "Radio Dla Ciebie",
       "slug": "rdc",
@@ -288,7 +290,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 24,
+      "archive_count": 25,
       "display_name": "Radio Zielona Góra",
       "public_name": "Radio Zielona Góra",
       "slug": "radiozielonagora",
