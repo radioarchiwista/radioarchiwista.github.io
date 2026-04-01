@@ -1,27 +1,20 @@
 {
-  "archive_count": 1897,
+  "archive_count": 1878,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-01T18:12:35.215440+00:00",
+  "generated_at": "2026-04-01T18:04:29.826486+00:00",
   "latest_archive_hour_expected_station_count": 38,
   "latest_archive_hour_started_at": "2026-04-01T16:00:00+00:00",
   "latest_archive_hour_stations": [
-    "Program 1",
-    "Program 2",
-    "Program 3",
-    "Polskie Radio 24",
     "Radio 357",
     "Radio Akadera",
     "Radio Centrum Rzeszów",
     "Radio Index",
     "Radio Kampus",
-    "Radio Koszalin",
-    "Radio Olsztyn",
-    "Radio Opole",
-    "Radio PiK"
+    "Radio Koszalin"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-01T18:12:35.215440+00:00",
+  "published_at": "2026-04-01T18:04:29.826486+00:00",
   "station_count": 38,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
