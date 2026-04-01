@@ -210,7 +210,7 @@
   "station_day_fingerprints": {
     "afera": {
       "2026-3-30": "6:2026-04-01T01:00:10.639035+00:00",
-      "2026-3-31": "20:2026-04-01T00:30:08.363850+00:00"
+      "2026-3-31": "21:2026-04-01T01:14:35.836540+00:00"
     },
     "pr1": {
       "2026-3-29": "8:2026-03-30T04:31:32.531257+00:00",
@@ -235,15 +235,15 @@
     "radio357": {
       "2026-3-29": "1:2026-03-31T09:57:11.871001+00:00",
       "2026-3-30": "10:2026-04-01T01:00:10.501040+00:00",
-      "2026-3-31": "10:2026-04-01T00:30:08.340097+00:00"
+      "2026-3-31": "11:2026-04-01T01:14:35.836540+00:00"
     },
     "radioakadera": {
       "2026-3-30": "5:2026-03-31T08:17:33.285081+00:00",
-      "2026-3-31": "20:2026-04-01T00:30:08.900585+00:00"
+      "2026-3-31": "21:2026-04-01T01:14:35.836540+00:00"
     },
     "radiobialystok": {
       "2026-3-30": "4:2026-04-01T01:06:11.343845+00:00",
-      "2026-3-31": "8:2026-04-01T00:30:08.446445+00:00"
+      "2026-3-31": "9:2026-04-01T01:14:35.836540+00:00"
     },
     "radiocentrumlublin": {
       "2026-3-30": "5:2026-03-31T08:17:33.234279+00:00",
@@ -371,7 +371,7 @@
   },
   "station_summaries": {
     "afera": {
-      "archive_count": 26,
+      "archive_count": 27,
       "display_name": "Radio Afera",
       "public_name": "Radio Afera",
       "slug": "afera",
@@ -406,21 +406,21 @@
       "timezone": "Europe/Warsaw"
     },
     "radio357": {
-      "archive_count": 21,
+      "archive_count": 22,
       "display_name": "Radio 357",
       "public_name": "Radio 357",
       "slug": "radio357",
       "timezone": "Europe/Warsaw"
     },
     "radioakadera": {
-      "archive_count": 25,
+      "archive_count": 26,
       "display_name": "Radio Akadera",
       "public_name": "Radio Akadera",
       "slug": "radioakadera",
       "timezone": "Europe/Warsaw"
     },
     "radiobialystok": {
-      "archive_count": 12,
+      "archive_count": 13,
       "display_name": "Radio Białystok",
       "public_name": "Radio Białystok",
       "slug": "radiobialystok",
