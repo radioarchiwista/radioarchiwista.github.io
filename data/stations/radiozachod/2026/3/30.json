@@ -1,0 +1,41 @@
+{
+  "archives": [
+    {
+      "archive_item_identifier": "radiozachod-2026-03-30",
+      "audio_url": "https://archive.org/download/radiozachod-2026-03-30/radiozachod_2026-03-30T15-00-00Z.mp3",
+      "completeness_ratio": 0.9996,
+      "day": 30,
+      "download_url": "https://archive.org/download/radiozachod-2026-03-30/radiozachod_2026-03-30T15-00-00Z.mp3",
+      "duration_seconds": 3596.544,
+      "hour": 17,
+      "hourly_archive_id": 1725,
+      "local_date_label": "30.03.2026",
+      "local_hour_label": "17:00",
+      "local_label": "2026-03-30 17:00 CEST",
+      "local_started_at": "2026-03-30T17:00:00+02:00",
+      "local_timezone_label": "CEST",
+      "month": 3,
+      "published_at": "2026-04-01T15:53:43.884306+00:00",
+      "published_local_label": "2026-04-01 17:53 CEST",
+      "remote_filename": "radiozachod_2026-03-30T15-00-00Z.mp3",
+      "status": "published",
+      "utc_label": "2026-03-30 15:00 UTC",
+      "utc_started_at": "2026-03-30T15:00:00+00:00",
+      "year": 2026
+    }
+  ],
+  "day": 30,
+  "generated_at": "2026-04-01T16:22:59.381437+00:00",
+  "latest_archive_hour_expected_station_count": 0,
+  "latest_archive_hour_started_at": "2026-04-01T14:00:00+00:00",
+  "month": 3,
+  "published_at": "2026-04-01T16:22:59.381437+00:00",
+  "station": {
+    "archive_count": 39,
+    "display_name": "Radio Zachód",
+    "public_name": "Radio Zachód",
+    "slug": "radiozachod",
+    "timezone": "Europe/Warsaw"
+  },
+  "year": 2026
+}
