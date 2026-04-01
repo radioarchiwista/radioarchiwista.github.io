@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-01T10:58:03.658586+00:00",
+  "generated_at": "2026-04-01T10:59:28.847193+00:00",
   "latest_archive_hour_expected_station_count": 38,
   "latest_archive_hour_started_at": "2026-04-01T09:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -23,10 +23,12 @@
     "Radio Koszalin",
     "Radio Kraków",
     "Radio Lublin",
+    "Radio Luz",
+    "Radio Olsztyn",
     "Radio Łódź"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-01T10:58:03.658586+00:00",
+  "published_at": "2026-04-01T10:59:28.847193+00:00",
   "station_count": 38,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -101,14 +103,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 41,
+      "archive_count": 40,
       "display_name": "Radio Akadera",
       "public_name": "Radio Akadera",
       "slug": "radioakadera",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 28,
+      "archive_count": 27,
       "display_name": "Radio Białystok",
       "public_name": "Radio Białystok",
       "slug": "radiobialystok",
@@ -164,7 +166,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 44,
+      "archive_count": 43,
       "display_name": "Radio Katowice",
       "public_name": "Radio Katowice",
       "slug": "radiokatowice",
@@ -199,14 +201,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 39,
+      "archive_count": 40,
       "display_name": "Radio Luz",
       "public_name": "Radio Luz",
       "slug": "radioluz",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 39,
+      "archive_count": 40,
       "display_name": "Radio Olsztyn",
       "public_name": "Radio Olsztyn",
       "slug": "radioolsztyn",
