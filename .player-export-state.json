@@ -208,7 +208,7 @@
   ],
   "station_day_fingerprints": {
     "afera": {
-      "2026-3-30": "6:2026-04-01T01:23:17.589592+00:00",
+      "2026-3-30": "5:2026-03-31T14:17:53.369315+00:00",
       "2026-3-31": "21:2026-04-01T01:14:35.836540+00:00"
     },
     "pr1": {
@@ -223,7 +223,7 @@
     },
     "pr24": {
       "2026-3-29": "5:2026-03-30T04:31:33.082386+00:00",
-      "2026-3-30": "17:2026-04-01T01:23:17.589592+00:00",
+      "2026-3-30": "16:2026-03-31T05:17:22.092745+00:00",
       "2026-3-31": "21:2026-04-01T00:30:07.990632+00:00"
     },
     "pr3": {
@@ -262,19 +262,19 @@
     },
     "radioindex": {
       "2026-3-30": "3:2026-04-01T01:06:11.343845+00:00",
-      "2026-3-31": "21:2026-04-01T00:30:08.940975+00:00"
+      "2026-3-31": "22:2026-04-01T01:24:28.621364+00:00"
     },
     "radiokampus": {
       "2026-3-30": "4:2026-03-31T07:57:06.852222+00:00",
-      "2026-3-31": "9:2026-04-01T00:30:08.922656+00:00"
+      "2026-3-31": "10:2026-04-01T01:24:28.621364+00:00"
     },
     "radiokatowice": {
       "2026-3-30": "5:2026-03-31T07:47:31.385007+00:00",
-      "2026-3-31": "20:2026-04-01T00:30:08.479729+00:00"
+      "2026-3-31": "21:2026-04-01T01:24:28.621364+00:00"
     },
     "radiokielce": {
       "2026-3-30": "5:2026-03-31T07:47:31.404174+00:00",
-      "2026-3-31": "20:2026-04-01T00:30:08.535808+00:00"
+      "2026-3-31": "21:2026-04-01T01:24:28.621364+00:00"
     },
     "radiokoszalin": {
       "2026-3-30": "6:2026-03-31T12:47:48.313314+00:00",
@@ -369,7 +369,7 @@
   },
   "station_summaries": {
     "afera": {
-      "archive_count": 27,
+      "archive_count": 26,
       "display_name": "Radio Afera",
       "public_name": "Radio Afera",
       "slug": "afera",
@@ -390,7 +390,7 @@
       "timezone": "Europe/Warsaw"
     },
     "pr24": {
-      "archive_count": 43,
+      "archive_count": 42,
       "display_name": "Polskie Radio 24",
       "public_name": "Polskie Radio 24",
       "slug": "pr24",
@@ -453,28 +453,28 @@
       "timezone": "Europe/Warsaw"
     },
     "radioindex": {
-      "archive_count": 24,
+      "archive_count": 25,
       "display_name": "Radio Index",
       "public_name": "Radio Index",
       "slug": "radioindex",
       "timezone": "Europe/Warsaw"
     },
     "radiokampus": {
-      "archive_count": 13,
+      "archive_count": 14,
       "display_name": "Radio Kampus",
       "public_name": "Radio Kampus",
       "slug": "radiokampus",
       "timezone": "Europe/Warsaw"
     },
     "radiokatowice": {
-      "archive_count": 25,
+      "archive_count": 26,
       "display_name": "Radio Katowice",
       "public_name": "Radio Katowice",
       "slug": "radiokatowice",
       "timezone": "Europe/Warsaw"
     },
     "radiokielce": {
-      "archive_count": 25,
+      "archive_count": 26,
       "display_name": "Radio Kielce",
       "public_name": "Radio Kielce",
       "slug": "radiokielce",
