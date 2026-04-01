@@ -1,29 +1,6 @@
 {
   "archives": [
     {
-      "archive_item_identifier": "radiozielonagora-2026-03-30",
-      "audio_url": "https://archive.org/download/radiozielonagora-2026-03-30/radiozielonagora_2026-03-30T22-00-00Z.mp3",
-      "completeness_ratio": 0.998,
-      "day": 31,
-      "download_url": "https://archive.org/download/radiozielonagora-2026-03-30/radiozielonagora_2026-03-30T22-00-00Z.mp3",
-      "duration_seconds": 3592.776,
-      "hour": 0,
-      "hourly_archive_id": 1341,
-      "local_date_label": "31.03.2026",
-      "local_hour_label": "00:00",
-      "local_label": "2026-03-31 00:00 CEST",
-      "local_started_at": "2026-03-31T00:00:00+02:00",
-      "local_timezone_label": "CEST",
-      "month": 3,
-      "published_at": "2026-04-01T10:52:35.818321+00:00",
-      "published_local_label": "2026-04-01 12:52 CEST",
-      "remote_filename": "radiozielonagora_2026-03-30T22-00-00Z.mp3",
-      "status": "published",
-      "utc_label": "2026-03-30 22:00 UTC",
-      "utc_started_at": "2026-03-30T22:00:00+00:00",
-      "year": 2026
-    },
-    {
       "archive_item_identifier": "radiozielonagora-2026-03-31",
       "audio_url": "https://archive.org/download/radiozielonagora-2026-03-31/2026-03-31T01-00-00Z.mp3",
       "completeness_ratio": 0.9994,
@@ -491,7 +468,7 @@
   "month": 3,
   "published_at": "2026-04-01T14:21:29.934023+00:00",
   "station": {
-    "archive_count": 39,
+    "archive_count": 38,
     "display_name": "Radio Zielona Góra",
     "public_name": "Radio Zielona Góra",
     "slug": "radiozielonagora",
