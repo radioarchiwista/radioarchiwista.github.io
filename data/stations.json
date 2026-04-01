@@ -1,12 +1,13 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-01T18:33:07.940494+00:00",
+  "generated_at": "2026-04-01T18:41:33.217074+00:00",
   "latest_archive_hour_expected_station_count": 38,
   "latest_archive_hour_started_at": "2026-04-01T16:00:00+00:00",
   "latest_archive_hour_stations": [
     "Radio Republika",
     "Radio Centrum Rzeszów",
+    "Radio Dla Ciebie",
     "Radio Index",
     "Radio Kampus",
     "Radio Koszalin",
@@ -17,10 +18,11 @@
     "Radio Słupsk",
     "Radio UWM FM",
     "Radio Wrocław",
-    "Radio Zachód"
+    "Radio Zachód",
+    "Radio Zielona Góra"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-01T18:33:07.940494+00:00",
+  "published_at": "2026-04-01T18:41:33.217074+00:00",
   "station_count": 38,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -32,7 +34,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 69,
+      "archive_count": 68,
       "display_name": "Program 2",
       "public_name": "Polskie Radio Program 2",
       "slug": "pr2",
@@ -46,14 +48,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 69,
+      "archive_count": 68,
       "display_name": "Polskie Radio 24",
       "public_name": "Polskie Radio 24",
       "slug": "pr24",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 45,
+      "archive_count": 43,
       "display_name": "Radio 357",
       "public_name": "Radio 357",
       "slug": "radio357",
@@ -67,7 +69,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 45,
+      "archive_count": 44,
       "display_name": "TOK FM",
       "public_name": "TOK FM",
       "slug": "tokfm",
@@ -123,7 +125,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 45,
+      "archive_count": 46,
       "display_name": "Radio Dla Ciebie",
       "public_name": "Radio Dla Ciebie",
       "slug": "rdc",
@@ -151,7 +153,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 37,
+      "archive_count": 36,
       "display_name": "Radio Kampus",
       "public_name": "Radio Kampus",
       "slug": "radiokampus",
@@ -263,14 +265,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 42,
+      "archive_count": 40,
       "display_name": "Radio Zachód",
       "public_name": "Radio Zachód",
       "slug": "radiozachod",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 39,
+      "archive_count": 40,
       "display_name": "Radio Zielona Góra",
       "public_name": "Radio Zielona Góra",
       "slug": "radiozielonagora",
@@ -284,7 +286,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 39,
+      "archive_count": 38,
       "display_name": "Radio Żak",
       "public_name": "Radio Żak",
       "slug": "radiozak",
