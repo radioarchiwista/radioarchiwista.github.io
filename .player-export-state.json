@@ -222,6 +222,7 @@
     "data/stations/radiowroclaw/2026/4/index.json",
     "data/stations/radiowroclaw/2026/index.json",
     "data/stations/radiowroclaw/index.json",
+    "data/stations/radiozachod/2026/3/30.json",
     "data/stations/radiozachod/2026/3/31.json",
     "data/stations/radiozachod/2026/3/index.json",
     "data/stations/radiozachod/2026/4/1.json",
@@ -367,7 +368,7 @@
     "radiokielce": {
       "2026-3-30": "6:2026-04-01T09:00:48.315767+00:00",
       "2026-3-31": "23:2026-04-01T09:00:48.315767+00:00",
-      "2026-4-1": "7:2026-04-01T10:45:38.197416+00:00"
+      "2026-4-1": "6:2026-04-01T10:00:53.688455+00:00"
     },
     "radiokoszalin": {
       "2026-3-30": "7:2026-04-01T09:00:48.354633+00:00",
@@ -387,7 +388,7 @@
     "radiolublin": {
       "2026-3-30": "6:2026-03-31T12:47:48.439627+00:00",
       "2026-3-31": "23:2026-04-01T09:00:48.458895+00:00",
-      "2026-4-1": "11:2026-04-01T10:00:53.770352+00:00"
+      "2026-4-1": "12:2026-04-01T10:59:17.112307+00:00"
     },
     "radioluz": {
       "2026-3-30": "5:2026-03-31T07:17:30.020335+00:00",
@@ -405,7 +406,7 @@
       "2026-4-1": "11:2026-04-01T10:03:58.923813+00:00"
     },
     "radiopik": {
-      "2026-3-30": "5:2026-04-01T02:41:26.085328+00:00",
+      "2026-3-30": "6:2026-04-01T10:59:17.112307+00:00",
       "2026-3-31": "23:2026-04-01T09:00:48.586581+00:00",
       "2026-4-1": "11:2026-04-01T10:03:58.923813+00:00"
     },
@@ -415,7 +416,7 @@
       "2026-4-1": "11:2026-04-01T10:30:54.284015+00:00"
     },
     "radiorzeszow": {
-      "2026-3-30": "5:2026-03-31T08:17:33.111805+00:00",
+      "2026-3-30": "6:2026-04-01T10:59:17.112307+00:00",
       "2026-3-31": "23:2026-04-01T09:00:48.612160+00:00",
       "2026-4-1": "11:2026-04-01T10:30:56.485900+00:00"
     },
@@ -425,7 +426,7 @@
       "2026-4-1": "11:2026-04-01T10:30:56.349363+00:00"
     },
     "radioszczecin": {
-      "2026-3-30": "5:2026-04-01T10:45:38.197416+00:00",
+      "2026-3-30": "6:2026-04-01T10:59:17.112307+00:00",
       "2026-3-31": "23:2026-04-01T09:00:48.641225+00:00",
       "2026-4-1": "11:2026-04-01T10:08:18.123044+00:00"
     },
@@ -435,11 +436,12 @@
       "2026-4-1": "8:2026-04-01T10:08:18.123044+00:00"
     },
     "radiowroclaw": {
-      "2026-3-30": "5:2026-03-31T08:17:33.187415+00:00",
+      "2026-3-30": "6:2026-04-01T10:59:17.112307+00:00",
       "2026-3-31": "23:2026-04-01T09:00:48.666111+00:00",
       "2026-4-1": "11:2026-04-01T10:12:42.244494+00:00"
     },
     "radiozachod": {
+      "2026-3-30": "1:2026-04-01T10:59:17.112307+00:00",
       "2026-3-31": "22:2026-04-01T10:37:09.762573+00:00",
       "2026-4-1": "11:2026-04-01T10:12:42.244494+00:00"
     },
@@ -590,7 +592,7 @@
       "timezone": "Europe/Warsaw"
     },
     "radiokielce": {
-      "archive_count": 36,
+      "archive_count": 35,
       "display_name": "Radio Kielce",
       "public_name": "Radio Kielce",
       "slug": "radiokielce",
@@ -618,7 +620,7 @@
       "timezone": "Europe/Warsaw"
     },
     "radiolublin": {
-      "archive_count": 40,
+      "archive_count": 41,
       "display_name": "Radio Lublin",
       "public_name": "Radio Lublin",
       "slug": "radiolublin",
@@ -646,7 +648,7 @@
       "timezone": "Europe/Warsaw"
     },
     "radiopik": {
-      "archive_count": 39,
+      "archive_count": 40,
       "display_name": "Radio PiK",
       "public_name": "Radio PiK",
       "slug": "radiopik",
@@ -660,7 +662,7 @@
       "timezone": "Europe/Warsaw"
     },
     "radiorzeszow": {
-      "archive_count": 39,
+      "archive_count": 40,
       "display_name": "Radio Rzeszów",
       "public_name": "Radio Rzeszów",
       "slug": "radiorzeszow",
@@ -674,7 +676,7 @@
       "timezone": "Europe/Warsaw"
     },
     "radioszczecin": {
-      "archive_count": 39,
+      "archive_count": 40,
       "display_name": "Radio Szczecin",
       "public_name": "Radio Szczecin",
       "slug": "radioszczecin",
@@ -688,14 +690,14 @@
       "timezone": "Europe/Warsaw"
     },
     "radiowroclaw": {
-      "archive_count": 39,
+      "archive_count": 40,
       "display_name": "Radio Wrocław",
       "public_name": "Radio Wrocław",
       "slug": "radiowroclaw",
       "timezone": "Europe/Warsaw"
     },
     "radiozachod": {
-      "archive_count": 33,
+      "archive_count": 34,
       "display_name": "Radio Zachód",
       "public_name": "Radio Zachód",
       "slug": "radiozachod",
