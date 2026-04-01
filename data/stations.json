@@ -49,7 +49,7 @@
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
     {
-      "archive_count": 68,
+      "archive_count": 67,
       "display_name": "Program 1",
       "public_name": "Polskie Radio Program 1",
       "slug": "pr1",
@@ -140,7 +140,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 42,
+      "archive_count": 41,
       "display_name": "Radio Centrum Rzeszów",
       "public_name": "Radio Centrum Rzeszów",
       "slug": "radiocentrumrzeszow",
@@ -210,7 +210,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 44,
+      "archive_count": 43,
       "display_name": "Radio Lublin",
       "public_name": "Radio Lublin",
       "slug": "radiolublin",
@@ -224,21 +224,21 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 44,
+      "archive_count": 42,
       "display_name": "Radio Olsztyn",
       "public_name": "Radio Olsztyn",
       "slug": "radioolsztyn",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 39,
+      "archive_count": 37,
       "display_name": "Radio Opole",
       "public_name": "Radio Opole",
       "slug": "radioopole",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 44,
+      "archive_count": 43,
       "display_name": "Radio PiK",
       "public_name": "Radio PiK",
       "slug": "radiopik",
@@ -252,7 +252,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 44,
+      "archive_count": 43,
       "display_name": "Radio Rzeszów",
       "public_name": "Radio Rzeszów",
       "slug": "radiorzeszow",
@@ -266,7 +266,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 44,
+      "archive_count": 43,
       "display_name": "Radio Słupsk",
       "public_name": "Radio Słupsk",
       "slug": "radioslupsk",
@@ -287,14 +287,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 38,
+      "archive_count": 36,
       "display_name": "Radio Zachód",
       "public_name": "Radio Zachód",
       "slug": "radiozachod",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 38,
+      "archive_count": 35,
       "display_name": "Radio Zielona Góra",
       "public_name": "Radio Zielona Góra",
       "slug": "radiozielonagora",
