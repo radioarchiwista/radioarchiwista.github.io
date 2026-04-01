@@ -338,12 +338,12 @@
     "radiocentrumrzeszow": {
       "2026-3-30": "4:2026-03-31T08:17:33.262074+00:00",
       "2026-3-31": "23:2026-04-01T08:30:45.615679+00:00",
-      "2026-4-1": "17:2026-04-01T16:01:33.764503+00:00"
+      "2026-4-1": "18:2026-04-01T16:55:18.696927+00:00"
     },
     "radiogdansk": {
       "2026-3-30": "6:2026-04-01T13:01:12.197233+00:00",
       "2026-3-31": "20:2026-04-01T08:30:45.274659+00:00",
-      "2026-4-1": "17:2026-04-01T16:01:33.132264+00:00"
+      "2026-4-1": "18:2026-04-01T16:55:18.696927+00:00"
     },
     "radiogorzow": {
       "2026-3-30": "2:2026-04-01T09:00:48.747652+00:00",
@@ -368,7 +368,7 @@
     "radiokielce": {
       "2026-3-30": "6:2026-04-01T09:00:48.315767+00:00",
       "2026-3-31": "23:2026-04-01T09:00:48.315767+00:00",
-      "2026-4-1": "9:2026-04-01T16:44:42.029469+00:00"
+      "2026-4-1": "6:2026-04-01T13:01:12.236272+00:00"
     },
     "radiokoszalin": {
       "2026-3-30": "7:2026-04-01T09:00:48.354633+00:00",
@@ -402,7 +402,7 @@
     },
     "radioopole": {
       "2026-3-30": "3:2026-03-31T07:27:05.375878+00:00",
-      "2026-3-31": "21:2026-04-01T16:52:34.237184+00:00",
+      "2026-3-31": "20:2026-04-01T16:52:34.237184+00:00",
       "2026-4-1": "17:2026-04-01T16:31:36.883984+00:00"
     },
     "radiopik": {
@@ -456,7 +456,7 @@
       "2026-4-1": "17:2026-04-01T16:31:37.135240+00:00"
     },
     "rdc": {
-      "2026-3-30": "6:2026-04-01T16:37:49.240862+00:00",
+      "2026-3-30": "5:2026-04-01T13:01:12.130835+00:00",
       "2026-3-31": "22:2026-04-01T09:00:48.217517+00:00",
       "2026-4-1": "17:2026-04-01T16:31:36.701121+00:00"
     },
@@ -550,14 +550,14 @@
       "timezone": "Europe/Warsaw"
     },
     "radiocentrumrzeszow": {
-      "archive_count": 44,
+      "archive_count": 45,
       "display_name": "Radio Centrum Rzeszów",
       "public_name": "Radio Centrum Rzeszów",
       "slug": "radiocentrumrzeszow",
       "timezone": "Europe/Warsaw"
     },
     "radiogdansk": {
-      "archive_count": 43,
+      "archive_count": 44,
       "display_name": "Radio Gdańsk",
       "public_name": "Radio Gdańsk",
       "slug": "radiogdansk",
@@ -592,7 +592,7 @@
       "timezone": "Europe/Warsaw"
     },
     "radiokielce": {
-      "archive_count": 38,
+      "archive_count": 35,
       "display_name": "Radio Kielce",
       "public_name": "Radio Kielce",
       "slug": "radiokielce",
@@ -641,7 +641,7 @@
       "timezone": "Europe/Warsaw"
     },
     "radioopole": {
-      "archive_count": 41,
+      "archive_count": 40,
       "display_name": "Radio Opole",
       "public_name": "Radio Opole",
       "slug": "radioopole",
@@ -718,7 +718,7 @@
       "timezone": "Europe/Warsaw"
     },
     "rdc": {
-      "archive_count": 45,
+      "archive_count": 44,
       "display_name": "Radio Dla Ciebie",
       "public_name": "Radio Dla Ciebie",
       "slug": "rdc",
