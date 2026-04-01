@@ -1,8 +1,8 @@
 {
-  "archive_count": 1264,
+  "archive_count": 1268,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-01T03:50:28.342418+00:00",
+  "generated_at": "2026-04-01T03:52:05.455413+00:00",
   "latest_archive_hour_expected_station_count": 38,
   "latest_archive_hour_started_at": "2026-04-01T02:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -19,10 +19,12 @@
     "Radio Gorzów",
     "Radio Index",
     "Radio Kampus",
-    "Radio Katowice"
+    "Radio Katowice",
+    "Radio Kielce",
+    "Radio Koszalin"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-01T03:50:28.342418+00:00",
+  "published_at": "2026-04-01T03:52:05.455413+00:00",
   "station_count": 38,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
