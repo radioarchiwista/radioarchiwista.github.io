@@ -298,21 +298,21 @@
     },
     "pr2": {
       "2026-3-29": "5:2026-03-30T04:31:32.766985+00:00",
-      "2026-3-30": "21:2026-04-01T10:40:51.124101+00:00",
+      "2026-3-30": "20:2026-04-01T09:30:49.061493+00:00",
       "2026-3-31": "24:2026-04-01T09:00:46.432326+00:00",
       "2026-4-1": "12:2026-04-01T10:37:09.762573+00:00"
     },
     "pr24": {
       "2026-3-29": "5:2026-03-30T04:31:33.082386+00:00",
-      "2026-3-30": "21:2026-04-01T10:40:51.124101+00:00",
+      "2026-3-30": "20:2026-04-01T10:29:55.182836+00:00",
       "2026-3-31": "24:2026-04-01T09:00:47.467713+00:00",
       "2026-4-1": "12:2026-04-01T10:37:09.762573+00:00"
     },
     "pr3": {
       "2026-3-29": "5:2026-03-30T04:31:32.951356+00:00",
-      "2026-3-30": "22:2026-04-01T10:40:51.124101+00:00",
+      "2026-3-30": "21:2026-04-01T09:30:50.000308+00:00",
       "2026-3-31": "24:2026-04-01T09:00:46.952395+00:00",
-      "2026-4-1": "11:2026-04-01T10:00:52.580783+00:00"
+      "2026-4-1": "12:2026-04-01T10:42:00.212459+00:00"
     },
     "radio357": {
       "2026-3-29": "1:2026-03-31T09:57:11.871001+00:00",
@@ -487,7 +487,7 @@
   },
   "station_summaries": {
     "afera": {
-      "archive_count": 41,
+      "archive_count": 42,
       "display_name": "Radio Afera",
       "public_name": "Radio Afera",
       "slug": "afera",
@@ -501,14 +501,14 @@
       "timezone": "Europe/Warsaw"
     },
     "pr2": {
-      "archive_count": 62,
+      "archive_count": 61,
       "display_name": "Program 2",
       "public_name": "Polskie Radio Program 2",
       "slug": "pr2",
       "timezone": "Europe/Warsaw"
     },
     "pr24": {
-      "archive_count": 62,
+      "archive_count": 61,
       "display_name": "Polskie Radio 24",
       "public_name": "Polskie Radio 24",
       "slug": "pr24",
@@ -529,7 +529,7 @@
       "timezone": "Europe/Warsaw"
     },
     "radioakadera": {
-      "archive_count": 41,
+      "archive_count": 42,
       "display_name": "Radio Akadera",
       "public_name": "Radio Akadera",
       "slug": "radioakadera",
@@ -550,7 +550,7 @@
       "timezone": "Europe/Warsaw"
     },
     "radiocentrumrzeszow": {
-      "archive_count": 40,
+      "archive_count": 39,
       "display_name": "Radio Centrum Rzeszów",
       "public_name": "Radio Centrum Rzeszów",
       "slug": "radiocentrumrzeszow",
@@ -571,7 +571,7 @@
       "timezone": "Europe/Warsaw"
     },
     "radioindex": {
-      "archive_count": 41,
+      "archive_count": 40,
       "display_name": "Radio Index",
       "public_name": "Radio Index",
       "slug": "radioindex",
@@ -627,7 +627,7 @@
       "timezone": "Europe/Warsaw"
     },
     "radioluz": {
-      "archive_count": 41,
+      "archive_count": 40,
       "display_name": "Radio Luz",
       "public_name": "Radio Luz",
       "slug": "radioluz",
@@ -704,7 +704,7 @@
       "timezone": "Europe/Warsaw"
     },
     "radiozak": {
-      "archive_count": 34,
+      "archive_count": 33,
       "display_name": "Radio Żak",
       "public_name": "Radio Żak",
       "slug": "radiozak",
