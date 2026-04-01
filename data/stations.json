@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-01T07:56:31.612208+00:00",
+  "generated_at": "2026-04-01T07:58:19.574366+00:00",
   "latest_archive_hour_expected_station_count": 38,
   "latest_archive_hour_started_at": "2026-04-01T06:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -23,10 +23,11 @@
     "Radio Koszalin",
     "Radio Kraków",
     "Radio Lublin",
+    "Radio Luz",
     "Radio Łódź"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-01T07:56:31.612208+00:00",
+  "published_at": "2026-04-01T07:58:19.574366+00:00",
   "station_count": 38,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -73,21 +74,21 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 32,
+      "archive_count": 31,
       "display_name": "TOK FM",
       "public_name": "TOK FM",
       "slug": "tokfm",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 50,
+      "archive_count": 49,
       "display_name": "Radio Wnet",
       "public_name": "Radio Wnet",
       "slug": "wnet",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 51,
+      "archive_count": 50,
       "display_name": "Radio Republika",
       "public_name": "Radio Republika",
       "slug": "republika",
@@ -129,14 +130,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 33,
+      "archive_count": 32,
       "display_name": "Radio Dla Ciebie",
       "public_name": "Radio Dla Ciebie",
       "slug": "rdc",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 35,
+      "archive_count": 34,
       "display_name": "Radio Gdańsk",
       "public_name": "Radio Gdańsk",
       "slug": "radiogdansk",
@@ -199,7 +200,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 35,
+      "archive_count": 36,
       "display_name": "Radio Luz",
       "public_name": "Radio Luz",
       "slug": "radioluz",
