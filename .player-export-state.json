@@ -161,7 +161,6 @@
     "data/stations/radiowroclaw/2026/3/index.json",
     "data/stations/radiowroclaw/2026/index.json",
     "data/stations/radiowroclaw/index.json",
-    "data/stations/radiozachod/2026/3/30.json",
     "data/stations/radiozachod/2026/3/31.json",
     "data/stations/radiozachod/2026/3/index.json",
     "data/stations/radiozachod/2026/index.json",
@@ -210,7 +209,7 @@
   "station_day_fingerprints": {
     "afera": {
       "2026-3-30": "6:2026-04-01T02:00:57.577387+00:00",
-      "2026-3-31": "21:2026-04-01T01:30:13.017454+00:00"
+      "2026-3-31": "22:2026-04-01T02:17:05.958778+00:00"
     },
     "pr1": {
       "2026-3-29": "8:2026-03-30T04:31:32.531257+00:00",
@@ -235,15 +234,15 @@
     "radio357": {
       "2026-3-29": "1:2026-03-31T09:57:11.871001+00:00",
       "2026-3-30": "10:2026-04-01T02:00:57.577387+00:00",
-      "2026-3-31": "11:2026-04-01T01:30:12.913286+00:00"
+      "2026-3-31": "12:2026-04-01T02:17:05.958778+00:00"
     },
     "radioakadera": {
       "2026-3-30": "6:2026-04-01T02:00:57.577387+00:00",
-      "2026-3-31": "21:2026-04-01T01:30:13.510953+00:00"
+      "2026-3-31": "22:2026-04-01T02:17:05.958778+00:00"
     },
     "radiobialystok": {
       "2026-3-30": "4:2026-04-01T02:00:57.577387+00:00",
-      "2026-3-31": "9:2026-04-01T01:30:13.060333+00:00"
+      "2026-3-31": "10:2026-04-01T02:17:05.958778+00:00"
     },
     "radiocentrumlublin": {
       "2026-3-30": "6:2026-04-01T02:00:57.577387+00:00",
@@ -333,7 +332,6 @@
       "2026-3-31": "20:2026-04-01T01:54:41.296856+00:00"
     },
     "radiozachod": {
-      "2026-3-30": "1:2026-04-01T02:15:57.125686+00:00",
       "2026-3-31": "18:2026-04-01T02:00:57.577387+00:00"
     },
     "radiozak": {
@@ -371,7 +369,7 @@
   },
   "station_summaries": {
     "afera": {
-      "archive_count": 27,
+      "archive_count": 28,
       "display_name": "Radio Afera",
       "public_name": "Radio Afera",
       "slug": "afera",
@@ -406,21 +404,21 @@
       "timezone": "Europe/Warsaw"
     },
     "radio357": {
-      "archive_count": 22,
+      "archive_count": 23,
       "display_name": "Radio 357",
       "public_name": "Radio 357",
       "slug": "radio357",
       "timezone": "Europe/Warsaw"
     },
     "radioakadera": {
-      "archive_count": 27,
+      "archive_count": 28,
       "display_name": "Radio Akadera",
       "public_name": "Radio Akadera",
       "slug": "radioakadera",
       "timezone": "Europe/Warsaw"
     },
     "radiobialystok": {
-      "archive_count": 13,
+      "archive_count": 14,
       "display_name": "Radio Białystok",
       "public_name": "Radio Białystok",
       "slug": "radiobialystok",
@@ -581,7 +579,7 @@
       "timezone": "Europe/Warsaw"
     },
     "radiozachod": {
-      "archive_count": 19,
+      "archive_count": 18,
       "display_name": "Radio Zachód",
       "public_name": "Radio Zachód",
       "slug": "radiozachod",
