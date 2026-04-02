@@ -1,11 +1,10 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-02T15:30:23.704271+00:00",
+  "generated_at": "2026-04-02T15:33:55.787499+00:00",
   "latest_archive_hour_expected_station_count": 38,
   "latest_archive_hour_started_at": "2026-04-02T14:00:00+00:00",
   "latest_archive_hour_stations": [
-    "Program 1",
     "Program 2",
     "Program 3",
     "Polskie Radio 24",
@@ -29,12 +28,12 @@
     "Radio Łódź"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-02T15:30:23.704271+00:00",
+  "published_at": "2026-04-02T15:33:55.787499+00:00",
   "station_count": 38,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
     {
-      "archive_count": 94,
+      "archive_count": 93,
       "display_name": "Program 1",
       "public_name": "Polskie Radio Program 1",
       "slug": "pr1",
@@ -83,7 +82,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 86,
+      "archive_count": 85,
       "display_name": "Radio Wnet",
       "public_name": "Radio Wnet",
       "slug": "wnet",
