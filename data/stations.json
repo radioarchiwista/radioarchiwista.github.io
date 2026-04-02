@@ -1,41 +1,27 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-02T20:02:56.741117+00:00",
+  "generated_at": "2026-04-02T20:05:48.104981+00:00",
   "latest_archive_hour_expected_station_count": 38,
-  "latest_archive_hour_started_at": "2026-04-02T18:00:00+00:00",
+  "latest_archive_hour_started_at": "2026-04-02T19:00:00+00:00",
   "latest_archive_hour_stations": [
     "Program 1",
-    "Program 2",
-    "Program 3",
-    "Polskie Radio 24",
-    "Radio 357",
-    "Radio Afera",
-    "Radio Akadera",
-    "Radio Białystok",
-    "Radio Centrum Lublin",
-    "Radio Centrum Rzeszów",
-    "Radio Gdańsk",
-    "Radio Gorzów",
-    "Radio Index",
-    "Radio Kampus",
-    "Radio Katowice",
-    "Radio Kielce"
+    "Program 2"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-02T20:02:56.741117+00:00",
+  "published_at": "2026-04-02T20:05:48.104981+00:00",
   "station_count": 38,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
     {
-      "archive_count": 100,
+      "archive_count": 101,
       "display_name": "Program 1",
       "public_name": "Polskie Radio Program 1",
       "slug": "pr1",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 97,
+      "archive_count": 98,
       "display_name": "Program 2",
       "public_name": "Polskie Radio Program 2",
       "slug": "pr2",
