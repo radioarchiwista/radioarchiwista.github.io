@@ -5,7 +5,9 @@
   "latest_archive_hour_expected_station_count": 38,
   "latest_archive_hour_started_at": "2026-04-02T14:00:00+00:00",
   "latest_archive_hour_stations": [
-    "Program 1"
+    "Program 1",
+    "Program 2",
+    "Polskie Radio 24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
   "published_at": "2026-04-02T15:08:55.908220+00:00",
@@ -20,14 +22,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 91,
+      "archive_count": 92,
       "display_name": "Program 2",
       "public_name": "Polskie Radio Program 2",
       "slug": "pr2",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 92,
+      "archive_count": 91,
       "display_name": "Program 3",
       "public_name": "Polskie Radio Program 3",
       "slug": "pr3",
@@ -41,7 +43,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 74,
+      "archive_count": 70,
       "display_name": "Radio 357",
       "public_name": "Radio 357",
       "slug": "radio357",
@@ -55,7 +57,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 74,
+      "archive_count": 72,
       "display_name": "TOK FM",
       "public_name": "TOK FM",
       "slug": "tokfm",
@@ -90,7 +92,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 60,
+      "archive_count": 57,
       "display_name": "Radio Białystok",
       "public_name": "Radio Białystok",
       "slug": "radiobialystok",
@@ -118,7 +120,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 68,
+      "archive_count": 67,
       "display_name": "Radio Gdańsk",
       "public_name": "Radio Gdańsk",
       "slug": "radiogdansk",
@@ -146,7 +148,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 71,
+      "archive_count": 70,
       "display_name": "Radio Katowice",
       "public_name": "Radio Katowice",
       "slug": "radiokatowice",
@@ -251,14 +253,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 65,
+      "archive_count": 64,
       "display_name": "Radio Zachód",
       "public_name": "Radio Zachód",
       "slug": "radiozachod",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 66,
+      "archive_count": 65,
       "display_name": "Radio Zielona Góra",
       "public_name": "Radio Zielona Góra",
       "slug": "radiozielonagora",
