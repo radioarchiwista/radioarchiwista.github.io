@@ -1,5 +1,5 @@
 {
-  "archive_count": 2829,
+  "archive_count": 2832,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
   "generated_at": "2026-04-02T15:40:25.260881+00:00",
@@ -9,6 +9,7 @@
     "Program 1",
     "Program 2",
     "Program 3",
+    "Polskie Radio 24",
     "Radio 357",
     "Radio Afera",
     "Radio Akadera",
@@ -32,6 +33,8 @@
     "Radio Rzeszów",
     "Radio Szczecin",
     "Radio Słupsk",
+    "Radio UWM FM",
+    "Radio Wrocław",
     "Radio Łódź"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
