@@ -50,14 +50,14 @@
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
     {
-      "archive_count": 91,
+      "archive_count": 93,
       "display_name": "Program 1",
       "public_name": "Polskie Radio Program 1",
       "slug": "pr1",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 88,
+      "archive_count": 90,
       "display_name": "Program 2",
       "public_name": "Polskie Radio Program 2",
       "slug": "pr2",
@@ -71,42 +71,42 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 89,
+      "archive_count": 90,
       "display_name": "Polskie Radio 24",
       "public_name": "Polskie Radio 24",
       "slug": "pr24",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 74,
+      "archive_count": 75,
       "display_name": "Radio 357",
       "public_name": "Radio 357",
       "slug": "radio357",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 83,
+      "archive_count": 84,
       "display_name": "Radio Nowy Świat",
       "public_name": "Radio Nowy Świat",
       "slug": "rns",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 70,
+      "archive_count": 73,
       "display_name": "TOK FM",
       "public_name": "TOK FM",
       "slug": "tokfm",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 83,
+      "archive_count": 84,
       "display_name": "Radio Wnet",
       "public_name": "Radio Wnet",
       "slug": "wnet",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 84,
+      "archive_count": 85,
       "display_name": "Radio Republika",
       "public_name": "Radio Republika",
       "slug": "republika",
@@ -127,7 +127,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 60,
+      "archive_count": 62,
       "display_name": "Radio Białystok",
       "public_name": "Radio Białystok",
       "slug": "radiobialystok",
@@ -148,7 +148,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 67,
+      "archive_count": 68,
       "display_name": "Radio Dla Ciebie",
       "public_name": "Radio Dla Ciebie",
       "slug": "rdc",
@@ -246,7 +246,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 67,
+      "archive_count": 68,
       "display_name": "Radio Poznań",
       "public_name": "Radio Poznań",
       "slug": "radiopoznan",
