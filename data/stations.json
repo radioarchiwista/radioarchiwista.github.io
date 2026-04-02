@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-02T17:50:16.476035+00:00",
+  "generated_at": "2026-04-02T17:52:51.950729+00:00",
   "latest_archive_hour_expected_station_count": 38,
   "latest_archive_hour_started_at": "2026-04-02T16:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -33,7 +33,7 @@
     "Radio Łódź"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-02T17:50:16.476035+00:00",
+  "published_at": "2026-04-02T17:52:51.950729+00:00",
   "station_count": 38,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -52,7 +52,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 92,
+      "archive_count": 93,
       "display_name": "Program 3",
       "public_name": "Polskie Radio Program 3",
       "slug": "pr3",
@@ -66,7 +66,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 75,
+      "archive_count": 74,
       "display_name": "Radio 357",
       "public_name": "Radio 357",
       "slug": "radio357",
