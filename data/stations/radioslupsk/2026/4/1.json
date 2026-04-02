@@ -528,29 +528,6 @@
       "utc_label": "2026-04-01 20:00 UTC",
       "utc_started_at": "2026-04-01T20:00:00+00:00",
       "year": 2026
-    },
-    {
-      "archive_item_identifier": "radioslupsk-2026-04-01",
-      "audio_url": "https://archive.org/download/radioslupsk-2026-04-01/radioslupsk_2026-04-01T21-00-00Z.mp3",
-      "completeness_ratio": 1.0,
-      "day": 1,
-      "download_url": "https://archive.org/download/radioslupsk-2026-04-01/radioslupsk_2026-04-01T21-00-00Z.mp3",
-      "duration_seconds": 3599.472,
-      "hour": 23,
-      "hourly_archive_id": 2583,
-      "local_date_label": "01.04.2026",
-      "local_hour_label": "23:00",
-      "local_label": "2026-04-01 23:00 CEST",
-      "local_started_at": "2026-04-01T23:00:00+02:00",
-      "local_timezone_label": "CEST",
-      "month": 4,
-      "published_at": "2026-04-02T03:32:59.568316+00:00",
-      "published_local_label": "2026-04-02 05:32 CEST",
-      "remote_filename": "radioslupsk_2026-04-01T21-00-00Z.mp3",
-      "status": "published",
-      "utc_label": "2026-04-01 21:00 UTC",
-      "utc_started_at": "2026-04-01T21:00:00+00:00",
-      "year": 2026
     }
   ],
   "day": 1,
@@ -560,7 +537,7 @@
   "month": 4,
   "published_at": "2026-04-02T05:37:10.876757+00:00",
   "station": {
-    "archive_count": 59,
+    "archive_count": 58,
     "display_name": "Radio Słupsk",
     "public_name": "Radio Słupsk",
     "slug": "radioslupsk",
