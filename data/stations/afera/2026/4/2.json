@@ -2,29 +2,6 @@
   "archives": [
     {
       "archive_item_identifier": "afera-2026-04-01",
-      "audio_url": "https://archive.org/download/afera-2026-04-01/afera_2026-04-01T22-00-00Z.mp3",
-      "completeness_ratio": 0.9999,
-      "day": 2,
-      "download_url": "https://archive.org/download/afera-2026-04-01/afera_2026-04-01T22-00-00Z.mp3",
-      "duration_seconds": 3596.688,
-      "hour": 0,
-      "hourly_archive_id": 2599,
-      "local_date_label": "02.04.2026",
-      "local_hour_label": "00:00",
-      "local_label": "2026-04-02 00:00 CEST",
-      "local_started_at": "2026-04-02T00:00:00+02:00",
-      "local_timezone_label": "CEST",
-      "month": 4,
-      "published_at": "2026-04-01T23:54:58.062586+00:00",
-      "published_local_label": "2026-04-02 01:54 CEST",
-      "remote_filename": "afera_2026-04-01T22-00-00Z.mp3",
-      "status": "published",
-      "utc_label": "2026-04-01 22:00 UTC",
-      "utc_started_at": "2026-04-01T22:00:00+00:00",
-      "year": 2026
-    },
-    {
-      "archive_item_identifier": "afera-2026-04-01",
       "audio_url": "https://archive.org/download/afera-2026-04-01/afera_2026-04-01T23-00-00Z.mp3",
       "completeness_ratio": 0.9999,
       "day": 2,
@@ -54,7 +31,7 @@
   "month": 4,
   "published_at": "2026-04-02T00:15:39.019847+00:00",
   "station": {
-    "archive_count": 52,
+    "archive_count": 51,
     "display_name": "Radio Afera",
     "public_name": "Radio Afera",
     "slug": "afera",
