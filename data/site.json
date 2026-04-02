@@ -1,17 +1,12 @@
 {
-  "archive_count": 2854,
+  "archive_count": 2849,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-02T16:46:18.246013+00:00",
+  "generated_at": "2026-04-02T16:48:44.032878+00:00",
   "latest_archive_hour_expected_station_count": 38,
   "latest_archive_hour_started_at": "2026-04-02T15:00:00+00:00",
   "latest_archive_hour_stations": [
-    "Radio 357",
-    "Radio Akadera",
-    "Radio Białystok",
-    "Radio Centrum Lublin",
     "Radio Centrum Rzeszów",
-    "Radio Gdańsk",
     "Radio Gorzów",
     "Radio Index",
     "Radio Kampus",
@@ -30,7 +25,7 @@
     "Radio Łódź"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-02T16:46:18.246013+00:00",
+  "published_at": "2026-04-02T16:48:44.032878+00:00",
   "station_count": 38,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
