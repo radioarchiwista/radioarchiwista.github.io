@@ -1,5 +1,5 @@
 {
-  "archive_count": 2792,
+  "archive_count": 2796,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
   "generated_at": "2026-04-02T14:43:17.686330+00:00",
@@ -8,6 +8,8 @@
   "latest_archive_hour_stations": [
     "Program 1",
     "Program 2",
+    "Program 3",
+    "Polskie Radio 24",
     "Radio 357",
     "Radio Afera",
     "Radio Akadera",
@@ -33,7 +35,9 @@
     "Radio Słupsk",
     "Radio UWM FM",
     "Radio Wrocław",
-    "Radio Łódź"
+    "Radio Zachód",
+    "Radio Łódź",
+    "Radio Żak"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
   "published_at": "2026-04-02T14:43:17.686330+00:00",
