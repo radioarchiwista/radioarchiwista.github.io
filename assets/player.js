@@ -78,10 +78,12 @@
   let currentMonthIndex = null;
   let currentDayCatalog = null;
   let selectedArchive = null;
+  let activePlaybackState = null;
   let catalogVersionToken = "";
   const yearIndexCache = new Map();
   const monthIndexCache = new Map();
   const dayCatalogCache = new Map();
+  const derivativeUrlCache = new Map();
   const monthFormatter = new Intl.DateTimeFormat("pl-PL", {
     month: "long",
     timeZone: "UTC",
@@ -133,7 +135,7 @@
       setStatus("Wybierz konkretną godzinę przed załadowaniem nagrania.");
       return;
     }
-    loadArchiveIntoPlayer(selectedArchive);
+    void loadArchiveIntoPlayer(selectedArchive);
   });
 
   downloadLink.addEventListener("click", async (event) => {
@@ -215,7 +217,7 @@
   });
 
   audio.addEventListener("error", () => {
-    setStatus("Nie udało się załadować pliku audio dla wybranej godziny.");
+    void handleAudioPlaybackError();
   });
 
   if (navigator.mediaDevices && typeof navigator.mediaDevices.addEventListener === "function") {
@@ -485,9 +487,28 @@
     }
   }
 
-  function loadArchiveIntoPlayer(archive) {
+  async function loadArchiveIntoPlayer(archive) {
     selectedArchive = archive;
-    audio.src = archive.audio_url;
+    const playbackState = {
+      archiveId: archive.hourly_archive_id,
+      originalUrl: archive.audio_url,
+      currentUrl: archive.audio_url,
+      fallbackUrl: null,
+      fallbackAttempted: false,
+    };
+    activePlaybackState = playbackState;
+    const preferredSource = await resolvePreferredPlaybackSource(archive);
+    if (
+      !selectedArchive ||
+      selectedArchive.hourly_archive_id !== archive.hourly_archive_id ||
+      activePlaybackState !== playbackState
+    ) {
+      return;
+    }
+    playbackState.currentUrl = preferredSource.url;
+    playbackState.fallbackUrl = preferredSource.fallbackUrl || null;
+    playbackState.fallbackAttempted = preferredSource.url !== archive.audio_url;
+    audio.src = preferredSource.url;
     audio.load();
     audio.playbackRate = Number(rateSelect.value);
     setDownloadLinkState(archive.download_url, archive.remote_filename || null);
@@ -503,6 +524,18 @@
     durationNode.textContent = formatDuration(archive.duration_seconds);
     playButton.textContent = "Odtwórz";
     setPlayerLoadedState(true);
+    if (preferredSource.reason === "derivative") {
+      setStatus(
+        `Załadowano derivat do odtwarzania dla ${archive.local_hour_label || formatHourLabel(archive.hour)}; oryginał nadal jest dostępny do pobrania.`,
+      );
+      return;
+    }
+    if (preferredSource.reason === "original-no-derivative") {
+      setStatus(
+        `Załadowano oryginalny OGG dla ${archive.local_hour_label || formatHourLabel(archive.hour)}. Ta przeglądarka może go nie odtworzyć, jeśli archive.org nie ma jeszcze derivatu.`,
+      );
+      return;
+    }
     setStatus(`Załadowano nagranie ${archive.local_hour_label || formatHourLabel(archive.hour)}.`);
   }
 
@@ -516,6 +549,7 @@
     clearSelect(hourSelect, "Wybierz godzinę", true);
     loadButton.disabled = true;
     setDownloadLinkState(null, null);
+    activePlaybackState = null;
     audio.pause();
     audio.removeAttribute("src");
     audio.load();
@@ -680,6 +714,174 @@
 
   function setStatus(message) {
     statusNode.textContent = message;
+  }
+
+  async function handleAudioPlaybackError() {
+    if (!selectedArchive || !activePlaybackState) {
+      setStatus("Nie udało się załadować pliku audio dla wybranej godziny.");
+      return;
+    }
+    const playbackState = activePlaybackState;
+    if (
+      playbackState.archiveId !== selectedArchive.hourly_archive_id ||
+      playbackState.fallbackAttempted
+    ) {
+      setStatus("Nie udało się załadować pliku audio dla wybranej godziny.");
+      return;
+    }
+    const derivativeUrl =
+      playbackState.fallbackUrl || (await resolveArchiveOrgDerivativeUrl(selectedArchive));
+    playbackState.fallbackAttempted = true;
+    playbackState.fallbackUrl = derivativeUrl || null;
+    if (!derivativeUrl || derivativeUrl === playbackState.currentUrl) {
+      setStatus("Nie udało się załadować pliku audio dla wybranej godziny.");
+      return;
+    }
+    const shouldResumePlayback = !audio.paused;
+    playbackState.currentUrl = derivativeUrl;
+    audio.src = derivativeUrl;
+    audio.load();
+    setStatus(
+      "Oryginalny plik OGG nie odtworzył się poprawnie. Przełączam na derivat audio z archive.org.",
+    );
+    if (shouldResumePlayback) {
+      try {
+        await audio.play();
+      } catch (error) {
+        setStatus(`Nie udało się rozpocząć odtwarzania derivatu: ${error}`);
+      }
+    }
+  }
+
+  async function resolvePreferredPlaybackSource(archive) {
+    if (!archive || !shouldPreferOriginalAudioSource(archive)) {
+      return { url: archive.audio_url, fallbackUrl: null, reason: "default" };
+    }
+    if (browserSupportsArchiveFormat(archive.remote_filename || "")) {
+      return { url: archive.audio_url, fallbackUrl: null, reason: "original" };
+    }
+    const derivativeUrl = await resolveArchiveOrgDerivativeUrl(archive);
+    if (derivativeUrl) {
+      return { url: derivativeUrl, fallbackUrl: derivativeUrl, reason: "derivative" };
+    }
+    return {
+      url: archive.audio_url,
+      fallbackUrl: null,
+      reason: "original-no-derivative",
+    };
+  }
+
+  function shouldPreferOriginalAudioSource(archive) {
+    const filename = String(archive?.remote_filename || "").toLowerCase();
+    return filename.endsWith(".ogg") || filename.endsWith(".oga") || filename.endsWith(".opus");
+  }
+
+  function browserSupportsArchiveFormat(filename) {
+    const normalized = String(filename || "").toLowerCase();
+    if (!normalized) {
+      return false;
+    }
+    if (normalized.endsWith(".ogg") || normalized.endsWith(".oga")) {
+      return canPlayAudioMime('audio/ogg; codecs="vorbis"') || canPlayAudioMime("audio/ogg");
+    }
+    if (normalized.endsWith(".opus")) {
+      return canPlayAudioMime('audio/ogg; codecs="opus"') || canPlayAudioMime("audio/ogg");
+    }
+    return canPlayAudioMime(inferAudioMimeType(filename));
+  }
+
+  function canPlayAudioMime(mimeType) {
+    if (!mimeType || typeof audio.canPlayType !== "function") {
+      return false;
+    }
+    const result = audio.canPlayType(mimeType);
+    return result === "probably" || result === "maybe";
+  }
+
+  function inferAudioMimeType(filename) {
+    const normalized = String(filename || "").toLowerCase();
+    if (normalized.endsWith(".ogg") || normalized.endsWith(".oga")) {
+      return "audio/ogg";
+    }
+    if (normalized.endsWith(".opus")) {
+      return "audio/ogg";
+    }
+    return "audio/mpeg";
+  }
+
+  async function resolveArchiveOrgDerivativeUrl(archive) {
+    const identifier = archive?.archive_item_identifier;
+    const originalFilename = archive?.remote_filename;
+    if (!identifier || !originalFilename) {
+      return null;
+    }
+    const cacheKey = `${identifier}:${originalFilename}`;
+    if (derivativeUrlCache.has(cacheKey)) {
+      return derivativeUrlCache.get(cacheKey);
+    }
+    try {
+      const metadataUrl =
+        `https://archive.org/metadata/${encodeURIComponent(identifier)}?t=${Date.now()}`;
+      const response = await fetch(metadataUrl, {
+        cache: "no-store",
+        credentials: "omit",
+        mode: "cors",
+      });
+      if (!response.ok) {
+        derivativeUrlCache.set(cacheKey, null);
+        return null;
+      }
+      const payload = await response.json();
+      const files = Array.isArray(payload?.files) ? payload.files : [];
+      const derivative = selectPreferredArchiveDerivative(files, originalFilename);
+      const derivativeUrl = derivative
+        ? buildArchiveOrgFileUrl(identifier, derivative.name)
+        : null;
+      derivativeUrlCache.set(cacheKey, derivativeUrl);
+      return derivativeUrl;
+    } catch (_error) {
+      derivativeUrlCache.set(cacheKey, null);
+      return null;
+    }
+  }
+
+  function selectPreferredArchiveDerivative(files, originalFilename) {
+    const matches = files.filter((file) => {
+      if (!file || typeof file.name !== "string") {
+        return false;
+      }
+      const candidateName = file.name.toLowerCase();
+      if (!candidateName.endsWith(".mp3")) {
+        return false;
+      }
+      return file.original === originalFilename;
+    });
+    if (matches.length === 0) {
+      return null;
+    }
+    const sorted = matches.slice().sort((left, right) => {
+      return scoreArchiveDerivative(right) - scoreArchiveDerivative(left);
+    });
+    return sorted[0] || null;
+  }
+
+  function scoreArchiveDerivative(file) {
+    const format = String(file?.format || "").toLowerCase();
+    if (format.includes("vbr mp3")) {
+      return 300;
+    }
+    const bitrateMatch = format.match(/(\d+)\s*kbps mp3/);
+    if (bitrateMatch) {
+      return 200 + Number.parseInt(bitrateMatch[1], 10);
+    }
+    if (format.includes("mp3")) {
+      return 100;
+    }
+    return 0;
+  }
+
+  function buildArchiveOrgFileUrl(identifier, filename) {
+    return `https://archive.org/download/${encodeURIComponent(identifier)}/${encodeURIComponent(filename)}`;
   }
 
   function setDownloadLinkState(url, filename) {
