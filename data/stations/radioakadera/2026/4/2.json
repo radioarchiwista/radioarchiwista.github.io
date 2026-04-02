@@ -2,29 +2,6 @@
   "archives": [
     {
       "archive_item_identifier": "radioakadera-2026-04-01",
-      "audio_url": "https://archive.org/download/radioakadera-2026-04-01/radioakadera_2026-04-01T22-00-00Z.mp3",
-      "completeness_ratio": 1.0,
-      "day": 2,
-      "download_url": "https://archive.org/download/radioakadera-2026-04-01/radioakadera_2026-04-01T22-00-00Z.mp3",
-      "duration_seconds": 3599.64,
-      "hour": 0,
-      "hourly_archive_id": 2601,
-      "local_date_label": "02.04.2026",
-      "local_hour_label": "00:00",
-      "local_label": "2026-04-02 00:00 CEST",
-      "local_started_at": "2026-04-02T00:00:00+02:00",
-      "local_timezone_label": "CEST",
-      "month": 4,
-      "published_at": "2026-04-01T23:55:15.236501+00:00",
-      "published_local_label": "2026-04-02 01:55 CEST",
-      "remote_filename": "radioakadera_2026-04-01T22-00-00Z.mp3",
-      "status": "published",
-      "utc_label": "2026-04-01 22:00 UTC",
-      "utc_started_at": "2026-04-01T22:00:00+00:00",
-      "year": 2026
-    },
-    {
-      "archive_item_identifier": "radioakadera-2026-04-01",
       "audio_url": "https://archive.org/download/radioakadera-2026-04-01/radioakadera_2026-04-01T23-00-00Z.mp3",
       "completeness_ratio": 1.0,
       "day": 2,
@@ -54,7 +31,7 @@
   "month": 4,
   "published_at": "2026-04-02T00:15:57.219560+00:00",
   "station": {
-    "archive_count": 52,
+    "archive_count": 51,
     "display_name": "Radio Akadera",
     "public_name": "Radio Akadera",
     "slug": "radioakadera",
