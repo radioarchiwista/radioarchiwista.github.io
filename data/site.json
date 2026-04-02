@@ -1,5 +1,5 @@
 {
-  "archive_count": 2484,
+  "archive_count": 2496,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
   "generated_at": "2026-04-02T08:50:28.243959+00:00",
@@ -28,6 +28,13 @@
     "Radio Luz",
     "Radio Olsztyn",
     "Radio Opole",
+    "Radio PiK",
+    "Radio Poznań",
+    "Radio Rzeszów",
+    "Radio Szczecin",
+    "Radio Słupsk",
+    "Radio UWM FM",
+    "Radio Wrocław",
     "Radio Łódź"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
