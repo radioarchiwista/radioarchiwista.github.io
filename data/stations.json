@@ -1,12 +1,11 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-02T16:43:53.536322+00:00",
+  "generated_at": "2026-04-02T16:36:14.048304+00:00",
   "latest_archive_hour_expected_station_count": 38,
   "latest_archive_hour_started_at": "2026-04-02T15:00:00+00:00",
   "latest_archive_hour_stations": [
     "Radio 357",
-    "Radio Afera",
     "Radio Akadera",
     "Radio Białystok",
     "Radio Centrum Lublin",
@@ -30,7 +29,7 @@
     "Radio Łódź"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-02T16:43:53.536322+00:00",
+  "published_at": "2026-04-02T16:36:14.048304+00:00",
   "station_count": 38,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -98,7 +97,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 73,
+      "archive_count": 72,
       "display_name": "Radio Afera",
       "public_name": "Radio Afera",
       "slug": "afera",
