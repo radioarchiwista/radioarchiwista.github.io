@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-02T00:36:45.533731+00:00",
+  "generated_at": "2026-04-02T00:43:49.209000+00:00",
   "latest_archive_hour_expected_station_count": 38,
   "latest_archive_hour_started_at": "2026-04-01T23:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -36,7 +36,7 @@
     "Radio Łódź"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-02T00:36:45.533731+00:00",
+  "published_at": "2026-04-02T00:43:49.209000+00:00",
   "station_count": 38,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -132,7 +132,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 51,
+      "archive_count": 50,
       "display_name": "Radio Centrum Rzeszów",
       "public_name": "Radio Centrum Rzeszów",
       "slug": "radiocentrumrzeszow",
@@ -146,28 +146,28 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 50,
+      "archive_count": 49,
       "display_name": "Radio Gdańsk",
       "public_name": "Radio Gdańsk",
       "slug": "radiogdansk",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 48,
+      "archive_count": 47,
       "display_name": "Radio Gorzów",
       "public_name": "Radio Gorzów",
       "slug": "radiogorzow",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 53,
+      "archive_count": 52,
       "display_name": "Radio Index",
       "public_name": "Radio Index",
       "slug": "radioindex",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 41,
+      "archive_count": 40,
       "display_name": "Radio Kampus",
       "public_name": "Radio Kampus",
       "slug": "radiokampus",
