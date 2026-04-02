@@ -36,14 +36,14 @@
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
     {
-      "archive_count": 100,
+      "archive_count": 102,
       "display_name": "Program 1",
       "public_name": "Polskie Radio Program 1",
       "slug": "pr1",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 97,
+      "archive_count": 99,
       "display_name": "Program 2",
       "public_name": "Polskie Radio Program 2",
       "slug": "pr2",
@@ -57,7 +57,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 98,
+      "archive_count": 99,
       "display_name": "Polskie Radio 24",
       "public_name": "Polskie Radio 24",
       "slug": "pr24",
