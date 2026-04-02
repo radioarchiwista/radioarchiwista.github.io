@@ -1,5 +1,5 @@
 {
-  "archive_count": 2762,
+  "archive_count": 2768,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
   "generated_at": "2026-04-02T14:30:55.727928+00:00",
@@ -23,7 +23,12 @@
     "Radio Katowice",
     "Radio Kielce",
     "Radio Koszalin",
-    "Radio Kraków"
+    "Radio Kraków",
+    "Radio Lublin",
+    "Radio Luz",
+    "Radio Olsztyn",
+    "Radio Opole",
+    "Radio Łódź"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
   "published_at": "2026-04-02T14:30:55.727928+00:00",
