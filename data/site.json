@@ -1,5 +1,5 @@
 {
-  "archive_count": 2383,
+  "archive_count": 2401,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
   "generated_at": "2026-04-02T07:40:17.783044+00:00",
@@ -26,6 +26,12 @@
     "Radio Kraków",
     "Radio Lublin",
     "Radio Luz",
+    "Radio Olsztyn",
+    "Radio Opole",
+    "Radio PiK",
+    "Radio Poznań",
+    "Radio Rzeszów",
+    "Radio Słupsk",
     "Radio Łódź"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
