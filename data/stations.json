@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-02T05:31:36.309545+00:00",
+  "generated_at": "2026-04-02T05:34:37.672628+00:00",
   "latest_archive_hour_expected_station_count": 38,
   "latest_archive_hour_started_at": "2026-04-02T04:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -31,7 +31,7 @@
     "Radio Łódź"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-02T05:31:36.309545+00:00",
+  "published_at": "2026-04-02T05:34:37.672628+00:00",
   "station_count": 38,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -155,21 +155,21 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 60,
+      "archive_count": 59,
       "display_name": "Radio Index",
       "public_name": "Radio Index",
       "slug": "radioindex",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 47,
+      "archive_count": 46,
       "display_name": "Radio Kampus",
       "public_name": "Radio Kampus",
       "slug": "radiokampus",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 62,
+      "archive_count": 61,
       "display_name": "Radio Katowice",
       "public_name": "Radio Katowice",
       "slug": "radiokatowice",
@@ -211,7 +211,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 59,
+      "archive_count": 58,
       "display_name": "Radio Olsztyn",
       "public_name": "Radio Olsztyn",
       "slug": "radioolsztyn",
