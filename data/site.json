@@ -1,5 +1,5 @@
 {
-  "archive_count": 2678,
+  "archive_count": 2689,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
   "generated_at": "2026-04-02T12:33:44.788805+00:00",
@@ -19,7 +19,18 @@
     "Radio Gdańsk",
     "Radio Gorzów",
     "Radio Index",
-    "Radio Kampus"
+    "Radio Kampus",
+    "Radio Katowice",
+    "Radio Kielce",
+    "Radio Koszalin",
+    "Radio Kraków",
+    "Radio Lublin",
+    "Radio Luz",
+    "Radio Olsztyn",
+    "Radio Opole",
+    "Radio PiK",
+    "Radio Poznań",
+    "Radio Łódź"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
   "published_at": "2026-04-02T12:33:44.788805+00:00",
