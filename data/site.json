@@ -1,5 +1,5 @@
 {
-  "archive_count": 3901,
+  "archive_count": 3906,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
   "generated_at": "2026-04-03T22:13:49.379656+00:00",
@@ -9,7 +9,10 @@
     "Program 1",
     "Program 2",
     "Program 3",
-    "Polskie Radio 24"
+    "Polskie Radio 24",
+    "Radio 357",
+    "Radio Afera",
+    "Radio Akadera"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
   "published_at": "2026-04-03T22:13:49.379656+00:00",
