@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-03T16:03:37.987077+00:00",
+  "generated_at": "2026-04-03T16:03:38.049915+00:00",
   "latest_archive_hour_expected_station_count": 38,
   "latest_archive_hour_started_at": "2026-04-03T14:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -28,6 +28,7 @@
     "Radio Kielce",
     "Radio Koszalin",
     "Radio Kraków",
+    "Radio Lublin",
     "Radio Luz",
     "Radio Olsztyn",
     "Radio Opole",
@@ -43,7 +44,7 @@
     "Radio Żak"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-03T16:03:37.987077+00:00",
+  "published_at": "2026-04-03T16:03:38.049915+00:00",
   "station_count": 38,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -209,7 +210,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 94,
+      "archive_count": 95,
       "display_name": "Radio Lublin",
       "public_name": "Radio Lublin",
       "slug": "radiolublin",
