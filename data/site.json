@@ -1,5 +1,5 @@
 {
-  "archive_count": 3647,
+  "archive_count": 3658,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
   "generated_at": "2026-04-03T13:42:39.852205+00:00",
@@ -8,6 +8,11 @@
   "latest_archive_hour_stations": [
     "Program 1",
     "Program 2",
+    "Program 3",
+    "Polskie Radio 24",
+    "Radio 357",
+    "Radio Afera",
+    "Radio Akadera",
     "Radio Białystok",
     "Radio Centrum Lublin",
     "Radio Centrum Rzeszów",
@@ -24,6 +29,9 @@
     "Radio Olsztyn",
     "Radio Opole",
     "Radio PiK",
+    "Radio Poznań",
+    "Radio Rzeszów",
+    "Radio Słupsk",
     "Radio Łódź"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
