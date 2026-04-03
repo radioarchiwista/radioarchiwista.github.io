@@ -1,56 +1,19 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-03T15:07:54.041793+00:00",
+  "generated_at": "2026-04-03T15:07:53.310026+00:00",
   "latest_archive_hour_expected_station_count": 38,
-  "latest_archive_hour_started_at": "2026-04-03T13:00:00+00:00",
+  "latest_archive_hour_started_at": "2026-04-03T14:00:00+00:00",
   "latest_archive_hour_stations": [
-    "Program 1",
-    "Program 2",
-    "Program 3",
-    "Polskie Radio 24",
-    "Radio 357",
-    "Radio Nowy Świat",
-    "TOK FM",
-    "Radio Wnet",
-    "Radio Republika",
-    "Radio Afera",
-    "Radio Akadera",
-    "Radio Białystok",
-    "Radio Centrum Lublin",
-    "Radio Centrum Rzeszów",
-    "Radio Dla Ciebie",
-    "Radio Gdańsk",
-    "Radio Gorzów",
-    "Radio Index",
-    "Radio Kampus",
-    "Radio Katowice",
-    "Radio Kielce",
-    "Radio Koszalin",
-    "Radio Kraków",
-    "Radio Lublin",
-    "Radio Luz",
-    "Radio Olsztyn",
-    "Radio Opole",
-    "Radio PiK",
-    "Radio Poznań",
-    "Radio Rzeszów",
-    "Radio Szczecin",
-    "Radio Słupsk",
-    "Radio UWM FM",
-    "Radio Wrocław",
-    "Radio Zachód",
-    "Radio Zielona Góra",
-    "Radio Łódź",
-    "Radio Żak"
+    "Program 1"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-03T15:07:54.041793+00:00",
+  "published_at": "2026-04-03T15:07:53.310026+00:00",
   "station_count": 38,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
     {
-      "archive_count": 119,
+      "archive_count": 117,
       "display_name": "Program 1",
       "public_name": "Polskie Radio Program 1",
       "slug": "pr1",
@@ -78,7 +41,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 102,
+      "archive_count": 101,
       "display_name": "Radio 357",
       "public_name": "Radio 357",
       "slug": "radio357",
@@ -113,7 +76,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 95,
+      "archive_count": 94,
       "display_name": "Radio Afera",
       "public_name": "Radio Afera",
       "slug": "afera",
@@ -127,7 +90,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 87,
+      "archive_count": 86,
       "display_name": "Radio Białystok",
       "public_name": "Radio Białystok",
       "slug": "radiobialystok",
@@ -141,7 +104,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 94,
+      "archive_count": 93,
       "display_name": "Radio Centrum Rzeszów",
       "public_name": "Radio Centrum Rzeszów",
       "slug": "radiocentrumrzeszow",
@@ -155,7 +118,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 93,
+      "archive_count": 92,
       "display_name": "Radio Gdańsk",
       "public_name": "Radio Gdańsk",
       "slug": "radiogdansk",
@@ -183,14 +146,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 96,
+      "archive_count": 95,
       "display_name": "Radio Katowice",
       "public_name": "Radio Katowice",
       "slug": "radiokatowice",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 95,
+      "archive_count": 94,
       "display_name": "Radio Kielce",
       "public_name": "Radio Kielce",
       "slug": "radiokielce",
@@ -225,7 +188,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 94,
+      "archive_count": 93,
       "display_name": "Radio Olsztyn",
       "public_name": "Radio Olsztyn",
       "slug": "radioolsztyn",
@@ -288,14 +251,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 91,
+      "archive_count": 89,
       "display_name": "Radio Zachód",
       "public_name": "Radio Zachód",
       "slug": "radiozachod",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 92,
+      "archive_count": 91,
       "display_name": "Radio Zielona Góra",
       "public_name": "Radio Zielona Góra",
       "slug": "radiozielonagora",
