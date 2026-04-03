@@ -2,14 +2,14 @@
   "archive_count": 3678,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-03T17:06:07.178613+00:00",
+  "generated_at": "2026-04-03T17:11:47.397442+00:00",
   "latest_archive_hour_expected_station_count": 38,
   "latest_archive_hour_started_at": "2026-04-03T16:00:00+00:00",
   "latest_archive_hour_stations": [
     "Program 1"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-03T17:06:07.178613+00:00",
+  "published_at": "2026-04-03T17:11:47.397442+00:00",
   "station_count": 38,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
