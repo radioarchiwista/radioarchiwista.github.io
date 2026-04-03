@@ -25,8 +25,6 @@
     "Radio Index",
     "Radio Kampus",
     "Radio Katowice",
-    "Radio Koszalin",
-    "Radio Kraków",
     "Radio Lublin",
     "Radio Luz",
     "Radio Olsztyn",
@@ -40,7 +38,6 @@
     "Radio Wrocław",
     "Radio Zachód",
     "Radio Zielona Góra",
-    "Radio Łódź",
     "Radio Żak"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
@@ -196,14 +193,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 95,
+      "archive_count": 94,
       "display_name": "Radio Koszalin",
       "public_name": "Radio Koszalin",
       "slug": "radiokoszalin",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 94,
+      "archive_count": 93,
       "display_name": "Radio Kraków",
       "public_name": "Radio Kraków",
       "slug": "radiokrakow",
@@ -224,7 +221,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 94,
+      "archive_count": 93,
       "display_name": "Radio Olsztyn",
       "public_name": "Radio Olsztyn",
       "slug": "radioolsztyn",
@@ -301,7 +298,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 95,
+      "archive_count": 94,
       "display_name": "Radio Łódź",
       "public_name": "Radio Łódź",
       "slug": "radiolodz",
