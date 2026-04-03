@@ -1,10 +1,11 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-03T23:47:01.797523+00:00",
+  "generated_at": "2026-04-03T23:47:00.577405+00:00",
   "latest_archive_hour_expected_station_count": 38,
   "latest_archive_hour_started_at": "2026-04-03T21:00:00+00:00",
   "latest_archive_hour_stations": [
+    "Program 1",
     "Radio Republika",
     "Radio Centrum Rzeszów",
     "Radio Index",
@@ -17,16 +18,15 @@
     "Radio PiK",
     "Radio Rzeszów",
     "Radio Szczecin",
-    "Radio UWM FM",
-    "Radio Łódź"
+    "Radio UWM FM"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-03T23:47:01.797523+00:00",
+  "published_at": "2026-04-03T23:47:00.577405+00:00",
   "station_count": 38,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
     {
-      "archive_count": 123,
+      "archive_count": 124,
       "display_name": "Program 1",
       "public_name": "Polskie Radio Program 1",
       "slug": "pr1",
@@ -264,7 +264,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 93,
+      "archive_count": 94,
       "display_name": "Radio Zachód",
       "public_name": "Radio Zachód",
       "slug": "radiozachod",
@@ -278,7 +278,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 103,
+      "archive_count": 102,
       "display_name": "Radio Łódź",
       "public_name": "Radio Łódź",
       "slug": "radiolodz",
