@@ -1,20 +1,14 @@
 {
-  "archive_count": 3895,
+  "archive_count": 3869,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
   "generated_at": "2026-04-03T23:06:37.282596+00:00",
   "latest_archive_hour_expected_station_count": 38,
-  "latest_archive_hour_started_at": "2026-04-03T21:00:00+00:00",
+  "latest_archive_hour_started_at": "2026-04-03T22:00:00+00:00",
   "latest_archive_hour_stations": [
     "Program 1",
     "Program 2",
-    "Program 3",
-    "Polskie Radio 24",
-    "Radio Centrum Rzeszów",
-    "Radio Index",
-    "Radio Kampus",
-    "Radio Koszalin",
-    "Radio Kraków"
+    "Polskie Radio 24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
   "published_at": "2026-04-03T23:06:37.282596+00:00",
