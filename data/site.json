@@ -1,5 +1,5 @@
 {
-  "archive_count": 3562,
+  "archive_count": 3563,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
   "generated_at": "2026-04-03T11:32:25.473552+00:00",
@@ -24,6 +24,7 @@
     "Radio Kielce",
     "Radio Koszalin",
     "Radio Kraków",
+    "Radio Lublin",
     "Radio Łódź"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",

@@ -23,6 +23,7 @@
     "Radio Kielce",
     "Radio Koszalin",
     "Radio Kraków",
+    "Radio Lublin",
     "Radio Łódź"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
@@ -192,7 +193,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 91,
+      "archive_count": 92,
       "display_name": "Radio Lublin",
       "public_name": "Radio Lublin",
       "slug": "radiolublin",
