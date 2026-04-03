@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-03T22:22:24.941481+00:00",
+  "generated_at": "2026-04-03T22:27:11.384524+00:00",
   "latest_archive_hour_expected_station_count": 38,
   "latest_archive_hour_started_at": "2026-04-03T21:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -21,19 +21,19 @@
     "Radio Kampus"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-03T22:22:24.941481+00:00",
+  "published_at": "2026-04-03T22:27:11.384524+00:00",
   "station_count": 38,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
     {
-      "archive_count": 127,
+      "archive_count": 125,
       "display_name": "Program 1",
       "public_name": "Polskie Radio Program 1",
       "slug": "pr1",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 122,
+      "archive_count": 121,
       "display_name": "Program 2",
       "public_name": "Polskie Radio Program 2",
       "slug": "pr2",
@@ -110,7 +110,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 101,
+      "archive_count": 100,
       "display_name": "Radio Centrum Lublin",
       "public_name": "Radio Centrum Lublin",
       "slug": "radiocentrumlublin",
