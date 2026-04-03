@@ -24,29 +24,6 @@
       "year": 2026
     },
     {
-      "archive_item_identifier": "pr1-2026-04-02",
-      "audio_url": "https://archive.org/download/pr1-2026-04-02/pr1_2026-04-02T23-00-00Z.mp3",
-      "completeness_ratio": 1.0,
-      "day": 3,
-      "download_url": "https://archive.org/download/pr1-2026-04-02/pr1_2026-04-02T23-00-00Z.mp3",
-      "duration_seconds": 3599.232,
-      "hour": 1,
-      "hourly_archive_id": 3545,
-      "local_date_label": "03.04.2026",
-      "local_hour_label": "01:00",
-      "local_label": "2026-04-03 01:00 CEST",
-      "local_started_at": "2026-04-03T01:00:00+02:00",
-      "local_timezone_label": "CEST",
-      "month": 4,
-      "published_at": "2026-04-03T00:53:52.129272+00:00",
-      "published_local_label": "2026-04-03 02:53 CEST",
-      "remote_filename": "pr1_2026-04-02T23-00-00Z.mp3",
-      "status": "published",
-      "utc_label": "2026-04-02 23:00 UTC",
-      "utc_started_at": "2026-04-02T23:00:00+00:00",
-      "year": 2026
-    },
-    {
       "archive_item_identifier": "pr1-2026-04-03",
       "audio_url": "https://archive.org/download/pr1-2026-04-03/pr1_2026-04-03T00-00-00Z.mp3",
       "completeness_ratio": 1.0,
@@ -169,7 +146,7 @@
   "month": 4,
   "published_at": "2026-04-03T05:21:58.024945+00:00",
   "station": {
-    "archive_count": 110,
+    "archive_count": 109,
     "display_name": "Program 1",
     "public_name": "Polskie Radio Program 1",
     "slug": "pr1",
