@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-03T12:31:51.011582+00:00",
+  "generated_at": "2026-04-03T12:34:01.894096+00:00",
   "latest_archive_hour_expected_station_count": 38,
   "latest_archive_hour_started_at": "2026-04-03T11:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -28,7 +28,7 @@
     "Radio Łódź"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-03T12:31:51.011582+00:00",
+  "published_at": "2026-04-03T12:34:01.894096+00:00",
   "station_count": 38,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
