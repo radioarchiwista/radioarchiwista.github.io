@@ -1,15 +1,15 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-03T12:42:39.096796+00:00",
+  "generated_at": "2026-04-03T12:42:38.908661+00:00",
   "latest_archive_hour_expected_station_count": 38,
   "latest_archive_hour_started_at": "2026-04-03T11:00:00+00:00",
   "latest_archive_hour_stations": [
     "Program 1",
     "Program 2",
+    "Program 3",
     "Polskie Radio 24",
     "Radio 357",
-    "Radio Afera",
     "Radio Akadera",
     "Radio Białystok",
     "Radio Centrum Lublin",
@@ -29,10 +29,12 @@
     "Radio PiK",
     "Radio Poznań",
     "Radio Rzeszów",
+    "Radio Szczecin",
+    "Radio Słupsk",
     "Radio Łódź"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-03T12:42:39.096796+00:00",
+  "published_at": "2026-04-03T12:42:38.908661+00:00",
   "station_count": 38,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -100,7 +102,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 93,
+      "archive_count": 92,
       "display_name": "Radio Afera",
       "public_name": "Radio Afera",
       "slug": "afera",
@@ -247,14 +249,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 91,
+      "archive_count": 92,
       "display_name": "Radio Szczecin",
       "public_name": "Radio Szczecin",
       "slug": "radioszczecin",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 92,
+      "archive_count": 93,
       "display_name": "Radio Słupsk",
       "public_name": "Radio Słupsk",
       "slug": "radioslupsk",
