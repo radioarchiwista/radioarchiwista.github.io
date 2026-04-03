@@ -1,8 +1,8 @@
 {
-  "archive_count": 3447,
+  "archive_count": 3455,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-03T10:00:30.699669+00:00",
+  "generated_at": "2026-04-03T10:00:30.657143+00:00",
   "latest_archive_hour_expected_station_count": 38,
   "latest_archive_hour_started_at": "2026-04-03T08:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -26,6 +26,10 @@
     "Radio Index",
     "Radio Kampus",
     "Radio Katowice",
+    "Radio Kielce",
+    "Radio Koszalin",
+    "Radio Kraków",
+    "Radio Lublin",
     "Radio Luz",
     "Radio Olsztyn",
     "Radio Opole",
@@ -38,10 +42,11 @@
     "Radio Wrocław",
     "Radio Zachód",
     "Radio Zielona Góra",
+    "Radio Łódź",
     "Radio Żak"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-03T10:00:30.699669+00:00",
+  "published_at": "2026-04-03T10:00:30.657143+00:00",
   "station_count": 38,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
