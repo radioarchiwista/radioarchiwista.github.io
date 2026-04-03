@@ -2,6 +2,29 @@
   "archives": [
     {
       "archive_item_identifier": "radioopole-2026-03-30",
+      "audio_url": "https://archive.org/download/radioopole-2026-03-30/radioopole_2026-03-30T22-00-00Z.mp3",
+      "completeness_ratio": 0.9996,
+      "day": 31,
+      "download_url": "https://archive.org/download/radioopole-2026-03-30/radioopole_2026-03-30T22-00-00Z.mp3",
+      "duration_seconds": 3599.52,
+      "hour": 0,
+      "hourly_archive_id": 1339,
+      "local_date_label": "31.03.2026",
+      "local_hour_label": "00:00",
+      "local_label": "2026-03-31 00:00 CEST",
+      "local_started_at": "2026-03-31T00:00:00+02:00",
+      "local_timezone_label": "CEST",
+      "month": 3,
+      "published_at": "2026-04-01T17:10:34.979307+00:00",
+      "published_local_label": "2026-04-01 19:10 CEST",
+      "remote_filename": "radioopole_2026-03-30T22-00-00Z.mp3",
+      "status": "published",
+      "utc_label": "2026-03-30 22:00 UTC",
+      "utc_started_at": "2026-03-30T22:00:00+00:00",
+      "year": 2026
+    },
+    {
+      "archive_item_identifier": "radioopole-2026-03-30",
       "audio_url": "https://archive.org/download/radioopole-2026-03-30/radioopole_2026-03-30T23-00-00Z.mp3",
       "completeness_ratio": 0.9995,
       "day": 31,
@@ -491,7 +514,7 @@
   "month": 3,
   "published_at": "2026-04-03T15:18:37.636782+00:00",
   "station": {
-    "archive_count": 88,
+    "archive_count": 89,
     "display_name": "Radio Opole",
     "public_name": "Radio Opole",
     "slug": "radioopole",
