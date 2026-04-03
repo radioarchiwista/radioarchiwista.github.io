@@ -1,5 +1,5 @@
 {
-  "archive_count": 3719,
+  "archive_count": 3713,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
   "generated_at": "2026-04-03T16:27:09.164354+00:00",
@@ -18,7 +18,11 @@
     "Radio Centrum Rzeszów",
     "Radio Gdańsk",
     "Radio Gorzów",
-    "Radio Index"
+    "Radio Index",
+    "Radio Kampus",
+    "Radio Katowice",
+    "Radio Kielce",
+    "Radio Koszalin"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
   "published_at": "2026-04-03T16:27:09.164354+00:00",
