@@ -1,5 +1,5 @@
 {
-  "archive_count": 3581,
+  "archive_count": 3572,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
   "generated_at": "2026-04-03T12:58:16.871367+00:00",
@@ -26,7 +26,8 @@
     "Radio Index",
     "Radio Kampus",
     "Radio Katowice",
-    "Radio Kraków",
+    "Radio Kielce",
+    "Radio Koszalin",
     "Radio Lublin",
     "Radio Luz",
     "Radio Olsztyn",
@@ -40,7 +41,6 @@
     "Radio Wrocław",
     "Radio Zachód",
     "Radio Zielona Góra",
-    "Radio Łódź",
     "Radio Żak"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
