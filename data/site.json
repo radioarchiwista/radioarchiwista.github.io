@@ -1,8 +1,8 @@
 {
-  "archive_count": 3575,
+  "archive_count": 3565,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-03T11:48:00.818805+00:00",
+  "generated_at": "2026-04-03T11:48:00.786732+00:00",
   "latest_archive_hour_expected_station_count": 38,
   "latest_archive_hour_started_at": "2026-04-03T10:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -10,6 +10,10 @@
     "Program 2",
     "Program 3",
     "Polskie Radio 24",
+    "Radio 357",
+    "Radio Afera",
+    "Radio Akadera",
+    "Radio Białystok",
     "Radio Centrum Lublin",
     "Radio Centrum Rzeszów",
     "Radio Gdańsk",
@@ -27,10 +31,16 @@
     "Radio PiK",
     "Radio Poznań",
     "Radio Rzeszów",
-    "Radio Łódź"
+    "Radio Szczecin",
+    "Radio Słupsk",
+    "Radio UWM FM",
+    "Radio Wrocław",
+    "Radio Zachód",
+    "Radio Łódź",
+    "Radio Żak"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-03T11:48:00.818805+00:00",
+  "published_at": "2026-04-03T11:48:00.786732+00:00",
   "station_count": 38,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
