@@ -528,29 +528,6 @@
       "utc_label": "2026-04-02 20:00 UTC",
       "utc_started_at": "2026-04-02T20:00:00+00:00",
       "year": 2026
-    },
-    {
-      "archive_item_identifier": "pr3-2026-04-02",
-      "audio_url": "https://archive.org/download/pr3-2026-04-02/pr3_2026-04-02T21-00-00Z.mp3",
-      "completeness_ratio": 0.9935,
-      "day": 2,
-      "download_url": "https://archive.org/download/pr3-2026-04-02/pr3_2026-04-02T21-00-00Z.mp3",
-      "duration_seconds": 3599.568,
-      "hour": 23,
-      "hourly_archive_id": 3472,
-      "local_date_label": "02.04.2026",
-      "local_hour_label": "23:00",
-      "local_label": "2026-04-02 23:00 CEST",
-      "local_started_at": "2026-04-02T23:00:00+02:00",
-      "local_timezone_label": "CEST",
-      "month": 4,
-      "published_at": "2026-04-02T23:52:35.024870+00:00",
-      "published_local_label": "2026-04-03 01:52 CEST",
-      "remote_filename": "pr3_2026-04-02T21-00-00Z.mp3",
-      "status": "published",
-      "utc_label": "2026-04-02 21:00 UTC",
-      "utc_started_at": "2026-04-02T21:00:00+00:00",
-      "year": 2026
     }
   ],
   "day": 2,
@@ -560,7 +537,7 @@
   "month": 4,
   "published_at": "2026-04-03T04:35:33.057188+00:00",
   "station": {
-    "archive_count": 105,
+    "archive_count": 104,
     "display_name": "Program 3",
     "public_name": "Polskie Radio Program 3",
     "slug": "pr3",
