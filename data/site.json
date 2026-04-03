@@ -1,5 +1,5 @@
 {
-  "archive_count": 3484,
+  "archive_count": 3504,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
   "generated_at": "2026-04-03T10:18:31.873052+00:00",
@@ -13,7 +13,10 @@
     "Radio 357",
     "Radio Afera",
     "Radio Akadera",
-    "Radio Białystok"
+    "Radio Białystok",
+    "Radio Centrum Lublin",
+    "Radio Centrum Rzeszów",
+    "Radio Gdańsk"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
   "published_at": "2026-04-03T10:18:31.873052+00:00",
