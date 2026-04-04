@@ -25,7 +25,7 @@
     }
   ],
   "day": 29,
-  "generated_at": "2026-04-04T17:14:21.370864+00:00",
+  "generated_at": "2026-04-04T17:24:04.416130+00:00",
   "hour_slots": [
     {
       "archive_status": null,
@@ -382,8 +382,8 @@
       "local_timezone_label": "CEST",
       "month": 3,
       "playable": false,
-      "state": "missing",
-      "status_label": "Nie udało się nagrać",
+      "state": "recorded",
+      "status_label": "Nagranie czeka na złożenie",
       "utc_label": "2026-03-29 17:00 UTC",
       "utc_started_at": "2026-03-29T17:00:00+00:00",
       "year": 2026
@@ -401,8 +401,8 @@
       "local_timezone_label": "CEST",
       "month": 3,
       "playable": false,
-      "state": "missing",
-      "status_label": "Nie udało się nagrać",
+      "state": "recorded",
+      "status_label": "Nagranie czeka na złożenie",
       "utc_label": "2026-03-29 18:00 UTC",
       "utc_started_at": "2026-03-29T18:00:00+00:00",
       "year": 2026
@@ -420,8 +420,8 @@
       "local_timezone_label": "CEST",
       "month": 3,
       "playable": false,
-      "state": "missing",
-      "status_label": "Nie udało się nagrać",
+      "state": "recorded",
+      "status_label": "Nagranie czeka na złożenie",
       "utc_label": "2026-03-29 19:00 UTC",
       "utc_started_at": "2026-03-29T19:00:00+00:00",
       "year": 2026
@@ -439,8 +439,8 @@
       "local_timezone_label": "CEST",
       "month": 3,
       "playable": false,
-      "state": "missing",
-      "status_label": "Nie udało się nagrać",
+      "state": "recorded",
+      "status_label": "Nagranie czeka na złożenie",
       "utc_label": "2026-03-29 20:00 UTC",
       "utc_started_at": "2026-03-29T20:00:00+00:00",
       "year": 2026
@@ -468,9 +468,9 @@
   "latest_archive_hour_expected_station_count": 0,
   "latest_archive_hour_started_at": "2026-04-04T16:00:00+00:00",
   "month": 3,
-  "published_at": "2026-04-04T17:14:21.370864+00:00",
+  "published_at": "2026-04-04T17:24:04.416130+00:00",
   "station": {
-    "archive_count": 129,
+    "archive_count": 128,
     "display_name": "Radio 357",
     "public_name": "Radio 357",
     "slug": "radio357",
