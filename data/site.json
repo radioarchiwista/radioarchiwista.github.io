@@ -1,8 +1,8 @@
 {
-  "archive_count": 4688,
+  "archive_count": 4687,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-04T19:49:53.218883+00:00",
+  "generated_at": "2026-04-04T19:45:21.992576+00:00",
   "latest_archive_hour_expected_station_count": 38,
   "latest_archive_hour_started_at": "2026-04-04T18:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -17,7 +17,6 @@
     "Radio Afera",
     "Radio Akadera",
     "Radio Białystok",
-    "Radio Centrum Lublin",
     "Radio Centrum Rzeszów",
     "Radio Dla Ciebie",
     "Radio Gdańsk",
@@ -44,7 +43,7 @@
     "Radio Żak"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-04T19:49:53.218883+00:00",
+  "published_at": "2026-04-04T19:45:21.992576+00:00",
   "station_count": 38,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
