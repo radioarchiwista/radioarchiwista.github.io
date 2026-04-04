@@ -1,8 +1,8 @@
 {
-  "archive_count": 3929,
+  "archive_count": 3923,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-04T01:26:08.848496+00:00",
+  "generated_at": "2026-04-04T01:26:01.505713+00:00",
   "latest_archive_hour_expected_station_count": 38,
   "latest_archive_hour_started_at": "2026-04-04T00:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -12,7 +12,7 @@
     "Polskie Radio 24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-04T01:26:08.848496+00:00",
+  "published_at": "2026-04-04T01:26:01.505713+00:00",
   "station_count": 38,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
