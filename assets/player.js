@@ -426,11 +426,23 @@
 
   function populateHourOptions() {
     const selectedDay = Number(daySelect.value);
+    const hourSlots = hierarchicalCatalogEnabled
+      ? [...(currentDayCatalog?.hour_slots || [])]
+      : [];
     const archives = hierarchicalCatalogEnabled
       ? [...(currentDayCatalog?.archives || [])]
       : filteredArchives();
-    if (!selectedDay || archives.length === 0) {
+    if (!selectedDay || (archives.length === 0 && hourSlots.length === 0)) {
       clearSelect(hourSelect, "Wybierz godzinę", true);
+      syncSelectedArchive();
+      return;
+    }
+
+    if (hourSlots.length > 0) {
+      const sortedSlots = hourSlots
+        .slice()
+        .sort((left, right) => Date.parse(left.local_started_at) - Date.parse(right.local_started_at));
+      fillSelect(hourSelect, sortedSlots, (slot) => buildHourSlotOption(slot));
       syncSelectedArchive();
       return;
     }
@@ -446,6 +458,25 @@
       )}%)`,
     }));
     syncSelectedArchive();
+  }
+
+  function buildHourSlotOption(slot) {
+    const hourLabel = slot.local_hour_label || formatHourLabel(slot.hour);
+    if (slot.playable && Number.isFinite(Number(slot.hourly_archive_id))) {
+      return {
+        value: String(slot.hourly_archive_id),
+        label: `${hourLabel} (${Math.round((slot.completeness_ratio || 0) * 100)}%)`,
+      };
+    }
+    const slotKey =
+      slot.utc_started_at ||
+      `${slot.year || "x"}-${slot.month || "x"}-${slot.day || "x"}-${slot.hour || "x"}`;
+    return {
+      value: `slot:${slotKey}`,
+      label: `${hourLabel} — ${slot.status_label || "Niedostępne"}`,
+      disabled: true,
+      title: slot.status_label || "Niedostępne",
+    };
   }
 
   function filteredArchives() {
@@ -662,18 +693,32 @@
     const { autoSelectFirst = true } = options;
     const previousValue = select.value;
     clearSelect(select, select.options[0]?.textContent || "Wybierz", false);
+    let firstEnabledValue = "";
+    let previousValueStillEnabled = false;
     values.forEach((value) => {
       const optionData = toOption(value);
       const option = document.createElement("option");
       option.value = optionData.value;
       option.textContent = optionData.label;
+       if (optionData.disabled) {
+        option.disabled = true;
+      }
+      if (optionData.title) {
+        option.title = optionData.title;
+      }
+      if (!option.disabled && !firstEnabledValue) {
+        firstEnabledValue = option.value;
+      }
+      if (!option.disabled && option.value === previousValue) {
+        previousValueStillEnabled = true;
+      }
       select.append(option);
     });
     const nextValue =
-      values.some((value) => String(toOption(value).value) === previousValue)
+      previousValueStillEnabled
         ? previousValue
         : autoSelectFirst
-          ? select.options[1]?.value || ""
+          ? firstEnabledValue
           : "";
     select.value = nextValue;
     select.disabled = values.length === 0;
