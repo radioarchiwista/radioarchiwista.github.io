@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-04T00:27:23.556684+00:00",
+  "generated_at": "2026-04-04T00:34:59.772833+00:00",
   "latest_archive_hour_expected_station_count": 38,
   "latest_archive_hour_started_at": "2026-04-03T23:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -11,7 +11,7 @@
     "Polskie Radio 24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-04T00:27:23.556684+00:00",
+  "published_at": "2026-04-04T00:34:59.772833+00:00",
   "station_count": 38,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -149,7 +149,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 102,
+      "archive_count": 101,
       "display_name": "Radio Katowice",
       "public_name": "Radio Katowice",
       "slug": "radiokatowice",
@@ -170,14 +170,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 103,
+      "archive_count": 102,
       "display_name": "Radio Kraków",
       "public_name": "Radio Kraków",
       "slug": "radiokrakow",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 102,
+      "archive_count": 101,
       "display_name": "Radio Lublin",
       "public_name": "Radio Lublin",
       "slug": "radiolublin",
@@ -268,7 +268,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 103,
+      "archive_count": 102,
       "display_name": "Radio Łódź",
       "public_name": "Radio Łódź",
       "slug": "radiolodz",
