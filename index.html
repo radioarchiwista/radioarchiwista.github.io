@@ -3,9 +3,26 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Radio Archiwista, odtwarzacz archiwów radiowych</title>
-    <link rel="stylesheet" href="./assets/player.css?v=77e55d45341c" />
-    <script defer src="./assets/player.js?v=d9bdf17e3500"></script>
+    <title>__PAGE_TITLE__</title>
+    <meta name="description" content="__META_DESCRIPTION__" />
+    <meta
+      name="robots"
+      content="__ROBOTS_CONTENT__"
+    />
+    <meta property="og:locale" content="pl_PL" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Radio Archiwista" />
+    <meta property="og:title" content="__PAGE_TITLE__" />
+    <meta property="og:description" content="__META_DESCRIPTION__" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="__PAGE_TITLE__" />
+    <meta name="twitter:description" content="__META_DESCRIPTION__" />
+    <link rel="alternate" type="application/xml" title="Sitemap" href="./sitemap.xml" />
+    <link rel="alternate" type="text/plain" title="Robots" href="./robots.txt" />
+    __CANONICAL_URL__
+    __STRUCTURED_DATA__
+    <link rel="stylesheet" href="./assets/player.css?v=f82efa29e22a" />
+    <script defer src="./assets/player.js?v=7d08b3626e0b"></script>
   </head>
   <body>
     <main
@@ -37,6 +54,12 @@
               Ładowanie informacji o ostatniej publikacji archiwum...
             </p>
           </article>
+        </section>
+        <section class="player-seo-summary" aria-labelledby="player-seo-summary-heading">
+          <h2 id="player-seo-summary-heading" class="section-title">
+            Archiwum polskich stacji radiowych
+          </h2>
+          __SEO_SUMMARY__
         </section>
       </header>
 
@@ -125,7 +148,7 @@
 
           <audio
             id="archive-audio"
-            preload="metadata"
+            preload="auto"
             class="visually-hidden"
             aria-hidden="true"
           ></audio>
@@ -262,6 +285,8 @@
           </section>
         </section>
       </section>
+
+      __STATION_DIRECTORY__
 
       <footer class="player-footer">
         <strong>Kontakt</strong>:

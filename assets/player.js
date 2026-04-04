@@ -49,6 +49,7 @@
     Boolean(yearIndexUrlTemplate) &&
     Boolean(monthIndexUrlTemplate) &&
     Boolean(dayCatalogUrlTemplate);
+  const initialSelection = parseInitialSelection();
 
   if (
     !stationSelect ||
@@ -109,6 +110,7 @@
   stationSelect.addEventListener("change", async () => {
     resetArchiveSelection();
     const slug = stationSelect.value;
+    syncUrlState();
     if (!slug) {
       setStatus("Wybierz stację, aby załadować katalog godzin.");
       return;
@@ -119,18 +121,22 @@
 
   yearSelect.addEventListener("change", async () => {
     await handleYearChange();
+    syncUrlState();
   });
 
   monthSelect.addEventListener("change", async () => {
     await handleMonthChange();
+    syncUrlState();
   });
 
   daySelect.addEventListener("change", async () => {
     await handleDayChange();
+    syncUrlState();
   });
 
   hourSelect.addEventListener("change", () => {
     syncSelectedArchive();
+    syncUrlState();
   });
 
   loadButton.addEventListener("click", () => {
@@ -271,7 +277,8 @@
     toggleMute();
   }, { capture: true });
 
-  async function loadStationCatalog(slug) {
+  async function loadStationCatalog(slug, options = {}) {
+    const { preferCurrentDate = true } = options;
     setStatus(`Ładuję katalog dla ${slug}...`);
     clearDependentCatalogState();
     try {
@@ -288,12 +295,12 @@
       return;
     }
 
-    populateYearOptions({ preferCurrentDate: true });
+    populateYearOptions({ preferCurrentDate });
     if (hierarchicalCatalogEnabled) {
-      await handleYearChange({ preferCurrentDate: true });
+      await handleYearChange({ preferCurrentDate });
     } else {
-      populateMonthOptions({ preferCurrentDate: true });
-      populateDayOptions({ preferCurrentDate: true });
+      populateMonthOptions({ preferCurrentDate });
+      populateDayOptions({ preferCurrentDate });
       populateHourOptions();
     }
     const archiveCount = stationCatalog?.station?.archive_count ?? stationCatalog?.archives?.length ?? 0;
@@ -332,15 +339,16 @@
       if (stations.length === 0) {
         setStatus("Brak opublikowanych godzin do odsłuchu.");
       }
-      return;
+      return true;
     } catch (error) {
       if (fallbackStationCount > 0) {
         updateSnapshotMeta(null, null, [], fallbackStationCount);
         setStatus("Nie udało się odświeżyć listy stacji. Używam danych wstępnych.");
-        return;
+        return true;
       }
       clearSelect(stationSelect, "Wybierz stację", true);
       setStatus(`Nie udało się pobrać listy stacji: ${error}`);
+      return false;
     }
   }
 
@@ -576,6 +584,7 @@
     durationNode.textContent = formatDuration(archive.duration_seconds);
     playButton.textContent = "Odtwórz";
     setPlayerLoadedState(true);
+    syncUrlState();
     void warmPlaybackSource(playbackState, archive, preferredSource.url);
     if (preferredSource.reason === "derivative") {
       setStatus(
@@ -1537,7 +1546,150 @@
 
   async function bootstrapPlayer() {
     await initializeAudioOutputSelection();
-    await loadStationIndex();
+    const stationIndexLoaded = await loadStationIndex();
+    if (!stationIndexLoaded) {
+      return;
+    }
+    await applyInitialSelection();
+    syncUrlState();
+  }
+
+  function parseInitialSelection() {
+    try {
+      const searchParams = new URLSearchParams(window.location.search);
+      return {
+        station: searchParams.get("station") || "",
+        year: parseNumericSearchParam(searchParams.get("year")),
+        month: parseNumericSearchParam(searchParams.get("month")),
+        day: parseNumericSearchParam(searchParams.get("day")),
+        hour: parseNumericSearchParam(searchParams.get("hour")),
+      };
+    } catch (_error) {
+      return {
+        station: "",
+        year: null,
+        month: null,
+        day: null,
+        hour: null,
+      };
+    }
+  }
+
+  function parseNumericSearchParam(value) {
+    const normalized = Number(value);
+    return Number.isFinite(normalized) ? normalized : null;
+  }
+
+  function optionExists(select, value) {
+    const normalized = String(value);
+    return Array.from(select.options).some((option) => option.value === normalized);
+  }
+
+  async function applyInitialSelection() {
+    if (!initialSelection.station || !optionExists(stationSelect, initialSelection.station)) {
+      return;
+    }
+    stationSelect.value = initialSelection.station;
+    await loadStationCatalog(initialSelection.station, { preferCurrentDate: false });
+
+    if (initialSelection.year && optionExists(yearSelect, initialSelection.year)) {
+      yearSelect.value = String(initialSelection.year);
+      await handleYearChange({ preferCurrentDate: false });
+    }
+    if (initialSelection.month && optionExists(monthSelect, initialSelection.month)) {
+      monthSelect.value = String(initialSelection.month);
+      await handleMonthChange({ preferCurrentDate: false });
+    }
+    if (initialSelection.day && optionExists(daySelect, initialSelection.day)) {
+      daySelect.value = String(initialSelection.day);
+      await handleDayChange();
+    }
+    if (!initialSelection.hour) {
+      syncSelectedArchive();
+      return;
+    }
+    const hourValue = resolveInitialHourValue(initialSelection.hour);
+    if (hourValue && optionExists(hourSelect, hourValue)) {
+      hourSelect.value = hourValue;
+      syncSelectedArchive();
+    }
+  }
+
+  function resolveInitialHourValue(hour) {
+    if (!hierarchicalCatalogEnabled) {
+      const matchingArchive = (stationCatalog?.archives || []).find(
+        (archive) => Number(archive.hour) === Number(hour),
+      );
+      return matchingArchive ? String(matchingArchive.hourly_archive_id) : "";
+    }
+    const matchingArchive = (currentDayCatalog?.archives || []).find(
+      (archive) => Number(archive.hour) === Number(hour),
+    );
+    if (matchingArchive) {
+      return String(matchingArchive.hourly_archive_id);
+    }
+    const matchingSlot = (currentDayCatalog?.hour_slots || []).find(
+      (slot) => Number(slot.hour) === Number(hour),
+    );
+    return matchingSlot ? buildHourSlotOption(matchingSlot).value : "";
+  }
+
+  function syncUrlState() {
+    if (
+      typeof window === "undefined" ||
+      !window.history ||
+      typeof window.history.replaceState !== "function"
+    ) {
+      return;
+    }
+    const nextUrl = new URL(window.location.href);
+    const nextParams = new URLSearchParams();
+    if (stationSelect.value) {
+      nextParams.set("station", stationSelect.value);
+    }
+    if (yearSelect.value) {
+      nextParams.set("year", yearSelect.value);
+    }
+    if (monthSelect.value) {
+      nextParams.set("month", monthSelect.value);
+    }
+    if (daySelect.value) {
+      nextParams.set("day", daySelect.value);
+    }
+    const currentHourValue =
+      selectedArchive?.hour ??
+      selectedHourSlot?.hour ??
+      parseSelectedHourValue(hourSelect.value);
+    if (Number.isFinite(Number(currentHourValue))) {
+      nextParams.set("hour", String(currentHourValue));
+    }
+    const serializedParams = nextParams.toString();
+    const currentSerializedParams = nextUrl.searchParams.toString();
+    if (serializedParams === currentSerializedParams) {
+      return;
+    }
+    nextUrl.search = serializedParams;
+    window.history.replaceState(null, "", nextUrl.toString());
+  }
+
+  function parseSelectedHourValue(value) {
+    if (!value) {
+      return null;
+    }
+    if (value.startsWith("slot:")) {
+      const selectedSlot = (currentDayCatalog?.hour_slots || []).find(
+        (slot) => buildHourSlotOption(slot).value === value,
+      );
+      return selectedSlot?.hour ?? null;
+    }
+    const archiveId = Number(value);
+    if (!Number.isFinite(archiveId)) {
+      return null;
+    }
+    const archive = (currentDayCatalog?.archives || stationCatalog?.archives || []).find(
+      (entry) => entry.hourly_archive_id === archiveId,
+    );
+    return archive?.hour ?? null;
   }
 
   async function initializeAudioOutputSelection() {
