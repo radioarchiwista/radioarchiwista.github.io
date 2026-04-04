@@ -452,8 +452,8 @@
       "local_started_at": "2026-03-30T21:00:00+02:00",
       "local_timezone_label": "CEST",
       "month": 3,
-      "published_at": "2026-04-04T14:48:21.786005+00:00",
-      "published_local_label": "2026-04-04 16:48 CEST",
+      "published_at": "2026-04-04T15:44:37.164247+00:00",
+      "published_local_label": "2026-04-04 17:44 CEST",
       "remote_filename": "pr24_2026-03-30T19-00-00Z.mp3",
       "status": "published",
       "utc_label": "2026-03-30 19:00 UTC",
@@ -508,7 +508,7 @@
     }
   ],
   "day": 30,
-  "generated_at": "2026-04-04T15:28:09.719557+00:00",
+  "generated_at": "2026-04-04T15:44:37.164247+00:00",
   "hour_slots": [
     {
       "archive_status": "published",
@@ -891,7 +891,7 @@
       "year": 2026
     },
     {
-      "archive_status": "ready",
+      "archive_status": "error",
       "completeness_ratio": 0.8779,
       "day": 30,
       "hour": 20,
@@ -903,8 +903,8 @@
       "local_timezone_label": "CEST",
       "month": 3,
       "playable": false,
-      "state": "publishing",
-      "status_label": "Czeka w kolejce do publikacji",
+      "state": "failed",
+      "status_label": "Nie udało się przygotować nagrania",
       "utc_label": "2026-03-30 18:00 UTC",
       "utc_started_at": "2026-03-30T18:00:00+00:00",
       "year": 2026
@@ -970,7 +970,7 @@
   "latest_archive_hour_expected_station_count": 0,
   "latest_archive_hour_started_at": "2026-04-04T13:00:00+00:00",
   "month": 3,
-  "published_at": "2026-04-04T15:28:09.719557+00:00",
+  "published_at": "2026-04-04T15:44:37.164247+00:00",
   "station": {
     "archive_count": 139,
     "display_name": "Polskie Radio 24",
