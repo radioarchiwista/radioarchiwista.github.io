@@ -30,6 +30,8 @@
   const loadedStateNode = document.getElementById("player-loaded-state");
   const seekStepSeconds = 15;
   const youtubeSeekStepSeconds = 10;
+  const localAudioCacheName = "radio-archiwista-player-audio-v1";
+  const maxLocalAudioCacheEntries = 2;
   const stationsEndpoint =
     pageRoot?.dataset.playerStationsEndpoint || "/player/api/stations";
   const stationIndexUrlTemplate =
@@ -534,6 +536,7 @@
   }
 
   async function loadArchiveIntoPlayer(archive) {
+    disposeActivePlaybackState();
     selectedArchive = archive;
     const playbackState = {
       archiveId: archive.hourly_archive_id,
@@ -541,6 +544,10 @@
       currentUrl: archive.audio_url,
       fallbackUrl: null,
       fallbackAttempted: false,
+      localObjectUrl: null,
+      cachedLocally: false,
+      backgroundFetchController: null,
+      backgroundFetchKey: null,
     };
     activePlaybackState = playbackState;
     const preferredSource = await resolvePreferredPlaybackSource(archive);
@@ -554,8 +561,7 @@
     playbackState.currentUrl = preferredSource.url;
     playbackState.fallbackUrl = preferredSource.fallbackUrl || null;
     playbackState.fallbackAttempted = preferredSource.url !== archive.audio_url;
-    audio.src = preferredSource.url;
-    audio.load();
+    await applyPlaybackSource(playbackState, preferredSource.url);
     audio.playbackRate = Number(rateSelect.value);
     setDownloadLinkState(archive.download_url, archive.remote_filename || null);
     titleNode.textContent = `${stationCatalog.station.display_name} · ${archive.local_date_label || formatDateLabel(archive)}`;
@@ -570,6 +576,7 @@
     durationNode.textContent = formatDuration(archive.duration_seconds);
     playButton.textContent = "Odtwórz";
     setPlayerLoadedState(true);
+    void warmPlaybackSource(playbackState, archive, preferredSource.url);
     if (preferredSource.reason === "derivative") {
       setStatus(
         `Załadowano derivat do odtwarzania dla ${archive.local_hour_label || formatHourLabel(archive.hour)}; oryginał nadal jest dostępny do pobrania.`,
@@ -582,10 +589,13 @@
       );
       return;
     }
-    setStatus(`Załadowano nagranie ${archive.local_hour_label || formatHourLabel(archive.hour)}.`);
+    setStatus(
+      `Załadowano nagranie ${archive.local_hour_label || formatHourLabel(archive.hour)}. Plik dociąga się teraz w tle do lokalnej kopii.`,
+    );
   }
 
   function resetArchiveSelection() {
+    disposeActivePlaybackState();
     stationCatalog = null;
     clearDependentCatalogState();
     selectedArchive = null;
@@ -800,8 +810,8 @@
     }
     const shouldResumePlayback = !audio.paused;
     playbackState.currentUrl = derivativeUrl;
-    audio.src = derivativeUrl;
-    audio.load();
+    revokePlaybackObjectUrl(playbackState);
+    await applyPlaybackSource(playbackState, derivativeUrl);
     setStatus(
       "Oryginalny plik OGG nie odtworzył się poprawnie. Przełączam na derivat audio z archive.org.",
     );
@@ -811,6 +821,264 @@
       } catch (error) {
         setStatus(`Nie udało się rozpocząć odtwarzania derivatu: ${error}`);
       }
+    }
+  }
+
+  function disposeActivePlaybackState() {
+    if (!activePlaybackState) {
+      return;
+    }
+    if (activePlaybackState.backgroundFetchController) {
+      activePlaybackState.backgroundFetchController.abort();
+      activePlaybackState.backgroundFetchController = null;
+    }
+    revokePlaybackObjectUrl(activePlaybackState);
+  }
+
+  function revokePlaybackObjectUrl(playbackState) {
+    if (!playbackState?.localObjectUrl) {
+      return;
+    }
+    URL.revokeObjectURL(playbackState.localObjectUrl);
+    playbackState.localObjectUrl = null;
+    playbackState.cachedLocally = false;
+  }
+
+  async function applyPlaybackSource(playbackState, sourceUrl, options = {}) {
+    const { preservePosition = false } = options;
+    const resumePlayback = preservePosition && !audio.paused;
+    const previousTime =
+      preservePosition && Number.isFinite(audio.currentTime) ? audio.currentTime : 0;
+    const previousRate = audio.playbackRate || Number(rateSelect.value) || 1;
+    audio.src = sourceUrl;
+    audio.load();
+    audio.playbackRate = previousRate;
+    if (!preservePosition) {
+      return;
+    }
+    try {
+      await waitForAudioEvent(audio, "loadedmetadata");
+      if (Number.isFinite(previousTime) && previousTime > 0) {
+        const safeTarget = Number.isFinite(audio.duration)
+          ? Math.min(previousTime, Math.max(0, audio.duration - 0.25))
+          : previousTime;
+        audio.currentTime = Math.max(0, safeTarget);
+      }
+      if (resumePlayback) {
+        await audio.play();
+      }
+    } catch (_error) {
+      // Keep the loaded source even if metadata restoration was interrupted.
+    }
+  }
+
+  function waitForAudioEvent(mediaElement, eventName) {
+    return new Promise((resolve, reject) => {
+      let timeoutId = null;
+      const cleanup = () => {
+        mediaElement.removeEventListener(eventName, handleSuccess);
+        mediaElement.removeEventListener("error", handleError);
+        if (timeoutId !== null) {
+          window.clearTimeout(timeoutId);
+        }
+      };
+      const handleSuccess = () => {
+        cleanup();
+        resolve();
+      };
+      const handleError = () => {
+        cleanup();
+        reject(new Error(`audio ${eventName} failed`));
+      };
+      mediaElement.addEventListener(eventName, handleSuccess, { once: true });
+      mediaElement.addEventListener("error", handleError, { once: true });
+      timeoutId = window.setTimeout(() => {
+        cleanup();
+        reject(new Error(`audio ${eventName} timed out`));
+      }, 15_000);
+    });
+  }
+
+  async function warmPlaybackSource(playbackState, archive, sourceUrl) {
+    if (!canWarmPlaybackSource(sourceUrl)) {
+      return;
+    }
+    const cacheKey = buildLocalAudioCacheKey(archive, sourceUrl);
+    playbackState.backgroundFetchKey = cacheKey;
+
+    const cachedBlobUrl = await restoreCachedPlaybackUrl(playbackState, cacheKey);
+    if (!isActivePlaybackState(playbackState)) {
+      return;
+    }
+    if (cachedBlobUrl) {
+      await switchPlaybackToLocalCopy(playbackState, cachedBlobUrl, {
+        announce: false,
+      });
+      return;
+    }
+
+    const controller = new AbortController();
+    playbackState.backgroundFetchController = controller;
+    try {
+      const response = await fetch(sourceUrl, {
+        cache: "force-cache",
+        credentials: "omit",
+        mode: "cors",
+        signal: controller.signal,
+      });
+      if (!response.ok) {
+        return;
+      }
+      const blob = await response.blob();
+      if (!isActivePlaybackState(playbackState)) {
+        return;
+      }
+      await persistLocalPlaybackCopy(cacheKey, response, blob);
+      if (!isActivePlaybackState(playbackState)) {
+        return;
+      }
+      const objectUrl = URL.createObjectURL(blob);
+      await switchPlaybackToLocalCopy(playbackState, objectUrl, {
+        announce: true,
+      });
+    } catch (error) {
+      if (error?.name !== "AbortError") {
+        console.warn("Nie udało się dociągnąć pliku audio w tle.", error);
+      }
+    } finally {
+      if (playbackState.backgroundFetchController === controller) {
+        playbackState.backgroundFetchController = null;
+      }
+    }
+  }
+
+  function canWarmPlaybackSource(sourceUrl) {
+    if (!sourceUrl || typeof fetch !== "function" || typeof URL !== "function") {
+      return false;
+    }
+    try {
+      const parsed = new URL(sourceUrl, window.location.href);
+      return parsed.protocol === "http:" || parsed.protocol === "https:";
+    } catch (_error) {
+      return false;
+    }
+  }
+
+  function buildLocalAudioCacheKey(archive, sourceUrl) {
+    const cacheUrl = new URL(
+      `/__player_audio_cache__/${encodeURIComponent(String(archive.hourly_archive_id))}`,
+      window.location.href,
+    );
+    cacheUrl.searchParams.set("source", sourceUrl);
+    return cacheUrl.toString();
+  }
+
+  async function restoreCachedPlaybackUrl(playbackState, cacheKey) {
+    const cache = await openLocalAudioCache();
+    if (!cache) {
+      return null;
+    }
+    try {
+      const cachedResponse = await cache.match(cacheKey);
+      if (!cachedResponse) {
+        return null;
+      }
+      const blob = await cachedResponse.blob();
+      return URL.createObjectURL(blob);
+    } catch (_error) {
+      return null;
+    }
+  }
+
+  async function persistLocalPlaybackCopy(cacheKey, response, blob) {
+    const cache = await openLocalAudioCache();
+    if (!cache) {
+      return;
+    }
+    try {
+      const headers = new Headers();
+      const contentType = response.headers.get("content-type") || blob.type;
+      if (contentType) {
+        headers.set("content-type", contentType);
+      }
+      const cachedResponse = new Response(blob, {
+        headers,
+        status: 200,
+        statusText: "OK",
+      });
+      await cache.put(cacheKey, cachedResponse);
+      await pruneLocalAudioCache(cache, cacheKey);
+    } catch (_error) {
+      // Ignore Cache Storage quota/errors and continue with in-memory playback only.
+    }
+  }
+
+  async function openLocalAudioCache() {
+    if (!("caches" in window) || typeof window.caches?.open !== "function") {
+      return null;
+    }
+    try {
+      return await window.caches.open(localAudioCacheName);
+    } catch (_error) {
+      return null;
+    }
+  }
+
+  async function pruneLocalAudioCache(cache, preferredKey) {
+    try {
+      const requests = await cache.keys();
+      if (requests.length <= maxLocalAudioCacheEntries) {
+        return;
+      }
+      const preferredUrl = new URL(preferredKey, window.location.href).toString();
+      const removable = requests.filter((request) => request.url !== preferredUrl);
+      let remaining = requests.length;
+      while (remaining > maxLocalAudioCacheEntries && removable.length > 0) {
+        const oldest = removable.shift();
+        if (!oldest) {
+          break;
+        }
+        await cache.delete(oldest);
+        remaining -= 1;
+      }
+    } catch (_error) {
+      // Best-effort pruning only.
+    }
+  }
+
+  function isActivePlaybackState(playbackState) {
+    return Boolean(
+      playbackState &&
+        activePlaybackState === playbackState &&
+        selectedArchive &&
+        selectedArchive.hourly_archive_id === playbackState.archiveId,
+    );
+  }
+
+  async function switchPlaybackToLocalCopy(playbackState, objectUrl, options = {}) {
+    const { announce = false } = options;
+    if (!isActivePlaybackState(playbackState)) {
+      URL.revokeObjectURL(objectUrl);
+      return;
+    }
+    if (playbackState.currentUrl === objectUrl) {
+      return;
+    }
+    revokePlaybackObjectUrl(playbackState);
+    playbackState.localObjectUrl = objectUrl;
+    playbackState.cachedLocally = true;
+    playbackState.currentUrl = objectUrl;
+    await applyPlaybackSource(playbackState, objectUrl, { preservePosition: true });
+    if (!isActivePlaybackState(playbackState)) {
+      revokePlaybackObjectUrl(playbackState);
+      return;
+    }
+    if (announce) {
+      const hourLabel =
+        selectedArchive?.local_hour_label || formatHourLabel(selectedArchive?.hour || 0);
+      setStatus(
+        `Nagranie ${hourLabel} zostało dociągnięte do lokalnej kopii. Dalsze przewijanie powinno działać płynniej.`,
+      );
     }
   }
 
