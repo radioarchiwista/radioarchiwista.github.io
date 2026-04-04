@@ -5,7 +5,6 @@
   "latest_archive_hour_expected_station_count": 38,
   "latest_archive_hour_started_at": "2026-04-04T11:00:00+00:00",
   "latest_archive_hour_stations": [
-    "Program 1",
     "Program 2",
     "Program 3",
     "Polskie Radio 24"
@@ -16,7 +15,7 @@
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
     {
-      "archive_count": 141,
+      "archive_count": 140,
       "display_name": "Program 1",
       "public_name": "Polskie Radio Program 1",
       "slug": "pr1",
@@ -191,7 +190,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 110,
+      "archive_count": 108,
       "display_name": "Radio Olsztyn",
       "public_name": "Radio Olsztyn",
       "slug": "radioolsztyn",
@@ -205,7 +204,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 113,
+      "archive_count": 112,
       "display_name": "Radio PiK",
       "public_name": "Radio PiK",
       "slug": "radiopik",
