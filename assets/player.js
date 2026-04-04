@@ -78,6 +78,7 @@
   let currentMonthIndex = null;
   let currentDayCatalog = null;
   let selectedArchive = null;
+  let selectedHourSlot = null;
   let activePlaybackState = null;
   let catalogVersionToken = "";
   const yearIndexCache = new Map();
@@ -474,7 +475,6 @@
     return {
       value: `slot:${slotKey}`,
       label: `${hourLabel} — ${slot.status_label || "Niedostępne"}`,
-      disabled: true,
       title: slot.status_label || "Niedostępne",
     };
   }
@@ -505,15 +505,30 @@
   }
 
   function syncSelectedArchive() {
-    const archiveId = Number(hourSelect.value);
+    const selectedValue = String(hourSelect.value || "");
     const archives = hierarchicalCatalogEnabled
       ? currentDayCatalog?.archives || []
       : stationCatalog?.archives || [];
-    selectedArchive = archives.find((archive) => archive.hourly_archive_id === archiveId) || null;
+    const hourSlots = hierarchicalCatalogEnabled ? currentDayCatalog?.hour_slots || [] : [];
+    selectedHourSlot = null;
+    const archiveId = Number(selectedValue);
+    selectedArchive = Number.isFinite(archiveId)
+      ? archives.find((archive) => archive.hourly_archive_id === archiveId) || null
+      : null;
+    if (!selectedArchive && selectedValue.startsWith("slot:")) {
+      selectedHourSlot =
+        hourSlots.find((slot) => buildHourSlotOption(slot).value === selectedValue) || null;
+    }
     loadButton.disabled = !selectedArchive;
     if (selectedArchive) {
       setStatus(
         `Wybrano ${selectedArchive.local_hour_label || formatHourLabel(selectedArchive.hour)} z dnia ${selectedArchive.local_date_label || formatDateLabel(selectedArchive)} dla ${stationCatalog.station.display_name}.`,
+      );
+      return;
+    }
+    if (selectedHourSlot) {
+      setStatus(
+        `${selectedHourSlot.local_hour_label || formatHourLabel(selectedHourSlot.hour)} z dnia ${selectedHourSlot.local_date_label || formatDateLabel(selectedHourSlot)} dla ${stationCatalog.station.display_name}: ${selectedHourSlot.status_label || "Niedostępne"}.`,
       );
     }
   }
@@ -574,6 +589,7 @@
     stationCatalog = null;
     clearDependentCatalogState();
     selectedArchive = null;
+    selectedHourSlot = null;
     clearSelect(yearSelect, "Wybierz rok", true);
     clearSelect(monthSelect, "Wybierz miesiąc", true);
     clearSelect(daySelect, "Wybierz dzień", true);
