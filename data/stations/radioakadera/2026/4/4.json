@@ -735,8 +735,8 @@
       "local_timezone_label": "CEST",
       "month": 4,
       "playable": false,
-      "state": "missing",
-      "status_label": "Nie udało się nagrać",
+      "state": "recorded",
+      "status_label": "Nagranie czeka na złożenie",
       "utc_label": "2026-04-04 14:00 UTC",
       "utc_started_at": "2026-04-04T14:00:00+00:00",
       "year": 2026
@@ -785,7 +785,7 @@
   "month": 4,
   "published_at": "2026-04-04T17:14:28.595397+00:00",
   "station": {
-    "archive_count": 121,
+    "archive_count": 120,
     "display_name": "Radio Akadera",
     "public_name": "Radio Akadera",
     "slug": "radioakadera",
