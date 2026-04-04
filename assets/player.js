@@ -700,7 +700,7 @@
       const option = document.createElement("option");
       option.value = optionData.value;
       option.textContent = optionData.label;
-       if (optionData.disabled) {
+      if (optionData.disabled) {
         option.disabled = true;
       }
       if (optionData.title) {
