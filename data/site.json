@@ -1,5 +1,5 @@
 {
-  "archive_count": 4265,
+  "archive_count": 4261,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
   "generated_at": "2026-04-04T10:53:48.510489+00:00",
@@ -12,8 +12,7 @@
     "Polskie Radio 24",
     "Radio Afera",
     "Radio Akadera",
-    "Radio Centrum Lublin",
-    "Radio Centrum Rzeszów"
+    "Radio Centrum Lublin"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
   "published_at": "2026-04-04T10:53:48.510489+00:00",
