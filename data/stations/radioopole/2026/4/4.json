@@ -816,6 +816,25 @@
       "utc_label": "2026-04-04 18:00 UTC",
       "utc_started_at": "2026-04-04T18:00:00+00:00",
       "year": 2026
+    },
+    {
+      "archive_status": null,
+      "completeness_ratio": null,
+      "day": 4,
+      "hour": 21,
+      "hourly_archive_id": null,
+      "local_date_label": "04.04.2026",
+      "local_hour_label": "21:00",
+      "local_label": "2026-04-04 21:00 CEST",
+      "local_started_at": "2026-04-04T21:00:00+02:00",
+      "local_timezone_label": "CEST",
+      "month": 4,
+      "playable": false,
+      "state": "preparing",
+      "status_label": "Trwa przygotowanie nagrania",
+      "utc_label": "2026-04-04 19:00 UTC",
+      "utc_started_at": "2026-04-04T19:00:00+00:00",
+      "year": 2026
     }
   ],
   "latest_archive_hour_expected_station_count": 0,
