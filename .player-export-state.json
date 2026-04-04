@@ -68,7 +68,6 @@
     "data/stations/radio357/2026/4/1.json",
     "data/stations/radio357/2026/4/2.json",
     "data/stations/radio357/2026/4/3.json",
-    "data/stations/radio357/2026/4/4.json",
     "data/stations/radio357/2026/4/index.json",
     "data/stations/radio357/2026/index.json",
     "data/stations/radio357/index.json",
@@ -88,7 +87,6 @@
     "data/stations/radiobialystok/2026/4/1.json",
     "data/stations/radiobialystok/2026/4/2.json",
     "data/stations/radiobialystok/2026/4/3.json",
-    "data/stations/radiobialystok/2026/4/4.json",
     "data/stations/radiobialystok/2026/4/index.json",
     "data/stations/radiobialystok/2026/index.json",
     "data/stations/radiobialystok/index.json",
@@ -128,7 +126,6 @@
     "data/stations/radiogorzow/2026/4/1.json",
     "data/stations/radiogorzow/2026/4/2.json",
     "data/stations/radiogorzow/2026/4/3.json",
-    "data/stations/radiogorzow/2026/4/4.json",
     "data/stations/radiogorzow/2026/4/index.json",
     "data/stations/radiogorzow/2026/index.json",
     "data/stations/radiogorzow/index.json",
@@ -435,8 +432,7 @@
       "2026-3-31": "15:2026-04-03T16:20:10.916143+00:00",
       "2026-4-1": "24:2026-04-04T00:44:16.362023+00:00",
       "2026-4-2": "24:2026-04-04T04:27:53.430891+00:00",
-      "2026-4-3": "24:2026-04-04T05:07:04.905405+00:00",
-      "2026-4-4": "1:2026-04-04T02:33:28.177652+00:00"
+      "2026-4-3": "24:2026-04-04T05:07:04.905405+00:00"
     },
     "radioakadera": {
       "2026-3-30": "7:2026-04-03T08:02:57.942516+00:00",
@@ -451,8 +447,7 @@
       "2026-3-31": "12:2026-04-03T21:39:47.192202+00:00",
       "2026-4-1": "24:2026-04-04T02:42:04.462120+00:00",
       "2026-4-2": "23:2026-04-04T04:27:53.430891+00:00",
-      "2026-4-3": "24:2026-04-04T05:07:09.254023+00:00",
-      "2026-4-4": "1:2026-04-04T02:33:29.942829+00:00"
+      "2026-4-3": "24:2026-04-04T05:07:09.254023+00:00"
     },
     "radiocentrumlublin": {
       "2026-3-30": "6:2026-04-03T07:53:47.676083+00:00",
@@ -483,8 +478,7 @@
       "2026-3-31": "22:2026-04-03T14:46:06.166297+00:00",
       "2026-4-1": "24:2026-04-03T18:21:24.880385+00:00",
       "2026-4-2": "24:2026-04-03T05:53:20.255852+00:00",
-      "2026-4-3": "24:2026-04-04T04:56:56.777248+00:00",
-      "2026-4-4": "1:2026-04-04T02:33:33.466473+00:00"
+      "2026-4-3": "24:2026-04-04T04:56:56.777248+00:00"
     },
     "radioindex": {
       "2026-3-30": "6:2026-04-03T19:20:21.327000+00:00",
@@ -520,7 +514,7 @@
       "2026-3-31": "23:2026-04-03T16:29:25.598526+00:00",
       "2026-4-1": "24:2026-04-04T03:43:46.679610+00:00",
       "2026-4-2": "24:2026-04-04T00:37:18.258640+00:00",
-      "2026-4-3": "24:2026-04-04T05:07:11.764188+00:00"
+      "2026-4-3": "23:2026-04-04T05:07:11.764188+00:00"
     },
     "radiokrakow": {
       "2026-3-30": "7:2026-04-03T14:54:28.414919+00:00",
@@ -722,7 +716,7 @@
       "timezone": "Europe/Warsaw"
     },
     "radio357": {
-      "archive_count": 100,
+      "archive_count": 99,
       "display_name": "Radio 357",
       "public_name": "Radio 357",
       "slug": "radio357",
@@ -736,7 +730,7 @@
       "timezone": "Europe/Warsaw"
     },
     "radiobialystok": {
-      "archive_count": 88,
+      "archive_count": 87,
       "display_name": "Radio Białystok",
       "public_name": "Radio Białystok",
       "slug": "radiobialystok",
@@ -764,7 +758,7 @@
       "timezone": "Europe/Warsaw"
     },
     "radiogorzow": {
-      "archive_count": 100,
+      "archive_count": 99,
       "display_name": "Radio Gorzów",
       "public_name": "Radio Gorzów",
       "slug": "radiogorzow",
@@ -799,7 +793,7 @@
       "timezone": "Europe/Warsaw"
     },
     "radiokoszalin": {
-      "archive_count": 103,
+      "archive_count": 102,
       "display_name": "Radio Koszalin",
       "public_name": "Radio Koszalin",
       "slug": "radiokoszalin",
