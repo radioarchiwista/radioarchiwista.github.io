@@ -367,6 +367,29 @@
       "utc_label": "2026-03-30 18:00 UTC",
       "utc_started_at": "2026-03-30T18:00:00+00:00",
       "year": 2026
+    },
+    {
+      "archive_item_identifier": "tokfm-2026-03-30",
+      "audio_url": "https://archive.org/download/tokfm-2026-03-30/tokfm_2026-03-30T20-00-00Z.mp3",
+      "completeness_ratio": 0.9965,
+      "day": 30,
+      "download_url": "https://archive.org/download/tokfm-2026-03-30/tokfm_2026-03-30T20-00-00Z.mp3",
+      "duration_seconds": 3594.36,
+      "hour": 22,
+      "hourly_archive_id": 996,
+      "local_date_label": "30.03.2026",
+      "local_hour_label": "22:00",
+      "local_label": "2026-03-30 22:00 CEST",
+      "local_started_at": "2026-03-30T22:00:00+02:00",
+      "local_timezone_label": "CEST",
+      "month": 3,
+      "published_at": "2026-04-04T17:38:36.810662+00:00",
+      "published_local_label": "2026-04-04 19:38 CEST",
+      "remote_filename": "tokfm_2026-03-30T20-00-00Z.mp3",
+      "status": "published",
+      "utc_label": "2026-03-30 20:00 UTC",
+      "utc_started_at": "2026-03-30T20:00:00+00:00",
+      "year": 2026
     }
   ],
   "day": 30,
@@ -791,7 +814,7 @@
       "year": 2026
     },
     {
-      "archive_status": "error",
+      "archive_status": "published",
       "completeness_ratio": 0.9965,
       "day": 30,
       "hour": 22,
@@ -802,9 +825,9 @@
       "local_started_at": "2026-03-30T22:00:00+02:00",
       "local_timezone_label": "CEST",
       "month": 3,
-      "playable": false,
-      "state": "failed",
-      "status_label": "Nie udało się przygotować nagrania",
+      "playable": true,
+      "state": "available",
+      "status_label": null,
       "utc_label": "2026-03-30 20:00 UTC",
       "utc_started_at": "2026-03-30T20:00:00+00:00",
       "year": 2026
@@ -834,7 +857,7 @@
   "month": 3,
   "published_at": "2026-04-04T17:57:29.181686+00:00",
   "station": {
-    "archive_count": 122,
+    "archive_count": 123,
     "display_name": "TOK FM",
     "public_name": "TOK FM",
     "slug": "tokfm",
