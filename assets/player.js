@@ -32,6 +32,7 @@
   const youtubeSeekStepSeconds = 10;
   const localAudioCacheName = "radio-archiwista-player-audio-v1";
   const maxLocalAudioCacheEntries = 2;
+  const displayTimeZone = "Europe/Warsaw";
   const stationsEndpoint =
     pageRoot?.dataset.playerStationsEndpoint || "/player/api/stations";
   const stationIndexUrlTemplate =
@@ -628,7 +629,7 @@
     seekInput.setAttribute("title", "00:00 z 00:00");
     titleNode.textContent = "Nie wybrano godziny";
     subtitleNode.textContent =
-      "Po załadowaniu zobaczysz tutaj datę i godzinę w lokalnym czasie stacji.";
+      "Po załadowaniu zobaczysz tutaj datę i godzinę według czasu polskiego.";
     playButton.textContent = "Odtwórz";
     setPlayerLoadedState(false);
   }
@@ -1264,18 +1265,21 @@
     const formatter = new Intl.DateTimeFormat("pl-PL", {
       dateStyle: "medium",
       timeStyle: "short",
+      timeZone: displayTimeZone,
     });
     const parts = [];
     if (publishedAt) {
       const publishedDate = new Date(publishedAt);
       if (!Number.isNaN(publishedDate.getTime())) {
-        parts.push(`Katalog opublikowano: ${formatter.format(publishedDate)}.`);
+        parts.push(`Katalog opublikowano: ${formatter.format(publishedDate)} czasu polskiego.`);
       }
     }
     if (latestArchiveHourStartedAt) {
       const latestArchiveDate = new Date(latestArchiveHourStartedAt);
       if (!Number.isNaN(latestArchiveDate.getTime())) {
-        parts.push(`Najnowsza godzina w katalogu: ${formatter.format(latestArchiveDate)}.`);
+        parts.push(
+          `Najnowsza godzina w katalogu: ${formatter.format(latestArchiveDate)} czasu polskiego.`,
+        );
       }
     }
     if (Array.isArray(latestArchiveHourStations) && latestArchiveHourStations.length > 0) {
