@@ -1,5 +1,5 @@
 {
-  "archive_count": 4400,
+  "archive_count": 4396,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
   "generated_at": "2026-04-04T12:43:12.404030+00:00",
@@ -15,8 +15,6 @@
     "Radio Akadera",
     "Radio Białystok",
     "Radio Centrum Lublin",
-    "Radio Centrum Rzeszów",
-    "Radio Gdańsk",
     "Radio Gorzów"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
