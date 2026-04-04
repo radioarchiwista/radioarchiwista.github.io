@@ -561,7 +561,7 @@
       "year": 2026
     },
     {
-      "archive_status": "ready",
+      "archive_status": "error",
       "completeness_ratio": 0.9963,
       "day": 30,
       "hour": 22,
@@ -573,8 +573,8 @@
       "local_timezone_label": "CEST",
       "month": 3,
       "playable": false,
-      "state": "publishing",
-      "status_label": "Czeka w kolejce do publikacji",
+      "state": "failed",
+      "status_label": "Nie udało się przygotować nagrania",
       "utc_label": "2026-03-30 20:00 UTC",
       "utc_started_at": "2026-03-30T20:00:00+00:00",
       "year": 2026
@@ -604,7 +604,7 @@
   "month": 3,
   "published_at": "2026-04-04T16:37:59.685946+00:00",
   "station": {
-    "archive_count": 117,
+    "archive_count": 115,
     "display_name": "Radio Gorzów",
     "public_name": "Radio Gorzów",
     "slug": "radiogorzow",
