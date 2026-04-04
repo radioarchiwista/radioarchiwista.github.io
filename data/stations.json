@@ -11,7 +11,6 @@
     "Polskie Radio 24",
     "Radio 357",
     "Radio Afera",
-    "Radio Akadera",
     "Radio Białystok"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
@@ -83,14 +82,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 116,
+      "archive_count": 115,
       "display_name": "Radio Afera",
       "public_name": "Radio Afera",
       "slug": "afera",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 117,
+      "archive_count": 116,
       "display_name": "Radio Akadera",
       "public_name": "Radio Akadera",
       "slug": "radioakadera",
@@ -104,7 +103,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 115,
+      "archive_count": 114,
       "display_name": "Radio Centrum Lublin",
       "public_name": "Radio Centrum Lublin",
       "slug": "radiocentrumlublin",
@@ -209,7 +208,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 114,
+      "archive_count": 113,
       "display_name": "Radio PiK",
       "public_name": "Radio PiK",
       "slug": "radiopik",
