@@ -17,8 +17,6 @@
     "Radio Olsztyn",
     "Radio Opole",
     "Radio PiK",
-    "Radio Rzeszów",
-    "Radio Szczecin",
     "Radio UWM FM"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
@@ -230,14 +228,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 101,
+      "archive_count": 100,
       "display_name": "Radio Rzeszów",
       "public_name": "Radio Rzeszów",
       "slug": "radiorzeszow",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 99,
+      "archive_count": 98,
       "display_name": "Radio Szczecin",
       "public_name": "Radio Szczecin",
       "slug": "radioszczecin",
