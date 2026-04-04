@@ -677,11 +677,11 @@
       "year": 2026
     },
     {
-      "archive_status": null,
-      "completeness_ratio": null,
+      "archive_status": "ready",
+      "completeness_ratio": 0.9994,
       "day": 4,
       "hour": 16,
-      "hourly_archive_id": null,
+      "hourly_archive_id": 5048,
       "local_date_label": "04.04.2026",
       "local_hour_label": "16:00",
       "local_label": "2026-04-04 16:00 CEST",
@@ -689,8 +689,8 @@
       "local_timezone_label": "CEST",
       "month": 4,
       "playable": false,
-      "state": "recorded",
-      "status_label": "Nagranie czeka na złożenie",
+      "state": "publishing",
+      "status_label": "Czeka w kolejce do publikacji",
       "utc_label": "2026-04-04 14:00 UTC",
       "utc_started_at": "2026-04-04T14:00:00+00:00",
       "year": 2026
@@ -732,6 +732,25 @@
       "utc_label": "2026-04-04 16:00 UTC",
       "utc_started_at": "2026-04-04T16:00:00+00:00",
       "year": 2026
+    },
+    {
+      "archive_status": null,
+      "completeness_ratio": null,
+      "day": 4,
+      "hour": 19,
+      "hourly_archive_id": null,
+      "local_date_label": "04.04.2026",
+      "local_hour_label": "19:00",
+      "local_label": "2026-04-04 19:00 CEST",
+      "local_started_at": "2026-04-04T19:00:00+02:00",
+      "local_timezone_label": "CEST",
+      "month": 4,
+      "playable": false,
+      "state": "recorded",
+      "status_label": "Nagranie czeka na złożenie",
+      "utc_label": "2026-04-04 17:00 UTC",
+      "utc_started_at": "2026-04-04T17:00:00+00:00",
+      "year": 2026
     }
   ],
   "latest_archive_hour_expected_station_count": 0,
@@ -739,7 +758,7 @@
   "month": 4,
   "published_at": "2026-04-04T17:23:25.592313+00:00",
   "station": {
-    "archive_count": 119,
+    "archive_count": 118,
     "display_name": "Radio Kielce",
     "public_name": "Radio Kielce",
     "slug": "radiokielce",
