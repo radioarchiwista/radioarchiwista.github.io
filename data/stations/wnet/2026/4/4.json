@@ -803,11 +803,11 @@
       "year": 2026
     },
     {
-      "archive_status": null,
-      "completeness_ratio": null,
+      "archive_status": "ready",
+      "completeness_ratio": 1.0,
       "day": 4,
       "hour": 19,
-      "hourly_archive_id": null,
+      "hourly_archive_id": 5087,
       "local_date_label": "04.04.2026",
       "local_hour_label": "19:00",
       "local_label": "2026-04-04 19:00 CEST",
@@ -815,8 +815,8 @@
       "local_timezone_label": "CEST",
       "month": 4,
       "playable": false,
-      "state": "recorded",
-      "status_label": "Nagranie czeka na złożenie",
+      "state": "publishing",
+      "status_label": "Czeka w kolejce do publikacji",
       "utc_label": "2026-04-04 17:00 UTC",
       "utc_started_at": "2026-04-04T17:00:00+00:00",
       "year": 2026
@@ -827,7 +827,7 @@
   "month": 4,
   "published_at": "2026-04-04T17:57:31.793744+00:00",
   "station": {
-    "archive_count": 137,
+    "archive_count": 136,
     "display_name": "Radio Wnet",
     "public_name": "Radio Wnet",
     "slug": "wnet",
