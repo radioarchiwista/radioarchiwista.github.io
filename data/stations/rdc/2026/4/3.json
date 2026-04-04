@@ -344,33 +344,10 @@
       "utc_label": "2026-04-03 12:00 UTC",
       "utc_started_at": "2026-04-03T12:00:00+00:00",
       "year": 2026
-    },
-    {
-      "archive_item_identifier": "rdc-2026-04-03",
-      "audio_url": "https://archive.org/download/rdc-2026-04-03/rdc_2026-04-03T13-00-00Z.mp3",
-      "completeness_ratio": 1.0,
-      "day": 3,
-      "download_url": "https://archive.org/download/rdc-2026-04-03/rdc_2026-04-03T13-00-00Z.mp3",
-      "duration_seconds": 3598.184,
-      "hour": 15,
-      "hourly_archive_id": 4109,
-      "local_date_label": "03.04.2026",
-      "local_hour_label": "15:00",
-      "local_label": "2026-04-03 15:00 CEST",
-      "local_started_at": "2026-04-03T15:00:00+02:00",
-      "local_timezone_label": "CEST",
-      "month": 4,
-      "published_at": "2026-04-04T02:34:26.793186+00:00",
-      "published_local_label": "2026-04-04 04:34 CEST",
-      "remote_filename": "rdc_2026-04-03T13-00-00Z.mp3",
-      "status": "published",
-      "utc_label": "2026-04-03 13:00 UTC",
-      "utc_started_at": "2026-04-03T13:00:00+00:00",
-      "year": 2026
     }
   ],
   "day": 3,
-  "generated_at": "2026-04-04T12:57:47.565072+00:00",
+  "generated_at": "2026-04-04T13:22:43.029236+00:00",
   "hour_slots": [
     {
       "archive_status": "published",
@@ -658,7 +635,7 @@
       "year": 2026
     },
     {
-      "archive_status": "published",
+      "archive_status": "ready",
       "completeness_ratio": 1.0,
       "day": 3,
       "hour": 15,
@@ -669,15 +646,15 @@
       "local_started_at": "2026-04-03T15:00:00+02:00",
       "local_timezone_label": "CEST",
       "month": 4,
-      "playable": true,
-      "state": "available",
-      "status_label": null,
+      "playable": false,
+      "state": "publishing",
+      "status_label": "Czeka w kolejce do publikacji",
       "utc_label": "2026-04-03 13:00 UTC",
       "utc_started_at": "2026-04-03T13:00:00+00:00",
       "year": 2026
     },
     {
-      "archive_status": "ready",
+      "archive_status": "published",
       "completeness_ratio": 1.0,
       "day": 3,
       "hour": 16,
@@ -688,9 +665,9 @@
       "local_started_at": "2026-04-03T16:00:00+02:00",
       "local_timezone_label": "CEST",
       "month": 4,
-      "playable": false,
-      "state": "publishing",
-      "status_label": "Czeka w kolejce do publikacji",
+      "playable": true,
+      "state": "available",
+      "status_label": null,
       "utc_label": "2026-04-03 14:00 UTC",
       "utc_started_at": "2026-04-03T14:00:00+00:00",
       "year": 2026
@@ -830,9 +807,9 @@
     }
   ],
   "latest_archive_hour_expected_station_count": 0,
-  "latest_archive_hour_started_at": "2026-04-03T13:00:00+00:00",
+  "latest_archive_hour_started_at": "2026-04-03T12:00:00+00:00",
   "month": 4,
-  "published_at": "2026-04-04T12:57:47.565072+00:00",
+  "published_at": "2026-04-04T13:22:43.029236+00:00",
   "station": {
     "archive_count": 111,
     "display_name": "Radio Dla Ciebie",
