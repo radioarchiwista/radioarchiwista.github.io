@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-05T23:23:40.134094+00:00",
+  "generated_at": "2026-04-05T23:42:38.956814+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-04-05T22:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -19,7 +19,7 @@
     "Radio Gorzów"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-05T23:23:40.134094+00:00",
+  "published_at": "2026-04-05T23:42:38.956814+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -59,28 +59,28 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 165,
+      "archive_count": 164,
       "display_name": "Radio Nowy Świat",
       "public_name": "Radio Nowy Świat",
       "slug": "rns",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 152,
+      "archive_count": 151,
       "display_name": "TOK FM",
       "public_name": "TOK FM",
       "slug": "tokfm",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 165,
+      "archive_count": 164,
       "display_name": "Radio Wnet",
       "public_name": "Radio Wnet",
       "slug": "wnet",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 166,
+      "archive_count": 165,
       "display_name": "Radio Republika",
       "public_name": "Radio Republika",
       "slug": "republika",
