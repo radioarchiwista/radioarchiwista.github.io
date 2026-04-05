@@ -487,7 +487,7 @@
       "year": 2026
     },
     {
-      "archive_status": "ready",
+      "archive_status": "error",
       "completeness_ratio": 0.9985,
       "day": 31,
       "hour": 6,
@@ -499,8 +499,8 @@
       "local_timezone_label": "CEST",
       "month": 3,
       "playable": false,
-      "state": "publishing",
-      "status_label": "Czeka w kolejce do publikacji",
+      "state": "failed",
+      "status_label": "Nie udało się przygotować nagrania",
       "utc_label": "2026-03-31 04:00 UTC",
       "utc_started_at": "2026-03-31T04:00:00+00:00",
       "year": 2026
@@ -834,7 +834,7 @@
   "month": 3,
   "published_at": "2026-04-05T07:01:48.375109+00:00",
   "station": {
-    "archive_count": 128,
+    "archive_count": 127,
     "display_name": "Radio Białystok",
     "public_name": "Radio Białystok",
     "slug": "radiobialystok",
