@@ -117,6 +117,29 @@
     },
     {
       "archive_item_identifier": "tokfm-2026-03-30",
+      "audio_url": "https://archive.org/download/tokfm-2026-03-30/tokfm_2026-03-30T07-00-00Z.mp3",
+      "completeness_ratio": 0.9936,
+      "day": 30,
+      "download_url": "https://archive.org/download/tokfm-2026-03-30/tokfm_2026-03-30T07-00-00Z.mp3",
+      "duration_seconds": 3593.448,
+      "hour": 9,
+      "hourly_archive_id": 1907,
+      "local_date_label": "30.03.2026",
+      "local_hour_label": "09:00",
+      "local_label": "2026-03-30 09:00 CEST",
+      "local_started_at": "2026-03-30T09:00:00+02:00",
+      "local_timezone_label": "CEST",
+      "month": 3,
+      "published_at": "2026-04-05T18:04:30.269202+00:00",
+      "published_local_label": "2026-04-05 20:04 CEST",
+      "remote_filename": "tokfm_2026-03-30T07-00-00Z.mp3",
+      "status": "published",
+      "utc_label": "2026-03-30 07:00 UTC",
+      "utc_started_at": "2026-03-30T07:00:00+00:00",
+      "year": 2026
+    },
+    {
+      "archive_item_identifier": "tokfm-2026-03-30",
       "audio_url": "https://archive.org/download/tokfm-2026-03-30/tokfm_2026-03-30T08-00-00Z.mp3",
       "completeness_ratio": 0.9993,
       "day": 30,
@@ -370,7 +393,7 @@
     }
   ],
   "day": 30,
-  "generated_at": "2026-04-05T18:26:01.493910+00:00",
+  "generated_at": "2026-04-05T18:37:41.244191+00:00",
   "hour_slots": [
     {
       "archive_status": null,
@@ -544,7 +567,7 @@
       "year": 2026
     },
     {
-      "archive_status": "ready",
+      "archive_status": "published",
       "completeness_ratio": 0.9936,
       "day": 30,
       "hour": 9,
@@ -555,9 +578,9 @@
       "local_started_at": "2026-03-30T09:00:00+02:00",
       "local_timezone_label": "CEST",
       "month": 3,
-      "playable": false,
-      "state": "publishing",
-      "status_label": "Czeka w kolejce do publikacji",
+      "playable": true,
+      "state": "available",
+      "status_label": null,
       "utc_label": "2026-03-30 07:00 UTC",
       "utc_started_at": "2026-03-30T07:00:00+00:00",
       "year": 2026
@@ -830,11 +853,11 @@
     }
   ],
   "latest_archive_hour_expected_station_count": 0,
-  "latest_archive_hour_started_at": "2026-04-05T16:00:00+00:00",
+  "latest_archive_hour_started_at": "2026-04-05T17:00:00+00:00",
   "month": 3,
-  "published_at": "2026-04-05T18:26:01.493910+00:00",
+  "published_at": "2026-04-05T18:37:41.244191+00:00",
   "station": {
-    "archive_count": 149,
+    "archive_count": 151,
     "display_name": "TOK FM",
     "public_name": "TOK FM",
     "slug": "tokfm",
