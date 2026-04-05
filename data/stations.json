@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-05T15:48:50.177865+00:00",
+  "generated_at": "2026-04-05T15:51:00.260090+00:00",
   "latest_archive_hour_expected_station_count": 38,
   "latest_archive_hour_started_at": "2026-04-05T14:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -22,13 +22,14 @@
     "Radio Gdańsk",
     "Radio Gorzów",
     "Radio Index",
+    "Radio Kampus",
+    "Radio Katowice",
+    "Radio Kielce",
     "Radio Koszalin",
     "Radio Kraków",
-    "Radio Lublin",
     "Radio Luz",
     "Radio Olsztyn",
     "Radio PiK",
-    "Radio Poznań",
     "Radio Rzeszów",
     "Radio Szczecin",
     "Radio Słupsk",
@@ -40,7 +41,7 @@
     "Radio Żak"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-05T15:48:50.177865+00:00",
+  "published_at": "2026-04-05T15:51:00.260090+00:00",
   "station_count": 38,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -52,7 +53,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 165,
+      "archive_count": 164,
       "display_name": "Program 2",
       "public_name": "Polskie Radio Program 2",
       "slug": "pr2",
@@ -66,14 +67,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 165,
+      "archive_count": 164,
       "display_name": "Polskie Radio 24",
       "public_name": "Polskie Radio 24",
       "slug": "pr24",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 152,
+      "archive_count": 148,
       "display_name": "Radio 357",
       "public_name": "Radio 357",
       "slug": "radio357",
@@ -87,7 +88,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 148,
+      "archive_count": 146,
       "display_name": "TOK FM",
       "public_name": "TOK FM",
       "slug": "tokfm",
@@ -122,7 +123,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 138,
+      "archive_count": 135,
       "display_name": "Radio Białystok",
       "public_name": "Radio Białystok",
       "slug": "radiobialystok",
@@ -206,7 +207,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 144,
+      "archive_count": 143,
       "display_name": "Radio Lublin",
       "public_name": "Radio Lublin",
       "slug": "radiolublin",
@@ -241,7 +242,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 143,
+      "archive_count": 142,
       "display_name": "Radio Poznań",
       "public_name": "Radio Poznań",
       "slug": "radiopoznan",
