@@ -24,29 +24,6 @@
       "year": 2026
     },
     {
-      "archive_item_identifier": "radio357-2026-04-04",
-      "audio_url": "https://archive.org/download/radio357-2026-04-04/radio357_2026-04-04T23-00-00Z.mp3",
-      "completeness_ratio": 0.9996,
-      "day": 5,
-      "download_url": "https://archive.org/download/radio357-2026-04-04/radio357_2026-04-04T23-00-00Z.mp3",
-      "duration_seconds": 3596.496,
-      "hour": 1,
-      "hourly_archive_id": 5368,
-      "local_date_label": "05.04.2026",
-      "local_hour_label": "01:00",
-      "local_label": "2026-04-05 01:00 CEST",
-      "local_started_at": "2026-04-05T01:00:00+02:00",
-      "local_timezone_label": "CEST",
-      "month": 4,
-      "published_at": "2026-04-05T00:29:24.935675+00:00",
-      "published_local_label": "2026-04-05 02:29 CEST",
-      "remote_filename": "radio357_2026-04-04T23-00-00Z.mp3",
-      "status": "published",
-      "utc_label": "2026-04-04 23:00 UTC",
-      "utc_started_at": "2026-04-04T23:00:00+00:00",
-      "year": 2026
-    },
-    {
       "archive_item_identifier": "radio357-2026-04-05",
       "audio_url": "https://archive.org/download/radio357-2026-04-05/radio357_2026-04-05T00-00-00Z.mp3",
       "completeness_ratio": 0.9991,
@@ -277,7 +254,7 @@
       "year": 2026
     },
     {
-      "archive_status": "published",
+      "archive_status": "ready",
       "completeness_ratio": 0.9996,
       "day": 5,
       "hour": 1,
@@ -288,9 +265,9 @@
       "local_started_at": "2026-04-05T01:00:00+02:00",
       "local_timezone_label": "CEST",
       "month": 4,
-      "playable": true,
-      "state": "available",
-      "status_label": null,
+      "playable": false,
+      "state": "publishing",
+      "status_label": "Czeka w kolejce do publikacji",
       "utc_label": "2026-04-04 23:00 UTC",
       "utc_started_at": "2026-04-04T23:00:00+00:00",
       "year": 2026
@@ -472,7 +449,7 @@
   "month": 4,
   "published_at": "2026-04-05T09:16:01.216369+00:00",
   "station": {
-    "archive_count": 138,
+    "archive_count": 136,
     "display_name": "Radio 357",
     "public_name": "Radio 357",
     "slug": "radio357",
