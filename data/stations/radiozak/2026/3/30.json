@@ -25,29 +25,6 @@
     },
     {
       "archive_item_identifier": "radiozak-2026-03-30",
-      "audio_url": "https://archive.org/download/radiozak-2026-03-30/radiozak_2026-03-30T16-00-00Z.mp3",
-      "completeness_ratio": 0.9569,
-      "day": 30,
-      "download_url": "https://archive.org/download/radiozak-2026-03-30/radiozak_2026-03-30T16-00-00Z.mp3",
-      "duration_seconds": 3599.544,
-      "hour": 18,
-      "hourly_archive_id": 1675,
-      "local_date_label": "30.03.2026",
-      "local_hour_label": "18:00",
-      "local_label": "2026-03-30 18:00 CEST",
-      "local_started_at": "2026-03-30T18:00:00+02:00",
-      "local_timezone_label": "CEST",
-      "month": 3,
-      "published_at": "2026-04-05T17:19:34.314539+00:00",
-      "published_local_label": "2026-04-05 19:19 CEST",
-      "remote_filename": "radiozak_2026-03-30T16-00-00Z.mp3",
-      "status": "published",
-      "utc_label": "2026-03-30 16:00 UTC",
-      "utc_started_at": "2026-03-30T16:00:00+00:00",
-      "year": 2026
-    },
-    {
-      "archive_item_identifier": "radiozak-2026-03-30",
       "audio_url": "https://archive.org/download/radiozak-2026-03-30/2026-03-30T17-00-00Z.mp3",
       "completeness_ratio": 1.0,
       "day": 30,
@@ -470,7 +447,7 @@
       "year": 2026
     },
     {
-      "archive_status": "ready",
+      "archive_status": "error",
       "completeness_ratio": 0.4658,
       "day": 30,
       "hour": 16,
@@ -482,8 +459,8 @@
       "local_timezone_label": "CEST",
       "month": 3,
       "playable": false,
-      "state": "publishing",
-      "status_label": "Czeka w kolejce do publikacji",
+      "state": "failed",
+      "status_label": "Nie udało się przygotować nagrania",
       "utc_label": "2026-03-30 14:00 UTC",
       "utc_started_at": "2026-03-30T14:00:00+00:00",
       "year": 2026
@@ -508,7 +485,7 @@
       "year": 2026
     },
     {
-      "archive_status": "published",
+      "archive_status": "ready",
       "completeness_ratio": 0.9569,
       "day": 30,
       "hour": 18,
@@ -519,9 +496,9 @@
       "local_started_at": "2026-03-30T18:00:00+02:00",
       "local_timezone_label": "CEST",
       "month": 3,
-      "playable": true,
-      "state": "available",
-      "status_label": null,
+      "playable": false,
+      "state": "publishing",
+      "status_label": "Czeka w kolejce do publikacji",
       "utc_label": "2026-03-30 16:00 UTC",
       "utc_started_at": "2026-03-30T16:00:00+00:00",
       "year": 2026
@@ -627,7 +604,7 @@
   "month": 3,
   "published_at": "2026-04-05T18:33:16.474120+00:00",
   "station": {
-    "archive_count": 138,
+    "archive_count": 137,
     "display_name": "Radio Żak",
     "public_name": "Radio Żak",
     "slug": "radiozak",
