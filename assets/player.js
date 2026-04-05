@@ -1,7 +1,6 @@
 (function () {
   const pageRoot = document.querySelector(".player-page");
   const stationFilterInput = document.getElementById("player-station-filter");
-  const stationFilterStatusNode = document.getElementById("player-station-filter-status");
   const stationSelect = document.getElementById("player-station");
   const yearSelect = document.getElementById("player-year");
   const monthSelect = document.getElementById("player-month");
@@ -368,7 +367,6 @@
     if (!Array.isArray(stations) || stations.length === 0) {
       allStations = [];
       clearSelect(stationSelect, "Wybierz stację", true);
-      updateStationFilterStatus({ query: "", totalCount: 0, matchedCount: 0 });
       return;
     }
     allStations = stations
@@ -765,19 +763,12 @@
     const query = stationFilterInput?.value.trim() || "";
     if (allStations.length === 0) {
       clearSelect(stationSelect, "Wybierz stację", true);
-      updateStationFilterStatus({ query, totalCount: 0, matchedCount: 0 });
       return;
     }
 
-    const { stations, matchedCount, selectedPinned } = filterStations(allStations, query, selectedSlug);
+    const stations = filterStations(allStations, query, selectedSlug);
     if (stations.length === 0) {
       clearSelect(stationSelect, "Brak pasujących stacji", true);
-      updateStationFilterStatus({
-        query,
-        totalCount: allStations.length,
-        matchedCount,
-        selectedPinned,
-      });
       return;
     }
 
@@ -790,21 +781,11 @@
       }),
       { autoSelectFirst: false },
     );
-    updateStationFilterStatus({
-      query,
-      totalCount: allStations.length,
-      matchedCount,
-      selectedPinned,
-    });
   }
 
   function filterStations(stations, query, selectedSlug) {
     if (!query) {
-      return {
-        stations,
-        matchedCount: stations.length,
-        selectedPinned: false,
-      };
+      return stations;
     }
     const scored = stations
       .map((station) => ({
@@ -824,25 +805,13 @@
       Boolean(selectedSlug) &&
       !matchedStations.some((station) => station.slug === selectedSlug);
     if (!selectedPinned) {
-      return {
-        stations: matchedStations,
-        matchedCount: matchedStations.length,
-        selectedPinned: false,
-      };
+      return matchedStations;
     }
     const selectedStation = stations.find((station) => station.slug === selectedSlug);
     if (!selectedStation) {
-      return {
-        stations: matchedStations,
-        matchedCount: matchedStations.length,
-        selectedPinned: false,
-      };
+      return matchedStations;
     }
-    return {
-      stations: [selectedStation, ...matchedStations],
-      matchedCount: matchedStations.length,
-      selectedPinned: true,
-    };
+    return [selectedStation, ...matchedStations];
   }
 
   function scoreStationQueryMatch(station, rawQuery) {
@@ -934,37 +903,6 @@
       }
     }
     return false;
-  }
-
-  function updateStationFilterStatus({
-    query,
-    totalCount,
-    matchedCount,
-    selectedPinned = false,
-  }) {
-    if (!stationFilterStatusNode) {
-      return;
-    }
-    if (totalCount <= 0) {
-      stationFilterStatusNode.textContent = "Lista stacji ładuje się...";
-      return;
-    }
-    if (!query) {
-      stationFilterStatusNode.textContent = `Dostępnych stacji: ${totalCount}.`;
-      return;
-    }
-    if (matchedCount <= 0 && !selectedPinned) {
-      stationFilterStatusNode.textContent = `Brak stacji pasujących do filtra „${query}”.`;
-      return;
-    }
-    if (selectedPinned) {
-      stationFilterStatusNode.textContent =
-        matchedCount > 0
-          ? `Pasujących stacji: ${matchedCount} z ${totalCount}. Pokazuję też aktualnie wybraną stację.`
-          : "Brak innych pasujących stacji. Pokazuję aktualnie wybraną stację.";
-      return;
-    }
-    stationFilterStatusNode.textContent = `Pasujących stacji: ${matchedCount} z ${totalCount}.`;
   }
 
   function fillSelect(select, values, toOption, options = {}) {

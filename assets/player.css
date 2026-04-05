@@ -637,11 +637,6 @@ textarea {
   margin: -0.15rem 0 0;
 }
 
-.player-filter-status {
-  min-height: 1.4rem;
-  color: var(--muted);
-}
-
 .player-shortcut-grid {
   display: grid;
   grid-template-columns: minmax(5rem, auto) minmax(0, 1fr);
