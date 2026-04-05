@@ -48,7 +48,7 @@
     }
   ],
   "day": 30,
-  "generated_at": "2026-04-05T16:16:54.150047+00:00",
+  "generated_at": "2026-04-05T15:58:37.137234+00:00",
   "hour_slots": [
     {
       "archive_status": null,
@@ -450,7 +450,7 @@
       "year": 2026
     },
     {
-      "archive_status": "published",
+      "archive_status": "ready",
       "completeness_ratio": 0.9606,
       "day": 30,
       "hour": 21,
@@ -461,9 +461,9 @@
       "local_started_at": "2026-03-30T21:00:00+02:00",
       "local_timezone_label": "CEST",
       "month": 3,
-      "playable": true,
-      "state": "available",
-      "status_label": null,
+      "playable": false,
+      "state": "publishing",
+      "status_label": "Czeka w kolejce do publikacji",
       "utc_label": "2026-03-30 19:00 UTC",
       "utc_started_at": "2026-03-30T19:00:00+00:00",
       "year": 2026
@@ -510,9 +510,9 @@
   "latest_archive_hour_expected_station_count": 0,
   "latest_archive_hour_started_at": "2026-04-05T14:00:00+00:00",
   "month": 3,
-  "published_at": "2026-04-05T16:16:54.150047+00:00",
+  "published_at": "2026-04-05T15:58:37.137234+00:00",
   "station": {
-    "archive_count": 141,
+    "archive_count": 140,
     "display_name": "Radio Szczecin",
     "public_name": "Radio Szczecin",
     "slug": "radioszczecin",
