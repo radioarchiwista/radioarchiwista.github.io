@@ -1,14 +1,13 @@
 {
-  "archive_count": 5287,
+  "archive_count": 5307,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-05T09:51:58.001008+00:00",
+  "generated_at": "2026-04-05T09:55:32.821201+00:00",
   "latest_archive_hour_expected_station_count": 38,
   "latest_archive_hour_started_at": "2026-04-05T08:00:00+00:00",
   "latest_archive_hour_stations": [
     "Program 1",
     "Program 2",
-    "Program 3",
     "Polskie Radio 24",
     "Radio 357",
     "Radio Nowy Świat",
@@ -18,8 +17,6 @@
     "Radio Afera",
     "Radio Akadera",
     "Radio Białystok",
-    "Radio Centrum Lublin",
-    "Radio Centrum Rzeszów",
     "Radio Dla Ciebie",
     "Radio Gdańsk",
     "Radio Gorzów",
@@ -38,12 +35,14 @@
     "Radio Szczecin",
     "Radio Słupsk",
     "Radio UWM FM",
+    "Radio Wrocław",
     "Radio Zachód",
     "Radio Zielona Góra",
-    "Radio Łódź"
+    "Radio Łódź",
+    "Radio Żak"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-05T09:51:58.001008+00:00",
+  "published_at": "2026-04-05T09:55:32.821201+00:00",
   "station_count": 38,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
