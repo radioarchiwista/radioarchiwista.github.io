@@ -360,11 +360,11 @@
       "year": 2026
     },
     {
-      "archive_status": null,
-      "completeness_ratio": null,
+      "archive_status": "ready",
+      "completeness_ratio": 1.0,
       "day": 5,
       "hour": 9,
-      "hourly_archive_id": null,
+      "hourly_archive_id": 5683,
       "local_date_label": "05.04.2026",
       "local_hour_label": "09:00",
       "local_label": "2026-04-05 09:00 CEST",
@@ -372,8 +372,8 @@
       "local_timezone_label": "CEST",
       "month": 4,
       "playable": false,
-      "state": "recorded",
-      "status_label": "Nagranie czeka na złożenie",
+      "state": "publishing",
+      "status_label": "Czeka w kolejce do publikacji",
       "utc_label": "2026-04-05 07:00 UTC",
       "utc_started_at": "2026-04-05T07:00:00+00:00",
       "year": 2026
