@@ -48,7 +48,7 @@
     }
   ],
   "day": 5,
-  "generated_at": "2026-04-05T00:39:17.604846+00:00",
+  "generated_at": "2026-04-05T01:28:37.255421+00:00",
   "hour_slots": [
     {
       "archive_status": "published",
@@ -89,11 +89,11 @@
       "year": 2026
     },
     {
-      "archive_status": null,
-      "completeness_ratio": null,
+      "archive_status": "ready",
+      "completeness_ratio": 1.0,
       "day": 5,
       "hour": 2,
-      "hourly_archive_id": null,
+      "hourly_archive_id": 5425,
       "local_date_label": "05.04.2026",
       "local_hour_label": "02:00",
       "local_label": "2026-04-05 02:00 CEST",
@@ -101,19 +101,38 @@
       "local_timezone_label": "CEST",
       "month": 4,
       "playable": false,
-      "state": "recorded",
-      "status_label": "Nagranie czeka na złożenie",
+      "state": "publishing",
+      "status_label": "Czeka w kolejce do publikacji",
       "utc_label": "2026-04-05 00:00 UTC",
       "utc_started_at": "2026-04-05T00:00:00+00:00",
+      "year": 2026
+    },
+    {
+      "archive_status": null,
+      "completeness_ratio": null,
+      "day": 5,
+      "hour": 3,
+      "hourly_archive_id": null,
+      "local_date_label": "05.04.2026",
+      "local_hour_label": "03:00",
+      "local_label": "2026-04-05 03:00 CEST",
+      "local_started_at": "2026-04-05T03:00:00+02:00",
+      "local_timezone_label": "CEST",
+      "month": 4,
+      "playable": false,
+      "state": "recorded",
+      "status_label": "Nagranie czeka na złożenie",
+      "utc_label": "2026-04-05 01:00 UTC",
+      "utc_started_at": "2026-04-05T01:00:00+00:00",
       "year": 2026
     }
   ],
   "latest_archive_hour_expected_station_count": 0,
   "latest_archive_hour_started_at": "2026-04-04T23:00:00+00:00",
   "month": 4,
-  "published_at": "2026-04-05T00:39:17.604846+00:00",
+  "published_at": "2026-04-05T01:28:37.255421+00:00",
   "station": {
-    "archive_count": 128,
+    "archive_count": 129,
     "display_name": "Radio Słupsk",
     "public_name": "Radio Słupsk",
     "slug": "radioslupsk",
