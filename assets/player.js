@@ -1,5 +1,7 @@
 (function () {
   const pageRoot = document.querySelector(".player-page");
+  const stationFilterInput = document.getElementById("player-station-filter");
+  const stationFilterStatusNode = document.getElementById("player-station-filter-status");
   const stationSelect = document.getElementById("player-station");
   const yearSelect = document.getElementById("player-year");
   const monthSelect = document.getElementById("player-month");
@@ -84,6 +86,7 @@
   let selectedArchive = null;
   let selectedHourSlot = null;
   let activePlaybackState = null;
+  let allStations = extractStationsFromSelectOptions();
   let catalogVersionToken = "";
   const yearIndexCache = new Map();
   const monthIndexCache = new Map();
@@ -118,6 +121,10 @@
     }
 
     await loadStationCatalog(slug);
+  });
+
+  stationFilterInput?.addEventListener("input", () => {
+    applyStationFilter();
   });
 
   yearSelect.addEventListener("change", async () => {
@@ -311,7 +318,7 @@
   }
 
   async function loadStationIndex() {
-    const fallbackStationCount = Math.max(stationSelect.options.length - 1, 0);
+    const fallbackStationCount = Math.max(allStations.length, stationSelect.options.length - 1, 0);
     updateStationCount(fallbackStationCount);
     try {
       const response = await fetch(withRuntimeNoCache(stationsEndpoint), {
@@ -343,6 +350,10 @@
       return true;
     } catch (error) {
       if (fallbackStationCount > 0) {
+        if (allStations.length === 0) {
+          allStations = extractStationsFromSelectOptions();
+          applyStationFilter();
+        }
         updateSnapshotMeta(null, null, [], fallbackStationCount);
         setStatus("Nie udało się odświeżyć listy stacji. Używam danych wstępnych.");
         return true;
@@ -355,18 +366,15 @@
 
   function populateStationOptions(stations) {
     if (!Array.isArray(stations) || stations.length === 0) {
+      allStations = [];
       clearSelect(stationSelect, "Wybierz stację", true);
+      updateStationFilterStatus({ query: "", totalCount: 0, matchedCount: 0 });
       return;
     }
-    fillSelect(
-      stationSelect,
-      stations,
-      (station) => ({
-        value: station.slug,
-        label: `${station.display_name} (${station.archive_count} h)`,
-      }),
-      { autoSelectFirst: false },
-    );
+    allStations = stations
+      .map((station) => normalizeStationOption(station))
+      .filter((station) => station !== null);
+    applyStationFilter();
   }
 
   function populateYearOptions(options = {}) {
@@ -723,6 +731,240 @@
     option.textContent = placeholder;
     select.append(option);
     select.disabled = disabled;
+  }
+
+  function extractStationsFromSelectOptions() {
+    return Array.from(stationSelect.options)
+      .filter((option) => option.value)
+      .map((option) => {
+        const match = option.textContent.match(/^(.*?)(?: \\(([0-9]+) h\\))?$/);
+        return normalizeStationOption({
+          slug: option.value,
+          display_name: match?.[1]?.trim() || option.textContent.trim(),
+          public_name: match?.[1]?.trim() || option.textContent.trim(),
+          archive_count: Number(match?.[2] || 0),
+        });
+      })
+      .filter((station) => station !== null);
+  }
+
+  function normalizeStationOption(station) {
+    if (!station || !station.slug || !station.display_name) {
+      return null;
+    }
+    return {
+      slug: String(station.slug),
+      display_name: String(station.display_name),
+      public_name: String(station.public_name || station.display_name),
+      archive_count: Number(station.archive_count || 0),
+    };
+  }
+
+  function applyStationFilter() {
+    const selectedSlug = stationSelect.value;
+    const query = stationFilterInput?.value.trim() || "";
+    if (allStations.length === 0) {
+      clearSelect(stationSelect, "Wybierz stację", true);
+      updateStationFilterStatus({ query, totalCount: 0, matchedCount: 0 });
+      return;
+    }
+
+    const { stations, matchedCount, selectedPinned } = filterStations(allStations, query, selectedSlug);
+    if (stations.length === 0) {
+      clearSelect(stationSelect, "Brak pasujących stacji", true);
+      updateStationFilterStatus({
+        query,
+        totalCount: allStations.length,
+        matchedCount,
+        selectedPinned,
+      });
+      return;
+    }
+
+    fillSelect(
+      stationSelect,
+      stations,
+      (station) => ({
+        value: station.slug,
+        label: `${station.display_name} (${station.archive_count} h)`,
+      }),
+      { autoSelectFirst: false },
+    );
+    updateStationFilterStatus({
+      query,
+      totalCount: allStations.length,
+      matchedCount,
+      selectedPinned,
+    });
+  }
+
+  function filterStations(stations, query, selectedSlug) {
+    if (!query) {
+      return {
+        stations,
+        matchedCount: stations.length,
+        selectedPinned: false,
+      };
+    }
+    const scored = stations
+      .map((station) => ({
+        station,
+        score: scoreStationQueryMatch(station, query),
+      }))
+      .filter((entry) => entry.score >= 0)
+      .sort((left, right) => {
+        if (right.score !== left.score) {
+          return right.score - left.score;
+        }
+        return left.station.display_name.localeCompare(right.station.display_name, "pl");
+      });
+
+    const matchedStations = scored.map((entry) => entry.station);
+    const selectedPinned =
+      Boolean(selectedSlug) &&
+      !matchedStations.some((station) => station.slug === selectedSlug);
+    if (!selectedPinned) {
+      return {
+        stations: matchedStations,
+        matchedCount: matchedStations.length,
+        selectedPinned: false,
+      };
+    }
+    const selectedStation = stations.find((station) => station.slug === selectedSlug);
+    if (!selectedStation) {
+      return {
+        stations: matchedStations,
+        matchedCount: matchedStations.length,
+        selectedPinned: false,
+      };
+    }
+    return {
+      stations: [selectedStation, ...matchedStations],
+      matchedCount: matchedStations.length,
+      selectedPinned: true,
+    };
+  }
+
+  function scoreStationQueryMatch(station, rawQuery) {
+    const query = normalizeSearchText(rawQuery);
+    if (!query) {
+      return 0;
+    }
+    const compactQuery = compactSearchText(query);
+    const fields = buildStationSearchFields(station);
+    const terms = query.split(/\s+/).filter(Boolean);
+    let score = 0;
+    for (const term of terms) {
+      const compactTerm = compactSearchText(term);
+      let termScore = 0;
+      for (const field of fields) {
+        if (!field.normalized) {
+          continue;
+        }
+        if (field.normalized === term || field.compact === compactTerm) {
+          termScore = Math.max(termScore, 700);
+        } else if (field.core.startsWith(term) || field.compactCore.startsWith(compactTerm)) {
+          termScore = Math.max(termScore, 520);
+        } else if (field.normalized.startsWith(term) || field.compact.startsWith(compactTerm)) {
+          termScore = Math.max(termScore, 420);
+        } else if (field.normalized.includes(term) || field.compact.includes(compactTerm)) {
+          termScore = Math.max(termScore, 300);
+        } else if (isSubsequenceMatch(field.compactCore, compactTerm)) {
+          termScore = Math.max(termScore, 180);
+        } else if (isSubsequenceMatch(field.compact, compactTerm)) {
+          termScore = Math.max(termScore, 120);
+        }
+      }
+      if (termScore === 0) {
+        return -1;
+      }
+      score += termScore;
+    }
+    if (fields.some((field) => field.core.startsWith(query) || field.compactCore.startsWith(compactQuery))) {
+      score += 120;
+    }
+    return score;
+  }
+
+  function buildStationSearchFields(station) {
+    return [station.display_name, station.public_name, station.slug].map((value) => {
+      const normalized = normalizeSearchText(value);
+      const core = stripCommonStationPrefix(normalized);
+      return {
+        normalized,
+        compact: compactSearchText(normalized),
+        core,
+        compactCore: compactSearchText(core),
+      };
+    });
+  }
+
+  function normalizeSearchText(value) {
+    return String(value || "")
+      .normalize("NFD")
+      .replace(/[\u0300-\u036f]/g, "")
+      .toLowerCase()
+      .replace(/[^a-z0-9]+/g, " ")
+      .trim();
+  }
+
+  function compactSearchText(value) {
+    return normalizeSearchText(value).replace(/\s+/g, "");
+  }
+
+  function stripCommonStationPrefix(value) {
+    return value
+      .replace(/^(polskie radio)\s+/u, "")
+      .replace(/^(radio)\s+/u, "")
+      .replace(/^(program)\s+/u, "")
+      .trim();
+  }
+
+  function isSubsequenceMatch(haystack, needle) {
+    if (!needle) {
+      return true;
+    }
+    let position = 0;
+    for (const character of haystack) {
+      if (character === needle[position]) {
+        position += 1;
+        if (position === needle.length) {
+          return true;
+        }
+      }
+    }
+    return false;
+  }
+
+  function updateStationFilterStatus({
+    query,
+    totalCount,
+    matchedCount,
+    selectedPinned = false,
+  }) {
+    if (!stationFilterStatusNode) {
+      return;
+    }
+    if (totalCount <= 0) {
+      stationFilterStatusNode.textContent = "Lista stacji ładuje się...";
+      return;
+    }
+    if (!query) {
+      stationFilterStatusNode.textContent = `Dostępnych stacji: ${totalCount}.`;
+      return;
+    }
+    if (matchedCount <= 0 && !selectedPinned) {
+      stationFilterStatusNode.textContent = `Brak stacji pasujących do filtra „${query}”.`;
+      return;
+    }
+    if (selectedPinned) {
+      stationFilterStatusNode.textContent =
+        matchedCount > 0
+          ? `Pasujących stacji: ${matchedCount} z ${totalCount}. Pokazuję też aktualnie wybraną stację.`
+          : "Brak innych pasujących stacji. Pokazuję aktualnie wybraną stację.";
+      return;
+    }
+    stationFilterStatusNode.textContent = `Pasujących stacji: ${matchedCount} z ${totalCount}.`;
   }
 
   function fillSelect(select, values, toOption, options = {}) {
