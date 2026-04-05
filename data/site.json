@@ -1,8 +1,8 @@
 {
-  "archive_count": 4950,
+  "archive_count": 4969,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-05T02:45:12.706539+00:00",
+  "generated_at": "2026-04-05T02:50:02.972146+00:00",
   "latest_archive_hour_expected_station_count": 38,
   "latest_archive_hour_started_at": "2026-04-05T01:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -22,7 +22,7 @@
     "Radio Kampus"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-05T02:45:12.706539+00:00",
+  "published_at": "2026-04-05T02:50:02.972146+00:00",
   "station_count": 38,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
