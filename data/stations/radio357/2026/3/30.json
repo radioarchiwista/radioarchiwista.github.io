@@ -186,29 +186,6 @@
     },
     {
       "archive_item_identifier": "radio357-2026-03-30",
-      "audio_url": "https://archive.org/download/radio357-2026-03-30/radio357_2026-03-30T15-00-00Z.mp3",
-      "completeness_ratio": 0.999,
-      "day": 30,
-      "download_url": "https://archive.org/download/radio357-2026-03-30/radio357_2026-03-30T15-00-00Z.mp3",
-      "duration_seconds": 3596.136,
-      "hour": 17,
-      "hourly_archive_id": 1680,
-      "local_date_label": "30.03.2026",
-      "local_hour_label": "17:00",
-      "local_label": "2026-03-30 17:00 CEST",
-      "local_started_at": "2026-03-30T17:00:00+02:00",
-      "local_timezone_label": "CEST",
-      "month": 3,
-      "published_at": "2026-04-05T10:33:25.088784+00:00",
-      "published_local_label": "2026-04-05 12:33 CEST",
-      "remote_filename": "radio357_2026-03-30T15-00-00Z.mp3",
-      "status": "published",
-      "utc_label": "2026-03-30 15:00 UTC",
-      "utc_started_at": "2026-03-30T15:00:00+00:00",
-      "year": 2026
-    },
-    {
-      "archive_item_identifier": "radio357-2026-03-30",
       "audio_url": "https://archive.org/download/radio357-2026-03-30/2026-03-30T16-00-00Z.mp3",
       "completeness_ratio": 0.994,
       "day": 30,
@@ -324,7 +301,7 @@
     }
   ],
   "day": 30,
-  "generated_at": "2026-04-05T10:33:25.088784+00:00",
+  "generated_at": "2026-04-05T10:33:02.061159+00:00",
   "hour_slots": [
     {
       "archive_status": null,
@@ -441,7 +418,7 @@
       "year": 2026
     },
     {
-      "archive_status": "ready",
+      "archive_status": "error",
       "completeness_ratio": 0.9967,
       "day": 30,
       "hour": 6,
@@ -453,14 +430,14 @@
       "local_timezone_label": "CEST",
       "month": 3,
       "playable": false,
-      "state": "publishing",
-      "status_label": "Czeka w kolejce do publikacji",
+      "state": "failed",
+      "status_label": "Nie udało się przygotować nagrania",
       "utc_label": "2026-03-30 04:00 UTC",
       "utc_started_at": "2026-03-30T04:00:00+00:00",
       "year": 2026
     },
     {
-      "archive_status": "ready",
+      "archive_status": "error",
       "completeness_ratio": 0.9996,
       "day": 30,
       "hour": 7,
@@ -472,14 +449,14 @@
       "local_timezone_label": "CEST",
       "month": 3,
       "playable": false,
-      "state": "publishing",
-      "status_label": "Czeka w kolejce do publikacji",
+      "state": "failed",
+      "status_label": "Nie udało się przygotować nagrania",
       "utc_label": "2026-03-30 05:00 UTC",
       "utc_started_at": "2026-03-30T05:00:00+00:00",
       "year": 2026
     },
     {
-      "archive_status": "ready",
+      "archive_status": "error",
       "completeness_ratio": 0.9971,
       "day": 30,
       "hour": 8,
@@ -491,14 +468,14 @@
       "local_timezone_label": "CEST",
       "month": 3,
       "playable": false,
-      "state": "publishing",
-      "status_label": "Czeka w kolejce do publikacji",
+      "state": "failed",
+      "status_label": "Nie udało się przygotować nagrania",
       "utc_label": "2026-03-30 06:00 UTC",
       "utc_started_at": "2026-03-30T06:00:00+00:00",
       "year": 2026
     },
     {
-      "archive_status": "ready",
+      "archive_status": "error",
       "completeness_ratio": 0.9992,
       "day": 30,
       "hour": 9,
@@ -510,8 +487,8 @@
       "local_timezone_label": "CEST",
       "month": 3,
       "playable": false,
-      "state": "publishing",
-      "status_label": "Czeka w kolejce do publikacji",
+      "state": "failed",
+      "status_label": "Nie udało się przygotować nagrania",
       "utc_label": "2026-03-30 07:00 UTC",
       "utc_started_at": "2026-03-30T07:00:00+00:00",
       "year": 2026
@@ -650,7 +627,7 @@
       "year": 2026
     },
     {
-      "archive_status": "published",
+      "archive_status": "ready",
       "completeness_ratio": 0.999,
       "day": 30,
       "hour": 17,
@@ -661,9 +638,9 @@
       "local_started_at": "2026-03-30T17:00:00+02:00",
       "local_timezone_label": "CEST",
       "month": 3,
-      "playable": true,
-      "state": "available",
-      "status_label": null,
+      "playable": false,
+      "state": "publishing",
+      "status_label": "Czeka w kolejce do publikacji",
       "utc_label": "2026-03-30 15:00 UTC",
       "utc_started_at": "2026-03-30T15:00:00+00:00",
       "year": 2026
@@ -784,11 +761,11 @@
     }
   ],
   "latest_archive_hour_expected_station_count": 0,
-  "latest_archive_hour_started_at": "2026-04-05T09:00:00+00:00",
+  "latest_archive_hour_started_at": "2026-04-05T03:00:00+00:00",
   "month": 3,
-  "published_at": "2026-04-05T10:33:25.088784+00:00",
+  "published_at": "2026-04-05T10:33:02.061159+00:00",
   "station": {
-    "archive_count": 138,
+    "archive_count": 137,
     "display_name": "Radio 357",
     "public_name": "Radio 357",
     "slug": "radio357",
