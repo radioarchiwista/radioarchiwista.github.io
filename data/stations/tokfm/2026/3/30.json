@@ -654,7 +654,7 @@
       "year": 2026
     },
     {
-      "archive_status": "ready",
+      "archive_status": "error",
       "completeness_ratio": 0.4656,
       "day": 30,
       "hour": 16,
@@ -666,8 +666,8 @@
       "local_timezone_label": "CEST",
       "month": 3,
       "playable": false,
-      "state": "publishing",
-      "status_label": "Czeka w kolejce do publikacji",
+      "state": "failed",
+      "status_label": "Nie udało się przygotować nagrania",
       "utc_label": "2026-03-30 14:00 UTC",
       "utc_started_at": "2026-03-30T14:00:00+00:00",
       "year": 2026
@@ -811,7 +811,7 @@
   "month": 3,
   "published_at": "2026-04-05T21:56:12.680497+00:00",
   "station": {
-    "archive_count": 150,
+    "archive_count": 152,
     "display_name": "TOK FM",
     "public_name": "TOK FM",
     "slug": "tokfm",
