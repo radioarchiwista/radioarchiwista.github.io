@@ -1,14 +1,16 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-05T09:03:22.007396+00:00",
+  "generated_at": "2026-04-05T09:08:36.773124+00:00",
   "latest_archive_hour_expected_station_count": 38,
   "latest_archive_hour_started_at": "2026-04-05T08:00:00+00:00",
   "latest_archive_hour_stations": [
-    "Program 1"
+    "Program 1",
+    "Program 2",
+    "Polskie Radio 24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-05T09:03:22.007396+00:00",
+  "published_at": "2026-04-05T09:08:36.773124+00:00",
   "station_count": 38,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -20,7 +22,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 156,
+      "archive_count": 158,
       "display_name": "Program 2",
       "public_name": "Polskie Radio Program 2",
       "slug": "pr2",
@@ -34,7 +36,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 156,
+      "archive_count": 157,
       "display_name": "Polskie Radio 24",
       "public_name": "Polskie Radio 24",
       "slug": "pr24",
@@ -251,14 +253,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 137,
+      "archive_count": 136,
       "display_name": "Radio Zachód",
       "public_name": "Radio Zachód",
       "slug": "radiozachod",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 137,
+      "archive_count": 136,
       "display_name": "Radio Zielona Góra",
       "public_name": "Radio Zielona Góra",
       "slug": "radiozielonagora",
