@@ -100,6 +100,7 @@
   const monthIndexCache = new Map();
   const dayCatalogCache = new Map();
   const derivativeUrlCache = new Map();
+  const archiveMetadataCache = new Map();
   const monthFormatter = new Intl.DateTimeFormat("pl-PL", {
     month: "long",
     timeZone: "UTC",
@@ -1550,6 +1551,11 @@
     return `https://archive.org/download/${encodeURIComponent(identifier)}/${encodeURIComponent(filename)}`;
   }
 
+  function buildDirectArchiveOrgFileUrl(host, directory, filename) {
+    const normalizedDirectory = String(directory || "").replace(/\/+$/u, "");
+    return `https://${host}${normalizedDirectory}/${encodeURIComponent(filename)}`;
+  }
+
   function setDownloadLinkState(url, filename) {
     if (!url) {
       downloadLink.href = "#";
@@ -2116,8 +2122,11 @@
       throw new Error("brak źródłowego pliku audio");
     }
 
+    let pendingSourceUrls = sourceUrls.slice();
+    let archiveOrgFallbackAdded = false;
     let lastError = null;
-    for (const sourceUrl of sourceUrls) {
+    while (pendingSourceUrls.length > 0) {
+      const sourceUrl = pendingSourceUrls.shift();
       const cacheKey = buildLocalAudioCacheKey(archive, sourceUrl);
       const cachedSourceBlob = await restoreCachedPlaybackBlob(cacheKey);
       if (cachedSourceBlob) {
@@ -2163,9 +2172,38 @@
         return sliceMp3BlobFragment(blob, byteRange);
       } catch (error) {
         lastError = error;
+        if (
+          !archiveOrgFallbackAdded &&
+          isHttpNotFoundError(error) &&
+          looksLikeArchiveOrgDownloadUrl(sourceUrl)
+        ) {
+          archiveOrgFallbackAdded = true;
+          const archiveOrgFallbackUrls = await resolveArchiveOrgFragmentFallbackUrls(archive);
+          pendingSourceUrls = dedupeStrings([
+            ...archiveOrgFallbackUrls,
+            ...pendingSourceUrls,
+          ]).filter((candidateUrl) => candidateUrl !== sourceUrl);
+        }
       }
     }
     throw new Error(lastError instanceof Error ? lastError.message : String(lastError));
+  }
+
+  function isHttpNotFoundError(error) {
+    const message = error instanceof Error ? error.message : String(error || "");
+    return /\bHTTP 404\b/u.test(message);
+  }
+
+  function looksLikeArchiveOrgDownloadUrl(url) {
+    try {
+      const parsed = new URL(url, window.location.href);
+      return (
+        parsed.hostname.endsWith("archive.org") &&
+        parsed.pathname.includes("/download/")
+      );
+    } catch (_error) {
+      return false;
+    }
   }
 
   async function restorePreferredFragmentCacheBlob(playbackState, archive) {
@@ -2217,10 +2255,75 @@
     return dedupeStrings(sourceUrls).filter((url) => canWarmPlaybackSource(url));
   }
 
+  async function resolveArchiveOrgFragmentFallbackUrls(archive) {
+    const metadata = await fetchArchiveOrgMetadata(archive);
+    if (!metadata) {
+      return [];
+    }
+    const identifier = archive?.archive_item_identifier;
+    if (!identifier) {
+      return [];
+    }
+    const files = Array.isArray(metadata.files) ? metadata.files : [];
+    const remoteFilename = String(archive?.remote_filename || "");
+    const candidateNames = [];
+    if (remoteFilename && files.some((file) => file?.name === remoteFilename)) {
+      candidateNames.push(remoteFilename);
+    }
+    const derivative = selectPreferredArchiveDerivative(files, remoteFilename);
+    if (derivative?.name) {
+      candidateNames.push(derivative.name);
+    }
+    if (candidateNames.length === 0) {
+      return [];
+    }
+    const directory = typeof metadata.dir === "string" ? metadata.dir : "";
+    const mirrorHosts = [metadata.d1, metadata.d2].filter(
+      (host) => typeof host === "string" && host.length > 0,
+    );
+    const urls = [];
+    for (const filename of dedupeStrings(candidateNames)) {
+      urls.push(buildArchiveOrgFileUrl(identifier, filename));
+      for (const host of mirrorHosts) {
+        urls.push(buildDirectArchiveOrgFileUrl(host, directory, filename));
+      }
+    }
+    return dedupeStrings(urls);
+  }
+
   function dedupeStrings(values) {
     return Array.from(
       new Set(values.filter((value) => typeof value === "string" && value.length > 0)),
     );
+  }
+
+  async function fetchArchiveOrgMetadata(archive) {
+    const identifier = archive?.archive_item_identifier;
+    if (!identifier) {
+      return null;
+    }
+    if (archiveMetadataCache.has(identifier)) {
+      return archiveMetadataCache.get(identifier);
+    }
+    try {
+      const metadataUrl =
+        `https://archive.org/metadata/${encodeURIComponent(identifier)}?t=${Date.now()}`;
+      const response = await fetch(metadataUrl, {
+        cache: "no-store",
+        credentials: "omit",
+        mode: "cors",
+      });
+      if (!response.ok) {
+        archiveMetadataCache.set(identifier, null);
+        return null;
+      }
+      const payload = await response.json();
+      archiveMetadataCache.set(identifier, payload);
+      return payload;
+    } catch (_error) {
+      archiveMetadataCache.set(identifier, null);
+      return null;
+    }
   }
 
   async function restoreCachedPlaybackBlob(cacheKey) {
