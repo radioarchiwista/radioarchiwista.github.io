@@ -803,14 +803,13 @@
   }
 
   function applyStationFilter() {
-    const selectedSlug = stationSelect.value;
     const query = stationFilterInput?.value.trim() || "";
     if (allStations.length === 0) {
       clearSelect(stationSelect, "Wybierz stację", true);
       return;
     }
 
-    const stations = filterStations(allStations, query, selectedSlug);
+    const stations = filterStations(allStations, query);
     if (stations.length === 0) {
       clearSelect(stationSelect, "Brak pasujących stacji", true);
       return;
@@ -827,7 +826,7 @@
     );
   }
 
-  function filterStations(stations, query, selectedSlug) {
+  function filterStations(stations, query) {
     if (!query) {
       return stations;
     }
@@ -844,18 +843,7 @@
         return left.station.display_name.localeCompare(right.station.display_name, "pl");
       });
 
-    const matchedStations = scored.map((entry) => entry.station);
-    const selectedPinned =
-      Boolean(selectedSlug) &&
-      !matchedStations.some((station) => station.slug === selectedSlug);
-    if (!selectedPinned) {
-      return matchedStations;
-    }
-    const selectedStation = stations.find((station) => station.slug === selectedSlug);
-    if (!selectedStation) {
-      return matchedStations;
-    }
-    return [selectedStation, ...matchedStations];
+    return scored.map((entry) => entry.station);
   }
 
   function scoreStationQueryMatch(station, rawQuery) {
