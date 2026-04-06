@@ -1,8 +1,8 @@
 {
-  "archive_count": 6214,
+  "archive_count": 6231,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-06T09:40:13.113807+00:00",
+  "generated_at": "2026-04-06T09:48:14.973478+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-04-06T08:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -13,12 +13,10 @@
     "Radio 357",
     "Radio Nowy Świat",
     "TOK FM",
+    "Radio Wnet",
+    "Radio Republika",
     "Radio Afera",
-    "Radio Akadera",
-    "Radio Białystok",
-    "Radio Centrum Lublin",
-    "Radio Centrum Rzeszów",
-    "Radio Gdańsk",
+    "Radio Dla Ciebie",
     "Radio Gorzów",
     "Radio Index",
     "Radio Kampus",
@@ -43,7 +41,7 @@
     "Radio Żak"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-06T09:40:13.113807+00:00",
+  "published_at": "2026-04-06T09:48:14.973478+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
