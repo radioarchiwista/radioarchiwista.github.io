@@ -124,7 +124,9 @@
     Boolean(fragmentStartMinuteInput) &&
     Boolean(fragmentEndMinuteInput) &&
     Boolean(fragmentDownloadButton);
-  const serverFragmentDownloadSupported = Boolean(fragmentDownloadUrlTemplate);
+  const serverFragmentDownloadSupported = isValidServerFragmentDownloadTemplate(
+    fragmentDownloadUrlTemplate,
+  );
 
   if (fragmentDownloadGroup) {
     fragmentDownloadGroup.hidden = !fragmentDownloadSupported;
@@ -2093,6 +2095,28 @@
     return serverFragmentDownloadSupported;
   }
 
+  function isValidServerFragmentDownloadTemplate(template) {
+    const normalized = String(template || "").trim();
+    if (!normalized) {
+      return false;
+    }
+    if (normalized.includes("__PLAYER_FRAGMENT_DOWNLOAD_TEMPLATE__")) {
+      return false;
+    }
+    if (!normalized.includes("__archive_id__")) {
+      return false;
+    }
+    try {
+      new URL(
+        normalized.replace("__archive_id__", encodeURIComponent("0")),
+        window.location.href,
+      );
+      return true;
+    } catch (_error) {
+      return false;
+    }
+  }
+
   function canDownloadFragmentInBrowser(archive) {
     if (!archive || typeof fetch !== "function" || typeof Blob !== "function") {
       return false;
@@ -2234,6 +2258,16 @@
 
   async function resolveFragmentSourceUrls(archive, playbackState) {
     const sourceUrls = [];
+    const activeAudioSource =
+      activePlaybackState &&
+      playbackState &&
+      activePlaybackState === playbackState &&
+      typeof audio.currentSrc === "string"
+        ? audio.currentSrc
+        : "";
+    if (activeAudioSource && canWarmPlaybackSource(activeAudioSource)) {
+      sourceUrls.push(activeAudioSource);
+    }
     if (playbackState?.currentUrl && canWarmPlaybackSource(playbackState.currentUrl)) {
       sourceUrls.push(playbackState.currentUrl);
     }
