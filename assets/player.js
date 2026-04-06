@@ -766,12 +766,15 @@
     populateHourOptions();
   }
 
-  function clearSelect(select, placeholder, disabled) {
+  function clearSelect(select, placeholder, disabled, options = {}) {
+    const { includePlaceholder = true } = options;
     select.innerHTML = "";
-    const option = document.createElement("option");
-    option.value = "";
-    option.textContent = placeholder;
-    select.append(option);
+    if (includePlaceholder) {
+      const option = document.createElement("option");
+      option.value = "";
+      option.textContent = placeholder;
+      select.append(option);
+    }
     select.disabled = disabled;
   }
 
@@ -822,7 +825,9 @@
         value: station.slug,
         label: `${station.display_name} (${station.archive_count} h)`,
       }),
-      { autoSelectFirst: false },
+      query
+        ? { autoSelectFirst: true, includePlaceholder: false }
+        : { autoSelectFirst: false, includePlaceholder: true, placeholder: "Wybierz stację" },
     );
   }
 
@@ -938,9 +943,13 @@
   }
 
   function fillSelect(select, values, toOption, options = {}) {
-    const { autoSelectFirst = true } = options;
+    const {
+      autoSelectFirst = true,
+      includePlaceholder = true,
+      placeholder = select.options[0]?.textContent || "Wybierz",
+    } = options;
     const previousValue = select.value;
-    clearSelect(select, select.options[0]?.textContent || "Wybierz", false);
+    clearSelect(select, placeholder, false, { includePlaceholder });
     let firstEnabledValue = "";
     let previousValueStillEnabled = false;
     values.forEach((value) => {
