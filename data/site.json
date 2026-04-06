@@ -1,8 +1,8 @@
 {
-  "archive_count": 6597,
+  "archive_count": 6585,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-06T18:46:39.578122+00:00",
+  "generated_at": "2026-04-06T18:50:39.884880+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-04-06T17:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -28,6 +28,7 @@
     "Radio Katowice",
     "Radio Kielce",
     "Radio Koszalin",
+    "Radio Kraków",
     "Radio Lublin",
     "Radio Luz",
     "Radio Maryja",
@@ -42,10 +43,11 @@
     "Radio Wrocław",
     "Radio Zachód",
     "Radio Zielona Góra",
+    "Radio Łódź",
     "Radio Żak"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-06T18:46:39.578122+00:00",
+  "published_at": "2026-04-06T18:50:39.884880+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
