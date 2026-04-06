@@ -48,7 +48,7 @@
     }
   ],
   "day": 6,
-  "generated_at": "2026-04-06T04:36:17.047509+00:00",
+  "generated_at": "2026-04-06T04:59:57.757440+00:00",
   "hour_slots": [
     {
       "archive_status": "published",
@@ -163,12 +163,31 @@
       "utc_label": "2026-04-06 03:00 UTC",
       "utc_started_at": "2026-04-06T03:00:00+00:00",
       "year": 2026
+    },
+    {
+      "archive_status": null,
+      "completeness_ratio": null,
+      "day": 6,
+      "hour": 6,
+      "hourly_archive_id": null,
+      "local_date_label": "06.04.2026",
+      "local_hour_label": "06:00",
+      "local_label": "2026-04-06 06:00 CEST",
+      "local_started_at": "2026-04-06T06:00:00+02:00",
+      "local_timezone_label": "CEST",
+      "month": 4,
+      "playable": false,
+      "state": "recorded",
+      "status_label": "Nagranie czeka na złożenie",
+      "utc_label": "2026-04-06 04:00 UTC",
+      "utc_started_at": "2026-04-06T04:00:00+00:00",
+      "year": 2026
     }
   ],
   "latest_archive_hour_expected_station_count": 0,
   "latest_archive_hour_started_at": "2026-04-05T23:00:00+00:00",
   "month": 4,
-  "published_at": "2026-04-06T04:36:17.047509+00:00",
+  "published_at": "2026-04-06T04:59:57.757440+00:00",
   "station": {
     "archive_count": 170,
     "display_name": "Radio Republika",
