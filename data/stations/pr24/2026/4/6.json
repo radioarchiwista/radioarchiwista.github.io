@@ -423,6 +423,25 @@
       "utc_label": "2026-04-06 07:00 UTC",
       "utc_started_at": "2026-04-06T07:00:00+00:00",
       "year": 2026
+    },
+    {
+      "archive_status": null,
+      "completeness_ratio": null,
+      "day": 6,
+      "hour": 10,
+      "hourly_archive_id": null,
+      "local_date_label": "06.04.2026",
+      "local_hour_label": "10:00",
+      "local_label": "2026-04-06 10:00 CEST",
+      "local_started_at": "2026-04-06T10:00:00+02:00",
+      "local_timezone_label": "CEST",
+      "month": 4,
+      "playable": false,
+      "state": "recorded",
+      "status_label": "Nagranie czeka na złożenie",
+      "utc_label": "2026-04-06 08:00 UTC",
+      "utc_started_at": "2026-04-06T08:00:00+00:00",
+      "year": 2026
     }
   ],
   "latest_archive_hour_expected_station_count": 0,
@@ -430,7 +449,7 @@
   "month": 4,
   "published_at": "2026-04-06T08:39:24.230462+00:00",
   "station": {
-    "archive_count": 182,
+    "archive_count": 181,
     "display_name": "Polskie Radio 24",
     "public_name": "Polskie Radio 24",
     "slug": "pr24",

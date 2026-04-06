@@ -84,8 +84,8 @@
       "local_started_at": "2026-04-06T03:00:00+02:00",
       "local_timezone_label": "CEST",
       "month": 4,
-      "published_at": "2026-04-06T08:31:31.926377+00:00",
-      "published_local_label": "2026-04-06 10:31 CEST",
+      "published_at": "2026-04-06T09:02:59.157124+00:00",
+      "published_local_label": "2026-04-06 11:02 CEST",
       "remote_filename": "radiopoznan_2026-04-06T01-00-00Z.mp3",
       "status": "published",
       "utc_label": "2026-04-06 01:00 UTC",
@@ -232,7 +232,7 @@
     }
   ],
   "day": 6,
-  "generated_at": "2026-04-06T08:51:01.401123+00:00",
+  "generated_at": "2026-04-06T09:02:59.157124+00:00",
   "hour_slots": [
     {
       "archive_status": "published",
@@ -423,12 +423,31 @@
       "utc_label": "2026-04-06 07:00 UTC",
       "utc_started_at": "2026-04-06T07:00:00+00:00",
       "year": 2026
+    },
+    {
+      "archive_status": null,
+      "completeness_ratio": null,
+      "day": 6,
+      "hour": 10,
+      "hourly_archive_id": null,
+      "local_date_label": "06.04.2026",
+      "local_hour_label": "10:00",
+      "local_label": "2026-04-06 10:00 CEST",
+      "local_started_at": "2026-04-06T10:00:00+02:00",
+      "local_timezone_label": "CEST",
+      "month": 4,
+      "playable": false,
+      "state": "recorded",
+      "status_label": "Nagranie czeka na złożenie",
+      "utc_label": "2026-04-06 08:00 UTC",
+      "utc_started_at": "2026-04-06T08:00:00+00:00",
+      "year": 2026
     }
   ],
   "latest_archive_hour_expected_station_count": 0,
   "latest_archive_hour_started_at": "2026-04-06T07:00:00+00:00",
   "month": 4,
-  "published_at": "2026-04-06T08:51:01.401123+00:00",
+  "published_at": "2026-04-06T09:02:59.157124+00:00",
   "station": {
     "archive_count": 160,
     "display_name": "Radio Poznań",
