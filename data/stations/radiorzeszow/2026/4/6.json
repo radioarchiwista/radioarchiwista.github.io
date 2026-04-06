@@ -45,29 +45,6 @@
       "utc_label": "2026-04-05 23:00 UTC",
       "utc_started_at": "2026-04-05T23:00:00+00:00",
       "year": 2026
-    },
-    {
-      "archive_item_identifier": "radiorzeszow-2026-04-06",
-      "audio_url": "https://archive.org/download/radiorzeszow-2026-04-06/radiorzeszow_2026-04-06T00-00-00Z.mp3",
-      "completeness_ratio": 1.0,
-      "day": 6,
-      "download_url": "https://archive.org/download/radiorzeszow-2026-04-06/radiorzeszow_2026-04-06T00-00-00Z.mp3",
-      "duration_seconds": 3599.987,
-      "hour": 2,
-      "hourly_archive_id": 6320,
-      "local_date_label": "06.04.2026",
-      "local_hour_label": "02:00",
-      "local_label": "2026-04-06 02:00 CEST",
-      "local_started_at": "2026-04-06T02:00:00+02:00",
-      "local_timezone_label": "CEST",
-      "month": 4,
-      "published_at": "2026-04-06T07:35:41.005261+00:00",
-      "published_local_label": "2026-04-06 09:35 CEST",
-      "remote_filename": "radiorzeszow_2026-04-06T00-00-00Z.mp3",
-      "status": "published",
-      "utc_label": "2026-04-06 00:00 UTC",
-      "utc_started_at": "2026-04-06T00:00:00+00:00",
-      "year": 2026
     }
   ],
   "day": 6,
@@ -112,7 +89,7 @@
       "year": 2026
     },
     {
-      "archive_status": "published",
+      "archive_status": "ready",
       "completeness_ratio": 1.0,
       "day": 6,
       "hour": 2,
@@ -123,9 +100,9 @@
       "local_started_at": "2026-04-06T02:00:00+02:00",
       "local_timezone_label": "CEST",
       "month": 4,
-      "playable": true,
-      "state": "available",
-      "status_label": null,
+      "playable": false,
+      "state": "publishing",
+      "status_label": "Czeka w kolejce do publikacji",
       "utc_label": "2026-04-06 00:00 UTC",
       "utc_started_at": "2026-04-06T00:00:00+00:00",
       "year": 2026
@@ -265,11 +242,11 @@
     }
   ],
   "latest_archive_hour_expected_station_count": 0,
-  "latest_archive_hour_started_at": "2026-04-06T00:00:00+00:00",
+  "latest_archive_hour_started_at": "2026-04-05T23:00:00+00:00",
   "month": 4,
   "published_at": "2026-04-06T07:58:02.894044+00:00",
   "station": {
-    "archive_count": 159,
+    "archive_count": 158,
     "display_name": "Radio Rzeszów",
     "public_name": "Radio Rzeszów",
     "slug": "radiorzeszow",
