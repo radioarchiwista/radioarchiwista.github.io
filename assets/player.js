@@ -130,19 +130,11 @@
   }
 
   stationSelect.addEventListener("change", async () => {
-    resetArchiveSelection();
-    const slug = stationSelect.value;
-    syncUrlState();
-    if (!slug) {
-      setStatus("Wybierz stację, aby załadować katalog godzin.");
-      return;
-    }
-
-    await loadStationCatalog(slug);
+    await handleStationSelectionChange();
   });
 
   stationFilterInput?.addEventListener("input", () => {
-    applyStationFilter();
+    void applyStationFilter();
   });
   stationFilterInput?.addEventListener("pointerdown", (event) => {
     if (document.activeElement === stationFilterInput) {
@@ -156,6 +148,18 @@
       stationFilterInput.select();
     }
   });
+
+  async function handleStationSelectionChange() {
+    resetArchiveSelection();
+    const slug = stationSelect.value;
+    syncUrlState();
+    if (!slug) {
+      setStatus("Wybierz stację, aby załadować katalog godzin.");
+      return;
+    }
+
+    await loadStationCatalog(slug);
+  }
 
   fragmentStartMinuteInput?.addEventListener("input", syncFragmentDownloadState);
   fragmentEndMinuteInput?.addEventListener("input", syncFragmentDownloadState);
@@ -805,8 +809,9 @@
     };
   }
 
-  function applyStationFilter() {
+  async function applyStationFilter() {
     const query = stationFilterInput?.value.trim() || "";
+    const previousValue = stationSelect.value;
     if (allStations.length === 0) {
       clearSelect(stationSelect, "Wybierz stację", true);
       return;
@@ -815,6 +820,9 @@
     const stations = filterStations(allStations, query);
     if (stations.length === 0) {
       clearSelect(stationSelect, "Brak pasujących stacji", true);
+      if (previousValue) {
+        await handleStationSelectionChange();
+      }
       return;
     }
 
@@ -829,6 +837,9 @@
         ? { autoSelectFirst: true, includePlaceholder: false }
         : { autoSelectFirst: false, includePlaceholder: true, placeholder: "Wybierz stację" },
     );
+    if (stationSelect.value !== previousValue) {
+      await handleStationSelectionChange();
+    }
   }
 
   function filterStations(stations, query) {
