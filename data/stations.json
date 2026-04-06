@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-06T07:51:29.106592+00:00",
+  "generated_at": "2026-04-06T07:58:02.894044+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-04-06T06:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -18,6 +18,7 @@
     "Radio Centrum Rzeszów",
     "Radio Gdańsk",
     "Radio Gorzów",
+    "Radio Index",
     "Radio Kampus",
     "Radio Maryja",
     "Radio Olsztyn",
@@ -25,12 +26,12 @@
     "Radio Zielona Góra"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-06T07:51:29.106592+00:00",
+  "published_at": "2026-04-06T07:58:02.894044+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
     {
-      "archive_count": 183,
+      "archive_count": 184,
       "display_name": "Program 1",
       "public_name": "Polskie Radio Program 1",
       "slug": "pr1",
@@ -170,7 +171,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 158,
+      "archive_count": 159,
       "display_name": "Radio Kielce",
       "public_name": "Radio Kielce",
       "slug": "radiokielce",
@@ -233,14 +234,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 158,
+      "archive_count": 157,
       "display_name": "Radio Poznań",
       "public_name": "Radio Poznań",
       "slug": "radiopoznan",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 159,
+      "archive_count": 158,
       "display_name": "Radio Rzeszów",
       "public_name": "Radio Rzeszów",
       "slug": "radiorzeszow",
@@ -289,7 +290,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 159,
+      "archive_count": 158,
       "display_name": "Radio Łódź",
       "public_name": "Radio Łódź",
       "slug": "radiolodz",
