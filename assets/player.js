@@ -2097,13 +2097,12 @@
 
   async function buildBrowserArchiveFragmentBlob(archive, range, options = {}) {
     const { onStatusChange = null } = options;
-    const sourceUrl = archive.download_url || archive.audio_url;
-    if (!sourceUrl) {
-      throw new Error("brak źródłowego pliku audio");
-    }
-
-    const cacheKey = buildLocalAudioCacheKey(archive, sourceUrl);
-    const cachedBlob = await restoreCachedPlaybackBlob(cacheKey);
+    const playbackState =
+      activePlaybackState && activePlaybackState.archiveId === archive.hourly_archive_id
+        ? activePlaybackState
+        : null;
+    const cachedBlob =
+      (playbackState && (await restorePreferredFragmentCacheBlob(playbackState, archive))) || null;
     if (cachedBlob) {
       onStatusChange?.("Przygotowuję fragment z lokalnej kopii audio...", {
         indeterminate: true,
@@ -2111,42 +2110,117 @@
       const byteRange = estimateMp3ByteRange(archive, range, cachedBlob.size);
       return sliceMp3BlobFragment(cachedBlob, byteRange);
     }
-    try {
+
+    const sourceUrls = await resolveFragmentSourceUrls(archive, playbackState);
+    if (sourceUrls.length === 0) {
+      throw new Error("brak źródłowego pliku audio");
+    }
+
+    let lastError = null;
+    for (const sourceUrl of sourceUrls) {
+      const cacheKey = buildLocalAudioCacheKey(archive, sourceUrl);
+      const cachedSourceBlob = await restoreCachedPlaybackBlob(cacheKey);
+      if (cachedSourceBlob) {
+        onStatusChange?.("Przygotowuję fragment z lokalnej kopii audio...", {
+          indeterminate: true,
+        });
+        const byteRange = estimateMp3ByteRange(archive, range, cachedSourceBlob.size);
+        return sliceMp3BlobFragment(cachedSourceBlob, byteRange);
+      }
+
       onStatusChange?.("Pobieram źródłowy plik audio do wycięcia fragmentu...", {
         indeterminate: true,
       });
-      const { blob } = await fetchBlobWithProgress(sourceUrl, {
-        fetchOptions: {
-          cache: "no-store",
-          credentials: "omit",
-          mode: "cors",
-        },
-        onProgress: ({ receivedBytes, totalBytes, percent }) => {
-          if (percent !== null) {
+      try {
+        const { blob } = await fetchBlobWithProgress(sourceUrl, {
+          fetchOptions: {
+            cache: "no-store",
+            credentials: "omit",
+            mode: "cors",
+          },
+          onProgress: ({ receivedBytes, totalBytes, percent }) => {
+            if (percent !== null) {
+              onStatusChange?.(
+                `Pobieram źródłowy plik audio do wycięcia fragmentu... ${Math.round(percent)}%`,
+                { percent },
+              );
+              return;
+            }
             onStatusChange?.(
-              `Pobieram źródłowy plik audio do wycięcia fragmentu... ${Math.round(percent)}%`,
-              { percent },
+              `Pobieram źródłowy plik audio do wycięcia fragmentu... ${formatByteCount(receivedBytes)} pobrane`,
+              { indeterminate: true },
             );
-            return;
-          }
-          onStatusChange?.(
-            `Pobieram źródłowy plik audio do wycięcia fragmentu... ${formatByteCount(receivedBytes)} pobrane`,
-            { indeterminate: true },
-          );
-        },
-      });
-      if (blob.size <= 0) {
-        throw new Error("źródło zwróciło pusty plik audio");
+          },
+        });
+        if (blob.size <= 0) {
+          throw new Error("źródło zwróciło pusty plik audio");
+        }
+        await persistFetchedFragmentSource(cacheKey, blob);
+        onStatusChange?.("Wycinam wybrany fragment z pobranego pliku...", {
+          indeterminate: true,
+        });
+        const byteRange = estimateMp3ByteRange(archive, range, blob.size);
+        return sliceMp3BlobFragment(blob, byteRange);
+      } catch (error) {
+        lastError = error;
       }
-      await persistFetchedFragmentSource(cacheKey, blob);
-      onStatusChange?.("Wycinam wybrany fragment z pobranego pliku...", {
-        indeterminate: true,
-      });
-      const byteRange = estimateMp3ByteRange(archive, range, blob.size);
-      return sliceMp3BlobFragment(blob, byteRange);
-    } catch (error) {
-      throw new Error(error instanceof Error ? error.message : String(error));
     }
+    throw new Error(lastError instanceof Error ? lastError.message : String(lastError));
+  }
+
+  async function restorePreferredFragmentCacheBlob(playbackState, archive) {
+    const preferredKeys = [];
+    if (playbackState.backgroundFetchKey) {
+      preferredKeys.push(playbackState.backgroundFetchKey);
+    }
+    if (playbackState.currentUrl && canWarmPlaybackSource(playbackState.currentUrl)) {
+      preferredKeys.push(buildLocalAudioCacheKey(archive, playbackState.currentUrl));
+    }
+    if (playbackState.fallbackUrl) {
+      preferredKeys.push(buildLocalAudioCacheKey(archive, playbackState.fallbackUrl));
+    }
+    if (archive.download_url) {
+      preferredKeys.push(buildLocalAudioCacheKey(archive, archive.download_url));
+    }
+    if (archive.audio_url) {
+      preferredKeys.push(buildLocalAudioCacheKey(archive, archive.audio_url));
+    }
+    for (const cacheKey of dedupeStrings(preferredKeys)) {
+      const cachedBlob = await restoreCachedPlaybackBlob(cacheKey);
+      if (cachedBlob) {
+        return cachedBlob;
+      }
+    }
+    return null;
+  }
+
+  async function resolveFragmentSourceUrls(archive, playbackState) {
+    const sourceUrls = [];
+    if (playbackState?.currentUrl && canWarmPlaybackSource(playbackState.currentUrl)) {
+      sourceUrls.push(playbackState.currentUrl);
+    }
+    if (playbackState?.fallbackUrl) {
+      sourceUrls.push(playbackState.fallbackUrl);
+    }
+    if (archive.download_url) {
+      sourceUrls.push(archive.download_url);
+    }
+    if (archive.audio_url) {
+      sourceUrls.push(archive.audio_url);
+    }
+    if (shouldPreferOriginalAudioSource(archive)) {
+      const derivativeUrl = await resolveArchiveOrgDerivativeUrl(archive);
+      if (derivativeUrl) {
+        sourceUrls.push(derivativeUrl);
+      }
+    }
+    return dedupeStrings(sourceUrls).filter((url) => canWarmPlaybackSource(url));
+  }
+
+  function dedupeStrings(values) {
+    return Array.from(
+      new Set(values.filter((value) => typeof value === "string" && value.length > 0)),
+    );
   }
 
   async function restoreCachedPlaybackBlob(cacheKey) {
