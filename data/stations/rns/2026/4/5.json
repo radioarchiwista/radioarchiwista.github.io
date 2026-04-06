@@ -117,29 +117,6 @@
     },
     {
       "archive_item_identifier": "rns-2026-04-05",
-      "audio_url": "https://archive.org/download/rns-2026-04-05/rns_2026-04-05T03-00-00Z.mp3",
-      "completeness_ratio": 0.9997,
-      "day": 5,
-      "download_url": "https://archive.org/download/rns-2026-04-05/rns_2026-04-05T03-00-00Z.mp3",
-      "duration_seconds": 3599.784,
-      "hour": 5,
-      "hourly_archive_id": 5545,
-      "local_date_label": "05.04.2026",
-      "local_hour_label": "05:00",
-      "local_label": "2026-04-05 05:00 CEST",
-      "local_started_at": "2026-04-05T05:00:00+02:00",
-      "local_timezone_label": "CEST",
-      "month": 4,
-      "published_at": "2026-04-05T10:36:46.958810+00:00",
-      "published_local_label": "2026-04-05 12:36 CEST",
-      "remote_filename": "rns_2026-04-05T03-00-00Z.mp3",
-      "status": "published",
-      "utc_label": "2026-04-05 03:00 UTC",
-      "utc_started_at": "2026-04-05T03:00:00+00:00",
-      "year": 2026
-    },
-    {
-      "archive_item_identifier": "rns-2026-04-05",
       "audio_url": "https://archive.org/download/rns-2026-04-05/rns_2026-04-05T04-00-00Z.mp3",
       "completeness_ratio": 1.0,
       "day": 5,
@@ -554,7 +531,7 @@
     }
   ],
   "day": 5,
-  "generated_at": "2026-04-06T04:00:57.967558+00:00",
+  "generated_at": "2026-04-06T04:33:07.694987+00:00",
   "hour_slots": [
     {
       "archive_status": "published",
@@ -652,7 +629,7 @@
       "year": 2026
     },
     {
-      "archive_status": "published",
+      "archive_status": "error",
       "completeness_ratio": 0.9997,
       "day": 5,
       "hour": 5,
@@ -663,9 +640,9 @@
       "local_started_at": "2026-04-05T05:00:00+02:00",
       "local_timezone_label": "CEST",
       "month": 4,
-      "playable": true,
-      "state": "available",
-      "status_label": null,
+      "playable": false,
+      "state": "failed",
+      "status_label": "Nie udało się przygotować nagrania",
       "utc_label": "2026-04-05 03:00 UTC",
       "utc_started_at": "2026-04-05T03:00:00+00:00",
       "year": 2026
@@ -1016,9 +993,9 @@
   "latest_archive_hour_expected_station_count": 0,
   "latest_archive_hour_started_at": "2026-04-05T23:00:00+00:00",
   "month": 4,
-  "published_at": "2026-04-06T04:00:57.967558+00:00",
+  "published_at": "2026-04-06T04:33:07.694987+00:00",
   "station": {
-    "archive_count": 168,
+    "archive_count": 167,
     "display_name": "Radio Nowy Świat",
     "public_name": "Radio Nowy Świat",
     "slug": "rns",
