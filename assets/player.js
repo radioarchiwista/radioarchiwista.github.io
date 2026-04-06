@@ -1448,6 +1448,85 @@
     downloadLink.tabIndex = 0;
   }
 
+  function configureFragmentDownloadControls(archive) {
+    if (!fragmentDownloadSupported) {
+      return;
+    }
+    const totalMinutes = getArchiveDurationMinutes(archive);
+    fragmentDownloadGroup.hidden = false;
+    fragmentStartMinuteInput.min = "0";
+    fragmentStartMinuteInput.max = String(Math.max(0, totalMinutes - 1));
+    fragmentStartMinuteInput.value = "0";
+    fragmentEndMinuteInput.min = "1";
+    fragmentEndMinuteInput.max = String(totalMinutes);
+    fragmentEndMinuteInput.value = String(totalMinutes);
+    syncFragmentDownloadState();
+  }
+
+  function resetFragmentDownloadControls() {
+    if (!fragmentDownloadSupported) {
+      return;
+    }
+    fragmentStartMinuteInput.value = "0";
+    fragmentEndMinuteInput.value = "60";
+    fragmentStartMinuteInput.setAttribute("aria-invalid", "false");
+    fragmentEndMinuteInput.setAttribute("aria-invalid", "false");
+    fragmentDownloadButton.disabled = true;
+    fragmentDownloadGroup.hidden = true;
+  }
+
+  function syncFragmentDownloadState() {
+    if (!fragmentDownloadSupported) {
+      return;
+    }
+    const range = readFragmentDownloadRange(selectedArchive);
+    fragmentStartMinuteInput.setAttribute("aria-invalid", String(!range.ok));
+    fragmentEndMinuteInput.setAttribute("aria-invalid", String(!range.ok));
+    fragmentDownloadButton.disabled = !range.ok;
+  }
+
+  function getArchiveDurationMinutes(archive) {
+    return Math.max(1, Math.ceil(Number(archive?.duration_seconds || 0) / 60));
+  }
+
+  function readFragmentDownloadRange(archive) {
+    if (!archive || !fragmentDownloadSupported) {
+      return { ok: false, error: "Brak wybranego nagrania." };
+    }
+    const totalMinutes = getArchiveDurationMinutes(archive);
+    const startMinute = Number.parseInt(fragmentStartMinuteInput.value || "", 10);
+    const endMinute = Number.parseInt(fragmentEndMinuteInput.value || "", 10);
+    if (!Number.isInteger(startMinute) || startMinute < 0 || startMinute >= totalMinutes) {
+      return {
+        ok: false,
+        error: `Pole „Pobierz od” musi mieścić się w zakresie 0-${Math.max(0, totalMinutes - 1)}.`,
+      };
+    }
+    if (!Number.isInteger(endMinute) || endMinute <= startMinute || endMinute > totalMinutes) {
+      return {
+        ok: false,
+        error: `Pole „Pobierz do” musi być większe od pola „Pobierz od” i nie przekraczać ${totalMinutes}.`,
+      };
+    }
+    return {
+      ok: true,
+      startMinute,
+      endMinute,
+      totalMinutes,
+    };
+  }
+
+  function buildArchiveFragmentDownloadUrl(hourlyArchiveId, startMinute, endMinute) {
+    const baseUrl = fragmentDownloadUrlTemplate.replace(
+      "__archive_id__",
+      encodeURIComponent(String(hourlyArchiveId)),
+    );
+    const resolvedUrl = new URL(baseUrl, window.location.href);
+    resolvedUrl.searchParams.set("start_minute", String(startMinute));
+    resolvedUrl.searchParams.set("end_minute", String(endMinute));
+    return resolvedUrl.toString();
+  }
+
   function setPlayerLoadedState(isLoaded) {
     emptyStateNode.hidden = isLoaded;
     loadedStateNode.hidden = !isLoaded;
@@ -1704,22 +1783,62 @@
         throw new Error(`HTTP ${response.status}`);
       }
       const blob = await response.blob();
-      const blobUrl = URL.createObjectURL(blob);
-      const anchor = document.createElement("a");
-      anchor.href = blobUrl;
-      anchor.download = filename;
-      anchor.rel = "noopener";
-      anchor.style.display = "none";
-      document.body.append(anchor);
-      anchor.click();
-      anchor.remove();
-      window.setTimeout(() => URL.revokeObjectURL(blobUrl), 60_000);
+      triggerBlobDownload(blob, filename);
       setStatus(`Pobieranie pliku ${filename} zostało rozpoczęte.`);
     } catch (error) {
       setStatus(`Nie udało się pobrać pliku: ${error}`);
     } finally {
       downloadLink.textContent = originalLabel;
       setDownloadLinkState(archive.download_url, filename);
+    }
+  }
+
+  async function triggerArchiveFragmentDownload(archive) {
+    const range = readFragmentDownloadRange(archive);
+    if (!range.ok) {
+      setStatus(range.error);
+      syncFragmentDownloadState();
+      return;
+    }
+    const downloadUrl = buildArchiveFragmentDownloadUrl(
+      archive.hourly_archive_id,
+      range.startMinute,
+      range.endMinute,
+    );
+    const originalLabel = fragmentDownloadButton.textContent;
+    fragmentDownloadButton.disabled = true;
+    fragmentDownloadButton.textContent = "Przygotowanie...";
+    setStatus(
+      `Przygotowuję fragment od ${range.startMinute} do ${range.endMinute} minuty.`,
+    );
+
+    try {
+      if (!isSameOriginUrl(downloadUrl)) {
+        triggerDirectDownload(downloadUrl);
+        setStatus(
+          `Pobieranie fragmentu od ${range.startMinute} do ${range.endMinute} minuty zostało rozpoczęte.`,
+        );
+        return;
+      }
+      const response = await fetch(downloadUrl, {
+        credentials: "same-origin",
+      });
+      if (!response.ok) {
+        throw new Error(await readDownloadError(response));
+      }
+      const blob = await response.blob();
+      const filename =
+        extractFilenameFromDisposition(response.headers.get("content-disposition")) ||
+        buildFragmentFilename(archive, range.startMinute, range.endMinute);
+      triggerBlobDownload(blob, filename);
+      setStatus(
+        `Pobieranie fragmentu od ${range.startMinute} do ${range.endMinute} minuty zostało rozpoczęte.`,
+      );
+    } catch (error) {
+      setStatus(`Nie udało się przygotować fragmentu: ${error}`);
+    } finally {
+      fragmentDownloadButton.textContent = originalLabel;
+      syncFragmentDownloadState();
     }
   }
 
@@ -1730,6 +1849,75 @@
       return parts[parts.length - 1] || null;
     } catch (_error) {
       return null;
+    }
+  }
+
+  function buildFragmentFilename(archive, startMinute, endMinute) {
+    const baseName =
+      archive.remote_filename ||
+      extractFilenameFromUrl(archive.download_url) ||
+      "archiwum.mp3";
+    const suffix = `_od-${String(startMinute).padStart(2, "0")}m_do-${String(endMinute).padStart(2, "0")}m.mp3`;
+    return baseName.replace(/\.[^./]+$/u, "") + suffix;
+  }
+
+  function extractFilenameFromDisposition(contentDisposition) {
+    if (!contentDisposition) {
+      return null;
+    }
+    const utf8Match = contentDisposition.match(/filename\*=UTF-8''([^;]+)/iu);
+    if (utf8Match) {
+      try {
+        return decodeURIComponent(utf8Match[1]);
+      } catch (_error) {
+        return utf8Match[1];
+      }
+    }
+    const basicMatch = contentDisposition.match(/filename="?([^";]+)"?/iu);
+    return basicMatch ? basicMatch[1] : null;
+  }
+
+  async function readDownloadError(response) {
+    try {
+      const payload = await response.json();
+      if (payload && typeof payload.detail === "string") {
+        return payload.detail;
+      }
+    } catch (_error) {
+      // Ignore non-JSON error bodies.
+    }
+    return `HTTP ${response.status}`;
+  }
+
+  function triggerBlobDownload(blob, filename) {
+    const blobUrl = URL.createObjectURL(blob);
+    const anchor = document.createElement("a");
+    anchor.href = blobUrl;
+    anchor.download = filename;
+    anchor.rel = "noopener";
+    anchor.style.display = "none";
+    document.body.append(anchor);
+    anchor.click();
+    anchor.remove();
+    window.setTimeout(() => URL.revokeObjectURL(blobUrl), 60_000);
+  }
+
+  function triggerDirectDownload(url) {
+    const anchor = document.createElement("a");
+    anchor.href = url;
+    anchor.rel = "noopener";
+    anchor.style.display = "none";
+    document.body.append(anchor);
+    anchor.click();
+    anchor.remove();
+  }
+
+  function isSameOriginUrl(url) {
+    try {
+      const resolvedUrl = new URL(url, window.location.href);
+      return resolvedUrl.origin === window.location.origin;
+    } catch (_error) {
+      return false;
     }
   }
 
