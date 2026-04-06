@@ -1884,7 +1884,7 @@
     const month = padDownloadNumber(archive?.month, 2) || "00";
     const day = padDownloadNumber(archive?.day, 2) || "00";
     const hour = padDownloadNumber(archive?.hour, 2) || "00";
-    return `${stationSlug}_${year}-${month}-${day}_${hour}-00_czasu-polskiego`;
+    return `${stationSlug}_${year}-${month}-${day}_${hour}-00`;
   }
 
   function extractExtensionFromFilename(filename) {
@@ -1930,19 +1930,29 @@
 
     const cacheKey = buildLocalAudioCacheKey(archive, sourceUrl);
     const cachedBlob = await restoreCachedPlaybackBlob(cacheKey);
-    const totalBytes =
-      cachedBlob?.size ||
-      (await fetchAudioContentLength(sourceUrl));
-
-    if (!Number.isFinite(totalBytes) || totalBytes <= 0) {
-      throw new Error("nie udało się ustalić rozmiaru pliku audio");
-    }
-
-    const byteRange = estimateMp3ByteRange(archive, range, totalBytes);
     if (cachedBlob) {
+      const byteRange = estimateMp3ByteRange(archive, range, cachedBlob.size);
       return sliceMp3BlobFragment(cachedBlob, byteRange);
     }
-    return fetchMp3BlobRange(sourceUrl, byteRange, totalBytes);
+    try {
+      const response = await fetch(sourceUrl, {
+        cache: "no-store",
+        credentials: "omit",
+        mode: "cors",
+      });
+      if (!response.ok) {
+        throw new Error(await readDownloadError(response));
+      }
+      const blob = await response.blob();
+      if (blob.size <= 0) {
+        throw new Error("źródło zwróciło pusty plik audio");
+      }
+      await persistFetchedFragmentSource(cacheKey, blob);
+      const byteRange = estimateMp3ByteRange(archive, range, blob.size);
+      return sliceMp3BlobFragment(blob, byteRange);
+    } catch (error) {
+      throw new Error(error instanceof Error ? error.message : String(error));
+    }
   }
 
   async function restoreCachedPlaybackBlob(cacheKey) {
@@ -1956,55 +1966,6 @@
         return null;
       }
       return await cachedResponse.blob();
-    } catch (_error) {
-      return null;
-    }
-  }
-
-  async function fetchAudioContentLength(sourceUrl) {
-    try {
-      const response = await fetch(sourceUrl, {
-        method: "HEAD",
-        cache: "no-store",
-        credentials: "omit",
-        mode: "cors",
-      });
-      if (!response.ok) {
-        return await fetchAudioContentLengthFromRangeProbe(sourceUrl);
-      }
-      const contentLength = Number.parseInt(response.headers.get("content-length") || "", 10);
-      if (Number.isFinite(contentLength) && contentLength > 0) {
-        return contentLength;
-      }
-      return await fetchAudioContentLengthFromRangeProbe(sourceUrl);
-    } catch (_error) {
-      return await fetchAudioContentLengthFromRangeProbe(sourceUrl);
-    }
-  }
-
-  async function fetchAudioContentLengthFromRangeProbe(sourceUrl) {
-    try {
-      const response = await fetch(sourceUrl, {
-        cache: "no-store",
-        credentials: "omit",
-        mode: "cors",
-        headers: {
-          Range: "bytes=0-1",
-        },
-      });
-      if (!response.ok) {
-        return null;
-      }
-      const contentRange = response.headers.get("content-range") || "";
-      const match = contentRange.match(/bytes\s+\d+-\d+\/(\d+)/iu);
-      if (match) {
-        const totalBytes = Number.parseInt(match[1], 10);
-        if (Number.isFinite(totalBytes) && totalBytes > 0) {
-          return totalBytes;
-        }
-      }
-      const contentLength = Number.parseInt(response.headers.get("content-length") || "", 10);
-      return Number.isFinite(contentLength) && contentLength > 0 ? contentLength : null;
     } catch (_error) {
       return null;
     }
@@ -2032,26 +1993,26 @@
     return fragment;
   }
 
-  async function fetchMp3BlobRange(sourceUrl, byteRange, totalBytes) {
-    const response = await fetch(sourceUrl, {
-      cache: "no-store",
-      credentials: "omit",
-      mode: "cors",
-      headers: {
-        Range: `bytes=${byteRange.startByte}-${byteRange.endByte}`,
-      },
-    });
-    if (!response.ok) {
-      throw new Error(await readDownloadError(response));
+  async function persistFetchedFragmentSource(cacheKey, blob) {
+    const cache = await openLocalAudioCache();
+    if (!cache) {
+      return;
     }
-    const blob = await response.blob();
-    if (blob.size <= 0) {
-      throw new Error("źródło zwróciło pusty fragment audio");
+    try {
+      const headers = new Headers();
+      if (blob.type) {
+        headers.set("content-type", blob.type);
+      }
+      const cachedResponse = new Response(blob, {
+        headers,
+        status: 200,
+        statusText: "OK",
+      });
+      await cache.put(cacheKey, cachedResponse);
+      await pruneLocalAudioCache(cache, cacheKey);
+    } catch (_error) {
+      // Best-effort only.
     }
-    if (response.status === 200 && blob.size >= totalBytes) {
-      return sliceMp3BlobFragment(blob, byteRange);
-    }
-    return new Blob([blob], { type: "audio/mpeg" });
   }
 
   function extractFilenameFromDisposition(contentDisposition) {
