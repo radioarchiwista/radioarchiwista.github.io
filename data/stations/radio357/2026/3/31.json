@@ -582,7 +582,7 @@
       "year": 2026
     },
     {
-      "archive_status": "ready",
+      "archive_status": "error",
       "completeness_ratio": 0.9994,
       "day": 31,
       "hour": 11,
@@ -594,8 +594,8 @@
       "local_timezone_label": "CEST",
       "month": 3,
       "playable": false,
-      "state": "publishing",
-      "status_label": "Czeka w kolejce do publikacji",
+      "state": "failed",
+      "status_label": "Nie udało się przygotować nagrania",
       "utc_label": "2026-03-31 09:00 UTC",
       "utc_started_at": "2026-03-31T09:00:00+00:00",
       "year": 2026
@@ -834,7 +834,7 @@
   "month": 3,
   "published_at": "2026-04-06T06:09:53.303264+00:00",
   "station": {
-    "archive_count": 159,
+    "archive_count": 158,
     "display_name": "Radio 357",
     "public_name": "Radio 357",
     "slug": "radio357",
