@@ -23,6 +23,9 @@
   const fragmentStartMinuteInput = document.getElementById("player-fragment-start-minute");
   const fragmentEndMinuteInput = document.getElementById("player-fragment-end-minute");
   const fragmentDownloadButton = document.getElementById("player-fragment-download-button");
+  const transferStatusGroup = document.getElementById("player-transfer-status");
+  const transferStatusText = document.getElementById("player-transfer-status-text");
+  const transferProgress = document.getElementById("player-transfer-progress");
   const outputDeviceGroup = document.getElementById("player-output-device-group");
   const outputDeviceSelect = document.getElementById("player-output-device");
   const outputDeviceChooser = document.getElementById("player-output-device-chooser");
@@ -140,6 +143,18 @@
 
   stationFilterInput?.addEventListener("input", () => {
     applyStationFilter();
+  });
+  stationFilterInput?.addEventListener("pointerdown", (event) => {
+    if (document.activeElement === stationFilterInput) {
+      return;
+    }
+    event.preventDefault();
+    stationFilterInput.focus();
+  });
+  stationFilterInput?.addEventListener("focus", () => {
+    if (stationFilterInput.value) {
+      stationFilterInput.select();
+    }
   });
 
   fragmentStartMinuteInput?.addEventListener("input", syncFragmentDownloadState);
@@ -577,6 +592,7 @@
 
   async function loadArchiveIntoPlayer(archive) {
     disposeActivePlaybackState();
+    clearTransferStatus();
     selectedArchive = archive;
     const playbackState = {
       archiveId: archive.hourly_archive_id,
@@ -638,6 +654,7 @@
 
   function resetArchiveSelection() {
     disposeActivePlaybackState();
+    clearTransferStatus();
     stationCatalog = null;
     clearDependentCatalogState();
     selectedArchive = null;
@@ -1002,6 +1019,101 @@
 
   function setStatus(message) {
     statusNode.textContent = message;
+  }
+
+  function setTransferStatus(message, options = {}) {
+    if (!transferStatusGroup || !transferStatusText || !transferProgress) {
+      return;
+    }
+    const { percent = null, indeterminate = false } = options;
+    transferStatusGroup.hidden = false;
+    transferStatusText.textContent = message;
+    if (indeterminate || percent === null || !Number.isFinite(percent)) {
+      transferProgress.hidden = true;
+      transferProgress.removeAttribute("value");
+      return;
+    }
+    transferProgress.hidden = false;
+    transferProgress.max = 100;
+    transferProgress.value = Math.max(0, Math.min(100, percent));
+  }
+
+  function clearTransferStatus() {
+    if (!transferStatusGroup || !transferStatusText || !transferProgress) {
+      return;
+    }
+    transferStatusGroup.hidden = true;
+    transferStatusText.textContent = "";
+    transferProgress.hidden = true;
+    transferProgress.value = 0;
+  }
+
+  function formatByteCount(bytes) {
+    if (!Number.isFinite(bytes) || bytes < 0) {
+      return "0 B";
+    }
+    if (bytes < 1024) {
+      return `${Math.round(bytes)} B`;
+    }
+    if (bytes < 1024 * 1024) {
+      return `${(bytes / 1024).toFixed(1)} KB`;
+    }
+    return `${(bytes / (1024 * 1024)).toFixed(1)} MB`;
+  }
+
+  function startElapsedTransferStatus(message) {
+    setTransferStatus(message, { indeterminate: true });
+    const startedAt = Date.now();
+    const intervalId = window.setInterval(() => {
+      const elapsedSeconds = Math.max(1, Math.round((Date.now() - startedAt) / 1000));
+      setTransferStatus(`${message} (${elapsedSeconds} s)`, { indeterminate: true });
+    }, 1000);
+    return () => {
+      window.clearInterval(intervalId);
+    };
+  }
+
+  async function fetchBlobWithProgress(url, options = {}) {
+    const { fetchOptions = {}, onProgress = null } = options;
+    const response = await fetch(url, fetchOptions);
+    if (!response.ok) {
+      throw new Error(await readDownloadError(response));
+    }
+    if (!response.body || typeof response.body.getReader !== "function") {
+      return {
+        response,
+        blob: await response.blob(),
+      };
+    }
+    const totalBytes = Number.parseInt(response.headers.get("content-length") || "", 10);
+    const reader = response.body.getReader();
+    const chunks = [];
+    let receivedBytes = 0;
+    while (true) {
+      const { done, value } = await reader.read();
+      if (done) {
+        break;
+      }
+      if (!value) {
+        continue;
+      }
+      chunks.push(value);
+      receivedBytes += value.byteLength;
+      if (typeof onProgress === "function") {
+        onProgress({
+          receivedBytes,
+          totalBytes: Number.isFinite(totalBytes) && totalBytes > 0 ? totalBytes : null,
+          percent:
+            Number.isFinite(totalBytes) && totalBytes > 0
+              ? (receivedBytes / totalBytes) * 100
+              : null,
+        });
+      }
+    }
+    const blob = new Blob(chunks, {
+      type: response.headers.get("content-type") || "application/octet-stream",
+    });
+    return { response, blob };
   }
 
   async function handleAudioPlaybackError() {
@@ -1774,17 +1886,30 @@
     downloadLink.tabIndex = -1;
     downloadLink.textContent = "Pobieranie...";
     setStatus(`Pobieram plik ${filename} z archive.org...`);
+    setTransferStatus(`Pobieram plik ${filename}...`, { indeterminate: true });
 
     try {
-      const response = await fetch(archive.download_url, { mode: "cors", credentials: "omit" });
-      if (!response.ok) {
-        throw new Error(`HTTP ${response.status}`);
-      }
-      const blob = await response.blob();
+      const { blob } = await fetchBlobWithProgress(archive.download_url, {
+        fetchOptions: { mode: "cors", credentials: "omit" },
+        onProgress: ({ receivedBytes, totalBytes, percent }) => {
+          if (percent !== null) {
+            setTransferStatus(`Pobieram plik ${filename}... ${Math.round(percent)}%`, {
+              percent,
+            });
+            return;
+          }
+          setTransferStatus(
+            `Pobieram plik ${filename}... ${formatByteCount(receivedBytes)} pobrane`,
+            { indeterminate: true },
+          );
+        },
+      });
       triggerBlobDownload(blob, filename);
       setStatus(`Pobieranie pliku ${filename} zostało rozpoczęte.`);
+      setTransferStatus(`Pobieranie pliku ${filename} zostało rozpoczęte.`, { percent: 100 });
     } catch (error) {
       setStatus(`Nie udało się pobrać pliku: ${error}`);
+      setTransferStatus(`Nie udało się pobrać pliku: ${error}`, { indeterminate: true });
     } finally {
       downloadLink.textContent = originalLabel;
       setDownloadLinkState(archive.download_url, filename);
@@ -1804,6 +1929,10 @@
     setStatus(
       `Przygotowuję fragment od ${range.startMinute} do ${range.endMinute} minuty.`,
     );
+    setTransferStatus(
+      `Przygotowuję fragment od ${range.startMinute} do ${range.endMinute} minuty.`,
+      { indeterminate: true },
+    );
 
     try {
       if (canUseServerSideFragmentDownload()) {
@@ -1817,21 +1946,48 @@
           setStatus(
             `Pobieranie fragmentu od ${range.startMinute} do ${range.endMinute} minuty zostało rozpoczęte.`,
           );
+          setTransferStatus(
+            `Pobieranie fragmentu od ${range.startMinute} do ${range.endMinute} minuty zostało rozpoczęte.`,
+            { percent: 100 },
+          );
           return;
         }
-        const response = await fetch(downloadUrl, {
-          credentials: "same-origin",
-        });
-        if (!response.ok) {
-          throw new Error(await readDownloadError(response));
+        const stopPreparingStatus = startElapsedTransferStatus("Serwer przygotowuje fragment");
+        let response;
+        let blob;
+        try {
+          ({ response, blob } = await fetchBlobWithProgress(downloadUrl, {
+            fetchOptions: {
+              credentials: "same-origin",
+            },
+            onProgress: ({ receivedBytes, totalBytes, percent }) => {
+              stopPreparingStatus();
+              if (percent !== null) {
+                setTransferStatus(
+                  `Pobieram gotowy fragment... ${Math.round(percent)}%`,
+                  { percent },
+                );
+                return;
+              }
+              setTransferStatus(
+                `Pobieram gotowy fragment... ${formatByteCount(receivedBytes)} pobrane`,
+                { indeterminate: true },
+              );
+            },
+          }));
+        } finally {
+          stopPreparingStatus();
         }
-        const blob = await response.blob();
         const filename =
           extractFilenameFromDisposition(response.headers.get("content-disposition")) ||
           buildFragmentFilename(archive, range.startMinute, range.endMinute);
         triggerBlobDownload(blob, filename);
         setStatus(
           `Pobieranie fragmentu od ${range.startMinute} do ${range.endMinute} minuty zostało rozpoczęte.`,
+        );
+        setTransferStatus(
+          `Pobieranie fragmentu od ${range.startMinute} do ${range.endMinute} minuty zostało rozpoczęte.`,
+          { percent: 100 },
         );
         return;
       }
@@ -1840,14 +1996,23 @@
           "na publicznej stronie pobieranie fragmentu działa obecnie dla plików MP3",
         );
       }
-      const blob = await buildBrowserArchiveFragmentBlob(archive, range);
+      const blob = await buildBrowserArchiveFragmentBlob(archive, range, {
+        onStatusChange: (message, options) => setTransferStatus(message, options),
+      });
       const filename = buildFragmentFilename(archive, range.startMinute, range.endMinute);
       triggerBlobDownload(blob, filename);
       setStatus(
         `Pobieranie fragmentu od ${range.startMinute} do ${range.endMinute} minuty zostało rozpoczęte.`,
       );
+      setTransferStatus(
+        `Pobieranie fragmentu od ${range.startMinute} do ${range.endMinute} minuty zostało rozpoczęte.`,
+        { percent: 100 },
+      );
     } catch (error) {
       setStatus(`Nie udało się przygotować fragmentu: ${error}`);
+      setTransferStatus(`Nie udało się przygotować fragmentu: ${error}`, {
+        indeterminate: true,
+      });
     } finally {
       fragmentDownloadButton.textContent = originalLabel;
       syncFragmentDownloadState();
@@ -1922,7 +2087,8 @@
     return filename.endsWith(".mp3");
   }
 
-  async function buildBrowserArchiveFragmentBlob(archive, range) {
+  async function buildBrowserArchiveFragmentBlob(archive, range, options = {}) {
+    const { onStatusChange = null } = options;
     const sourceUrl = archive.download_url || archive.audio_url;
     if (!sourceUrl) {
       throw new Error("brak źródłowego pliku audio");
@@ -1931,23 +2097,43 @@
     const cacheKey = buildLocalAudioCacheKey(archive, sourceUrl);
     const cachedBlob = await restoreCachedPlaybackBlob(cacheKey);
     if (cachedBlob) {
+      onStatusChange?.("Przygotowuję fragment z lokalnej kopii audio...", {
+        indeterminate: true,
+      });
       const byteRange = estimateMp3ByteRange(archive, range, cachedBlob.size);
       return sliceMp3BlobFragment(cachedBlob, byteRange);
     }
     try {
-      const response = await fetch(sourceUrl, {
-        cache: "no-store",
-        credentials: "omit",
-        mode: "cors",
+      onStatusChange?.("Pobieram źródłowy plik audio do wycięcia fragmentu...", {
+        indeterminate: true,
       });
-      if (!response.ok) {
-        throw new Error(await readDownloadError(response));
-      }
-      const blob = await response.blob();
+      const { blob } = await fetchBlobWithProgress(sourceUrl, {
+        fetchOptions: {
+          cache: "no-store",
+          credentials: "omit",
+          mode: "cors",
+        },
+        onProgress: ({ receivedBytes, totalBytes, percent }) => {
+          if (percent !== null) {
+            onStatusChange?.(
+              `Pobieram źródłowy plik audio do wycięcia fragmentu... ${Math.round(percent)}%`,
+              { percent },
+            );
+            return;
+          }
+          onStatusChange?.(
+            `Pobieram źródłowy plik audio do wycięcia fragmentu... ${formatByteCount(receivedBytes)} pobrane`,
+            { indeterminate: true },
+          );
+        },
+      });
       if (blob.size <= 0) {
         throw new Error("źródło zwróciło pusty plik audio");
       }
       await persistFetchedFragmentSource(cacheKey, blob);
+      onStatusChange?.("Wycinam wybrany fragment z pobranego pliku...", {
+        indeterminate: true,
+      });
       const byteRange = estimateMp3ByteRange(archive, range, blob.size);
       return sliceMp3BlobFragment(blob, byteRange);
     } catch (error) {

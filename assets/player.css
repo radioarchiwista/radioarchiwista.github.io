@@ -730,6 +730,21 @@ textarea {
   flex: 1 1 24rem;
 }
 
+.player-transfer-status {
+  flex: 1 1 100%;
+  display: grid;
+  gap: 0.35rem;
+}
+
+.player-transfer-status-text {
+  margin: 0;
+}
+
+.player-transfer-progress {
+  width: 100%;
+  min-height: 0.9rem;
+}
+
 .player-fragment-minute-field {
   flex: 0 1 9rem;
   min-width: 8rem;
