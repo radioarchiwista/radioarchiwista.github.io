@@ -603,7 +603,7 @@
     playbackState.fallbackAttempted = preferredSource.url !== archive.audio_url;
     await applyPlaybackSource(playbackState, preferredSource.url);
     audio.playbackRate = Number(rateSelect.value);
-    setDownloadLinkState(archive.download_url, archive.remote_filename || null);
+    setDownloadLinkState(archive.download_url, buildArchiveDownloadFilename(archive));
     configureFragmentDownloadControls(archive);
     titleNode.textContent = `${stationCatalog.station.display_name} · ${archive.local_date_label || formatDateLabel(archive)}`;
     subtitleNode.textContent =
@@ -1768,11 +1768,7 @@
   }
 
   async function triggerArchiveDownload(archive) {
-    const filename =
-      archive.remote_filename ||
-      downloadLink.dataset.filename ||
-      extractFilenameFromUrl(archive.download_url) ||
-      "archiwum.mp3";
+    const filename = buildArchiveDownloadFilename(archive);
     const originalLabel = downloadLink.textContent;
     downloadLink.setAttribute("aria-disabled", "true");
     downloadLink.tabIndex = -1;
@@ -1869,12 +1865,49 @@
   }
 
   function buildFragmentFilename(archive, startMinute, endMinute) {
-    const baseName =
-      archive.remote_filename ||
-      extractFilenameFromUrl(archive.download_url) ||
-      "archiwum.mp3";
+    const baseName = buildArchiveDownloadBaseName(archive);
     const suffix = `_od-${String(startMinute).padStart(2, "0")}m_do-${String(endMinute).padStart(2, "0")}m.mp3`;
-    return baseName.replace(/\.[^./]+$/u, "") + suffix;
+    return baseName + suffix;
+  }
+
+  function buildArchiveDownloadFilename(archive) {
+    const extension =
+      extractExtensionFromFilename(archive?.remote_filename) ||
+      extractExtensionFromFilename(extractFilenameFromUrl(archive?.download_url || "")) ||
+      ".mp3";
+    return buildArchiveDownloadBaseName(archive) + extension;
+  }
+
+  function buildArchiveDownloadBaseName(archive) {
+    const stationSlug = sanitizeDownloadToken(archive?.station_slug || stationSelect.value || "archiwum");
+    const year = padDownloadNumber(archive?.year, 4) || "0000";
+    const month = padDownloadNumber(archive?.month, 2) || "00";
+    const day = padDownloadNumber(archive?.day, 2) || "00";
+    const hour = padDownloadNumber(archive?.hour, 2) || "00";
+    return `${stationSlug}_${year}-${month}-${day}_${hour}-00_czasu-polskiego`;
+  }
+
+  function extractExtensionFromFilename(filename) {
+    const normalized = String(filename || "").trim();
+    const match = normalized.match(/(\.[a-z0-9]+)$/iu);
+    return match ? match[1].toLowerCase() : "";
+  }
+
+  function sanitizeDownloadToken(value) {
+    return String(value || "")
+      .normalize("NFD")
+      .replace(/[\u0300-\u036f]/g, "")
+      .toLowerCase()
+      .replace(/[^a-z0-9]+/g, "-")
+      .replace(/^-+|-+$/g, "") || "archiwum";
+  }
+
+  function padDownloadNumber(value, width) {
+    const numeric = Number(value);
+    if (!Number.isFinite(numeric)) {
+      return "";
+    }
+    return String(Math.trunc(numeric)).padStart(width, "0");
   }
 
   function canUseServerSideFragmentDownload() {
