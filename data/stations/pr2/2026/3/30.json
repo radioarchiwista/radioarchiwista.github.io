@@ -324,29 +324,6 @@
     },
     {
       "archive_item_identifier": "pr2-2026-03-30",
-      "audio_url": "https://archive.org/download/pr2-2026-03-30/pr2_2026-03-30T13-00-00Z.mp3",
-      "completeness_ratio": 0.0778,
-      "day": 30,
-      "download_url": "https://archive.org/download/pr2-2026-03-30/pr2_2026-03-30T13-00-00Z.mp3",
-      "duration_seconds": 3599.952,
-      "hour": 15,
-      "hourly_archive_id": 1845,
-      "local_date_label": "30.03.2026",
-      "local_hour_label": "15:00",
-      "local_label": "2026-03-30 15:00 CEST",
-      "local_started_at": "2026-03-30T15:00:00+02:00",
-      "local_timezone_label": "CEST",
-      "month": 3,
-      "published_at": "2026-04-06T15:48:32.494957+00:00",
-      "published_local_label": "2026-04-06 17:48 CEST",
-      "remote_filename": "pr2_2026-03-30T13-00-00Z.mp3",
-      "status": "published",
-      "utc_label": "2026-03-30 13:00 UTC",
-      "utc_started_at": "2026-03-30T13:00:00+00:00",
-      "year": 2026
-    },
-    {
-      "archive_item_identifier": "pr2-2026-03-30",
       "audio_url": "https://archive.org/download/pr2-2026-03-30/pr2_2026-03-30T14-00-00Z.mp3",
       "completeness_ratio": 0.4741,
       "day": 30,
@@ -531,7 +508,7 @@
     }
   ],
   "day": 30,
-  "generated_at": "2026-04-06T15:57:51.650836+00:00",
+  "generated_at": "2026-04-06T16:37:04.146548+00:00",
   "hour_slots": [
     {
       "archive_status": "published",
@@ -819,7 +796,7 @@
       "year": 2026
     },
     {
-      "archive_status": "published",
+      "archive_status": "ready",
       "completeness_ratio": 0.0778,
       "day": 30,
       "hour": 15,
@@ -830,9 +807,9 @@
       "local_started_at": "2026-03-30T15:00:00+02:00",
       "local_timezone_label": "CEST",
       "month": 3,
-      "playable": true,
-      "state": "available",
-      "status_label": null,
+      "playable": false,
+      "state": "publishing",
+      "status_label": "Czeka w kolejce do publikacji",
       "utc_label": "2026-03-30 13:00 UTC",
       "utc_started_at": "2026-03-30T13:00:00+00:00",
       "year": 2026
@@ -991,9 +968,9 @@
     }
   ],
   "latest_archive_hour_expected_station_count": 0,
-  "latest_archive_hour_started_at": "2026-04-06T14:00:00+00:00",
+  "latest_archive_hour_started_at": "2026-04-06T15:00:00+00:00",
   "month": 3,
-  "published_at": "2026-04-06T15:57:51.650836+00:00",
+  "published_at": "2026-04-06T16:37:04.146548+00:00",
   "station": {
     "archive_count": 189,
     "display_name": "Program 2",
