@@ -1488,7 +1488,7 @@
   }
 
   function getArchiveDurationMinutes(archive) {
-    return Math.max(1, Math.ceil(Number(archive?.duration_seconds || 0) / 60));
+    return Math.min(60, Math.max(1, Math.ceil(Number(archive?.duration_seconds || 0) / 60)));
   }
 
   function readFragmentDownloadRange(archive) {
