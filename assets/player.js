@@ -19,6 +19,10 @@
   const currentTimeNode = document.getElementById("player-current-time");
   const durationNode = document.getElementById("player-duration");
   const downloadLink = document.getElementById("player-download-link");
+  const fragmentDownloadGroup = document.getElementById("player-fragment-download-group");
+  const fragmentStartMinuteInput = document.getElementById("player-fragment-start-minute");
+  const fragmentEndMinuteInput = document.getElementById("player-fragment-end-minute");
+  const fragmentDownloadButton = document.getElementById("player-fragment-download-button");
   const outputDeviceGroup = document.getElementById("player-output-device-group");
   const outputDeviceSelect = document.getElementById("player-output-device");
   const outputDeviceChooser = document.getElementById("player-output-device-chooser");
@@ -46,6 +50,8 @@
     pageRoot?.dataset.playerDayCatalogTemplate || "";
   const catalogUrlTemplate =
     pageRoot?.dataset.playerCatalogUrlTemplate || "/player/api/stations/{slug}/catalog";
+  const fragmentDownloadUrlTemplate =
+    pageRoot?.dataset.playerFragmentDownloadTemplate || "";
   const hierarchicalCatalogEnabled =
     Boolean(stationIndexUrlTemplate) &&
     Boolean(yearIndexUrlTemplate) &&
@@ -109,6 +115,16 @@
     Boolean(navigator.mediaDevices) &&
     typeof navigator.mediaDevices.getUserMedia === "function";
   const outputDeviceRefreshSupported = sinkSelectionSupported || mediaPermissionSupported;
+  const fragmentDownloadSupported =
+    Boolean(fragmentDownloadUrlTemplate) &&
+    Boolean(fragmentDownloadGroup) &&
+    Boolean(fragmentStartMinuteInput) &&
+    Boolean(fragmentEndMinuteInput) &&
+    Boolean(fragmentDownloadButton);
+
+  if (fragmentDownloadGroup) {
+    fragmentDownloadGroup.hidden = !fragmentDownloadSupported;
+  }
 
   stationSelect.addEventListener("change", async () => {
     resetArchiveSelection();
@@ -124,6 +140,15 @@
 
   stationFilterInput?.addEventListener("input", () => {
     applyStationFilter();
+  });
+
+  fragmentStartMinuteInput?.addEventListener("input", syncFragmentDownloadState);
+  fragmentEndMinuteInput?.addEventListener("input", syncFragmentDownloadState);
+  fragmentDownloadButton?.addEventListener("click", async () => {
+    if (!selectedArchive) {
+      return;
+    }
+    await triggerArchiveFragmentDownload(selectedArchive);
   });
 
   yearSelect.addEventListener("change", async () => {
@@ -579,6 +604,7 @@
     await applyPlaybackSource(playbackState, preferredSource.url);
     audio.playbackRate = Number(rateSelect.value);
     setDownloadLinkState(archive.download_url, archive.remote_filename || null);
+    configureFragmentDownloadControls(archive);
     titleNode.textContent = `${stationCatalog.station.display_name} · ${archive.local_date_label || formatDateLabel(archive)}`;
     subtitleNode.textContent =
       `${archive.local_hour_label || formatHourLabel(archive.hour)} (${Math.round(
@@ -622,6 +648,7 @@
     clearSelect(hourSelect, "Wybierz godzinę", true);
     loadButton.disabled = true;
     setDownloadLinkState(null, null);
+    resetFragmentDownloadControls();
     activePlaybackState = null;
     audio.pause();
     audio.removeAttribute("src");
