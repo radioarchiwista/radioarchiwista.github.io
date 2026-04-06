@@ -48,29 +48,6 @@
     },
     {
       "archive_item_identifier": "radioolsztyn-2026-03-30",
-      "audio_url": "https://archive.org/download/radioolsztyn-2026-03-30/radioolsztyn_2026-03-30T16-00-00Z.mp3",
-      "completeness_ratio": 0.9887,
-      "day": 30,
-      "download_url": "https://archive.org/download/radioolsztyn-2026-03-30/radioolsztyn_2026-03-30T16-00-00Z.mp3",
-      "duration_seconds": 3599.832,
-      "hour": 18,
-      "hourly_archive_id": 1627,
-      "local_date_label": "30.03.2026",
-      "local_hour_label": "18:00",
-      "local_label": "2026-03-30 18:00 CEST",
-      "local_started_at": "2026-03-30T18:00:00+02:00",
-      "local_timezone_label": "CEST",
-      "month": 3,
-      "published_at": "2026-04-06T11:17:37.165964+00:00",
-      "published_local_label": "2026-04-06 13:17 CEST",
-      "remote_filename": "radioolsztyn_2026-03-30T16-00-00Z.mp3",
-      "status": "published",
-      "utc_label": "2026-03-30 16:00 UTC",
-      "utc_started_at": "2026-03-30T16:00:00+00:00",
-      "year": 2026
-    },
-    {
-      "archive_item_identifier": "radioolsztyn-2026-03-30",
       "audio_url": "https://archive.org/download/radioolsztyn-2026-03-30/2026-03-30T17-00-00Z.mp3",
       "completeness_ratio": 1.0,
       "day": 30,
@@ -113,29 +90,6 @@
       "status": "published",
       "utc_label": "2026-03-30 18:00 UTC",
       "utc_started_at": "2026-03-30T18:00:00+00:00",
-      "year": 2026
-    },
-    {
-      "archive_item_identifier": "radioolsztyn-2026-03-30",
-      "audio_url": "https://archive.org/download/radioolsztyn-2026-03-30/radioolsztyn_2026-03-30T19-00-00Z.mp3",
-      "completeness_ratio": 0.9049,
-      "day": 30,
-      "download_url": "https://archive.org/download/radioolsztyn-2026-03-30/radioolsztyn_2026-03-30T19-00-00Z.mp3",
-      "duration_seconds": 3599.664,
-      "hour": 21,
-      "hourly_archive_id": 1440,
-      "local_date_label": "30.03.2026",
-      "local_hour_label": "21:00",
-      "local_label": "2026-03-30 21:00 CEST",
-      "local_started_at": "2026-03-30T21:00:00+02:00",
-      "local_timezone_label": "CEST",
-      "month": 3,
-      "published_at": "2026-04-06T11:17:37.165964+00:00",
-      "published_local_label": "2026-04-06 13:17 CEST",
-      "remote_filename": "radioolsztyn_2026-03-30T19-00-00Z.mp3",
-      "status": "published",
-      "utc_label": "2026-03-30 19:00 UTC",
-      "utc_started_at": "2026-03-30T19:00:00+00:00",
       "year": 2026
     },
     {
@@ -186,7 +140,7 @@
     }
   ],
   "day": 30,
-  "generated_at": "2026-04-06T11:17:37.165964+00:00",
+  "generated_at": "2026-04-06T11:17:05.515921+00:00",
   "hour_slots": [
     {
       "archive_status": null,
@@ -531,7 +485,7 @@
       "year": 2026
     },
     {
-      "archive_status": "published",
+      "archive_status": "ready",
       "completeness_ratio": 0.9887,
       "day": 30,
       "hour": 18,
@@ -542,9 +496,9 @@
       "local_started_at": "2026-03-30T18:00:00+02:00",
       "local_timezone_label": "CEST",
       "month": 3,
-      "playable": true,
-      "state": "available",
-      "status_label": null,
+      "playable": false,
+      "state": "publishing",
+      "status_label": "Czeka w kolejce do publikacji",
       "utc_label": "2026-03-30 16:00 UTC",
       "utc_started_at": "2026-03-30T16:00:00+00:00",
       "year": 2026
@@ -588,7 +542,7 @@
       "year": 2026
     },
     {
-      "archive_status": "published",
+      "archive_status": "ready",
       "completeness_ratio": 0.9049,
       "day": 30,
       "hour": 21,
@@ -599,9 +553,9 @@
       "local_started_at": "2026-03-30T21:00:00+02:00",
       "local_timezone_label": "CEST",
       "month": 3,
-      "playable": true,
-      "state": "available",
-      "status_label": null,
+      "playable": false,
+      "state": "publishing",
+      "status_label": "Czeka w kolejce do publikacji",
       "utc_label": "2026-03-30 19:00 UTC",
       "utc_started_at": "2026-03-30T19:00:00+00:00",
       "year": 2026
@@ -646,11 +600,11 @@
     }
   ],
   "latest_archive_hour_expected_station_count": 0,
-  "latest_archive_hour_started_at": "2026-04-06T09:00:00+00:00",
+  "latest_archive_hour_started_at": "2026-04-06T10:00:00+00:00",
   "month": 3,
-  "published_at": "2026-04-06T11:17:37.165964+00:00",
+  "published_at": "2026-04-06T11:17:05.515921+00:00",
   "station": {
-    "archive_count": 163,
+    "archive_count": 162,
     "display_name": "Radio Olsztyn",
     "public_name": "Radio Olsztyn",
     "slug": "radioolsztyn",
