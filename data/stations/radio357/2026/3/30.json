@@ -367,6 +367,29 @@
       "utc_label": "2026-03-30 19:00 UTC",
       "utc_started_at": "2026-03-30T19:00:00+00:00",
       "year": 2026
+    },
+    {
+      "archive_item_identifier": "radio357-2026-03-30",
+      "audio_url": "https://archive.org/download/radio357-2026-03-30/radio357_2026-03-30T21-00-00Z.mp3",
+      "completeness_ratio": 0.9993,
+      "day": 30,
+      "download_url": "https://archive.org/download/radio357-2026-03-30/radio357_2026-03-30T21-00-00Z.mp3",
+      "duration_seconds": 3600.024,
+      "hour": 23,
+      "hourly_archive_id": 991,
+      "local_date_label": "30.03.2026",
+      "local_hour_label": "23:00",
+      "local_label": "2026-03-30 23:00 CEST",
+      "local_started_at": "2026-03-30T23:00:00+02:00",
+      "local_timezone_label": "CEST",
+      "month": 3,
+      "published_at": "2026-04-07T10:34:00.621811+00:00",
+      "published_local_label": "2026-04-07 12:34 CEST",
+      "remote_filename": "radio357_2026-03-30T21-00-00Z.mp3",
+      "status": "published",
+      "utc_label": "2026-03-30 21:00 UTC",
+      "utc_started_at": "2026-03-30T21:00:00+00:00",
+      "year": 2026
     }
   ],
   "day": 30,
@@ -810,7 +833,7 @@
       "year": 2026
     },
     {
-      "archive_status": "ready",
+      "archive_status": "published",
       "completeness_ratio": 0.9993,
       "day": 30,
       "hour": 23,
@@ -821,9 +844,9 @@
       "local_started_at": "2026-03-30T23:00:00+02:00",
       "local_timezone_label": "CEST",
       "month": 3,
-      "playable": false,
-      "state": "publishing",
-      "status_label": "Czeka w kolejce do publikacji",
+      "playable": true,
+      "state": "available",
+      "status_label": null,
       "utc_label": "2026-03-30 21:00 UTC",
       "utc_started_at": "2026-03-30T21:00:00+00:00",
       "year": 2026
@@ -834,7 +857,7 @@
   "month": 3,
   "published_at": "2026-04-07T10:43:15.966679+00:00",
   "station": {
-    "archive_count": 189,
+    "archive_count": 192,
     "display_name": "Radio 357",
     "public_name": "Radio 357",
     "slug": "radio357",
