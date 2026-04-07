@@ -24,29 +24,6 @@
       "year": 2026
     },
     {
-      "archive_item_identifier": "radiokielce-2026-04-04",
-      "audio_url": "https://archive.org/download/radiokielce-2026-04-04/radiokielce_2026-04-04T23-00-00Z.mp3",
-      "completeness_ratio": 0.9998,
-      "day": 5,
-      "download_url": "https://archive.org/download/radiokielce-2026-04-04/radiokielce_2026-04-04T23-00-00Z.mp3",
-      "duration_seconds": 3599.664,
-      "hour": 1,
-      "hourly_archive_id": 5378,
-      "local_date_label": "05.04.2026",
-      "local_hour_label": "01:00",
-      "local_label": "2026-04-05 01:00 CEST",
-      "local_started_at": "2026-04-05T01:00:00+02:00",
-      "local_timezone_label": "CEST",
-      "month": 4,
-      "published_at": "2026-04-05T09:44:13.241815+00:00",
-      "published_local_label": "2026-04-05 11:44 CEST",
-      "remote_filename": "radiokielce_2026-04-04T23-00-00Z.mp3",
-      "status": "published",
-      "utc_label": "2026-04-04 23:00 UTC",
-      "utc_started_at": "2026-04-04T23:00:00+00:00",
-      "year": 2026
-    },
-    {
       "archive_item_identifier": "radiokielce-2026-04-05",
       "audio_url": "https://archive.org/download/radiokielce-2026-04-05/radiokielce_2026-04-05T00-00-00Z.mp3",
       "completeness_ratio": 1.0,
@@ -576,7 +553,7 @@
       "year": 2026
     },
     {
-      "archive_status": "published",
+      "archive_status": "error",
       "completeness_ratio": 0.9998,
       "day": 5,
       "hour": 1,
@@ -587,9 +564,9 @@
       "local_started_at": "2026-04-05T01:00:00+02:00",
       "local_timezone_label": "CEST",
       "month": 4,
-      "playable": true,
-      "state": "available",
-      "status_label": null,
+      "playable": false,
+      "state": "failed",
+      "status_label": "Nie udało się przygotować nagrania",
       "utc_label": "2026-04-04 23:00 UTC",
       "utc_started_at": "2026-04-04T23:00:00+00:00",
       "year": 2026
@@ -1018,7 +995,7 @@
   "month": 4,
   "published_at": "2026-04-07T00:01:13.707386+00:00",
   "station": {
-    "archive_count": 173,
+    "archive_count": 172,
     "display_name": "Radio Kielce",
     "public_name": "Radio Kielce",
     "slug": "radiokielce",
