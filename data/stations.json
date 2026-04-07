@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-07T01:43:26.150777+00:00",
+  "generated_at": "2026-04-07T01:58:43.605510+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-04-07T00:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -11,7 +11,7 @@
     "Polskie Radio 24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-07T01:43:26.150777+00:00",
+  "published_at": "2026-04-07T01:58:43.605510+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -51,7 +51,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 190,
+      "archive_count": 189,
       "display_name": "Radio Nowy Świat",
       "public_name": "Radio Nowy Świat",
       "slug": "rns",
@@ -72,7 +72,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 191,
+      "archive_count": 190,
       "display_name": "Radio Republika",
       "public_name": "Radio Republika",
       "slug": "republika",
@@ -114,7 +114,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 173,
+      "archive_count": 172,
       "display_name": "Radio Dla Ciebie",
       "public_name": "Radio Dla Ciebie",
       "slug": "rdc",
@@ -268,7 +268,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 173,
+      "archive_count": 172,
       "display_name": "Radio Zielona Góra",
       "public_name": "Radio Zielona Góra",
       "slug": "radiozielonagora",
