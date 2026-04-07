@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-07T18:42:35.585949+00:00",
+  "generated_at": "2026-04-07T18:51:19.670768+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-04-07T17:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -21,6 +21,7 @@
     "Radio Centrum Rzeszów",
     "Radio Dla Ciebie",
     "Radio Gdańsk",
+    "Radio Gorzów",
     "Radio Index",
     "Radio Kampus",
     "Radio Katowice",
@@ -45,7 +46,7 @@
     "Radio Żak"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-07T18:42:35.585949+00:00",
+  "published_at": "2026-04-07T18:51:19.670768+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -92,7 +93,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 197,
+      "archive_count": 196,
       "display_name": "TOK FM",
       "public_name": "TOK FM",
       "slug": "tokfm",
@@ -106,7 +107,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 211,
+      "archive_count": 210,
       "display_name": "Radio Republika",
       "public_name": "Radio Republika",
       "slug": "republika",
