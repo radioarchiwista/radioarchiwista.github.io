@@ -245,7 +245,7 @@
       "year": 2026
     },
     {
-      "archive_status": "ready",
+      "archive_status": "published",
       "completeness_ratio": 0.9997,
       "day": 7,
       "hour": 9,
@@ -256,11 +256,30 @@
       "local_started_at": "2026-04-07T09:00:00+02:00",
       "local_timezone_label": "CEST",
       "month": 4,
-      "playable": false,
-      "state": "publishing",
-      "status_label": "Czeka w kolejce do publikacji",
+      "playable": true,
+      "state": "available",
+      "status_label": null,
       "utc_label": "2026-04-07 07:00 UTC",
       "utc_started_at": "2026-04-07T07:00:00+00:00",
+      "year": 2026
+    },
+    {
+      "archive_status": null,
+      "completeness_ratio": null,
+      "day": 7,
+      "hour": 10,
+      "hourly_archive_id": null,
+      "local_date_label": "07.04.2026",
+      "local_hour_label": "10:00",
+      "local_label": "2026-04-07 10:00 CEST",
+      "local_started_at": "2026-04-07T10:00:00+02:00",
+      "local_timezone_label": "CEST",
+      "month": 4,
+      "playable": false,
+      "state": "recorded",
+      "status_label": "Nagranie czeka na złożenie",
+      "utc_label": "2026-04-07 08:00 UTC",
+      "utc_started_at": "2026-04-07T08:00:00+00:00",
       "year": 2026
     }
   ],
@@ -269,7 +288,7 @@
   "month": 4,
   "published_at": "2026-04-07T08:53:46.047786+00:00",
   "station": {
-    "archive_count": 182,
+    "archive_count": 183,
     "display_name": "Radio Słupsk",
     "public_name": "Radio Słupsk",
     "slug": "radioslupsk",
