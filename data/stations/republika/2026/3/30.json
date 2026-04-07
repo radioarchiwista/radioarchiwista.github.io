@@ -792,7 +792,7 @@
       "year": 2026
     },
     {
-      "archive_status": "ready",
+      "archive_status": "error",
       "completeness_ratio": 0.4658,
       "day": 30,
       "hour": 16,
@@ -804,8 +804,8 @@
       "local_timezone_label": "CEST",
       "month": 3,
       "playable": false,
-      "state": "publishing",
-      "status_label": "Czeka w kolejce do publikacji",
+      "state": "failed",
+      "status_label": "Nie udało się przygotować nagrania",
       "utc_label": "2026-03-30 14:00 UTC",
       "utc_started_at": "2026-03-30T14:00:00+00:00",
       "year": 2026
@@ -949,7 +949,7 @@
   "month": 3,
   "published_at": "2026-04-07T13:57:13.183505+00:00",
   "station": {
-    "archive_count": 205,
+    "archive_count": 204,
     "display_name": "Radio Republika",
     "public_name": "Radio Republika",
     "slug": "republika",
