@@ -2,7 +2,7 @@
   "archive_count": 7153,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-07T10:00:55.747291+00:00",
+  "generated_at": "2026-04-07T10:04:08.940721+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-04-07T08:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -33,13 +33,17 @@
     "Radio PiK",
     "Radio Poznań",
     "Radio Rzeszów",
+    "Radio Szczecin",
+    "Radio Słupsk",
     "Radio UWM FM",
+    "Radio Wrocław",
     "Radio Zachód",
     "Radio Zielona Góra",
-    "Radio Łódź"
+    "Radio Łódź",
+    "Radio Żak"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-07T10:00:55.747291+00:00",
+  "published_at": "2026-04-07T10:04:08.940721+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
