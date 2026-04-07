@@ -1,33 +1,19 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-07T06:00:34.408190+00:00",
+  "generated_at": "2026-04-07T06:07:46.944551+00:00",
   "latest_archive_hour_expected_station_count": 39,
-  "latest_archive_hour_started_at": "2026-04-07T04:00:00+00:00",
+  "latest_archive_hour_started_at": "2026-04-07T05:00:00+00:00",
   "latest_archive_hour_stations": [
-    "Program 1",
-    "Program 2",
-    "Program 3",
-    "Radio 357",
-    "TOK FM",
-    "Radio Afera",
-    "Radio Akadera",
-    "Radio Białystok",
-    "Radio Centrum Lublin",
-    "Radio Gdańsk",
-    "Radio Gorzów",
-    "Radio Luz",
-    "Radio Maryja",
-    "Radio Zachód",
-    "Radio Zielona Góra"
+    "Program 1"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-07T06:00:34.408190+00:00",
+  "published_at": "2026-04-07T06:07:46.944551+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
     {
-      "archive_count": 205,
+      "archive_count": 206,
       "display_name": "Program 1",
       "public_name": "Polskie Radio Program 1",
       "slug": "pr1",
@@ -104,7 +90,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 176,
+      "archive_count": 177,
       "display_name": "Radio Białystok",
       "public_name": "Radio Białystok",
       "slug": "radiobialystok",
@@ -118,7 +104,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 178,
+      "archive_count": 179,
       "display_name": "Radio Centrum Rzeszów",
       "public_name": "Radio Centrum Rzeszów",
       "slug": "radiocentrumrzeszow",
@@ -132,7 +118,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 176,
+      "archive_count": 178,
       "display_name": "Radio Gdańsk",
       "public_name": "Radio Gdańsk",
       "slug": "radiogdansk",
@@ -160,14 +146,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 182,
+      "archive_count": 183,
       "display_name": "Radio Katowice",
       "public_name": "Radio Katowice",
       "slug": "radiokatowice",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 180,
+      "archive_count": 181,
       "display_name": "Radio Kielce",
       "public_name": "Radio Kielce",
       "slug": "radiokielce",
@@ -209,21 +195,21 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 180,
+      "archive_count": 181,
       "display_name": "Radio Olsztyn",
       "public_name": "Radio Olsztyn",
       "slug": "radioolsztyn",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 135,
+      "archive_count": 136,
       "display_name": "Radio Opole",
       "public_name": "Radio Opole",
       "slug": "radioopole",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 180,
+      "archive_count": 181,
       "display_name": "Radio PiK",
       "public_name": "Radio PiK",
       "slug": "radiopik",
@@ -237,14 +223,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 178,
+      "archive_count": 179,
       "display_name": "Radio Rzeszów",
       "public_name": "Radio Rzeszów",
       "slug": "radiorzeszow",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 177,
+      "archive_count": 179,
       "display_name": "Radio Szczecin",
       "public_name": "Radio Szczecin",
       "slug": "radioszczecin",
@@ -265,21 +251,21 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 178,
+      "archive_count": 179,
       "display_name": "Radio Wrocław",
       "public_name": "Radio Wrocław",
       "slug": "radiowroclaw",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 177,
+      "archive_count": 179,
       "display_name": "Radio Zachód",
       "public_name": "Radio Zachód",
       "slug": "radiozachod",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 178,
+      "archive_count": 179,
       "display_name": "Radio Zielona Góra",
       "public_name": "Radio Zielona Góra",
       "slug": "radiozielonagora",
