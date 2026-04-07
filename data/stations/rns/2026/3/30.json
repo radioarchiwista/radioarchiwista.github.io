@@ -462,7 +462,7 @@
     }
   ],
   "day": 30,
-  "generated_at": "2026-04-07T17:56:47.776504+00:00",
+  "generated_at": "2026-04-07T18:22:52.660445+00:00",
   "hour_slots": [
     {
       "archive_status": "published",
@@ -769,7 +769,7 @@
       "year": 2026
     },
     {
-      "archive_status": "ready",
+      "archive_status": "error",
       "completeness_ratio": 0.4658,
       "day": 30,
       "hour": 16,
@@ -781,8 +781,8 @@
       "local_timezone_label": "CEST",
       "month": 3,
       "playable": false,
-      "state": "publishing",
-      "status_label": "Czeka w kolejce do publikacji",
+      "state": "failed",
+      "status_label": "Nie udało się przygotować nagrania",
       "utc_label": "2026-03-30 14:00 UTC",
       "utc_started_at": "2026-03-30T14:00:00+00:00",
       "year": 2026
@@ -922,11 +922,11 @@
     }
   ],
   "latest_archive_hour_expected_station_count": 0,
-  "latest_archive_hour_started_at": "2026-04-07T16:00:00+00:00",
+  "latest_archive_hour_started_at": "2026-04-07T17:00:00+00:00",
   "month": 3,
-  "published_at": "2026-04-07T17:56:47.776504+00:00",
+  "published_at": "2026-04-07T18:22:52.660445+00:00",
   "station": {
-    "archive_count": 208,
+    "archive_count": 209,
     "display_name": "Radio Nowy Świat",
     "public_name": "Radio Nowy Świat",
     "slug": "rns",
