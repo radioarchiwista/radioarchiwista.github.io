@@ -1,8 +1,8 @@
 {
-  "archive_count": 6845,
+  "archive_count": 6853,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-07T04:30:01.446632+00:00",
+  "generated_at": "2026-04-07T04:36:41.733439+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-04-07T03:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -19,10 +19,11 @@
     "Radio Gorzów",
     "Radio Luz",
     "Radio Maryja",
-    "Radio Zachód"
+    "Radio Zachód",
+    "Radio Zielona Góra"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-07T04:30:01.446632+00:00",
+  "published_at": "2026-04-07T04:36:41.733439+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
