@@ -1,8 +1,8 @@
 {
-  "archive_count": 7410,
+  "archive_count": 7408,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-07T15:48:21.067950+00:00",
+  "generated_at": "2026-04-07T15:52:21.948608+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-04-07T14:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -19,7 +19,11 @@
     "Radio Akadera",
     "Radio Białystok",
     "Radio Centrum Lublin",
+    "Radio Centrum Rzeszów",
     "Radio Dla Ciebie",
+    "Radio Gdańsk",
+    "Radio Gorzów",
+    "Radio Index",
     "Radio Kampus",
     "Radio Katowice",
     "Radio Kielce",
@@ -27,8 +31,6 @@
     "Radio Kraków",
     "Radio Lublin",
     "Radio Luz",
-    "Radio Maryja",
-    "Radio Olsztyn",
     "Radio Opole",
     "Radio PiK",
     "Radio Poznań",
@@ -43,7 +45,7 @@
     "Radio Żak"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-07T15:48:21.067950+00:00",
+  "published_at": "2026-04-07T15:52:21.948608+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
