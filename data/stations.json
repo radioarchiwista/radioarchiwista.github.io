@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-07T19:18:47.293404+00:00",
+  "generated_at": "2026-04-07T19:31:54.363730+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-04-07T18:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -37,7 +37,7 @@
     "Radio Łódź"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-07T19:18:47.293404+00:00",
+  "published_at": "2026-04-07T19:31:54.363730+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -70,7 +70,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 202,
+      "archive_count": 201,
       "display_name": "Radio 357",
       "public_name": "Radio 357",
       "slug": "radio357",
@@ -119,7 +119,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 188,
+      "archive_count": 187,
       "display_name": "Radio Białystok",
       "public_name": "Radio Białystok",
       "slug": "radiobialystok",
@@ -203,14 +203,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 195,
+      "archive_count": 194,
       "display_name": "Radio Lublin",
       "public_name": "Radio Lublin",
       "slug": "radiolublin",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 196,
+      "archive_count": 195,
       "display_name": "Radio Luz",
       "public_name": "Radio Luz",
       "slug": "radioluz",
@@ -259,14 +259,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 193,
+      "archive_count": 192,
       "display_name": "Radio Szczecin",
       "public_name": "Radio Szczecin",
       "slug": "radioszczecin",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 195,
+      "archive_count": 194,
       "display_name": "Radio Słupsk",
       "public_name": "Radio Słupsk",
       "slug": "radioslupsk",
