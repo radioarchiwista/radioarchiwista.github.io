@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-07T21:40:54.666081+00:00",
+  "generated_at": "2026-04-07T21:46:55.511207+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-04-07T20:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -46,19 +46,19 @@
     "Radio Żak"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-07T21:40:54.666081+00:00",
+  "published_at": "2026-04-07T21:46:55.511207+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
     {
-      "archive_count": 221,
+      "archive_count": 222,
       "display_name": "Program 1",
       "public_name": "Polskie Radio Program 1",
       "slug": "pr1",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 217,
+      "archive_count": 219,
       "display_name": "Program 2",
       "public_name": "Polskie Radio Program 2",
       "slug": "pr2",
@@ -72,7 +72,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 217,
+      "archive_count": 219,
       "display_name": "Polskie Radio 24",
       "public_name": "Polskie Radio 24",
       "slug": "pr24",
@@ -128,7 +128,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 192,
+      "archive_count": 193,
       "display_name": "Radio Białystok",
       "public_name": "Radio Białystok",
       "slug": "radiobialystok",
@@ -205,14 +205,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 198,
+      "archive_count": 197,
       "display_name": "Radio Kraków",
       "public_name": "Radio Kraków",
       "slug": "radiokrakow",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 198,
+      "archive_count": 197,
       "display_name": "Radio Lublin",
       "public_name": "Radio Lublin",
       "slug": "radiolublin",
@@ -254,7 +254,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 196,
+      "archive_count": 197,
       "display_name": "Radio Poznań",
       "public_name": "Radio Poznań",
       "slug": "radiopoznan",
@@ -310,7 +310,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 198,
+      "archive_count": 197,
       "display_name": "Radio Łódź",
       "public_name": "Radio Łódź",
       "slug": "radiolodz",
