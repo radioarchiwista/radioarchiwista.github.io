@@ -24,6 +24,29 @@
       "year": 2026
     },
     {
+      "archive_item_identifier": "radiobialystok-2026-04-03",
+      "audio_url": "https://archive.org/download/radiobialystok-2026-04-03/radiobialystok_2026-04-03T23-00-00Z.mp3",
+      "completeness_ratio": 0.9997,
+      "day": 4,
+      "download_url": "https://archive.org/download/radiobialystok-2026-04-03/radiobialystok_2026-04-03T23-00-00Z.mp3",
+      "duration_seconds": 3597.984,
+      "hour": 1,
+      "hourly_archive_id": 4463,
+      "local_date_label": "04.04.2026",
+      "local_hour_label": "01:00",
+      "local_label": "2026-04-04 01:00 CEST",
+      "local_started_at": "2026-04-04T01:00:00+02:00",
+      "local_timezone_label": "CEST",
+      "month": 4,
+      "published_at": "2026-04-04T16:55:56.106451+00:00",
+      "published_local_label": "2026-04-04 18:55 CEST",
+      "remote_filename": "radiobialystok_2026-04-03T23-00-00Z.mp3",
+      "status": "published",
+      "utc_label": "2026-04-03 23:00 UTC",
+      "utc_started_at": "2026-04-03T23:00:00+00:00",
+      "year": 2026
+    },
+    {
       "archive_item_identifier": "radiobialystok-2026-04-04",
       "audio_url": "https://archive.org/download/radiobialystok-2026-04-04/2026-04-04T00-00-00Z.mp3",
       "completeness_ratio": 0.9997,
@@ -553,7 +576,7 @@
       "year": 2026
     },
     {
-      "archive_status": "error",
+      "archive_status": "published",
       "completeness_ratio": 0.9997,
       "day": 4,
       "hour": 1,
@@ -564,9 +587,9 @@
       "local_started_at": "2026-04-04T01:00:00+02:00",
       "local_timezone_label": "CEST",
       "month": 4,
-      "playable": false,
-      "state": "failed",
-      "status_label": "Nie udało się przygotować nagrania",
+      "playable": true,
+      "state": "available",
+      "status_label": null,
       "utc_label": "2026-04-03 23:00 UTC",
       "utc_started_at": "2026-04-03T23:00:00+00:00",
       "year": 2026
@@ -995,7 +1018,7 @@
   "month": 4,
   "published_at": "2026-04-07T00:35:30.747854+00:00",
   "station": {
-    "archive_count": 164,
+    "archive_count": 162,
     "display_name": "Radio Białystok",
     "public_name": "Radio Białystok",
     "slug": "radiobialystok",
