@@ -48,7 +48,7 @@
     }
   ],
   "day": 8,
-  "generated_at": "2026-04-08T06:36:58.974806+00:00",
+  "generated_at": "2026-04-08T06:57:52.703758+00:00",
   "hour_slots": [
     {
       "archive_status": "published",
@@ -184,7 +184,7 @@
       "year": 2026
     },
     {
-      "archive_status": "published",
+      "archive_status": "ready",
       "completeness_ratio": 1.0,
       "day": 8,
       "hour": 7,
@@ -195,20 +195,39 @@
       "local_started_at": "2026-04-08T07:00:00+02:00",
       "local_timezone_label": "CEST",
       "month": 4,
-      "playable": true,
-      "state": "available",
-      "status_label": null,
+      "playable": false,
+      "state": "publishing",
+      "status_label": "Czeka w kolejce do publikacji",
       "utc_label": "2026-04-08 05:00 UTC",
       "utc_started_at": "2026-04-08T05:00:00+00:00",
+      "year": 2026
+    },
+    {
+      "archive_status": null,
+      "completeness_ratio": null,
+      "day": 8,
+      "hour": 8,
+      "hourly_archive_id": null,
+      "local_date_label": "08.04.2026",
+      "local_hour_label": "08:00",
+      "local_label": "2026-04-08 08:00 CEST",
+      "local_started_at": "2026-04-08T08:00:00+02:00",
+      "local_timezone_label": "CEST",
+      "month": 4,
+      "playable": false,
+      "state": "recorded",
+      "status_label": "Nagranie czeka na złożenie",
+      "utc_label": "2026-04-08 06:00 UTC",
+      "utc_started_at": "2026-04-08T06:00:00+00:00",
       "year": 2026
     }
   ],
   "latest_archive_hour_expected_station_count": 0,
   "latest_archive_hour_started_at": "2026-04-07T23:00:00+00:00",
   "month": 4,
-  "published_at": "2026-04-08T06:36:58.974806+00:00",
+  "published_at": "2026-04-08T06:57:52.703758+00:00",
   "station": {
-    "archive_count": 205,
+    "archive_count": 204,
     "display_name": "Radio Olsztyn",
     "public_name": "Radio Olsztyn",
     "slug": "radioolsztyn",
