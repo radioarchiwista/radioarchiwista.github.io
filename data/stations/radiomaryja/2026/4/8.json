@@ -84,8 +84,8 @@
       "local_started_at": "2026-04-08T03:00:00+02:00",
       "local_timezone_label": "CEST",
       "month": 4,
-      "published_at": "2026-04-08T08:40:31.591667+00:00",
-      "published_local_label": "2026-04-08 10:40 CEST",
+      "published_at": "2026-04-08T09:53:29.272611+00:00",
+      "published_local_label": "2026-04-08 11:53 CEST",
       "remote_filename": "radiomaryja_2026-04-08T01-00-00Z.mp3",
       "status": "published",
       "utc_label": "2026-04-08 01:00 UTC",
@@ -232,7 +232,7 @@
     }
   ],
   "day": 8,
-  "generated_at": "2026-04-08T08:54:04.967386+00:00",
+  "generated_at": "2026-04-08T09:53:29.272611+00:00",
   "hour_slots": [
     {
       "archive_status": "published",
@@ -425,11 +425,11 @@
       "year": 2026
     },
     {
-      "archive_status": null,
-      "completeness_ratio": null,
+      "archive_status": "ready",
+      "completeness_ratio": 0.9851,
       "day": 8,
       "hour": 10,
-      "hourly_archive_id": null,
+      "hourly_archive_id": 8487,
       "local_date_label": "08.04.2026",
       "local_hour_label": "10:00",
       "local_label": "2026-04-08 10:00 CEST",
@@ -437,8 +437,8 @@
       "local_timezone_label": "CEST",
       "month": 4,
       "playable": false,
-      "state": "recorded",
-      "status_label": "Nagranie czeka na złożenie",
+      "state": "publishing",
+      "status_label": "Czeka w kolejce do publikacji",
       "utc_label": "2026-04-08 08:00 UTC",
       "utc_started_at": "2026-04-08T08:00:00+00:00",
       "year": 2026
@@ -447,7 +447,7 @@
   "latest_archive_hour_expected_station_count": 0,
   "latest_archive_hour_started_at": "2026-04-08T07:00:00+00:00",
   "month": 4,
-  "published_at": "2026-04-08T08:54:04.967386+00:00",
+  "published_at": "2026-04-08T09:53:29.272611+00:00",
   "station": {
     "archive_count": 63,
     "display_name": "Radio Maryja",
