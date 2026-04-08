@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-08T07:11:31.220341+00:00",
+  "generated_at": "2026-04-08T07:19:49.128990+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-04-08T06:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -20,7 +20,7 @@
     "Radio Index"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-08T07:11:31.220341+00:00",
+  "published_at": "2026-04-08T07:19:49.128990+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -53,14 +53,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 216,
+      "archive_count": 215,
       "display_name": "Radio 357",
       "public_name": "Radio 357",
       "slug": "radio357",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 219,
+      "archive_count": 218,
       "display_name": "Radio Nowy Świat",
       "public_name": "Radio Nowy Świat",
       "slug": "rns",
@@ -81,7 +81,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 220,
+      "archive_count": 219,
       "display_name": "Radio Republika",
       "public_name": "Radio Republika",
       "slug": "republika",
@@ -123,7 +123,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 204,
+      "archive_count": 203,
       "display_name": "Radio Dla Ciebie",
       "public_name": "Radio Dla Ciebie",
       "slug": "rdc",
@@ -277,7 +277,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 204,
+      "archive_count": 203,
       "display_name": "Radio Zielona Góra",
       "public_name": "Radio Zielona Góra",
       "slug": "radiozielonagora",
