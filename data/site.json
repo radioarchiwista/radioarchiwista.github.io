@@ -1,8 +1,8 @@
 {
-  "archive_count": 8549,
+  "archive_count": 8546,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-08T20:34:53.079588+00:00",
+  "generated_at": "2026-04-08T20:42:20.373357+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-04-08T19:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -10,13 +10,10 @@
     "Program 2",
     "Program 3",
     "Polskie Radio 24",
-    "Radio 357",
     "Radio Nowy Świat",
     "TOK FM",
     "Radio Wnet",
     "Radio Republika",
-    "Radio Afera",
-    "Radio Akadera",
     "Radio Białystok",
     "Radio Centrum Lublin",
     "Radio Centrum Rzeszów",
@@ -47,7 +44,7 @@
     "Radio Żak"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-08T20:34:53.079588+00:00",
+  "published_at": "2026-04-08T20:42:20.373357+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
