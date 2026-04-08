@@ -229,10 +229,33 @@
       "utc_label": "2026-04-08 07:00 UTC",
       "utc_started_at": "2026-04-08T07:00:00+00:00",
       "year": 2026
+    },
+    {
+      "archive_item_identifier": "radiobialystok-2026-04-08",
+      "audio_url": "https://archive.org/download/radiobialystok-2026-04-08/radiobialystok_2026-04-08T08-00-00Z.mp3",
+      "completeness_ratio": 0.9866,
+      "day": 8,
+      "download_url": "https://archive.org/download/radiobialystok-2026-04-08/radiobialystok_2026-04-08T08-00-00Z.mp3",
+      "duration_seconds": 3596.736,
+      "hour": 10,
+      "hourly_archive_id": 8473,
+      "local_date_label": "08.04.2026",
+      "local_hour_label": "10:00",
+      "local_label": "2026-04-08 10:00 CEST",
+      "local_started_at": "2026-04-08T10:00:00+02:00",
+      "local_timezone_label": "CEST",
+      "month": 4,
+      "published_at": "2026-04-08T09:16:02.368198+00:00",
+      "published_local_label": "2026-04-08 11:16 CEST",
+      "remote_filename": "radiobialystok_2026-04-08T08-00-00Z.mp3",
+      "status": "published",
+      "utc_label": "2026-04-08 08:00 UTC",
+      "utc_started_at": "2026-04-08T08:00:00+00:00",
+      "year": 2026
     }
   ],
   "day": 8,
-  "generated_at": "2026-04-08T08:59:28.296094+00:00",
+  "generated_at": "2026-04-08T09:16:02.368198+00:00",
   "hour_slots": [
     {
       "archive_status": "published",
@@ -425,7 +448,7 @@
       "year": 2026
     },
     {
-      "archive_status": "ready",
+      "archive_status": "published",
       "completeness_ratio": 0.9866,
       "day": 8,
       "hour": 10,
@@ -436,20 +459,20 @@
       "local_started_at": "2026-04-08T10:00:00+02:00",
       "local_timezone_label": "CEST",
       "month": 4,
-      "playable": false,
-      "state": "publishing",
-      "status_label": "Czeka w kolejce do publikacji",
+      "playable": true,
+      "state": "available",
+      "status_label": null,
       "utc_label": "2026-04-08 08:00 UTC",
       "utc_started_at": "2026-04-08T08:00:00+00:00",
       "year": 2026
     }
   ],
   "latest_archive_hour_expected_station_count": 0,
-  "latest_archive_hour_started_at": "2026-04-08T07:00:00+00:00",
+  "latest_archive_hour_started_at": "2026-04-08T08:00:00+00:00",
   "month": 4,
-  "published_at": "2026-04-08T08:59:28.296094+00:00",
+  "published_at": "2026-04-08T09:16:02.368198+00:00",
   "station": {
-    "archive_count": 199,
+    "archive_count": 202,
     "display_name": "Radio Białystok",
     "public_name": "Radio Białystok",
     "slug": "radiobialystok",
