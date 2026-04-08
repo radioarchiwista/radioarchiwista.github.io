@@ -5,7 +5,6 @@
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-04-08T00:00:00+00:00",
   "latest_archive_hour_stations": [
-    "Program 1",
     "Program 2",
     "Program 3",
     "Polskie Radio 24",
@@ -24,7 +23,7 @@
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
     {
-      "archive_count": 225,
+      "archive_count": 224,
       "display_name": "Program 1",
       "public_name": "Polskie Radio Program 1",
       "slug": "pr1",
@@ -73,7 +72,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 216,
+      "archive_count": 215,
       "display_name": "Radio Wnet",
       "public_name": "Radio Wnet",
       "slug": "wnet",
@@ -129,7 +128,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 200,
+      "archive_count": 199,
       "display_name": "Radio Gdańsk",
       "public_name": "Radio Gdańsk",
       "slug": "radiogdansk",
@@ -220,7 +219,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 199,
+      "archive_count": 198,
       "display_name": "Radio PiK",
       "public_name": "Radio PiK",
       "slug": "radiopik",
