@@ -48,6 +48,29 @@
     },
     {
       "archive_item_identifier": "radiobialystok-2026-03-30",
+      "audio_url": "https://archive.org/download/radiobialystok-2026-03-30/radiobialystok_2026-03-30T15-00-00Z.mp3",
+      "completeness_ratio": 0.9989,
+      "day": 30,
+      "download_url": "https://archive.org/download/radiobialystok-2026-03-30/radiobialystok_2026-03-30T15-00-00Z.mp3",
+      "duration_seconds": 3598.656,
+      "hour": 17,
+      "hourly_archive_id": 1681,
+      "local_date_label": "30.03.2026",
+      "local_hour_label": "17:00",
+      "local_label": "2026-03-30 17:00 CEST",
+      "local_started_at": "2026-03-30T17:00:00+02:00",
+      "local_timezone_label": "CEST",
+      "month": 3,
+      "published_at": "2026-04-08T09:37:02.348505+00:00",
+      "published_local_label": "2026-04-08 11:37 CEST",
+      "remote_filename": "radiobialystok_2026-03-30T15-00-00Z.mp3",
+      "status": "published",
+      "utc_label": "2026-03-30 15:00 UTC",
+      "utc_started_at": "2026-03-30T15:00:00+00:00",
+      "year": 2026
+    },
+    {
+      "archive_item_identifier": "radiobialystok-2026-03-30",
       "audio_url": "https://archive.org/download/radiobialystok-2026-03-30/2026-03-30T16-00-00Z.mp3",
       "completeness_ratio": 0.9954,
       "day": 30,
@@ -470,7 +493,7 @@
       "year": 2026
     },
     {
-      "archive_status": "ready",
+      "archive_status": "error",
       "completeness_ratio": 0.6344,
       "day": 30,
       "hour": 16,
@@ -482,14 +505,14 @@
       "local_timezone_label": "CEST",
       "month": 3,
       "playable": false,
-      "state": "publishing",
-      "status_label": "Czeka w kolejce do publikacji",
+      "state": "failed",
+      "status_label": "Nie udało się przygotować nagrania",
       "utc_label": "2026-03-30 14:00 UTC",
       "utc_started_at": "2026-03-30T14:00:00+00:00",
       "year": 2026
     },
     {
-      "archive_status": "ready",
+      "archive_status": "published",
       "completeness_ratio": 0.9989,
       "day": 30,
       "hour": 17,
@@ -500,9 +523,9 @@
       "local_started_at": "2026-03-30T17:00:00+02:00",
       "local_timezone_label": "CEST",
       "month": 3,
-      "playable": false,
-      "state": "publishing",
-      "status_label": "Czeka w kolejce do publikacji",
+      "playable": true,
+      "state": "available",
+      "status_label": null,
       "utc_label": "2026-03-30 15:00 UTC",
       "utc_started_at": "2026-03-30T15:00:00+00:00",
       "year": 2026
@@ -565,7 +588,7 @@
       "year": 2026
     },
     {
-      "archive_status": "ready",
+      "archive_status": "error",
       "completeness_ratio": 0.9054,
       "day": 30,
       "hour": 21,
@@ -577,8 +600,8 @@
       "local_timezone_label": "CEST",
       "month": 3,
       "playable": false,
-      "state": "publishing",
-      "status_label": "Czeka w kolejce do publikacji",
+      "state": "failed",
+      "status_label": "Nie udało się przygotować nagrania",
       "utc_label": "2026-03-30 19:00 UTC",
       "utc_started_at": "2026-03-30T19:00:00+00:00",
       "year": 2026
@@ -627,7 +650,7 @@
   "month": 3,
   "published_at": "2026-04-08T12:50:41.260278+00:00",
   "station": {
-    "archive_count": 204,
+    "archive_count": 206,
     "display_name": "Radio Białystok",
     "public_name": "Radio Białystok",
     "slug": "radiobialystok",
