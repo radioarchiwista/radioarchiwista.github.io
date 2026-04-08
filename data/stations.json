@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-08T15:16:26.168336+00:00",
+  "generated_at": "2026-04-08T15:26:45.723534+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-04-08T14:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -26,7 +26,7 @@
     "Radio Łódź"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-08T15:16:26.168336+00:00",
+  "published_at": "2026-04-08T15:26:45.723534+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -59,7 +59,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 224,
+      "archive_count": 223,
       "display_name": "Radio 357",
       "public_name": "Radio 357",
       "slug": "radio357",
@@ -164,7 +164,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 218,
+      "archive_count": 217,
       "display_name": "Radio Katowice",
       "public_name": "Radio Katowice",
       "slug": "radiokatowice",
@@ -248,7 +248,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 213,
+      "archive_count": 212,
       "display_name": "Radio Szczecin",
       "public_name": "Radio Szczecin",
       "slug": "radioszczecin",
@@ -262,21 +262,21 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 213,
+      "archive_count": 212,
       "display_name": "Radio UWM FM",
       "public_name": "Radio UWM FM",
       "slug": "radiouwmfm",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 213,
+      "archive_count": 212,
       "display_name": "Radio Wrocław",
       "public_name": "Radio Wrocław",
       "slug": "radiowroclaw",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 213,
+      "archive_count": 212,
       "display_name": "Radio Zachód",
       "public_name": "Radio Zachód",
       "slug": "radiozachod",
