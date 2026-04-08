@@ -7,7 +7,6 @@
   "latest_archive_hour_stations": [
     "Program 1",
     "Program 2",
-    "Program 3",
     "Polskie Radio 24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
@@ -30,7 +29,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 234,
+      "archive_count": 233,
       "display_name": "Program 3",
       "public_name": "Polskie Radio Program 3",
       "slug": "pr3",
@@ -44,7 +43,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 213,
+      "archive_count": 212,
       "display_name": "Radio 357",
       "public_name": "Radio 357",
       "slug": "radio357",
@@ -79,14 +78,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 211,
+      "archive_count": 210,
       "display_name": "Radio Afera",
       "public_name": "Radio Afera",
       "slug": "afera",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 212,
+      "archive_count": 211,
       "display_name": "Radio Akadera",
       "public_name": "Radio Akadera",
       "slug": "radioakadera",
