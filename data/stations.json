@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-08T09:18:37.390557+00:00",
+  "generated_at": "2026-04-08T09:37:02.348505+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-04-08T08:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -21,7 +21,7 @@
     "Radio Kampus"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-08T09:18:37.390557+00:00",
+  "published_at": "2026-04-08T09:37:02.348505+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -68,7 +68,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 212,
+      "archive_count": 211,
       "display_name": "TOK FM",
       "public_name": "TOK FM",
       "slug": "tokfm",
@@ -82,7 +82,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 223,
+      "archive_count": 222,
       "display_name": "Radio Republika",
       "public_name": "Radio Republika",
       "slug": "republika",
