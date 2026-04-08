@@ -24,29 +24,6 @@
       "year": 2026
     },
     {
-      "archive_item_identifier": "radioslupsk-2026-04-06",
-      "audio_url": "https://archive.org/download/radioslupsk-2026-04-06/radioslupsk_2026-04-06T23-00-00Z.mp3",
-      "completeness_ratio": 0.9995,
-      "day": 7,
-      "download_url": "https://archive.org/download/radioslupsk-2026-04-06/radioslupsk_2026-04-06T23-00-00Z.mp3",
-      "duration_seconds": 3599.376,
-      "hour": 1,
-      "hourly_archive_id": 7206,
-      "local_date_label": "07.04.2026",
-      "local_hour_label": "01:00",
-      "local_label": "2026-04-07 01:00 CEST",
-      "local_started_at": "2026-04-07T01:00:00+02:00",
-      "local_timezone_label": "CEST",
-      "month": 4,
-      "published_at": "2026-04-07T05:57:04.291761+00:00",
-      "published_local_label": "2026-04-07 07:57 CEST",
-      "remote_filename": "radioslupsk_2026-04-06T23-00-00Z.mp3",
-      "status": "published",
-      "utc_label": "2026-04-06 23:00 UTC",
-      "utc_started_at": "2026-04-06T23:00:00+00:00",
-      "year": 2026
-    },
-    {
       "archive_item_identifier": "radioslupsk-2026-04-07",
       "audio_url": "https://archive.org/download/radioslupsk-2026-04-07/radioslupsk_2026-04-07T00-00-00Z.mp3",
       "completeness_ratio": 1.0,
@@ -576,7 +553,7 @@
       "year": 2026
     },
     {
-      "archive_status": "published",
+      "archive_status": "error",
       "completeness_ratio": 0.9995,
       "day": 7,
       "hour": 1,
@@ -587,9 +564,9 @@
       "local_started_at": "2026-04-07T01:00:00+02:00",
       "local_timezone_label": "CEST",
       "month": 4,
-      "playable": true,
-      "state": "available",
-      "status_label": null,
+      "playable": false,
+      "state": "failed",
+      "status_label": "Nie udało się przygotować nagrania",
       "utc_label": "2026-04-06 23:00 UTC",
       "utc_started_at": "2026-04-06T23:00:00+00:00",
       "year": 2026
@@ -1018,7 +995,7 @@
   "month": 4,
   "published_at": "2026-04-07T23:55:41.556397+00:00",
   "station": {
-    "archive_count": 200,
+    "archive_count": 198,
     "display_name": "Radio Słupsk",
     "public_name": "Radio Słupsk",
     "slug": "radioslupsk",
