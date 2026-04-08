@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-08T17:36:19.567790+00:00",
+  "generated_at": "2026-04-08T17:40:16.840191+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-04-08T16:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -10,7 +10,6 @@
     "Program 3",
     "Polskie Radio 24",
     "Radio 357",
-    "Radio Afera",
     "Radio Akadera",
     "Radio Białystok",
     "Radio Centrum Lublin",
@@ -27,10 +26,12 @@
     "Radio Luz",
     "Radio Maryja",
     "Radio Olsztyn",
+    "Radio Opole",
+    "Radio PiK",
     "Radio Łódź"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-08T17:36:19.567790+00:00",
+  "published_at": "2026-04-08T17:40:16.840191+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -98,7 +99,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 218,
+      "archive_count": 217,
       "display_name": "Radio Afera",
       "public_name": "Radio Afera",
       "slug": "afera",
@@ -224,14 +225,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 172,
+      "archive_count": 173,
       "display_name": "Radio Opole",
       "public_name": "Radio Opole",
       "slug": "radioopole",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 217,
+      "archive_count": 218,
       "display_name": "Radio PiK",
       "public_name": "Radio PiK",
       "slug": "radiopik",
