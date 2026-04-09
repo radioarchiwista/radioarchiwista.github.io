@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-09T11:53:59.611741+00:00",
+  "generated_at": "2026-04-09T12:00:39.413171+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-04-09T10:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -31,7 +31,12 @@
     "Radio Lublin",
     "Radio Luz",
     "Radio Olsztyn",
+    "Radio Opole",
+    "Radio PiK",
+    "Radio Poznań",
+    "Radio Rzeszów",
     "Radio Szczecin",
+    "Radio Słupsk",
     "Radio UWM FM",
     "Radio Wrocław",
     "Radio Zachód",
@@ -40,7 +45,7 @@
     "Radio Żak"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-09T11:53:59.611741+00:00",
+  "published_at": "2026-04-09T12:00:39.413171+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -220,14 +225,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 89,
+      "archive_count": 87,
       "display_name": "Radio Maryja",
       "public_name": "Radio Maryja",
       "slug": "radiomaryja",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 235,
+      "archive_count": 236,
       "display_name": "Radio Olsztyn",
       "public_name": "Radio Olsztyn",
       "slug": "radioolsztyn",
