@@ -862,6 +862,25 @@
       "utc_label": "2026-04-09 18:00 UTC",
       "utc_started_at": "2026-04-09T18:00:00+00:00",
       "year": 2026
+    },
+    {
+      "archive_status": "ready",
+      "completeness_ratio": 0.9985,
+      "day": 9,
+      "hour": 21,
+      "hourly_archive_id": 9836,
+      "local_date_label": "09.04.2026",
+      "local_hour_label": "21:00",
+      "local_label": "2026-04-09 21:00 CEST",
+      "local_started_at": "2026-04-09T21:00:00+02:00",
+      "local_timezone_label": "CEST",
+      "month": 4,
+      "playable": false,
+      "state": "publishing",
+      "status_label": "Czeka w kolejce do publikacji",
+      "utc_label": "2026-04-09 19:00 UTC",
+      "utc_started_at": "2026-04-09T19:00:00+00:00",
+      "year": 2026
     }
   ],
   "latest_archive_hour_expected_station_count": 0,
@@ -869,7 +888,7 @@
   "month": 4,
   "published_at": "2026-04-09T19:51:12.529061+00:00",
   "station": {
-    "archive_count": 251,
+    "archive_count": 245,
     "display_name": "Radio 357",
     "public_name": "Radio 357",
     "slug": "radio357",
