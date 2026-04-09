@@ -163,29 +163,6 @@
     },
     {
       "archive_item_identifier": "radiomaryja-2026-04-09",
-      "audio_url": "https://archive.org/download/radiomaryja-2026-04-09/radiomaryja_2026-04-09T06-00-00Z.mp3",
-      "completeness_ratio": 0.9962,
-      "day": 9,
-      "download_url": "https://archive.org/download/radiomaryja-2026-04-09/radiomaryja_2026-04-09T06-00-00Z.mp3",
-      "duration_seconds": 3581.856,
-      "hour": 8,
-      "hourly_archive_id": 9345,
-      "local_date_label": "09.04.2026",
-      "local_hour_label": "08:00",
-      "local_label": "2026-04-09 08:00 CEST",
-      "local_started_at": "2026-04-09T08:00:00+02:00",
-      "local_timezone_label": "CEST",
-      "month": 4,
-      "published_at": "2026-04-09T12:00:39.413171+00:00",
-      "published_local_label": "2026-04-09 14:00 CEST",
-      "remote_filename": "radiomaryja_2026-04-09T06-00-00Z.mp3",
-      "status": "published",
-      "utc_label": "2026-04-09 06:00 UTC",
-      "utc_started_at": "2026-04-09T06:00:00+00:00",
-      "year": 2026
-    },
-    {
-      "archive_item_identifier": "radiomaryja-2026-04-09",
       "audio_url": "https://archive.org/download/radiomaryja-2026-04-09/radiomaryja_2026-04-09T07-00-00Z.mp3",
       "completeness_ratio": 0.9928,
       "day": 9,
@@ -229,10 +206,33 @@
       "utc_label": "2026-04-09 08:00 UTC",
       "utc_started_at": "2026-04-09T08:00:00+00:00",
       "year": 2026
+    },
+    {
+      "archive_item_identifier": "radiomaryja-2026-04-09",
+      "audio_url": "https://archive.org/download/radiomaryja-2026-04-09/radiomaryja_2026-04-09T09-00-00Z.mp3",
+      "completeness_ratio": 0.995,
+      "day": 9,
+      "download_url": "https://archive.org/download/radiomaryja-2026-04-09/radiomaryja_2026-04-09T09-00-00Z.mp3",
+      "duration_seconds": 3588.648,
+      "hour": 11,
+      "hourly_archive_id": 9462,
+      "local_date_label": "09.04.2026",
+      "local_hour_label": "11:00",
+      "local_label": "2026-04-09 11:00 CEST",
+      "local_started_at": "2026-04-09T11:00:00+02:00",
+      "local_timezone_label": "CEST",
+      "month": 4,
+      "published_at": "2026-04-09T12:02:53.884304+00:00",
+      "published_local_label": "2026-04-09 14:02 CEST",
+      "remote_filename": "radiomaryja_2026-04-09T09-00-00Z.mp3",
+      "status": "published",
+      "utc_label": "2026-04-09 09:00 UTC",
+      "utc_started_at": "2026-04-09T09:00:00+00:00",
+      "year": 2026
     }
   ],
   "day": 9,
-  "generated_at": "2026-04-09T12:00:39.413171+00:00",
+  "generated_at": "2026-04-09T12:02:53.884304+00:00",
   "hour_slots": [
     {
       "archive_status": "published",
@@ -387,7 +387,7 @@
       "year": 2026
     },
     {
-      "archive_status": "published",
+      "archive_status": "ready",
       "completeness_ratio": 0.9962,
       "day": 9,
       "hour": 8,
@@ -398,9 +398,9 @@
       "local_started_at": "2026-04-09T08:00:00+02:00",
       "local_timezone_label": "CEST",
       "month": 4,
-      "playable": true,
-      "state": "available",
-      "status_label": null,
+      "playable": false,
+      "state": "publishing",
+      "status_label": "Czeka w kolejce do publikacji",
       "utc_label": "2026-04-09 06:00 UTC",
       "utc_started_at": "2026-04-09T06:00:00+00:00",
       "year": 2026
@@ -444,7 +444,7 @@
       "year": 2026
     },
     {
-      "archive_status": "ready",
+      "archive_status": "published",
       "completeness_ratio": 0.995,
       "day": 9,
       "hour": 11,
@@ -455,9 +455,9 @@
       "local_started_at": "2026-04-09T11:00:00+02:00",
       "local_timezone_label": "CEST",
       "month": 4,
-      "playable": false,
-      "state": "publishing",
-      "status_label": "Czeka w kolejce do publikacji",
+      "playable": true,
+      "state": "available",
+      "status_label": null,
       "utc_label": "2026-04-09 09:00 UTC",
       "utc_started_at": "2026-04-09T09:00:00+00:00",
       "year": 2026
@@ -502,9 +502,9 @@
     }
   ],
   "latest_archive_hour_expected_station_count": 0,
-  "latest_archive_hour_started_at": "2026-04-09T08:00:00+00:00",
+  "latest_archive_hour_started_at": "2026-04-09T09:00:00+00:00",
   "month": 4,
-  "published_at": "2026-04-09T12:00:39.413171+00:00",
+  "published_at": "2026-04-09T12:02:53.884304+00:00",
   "station": {
     "archive_count": 87,
     "display_name": "Radio Maryja",
