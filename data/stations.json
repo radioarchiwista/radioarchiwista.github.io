@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-09T21:18:40.318042+00:00",
+  "generated_at": "2026-04-09T21:34:13.079602+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-04-09T20:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -9,7 +9,6 @@
     "Program 2",
     "Program 3",
     "Polskie Radio 24",
-    "Radio 357",
     "Radio Afera",
     "Radio Akadera",
     "Radio Białystok",
@@ -23,7 +22,7 @@
     "Radio Kielce"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-09T21:18:40.318042+00:00",
+  "published_at": "2026-04-09T21:34:13.079602+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -56,7 +55,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 250,
+      "archive_count": 249,
       "display_name": "Radio 357",
       "public_name": "Radio 357",
       "slug": "radio357",
@@ -280,7 +279,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 244,
+      "archive_count": 243,
       "display_name": "Radio Zielona Góra",
       "public_name": "Radio Zielona Góra",
       "slug": "radiozielonagora",
