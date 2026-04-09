@@ -1,8 +1,8 @@
 {
-  "archive_count": 9031,
+  "archive_count": 9051,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-09T09:26:57.362493+00:00",
+  "generated_at": "2026-04-09T09:29:23.559355+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-04-09T08:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -39,10 +39,11 @@
     "Radio Wrocław",
     "Radio Zachód",
     "Radio Zielona Góra",
-    "Radio Łódź"
+    "Radio Łódź",
+    "Radio Żak"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-09T09:26:57.362493+00:00",
+  "published_at": "2026-04-09T09:29:23.559355+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
