@@ -2,6 +2,29 @@
   "archives": [
     {
       "archive_item_identifier": "radiocentrumlublin-2026-03-30",
+      "audio_url": "https://archive.org/download/radiocentrumlublin-2026-03-30/radiocentrumlublin_2026-03-30T14-00-00Z.mp3",
+      "completeness_ratio": 0.6342,
+      "day": 30,
+      "download_url": "https://archive.org/download/radiocentrumlublin-2026-03-30/radiocentrumlublin_2026-03-30T14-00-00Z.mp3",
+      "duration_seconds": 3600.024,
+      "hour": 16,
+      "hourly_archive_id": 1739,
+      "local_date_label": "30.03.2026",
+      "local_hour_label": "16:00",
+      "local_label": "2026-03-30 16:00 CEST",
+      "local_started_at": "2026-03-30T16:00:00+02:00",
+      "local_timezone_label": "CEST",
+      "month": 3,
+      "published_at": "2026-04-09T21:18:40.318042+00:00",
+      "published_local_label": "2026-04-09 23:18 CEST",
+      "remote_filename": "radiocentrumlublin_2026-03-30T14-00-00Z.mp3",
+      "status": "published",
+      "utc_label": "2026-03-30 14:00 UTC",
+      "utc_started_at": "2026-03-30T14:00:00+00:00",
+      "year": 2026
+    },
+    {
+      "archive_item_identifier": "radiocentrumlublin-2026-03-30",
       "audio_url": "https://archive.org/download/radiocentrumlublin-2026-03-30/2026-03-30T15-00-00Z.mp3",
       "completeness_ratio": 1.0,
       "day": 30,
@@ -163,7 +186,7 @@
     }
   ],
   "day": 30,
-  "generated_at": "2026-04-09T21:15:22.405738+00:00",
+  "generated_at": "2026-04-09T21:18:40.318042+00:00",
   "hour_slots": [
     {
       "archive_status": null,
@@ -470,7 +493,7 @@
       "year": 2026
     },
     {
-      "archive_status": "error",
+      "archive_status": "published",
       "completeness_ratio": 0.6342,
       "day": 30,
       "hour": 16,
@@ -481,9 +504,9 @@
       "local_started_at": "2026-03-30T16:00:00+02:00",
       "local_timezone_label": "CEST",
       "month": 3,
-      "playable": false,
-      "state": "failed",
-      "status_label": "Nie udało się przygotować nagrania",
+      "playable": true,
+      "state": "available",
+      "status_label": null,
       "utc_label": "2026-03-30 14:00 UTC",
       "utc_started_at": "2026-03-30T14:00:00+00:00",
       "year": 2026
@@ -625,9 +648,9 @@
   "latest_archive_hour_expected_station_count": 0,
   "latest_archive_hour_started_at": "2026-04-09T20:00:00+00:00",
   "month": 3,
-  "published_at": "2026-04-09T21:15:22.405738+00:00",
+  "published_at": "2026-04-09T21:18:40.318042+00:00",
   "station": {
-    "archive_count": 245,
+    "archive_count": 246,
     "display_name": "Radio Centrum Lublin",
     "public_name": "Radio Centrum Lublin",
     "slug": "radiocentrumlublin",
