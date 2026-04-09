@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-09T03:51:16.893361+00:00",
+  "generated_at": "2026-04-09T03:52:57.225359+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-04-09T02:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -23,7 +23,7 @@
     "Radio Słupsk"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-09T03:51:16.893361+00:00",
+  "published_at": "2026-04-09T03:52:57.225359+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -259,14 +259,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 225,
+      "archive_count": 226,
       "display_name": "Radio UWM FM",
       "public_name": "Radio UWM FM",
       "slug": "radiouwmfm",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 225,
+      "archive_count": 226,
       "display_name": "Radio Wrocław",
       "public_name": "Radio Wrocław",
       "slug": "radiowroclaw",
