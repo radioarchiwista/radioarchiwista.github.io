@@ -48,7 +48,7 @@
     }
   ],
   "day": 9,
-  "generated_at": "2026-04-09T00:55:12.805020+00:00",
+  "generated_at": "2026-04-09T04:22:05.890055+00:00",
   "hour_slots": [
     {
       "archive_status": "published",
@@ -127,11 +127,11 @@
       "year": 2026
     },
     {
-      "archive_status": null,
-      "completeness_ratio": null,
+      "archive_status": "ready",
+      "completeness_ratio": 1.0,
       "day": 9,
       "hour": 4,
-      "hourly_archive_id": null,
+      "hourly_archive_id": 9200,
       "local_date_label": "09.04.2026",
       "local_hour_label": "04:00",
       "local_label": "2026-04-09 04:00 CEST",
@@ -139,19 +139,38 @@
       "local_timezone_label": "CEST",
       "month": 4,
       "playable": false,
-      "state": "recorded",
-      "status_label": "Nagranie czeka na złożenie",
+      "state": "publishing",
+      "status_label": "Czeka w kolejce do publikacji",
       "utc_label": "2026-04-09 02:00 UTC",
       "utc_started_at": "2026-04-09T02:00:00+00:00",
+      "year": 2026
+    },
+    {
+      "archive_status": "published",
+      "completeness_ratio": 1.0,
+      "day": 9,
+      "hour": 5,
+      "hourly_archive_id": 9239,
+      "local_date_label": "09.04.2026",
+      "local_hour_label": "05:00",
+      "local_label": "2026-04-09 05:00 CEST",
+      "local_started_at": "2026-04-09T05:00:00+02:00",
+      "local_timezone_label": "CEST",
+      "month": 4,
+      "playable": true,
+      "state": "available",
+      "status_label": null,
+      "utc_label": "2026-04-09 03:00 UTC",
+      "utc_started_at": "2026-04-09T03:00:00+00:00",
       "year": 2026
     }
   ],
   "latest_archive_hour_expected_station_count": 0,
   "latest_archive_hour_started_at": "2026-04-08T23:00:00+00:00",
   "month": 4,
-  "published_at": "2026-04-09T00:55:12.805020+00:00",
+  "published_at": "2026-04-09T04:22:05.890055+00:00",
   "station": {
-    "archive_count": 217,
+    "archive_count": 218,
     "display_name": "Radio Żak",
     "public_name": "Radio Żak",
     "slug": "radiozak",
