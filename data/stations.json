@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-09T12:43:17.260733+00:00",
+  "generated_at": "2026-04-09T12:49:27.213146+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-04-09T11:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -28,11 +28,7 @@
     "Radio Kielce",
     "Radio Koszalin",
     "Radio Kraków",
-    "Radio Lublin",
-    "Radio Luz",
     "Radio Maryja",
-    "Radio Olsztyn",
-    "Radio Opole",
     "Radio PiK",
     "Radio Poznań",
     "Radio Rzeszów",
@@ -46,7 +42,7 @@
     "Radio Żak"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-09T12:43:17.260733+00:00",
+  "published_at": "2026-04-09T12:49:27.213146+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -212,35 +208,35 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 237,
+      "archive_count": 236,
       "display_name": "Radio Lublin",
       "public_name": "Radio Lublin",
       "slug": "radiolublin",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 237,
+      "archive_count": 236,
       "display_name": "Radio Luz",
       "public_name": "Radio Luz",
       "slug": "radioluz",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 89,
+      "archive_count": 88,
       "display_name": "Radio Maryja",
       "public_name": "Radio Maryja",
       "slug": "radiomaryja",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 237,
+      "archive_count": 236,
       "display_name": "Radio Olsztyn",
       "public_name": "Radio Olsztyn",
       "slug": "radioolsztyn",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 192,
+      "archive_count": 191,
       "display_name": "Radio Opole",
       "public_name": "Radio Opole",
       "slug": "radioopole",
