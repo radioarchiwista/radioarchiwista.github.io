@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-09T19:51:44.080666+00:00",
+  "generated_at": "2026-04-09T19:58:29.889126+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-04-09T18:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -28,9 +28,10 @@
     "Radio Kraków",
     "Radio Luz",
     "Radio Maryja",
+    "Radio Olsztyn",
+    "Radio Opole",
     "Radio PiK",
     "Radio Poznań",
-    "Radio Rzeszów",
     "Radio Szczecin",
     "Radio Słupsk",
     "Radio UWM FM",
@@ -41,7 +42,7 @@
     "Radio Żak"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-09T19:51:44.080666+00:00",
+  "published_at": "2026-04-09T19:58:29.889126+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -228,14 +229,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 243,
+      "archive_count": 244,
       "display_name": "Radio Olsztyn",
       "public_name": "Radio Olsztyn",
       "slug": "radioolsztyn",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 198,
+      "archive_count": 199,
       "display_name": "Radio Opole",
       "public_name": "Radio Opole",
       "slug": "radioopole",
@@ -256,7 +257,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 244,
+      "archive_count": 243,
       "display_name": "Radio Rzeszów",
       "public_name": "Radio Rzeszów",
       "slug": "radiorzeszow",
