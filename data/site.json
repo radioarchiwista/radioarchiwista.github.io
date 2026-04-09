@@ -1,8 +1,8 @@
 {
-  "archive_count": 9545,
+  "archive_count": 9542,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-09T22:26:28.682113+00:00",
+  "generated_at": "2026-04-09T22:42:32.515502+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-04-09T21:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -10,7 +10,6 @@
     "Program 2",
     "Program 3",
     "Polskie Radio 24",
-    "Radio 357",
     "Radio Afera",
     "Radio Akadera",
     "Radio Białystok",
@@ -30,7 +29,7 @@
     "Radio Łódź"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-09T22:26:28.682113+00:00",
+  "published_at": "2026-04-09T22:42:32.515502+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
