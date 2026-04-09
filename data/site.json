@@ -1,8 +1,8 @@
 {
-  "archive_count": 9002,
+  "archive_count": 9004,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-09T08:49:19.077491+00:00",
+  "generated_at": "2026-04-09T08:55:15.650029+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-04-09T07:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -19,8 +19,11 @@
     "Radio Centrum Rzeszów",
     "Radio Gdańsk",
     "Radio Gorzów",
-    "Radio Kraków",
-    "Radio Lublin",
+    "Radio Index",
+    "Radio Kampus",
+    "Radio Katowice",
+    "Radio Kielce",
+    "Radio Koszalin",
     "Radio Luz",
     "Radio Maryja",
     "Radio Olsztyn",
@@ -33,11 +36,10 @@
     "Radio UWM FM",
     "Radio Wrocław",
     "Radio Zachód",
-    "Radio Zielona Góra",
-    "Radio Łódź"
+    "Radio Zielona Góra"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-09T08:49:19.077491+00:00",
+  "published_at": "2026-04-09T08:55:15.650029+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
