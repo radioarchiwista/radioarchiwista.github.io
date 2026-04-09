@@ -1,16 +1,17 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-09T21:06:46.827517+00:00",
+  "generated_at": "2026-04-09T21:09:02.560399+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-04-09T20:00:00+00:00",
   "latest_archive_hour_stations": [
     "Program 1",
     "Program 2",
+    "Program 3",
     "Polskie Radio 24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-09T21:06:46.827517+00:00",
+  "published_at": "2026-04-09T21:09:02.560399+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -29,7 +30,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 266,
+      "archive_count": 267,
       "display_name": "Program 3",
       "public_name": "Polskie Radio Program 3",
       "slug": "pr3",
@@ -92,7 +93,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 240,
+      "archive_count": 239,
       "display_name": "Radio Białystok",
       "public_name": "Radio Białystok",
       "slug": "radiobialystok",
