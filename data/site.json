@@ -1,8 +1,8 @@
 {
-  "archive_count": 9210,
+  "archive_count": 9212,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-09T13:56:08.269688+00:00",
+  "generated_at": "2026-04-09T14:00:11.926186+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-04-09T12:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -14,11 +14,13 @@
     "Radio Nowy Świat",
     "TOK FM",
     "Radio Wnet",
+    "Radio Republika",
     "Radio Afera",
     "Radio Akadera",
     "Radio Białystok",
     "Radio Centrum Lublin",
     "Radio Centrum Rzeszów",
+    "Radio Dla Ciebie",
     "Radio Gdańsk",
     "Radio Gorzów",
     "Radio Index",
@@ -45,7 +47,7 @@
     "Radio Żak"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-09T13:56:08.269688+00:00",
+  "published_at": "2026-04-09T14:00:11.926186+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
