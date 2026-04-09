@@ -761,11 +761,11 @@
       "year": 2026
     },
     {
-      "archive_status": null,
-      "completeness_ratio": null,
+      "archive_status": "ready",
+      "completeness_ratio": 1.0,
       "day": 9,
       "hour": 18,
-      "hourly_archive_id": null,
+      "hourly_archive_id": 9739,
       "local_date_label": "09.04.2026",
       "local_hour_label": "18:00",
       "local_label": "2026-04-09 18:00 CEST",
@@ -773,8 +773,8 @@
       "local_timezone_label": "CEST",
       "month": 4,
       "playable": false,
-      "state": "recorded",
-      "status_label": "Nagranie czeka na złożenie",
+      "state": "publishing",
+      "status_label": "Czeka w kolejce do publikacji",
       "utc_label": "2026-04-09 16:00 UTC",
       "utc_started_at": "2026-04-09T16:00:00+00:00",
       "year": 2026
@@ -785,7 +785,7 @@
   "month": 4,
   "published_at": "2026-04-09T16:56:31.755389+00:00",
   "station": {
-    "archive_count": 240,
+    "archive_count": 239,
     "display_name": "Radio Poznań",
     "public_name": "Radio Poznań",
     "slug": "radiopoznan",
