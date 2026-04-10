@@ -1,8 +1,8 @@
 {
-  "archive_count": 9657,
+  "archive_count": 9663,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-10T02:50:56.069833+00:00",
+  "generated_at": "2026-04-10T02:53:41.148386+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-04-10T01:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -20,7 +20,7 @@
     "Radio Gorzów"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-10T02:50:56.069833+00:00",
+  "published_at": "2026-04-10T02:53:41.148386+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
