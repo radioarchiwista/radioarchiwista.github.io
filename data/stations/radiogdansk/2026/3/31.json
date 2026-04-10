@@ -48,6 +48,29 @@
     },
     {
       "archive_item_identifier": "radiogdansk-2026-03-31",
+      "audio_url": "https://archive.org/download/radiogdansk-2026-03-31/radiogdansk_2026-03-31T00-00-00Z.mp3",
+      "completeness_ratio": 0.9965,
+      "day": 31,
+      "download_url": "https://archive.org/download/radiogdansk-2026-03-31/radiogdansk_2026-03-31T00-00-00Z.mp3",
+      "duration_seconds": 3599.688,
+      "hour": 2,
+      "hourly_archive_id": 1013,
+      "local_date_label": "31.03.2026",
+      "local_hour_label": "02:00",
+      "local_label": "2026-03-31 02:00 CEST",
+      "local_started_at": "2026-03-31T02:00:00+02:00",
+      "local_timezone_label": "CEST",
+      "month": 3,
+      "published_at": "2026-04-10T14:41:14.834266+00:00",
+      "published_local_label": "2026-04-10 16:41 CEST",
+      "remote_filename": "radiogdansk_2026-03-31T00-00-00Z.mp3",
+      "status": "published",
+      "utc_label": "2026-03-31 00:00 UTC",
+      "utc_started_at": "2026-03-31T00:00:00+00:00",
+      "year": 2026
+    },
+    {
+      "archive_item_identifier": "radiogdansk-2026-03-31",
       "audio_url": "https://archive.org/download/radiogdansk-2026-03-31/2026-03-31T02-00-00Z.mp3",
       "completeness_ratio": 1.0,
       "day": 31,
@@ -462,7 +485,7 @@
     }
   ],
   "day": 31,
-  "generated_at": "2026-04-10T14:15:20.708844+00:00",
+  "generated_at": "2026-04-10T14:46:03.244806+00:00",
   "hour_slots": [
     {
       "archive_status": "published",
@@ -503,7 +526,7 @@
       "year": 2026
     },
     {
-      "archive_status": "error",
+      "archive_status": "published",
       "completeness_ratio": 0.9965,
       "day": 31,
       "hour": 2,
@@ -514,9 +537,9 @@
       "local_started_at": "2026-03-31T02:00:00+02:00",
       "local_timezone_label": "CEST",
       "month": 3,
-      "playable": false,
-      "state": "failed",
-      "status_label": "Nie udało się przygotować nagrania",
+      "playable": true,
+      "state": "available",
+      "status_label": null,
       "utc_label": "2026-03-31 00:00 UTC",
       "utc_started_at": "2026-03-31T00:00:00+00:00",
       "year": 2026
@@ -924,9 +947,9 @@
   "latest_archive_hour_expected_station_count": 0,
   "latest_archive_hour_started_at": "2026-04-10T13:00:00+00:00",
   "month": 3,
-  "published_at": "2026-04-10T14:15:20.708844+00:00",
+  "published_at": "2026-04-10T14:46:03.244806+00:00",
   "station": {
-    "archive_count": 262,
+    "archive_count": 263,
     "display_name": "Radio Gdańsk",
     "public_name": "Radio Gdańsk",
     "slug": "radiogdansk",
