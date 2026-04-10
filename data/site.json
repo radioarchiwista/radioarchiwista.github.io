@@ -1,14 +1,12 @@
 {
-  "archive_count": 9757,
+  "archive_count": 9711,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-10T05:34:54.783315+00:00",
+  "generated_at": "2026-04-10T05:41:58.340213+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-04-10T04:00:00+00:00",
   "latest_archive_hour_stations": [
-    "Program 2",
-    "Program 3",
-    "Polskie Radio 24",
+    "Program 1",
     "Radio 357",
     "TOK FM",
     "Radio Afera",
@@ -23,7 +21,7 @@
     "Radio Zielona Góra"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-10T05:34:54.783315+00:00",
+  "published_at": "2026-04-10T05:41:58.340213+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
