@@ -1,38 +1,14 @@
 {
-  "archives": [
-    {
-      "archive_item_identifier": "tokfm-2026-04-09",
-      "audio_url": "https://archive.org/download/tokfm-2026-04-09/tokfm_2026-04-09T22-00-00Z.mp3",
-      "completeness_ratio": 0.9979,
-      "day": 10,
-      "download_url": "https://archive.org/download/tokfm-2026-04-09/tokfm_2026-04-09T22-00-00Z.mp3",
-      "duration_seconds": 3590.64,
-      "hour": 0,
-      "hourly_archive_id": 9985,
-      "local_date_label": "10.04.2026",
-      "local_hour_label": "00:00",
-      "local_label": "2026-04-10 00:00 CEST",
-      "local_started_at": "2026-04-10T00:00:00+02:00",
-      "local_timezone_label": "CEST",
-      "month": 4,
-      "published_at": "2026-04-10T00:02:06.007397+00:00",
-      "published_local_label": "2026-04-10 02:02 CEST",
-      "remote_filename": "tokfm_2026-04-09T22-00-00Z.mp3",
-      "status": "published",
-      "utc_label": "2026-04-09 22:00 UTC",
-      "utc_started_at": "2026-04-09T22:00:00+00:00",
-      "year": 2026
-    }
-  ],
+  "archives": [],
   "day": 10,
-  "generated_at": "2026-04-10T00:37:56.908933+00:00",
+  "generated_at": "2026-04-10T01:00:24.570075+00:00",
   "hour_slots": [
     {
       "archive_status": "published",
-      "completeness_ratio": 0.9979,
+      "completeness_ratio": 1.0,
       "day": 10,
       "hour": 0,
-      "hourly_archive_id": 9985,
+      "hourly_archive_id": 9974,
       "local_date_label": "10.04.2026",
       "local_hour_label": "00:00",
       "local_label": "2026-04-10 00:00 CEST",
@@ -48,10 +24,10 @@
     },
     {
       "archive_status": "ready",
-      "completeness_ratio": 0.9953,
+      "completeness_ratio": 1.0,
       "day": 10,
       "hour": 1,
-      "hourly_archive_id": 10024,
+      "hourly_archive_id": 10013,
       "local_date_label": "10.04.2026",
       "local_hour_label": "01:00",
       "local_label": "2026-04-10 01:00 CEST",
@@ -86,14 +62,14 @@
     }
   ],
   "latest_archive_hour_expected_station_count": 0,
-  "latest_archive_hour_started_at": "2026-04-09T22:00:00+00:00",
+  "latest_archive_hour_started_at": "2026-04-09T20:00:00+00:00",
   "month": 4,
-  "published_at": "2026-04-10T00:37:56.908933+00:00",
+  "published_at": "2026-04-10T01:00:24.570075+00:00",
   "station": {
-    "archive_count": 252,
-    "display_name": "TOK FM",
-    "public_name": "TOK FM",
-    "slug": "tokfm",
+    "archive_count": 247,
+    "display_name": "Radio Rzeszów",
+    "public_name": "Radio Rzeszów",
+    "slug": "radiorzeszow",
     "timezone": "Europe/Warsaw"
   },
   "year": 2026
