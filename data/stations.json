@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-10T20:41:53.133811+00:00",
+  "generated_at": "2026-04-10T20:45:59.744897+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-04-10T19:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -22,10 +22,16 @@
     "Radio Dla Ciebie",
     "Radio Gdańsk",
     "Radio Gorzów",
+    "Radio Index",
+    "Radio Kampus",
+    "Radio Katowice",
+    "Radio Kielce",
+    "Radio Koszalin",
+    "Radio Kraków",
+    "Radio Lublin",
     "Radio Luz",
     "Radio Maryja",
     "Radio Olsztyn",
-    "Radio Opole",
     "Radio PiK",
     "Radio Poznań",
     "Radio Rzeszów",
@@ -35,10 +41,11 @@
     "Radio Wrocław",
     "Radio Zachód",
     "Radio Zielona Góra",
+    "Radio Łódź",
     "Radio Żak"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-10T20:41:53.133811+00:00",
+  "published_at": "2026-04-10T20:45:59.744897+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -162,14 +169,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 267,
+      "archive_count": 268,
       "display_name": "Radio Index",
       "public_name": "Radio Index",
       "slug": "radioindex",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 257,
+      "archive_count": 258,
       "display_name": "Radio Kampus",
       "public_name": "Radio Kampus",
       "slug": "radiokampus",
@@ -232,7 +239,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 224,
+      "archive_count": 223,
       "display_name": "Radio Opole",
       "public_name": "Radio Opole",
       "slug": "radioopole",
