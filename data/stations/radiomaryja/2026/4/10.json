@@ -390,10 +390,33 @@
       "utc_label": "2026-04-10 14:00 UTC",
       "utc_started_at": "2026-04-10T14:00:00+00:00",
       "year": 2026
+    },
+    {
+      "archive_item_identifier": "radiomaryja-2026-04-10",
+      "audio_url": "https://archive.org/download/radiomaryja-2026-04-10/radiomaryja_2026-04-10T15-00-00Z.mp3",
+      "completeness_ratio": 0.9968,
+      "day": 10,
+      "download_url": "https://archive.org/download/radiomaryja-2026-04-10/radiomaryja_2026-04-10T15-00-00Z.mp3",
+      "duration_seconds": 3585.12,
+      "hour": 17,
+      "hourly_archive_id": 10632,
+      "local_date_label": "10.04.2026",
+      "local_hour_label": "17:00",
+      "local_label": "2026-04-10 17:00 CEST",
+      "local_started_at": "2026-04-10T17:00:00+02:00",
+      "local_timezone_label": "CEST",
+      "month": 4,
+      "published_at": "2026-04-10T16:18:26.638991+00:00",
+      "published_local_label": "2026-04-10 18:18 CEST",
+      "remote_filename": "radiomaryja_2026-04-10T15-00-00Z.mp3",
+      "status": "published",
+      "utc_label": "2026-04-10 15:00 UTC",
+      "utc_started_at": "2026-04-10T15:00:00+00:00",
+      "year": 2026
     }
   ],
   "day": 10,
-  "generated_at": "2026-04-10T15:52:44.542426+00:00",
+  "generated_at": "2026-04-10T16:18:26.638991+00:00",
   "hour_slots": [
     {
       "archive_status": "published",
@@ -719,7 +742,7 @@
       "year": 2026
     },
     {
-      "archive_status": "ready",
+      "archive_status": "published",
       "completeness_ratio": 0.9968,
       "day": 10,
       "hour": 17,
@@ -730,20 +753,20 @@
       "local_started_at": "2026-04-10T17:00:00+02:00",
       "local_timezone_label": "CEST",
       "month": 4,
-      "playable": false,
-      "state": "publishing",
-      "status_label": "Czeka w kolejce do publikacji",
+      "playable": true,
+      "state": "available",
+      "status_label": null,
       "utc_label": "2026-04-10 15:00 UTC",
       "utc_started_at": "2026-04-10T15:00:00+00:00",
       "year": 2026
     }
   ],
   "latest_archive_hour_expected_station_count": 0,
-  "latest_archive_hour_started_at": "2026-04-10T14:00:00+00:00",
+  "latest_archive_hour_started_at": "2026-04-10T15:00:00+00:00",
   "month": 4,
-  "published_at": "2026-04-10T15:52:44.542426+00:00",
+  "published_at": "2026-04-10T16:18:26.638991+00:00",
   "station": {
-    "archive_count": 118,
+    "archive_count": 119,
     "display_name": "Radio Maryja",
     "public_name": "Radio Maryja",
     "slug": "radiomaryja",
