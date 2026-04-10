@@ -25,7 +25,7 @@
     }
   ],
   "day": 10,
-  "generated_at": "2026-04-09T23:37:20.613431+00:00",
+  "generated_at": "2026-04-09T23:56:59.089670+00:00",
   "hour_slots": [
     {
       "archive_status": "published",
@@ -45,14 +45,33 @@
       "utc_label": "2026-04-09 22:00 UTC",
       "utc_started_at": "2026-04-09T22:00:00+00:00",
       "year": 2026
+    },
+    {
+      "archive_status": "ready",
+      "completeness_ratio": 1.0,
+      "day": 10,
+      "hour": 1,
+      "hourly_archive_id": 9987,
+      "local_date_label": "10.04.2026",
+      "local_hour_label": "01:00",
+      "local_label": "2026-04-10 01:00 CEST",
+      "local_started_at": "2026-04-10T01:00:00+02:00",
+      "local_timezone_label": "CEST",
+      "month": 4,
+      "playable": false,
+      "state": "publishing",
+      "status_label": "Czeka w kolejce do publikacji",
+      "utc_label": "2026-04-09 23:00 UTC",
+      "utc_started_at": "2026-04-09T23:00:00+00:00",
+      "year": 2026
     }
   ],
   "latest_archive_hour_expected_station_count": 0,
   "latest_archive_hour_started_at": "2026-04-09T22:00:00+00:00",
   "month": 4,
-  "published_at": "2026-04-09T23:37:20.613431+00:00",
+  "published_at": "2026-04-09T23:56:59.089670+00:00",
   "station": {
-    "archive_count": 271,
+    "archive_count": 272,
     "display_name": "Program 1",
     "public_name": "Polskie Radio Program 1",
     "slug": "pr1",
