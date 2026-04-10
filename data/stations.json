@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-10T01:29:47.693887+00:00",
+  "generated_at": "2026-04-10T01:48:05.854343+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-04-10T00:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -19,7 +19,7 @@
     "Radio Gorzów"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-10T01:29:47.693887+00:00",
+  "published_at": "2026-04-10T01:48:05.854343+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -185,7 +185,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 245,
+      "archive_count": 244,
       "display_name": "Radio Lublin",
       "public_name": "Radio Lublin",
       "slug": "radiolublin",
@@ -234,7 +234,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 246,
+      "archive_count": 245,
       "display_name": "Radio Rzeszów",
       "public_name": "Radio Rzeszów",
       "slug": "radiorzeszow",

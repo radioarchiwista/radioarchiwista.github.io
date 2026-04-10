@@ -301,29 +301,6 @@
     },
     {
       "archive_item_identifier": "pr2-2026-03-30",
-      "audio_url": "https://archive.org/download/pr2-2026-03-30/pr2_2026-03-30T12-00-00Z.mp3",
-      "completeness_ratio": 0.3896,
-      "day": 30,
-      "download_url": "https://archive.org/download/pr2-2026-03-30/pr2_2026-03-30T12-00-00Z.mp3",
-      "duration_seconds": 3599.52,
-      "hour": 14,
-      "hourly_archive_id": 1855,
-      "local_date_label": "30.03.2026",
-      "local_hour_label": "14:00",
-      "local_label": "2026-03-30 14:00 CEST",
-      "local_started_at": "2026-03-30T14:00:00+02:00",
-      "local_timezone_label": "CEST",
-      "month": 3,
-      "published_at": "2026-04-10T01:06:10.482782+00:00",
-      "published_local_label": "2026-04-10 03:06 CEST",
-      "remote_filename": "pr2_2026-03-30T12-00-00Z.mp3",
-      "status": "published",
-      "utc_label": "2026-03-30 12:00 UTC",
-      "utc_started_at": "2026-03-30T12:00:00+00:00",
-      "year": 2026
-    },
-    {
-      "archive_item_identifier": "pr2-2026-03-30",
       "audio_url": "https://archive.org/download/pr2-2026-03-30/pr2_2026-03-30T13-00-00Z.mp3",
       "completeness_ratio": 0.0778,
       "day": 30,
@@ -337,8 +314,8 @@
       "local_started_at": "2026-03-30T15:00:00+02:00",
       "local_timezone_label": "CEST",
       "month": 3,
-      "published_at": "2026-04-10T01:06:10.482782+00:00",
-      "published_local_label": "2026-04-10 03:06 CEST",
+      "published_at": "2026-04-10T01:48:05.854343+00:00",
+      "published_local_label": "2026-04-10 03:48 CEST",
       "remote_filename": "pr2_2026-03-30T13-00-00Z.mp3",
       "status": "published",
       "utc_label": "2026-03-30 13:00 UTC",
@@ -531,7 +508,7 @@
     }
   ],
   "day": 30,
-  "generated_at": "2026-04-10T01:10:40.503003+00:00",
+  "generated_at": "2026-04-10T01:48:05.854343+00:00",
   "hour_slots": [
     {
       "archive_status": "published",
@@ -800,7 +777,7 @@
       "year": 2026
     },
     {
-      "archive_status": "published",
+      "archive_status": "error",
       "completeness_ratio": 0.3896,
       "day": 30,
       "hour": 14,
@@ -811,9 +788,9 @@
       "local_started_at": "2026-03-30T14:00:00+02:00",
       "local_timezone_label": "CEST",
       "month": 3,
-      "playable": true,
-      "state": "available",
-      "status_label": null,
+      "playable": false,
+      "state": "failed",
+      "status_label": "Nie udało się przygotować nagrania",
       "utc_label": "2026-03-30 12:00 UTC",
       "utc_started_at": "2026-03-30T12:00:00+00:00",
       "year": 2026
@@ -993,7 +970,7 @@
   "latest_archive_hour_expected_station_count": 0,
   "latest_archive_hour_started_at": "2026-04-10T00:00:00+00:00",
   "month": 3,
-  "published_at": "2026-04-10T01:10:40.503003+00:00",
+  "published_at": "2026-04-10T01:48:05.854343+00:00",
   "station": {
     "archive_count": 271,
     "display_name": "Program 2",
