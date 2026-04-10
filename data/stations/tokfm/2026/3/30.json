@@ -130,8 +130,8 @@
       "local_started_at": "2026-03-30T09:00:00+02:00",
       "local_timezone_label": "CEST",
       "month": 3,
-      "published_at": "2026-04-10T07:52:57.682009+00:00",
-      "published_local_label": "2026-04-10 09:52 CEST",
+      "published_at": "2026-04-10T08:26:36.491597+00:00",
+      "published_local_label": "2026-04-10 10:26 CEST",
       "remote_filename": "tokfm_2026-03-30T07-00-00Z.mp3",
       "status": "published",
       "utc_label": "2026-03-30 07:00 UTC",
@@ -255,29 +255,6 @@
     },
     {
       "archive_item_identifier": "tokfm-2026-03-30",
-      "audio_url": "https://archive.org/download/tokfm-2026-03-30/tokfm_2026-03-30T14-00-00Z.mp3",
-      "completeness_ratio": 0.4656,
-      "day": 30,
-      "download_url": "https://archive.org/download/tokfm-2026-03-30/tokfm_2026-03-30T14-00-00Z.mp3",
-      "duration_seconds": 3600.024,
-      "hour": 16,
-      "hourly_archive_id": 1842,
-      "local_date_label": "30.03.2026",
-      "local_hour_label": "16:00",
-      "local_label": "2026-03-30 16:00 CEST",
-      "local_started_at": "2026-03-30T16:00:00+02:00",
-      "local_timezone_label": "CEST",
-      "month": 3,
-      "published_at": "2026-04-10T07:48:39.929918+00:00",
-      "published_local_label": "2026-04-10 09:48 CEST",
-      "remote_filename": "tokfm_2026-03-30T14-00-00Z.mp3",
-      "status": "published",
-      "utc_label": "2026-03-30 14:00 UTC",
-      "utc_started_at": "2026-03-30T14:00:00+00:00",
-      "year": 2026
-    },
-    {
-      "archive_item_identifier": "tokfm-2026-03-30",
       "audio_url": "https://archive.org/download/tokfm-2026-03-30/tokfm_2026-03-30T15-00-00Z.mp3",
       "completeness_ratio": 0.9965,
       "day": 30,
@@ -393,7 +370,7 @@
     }
   ],
   "day": 30,
-  "generated_at": "2026-04-10T07:59:56.683417+00:00",
+  "generated_at": "2026-04-10T08:26:36.491597+00:00",
   "hour_slots": [
     {
       "archive_status": null,
@@ -700,7 +677,7 @@
       "year": 2026
     },
     {
-      "archive_status": "published",
+      "archive_status": "error",
       "completeness_ratio": 0.4656,
       "day": 30,
       "hour": 16,
@@ -711,9 +688,9 @@
       "local_started_at": "2026-03-30T16:00:00+02:00",
       "local_timezone_label": "CEST",
       "month": 3,
-      "playable": true,
-      "state": "available",
-      "status_label": null,
+      "playable": false,
+      "state": "failed",
+      "status_label": "Nie udało się przygotować nagrania",
       "utc_label": "2026-03-30 14:00 UTC",
       "utc_started_at": "2026-03-30T14:00:00+00:00",
       "year": 2026
@@ -853,11 +830,11 @@
     }
   ],
   "latest_archive_hour_expected_station_count": 0,
-  "latest_archive_hour_started_at": "2026-04-10T06:00:00+00:00",
+  "latest_archive_hour_started_at": "2026-04-10T07:00:00+00:00",
   "month": 3,
-  "published_at": "2026-04-10T07:59:56.683417+00:00",
+  "published_at": "2026-04-10T08:26:36.491597+00:00",
   "station": {
-    "archive_count": 257,
+    "archive_count": 258,
     "display_name": "TOK FM",
     "public_name": "TOK FM",
     "slug": "tokfm",
