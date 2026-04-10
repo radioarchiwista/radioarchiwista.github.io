@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-10T08:49:06.774532+00:00",
+  "generated_at": "2026-04-10T08:56:31.581856+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-04-10T07:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -10,6 +10,7 @@
     "Program 3",
     "Polskie Radio 24",
     "Radio 357",
+    "TOK FM",
     "Radio Afera",
     "Radio Akadera",
     "Radio Białystok",
@@ -30,7 +31,6 @@
     "Radio Opole",
     "Radio PiK",
     "Radio Poznań",
-    "Radio Rzeszów",
     "Radio Szczecin",
     "Radio Słupsk",
     "Radio UWM FM",
@@ -40,7 +40,7 @@
     "Radio Łódź"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-10T08:49:06.774532+00:00",
+  "published_at": "2026-04-10T08:56:31.581856+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -87,14 +87,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 259,
+      "archive_count": 260,
       "display_name": "TOK FM",
       "public_name": "TOK FM",
       "slug": "tokfm",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 271,
+      "archive_count": 272,
       "display_name": "Radio Wnet",
       "public_name": "Radio Wnet",
       "slug": "wnet",
@@ -255,7 +255,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 257,
+      "archive_count": 256,
       "display_name": "Radio Rzeszów",
       "public_name": "Radio Rzeszów",
       "slug": "radiorzeszow",
