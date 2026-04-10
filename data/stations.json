@@ -1,14 +1,12 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-10T22:25:41.508168+00:00",
+  "generated_at": "2026-04-10T22:34:26.764473+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-04-10T21:00:00+00:00",
   "latest_archive_hour_stations": [
     "Program 1",
-    "Program 2",
     "Program 3",
-    "Polskie Radio 24",
     "Radio 357",
     "Radio Nowy Świat",
     "TOK FM",
@@ -46,7 +44,7 @@
     "Radio Żak"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-10T22:25:41.508168+00:00",
+  "published_at": "2026-04-10T22:34:26.764473+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -58,7 +56,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 292,
+      "archive_count": 291,
       "display_name": "Program 2",
       "public_name": "Polskie Radio Program 2",
       "slug": "pr2",
@@ -72,7 +70,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 292,
+      "archive_count": 291,
       "display_name": "Polskie Radio 24",
       "public_name": "Polskie Radio 24",
       "slug": "pr24",
