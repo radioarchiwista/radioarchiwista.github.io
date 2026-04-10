@@ -243,6 +243,25 @@
       "utc_label": "2026-04-10 06:00 UTC",
       "utc_started_at": "2026-04-10T06:00:00+00:00",
       "year": 2026
+    },
+    {
+      "archive_status": null,
+      "completeness_ratio": null,
+      "day": 10,
+      "hour": 9,
+      "hourly_archive_id": null,
+      "local_date_label": "10.04.2026",
+      "local_hour_label": "09:00",
+      "local_label": "2026-04-10 09:00 CEST",
+      "local_started_at": "2026-04-10T09:00:00+02:00",
+      "local_timezone_label": "CEST",
+      "month": 4,
+      "playable": false,
+      "state": "recorded",
+      "status_label": "Nagranie czeka na złożenie",
+      "utc_label": "2026-04-10 07:00 UTC",
+      "utc_started_at": "2026-04-10T07:00:00+00:00",
+      "year": 2026
     }
   ],
   "latest_archive_hour_expected_station_count": 0,
@@ -250,7 +269,7 @@
   "month": 4,
   "published_at": "2026-04-10T07:52:55.124658+00:00",
   "station": {
-    "archive_count": 254,
+    "archive_count": 253,
     "display_name": "Radio Wrocław",
     "public_name": "Radio Wrocław",
     "slug": "radiowroclaw",
