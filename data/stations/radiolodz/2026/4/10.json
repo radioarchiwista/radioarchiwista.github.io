@@ -165,7 +165,7 @@
       "year": 2026
     },
     {
-      "archive_status": "published",
+      "archive_status": "ready",
       "completeness_ratio": 0.998,
       "day": 10,
       "hour": 6,
@@ -176,9 +176,9 @@
       "local_started_at": "2026-04-10T06:00:00+02:00",
       "local_timezone_label": "CEST",
       "month": 4,
-      "playable": true,
-      "state": "available",
-      "status_label": null,
+      "playable": false,
+      "state": "publishing",
+      "status_label": "Czeka w kolejce do publikacji",
       "utc_label": "2026-04-10 04:00 UTC",
       "utc_started_at": "2026-04-10T04:00:00+00:00",
       "year": 2026
@@ -189,7 +189,7 @@
   "month": 4,
   "published_at": "2026-04-10T05:18:50.102793+00:00",
   "station": {
-    "archive_count": 252,
+    "archive_count": 251,
     "display_name": "Radio Łódź",
     "public_name": "Radio Łódź",
     "slug": "radiolodz",
