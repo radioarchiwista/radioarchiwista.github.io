@@ -1,51 +1,29 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-10T08:02:08.144213+00:00",
+  "generated_at": "2026-04-10T08:08:38.553115+00:00",
   "latest_archive_hour_expected_station_count": 39,
-  "latest_archive_hour_started_at": "2026-04-10T06:00:00+00:00",
+  "latest_archive_hour_started_at": "2026-04-10T07:00:00+00:00",
   "latest_archive_hour_stations": [
     "Program 1",
     "Program 2",
     "Program 3",
-    "Polskie Radio 24",
-    "Radio 357",
-    "TOK FM",
-    "Radio Afera",
-    "Radio Akadera",
-    "Radio Białystok",
-    "Radio Centrum Lublin",
-    "Radio Centrum Rzeszów",
-    "Radio Gdańsk",
-    "Radio Gorzów",
-    "Radio Index",
-    "Radio Kampus",
-    "Radio Katowice",
-    "Radio Kielce",
-    "Radio Koszalin",
-    "Radio Kraków",
-    "Radio Lublin",
-    "Radio Luz",
-    "Radio Maryja",
-    "Radio Słupsk",
-    "Radio Zachód",
-    "Radio Zielona Góra",
-    "Radio Łódź"
+    "Polskie Radio 24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-10T08:02:08.144213+00:00",
+  "published_at": "2026-04-10T08:08:38.553115+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
     {
-      "archive_count": 279,
+      "archive_count": 281,
       "display_name": "Program 1",
       "public_name": "Polskie Radio Program 1",
       "slug": "pr1",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 277,
+      "archive_count": 278,
       "display_name": "Program 2",
       "public_name": "Polskie Radio Program 2",
       "slug": "pr2",
@@ -59,14 +37,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 277,
+      "archive_count": 278,
       "display_name": "Polskie Radio 24",
       "public_name": "Polskie Radio 24",
       "slug": "pr24",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 263,
+      "archive_count": 264,
       "display_name": "Radio 357",
       "public_name": "Radio 357",
       "slug": "radio357",
@@ -87,7 +65,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 269,
+      "archive_count": 270,
       "display_name": "Radio Wnet",
       "public_name": "Radio Wnet",
       "slug": "wnet",
@@ -115,7 +93,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 250,
+      "archive_count": 251,
       "display_name": "Radio Białystok",
       "public_name": "Radio Białystok",
       "slug": "radiobialystok",
@@ -143,7 +121,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 255,
+      "archive_count": 256,
       "display_name": "Radio Gdańsk",
       "public_name": "Radio Gdańsk",
       "slug": "radiogdansk",
@@ -171,21 +149,21 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 257,
+      "archive_count": 258,
       "display_name": "Radio Katowice",
       "public_name": "Radio Katowice",
       "slug": "radiokatowice",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 254,
+      "archive_count": 256,
       "display_name": "Radio Kielce",
       "public_name": "Radio Kielce",
       "slug": "radiokielce",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 255,
+      "archive_count": 256,
       "display_name": "Radio Koszalin",
       "public_name": "Radio Koszalin",
       "slug": "radiokoszalin",
@@ -220,21 +198,21 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 254,
+      "archive_count": 255,
       "display_name": "Radio Olsztyn",
       "public_name": "Radio Olsztyn",
       "slug": "radioolsztyn",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 209,
+      "archive_count": 210,
       "display_name": "Radio Opole",
       "public_name": "Radio Opole",
       "slug": "radioopole",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 254,
+      "archive_count": 255,
       "display_name": "Radio PiK",
       "public_name": "Radio PiK",
       "slug": "radiopik",
@@ -248,14 +226,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 254,
+      "archive_count": 255,
       "display_name": "Radio Rzeszów",
       "public_name": "Radio Rzeszów",
       "slug": "radiorzeszow",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 254,
+      "archive_count": 255,
       "display_name": "Radio Szczecin",
       "public_name": "Radio Szczecin",
       "slug": "radioszczecin",
@@ -276,14 +254,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 253,
+      "archive_count": 254,
       "display_name": "Radio Wrocław",
       "public_name": "Radio Wrocław",
       "slug": "radiowroclaw",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 253,
+      "archive_count": 254,
       "display_name": "Radio Zachód",
       "public_name": "Radio Zachód",
       "slug": "radiozachod",
