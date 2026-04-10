@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-10T22:13:03.565144+00:00",
+  "generated_at": "2026-04-10T22:23:10.140497+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-04-10T21:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -23,7 +23,7 @@
     "Radio Kielce"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-10T22:13:03.565144+00:00",
+  "published_at": "2026-04-10T22:23:10.140497+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -105,7 +105,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 259,
+      "archive_count": 258,
       "display_name": "Radio Białystok",
       "public_name": "Radio Białystok",
       "slug": "radiobialystok",
@@ -161,7 +161,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 271,
+      "archive_count": 270,
       "display_name": "Radio Katowice",
       "public_name": "Radio Katowice",
       "slug": "radiokatowice",
@@ -175,7 +175,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 270,
+      "archive_count": 269,
       "display_name": "Radio Koszalin",
       "public_name": "Radio Koszalin",
       "slug": "radiokoszalin",
@@ -196,7 +196,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 270,
+      "archive_count": 269,
       "display_name": "Radio Luz",
       "public_name": "Radio Luz",
       "slug": "radioluz",
