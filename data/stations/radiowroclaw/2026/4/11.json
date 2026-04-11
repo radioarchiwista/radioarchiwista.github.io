@@ -48,7 +48,7 @@
     }
   ],
   "day": 11,
-  "generated_at": "2026-04-11T05:56:05.850258+00:00",
+  "generated_at": "2026-04-11T06:24:09.738585+00:00",
   "hour_slots": [
     {
       "archive_status": "published",
@@ -184,20 +184,20 @@
       "year": 2026
     },
     {
-      "archive_status": null,
-      "completeness_ratio": null,
+      "archive_status": "published",
+      "completeness_ratio": 1.0,
       "day": 11,
       "hour": 7,
-      "hourly_archive_id": null,
+      "hourly_archive_id": 11187,
       "local_date_label": "11.04.2026",
       "local_hour_label": "07:00",
       "local_label": "2026-04-11 07:00 CEST",
       "local_started_at": "2026-04-11T07:00:00+02:00",
       "local_timezone_label": "CEST",
       "month": 4,
-      "playable": false,
-      "state": "recorded",
-      "status_label": "Nagranie czeka na złożenie",
+      "playable": true,
+      "state": "available",
+      "status_label": null,
       "utc_label": "2026-04-11 05:00 UTC",
       "utc_started_at": "2026-04-11T05:00:00+00:00",
       "year": 2026
@@ -206,9 +206,9 @@
   "latest_archive_hour_expected_station_count": 0,
   "latest_archive_hour_started_at": "2026-04-10T23:00:00+00:00",
   "month": 4,
-  "published_at": "2026-04-11T05:56:05.850258+00:00",
+  "published_at": "2026-04-11T06:24:09.738585+00:00",
   "station": {
-    "archive_count": 275,
+    "archive_count": 277,
     "display_name": "Radio Wrocław",
     "public_name": "Radio Wrocław",
     "slug": "radiowroclaw",
