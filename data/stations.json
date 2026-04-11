@@ -1,10 +1,11 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-11T23:35:38.877954+00:00",
+  "generated_at": "2026-04-11T23:40:52.113448+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-04-11T22:00:00+00:00",
   "latest_archive_hour_stations": [
+    "Program 1",
     "Program 2",
     "Program 3",
     "Polskie Radio 24",
@@ -13,7 +14,6 @@
     "TOK FM",
     "Radio Wnet",
     "Radio Republika",
-    "Radio Afera",
     "Radio Akadera",
     "Radio Białystok",
     "Radio Centrum Lublin",
@@ -45,7 +45,7 @@
     "Radio Żak"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-11T23:35:38.877954+00:00",
+  "published_at": "2026-04-11T23:40:52.113448+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -113,7 +113,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 296,
+      "archive_count": 295,
       "display_name": "Radio Afera",
       "public_name": "Radio Afera",
       "slug": "afera",
@@ -134,7 +134,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 296,
+      "archive_count": 295,
       "display_name": "Radio Centrum Lublin",
       "public_name": "Radio Centrum Lublin",
       "slug": "radiocentrumlublin",
