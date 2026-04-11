@@ -183,10 +183,33 @@
       "utc_label": "2026-04-11 05:00 UTC",
       "utc_started_at": "2026-04-11T05:00:00+00:00",
       "year": 2026
+    },
+    {
+      "archive_item_identifier": "radiogorzow-2026-04-11",
+      "audio_url": "https://archive.org/download/radiogorzow-2026-04-11/radiogorzow_2026-04-11T06-00-00Z.mp3",
+      "completeness_ratio": 0.9967,
+      "day": 11,
+      "download_url": "https://archive.org/download/radiogorzow-2026-04-11/radiogorzow_2026-04-11T06-00-00Z.mp3",
+      "duration_seconds": 3587.688,
+      "hour": 8,
+      "hourly_archive_id": 11207,
+      "local_date_label": "11.04.2026",
+      "local_hour_label": "08:00",
+      "local_label": "2026-04-11 08:00 CEST",
+      "local_started_at": "2026-04-11T08:00:00+02:00",
+      "local_timezone_label": "CEST",
+      "month": 4,
+      "published_at": "2026-04-11T07:46:42.733081+00:00",
+      "published_local_label": "2026-04-11 09:46 CEST",
+      "remote_filename": "radiogorzow_2026-04-11T06-00-00Z.mp3",
+      "status": "published",
+      "utc_label": "2026-04-11 06:00 UTC",
+      "utc_started_at": "2026-04-11T06:00:00+00:00",
+      "year": 2026
     }
   ],
   "day": 11,
-  "generated_at": "2026-04-11T07:31:31.121287+00:00",
+  "generated_at": "2026-04-11T07:46:42.733081+00:00",
   "hour_slots": [
     {
       "archive_status": "published",
@@ -341,7 +364,7 @@
       "year": 2026
     },
     {
-      "archive_status": "ready",
+      "archive_status": "published",
       "completeness_ratio": 0.9967,
       "day": 11,
       "hour": 8,
@@ -352,20 +375,20 @@
       "local_started_at": "2026-04-11T08:00:00+02:00",
       "local_timezone_label": "CEST",
       "month": 4,
-      "playable": false,
-      "state": "publishing",
-      "status_label": "Czeka w kolejce do publikacji",
+      "playable": true,
+      "state": "available",
+      "status_label": null,
       "utc_label": "2026-04-11 06:00 UTC",
       "utc_started_at": "2026-04-11T06:00:00+00:00",
       "year": 2026
     }
   ],
   "latest_archive_hour_expected_station_count": 0,
-  "latest_archive_hour_started_at": "2026-04-11T05:00:00+00:00",
+  "latest_archive_hour_started_at": "2026-04-11T06:00:00+00:00",
   "month": 4,
-  "published_at": "2026-04-11T07:31:31.121287+00:00",
+  "published_at": "2026-04-11T07:46:42.733081+00:00",
   "station": {
-    "archive_count": 279,
+    "archive_count": 280,
     "display_name": "Radio Gorzów",
     "public_name": "Radio Gorzów",
     "slug": "radiogorzow",
