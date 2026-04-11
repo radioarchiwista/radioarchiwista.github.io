@@ -506,30 +506,6 @@
     },
     {
       "archive_item_identifier": "radiobialystok-2026-04-09",
-      "audio_url": "https://archive.org/download/radiobialystok-2026-04-09/radiobialystok_2026-04-09T19-00-00Z.mp3",
-      "completeness_ratio": 0.9997,
-      "day": 9,
-      "download_url": "https://archive.org/download/radiobialystok-2026-04-09/radiobialystok_2026-04-09T19-00-00Z.mp3",
-      "duration_seconds": 3598.488,
-      "hour": 21,
-      "hourly_archive_id": 9838,
-      "local_date_label": "09.04.2026",
-      "local_hour_label": "21:00",
-      "local_label": "2026-04-09 21:00 czasu polskiego",
-      "local_started_at": "2026-04-09T21:00:00+02:00",
-      "local_timezone_label": "czasu polskiego",
-      "month": 4,
-      "published_at": "2026-04-09T20:46:29.772115+00:00",
-      "published_local_label": "2026-04-09 22:46 czasu polskiego",
-      "remote_filename": "radiobialystok_2026-04-09T19-00-00Z.mp3",
-      "station_slug": "radiobialystok",
-      "status": "published",
-      "utc_label": "2026-04-09 19:00 UTC",
-      "utc_started_at": "2026-04-09T19:00:00+00:00",
-      "year": 2026
-    },
-    {
-      "archive_item_identifier": "radiobialystok-2026-04-09",
       "audio_url": "https://archive.org/download/radiobialystok-2026-04-09/radiobialystok_2026-04-09T20-00-00Z.mp3",
       "completeness_ratio": 0.9999,
       "day": 9,
@@ -578,7 +554,7 @@
     }
   ],
   "day": 9,
-  "generated_at": "2026-04-11T20:12:42.474384+00:00",
+  "generated_at": "2026-04-11T20:24:45.519110+00:00",
   "hour_slots": [
     {
       "archive_status": "published",
@@ -980,7 +956,7 @@
       "year": 2026
     },
     {
-      "archive_status": "published",
+      "archive_status": "error",
       "completeness_ratio": 0.9997,
       "day": 9,
       "hour": 21,
@@ -991,9 +967,9 @@
       "local_started_at": "2026-04-09T21:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 4,
-      "playable": true,
-      "state": "available",
-      "status_label": null,
+      "playable": false,
+      "state": "failed",
+      "status_label": "Nie udało się przygotować nagrania",
       "utc_label": "2026-04-09 19:00 UTC",
       "utc_started_at": "2026-04-09T19:00:00+00:00",
       "year": 2026
@@ -1040,9 +1016,9 @@
   "latest_archive_hour_expected_station_count": 0,
   "latest_archive_hour_started_at": "2026-04-11T19:00:00+00:00",
   "month": 4,
-  "published_at": "2026-04-11T20:12:42.474384+00:00",
+  "published_at": "2026-04-11T20:24:45.519110+00:00",
   "station": {
-    "archive_count": 288,
+    "archive_count": 285,
     "display_name": "Radio Białystok",
     "public_name": "Radio Białystok",
     "slug": "radiobialystok",
