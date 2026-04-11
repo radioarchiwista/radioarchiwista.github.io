@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-11T20:46:52.070209+00:00",
+  "generated_at": "2026-04-11T20:53:29.682698+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-04-11T19:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -31,6 +31,8 @@
     "Radio Lublin",
     "Radio Luz",
     "Radio Maryja",
+    "Radio Olsztyn",
+    "Radio Opole",
     "Radio PiK",
     "Radio Poznań",
     "Radio Rzeszów",
@@ -44,7 +46,7 @@
     "Radio Żak"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-11T20:46:52.070209+00:00",
+  "published_at": "2026-04-11T20:53:29.682698+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -77,7 +79,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 301,
+      "archive_count": 300,
       "display_name": "Radio 357",
       "public_name": "Radio 357",
       "slug": "radio357",
@@ -231,14 +233,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 292,
+      "archive_count": 293,
       "display_name": "Radio Olsztyn",
       "public_name": "Radio Olsztyn",
       "slug": "radioolsztyn",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 247,
+      "archive_count": 248,
       "display_name": "Radio Opole",
       "public_name": "Radio Opole",
       "slug": "radioopole",
