@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-11T12:26:14.583375+00:00",
+  "generated_at": "2026-04-11T12:45:55.469895+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-04-11T11:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -46,7 +46,7 @@
     "Radio Żak"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-11T12:26:14.583375+00:00",
+  "published_at": "2026-04-11T12:45:55.469895+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -212,14 +212,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 285,
+      "archive_count": 284,
       "display_name": "Radio Lublin",
       "public_name": "Radio Lublin",
       "slug": "radiolublin",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 285,
+      "archive_count": 284,
       "display_name": "Radio Luz",
       "public_name": "Radio Luz",
       "slug": "radioluz",
