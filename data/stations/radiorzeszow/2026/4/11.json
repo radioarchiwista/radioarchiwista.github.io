@@ -551,11 +551,11 @@
       "year": 2026
     },
     {
-      "archive_status": null,
-      "completeness_ratio": null,
+      "archive_status": "ready",
+      "completeness_ratio": 1.0,
       "day": 11,
       "hour": 13,
-      "hourly_archive_id": null,
+      "hourly_archive_id": 11417,
       "local_date_label": "11.04.2026",
       "local_hour_label": "13:00",
       "local_label": "2026-04-11 13:00 CEST",
@@ -563,8 +563,8 @@
       "local_timezone_label": "CEST",
       "month": 4,
       "playable": false,
-      "state": "recorded",
-      "status_label": "Nagranie czeka na złożenie",
+      "state": "publishing",
+      "status_label": "Czeka w kolejce do publikacji",
       "utc_label": "2026-04-11 11:00 UTC",
       "utc_started_at": "2026-04-11T11:00:00+00:00",
       "year": 2026
@@ -575,7 +575,7 @@
   "month": 4,
   "published_at": "2026-04-11T11:56:06.967946+00:00",
   "station": {
-    "archive_count": 284,
+    "archive_count": 282,
     "display_name": "Radio Rzeszów",
     "public_name": "Radio Rzeszów",
     "slug": "radiorzeszow",
