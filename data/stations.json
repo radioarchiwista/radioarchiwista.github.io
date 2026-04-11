@@ -51,14 +51,14 @@
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
     {
-      "archive_count": 306,
+      "archive_count": 307,
       "display_name": "Program 1",
       "public_name": "Polskie Radio Program 1",
       "slug": "pr1",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 302,
+      "archive_count": 304,
       "display_name": "Program 2",
       "public_name": "Polskie Radio Program 2",
       "slug": "pr2",
@@ -79,21 +79,21 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 289,
+      "archive_count": 291,
       "display_name": "Radio 357",
       "public_name": "Radio 357",
       "slug": "radio357",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 297,
+      "archive_count": 298,
       "display_name": "Radio Nowy Świat",
       "public_name": "Radio Nowy Świat",
       "slug": "rns",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 286,
+      "archive_count": 287,
       "display_name": "TOK FM",
       "public_name": "TOK FM",
       "slug": "tokfm",
