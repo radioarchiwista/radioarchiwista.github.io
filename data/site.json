@@ -1,8 +1,8 @@
 {
-  "archive_count": 10927,
+  "archive_count": 10928,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-11T09:58:42.300110+00:00",
+  "generated_at": "2026-04-11T10:02:20.668077+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-04-11T08:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -31,6 +31,7 @@
     "Radio Kraków",
     "Radio Lublin",
     "Radio Luz",
+    "Radio Maryja",
     "Radio Olsztyn",
     "Radio Opole",
     "Radio PiK",
@@ -46,7 +47,7 @@
     "Radio Żak"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-11T09:58:42.300110+00:00",
+  "published_at": "2026-04-11T10:02:20.668077+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
