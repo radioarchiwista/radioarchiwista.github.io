@@ -146,7 +146,7 @@
       "year": 2026
     },
     {
-      "archive_status": "published",
+      "archive_status": "ready",
       "completeness_ratio": 1.0,
       "day": 11,
       "hour": 5,
@@ -157,9 +157,9 @@
       "local_started_at": "2026-04-11T05:00:00+02:00",
       "local_timezone_label": "CEST",
       "month": 4,
-      "playable": true,
-      "state": "available",
-      "status_label": null,
+      "playable": false,
+      "state": "publishing",
+      "status_label": "Czeka w kolejce do publikacji",
       "utc_label": "2026-04-11 03:00 UTC",
       "utc_started_at": "2026-04-11T03:00:00+00:00",
       "year": 2026
@@ -170,7 +170,7 @@
   "month": 4,
   "published_at": "2026-04-11T04:20:24.118393+00:00",
   "station": {
-    "archive_count": 276,
+    "archive_count": 275,
     "display_name": "Radio Kielce",
     "public_name": "Radio Kielce",
     "slug": "radiokielce",
