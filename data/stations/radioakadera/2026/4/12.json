@@ -1,0 +1,63 @@
+{
+  "archives": [
+    {
+      "archive_item_identifier": "radioakadera-2026-04-11",
+      "audio_url": "https://archive.org/download/radioakadera-2026-04-11/radioakadera_2026-04-11T22-00-00Z.mp3",
+      "completeness_ratio": 1.0,
+      "day": 12,
+      "download_url": "https://archive.org/download/radioakadera-2026-04-11/radioakadera_2026-04-11T22-00-00Z.mp3",
+      "duration_seconds": 3599.935,
+      "hour": 0,
+      "hourly_archive_id": 11908,
+      "local_date_label": "12.04.2026",
+      "local_hour_label": "00:00",
+      "local_label": "2026-04-12 00:00 czasu polskiego",
+      "local_started_at": "2026-04-12T00:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 4,
+      "published_at": "2026-04-11T23:13:18.770902+00:00",
+      "published_local_label": "2026-04-12 01:13 czasu polskiego",
+      "remote_filename": "radioakadera_2026-04-11T22-00-00Z.mp3",
+      "station_slug": "radioakadera",
+      "status": "published",
+      "utc_label": "2026-04-11 22:00 UTC",
+      "utc_started_at": "2026-04-11T22:00:00+00:00",
+      "year": 2026
+    }
+  ],
+  "day": 12,
+  "generated_at": "2026-04-11T23:13:18.770902+00:00",
+  "hour_slots": [
+    {
+      "archive_status": "published",
+      "completeness_ratio": 1.0,
+      "day": 12,
+      "hour": 0,
+      "hourly_archive_id": 11908,
+      "local_date_label": "12.04.2026",
+      "local_hour_label": "00:00",
+      "local_label": "2026-04-12 00:00 czasu polskiego",
+      "local_started_at": "2026-04-12T00:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 4,
+      "playable": true,
+      "state": "available",
+      "status_label": null,
+      "utc_label": "2026-04-11 22:00 UTC",
+      "utc_started_at": "2026-04-11T22:00:00+00:00",
+      "year": 2026
+    }
+  ],
+  "latest_archive_hour_expected_station_count": 0,
+  "latest_archive_hour_started_at": "2026-04-11T22:00:00+00:00",
+  "month": 4,
+  "published_at": "2026-04-11T23:13:18.770902+00:00",
+  "station": {
+    "archive_count": 295,
+    "display_name": "Radio Akadera",
+    "public_name": "Radio Akadera",
+    "slug": "radioakadera",
+    "timezone": "Europe/Warsaw"
+  },
+  "year": 2026
+}
