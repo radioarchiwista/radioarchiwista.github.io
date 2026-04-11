@@ -1,14 +1,14 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-11T17:31:31.398346+00:00",
+  "generated_at": "2026-04-11T18:17:58.706081+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-04-11T15:00:00+00:00",
   "latest_archive_hour_stations": [
     "Program 1"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-11T17:31:31.398346+00:00",
+  "published_at": "2026-04-11T18:17:58.706081+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -41,7 +41,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 296,
+      "archive_count": 294,
       "display_name": "Radio 357",
       "public_name": "Radio 357",
       "slug": "radio357",
@@ -55,7 +55,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 291,
+      "archive_count": 290,
       "display_name": "TOK FM",
       "public_name": "TOK FM",
       "slug": "tokfm",
