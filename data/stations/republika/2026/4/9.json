@@ -551,6 +551,30 @@
       "utc_label": "2026-04-09 20:00 UTC",
       "utc_started_at": "2026-04-09T20:00:00+00:00",
       "year": 2026
+    },
+    {
+      "archive_item_identifier": "republika-2026-04-09",
+      "audio_url": "https://archive.org/download/republika-2026-04-09/republika_2026-04-09T21-00-00Z.mp3",
+      "completeness_ratio": 0.9997,
+      "day": 9,
+      "download_url": "https://archive.org/download/republika-2026-04-09/republika_2026-04-09T21-00-00Z.mp3",
+      "duration_seconds": 3598.92,
+      "hour": 23,
+      "hourly_archive_id": 9944,
+      "local_date_label": "09.04.2026",
+      "local_hour_label": "23:00",
+      "local_label": "2026-04-09 23:00 czasu polskiego",
+      "local_started_at": "2026-04-09T23:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 4,
+      "published_at": "2026-04-09T23:22:36.932813+00:00",
+      "published_local_label": "2026-04-10 01:22 czasu polskiego",
+      "remote_filename": "republika_2026-04-09T21-00-00Z.mp3",
+      "station_slug": "republika",
+      "status": "published",
+      "utc_label": "2026-04-09 21:00 UTC",
+      "utc_started_at": "2026-04-09T21:00:00+00:00",
+      "year": 2026
     }
   ],
   "day": 9,
@@ -994,7 +1018,7 @@
       "year": 2026
     },
     {
-      "archive_status": "error",
+      "archive_status": "published",
       "completeness_ratio": 0.9997,
       "day": 9,
       "hour": 23,
@@ -1005,9 +1029,9 @@
       "local_started_at": "2026-04-09T23:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 4,
-      "playable": false,
-      "state": "failed",
-      "status_label": "Nie udało się przygotować nagrania",
+      "playable": true,
+      "state": "available",
+      "status_label": null,
       "utc_label": "2026-04-09 21:00 UTC",
       "utc_started_at": "2026-04-09T21:00:00+00:00",
       "year": 2026
@@ -1018,7 +1042,7 @@
   "month": 4,
   "published_at": "2026-04-11T22:26:16.396960+00:00",
   "station": {
-    "archive_count": 310,
+    "archive_count": 311,
     "display_name": "Radio Republika",
     "public_name": "Radio Republika",
     "slug": "republika",
