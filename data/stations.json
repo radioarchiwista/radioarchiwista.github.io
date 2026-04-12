@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-12T05:48:38.969740+00:00",
+  "generated_at": "2026-04-12T05:57:54.628691+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-04-12T04:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -10,7 +10,6 @@
     "Program 3",
     "Polskie Radio 24",
     "Radio 357",
-    "TOK FM",
     "Radio Afera",
     "Radio Akadera",
     "Radio Białystok",
@@ -25,7 +24,7 @@
     "Radio Zielona Góra"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-12T05:48:38.969740+00:00",
+  "published_at": "2026-04-12T05:57:54.628691+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -44,7 +43,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 432,
+      "archive_count": 421,
       "display_name": "Program 3",
       "public_name": "Polskie Radio Program 3",
       "slug": "pr3",
@@ -72,14 +71,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 302,
+      "archive_count": 301,
       "display_name": "TOK FM",
       "public_name": "TOK FM",
       "slug": "tokfm",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 314,
+      "archive_count": 313,
       "display_name": "Radio Wnet",
       "public_name": "Radio Wnet",
       "slug": "wnet",
