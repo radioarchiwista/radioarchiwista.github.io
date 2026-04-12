@@ -763,6 +763,19 @@ textarea {
   text-align: center;
 }
 
+.player-footer p {
+  margin: 0;
+}
+
+.player-footer p + p {
+  margin-top: 0.75rem;
+}
+
+.player-footer-note {
+  color: var(--muted);
+  line-height: 1.65;
+}
+
 .player-seo-summary,
 .player-directory,
 .player-station-page {
