@@ -530,30 +530,6 @@
     },
     {
       "archive_item_identifier": "rns-2026-04-12",
-      "audio_url": "https://archive.org/download/rns-2026-04-12/rns_2026-04-12T20-00-00Z.mp3",
-      "completeness_ratio": 1.0,
-      "day": 12,
-      "download_url": "https://archive.org/download/rns-2026-04-12/rns_2026-04-12T20-00-00Z.mp3",
-      "duration_seconds": 3599.935,
-      "hour": 22,
-      "hourly_archive_id": 13297,
-      "local_date_label": "12.04.2026",
-      "local_hour_label": "22:00",
-      "local_label": "2026-04-12 22:00 czasu polskiego",
-      "local_started_at": "2026-04-12T22:00:00+02:00",
-      "local_timezone_label": "czasu polskiego",
-      "month": 4,
-      "published_at": "2026-04-12T21:39:41.936179+00:00",
-      "published_local_label": "2026-04-12 23:39 czasu polskiego",
-      "remote_filename": "rns_2026-04-12T20-00-00Z.mp3",
-      "station_slug": "rns",
-      "status": "published",
-      "utc_label": "2026-04-12 20:00 UTC",
-      "utc_started_at": "2026-04-12T20:00:00+00:00",
-      "year": 2026
-    },
-    {
-      "archive_item_identifier": "rns-2026-04-12",
       "audio_url": "https://archive.org/download/rns-2026-04-12/rns_2026-04-12T21-00-00Z.mp3",
       "completeness_ratio": 0.9997,
       "day": 12,
@@ -999,7 +975,7 @@
       "year": 2026
     },
     {
-      "archive_status": "published",
+      "archive_status": "ready",
       "completeness_ratio": 1.0,
       "day": 12,
       "hour": 22,
@@ -1010,9 +986,9 @@
       "local_started_at": "2026-04-12T22:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 4,
-      "playable": true,
-      "state": "available",
-      "status_label": null,
+      "playable": false,
+      "state": "publishing",
+      "status_label": "Czeka w kolejce do publikacji",
       "utc_label": "2026-04-12 20:00 UTC",
       "utc_started_at": "2026-04-12T20:00:00+00:00",
       "year": 2026
@@ -1038,7 +1014,7 @@
     }
   ],
   "latest_archive_hour_expected_station_count": 0,
-  "latest_archive_hour_started_at": "2026-04-12T21:00:00+00:00",
+  "latest_archive_hour_started_at": "2026-04-12T19:00:00+00:00",
   "month": 4,
   "published_at": "2026-04-12T22:40:43.353768+00:00",
   "station": {
