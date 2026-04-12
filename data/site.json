@@ -1,8 +1,8 @@
 {
-  "archive_count": 11691,
+  "archive_count": 11689,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-12T04:47:26.970897+00:00",
+  "generated_at": "2026-04-12T04:55:41.245633+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-04-12T03:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -17,12 +17,14 @@
     "Radio Centrum Lublin",
     "Radio Centrum Rzeszów",
     "Radio Gdańsk",
+    "Radio Gorzów",
+    "Radio Index",
+    "Radio Kampus",
     "Radio Maryja",
-    "Radio Zachód",
     "Radio Zielona Góra"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-12T04:47:26.970897+00:00",
+  "published_at": "2026-04-12T04:55:41.245633+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
