@@ -386,7 +386,7 @@
     }
   ],
   "day": 17,
-  "generated_at": "2026-04-12T10:04:22.486336+00:00",
+  "generated_at": "2026-04-12T10:11:25.572631+00:00",
   "hour_slots": [
     {
       "archive_status": "published",
@@ -807,11 +807,11 @@
       "year": 2026
     },
     {
-      "archive_status": null,
-      "completeness_ratio": null,
+      "archive_status": "ready",
+      "completeness_ratio": 1.0,
       "day": 17,
       "hour": 22,
-      "hourly_archive_id": null,
+      "hourly_archive_id": 12621,
       "local_date_label": "17.03.2026",
       "local_hour_label": "22:00",
       "local_label": "2026-03-17 22:00 czasu polskiego",
@@ -819,18 +819,18 @@
       "local_timezone_label": "czasu polskiego",
       "month": 3,
       "playable": false,
-      "state": "missing",
-      "status_label": "Nie udało się nagrać",
+      "state": "publishing",
+      "status_label": "Czeka w kolejce do publikacji",
       "utc_label": "2026-03-17 21:00 UTC",
       "utc_started_at": "2026-03-17T21:00:00+00:00",
       "year": 2026
     },
     {
-      "archive_status": null,
-      "completeness_ratio": null,
+      "archive_status": "ready",
+      "completeness_ratio": 1.0,
       "day": 17,
       "hour": 23,
-      "hourly_archive_id": null,
+      "hourly_archive_id": 12622,
       "local_date_label": "17.03.2026",
       "local_hour_label": "23:00",
       "local_label": "2026-03-17 23:00 czasu polskiego",
@@ -838,8 +838,8 @@
       "local_timezone_label": "czasu polskiego",
       "month": 3,
       "playable": false,
-      "state": "missing",
-      "status_label": "Nie udało się nagrać",
+      "state": "publishing",
+      "status_label": "Czeka w kolejce do publikacji",
       "utc_label": "2026-03-17 22:00 UTC",
       "utc_started_at": "2026-03-17T22:00:00+00:00",
       "year": 2026
@@ -848,7 +848,7 @@
   "latest_archive_hour_expected_station_count": 0,
   "latest_archive_hour_started_at": "2026-04-12T08:00:00+00:00",
   "month": 3,
-  "published_at": "2026-04-12T10:04:22.486336+00:00",
+  "published_at": "2026-04-12T10:11:25.572631+00:00",
   "station": {
     "archive_count": 585,
     "display_name": "Program 3",
