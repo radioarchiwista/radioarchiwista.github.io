@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-12T20:42:10.732816+00:00",
+  "generated_at": "2026-04-12T20:48:36.514054+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-04-12T19:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -26,11 +26,6 @@
     "Radio Kampus",
     "Radio Katowice",
     "Radio Koszalin",
-    "Radio Kraków",
-    "Radio Lublin",
-    "Radio Luz",
-    "Radio Maryja",
-    "Radio Olsztyn",
     "Radio Opole",
     "Radio PiK",
     "Radio Poznań",
@@ -41,11 +36,10 @@
     "Radio Wrocław",
     "Radio Zachód",
     "Radio Zielona Góra",
-    "Radio Łódź",
     "Radio Żak"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-12T20:42:10.732816+00:00",
+  "published_at": "2026-04-12T20:48:36.514054+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -204,21 +198,21 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 317,
+      "archive_count": 316,
       "display_name": "Radio Kraków",
       "public_name": "Radio Kraków",
       "slug": "radiokrakow",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 317,
+      "archive_count": 316,
       "display_name": "Radio Lublin",
       "public_name": "Radio Lublin",
       "slug": "radiolublin",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 317,
+      "archive_count": 316,
       "display_name": "Radio Luz",
       "public_name": "Radio Luz",
       "slug": "radioluz",
@@ -309,7 +303,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 316,
+      "archive_count": 315,
       "display_name": "Radio Łódź",
       "public_name": "Radio Łódź",
       "slug": "radiolodz",
