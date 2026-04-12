@@ -105,6 +105,10 @@
     month: "long",
     timeZone: "UTC",
   });
+  const weekdayFormatter = new Intl.DateTimeFormat("pl-PL", {
+    weekday: "long",
+    timeZone: "UTC",
+  });
   const sinkIdStorageKey = "radio-archiwista-player-sink-id";
   const sinkSelectionSupported =
     typeof audio.setSinkId === "function" &&
@@ -477,7 +481,7 @@
     }
     fillSelect(daySelect, days, (day) => ({
       value: String(day),
-      label: String(day).padStart(2, "0"),
+      label: formatDaySelectLabel(selectedYear, selectedMonth, day),
     }));
     const currentDateParts = getCurrentStationDateParts();
     if (
@@ -1837,6 +1841,29 @@
 
   function formatDateLabel(archive) {
     return `${String(archive.day).padStart(2, "0")}.${String(archive.month).padStart(2, "0")}.${archive.year}`;
+  }
+
+  function formatDaySelectLabel(year, month, day) {
+    const dayLabel = String(day).padStart(2, "0");
+    const normalizedYear = Number(year);
+    const normalizedMonth = Number(month);
+    const normalizedDay = Number(day);
+    if (
+      !Number.isInteger(normalizedYear) ||
+      !Number.isInteger(normalizedMonth) ||
+      !Number.isInteger(normalizedDay)
+    ) {
+      return dayLabel;
+    }
+    const date = new Date(Date.UTC(normalizedYear, normalizedMonth - 1, normalizedDay));
+    if (
+      date.getUTCFullYear() !== normalizedYear ||
+      date.getUTCMonth() !== normalizedMonth - 1 ||
+      date.getUTCDate() !== normalizedDay
+    ) {
+      return dayLabel;
+    }
+    return `${dayLabel} · ${weekdayFormatter.format(date)}`;
   }
 
   function getCurrentStationDateParts() {
