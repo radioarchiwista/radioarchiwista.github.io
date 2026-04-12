@@ -1,14 +1,13 @@
 {
-  "archive_count": 12544,
+  "archive_count": 12550,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-12T15:32:17.761871+00:00",
+  "generated_at": "2026-04-12T15:36:43.270700+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-04-12T14:00:00+00:00",
   "latest_archive_hour_stations": [
     "Program 1",
     "Program 2",
-    "Program 3",
     "Polskie Radio 24",
     "Radio 357",
     "Radio Nowy Świat",
@@ -46,7 +45,7 @@
     "Radio Żak"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-12T15:32:17.761871+00:00",
+  "published_at": "2026-04-12T15:36:43.270700+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
