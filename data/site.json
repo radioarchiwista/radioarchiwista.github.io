@@ -1,8 +1,8 @@
 {
-  "archive_count": 11676,
+  "archive_count": 11657,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-12T04:21:08.518847+00:00",
+  "generated_at": "2026-04-12T04:34:36.376207+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-04-12T03:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -19,10 +19,13 @@
     "Radio Gdańsk",
     "Radio Gorzów",
     "Radio Index",
-    "Radio Kampus"
+    "Radio Kampus",
+    "Radio Maryja",
+    "Radio Zachód",
+    "Radio Zielona Góra"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-12T04:21:08.518847+00:00",
+  "published_at": "2026-04-12T04:34:36.376207+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
