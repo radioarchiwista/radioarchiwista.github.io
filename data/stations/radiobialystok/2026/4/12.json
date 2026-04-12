@@ -25,30 +25,6 @@
       "year": 2026
     },
     {
-      "archive_item_identifier": "radiobialystok-2026-04-11",
-      "audio_url": "https://archive.org/download/radiobialystok-2026-04-11/radiobialystok_2026-04-11T23-00-00Z.mp3",
-      "completeness_ratio": 0.9993,
-      "day": 12,
-      "download_url": "https://archive.org/download/radiobialystok-2026-04-11/radiobialystok_2026-04-11T23-00-00Z.mp3",
-      "duration_seconds": 3599.808,
-      "hour": 1,
-      "hourly_archive_id": 11972,
-      "local_date_label": "12.04.2026",
-      "local_hour_label": "01:00",
-      "local_label": "2026-04-12 01:00 czasu polskiego",
-      "local_started_at": "2026-04-12T01:00:00+02:00",
-      "local_timezone_label": "czasu polskiego",
-      "month": 4,
-      "published_at": "2026-04-12T00:12:50.960677+00:00",
-      "published_local_label": "2026-04-12 02:12 czasu polskiego",
-      "remote_filename": "radiobialystok_2026-04-11T23-00-00Z.mp3",
-      "station_slug": "radiobialystok",
-      "status": "published",
-      "utc_label": "2026-04-11 23:00 UTC",
-      "utc_started_at": "2026-04-11T23:00:00+00:00",
-      "year": 2026
-    },
-    {
       "archive_item_identifier": "radiobialystok-2026-04-12",
       "audio_url": "https://archive.org/download/radiobialystok-2026-04-12/radiobialystok_2026-04-12T00-00-00Z.mp3",
       "completeness_ratio": 0.9998,
@@ -96,7 +72,7 @@
       "year": 2026
     },
     {
-      "archive_status": "published",
+      "archive_status": "ready",
       "completeness_ratio": 0.9993,
       "day": 12,
       "hour": 1,
@@ -107,9 +83,9 @@
       "local_started_at": "2026-04-12T01:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 4,
-      "playable": true,
-      "state": "available",
-      "status_label": null,
+      "playable": false,
+      "state": "publishing",
+      "status_label": "Czeka w kolejce do publikacji",
       "utc_label": "2026-04-11 23:00 UTC",
       "utc_started_at": "2026-04-11T23:00:00+00:00",
       "year": 2026
@@ -139,7 +115,7 @@
   "month": 4,
   "published_at": "2026-04-12T01:16:05.685699+00:00",
   "station": {
-    "archive_count": 288,
+    "archive_count": 287,
     "display_name": "Radio Białystok",
     "public_name": "Radio Białystok",
     "slug": "radiobialystok",
