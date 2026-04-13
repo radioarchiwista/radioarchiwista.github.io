@@ -1,10 +1,18 @@
 {
-  "archive_count": 14185,
+  "archive_count": 14206,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-13T22:43:24.969081+00:00",
+  "generated_at": "2026-04-13T22:47:43.872581+00:00",
   "latest_archive_hour_expected_station_count": 39,
-  "latest_archive_hour_missing_stations": [],
+  "latest_archive_hour_missing_stations": [
+    "Radio Kampus",
+    "Radio Katowice",
+    "Radio Kielce",
+    "Radio Koszalin",
+    "Radio Kraków",
+    "Radio Łódź",
+    "Radio Lublin"
+  ],
   "latest_archive_hour_started_at": "2026-04-13T21:00:00+00:00",
   "latest_archive_hour_stations": [
     "Program 1",
@@ -25,12 +33,6 @@
     "Radio Gdańsk",
     "Radio Gorzów",
     "Radio Index",
-    "Radio Kampus",
-    "Radio Katowice",
-    "Radio Kielce",
-    "Radio Koszalin",
-    "Radio Kraków",
-    "Radio Lublin",
     "Radio Luz",
     "Radio Maryja",
     "Radio Olsztyn",
@@ -44,11 +46,10 @@
     "Radio Wrocław",
     "Radio Zachód",
     "Radio Zielona Góra",
-    "Radio Łódź",
     "Radio Żak"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-13T22:43:24.969081+00:00",
+  "published_at": "2026-04-13T22:47:43.872581+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
