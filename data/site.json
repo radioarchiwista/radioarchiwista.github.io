@@ -1,15 +1,11 @@
 {
-  "archive_count": 13002,
+  "archive_count": 12982,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-13T00:24:48.205804+00:00",
+  "generated_at": "2026-04-13T00:43:21.081736+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-04-12T23:00:00+00:00",
   "latest_archive_hour_stations": [
-    "Program 1",
-    "Program 2",
-    "Program 3",
-    "Polskie Radio 24",
     "Radio 357",
     "Radio Afera",
     "Radio Akadera",
@@ -27,12 +23,13 @@
     "Radio Luz",
     "Radio Maryja",
     "Radio Olsztyn",
+    "Radio Opole",
     "Radio PiK",
     "Radio Poznań",
     "Radio Łódź"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-13T00:24:48.205804+00:00",
+  "published_at": "2026-04-13T00:43:21.081736+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
