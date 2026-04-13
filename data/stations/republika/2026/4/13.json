@@ -191,30 +191,6 @@
       "utc_label": "2026-04-13 06:00 UTC",
       "utc_started_at": "2026-04-13T06:00:00+00:00",
       "year": 2026
-    },
-    {
-      "archive_item_identifier": "republika-2026-04-13",
-      "audio_url": "https://archive.org/download/republika-2026-04-13/republika_2026-04-13T07-00-00Z.mp3",
-      "completeness_ratio": 1.0,
-      "day": 13,
-      "download_url": "https://archive.org/download/republika-2026-04-13/republika_2026-04-13T07-00-00Z.mp3",
-      "duration_seconds": 3599.438,
-      "hour": 9,
-      "hourly_archive_id": 13773,
-      "local_date_label": "13.04.2026",
-      "local_hour_label": "09:00",
-      "local_label": "2026-04-13 09:00 czasu polskiego",
-      "local_started_at": "2026-04-13T09:00:00+02:00",
-      "local_timezone_label": "czasu polskiego",
-      "month": 4,
-      "published_at": "2026-04-13T08:24:17.486626+00:00",
-      "published_local_label": "2026-04-13 10:24 czasu polskiego",
-      "remote_filename": "republika_2026-04-13T07-00-00Z.mp3",
-      "station_slug": "republika",
-      "status": "published",
-      "utc_label": "2026-04-13 07:00 UTC",
-      "utc_started_at": "2026-04-13T07:00:00+00:00",
-      "year": 2026
     }
   ],
   "day": 13,
@@ -392,7 +368,7 @@
       "year": 2026
     },
     {
-      "archive_status": "published",
+      "archive_status": "ready",
       "completeness_ratio": 1.0,
       "day": 13,
       "hour": 9,
@@ -403,9 +379,9 @@
       "local_started_at": "2026-04-13T09:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 4,
-      "playable": true,
-      "state": "available",
-      "status_label": null,
+      "playable": false,
+      "state": "publishing",
+      "status_label": "Czeka w kolejce do publikacji",
       "utc_label": "2026-04-13 07:00 UTC",
       "utc_started_at": "2026-04-13T07:00:00+00:00",
       "year": 2026
@@ -416,7 +392,7 @@
   "month": 4,
   "published_at": "2026-04-13T08:46:39.674206+00:00",
   "station": {
-    "archive_count": 344,
+    "archive_count": 343,
     "display_name": "Radio Republika",
     "public_name": "Radio Republika",
     "slug": "republika",
