@@ -1,8 +1,8 @@
 {
-  "archive_count": 13161,
+  "archive_count": 13140,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-13T05:47:14.282913+00:00",
+  "generated_at": "2026-04-13T05:55:39.900731+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-04-13T04:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -24,12 +24,11 @@
     "Radio Koszalin",
     "Radio Kraków",
     "Radio Maryja",
-    "Radio Słupsk",
-    "Radio Zachód",
-    "Radio Zielona Góra"
+    "Radio Opole",
+    "Radio Słupsk"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-13T05:47:14.282913+00:00",
+  "published_at": "2026-04-13T05:55:39.900731+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
