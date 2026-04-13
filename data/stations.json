@@ -1,43 +1,27 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-13T02:58:21.244457+00:00",
+  "generated_at": "2026-04-13T03:06:20.239607+00:00",
   "latest_archive_hour_expected_station_count": 39,
-  "latest_archive_hour_started_at": "2026-04-13T01:00:00+00:00",
+  "latest_archive_hour_started_at": "2026-04-13T02:00:00+00:00",
   "latest_archive_hour_stations": [
     "Program 1",
-    "Program 2",
-    "Program 3",
-    "Polskie Radio 24",
-    "Radio 357",
-    "Radio Afera",
-    "Radio Akadera",
-    "Radio Białystok",
-    "Radio Centrum Lublin",
-    "Radio Centrum Rzeszów",
-    "Radio Gdańsk",
-    "Radio Gorzów",
-    "Radio Index",
-    "Radio Kampus",
-    "Radio Koszalin",
-    "Radio Kraków",
-    "Radio Maryja",
-    "Radio Opole"
+    "Program 2"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-13T02:58:21.244457+00:00",
+  "published_at": "2026-04-13T03:06:20.239607+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
     {
-      "archive_count": 346,
+      "archive_count": 347,
       "display_name": "Program 1",
       "public_name": "Polskie Radio Program 1",
       "slug": "pr1",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 344,
+      "archive_count": 345,
       "display_name": "Program 2",
       "public_name": "Polskie Radio Program 2",
       "slug": "pr2",
@@ -198,14 +182,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 321,
+      "archive_count": 322,
       "display_name": "Radio Luz",
       "public_name": "Radio Luz",
       "slug": "radioluz",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 175,
+      "archive_count": 176,
       "display_name": "Radio Maryja",
       "public_name": "Radio Maryja",
       "slug": "radiomaryja",
