@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-13T01:13:00.907736+00:00",
+  "generated_at": "2026-04-13T01:41:30.877904+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-04-13T00:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -11,7 +11,7 @@
     "Polskie Radio 24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-13T01:13:00.907736+00:00",
+  "published_at": "2026-04-13T01:41:30.877904+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -37,14 +37,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 342,
+      "archive_count": 341,
       "display_name": "Polskie Radio 24",
       "public_name": "Polskie Radio 24",
       "slug": "pr24",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 328,
+      "archive_count": 324,
       "display_name": "Radio 357",
       "public_name": "Radio 357",
       "slug": "radio357",
@@ -58,7 +58,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 325,
+      "archive_count": 323,
       "display_name": "TOK FM",
       "public_name": "TOK FM",
       "slug": "tokfm",
@@ -93,7 +93,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 315,
+      "archive_count": 311,
       "display_name": "Radio Białystok",
       "public_name": "Radio Białystok",
       "slug": "radiobialystok",
@@ -121,14 +121,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 321,
+      "archive_count": 320,
       "display_name": "Radio Gdańsk",
       "public_name": "Radio Gdańsk",
       "slug": "radiogdansk",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 321,
+      "archive_count": 320,
       "display_name": "Radio Gorzów",
       "public_name": "Radio Gorzów",
       "slug": "radiogorzow",
@@ -205,14 +205,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 275,
+      "archive_count": 274,
       "display_name": "Radio Opole",
       "public_name": "Radio Opole",
       "slug": "radioopole",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 321,
+      "archive_count": 320,
       "display_name": "Radio PiK",
       "public_name": "Radio PiK",
       "slug": "radiopik",
@@ -226,14 +226,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 321,
+      "archive_count": 320,
       "display_name": "Radio Rzeszów",
       "public_name": "Radio Rzeszów",
       "slug": "radiorzeszow",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 321,
+      "archive_count": 320,
       "display_name": "Radio Szczecin",
       "public_name": "Radio Szczecin",
       "slug": "radioszczecin",
@@ -247,28 +247,28 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 321,
+      "archive_count": 320,
       "display_name": "Radio UWM FM",
       "public_name": "Radio UWM FM",
       "slug": "radiouwmfm",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 321,
+      "archive_count": 319,
       "display_name": "Radio Wrocław",
       "public_name": "Radio Wrocław",
       "slug": "radiowroclaw",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 321,
+      "archive_count": 318,
       "display_name": "Radio Zachód",
       "public_name": "Radio Zachód",
       "slug": "radiozachod",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 321,
+      "archive_count": 320,
       "display_name": "Radio Zielona Góra",
       "public_name": "Radio Zielona Góra",
       "slug": "radiozielonagora",
@@ -282,7 +282,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 313,
+      "archive_count": 312,
       "display_name": "Radio Żak",
       "public_name": "Radio Żak",
       "slug": "radiozak",
