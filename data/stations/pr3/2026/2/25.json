@@ -15,8 +15,8 @@
       "local_started_at": "2026-02-25T00:00:00+01:00",
       "local_timezone_label": "czasu polskiego",
       "month": 2,
-      "published_at": "2026-04-13T15:36:06.356185+00:00",
-      "published_local_label": "2026-04-13 17:36 czasu polskiego",
+      "published_at": "2026-04-13T16:15:23.139404+00:00",
+      "published_local_label": "2026-04-13 18:15 czasu polskiego",
       "remote_filename": "pr3_2026-02-24T23-00-00Z.ogg",
       "station_slug": "pr3",
       "status": "published",
@@ -362,7 +362,7 @@
     }
   ],
   "day": 25,
-  "generated_at": "2026-04-13T16:07:43.585807+00:00",
+  "generated_at": "2026-04-13T16:15:47.791941+00:00",
   "hour_slots": [
     {
       "archive_status": "published",
@@ -707,11 +707,11 @@
       "year": 2026
     },
     {
-      "archive_status": null,
-      "completeness_ratio": null,
+      "archive_status": "ready",
+      "completeness_ratio": 1.0,
       "day": 25,
       "hour": 18,
-      "hourly_archive_id": null,
+      "hourly_archive_id": 14271,
       "local_date_label": "25.02.2026",
       "local_hour_label": "18:00",
       "local_label": "2026-02-25 18:00 czasu polskiego",
@@ -719,18 +719,18 @@
       "local_timezone_label": "czasu polskiego",
       "month": 2,
       "playable": false,
-      "state": "missing",
-      "status_label": "Nie udało się nagrać",
+      "state": "publishing",
+      "status_label": "Czeka w kolejce do publikacji",
       "utc_label": "2026-02-25 17:00 UTC",
       "utc_started_at": "2026-02-25T17:00:00+00:00",
       "year": 2026
     },
     {
-      "archive_status": null,
-      "completeness_ratio": null,
+      "archive_status": "ready",
+      "completeness_ratio": 1.0,
       "day": 25,
       "hour": 19,
-      "hourly_archive_id": null,
+      "hourly_archive_id": 14278,
       "local_date_label": "25.02.2026",
       "local_hour_label": "19:00",
       "local_label": "2026-02-25 19:00 czasu polskiego",
@@ -738,8 +738,8 @@
       "local_timezone_label": "czasu polskiego",
       "month": 2,
       "playable": false,
-      "state": "missing",
-      "status_label": "Nie udało się nagrać",
+      "state": "publishing",
+      "status_label": "Czeka w kolejce do publikacji",
       "utc_label": "2026-02-25 18:00 UTC",
       "utc_started_at": "2026-02-25T18:00:00+00:00",
       "year": 2026
@@ -824,7 +824,7 @@
   "latest_archive_hour_expected_station_count": 0,
   "latest_archive_hour_started_at": "2026-04-13T15:00:00+00:00",
   "month": 2,
-  "published_at": "2026-04-13T16:07:43.585807+00:00",
+  "published_at": "2026-04-13T16:15:47.791941+00:00",
   "station": {
     "archive_count": 1135,
     "display_name": "Program 3",
