@@ -390,6 +390,9 @@
         Array.isArray(payload.latest_archive_hour_stations)
           ? payload.latest_archive_hour_stations
           : [],
+        Array.isArray(payload.latest_archive_hour_missing_stations)
+          ? payload.latest_archive_hour_missing_stations
+          : [],
         Number.isFinite(Number(payload.latest_archive_hour_expected_station_count))
           ? Number(payload.latest_archive_hour_expected_station_count)
           : stations.length,
@@ -404,7 +407,7 @@
           allStations = extractStationsFromSelectOptions();
           applyStationFilter();
         }
-        updateSnapshotMeta(null, null, [], fallbackStationCount);
+        updateSnapshotMeta(null, null, [], [], fallbackStationCount);
         setStatus("Nie udało się odświeżyć listy stacji. Używam danych wstępnych.");
         return true;
       }
@@ -1677,6 +1680,7 @@
     publishedAt,
     latestArchiveHourStartedAt,
     latestArchiveHourStations = [],
+    latestArchiveHourMissingStations = [],
     stationCount = 0,
   ) {
     if (!snapshotMetaNode) {
@@ -1706,9 +1710,12 @@
       if (stationCount > 0 && latestArchiveHourStations.length >= stationCount) {
         parts.push("Tę godzinę mają już wszystkie stacje.");
       } else {
-        parts.push(
-          `Mają ją już ${latestArchiveHourStations.length} z ${stationCount || "?"} stacji: ${latestArchiveHourStations.join(", ")}.`,
-        );
+        const availableSummary = `Mają ją już ${latestArchiveHourStations.length} z ${stationCount || "?"} stacji: ${latestArchiveHourStations.join(", ")}.`;
+        if (Array.isArray(latestArchiveHourMissingStations) && latestArchiveHourMissingStations.length > 0) {
+          parts.push(`${availableSummary} Brakuje jeszcze: ${latestArchiveHourMissingStations.join(", ")}.`);
+        } else {
+          parts.push(availableSummary);
+        }
       }
     }
     if (parts.length === 0) {
