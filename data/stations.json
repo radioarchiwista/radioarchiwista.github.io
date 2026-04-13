@@ -1,16 +1,17 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-13T15:06:46.523173+00:00",
+  "generated_at": "2026-04-13T15:17:13.052208+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-04-13T14:00:00+00:00",
   "latest_archive_hour_stations": [
     "Program 1",
     "Program 2",
+    "Program 3",
     "Polskie Radio 24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-13T15:06:46.523173+00:00",
+  "published_at": "2026-04-13T15:17:13.052208+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -29,7 +30,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1100,
+      "archive_count": 1105,
       "display_name": "Program 3",
       "public_name": "Polskie Radio Program 3",
       "slug": "pr3",
@@ -71,7 +72,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 351,
+      "archive_count": 350,
       "display_name": "Radio Republika",
       "public_name": "Radio Republika",
       "slug": "republika",
@@ -113,7 +114,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 335,
+      "archive_count": 334,
       "display_name": "Radio Dla Ciebie",
       "public_name": "Radio Dla Ciebie",
       "slug": "rdc",
@@ -204,7 +205,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 290,
+      "archive_count": 289,
       "display_name": "Radio Opole",
       "public_name": "Radio Opole",
       "slug": "radioopole",
@@ -267,7 +268,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 335,
+      "archive_count": 334,
       "display_name": "Radio Zielona Góra",
       "public_name": "Radio Zielona Góra",
       "slug": "radiozielonagora",
@@ -281,7 +282,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 327,
+      "archive_count": 326,
       "display_name": "Radio Żak",
       "public_name": "Radio Żak",
       "slug": "radiozak",
