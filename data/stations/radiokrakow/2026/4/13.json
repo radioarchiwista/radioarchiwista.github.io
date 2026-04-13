@@ -303,8 +303,8 @@
       "local_started_at": "2026-04-13T12:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 4,
-      "published_at": "2026-04-13T12:04:13.703089+00:00",
-      "published_local_label": "2026-04-13 14:04 czasu polskiego",
+      "published_at": "2026-04-13T12:14:29.860218+00:00",
+      "published_local_label": "2026-04-13 14:14 czasu polskiego",
       "remote_filename": "radiokrakow_2026-04-13T10-00-00Z.mp3",
       "station_slug": "radiokrakow",
       "status": "published",
@@ -314,7 +314,7 @@
     }
   ],
   "day": 13,
-  "generated_at": "2026-04-13T12:08:01.274487+00:00",
+  "generated_at": "2026-04-13T12:14:29.860218+00:00",
   "hour_slots": [
     {
       "archive_status": "published",
@@ -564,11 +564,11 @@
       "year": 2026
     },
     {
-      "archive_status": null,
-      "completeness_ratio": null,
+      "archive_status": "ready",
+      "completeness_ratio": 1.0,
       "day": 13,
       "hour": 13,
-      "hourly_archive_id": null,
+      "hourly_archive_id": 13999,
       "local_date_label": "13.04.2026",
       "local_hour_label": "13:00",
       "local_label": "2026-04-13 13:00 czasu polskiego",
@@ -576,8 +576,8 @@
       "local_timezone_label": "czasu polskiego",
       "month": 4,
       "playable": false,
-      "state": "recorded",
-      "status_label": "Nagranie czeka na złożenie",
+      "state": "publishing",
+      "status_label": "Czeka w kolejce do publikacji",
       "utc_label": "2026-04-13 11:00 UTC",
       "utc_started_at": "2026-04-13T11:00:00+00:00",
       "year": 2026
@@ -586,7 +586,7 @@
   "latest_archive_hour_expected_station_count": 0,
   "latest_archive_hour_started_at": "2026-04-13T10:00:00+00:00",
   "month": 4,
-  "published_at": "2026-04-13T12:08:01.274487+00:00",
+  "published_at": "2026-04-13T12:14:29.860218+00:00",
   "station": {
     "archive_count": 332,
     "display_name": "Radio Kraków",
