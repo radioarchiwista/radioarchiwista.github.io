@@ -2,6 +2,30 @@
   "archives": [
     {
       "archive_item_identifier": "radioopole-2026-03-30",
+      "audio_url": "https://archive.org/download/radioopole-2026-03-30/radioopole_2026-03-30T15-00-00Z.mp3",
+      "completeness_ratio": 0.995,
+      "day": 30,
+      "download_url": "https://archive.org/download/radioopole-2026-03-30/radioopole_2026-03-30T15-00-00Z.mp3",
+      "duration_seconds": 3600.0,
+      "hour": 17,
+      "hourly_archive_id": 1685,
+      "local_date_label": "30.03.2026",
+      "local_hour_label": "17:00",
+      "local_label": "2026-03-30 17:00 czasu polskiego",
+      "local_started_at": "2026-03-30T17:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 3,
+      "published_at": "2026-04-13T05:16:32.978697+00:00",
+      "published_local_label": "2026-04-13 07:16 czasu polskiego",
+      "remote_filename": "radioopole_2026-03-30T15-00-00Z.mp3",
+      "station_slug": "radioopole",
+      "status": "published",
+      "utc_label": "2026-03-30 15:00 UTC",
+      "utc_started_at": "2026-03-30T15:00:00+00:00",
+      "year": 2026
+    },
+    {
+      "archive_item_identifier": "radioopole-2026-03-30",
       "audio_url": "https://archive.org/download/radioopole-2026-03-30/radioopole_2026-03-30T16-00-00Z.mp3",
       "completeness_ratio": 0.9922,
       "day": 30,
@@ -146,7 +170,7 @@
     }
   ],
   "day": 30,
-  "generated_at": "2026-04-13T04:59:33.900807+00:00",
+  "generated_at": "2026-04-13T05:19:59.250226+00:00",
   "hour_slots": [
     {
       "archive_status": null,
@@ -472,7 +496,7 @@
       "year": 2026
     },
     {
-      "archive_status": "error",
+      "archive_status": "published",
       "completeness_ratio": 0.995,
       "day": 30,
       "hour": 17,
@@ -483,9 +507,9 @@
       "local_started_at": "2026-03-30T17:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 3,
-      "playable": false,
-      "state": "failed",
-      "status_label": "Nie udało się przygotować nagrania",
+      "playable": true,
+      "state": "available",
+      "status_label": null,
       "utc_label": "2026-03-30 15:00 UTC",
       "utc_started_at": "2026-03-30T15:00:00+00:00",
       "year": 2026
@@ -606,11 +630,11 @@
     }
   ],
   "latest_archive_hour_expected_station_count": 0,
-  "latest_archive_hour_started_at": "2026-04-13T03:00:00+00:00",
+  "latest_archive_hour_started_at": "2026-04-13T04:00:00+00:00",
   "month": 3,
-  "published_at": "2026-04-13T04:59:33.900807+00:00",
+  "published_at": "2026-04-13T05:19:59.250226+00:00",
   "station": {
-    "archive_count": 278,
+    "archive_count": 280,
     "display_name": "Radio Opole",
     "public_name": "Radio Opole",
     "slug": "radioopole",
