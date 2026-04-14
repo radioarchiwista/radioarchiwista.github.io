@@ -1,19 +1,12 @@
 {
-  "archive_count": 14793,
+  "archive_count": 14806,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-14T09:52:01.121399+00:00",
+  "generated_at": "2026-04-14T09:56:51.548120+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_missing_stations": [
-    "Radio Opole",
-    "Radio PiK",
     "Radio Poznań",
-    "Radio Rzeszów",
-    "Radio Słupsk",
-    "Radio Szczecin",
-    "Radio UWM FM",
-    "Radio Wnet",
-    "Radio Wrocław"
+    "Radio UWM FM"
   ],
   "latest_archive_hour_started_at": "2026-04-14T08:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -24,6 +17,7 @@
     "Radio 357",
     "Radio Nowy Świat",
     "TOK FM",
+    "Radio Wnet",
     "Radio Republika",
     "Radio Afera",
     "Radio Akadera",
@@ -43,13 +37,19 @@
     "Radio Luz",
     "Radio Maryja",
     "Radio Olsztyn",
+    "Radio Opole",
+    "Radio PiK",
+    "Radio Rzeszów",
+    "Radio Szczecin",
+    "Radio Słupsk",
+    "Radio Wrocław",
     "Radio Zachód",
     "Radio Zielona Góra",
     "Radio Łódź",
     "Radio Żak"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-14T09:52:01.121399+00:00",
+  "published_at": "2026-04-14T09:56:51.548120+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
