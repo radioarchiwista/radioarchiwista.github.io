@@ -4,7 +4,6 @@
   "generated_at": "2026-04-14T06:12:21.431357+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_missing_stations": [
-    "Program 3",
     "Radio 357",
     "Radio Afera",
     "Radio Akadera",
@@ -45,6 +44,7 @@
   "latest_archive_hour_stations": [
     "Program 1",
     "Program 2",
+    "Program 3",
     "Polskie Radio 24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
@@ -67,7 +67,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1437,
+      "archive_count": 1439,
       "display_name": "Program 3",
       "public_name": "Polskie Radio Program 3",
       "slug": "pr3",
@@ -81,7 +81,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 358,
+      "archive_count": 357,
       "display_name": "Radio 357",
       "public_name": "Radio 357",
       "slug": "radio357",
@@ -172,14 +172,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 348,
+      "archive_count": 347,
       "display_name": "Radio Index",
       "public_name": "Radio Index",
       "slug": "radioindex",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 338,
+      "archive_count": 337,
       "display_name": "Radio Kampus",
       "public_name": "Radio Kampus",
       "slug": "radiokampus",
@@ -200,14 +200,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 349,
+      "archive_count": 348,
       "display_name": "Radio Koszalin",
       "public_name": "Radio Koszalin",
       "slug": "radiokoszalin",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 349,
+      "archive_count": 348,
       "display_name": "Radio Kraków",
       "public_name": "Radio Kraków",
       "slug": "radiokrakow",
