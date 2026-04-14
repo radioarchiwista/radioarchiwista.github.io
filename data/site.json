@@ -1,12 +1,13 @@
 {
-  "archive_count": 14650,
+  "archive_count": 14672,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-14T07:29:23.231964+00:00",
+  "generated_at": "2026-04-14T07:37:21.676445+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_missing_stations": [
+    "Radio Centrum Lublin",
+    "Radio Centrum Rzeszów",
     "Radio Dla Ciebie",
-    "Radio Index",
     "Radio Kampus",
     "Radio Katowice",
     "Radio Kraków",
@@ -25,10 +26,7 @@
     "Radio UWM FM",
     "Radio Wnet",
     "Radio Wrocław",
-    "Radio Zachód",
-    "Radio Żak",
-    "Radio Zielona Góra",
-    "TOK FM"
+    "Radio Żak"
   ],
   "latest_archive_hour_started_at": "2026-04-14T06:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -37,19 +35,21 @@
     "Program 3",
     "Polskie Radio 24",
     "Radio 357",
+    "TOK FM",
     "Radio Afera",
     "Radio Akadera",
     "Radio Białystok",
-    "Radio Centrum Lublin",
-    "Radio Centrum Rzeszów",
     "Radio Gdańsk",
     "Radio Gorzów",
+    "Radio Index",
     "Radio Kielce",
     "Radio Koszalin",
-    "Radio Maryja"
+    "Radio Maryja",
+    "Radio Zachód",
+    "Radio Zielona Góra"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-14T07:29:23.231964+00:00",
+  "published_at": "2026-04-14T07:37:21.676445+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
