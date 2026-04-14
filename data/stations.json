@@ -1,11 +1,9 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-14T13:09:25.843250+00:00",
+  "generated_at": "2026-04-14T13:14:24.365740+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_missing_stations": [
-    "Polskie Radio 24",
-    "Program 3",
     "Radio 357",
     "Radio Afera",
     "Radio Akadera",
@@ -45,10 +43,12 @@
   "latest_archive_hour_started_at": "2026-04-14T12:00:00+00:00",
   "latest_archive_hour_stations": [
     "Program 1",
-    "Program 2"
+    "Program 2",
+    "Program 3",
+    "Polskie Radio 24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-14T13:09:25.843250+00:00",
+  "published_at": "2026-04-14T13:14:24.365740+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -67,14 +67,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1486,
+      "archive_count": 1487,
       "display_name": "Program 3",
       "public_name": "Polskie Radio Program 3",
       "slug": "pr3",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 377,
+      "archive_count": 378,
       "display_name": "Polskie Radio 24",
       "public_name": "Polskie Radio 24",
       "slug": "pr24",
@@ -130,7 +130,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 352,
+      "archive_count": 351,
       "display_name": "Radio Białystok",
       "public_name": "Radio Białystok",
       "slug": "radiobialystok",
@@ -298,7 +298,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 357,
+      "archive_count": 356,
       "display_name": "Radio Zachód",
       "public_name": "Radio Zachód",
       "slug": "radiozachod",
