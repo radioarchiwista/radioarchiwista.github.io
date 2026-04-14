@@ -2,11 +2,9 @@
   "archive_count": 14971,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-14T13:53:34.018940+00:00",
+  "generated_at": "2026-04-14T14:02:07.061326+00:00",
   "latest_archive_hour_expected_station_count": 39,
-  "latest_archive_hour_missing_stations": [
-    "Radio Kampus"
-  ],
+  "latest_archive_hour_missing_stations": [],
   "latest_archive_hour_started_at": "2026-04-14T12:00:00+00:00",
   "latest_archive_hour_stations": [
     "Program 1",
@@ -27,6 +25,7 @@
     "Radio Gdańsk",
     "Radio Gorzów",
     "Radio Index",
+    "Radio Kampus",
     "Radio Katowice",
     "Radio Kielce",
     "Radio Koszalin",
@@ -49,7 +48,7 @@
     "Radio Żak"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-14T13:53:34.018940+00:00",
+  "published_at": "2026-04-14T14:02:07.061326+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
