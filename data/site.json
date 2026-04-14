@@ -1,25 +1,22 @@
 {
-  "archive_count": 14744,
+  "archive_count": 14750,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-14T08:58:43.612849+00:00",
+  "generated_at": "2026-04-14T08:58:43.585310+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_missing_stations": [
-    "Polskie Radio 24",
-    "Program 3",
-    "Radio Dla Ciebie",
     "Radio Nowy Świat",
     "Radio Poznań",
     "Radio Republika",
     "Radio UWM FM",
-    "Radio Wnet",
-    "Radio Wrocław",
-    "Radio Żak"
+    "Radio Wnet"
   ],
   "latest_archive_hour_started_at": "2026-04-14T07:00:00+00:00",
   "latest_archive_hour_stations": [
     "Program 1",
     "Program 2",
+    "Program 3",
+    "Polskie Radio 24",
     "Radio 357",
     "TOK FM",
     "Radio Afera",
@@ -27,6 +24,7 @@
     "Radio Białystok",
     "Radio Centrum Lublin",
     "Radio Centrum Rzeszów",
+    "Radio Dla Ciebie",
     "Radio Gdańsk",
     "Radio Gorzów",
     "Radio Index",
@@ -44,12 +42,14 @@
     "Radio Rzeszów",
     "Radio Szczecin",
     "Radio Słupsk",
+    "Radio Wrocław",
     "Radio Zachód",
     "Radio Zielona Góra",
-    "Radio Łódź"
+    "Radio Łódź",
+    "Radio Żak"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-14T08:58:43.612849+00:00",
+  "published_at": "2026-04-14T08:58:43.585310+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
