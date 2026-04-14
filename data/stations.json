@@ -1,18 +1,15 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-14T08:47:43.428188+00:00",
+  "generated_at": "2026-04-14T08:58:43.612849+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_missing_stations": [
+    "Polskie Radio 24",
+    "Program 3",
     "Radio Dla Ciebie",
     "Radio Nowy Świat",
-    "Radio Olsztyn",
-    "Radio Opole",
-    "Radio PiK",
     "Radio Poznań",
     "Radio Republika",
-    "Radio Słupsk",
-    "Radio Szczecin",
     "Radio UWM FM",
     "Radio Wnet",
     "Radio Wrocław",
@@ -22,8 +19,6 @@
   "latest_archive_hour_stations": [
     "Program 1",
     "Program 2",
-    "Program 3",
-    "Polskie Radio 24",
     "Radio 357",
     "TOK FM",
     "Radio Afera",
@@ -42,13 +37,18 @@
     "Radio Lublin",
     "Radio Luz",
     "Radio Maryja",
+    "Radio Olsztyn",
+    "Radio Opole",
+    "Radio PiK",
     "Radio Rzeszów",
+    "Radio Szczecin",
+    "Radio Słupsk",
     "Radio Zachód",
     "Radio Zielona Góra",
     "Radio Łódź"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-14T08:47:43.428188+00:00",
+  "published_at": "2026-04-14T08:58:43.612849+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -67,14 +67,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1460,
+      "archive_count": 1470,
       "display_name": "Program 3",
       "public_name": "Polskie Radio Program 3",
       "slug": "pr3",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 373,
+      "archive_count": 372,
       "display_name": "Polskie Radio 24",
       "public_name": "Polskie Radio 24",
       "slug": "pr24",
@@ -193,7 +193,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 328,
+      "archive_count": 329,
       "display_name": "Radio Kielce",
       "public_name": "Radio Kielce",
       "slug": "radiokielce",
@@ -235,28 +235,28 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 352,
+      "archive_count": 353,
       "display_name": "Radio Olsztyn",
       "public_name": "Radio Olsztyn",
       "slug": "radioolsztyn",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 307,
+      "archive_count": 308,
       "display_name": "Radio Opole",
       "public_name": "Radio Opole",
       "slug": "radioopole",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 352,
+      "archive_count": 353,
       "display_name": "Radio PiK",
       "public_name": "Radio PiK",
       "slug": "radiopik",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 349,
+      "archive_count": 350,
       "display_name": "Radio Poznań",
       "public_name": "Radio Poznań",
       "slug": "radiopoznan",
@@ -270,14 +270,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 352,
+      "archive_count": 353,
       "display_name": "Radio Szczecin",
       "public_name": "Radio Szczecin",
       "slug": "radioszczecin",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 352,
+      "archive_count": 353,
       "display_name": "Radio Słupsk",
       "public_name": "Radio Słupsk",
       "slug": "radioslupsk",
