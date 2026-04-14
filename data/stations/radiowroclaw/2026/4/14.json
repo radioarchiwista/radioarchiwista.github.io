@@ -98,7 +98,7 @@
     }
   ],
   "day": 14,
-  "generated_at": "2026-04-14T04:47:44.441206+00:00",
+  "generated_at": "2026-04-14T05:11:11.414110+00:00",
   "hour_slots": [
     {
       "archive_status": "published",
@@ -215,11 +215,11 @@
       "year": 2026
     },
     {
-      "archive_status": null,
-      "completeness_ratio": null,
+      "archive_status": "ready",
+      "completeness_ratio": 1.0,
       "day": 14,
       "hour": 6,
-      "hourly_archive_id": null,
+      "hourly_archive_id": 15054,
       "local_date_label": "14.04.2026",
       "local_hour_label": "06:00",
       "local_label": "2026-04-14 06:00 czasu polskiego",
@@ -227,8 +227,8 @@
       "local_timezone_label": "czasu polskiego",
       "month": 4,
       "playable": false,
-      "state": "recorded",
-      "status_label": "Nagranie czeka na złożenie",
+      "state": "publishing",
+      "status_label": "Czeka w kolejce do publikacji",
       "utc_label": "2026-04-14 04:00 UTC",
       "utc_started_at": "2026-04-14T04:00:00+00:00",
       "year": 2026
@@ -238,9 +238,9 @@
   "latest_archive_hour_missing_stations": [],
   "latest_archive_hour_started_at": "2026-04-13T23:00:00+00:00",
   "month": 4,
-  "published_at": "2026-04-14T04:47:44.441206+00:00",
+  "published_at": "2026-04-14T05:11:11.414110+00:00",
   "station": {
-    "archive_count": 346,
+    "archive_count": 347,
     "display_name": "Radio Wrocław",
     "public_name": "Radio Wrocław",
     "slug": "radiowroclaw",
