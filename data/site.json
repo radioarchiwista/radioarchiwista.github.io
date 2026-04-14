@@ -1,8 +1,8 @@
 {
-  "archive_count": 14276,
+  "archive_count": 14272,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-14T00:15:14.509975+00:00",
+  "generated_at": "2026-04-14T00:33:17.157194+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_missing_stations": [
     "Radio 357",
@@ -49,7 +49,7 @@
     "Polskie Radio 24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-14T00:15:14.509975+00:00",
+  "published_at": "2026-04-14T00:33:17.157194+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
