@@ -1,8 +1,8 @@
 {
-  "archive_count": 14583,
+  "archive_count": 14579,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-14T06:21:02.970913+00:00",
+  "generated_at": "2026-04-14T06:29:50.327418+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_missing_stations": [
     "Radio Centrum Rzeszów",
@@ -26,10 +26,7 @@
     "Radio UWM FM",
     "Radio Wnet",
     "Radio Wrocław",
-    "Radio Zachód",
-    "Radio Żak",
-    "Radio Zielona Góra",
-    "TOK FM"
+    "Radio Żak"
   ],
   "latest_archive_hour_started_at": "2026-04-14T05:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -38,6 +35,7 @@
     "Program 3",
     "Polskie Radio 24",
     "Radio 357",
+    "TOK FM",
     "Radio Afera",
     "Radio Akadera",
     "Radio Białystok",
@@ -46,10 +44,12 @@
     "Radio Gorzów",
     "Radio Kielce",
     "Radio Koszalin",
-    "Radio Maryja"
+    "Radio Maryja",
+    "Radio Zachód",
+    "Radio Zielona Góra"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-14T06:21:02.970913+00:00",
+  "published_at": "2026-04-14T06:29:50.327418+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
