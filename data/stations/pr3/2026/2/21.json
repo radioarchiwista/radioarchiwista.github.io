@@ -503,30 +503,6 @@
       "utc_label": "2026-02-21 21:00 UTC",
       "utc_started_at": "2026-02-21T21:00:00+00:00",
       "year": 2026
-    },
-    {
-      "archive_item_identifier": "pr3-2026-02-21",
-      "audio_url": "https://archive.org/download/pr3-2026-02-21/pr3_2026-02-21T22-00-00Z.ogg",
-      "completeness_ratio": 1.0,
-      "day": 21,
-      "download_url": "https://archive.org/download/pr3-2026-02-21/pr3_2026-02-21T22-00-00Z.ogg",
-      "duration_seconds": 3610.013,
-      "hour": 23,
-      "hourly_archive_id": 14534,
-      "local_date_label": "21.02.2026",
-      "local_hour_label": "23:00",
-      "local_label": "2026-02-21 23:00 czasu polskiego",
-      "local_started_at": "2026-02-21T23:00:00+01:00",
-      "local_timezone_label": "czasu polskiego",
-      "month": 2,
-      "published_at": "2026-04-13T23:24:25.690704+00:00",
-      "published_local_label": "2026-04-14 01:24 czasu polskiego",
-      "remote_filename": "pr3_2026-02-21T22-00-00Z.ogg",
-      "station_slug": "pr3",
-      "status": "published",
-      "utc_label": "2026-02-21 22:00 UTC",
-      "utc_started_at": "2026-02-21T22:00:00+00:00",
-      "year": 2026
     }
   ],
   "day": 21,
@@ -970,7 +946,7 @@
       "year": 2026
     },
     {
-      "archive_status": "published",
+      "archive_status": "ready",
       "completeness_ratio": 1.0,
       "day": 21,
       "hour": 23,
@@ -981,9 +957,9 @@
       "local_started_at": "2026-02-21T23:00:00+01:00",
       "local_timezone_label": "czasu polskiego",
       "month": 2,
-      "playable": true,
-      "state": "available",
-      "status_label": null,
+      "playable": false,
+      "state": "publishing",
+      "status_label": "Czeka w kolejce do publikacji",
       "utc_label": "2026-02-21 22:00 UTC",
       "utc_started_at": "2026-02-21T22:00:00+00:00",
       "year": 2026
@@ -995,7 +971,7 @@
   "month": 2,
   "published_at": "2026-04-14T02:43:50.239001+00:00",
   "station": {
-    "archive_count": 1352,
+    "archive_count": 1350,
     "display_name": "Program 3",
     "public_name": "Polskie Radio Program 3",
     "slug": "pr3",
