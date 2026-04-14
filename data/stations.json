@@ -1,9 +1,10 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-14T04:23:00.532638+00:00",
+  "generated_at": "2026-04-14T04:32:33.820847+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_missing_stations": [
+    "Program 1",
     "Radio Centrum Rzeszów",
     "Radio Dla Ciebie",
     "Radio Index",
@@ -32,7 +33,6 @@
   ],
   "latest_archive_hour_started_at": "2026-04-14T03:00:00+00:00",
   "latest_archive_hour_stations": [
-    "Program 1",
     "Program 2",
     "Program 3",
     "Polskie Radio 24",
@@ -48,12 +48,12 @@
     "Radio Zachód"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-14T04:23:00.532638+00:00",
+  "published_at": "2026-04-14T04:32:33.820847+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
     {
-      "archive_count": 372,
+      "archive_count": 371,
       "display_name": "Program 1",
       "public_name": "Polskie Radio Program 1",
       "slug": "pr1",
@@ -67,7 +67,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1395,
+      "archive_count": 1390,
       "display_name": "Program 3",
       "public_name": "Polskie Radio Program 3",
       "slug": "pr3",
@@ -88,7 +88,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 360,
+      "archive_count": 359,
       "display_name": "Radio Nowy Świat",
       "public_name": "Radio Nowy Świat",
       "slug": "rns",
@@ -130,7 +130,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 344,
+      "archive_count": 343,
       "display_name": "Radio Białystok",
       "public_name": "Radio Białystok",
       "slug": "radiobialystok",
@@ -144,7 +144,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 348,
+      "archive_count": 347,
       "display_name": "Radio Centrum Rzeszów",
       "public_name": "Radio Centrum Rzeszów",
       "slug": "radiocentrumrzeszow",
@@ -207,14 +207,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 348,
+      "archive_count": 347,
       "display_name": "Radio Kraków",
       "public_name": "Radio Kraków",
       "slug": "radiokrakow",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 348,
+      "archive_count": 347,
       "display_name": "Radio Lublin",
       "public_name": "Radio Lublin",
       "slug": "radiolublin",
