@@ -1,30 +1,6 @@
 {
   "archives": [
     {
-      "archive_item_identifier": "pr3-2026-02-17",
-      "audio_url": "https://archive.org/download/pr3-2026-02-17/pr3_2026-02-17T23-00-00Z.ogg",
-      "completeness_ratio": 1.0,
-      "day": 18,
-      "download_url": "https://archive.org/download/pr3-2026-02-17/pr3_2026-02-17T23-00-00Z.ogg",
-      "duration_seconds": 3610.011,
-      "hour": 0,
-      "hourly_archive_id": 14661,
-      "local_date_label": "18.02.2026",
-      "local_hour_label": "00:00",
-      "local_label": "2026-02-18 00:00 czasu polskiego",
-      "local_started_at": "2026-02-18T00:00:00+01:00",
-      "local_timezone_label": "czasu polskiego",
-      "month": 2,
-      "published_at": "2026-04-13T22:46:38.201220+00:00",
-      "published_local_label": "2026-04-14 00:46 czasu polskiego",
-      "remote_filename": "pr3_2026-02-17T23-00-00Z.ogg",
-      "station_slug": "pr3",
-      "status": "published",
-      "utc_label": "2026-02-17 23:00 UTC",
-      "utc_started_at": "2026-02-17T23:00:00+00:00",
-      "year": 2026
-    },
-    {
       "archive_item_identifier": "pr3-2026-02-18",
       "audio_url": "https://archive.org/download/pr3-2026-02-18/pr3_2026-02-18T00-00-00Z.ogg",
       "completeness_ratio": 1.0,
@@ -581,7 +557,7 @@
   "generated_at": "2026-04-14T00:33:17.157194+00:00",
   "hour_slots": [
     {
-      "archive_status": "published",
+      "archive_status": "ready",
       "completeness_ratio": 1.0,
       "day": 18,
       "hour": 0,
@@ -592,9 +568,9 @@
       "local_started_at": "2026-02-18T00:00:00+01:00",
       "local_timezone_label": "czasu polskiego",
       "month": 2,
-      "playable": true,
-      "state": "available",
-      "status_label": null,
+      "playable": false,
+      "state": "publishing",
+      "status_label": "Czeka w kolejce do publikacji",
       "utc_label": "2026-02-17 23:00 UTC",
       "utc_started_at": "2026-02-17T23:00:00+00:00",
       "year": 2026
@@ -1043,7 +1019,7 @@
   "month": 2,
   "published_at": "2026-04-14T00:33:17.157194+00:00",
   "station": {
-    "archive_count": 1323,
+    "archive_count": 1319,
     "display_name": "Program 3",
     "public_name": "Polskie Radio Program 3",
     "slug": "pr3",
