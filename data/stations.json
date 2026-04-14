@@ -1,10 +1,9 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-14T07:11:32.922714+00:00",
+  "generated_at": "2026-04-14T07:22:05.773346+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_missing_stations": [
-    "Program 3",
     "Radio 357",
     "Radio Afera",
     "Radio Akadera",
@@ -45,10 +44,11 @@
   "latest_archive_hour_stations": [
     "Program 1",
     "Program 2",
+    "Program 3",
     "Polskie Radio 24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-14T07:11:32.922714+00:00",
+  "published_at": "2026-04-14T07:22:05.773346+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -67,14 +67,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1468,
+      "archive_count": 1469,
       "display_name": "Program 3",
       "public_name": "Polskie Radio Program 3",
       "slug": "pr3",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 370,
+      "archive_count": 371,
       "display_name": "Polskie Radio 24",
       "public_name": "Polskie Radio 24",
       "slug": "pr24",
@@ -144,7 +144,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 350,
+      "archive_count": 349,
       "display_name": "Radio Centrum Rzeszów",
       "public_name": "Radio Centrum Rzeszów",
       "slug": "radiocentrumrzeszow",
@@ -242,7 +242,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 304,
+      "archive_count": 303,
       "display_name": "Radio Opole",
       "public_name": "Radio Opole",
       "slug": "radioopole",
