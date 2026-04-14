@@ -1,11 +1,10 @@
 {
-  "archive_count": 14540,
+  "archive_count": 14534,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-14T05:35:30.484416+00:00",
+  "generated_at": "2026-04-14T05:44:07.831027+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_missing_stations": [
-    "Program 3",
     "Radio Centrum Rzeszów",
     "Radio Dla Ciebie",
     "Radio Index",
@@ -33,6 +32,7 @@
   "latest_archive_hour_stations": [
     "Program 1",
     "Program 2",
+    "Program 3",
     "Polskie Radio 24",
     "Radio 357",
     "TOK FM",
@@ -49,7 +49,7 @@
     "Radio Zielona Góra"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-14T05:35:30.484416+00:00",
+  "published_at": "2026-04-14T05:44:07.831027+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
