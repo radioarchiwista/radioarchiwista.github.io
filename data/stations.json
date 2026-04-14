@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-14T16:34:57.815327+00:00",
+  "generated_at": "2026-04-14T17:49:27.055924+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_missing_stations": [],
   "latest_archive_hour_started_at": "2026-04-14T15:00:00+00:00",
@@ -47,7 +47,7 @@
     "Radio Żak"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-14T16:34:57.815327+00:00",
+  "published_at": "2026-04-14T17:49:27.055924+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -66,7 +66,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1490,
+      "archive_count": 1493,
       "display_name": "Program 3",
       "public_name": "Polskie Radio Program 3",
       "slug": "pr3",
