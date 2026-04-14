@@ -1,8 +1,8 @@
 {
-  "archive_count": 14501,
+  "archive_count": 14503,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-14T04:57:41.730463+00:00",
+  "generated_at": "2026-04-14T05:02:45.042829+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_missing_stations": [
     "Radio Centrum Rzeszów",
@@ -49,7 +49,7 @@
     "Radio Zielona Góra"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-14T04:57:41.730463+00:00",
+  "published_at": "2026-04-14T05:02:45.042829+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
