@@ -1,14 +1,9 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-14T15:55:07.657929+00:00",
+  "generated_at": "2026-04-14T16:02:56.566995+00:00",
   "latest_archive_hour_expected_station_count": 39,
-  "latest_archive_hour_missing_stations": [
-    "Radio Nowy Świat",
-    "Radio Republika",
-    "Radio Wnet",
-    "TOK FM"
-  ],
+  "latest_archive_hour_missing_stations": [],
   "latest_archive_hour_started_at": "2026-04-14T14:00:00+00:00",
   "latest_archive_hour_stations": [
     "Program 1",
@@ -16,6 +11,10 @@
     "Program 3",
     "Polskie Radio 24",
     "Radio 357",
+    "Radio Nowy Świat",
+    "TOK FM",
+    "Radio Wnet",
+    "Radio Republika",
     "Radio Afera",
     "Radio Akadera",
     "Radio Białystok",
@@ -48,7 +47,7 @@
     "Radio Żak"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-14T15:55:07.657929+00:00",
+  "published_at": "2026-04-14T16:02:56.566995+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -88,28 +87,28 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 374,
+      "archive_count": 375,
       "display_name": "Radio Nowy Świat",
       "public_name": "Radio Nowy Świat",
       "slug": "rns",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 363,
+      "archive_count": 364,
       "display_name": "TOK FM",
       "public_name": "TOK FM",
       "slug": "tokfm",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 375,
+      "archive_count": 376,
       "display_name": "Radio Wnet",
       "public_name": "Radio Wnet",
       "slug": "wnet",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 375,
+      "archive_count": 376,
       "display_name": "Radio Republika",
       "public_name": "Radio Republika",
       "slug": "republika",
