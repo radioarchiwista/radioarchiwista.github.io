@@ -366,6 +366,25 @@
       "utc_label": "2026-04-14 06:00 UTC",
       "utc_started_at": "2026-04-14T06:00:00+00:00",
       "year": 2026
+    },
+    {
+      "archive_status": null,
+      "completeness_ratio": null,
+      "day": 14,
+      "hour": 9,
+      "hourly_archive_id": null,
+      "local_date_label": "14.04.2026",
+      "local_hour_label": "09:00",
+      "local_label": "2026-04-14 09:00 czasu polskiego",
+      "local_started_at": "2026-04-14T09:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 4,
+      "playable": false,
+      "state": "recorded",
+      "status_label": "Nagranie czeka na złożenie",
+      "utc_label": "2026-04-14 07:00 UTC",
+      "utc_started_at": "2026-04-14T07:00:00+00:00",
+      "year": 2026
     }
   ],
   "latest_archive_hour_expected_station_count": 0,
@@ -374,7 +393,7 @@
   "month": 4,
   "published_at": "2026-04-14T07:47:27.315913+00:00",
   "station": {
-    "archive_count": 351,
+    "archive_count": 349,
     "display_name": "Radio Zachód",
     "public_name": "Radio Zachód",
     "slug": "radiozachod",
