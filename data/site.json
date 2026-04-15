@@ -1,18 +1,16 @@
 {
-  "archive_count": 15439,
+  "archive_count": 15419,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-15T08:34:56.593929+00:00",
+  "generated_at": "2026-04-15T08:57:54.219358+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_missing_stations": [
-    "Program 2",
     "Radio Kampus",
     "Radio Koszalin",
     "Radio Kraków",
     "Radio Łódź",
     "Radio Lublin",
     "Radio Luz",
-    "Radio Nowy Świat",
     "Radio Olsztyn",
     "Radio PiK",
     "Radio Poznań",
@@ -27,9 +25,11 @@
   "latest_archive_hour_started_at": "2026-04-15T07:00:00+00:00",
   "latest_archive_hour_stations": [
     "Program 1",
+    "Program 2",
     "Program 3",
     "Polskie Radio 24",
     "Radio 357",
+    "Radio Nowy Świat",
     "TOK FM",
     "Radio Republika",
     "Radio Afera",
@@ -49,7 +49,7 @@
     "Radio Zielona Góra"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-15T08:34:56.593929+00:00",
+  "published_at": "2026-04-15T08:57:54.219358+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"

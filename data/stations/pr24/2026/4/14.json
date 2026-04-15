@@ -884,11 +884,11 @@
       "year": 2026
     },
     {
-      "archive_status": null,
-      "completeness_ratio": null,
+      "archive_status": "ready",
+      "completeness_ratio": 0.0556,
       "day": 14,
       "hour": 21,
-      "hourly_archive_id": null,
+      "hourly_archive_id": 16073,
       "local_date_label": "14.04.2026",
       "local_hour_label": "21:00",
       "local_label": "2026-04-14 21:00 czasu polskiego",
@@ -896,8 +896,8 @@
       "local_timezone_label": "czasu polskiego",
       "month": 4,
       "playable": false,
-      "state": "recorded",
-      "status_label": "Nagranie czeka na złożenie",
+      "state": "publishing",
+      "status_label": "Czeka w kolejce do publikacji",
       "utc_label": "2026-04-14 19:00 UTC",
       "utc_started_at": "2026-04-14T19:00:00+00:00",
       "year": 2026
@@ -947,7 +947,7 @@
   "month": 4,
   "published_at": "2026-04-15T08:08:57.826336+00:00",
   "station": {
-    "archive_count": 392,
+    "archive_count": 391,
     "display_name": "Polskie Radio 24",
     "public_name": "Polskie Radio 24",
     "slug": "pr24",
