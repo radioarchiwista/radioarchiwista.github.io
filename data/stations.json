@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-15T20:18:51.830033+00:00",
+  "generated_at": "2026-04-15T20:18:51.851829+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_missing_stations": [
     "Program 2",
@@ -48,7 +48,7 @@
     "Polskie Radio 24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-15T20:18:51.830033+00:00",
+  "published_at": "2026-04-15T20:18:51.851829+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -81,7 +81,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 391,
+      "archive_count": 394,
       "display_name": "Radio 357",
       "public_name": "Radio 357",
       "slug": "radio357",
@@ -95,7 +95,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 387,
+      "archive_count": 389,
       "display_name": "TOK FM",
       "public_name": "TOK FM",
       "slug": "tokfm",
@@ -130,7 +130,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 377,
+      "archive_count": 381,
       "display_name": "Radio Białystok",
       "public_name": "Radio Białystok",
       "slug": "radiobialystok",
@@ -158,14 +158,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 385,
+      "archive_count": 386,
       "display_name": "Radio Gdańsk",
       "public_name": "Radio Gdańsk",
       "slug": "radiogdansk",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 385,
+      "archive_count": 386,
       "display_name": "Radio Gorzów",
       "public_name": "Radio Gorzów",
       "slug": "radiogorzow",
