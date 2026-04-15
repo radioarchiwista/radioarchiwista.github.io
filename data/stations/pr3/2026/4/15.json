@@ -91,11 +91,11 @@
       "year": 2026
     },
     {
-      "archive_status": null,
-      "completeness_ratio": null,
+      "archive_status": "ready",
+      "completeness_ratio": 0.0583,
       "day": 15,
       "hour": 2,
-      "hourly_archive_id": null,
+      "hourly_archive_id": 15637,
       "local_date_label": "15.04.2026",
       "local_hour_label": "02:00",
       "local_label": "2026-04-15 02:00 czasu polskiego",
@@ -103,8 +103,8 @@
       "local_timezone_label": "czasu polskiego",
       "month": 4,
       "playable": false,
-      "state": "recorded",
-      "status_label": "Nagranie czeka na złożenie",
+      "state": "publishing",
+      "status_label": "Czeka w kolejce do publikacji",
       "utc_label": "2026-04-15 00:00 UTC",
       "utc_started_at": "2026-04-15T00:00:00+00:00",
       "year": 2026
@@ -116,7 +116,7 @@
   "month": 4,
   "published_at": "2026-04-15T00:55:10.308094+00:00",
   "station": {
-    "archive_count": 1543,
+    "archive_count": 1539,
     "display_name": "Program 3",
     "public_name": "Polskie Radio Program 3",
     "slug": "pr3",
