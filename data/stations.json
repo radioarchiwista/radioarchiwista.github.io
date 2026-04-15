@@ -1,22 +1,10 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-15T16:00:30.910704+00:00",
+  "generated_at": "2026-04-15T16:11:26.488347+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_missing_stations": [
-    "Radio Luz"
-  ],
-  "latest_archive_hour_started_at": "2026-04-15T14:00:00+00:00",
-  "latest_archive_hour_stations": [
-    "Program 1",
-    "Program 2",
-    "Program 3",
-    "Polskie Radio 24",
     "Radio 357",
-    "Radio Nowy Świat",
-    "TOK FM",
-    "Radio Wnet",
-    "Radio Republika",
     "Radio Afera",
     "Radio Akadera",
     "Radio Białystok",
@@ -31,50 +19,62 @@
     "Radio Kielce",
     "Radio Koszalin",
     "Radio Kraków",
+    "Radio Łódź",
     "Radio Lublin",
+    "Radio Luz",
     "Radio Maryja",
+    "Radio Nowy Świat",
     "Radio Olsztyn",
     "Radio Opole",
     "Radio PiK",
     "Radio Poznań",
+    "Radio Republika",
     "Radio Rzeszów",
-    "Radio Szczecin",
     "Radio Słupsk",
+    "Radio Szczecin",
     "Radio UWM FM",
+    "Radio Wnet",
     "Radio Wrocław",
     "Radio Zachód",
+    "Radio Żak",
     "Radio Zielona Góra",
-    "Radio Łódź",
-    "Radio Żak"
+    "TOK FM"
+  ],
+  "latest_archive_hour_started_at": "2026-04-15T15:00:00+00:00",
+  "latest_archive_hour_stations": [
+    "Program 1",
+    "Program 2",
+    "Program 3",
+    "Polskie Radio 24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-15T16:00:30.910704+00:00",
+  "published_at": "2026-04-15T16:11:26.488347+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
     {
-      "archive_count": 407,
+      "archive_count": 408,
       "display_name": "Program 1",
       "public_name": "Polskie Radio Program 1",
       "slug": "pr1",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 405,
+      "archive_count": 406,
       "display_name": "Program 2",
       "public_name": "Polskie Radio Program 2",
       "slug": "pr2",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1575,
+      "archive_count": 1576,
       "display_name": "Program 3",
       "public_name": "Polskie Radio Program 3",
       "slug": "pr3",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 403,
+      "archive_count": 404,
       "display_name": "Polskie Radio 24",
       "public_name": "Polskie Radio 24",
       "slug": "pr24",
@@ -221,7 +221,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 377,
+      "archive_count": 376,
       "display_name": "Radio Luz",
       "public_name": "Radio Luz",
       "slug": "radioluz",
