@@ -1,8 +1,8 @@
 {
-  "archive_count": 15345,
+  "archive_count": 15334,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-15T06:40:04.317026+00:00",
+  "generated_at": "2026-04-15T06:51:28.625709+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_missing_stations": [
     "Radio Dla Ciebie",
@@ -16,7 +16,6 @@
     "Radio Olsztyn",
     "Radio PiK",
     "Radio Poznań",
-    "Radio Republika",
     "Radio Rzeszów",
     "Radio Słupsk",
     "Radio Szczecin",
@@ -35,6 +34,7 @@
     "Program 3",
     "Polskie Radio 24",
     "Radio 357",
+    "Radio Republika",
     "Radio Afera",
     "Radio Akadera",
     "Radio Białystok",
@@ -49,7 +49,7 @@
     "Radio Opole"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-15T06:40:04.317026+00:00",
+  "published_at": "2026-04-15T06:51:28.625709+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
