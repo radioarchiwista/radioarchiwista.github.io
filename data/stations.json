@@ -4,6 +4,8 @@
   "generated_at": "2026-04-15T06:51:28.625709+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_missing_stations": [
+    "Program 1",
+    "Program 2",
     "Radio Dla Ciebie",
     "Radio Kampus",
     "Radio Koszalin",
@@ -28,8 +30,6 @@
   ],
   "latest_archive_hour_started_at": "2026-04-15T05:00:00+00:00",
   "latest_archive_hour_stations": [
-    "Program 1",
-    "Program 2",
     "Program 3",
     "Polskie Radio 24",
     "Radio 357",
@@ -53,14 +53,14 @@
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
     {
-      "archive_count": 395,
+      "archive_count": 394,
       "display_name": "Program 1",
       "public_name": "Polskie Radio Program 1",
       "slug": "pr1",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 392,
+      "archive_count": 391,
       "display_name": "Program 2",
       "public_name": "Polskie Radio Program 2",
       "slug": "pr2",
@@ -95,14 +95,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 365,
+      "archive_count": 364,
       "display_name": "TOK FM",
       "public_name": "TOK FM",
       "slug": "tokfm",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 379,
+      "archive_count": 378,
       "display_name": "Radio Wnet",
       "public_name": "Radio Wnet",
       "slug": "wnet",
@@ -242,7 +242,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 320,
+      "archive_count": 319,
       "display_name": "Radio Opole",
       "public_name": "Radio Opole",
       "slug": "radioopole",
