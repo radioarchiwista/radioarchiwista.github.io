@@ -2,7 +2,7 @@
   "archive_count": 15756,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-15T13:25:15.075680+00:00",
+  "generated_at": "2026-04-15T14:22:22.619074+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_missing_stations": [
     "Radio Dla Ciebie",
@@ -49,7 +49,7 @@
     "Radio Łódź"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-15T13:25:15.075680+00:00",
+  "published_at": "2026-04-15T14:22:22.619074+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
