@@ -1,11 +1,10 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-15T02:18:57.114675+00:00",
+  "generated_at": "2026-04-15T02:35:18.726986+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_missing_stations": [
     "Radio 357",
-    "Radio Afera",
     "Radio Akadera",
     "Radio Białystok",
     "Radio Centrum Lublin",
@@ -45,10 +44,11 @@
     "Program 1",
     "Program 2",
     "Program 3",
-    "Polskie Radio 24"
+    "Polskie Radio 24",
+    "Radio Afera"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-15T02:18:57.114675+00:00",
+  "published_at": "2026-04-15T02:35:18.726986+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -67,7 +67,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1555,
+      "archive_count": 1554,
       "display_name": "Program 3",
       "public_name": "Polskie Radio Program 3",
       "slug": "pr3",
@@ -81,7 +81,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 372,
+      "archive_count": 371,
       "display_name": "Radio 357",
       "public_name": "Radio 357",
       "slug": "radio357",
@@ -116,21 +116,21 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 364,
+      "archive_count": 365,
       "display_name": "Radio Afera",
       "public_name": "Radio Afera",
       "slug": "afera",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 363,
+      "archive_count": 362,
       "display_name": "Radio Akadera",
       "public_name": "Radio Akadera",
       "slug": "radioakadera",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 357,
+      "archive_count": 356,
       "display_name": "Radio Białystok",
       "public_name": "Radio Białystok",
       "slug": "radiobialystok",
@@ -277,7 +277,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 361,
+      "archive_count": 360,
       "display_name": "Radio Słupsk",
       "public_name": "Radio Słupsk",
       "slug": "radioslupsk",
