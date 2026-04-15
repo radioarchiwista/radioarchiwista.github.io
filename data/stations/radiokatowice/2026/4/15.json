@@ -87,8 +87,8 @@
       "local_started_at": "2026-04-15T05:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 4,
-      "published_at": "2026-04-15T04:22:36.853067+00:00",
-      "published_local_label": "2026-04-15 06:22 czasu polskiego",
+      "published_at": "2026-04-15T05:01:29.563264+00:00",
+      "published_local_label": "2026-04-15 07:01 czasu polskiego",
       "remote_filename": "radiokatowice_2026-04-15T03-00-00Z.mp3",
       "station_slug": "radiokatowice",
       "status": "published",
@@ -98,7 +98,7 @@
     }
   ],
   "day": 15,
-  "generated_at": "2026-04-15T04:26:43.335703+00:00",
+  "generated_at": "2026-04-15T05:01:29.563264+00:00",
   "hour_slots": [
     {
       "archive_status": null,
@@ -213,13 +213,32 @@
       "utc_label": "2026-04-15 03:00 UTC",
       "utc_started_at": "2026-04-15T03:00:00+00:00",
       "year": 2026
+    },
+    {
+      "archive_status": null,
+      "completeness_ratio": null,
+      "day": 15,
+      "hour": 6,
+      "hourly_archive_id": null,
+      "local_date_label": "15.04.2026",
+      "local_hour_label": "06:00",
+      "local_label": "2026-04-15 06:00 czasu polskiego",
+      "local_started_at": "2026-04-15T06:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 4,
+      "playable": false,
+      "state": "recorded",
+      "status_label": "Nagranie czeka na złożenie",
+      "utc_label": "2026-04-15 04:00 UTC",
+      "utc_started_at": "2026-04-15T04:00:00+00:00",
+      "year": 2026
     }
   ],
   "latest_archive_hour_expected_station_count": 0,
   "latest_archive_hour_missing_stations": [],
   "latest_archive_hour_started_at": "2026-04-15T03:00:00+00:00",
   "month": 4,
-  "published_at": "2026-04-15T04:26:43.335703+00:00",
+  "published_at": "2026-04-15T05:01:29.563264+00:00",
   "station": {
     "archive_count": 367,
     "display_name": "Radio Katowice",
