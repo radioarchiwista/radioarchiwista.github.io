@@ -1,11 +1,19 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-15T01:46:24.585376+00:00",
+  "generated_at": "2026-04-15T02:18:57.114675+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_missing_stations": [
+    "Radio 357",
+    "Radio Afera",
+    "Radio Akadera",
     "Radio Białystok",
+    "Radio Centrum Lublin",
+    "Radio Centrum Rzeszów",
     "Radio Dla Ciebie",
+    "Radio Gdańsk",
+    "Radio Gorzów",
+    "Radio Index",
     "Radio Kampus",
     "Radio Katowice",
     "Radio Kielce",
@@ -32,35 +40,27 @@
     "Radio Zielona Góra",
     "TOK FM"
   ],
-  "latest_archive_hour_started_at": "2026-04-15T00:00:00+00:00",
+  "latest_archive_hour_started_at": "2026-04-15T01:00:00+00:00",
   "latest_archive_hour_stations": [
     "Program 1",
     "Program 2",
     "Program 3",
-    "Polskie Radio 24",
-    "Radio 357",
-    "Radio Afera",
-    "Radio Akadera",
-    "Radio Centrum Lublin",
-    "Radio Centrum Rzeszów",
-    "Radio Gdańsk",
-    "Radio Gorzów",
-    "Radio Index"
+    "Polskie Radio 24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-15T01:46:24.585376+00:00",
+  "published_at": "2026-04-15T02:18:57.114675+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
     {
-      "archive_count": 390,
+      "archive_count": 391,
       "display_name": "Program 1",
       "public_name": "Polskie Radio Program 1",
       "slug": "pr1",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 387,
+      "archive_count": 388,
       "display_name": "Program 2",
       "public_name": "Polskie Radio Program 2",
       "slug": "pr2",
@@ -74,7 +74,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 385,
+      "archive_count": 386,
       "display_name": "Polskie Radio 24",
       "public_name": "Polskie Radio 24",
       "slug": "pr24",
@@ -130,7 +130,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 358,
+      "archive_count": 357,
       "display_name": "Radio Białystok",
       "public_name": "Radio Białystok",
       "slug": "radiobialystok",
