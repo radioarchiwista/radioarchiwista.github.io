@@ -551,6 +551,30 @@
       "utc_label": "2026-04-13 20:00 UTC",
       "utc_started_at": "2026-04-13T20:00:00+00:00",
       "year": 2026
+    },
+    {
+      "archive_item_identifier": "radiocentrumlublin-2026-04-13",
+      "audio_url": "https://archive.org/download/radiocentrumlublin-2026-04-13/radiocentrumlublin_2026-04-13T21-00-00Z.mp3",
+      "completeness_ratio": 0.9997,
+      "day": 13,
+      "download_url": "https://archive.org/download/radiocentrumlublin-2026-04-13/radiocentrumlublin_2026-04-13T21-00-00Z.mp3",
+      "duration_seconds": 3599.52,
+      "hour": 23,
+      "hourly_archive_id": 14614,
+      "local_date_label": "13.04.2026",
+      "local_hour_label": "23:00",
+      "local_label": "2026-04-13 23:00 czasu polskiego",
+      "local_started_at": "2026-04-13T23:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 4,
+      "published_at": "2026-04-13T22:47:40.900133+00:00",
+      "published_local_label": "2026-04-14 00:47 czasu polskiego",
+      "remote_filename": "radiocentrumlublin_2026-04-13T21-00-00Z.mp3",
+      "station_slug": "radiocentrumlublin",
+      "status": "published",
+      "utc_label": "2026-04-13 21:00 UTC",
+      "utc_started_at": "2026-04-13T21:00:00+00:00",
+      "year": 2026
     }
   ],
   "day": 13,
@@ -994,7 +1018,7 @@
       "year": 2026
     },
     {
-      "archive_status": "error",
+      "archive_status": "published",
       "completeness_ratio": 0.9997,
       "day": 13,
       "hour": 23,
@@ -1005,9 +1029,9 @@
       "local_started_at": "2026-04-13T23:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 4,
-      "playable": false,
-      "state": "failed",
-      "status_label": "Nie udało się przygotować nagrania",
+      "playable": true,
+      "state": "available",
+      "status_label": null,
       "utc_label": "2026-04-13 21:00 UTC",
       "utc_started_at": "2026-04-13T21:00:00+00:00",
       "year": 2026
@@ -1019,7 +1043,7 @@
   "month": 4,
   "published_at": "2026-04-15T22:36:56.627067+00:00",
   "station": {
-    "archive_count": 387,
+    "archive_count": 388,
     "display_name": "Radio Centrum Lublin",
     "public_name": "Radio Centrum Lublin",
     "slug": "radiocentrumlublin",
