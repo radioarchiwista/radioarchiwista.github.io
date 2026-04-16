@@ -242,7 +242,7 @@
     }
   ],
   "day": 16,
-  "generated_at": "2026-04-16T08:31:03.624543+00:00",
+  "generated_at": "2026-04-16T08:58:08.409114+00:00",
   "hour_slots": [
     {
       "archive_status": "published",
@@ -433,15 +433,34 @@
       "utc_label": "2026-04-16 07:00 UTC",
       "utc_started_at": "2026-04-16T07:00:00+00:00",
       "year": 2026
+    },
+    {
+      "archive_status": "ready",
+      "completeness_ratio": 1.0,
+      "day": 16,
+      "hour": 10,
+      "hourly_archive_id": 17379,
+      "local_date_label": "16.04.2026",
+      "local_hour_label": "10:00",
+      "local_label": "2026-04-16 10:00 czasu polskiego",
+      "local_started_at": "2026-04-16T10:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 4,
+      "playable": false,
+      "state": "publishing",
+      "status_label": "Czeka w kolejce do publikacji",
+      "utc_label": "2026-04-16 08:00 UTC",
+      "utc_started_at": "2026-04-16T08:00:00+00:00",
+      "year": 2026
     }
   ],
   "latest_archive_hour_expected_station_count": 0,
   "latest_archive_hour_missing_stations": [],
   "latest_archive_hour_started_at": "2026-04-16T07:00:00+00:00",
   "month": 4,
-  "published_at": "2026-04-16T08:31:03.624543+00:00",
+  "published_at": "2026-04-16T08:58:08.409114+00:00",
   "station": {
-    "archive_count": 399,
+    "archive_count": 400,
     "display_name": "Radio Afera",
     "public_name": "Radio Afera",
     "slug": "afera",
