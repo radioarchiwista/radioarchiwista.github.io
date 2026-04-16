@@ -1,8 +1,8 @@
 {
-  "archive_count": 16840,
+  "archive_count": 16861,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-16T09:36:29.767267+00:00",
+  "generated_at": "2026-04-16T09:49:13.339560+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_missing_stations": [
     "Radio Akadera",
@@ -49,7 +49,7 @@
     "Radio Żak"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-16T09:36:29.767267+00:00",
+  "published_at": "2026-04-16T09:49:13.339560+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
