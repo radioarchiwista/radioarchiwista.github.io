@@ -1,12 +1,9 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-16T07:04:25.618972+00:00",
+  "generated_at": "2026-04-16T07:27:24.858903+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_missing_stations": [
-    "Polskie Radio 24",
-    "Program 2",
-    "Program 3",
     "Radio 357",
     "Radio Afera",
     "Radio Akadera",
@@ -45,10 +42,13 @@
   ],
   "latest_archive_hour_started_at": "2026-04-16T06:00:00+00:00",
   "latest_archive_hour_stations": [
-    "Program 1"
+    "Program 1",
+    "Program 2",
+    "Program 3",
+    "Polskie Radio 24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-16T07:04:25.618972+00:00",
+  "published_at": "2026-04-16T07:27:24.858903+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -60,21 +60,21 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 420,
+      "archive_count": 421,
       "display_name": "Program 2",
       "public_name": "Polskie Radio Program 2",
       "slug": "pr2",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1720,
+      "archive_count": 1742,
       "display_name": "Program 3",
       "public_name": "Polskie Radio Program 3",
       "slug": "pr3",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 418,
+      "archive_count": 419,
       "display_name": "Polskie Radio 24",
       "public_name": "Polskie Radio 24",
       "slug": "pr24",
@@ -130,7 +130,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 392,
+      "archive_count": 391,
       "display_name": "Radio Białystok",
       "public_name": "Radio Białystok",
       "slug": "radiobialystok",
@@ -158,7 +158,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 396,
+      "archive_count": 397,
       "display_name": "Radio Gdańsk",
       "public_name": "Radio Gdańsk",
       "slug": "radiogdansk",
@@ -186,7 +186,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 397,
+      "archive_count": 396,
       "display_name": "Radio Katowice",
       "public_name": "Radio Katowice",
       "slug": "radiokatowice",
@@ -242,7 +242,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 351,
+      "archive_count": 350,
       "display_name": "Radio Opole",
       "public_name": "Radio Opole",
       "slug": "radioopole",
