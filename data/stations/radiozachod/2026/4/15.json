@@ -399,37 +399,13 @@
       "local_started_at": "2026-04-15T16:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 4,
-      "published_at": "2026-04-15T15:37:15.779046+00:00",
-      "published_local_label": "2026-04-15 17:37 czasu polskiego",
+      "published_at": "2026-04-16T06:45:24.543409+00:00",
+      "published_local_label": "2026-04-16 08:45 czasu polskiego",
       "remote_filename": "radiozachod_2026-04-15T14-00-00Z.mp3",
       "station_slug": "radiozachod",
       "status": "published",
       "utc_label": "2026-04-15 14:00 UTC",
       "utc_started_at": "2026-04-15T14:00:00+00:00",
-      "year": 2026
-    },
-    {
-      "archive_item_identifier": "radiozachod-2026-04-15",
-      "audio_url": "https://archive.org/download/radiozachod-2026-04-15/radiozachod_2026-04-15T15-00-00Z.mp3",
-      "completeness_ratio": 0.998,
-      "day": 15,
-      "download_url": "https://archive.org/download/radiozachod-2026-04-15/radiozachod_2026-04-15T15-00-00Z.mp3",
-      "duration_seconds": 3594.12,
-      "hour": 17,
-      "hourly_archive_id": 16530,
-      "local_date_label": "15.04.2026",
-      "local_hour_label": "17:00",
-      "local_label": "2026-04-15 17:00 czasu polskiego",
-      "local_started_at": "2026-04-15T17:00:00+02:00",
-      "local_timezone_label": "czasu polskiego",
-      "month": 4,
-      "published_at": "2026-04-15T16:35:33.705016+00:00",
-      "published_local_label": "2026-04-15 18:35 czasu polskiego",
-      "remote_filename": "radiozachod_2026-04-15T15-00-00Z.mp3",
-      "station_slug": "radiozachod",
-      "status": "published",
-      "utc_label": "2026-04-15 15:00 UTC",
-      "utc_started_at": "2026-04-15T15:00:00+00:00",
       "year": 2026
     },
     {
@@ -530,7 +506,7 @@
     }
   ],
   "day": 15,
-  "generated_at": "2026-04-16T06:40:05.878472+00:00",
+  "generated_at": "2026-04-16T06:46:32.164014+00:00",
   "hour_slots": [
     {
       "archive_status": "published",
@@ -856,7 +832,7 @@
       "year": 2026
     },
     {
-      "archive_status": "published",
+      "archive_status": "ready",
       "completeness_ratio": 0.998,
       "day": 15,
       "hour": 17,
@@ -867,9 +843,9 @@
       "local_started_at": "2026-04-15T17:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 4,
-      "playable": true,
-      "state": "available",
-      "status_label": null,
+      "playable": false,
+      "state": "publishing",
+      "status_label": "Czeka w kolejce do publikacji",
       "utc_label": "2026-04-15 15:00 UTC",
       "utc_started_at": "2026-04-15T15:00:00+00:00",
       "year": 2026
@@ -993,9 +969,9 @@
   "latest_archive_hour_missing_stations": [],
   "latest_archive_hour_started_at": "2026-04-16T05:00:00+00:00",
   "month": 4,
-  "published_at": "2026-04-16T06:40:05.878472+00:00",
+  "published_at": "2026-04-16T06:46:32.164014+00:00",
   "station": {
-    "archive_count": 395,
+    "archive_count": 394,
     "display_name": "Radio Zachód",
     "public_name": "Radio Zachód",
     "slug": "radiozachod",
