@@ -4,7 +4,6 @@
   "generated_at": "2026-04-16T08:10:18.547902+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_missing_stations": [
-    "Program 2",
     "Program 3",
     "Radio 357",
     "Radio Afera",
@@ -45,6 +44,7 @@
   "latest_archive_hour_started_at": "2026-04-16T07:00:00+00:00",
   "latest_archive_hour_stations": [
     "Program 1",
+    "Program 2",
     "Polskie Radio 24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
@@ -60,7 +60,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 421,
+      "archive_count": 422,
       "display_name": "Program 2",
       "public_name": "Polskie Radio Program 2",
       "slug": "pr2",
@@ -74,7 +74,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 419,
+      "archive_count": 420,
       "display_name": "Polskie Radio 24",
       "public_name": "Polskie Radio 24",
       "slug": "pr24",
@@ -130,7 +130,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 392,
+      "archive_count": 391,
       "display_name": "Radio Białystok",
       "public_name": "Radio Białystok",
       "slug": "radiobialystok",
