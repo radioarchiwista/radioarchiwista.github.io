@@ -95,10 +95,34 @@
       "utc_label": "2026-04-16 01:00 UTC",
       "utc_started_at": "2026-04-16T01:00:00+00:00",
       "year": 2026
+    },
+    {
+      "archive_item_identifier": "pr2-2026-04-16",
+      "audio_url": "https://archive.org/download/pr2-2026-04-16/pr2_2026-04-16T02-00-00Z.mp3",
+      "completeness_ratio": 0.9893,
+      "day": 16,
+      "download_url": "https://archive.org/download/pr2-2026-04-16/pr2_2026-04-16T02-00-00Z.mp3",
+      "duration_seconds": 3599.808,
+      "hour": 4,
+      "hourly_archive_id": 17030,
+      "local_date_label": "16.04.2026",
+      "local_hour_label": "04:00",
+      "local_label": "2026-04-16 04:00 czasu polskiego",
+      "local_started_at": "2026-04-16T04:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 4,
+      "published_at": "2026-04-16T03:07:37.424092+00:00",
+      "published_local_label": "2026-04-16 05:07 czasu polskiego",
+      "remote_filename": "pr2_2026-04-16T02-00-00Z.mp3",
+      "station_slug": "pr2",
+      "status": "published",
+      "utc_label": "2026-04-16 02:00 UTC",
+      "utc_started_at": "2026-04-16T02:00:00+00:00",
+      "year": 2026
     }
   ],
   "day": 16,
-  "generated_at": "2026-04-16T02:53:25.429796+00:00",
+  "generated_at": "2026-04-16T03:07:37.424092+00:00",
   "hour_slots": [
     {
       "archive_status": "published",
@@ -177,7 +201,7 @@
       "year": 2026
     },
     {
-      "archive_status": "ready",
+      "archive_status": "published",
       "completeness_ratio": 0.9893,
       "day": 16,
       "hour": 4,
@@ -188,9 +212,9 @@
       "local_started_at": "2026-04-16T04:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 4,
-      "playable": false,
-      "state": "publishing",
-      "status_label": "Czeka w kolejce do publikacji",
+      "playable": true,
+      "state": "available",
+      "status_label": null,
       "utc_label": "2026-04-16 02:00 UTC",
       "utc_started_at": "2026-04-16T02:00:00+00:00",
       "year": 2026
@@ -198,11 +222,11 @@
   ],
   "latest_archive_hour_expected_station_count": 0,
   "latest_archive_hour_missing_stations": [],
-  "latest_archive_hour_started_at": "2026-04-16T01:00:00+00:00",
+  "latest_archive_hour_started_at": "2026-04-16T02:00:00+00:00",
   "month": 4,
-  "published_at": "2026-04-16T02:53:25.429796+00:00",
+  "published_at": "2026-04-16T03:07:37.424092+00:00",
   "station": {
-    "archive_count": 416,
+    "archive_count": 417,
     "display_name": "Program 2",
     "public_name": "Polskie Radio Program 2",
     "slug": "pr2",
