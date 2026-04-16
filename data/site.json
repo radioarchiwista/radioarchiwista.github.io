@@ -1,17 +1,14 @@
 {
-  "archive_count": 17389,
+  "archive_count": 17408,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-16T21:19:25.486917+00:00",
+  "generated_at": "2026-04-16T22:05:01.613414+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_missing_stations": [
     "Polskie Radio 24",
     "Program 1",
     "Program 2",
     "Program 3",
-    "Radio 357",
-    "Radio Akadera",
-    "Radio Białystok",
     "Radio Centrum Lublin",
     "Radio Centrum Rzeszów",
     "Radio Dla Ciebie",
@@ -46,10 +43,13 @@
   ],
   "latest_archive_hour_started_at": "2026-04-16T20:00:00+00:00",
   "latest_archive_hour_stations": [
-    "Radio Afera"
+    "Radio 357",
+    "Radio Afera",
+    "Radio Akadera",
+    "Radio Białystok"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-16T21:19:25.486917+00:00",
+  "published_at": "2026-04-16T22:05:01.613414+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
