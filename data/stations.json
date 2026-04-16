@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-16T12:26:33.311601+00:00",
+  "generated_at": "2026-04-16T12:39:18.005891+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_missing_stations": [],
   "latest_archive_hour_started_at": "2026-04-16T11:00:00+00:00",
@@ -47,7 +47,7 @@
     "Radio Żak"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-16T12:26:33.311601+00:00",
+  "published_at": "2026-04-16T12:39:18.005891+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -129,7 +129,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 400,
+      "archive_count": 399,
       "display_name": "Radio Białystok",
       "public_name": "Radio Białystok",
       "slug": "radiobialystok",
@@ -241,7 +241,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 359,
+      "archive_count": 358,
       "display_name": "Radio Opole",
       "public_name": "Radio Opole",
       "slug": "radioopole",

@@ -1,8 +1,8 @@
 {
-  "archive_count": 17081,
+  "archive_count": 17079,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-16T12:26:33.311601+00:00",
+  "generated_at": "2026-04-16T12:39:18.005891+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_missing_stations": [],
   "latest_archive_hour_started_at": "2026-04-16T11:00:00+00:00",
@@ -48,7 +48,7 @@
     "Radio Żak"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-16T12:26:33.311601+00:00",
+  "published_at": "2026-04-16T12:39:18.005891+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
