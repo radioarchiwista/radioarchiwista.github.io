@@ -261,6 +261,25 @@
       "utc_label": "2026-04-16 03:00 UTC",
       "utc_started_at": "2026-04-16T03:00:00+00:00",
       "year": 2026
+    },
+    {
+      "archive_status": "ready",
+      "completeness_ratio": 1.0,
+      "day": 16,
+      "hour": 6,
+      "hourly_archive_id": 17141,
+      "local_date_label": "16.04.2026",
+      "local_hour_label": "06:00",
+      "local_label": "2026-04-16 06:00 czasu polskiego",
+      "local_started_at": "2026-04-16T06:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 4,
+      "playable": false,
+      "state": "publishing",
+      "status_label": "Czeka w kolejce do publikacji",
+      "utc_label": "2026-04-16 04:00 UTC",
+      "utc_started_at": "2026-04-16T04:00:00+00:00",
+      "year": 2026
     }
   ],
   "latest_archive_hour_expected_station_count": 0,
@@ -269,7 +288,7 @@
   "month": 4,
   "published_at": "2026-04-16T04:47:18.369728+00:00",
   "station": {
-    "archive_count": 395,
+    "archive_count": 394,
     "display_name": "Radio Gdańsk",
     "public_name": "Radio Gdańsk",
     "slug": "radiogdansk",
