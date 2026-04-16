@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-16T05:06:12.524302+00:00",
+  "generated_at": "2026-04-16T05:29:41.369364+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_missing_stations": [
     "Polskie Radio 24",
@@ -48,7 +48,7 @@
     "Program 1"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-16T05:06:12.524302+00:00",
+  "published_at": "2026-04-16T05:29:41.369364+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -67,7 +67,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1699,
+      "archive_count": 1700,
       "display_name": "Program 3",
       "public_name": "Polskie Radio Program 3",
       "slug": "pr3",
@@ -130,7 +130,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 389,
+      "archive_count": 388,
       "display_name": "Radio Białystok",
       "public_name": "Radio Białystok",
       "slug": "radiobialystok",
@@ -263,7 +263,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 394,
+      "archive_count": 393,
       "display_name": "Radio Rzeszów",
       "public_name": "Radio Rzeszów",
       "slug": "radiorzeszow",
