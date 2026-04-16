@@ -1,15 +1,14 @@
 {
-  "archive_count": 16526,
+  "archive_count": 16542,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-16T04:47:18.369728+00:00",
+  "generated_at": "2026-04-16T05:02:04.581035+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_missing_stations": [
     "Radio Akadera",
     "Radio Centrum Lublin",
     "Radio Dla Ciebie",
     "Radio Katowice",
-    "Radio Kielce",
     "Radio Koszalin",
     "Radio Kraków",
     "Radio Łódź",
@@ -19,7 +18,6 @@
     "Radio Olsztyn",
     "Radio Opole",
     "Radio PiK",
-    "Radio Poznań",
     "Radio Republika",
     "Radio Rzeszów",
     "Radio Słupsk",
@@ -27,9 +25,6 @@
     "Radio UWM FM",
     "Radio Wnet",
     "Radio Wrocław",
-    "Radio Zachód",
-    "Radio Żak",
-    "Radio Zielona Góra",
     "TOK FM"
   ],
   "latest_archive_hour_started_at": "2026-04-16T03:00:00+00:00",
@@ -46,10 +41,15 @@
     "Radio Gorzów",
     "Radio Index",
     "Radio Kampus",
-    "Radio Maryja"
+    "Radio Kielce",
+    "Radio Maryja",
+    "Radio Poznań",
+    "Radio Zachód",
+    "Radio Zielona Góra",
+    "Radio Żak"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-16T04:47:18.369728+00:00",
+  "published_at": "2026-04-16T05:02:04.581035+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
