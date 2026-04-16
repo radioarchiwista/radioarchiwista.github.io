@@ -1,8 +1,8 @@
 {
-  "archive_count": 16437,
+  "archive_count": 16418,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-16T02:44:56.827827+00:00",
+  "generated_at": "2026-04-16T02:55:55.937223+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_missing_stations": [
     "Radio Akadera",
@@ -18,13 +18,15 @@
     "Radio Olsztyn",
     "Radio Opole",
     "Radio PiK",
+    "Radio Poznań",
     "Radio Republika",
     "Radio Rzeszów",
     "Radio Słupsk",
     "Radio Szczecin",
     "Radio UWM FM",
     "Radio Wnet",
-    "Radio Wrocław"
+    "Radio Wrocław",
+    "Radio Żak"
   ],
   "latest_archive_hour_started_at": "2026-04-16T01:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -43,13 +45,11 @@
     "Radio Kampus",
     "Radio Kielce",
     "Radio Maryja",
-    "Radio Poznań",
     "Radio Zachód",
-    "Radio Zielona Góra",
-    "Radio Żak"
+    "Radio Zielona Góra"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-16T02:44:56.827827+00:00",
+  "published_at": "2026-04-16T02:55:55.937223+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"

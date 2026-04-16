@@ -314,30 +314,6 @@
     },
     {
       "archive_item_identifier": "radiozielonagora-2026-04-15",
-      "audio_url": "https://archive.org/download/radiozielonagora-2026-04-15/radiozielonagora_2026-04-15T11-00-00Z.mp3",
-      "completeness_ratio": 0.9974,
-      "day": 15,
-      "download_url": "https://archive.org/download/radiozielonagora-2026-04-15/radiozielonagora_2026-04-15T11-00-00Z.mp3",
-      "duration_seconds": 3587.736,
-      "hour": 13,
-      "hourly_archive_id": 16376,
-      "local_date_label": "15.04.2026",
-      "local_hour_label": "13:00",
-      "local_label": "2026-04-15 13:00 czasu polskiego",
-      "local_started_at": "2026-04-15T13:00:00+02:00",
-      "local_timezone_label": "czasu polskiego",
-      "month": 4,
-      "published_at": "2026-04-15T12:40:19.315370+00:00",
-      "published_local_label": "2026-04-15 14:40 czasu polskiego",
-      "remote_filename": "radiozielonagora_2026-04-15T11-00-00Z.mp3",
-      "station_slug": "radiozielonagora",
-      "status": "published",
-      "utc_label": "2026-04-15 11:00 UTC",
-      "utc_started_at": "2026-04-15T11:00:00+00:00",
-      "year": 2026
-    },
-    {
-      "archive_item_identifier": "radiozielonagora-2026-04-15",
       "audio_url": "https://archive.org/download/radiozielonagora-2026-04-15/radiozielonagora_2026-04-15T12-00-00Z.mp3",
       "completeness_ratio": 0.998,
       "day": 15,
@@ -530,7 +506,7 @@
     }
   ],
   "day": 15,
-  "generated_at": "2026-04-16T02:34:22.691754+00:00",
+  "generated_at": "2026-04-16T02:48:49.541515+00:00",
   "hour_slots": [
     {
       "archive_status": "published",
@@ -780,7 +756,7 @@
       "year": 2026
     },
     {
-      "archive_status": "published",
+      "archive_status": "ready",
       "completeness_ratio": 0.9974,
       "day": 15,
       "hour": 13,
@@ -791,9 +767,9 @@
       "local_started_at": "2026-04-15T13:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 4,
-      "playable": true,
-      "state": "available",
-      "status_label": null,
+      "playable": false,
+      "state": "publishing",
+      "status_label": "Czeka w kolejce do publikacji",
       "utc_label": "2026-04-15 11:00 UTC",
       "utc_started_at": "2026-04-15T11:00:00+00:00",
       "year": 2026
@@ -993,9 +969,9 @@
   "latest_archive_hour_missing_stations": [],
   "latest_archive_hour_started_at": "2026-04-16T01:00:00+00:00",
   "month": 4,
-  "published_at": "2026-04-16T02:34:22.691754+00:00",
+  "published_at": "2026-04-16T02:48:49.541515+00:00",
   "station": {
-    "archive_count": 391,
+    "archive_count": 390,
     "display_name": "Radio Zielona Góra",
     "public_name": "Radio Zielona Góra",
     "slug": "radiozielonagora",
