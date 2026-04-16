@@ -1,10 +1,9 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-16T08:10:18.547902+00:00",
+  "generated_at": "2026-04-16T08:28:32.158095+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_missing_stations": [
-    "Program 3",
     "Radio 357",
     "Radio Afera",
     "Radio Akadera",
@@ -45,10 +44,11 @@
   "latest_archive_hour_stations": [
     "Program 1",
     "Program 2",
+    "Program 3",
     "Polskie Radio 24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-16T08:10:18.547902+00:00",
+  "published_at": "2026-04-16T08:28:32.158095+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -67,7 +67,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1742,
+      "archive_count": 1765,
       "display_name": "Program 3",
       "public_name": "Polskie Radio Program 3",
       "slug": "pr3",
@@ -130,7 +130,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 391,
+      "archive_count": 393,
       "display_name": "Radio Białystok",
       "public_name": "Radio Białystok",
       "slug": "radiobialystok",
@@ -242,7 +242,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 351,
+      "archive_count": 352,
       "display_name": "Radio Opole",
       "public_name": "Radio Opole",
       "slug": "radioopole",
@@ -277,7 +277,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 396,
+      "archive_count": 397,
       "display_name": "Radio Słupsk",
       "public_name": "Radio Słupsk",
       "slug": "radioslupsk",
@@ -298,7 +298,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 396,
+      "archive_count": 395,
       "display_name": "Radio Zachód",
       "public_name": "Radio Zachód",
       "slug": "radiozachod",
