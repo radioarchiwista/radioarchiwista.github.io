@@ -1,23 +1,26 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-16T14:43:07.469912+00:00",
+  "generated_at": "2026-04-16T14:53:49.433682+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_missing_stations": [
-    "Polskie Radio 24",
-    "Program 1",
-    "Program 2",
-    "Program 3"
+    "Radio Akadera",
+    "Radio Słupsk",
+    "Radio Szczecin",
+    "Radio Wrocław"
   ],
   "latest_archive_hour_started_at": "2026-04-16T13:00:00+00:00",
   "latest_archive_hour_stations": [
+    "Program 1",
+    "Program 2",
+    "Program 3",
+    "Polskie Radio 24",
     "Radio 357",
     "Radio Nowy Świat",
     "TOK FM",
     "Radio Wnet",
     "Radio Republika",
     "Radio Afera",
-    "Radio Akadera",
     "Radio Białystok",
     "Radio Centrum Lublin",
     "Radio Centrum Rzeszów",
@@ -38,43 +41,40 @@
     "Radio PiK",
     "Radio Poznań",
     "Radio Rzeszów",
-    "Radio Szczecin",
-    "Radio Słupsk",
     "Radio UWM FM",
-    "Radio Wrocław",
     "Radio Zachód",
     "Radio Zielona Góra",
     "Radio Łódź",
     "Radio Żak"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-16T14:43:07.469912+00:00",
+  "published_at": "2026-04-16T14:53:49.433682+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
     {
-      "archive_count": 429,
+      "archive_count": 430,
       "display_name": "Program 1",
       "public_name": "Polskie Radio Program 1",
       "slug": "pr1",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 427,
+      "archive_count": 428,
       "display_name": "Program 2",
       "public_name": "Polskie Radio Program 2",
       "slug": "pr2",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1918,
+      "archive_count": 1937,
       "display_name": "Program 3",
       "public_name": "Polskie Radio Program 3",
       "slug": "pr3",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 425,
+      "archive_count": 426,
       "display_name": "Polskie Radio 24",
       "public_name": "Polskie Radio 24",
       "slug": "pr24",
@@ -123,7 +123,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 406,
+      "archive_count": 405,
       "display_name": "Radio Akadera",
       "public_name": "Radio Akadera",
       "slug": "radioakadera",
@@ -270,14 +270,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 407,
+      "archive_count": 406,
       "display_name": "Radio Szczecin",
       "public_name": "Radio Szczecin",
       "slug": "radioszczecin",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 407,
+      "archive_count": 406,
       "display_name": "Radio Słupsk",
       "public_name": "Radio Słupsk",
       "slug": "radioslupsk",
@@ -291,7 +291,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 407,
+      "archive_count": 406,
       "display_name": "Radio Wrocław",
       "public_name": "Radio Wrocław",
       "slug": "radiowroclaw",
