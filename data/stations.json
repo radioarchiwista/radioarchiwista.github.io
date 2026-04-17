@@ -8,6 +8,8 @@
     "Radio Dla Ciebie",
     "Radio Index",
     "Radio Kampus",
+    "Radio Katowice",
+    "Radio Koszalin",
     "Radio Kraków",
     "Radio Łódź",
     "Radio Lublin",
@@ -43,9 +45,7 @@
     "Radio Centrum Rzeszów",
     "Radio Gdańsk",
     "Radio Gorzów",
-    "Radio Katowice",
-    "Radio Kielce",
-    "Radio Koszalin"
+    "Radio Kielce"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
   "published_at": "2026-04-17T03:20:01.509806+00:00",
@@ -158,7 +158,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 413,
+      "archive_count": 412,
       "display_name": "Radio Gdańsk",
       "public_name": "Radio Gdańsk",
       "slug": "radiogdansk",
@@ -179,14 +179,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 398,
+      "archive_count": 397,
       "display_name": "Radio Kampus",
       "public_name": "Radio Kampus",
       "slug": "radiokampus",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 416,
+      "archive_count": 415,
       "display_name": "Radio Katowice",
       "public_name": "Radio Katowice",
       "slug": "radiokatowice",
@@ -200,7 +200,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 412,
+      "archive_count": 411,
       "display_name": "Radio Koszalin",
       "public_name": "Radio Koszalin",
       "slug": "radiokoszalin",
