@@ -1,36 +1,28 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-17T22:10:22.190257+00:00",
+  "generated_at": "2026-04-17T22:20:08.217860+00:00",
   "latest_archive_hour_expected_station_count": 39,
-  "latest_archive_hour_started_at": "2026-04-17T20:00:00+00:00",
+  "latest_archive_hour_started_at": "2026-04-17T21:00:00+00:00",
   "latest_archive_hour_stations": [
     "Program 1",
     "Program 2",
-    "Polskie Radio 24",
-    "Radio 357",
-    "Radio Afera",
-    "Radio Białystok",
-    "Radio Gorzów",
-    "Radio Kielce",
-    "Radio Maryja",
-    "Radio Zachód",
-    "Radio Zielona Góra"
+    "Polskie Radio 24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-17T22:10:22.190257+00:00",
+  "published_at": "2026-04-17T22:20:08.217860+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
     {
-      "archive_count": 459,
+      "archive_count": 460,
       "display_name": "Program 1",
       "public_name": "Polskie Radio Program 1",
       "slug": "pr1",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 458,
+      "archive_count": 459,
       "display_name": "Program 2",
       "public_name": "Polskie Radio Program 2",
       "slug": "pr2",
@@ -44,7 +36,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 457,
+      "archive_count": 458,
       "display_name": "Polskie Radio 24",
       "public_name": "Polskie Radio 24",
       "slug": "pr24",
@@ -65,7 +57,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 433,
+      "archive_count": 434,
       "display_name": "TOK FM",
       "public_name": "TOK FM",
       "slug": "tokfm",
