@@ -1,34 +1,28 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-17T19:17:15.178598+00:00",
+  "generated_at": "2026-04-17T19:19:38.609988+00:00",
   "latest_archive_hour_expected_station_count": 39,
-  "latest_archive_hour_started_at": "2026-04-17T17:00:00+00:00",
+  "latest_archive_hour_started_at": "2026-04-17T18:00:00+00:00",
   "latest_archive_hour_stations": [
     "Program 1",
     "Program 2",
-    "Polskie Radio 24",
-    "Radio 357",
-    "Radio Afera",
-    "Radio Białystok",
-    "Radio Gorzów",
-    "Radio Kielce",
-    "Radio Maryja"
+    "Polskie Radio 24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-17T19:17:15.178598+00:00",
+  "published_at": "2026-04-17T19:19:38.609988+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
     {
-      "archive_count": 456,
+      "archive_count": 457,
       "display_name": "Program 1",
       "public_name": "Polskie Radio Program 1",
       "slug": "pr1",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 455,
+      "archive_count": 456,
       "display_name": "Program 2",
       "public_name": "Polskie Radio Program 2",
       "slug": "pr2",
@@ -42,7 +36,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 454,
+      "archive_count": 455,
       "display_name": "Polskie Radio 24",
       "public_name": "Polskie Radio 24",
       "slug": "pr24",
@@ -266,7 +260,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 425,
+      "archive_count": 426,
       "display_name": "Radio Zachód",
       "public_name": "Radio Zachód",
       "slug": "radiozachod",
