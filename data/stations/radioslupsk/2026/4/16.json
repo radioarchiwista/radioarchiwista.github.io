@@ -383,30 +383,6 @@
       "utc_label": "2026-04-16 13:00 UTC",
       "utc_started_at": "2026-04-16T13:00:00+00:00",
       "year": 2026
-    },
-    {
-      "archive_item_identifier": "radioslupsk-2026-04-16",
-      "audio_url": "https://archive.org/download/radioslupsk-2026-04-16/radioslupsk_2026-04-16T14-00-00Z.mp3",
-      "completeness_ratio": 0.9997,
-      "day": 16,
-      "download_url": "https://archive.org/download/radioslupsk-2026-04-16/radioslupsk_2026-04-16T14-00-00Z.mp3",
-      "duration_seconds": 3599.376,
-      "hour": 16,
-      "hourly_archive_id": 17790,
-      "local_date_label": "16.04.2026",
-      "local_hour_label": "16:00",
-      "local_label": "2026-04-16 16:00 czasu polskiego",
-      "local_started_at": "2026-04-16T16:00:00+02:00",
-      "local_timezone_label": "czasu polskiego",
-      "month": 4,
-      "published_at": "2026-04-16T15:34:18.402508+00:00",
-      "published_local_label": "2026-04-16 17:34 czasu polskiego",
-      "remote_filename": "radioslupsk_2026-04-16T14-00-00Z.mp3",
-      "station_slug": "radioslupsk",
-      "status": "published",
-      "utc_label": "2026-04-16 14:00 UTC",
-      "utc_started_at": "2026-04-16T14:00:00+00:00",
-      "year": 2026
     }
   ],
   "day": 16,
@@ -717,7 +693,7 @@
       "year": 2026
     },
     {
-      "archive_status": "published",
+      "archive_status": "ready",
       "completeness_ratio": 0.9997,
       "day": 16,
       "hour": 16,
@@ -728,9 +704,9 @@
       "local_started_at": "2026-04-16T16:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 4,
-      "playable": true,
-      "state": "available",
-      "status_label": null,
+      "playable": false,
+      "state": "publishing",
+      "status_label": "Czeka w kolejce do publikacji",
       "utc_label": "2026-04-16 14:00 UTC",
       "utc_started_at": "2026-04-16T14:00:00+00:00",
       "year": 2026
@@ -875,7 +851,7 @@
   "month": 4,
   "published_at": "2026-04-17T05:22:55.391395+00:00",
   "station": {
-    "archive_count": 411,
+    "archive_count": 410,
     "display_name": "Radio Słupsk",
     "public_name": "Radio Słupsk",
     "slug": "radioslupsk",
