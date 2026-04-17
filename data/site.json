@@ -1,13 +1,10 @@
 {
-  "archive_count": 17789,
+  "archive_count": 17805,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-17T10:41:45.746617+00:00",
+  "generated_at": "2026-04-17T10:43:53.603591+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_missing_stations": [
-    "Polskie Radio 24",
-    "Program 1",
-    "Program 2",
     "Program 3",
     "Radio Index",
     "Radio Kampus",
@@ -26,6 +23,9 @@
   ],
   "latest_archive_hour_started_at": "2026-04-17T09:00:00+00:00",
   "latest_archive_hour_stations": [
+    "Program 1",
+    "Program 2",
+    "Polskie Radio 24",
     "Radio 357",
     "TOK FM",
     "Radio Afera",
@@ -49,7 +49,7 @@
     "Radio Łódź"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-17T10:41:45.746617+00:00",
+  "published_at": "2026-04-17T10:43:53.603591+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
