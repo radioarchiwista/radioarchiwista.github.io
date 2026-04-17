@@ -431,30 +431,6 @@
       "utc_label": "2026-04-16 20:00 UTC",
       "utc_started_at": "2026-04-16T20:00:00+00:00",
       "year": 2026
-    },
-    {
-      "archive_item_identifier": "radiozielonagora-2026-04-16",
-      "audio_url": "https://archive.org/download/radiozielonagora-2026-04-16/radiozielonagora_2026-04-16T21-00-00Z.mp3",
-      "completeness_ratio": 0.4044,
-      "day": 16,
-      "download_url": "https://archive.org/download/radiozielonagora-2026-04-16/radiozielonagora_2026-04-16T21-00-00Z.mp3",
-      "duration_seconds": 3595.104,
-      "hour": 23,
-      "hourly_archive_id": 18097,
-      "local_date_label": "16.04.2026",
-      "local_hour_label": "23:00",
-      "local_label": "2026-04-16 23:00 czasu polskiego",
-      "local_started_at": "2026-04-16T23:00:00+02:00",
-      "local_timezone_label": "czasu polskiego",
-      "month": 4,
-      "published_at": "2026-04-17T12:01:57.929812+00:00",
-      "published_local_label": "2026-04-17 14:01 czasu polskiego",
-      "remote_filename": "radiozielonagora_2026-04-16T21-00-00Z.mp3",
-      "station_slug": "radiozielonagora",
-      "status": "published",
-      "utc_label": "2026-04-16 21:00 UTC",
-      "utc_started_at": "2026-04-16T21:00:00+00:00",
-      "year": 2026
     }
   ],
   "day": 16,
@@ -898,7 +874,7 @@
       "year": 2026
     },
     {
-      "archive_status": "published",
+      "archive_status": "ready",
       "completeness_ratio": 0.4044,
       "day": 16,
       "hour": 23,
@@ -909,9 +885,9 @@
       "local_started_at": "2026-04-16T23:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 4,
-      "playable": true,
-      "state": "available",
-      "status_label": null,
+      "playable": false,
+      "state": "publishing",
+      "status_label": "Czeka w kolejce do publikacji",
       "utc_label": "2026-04-16 21:00 UTC",
       "utc_started_at": "2026-04-16T21:00:00+00:00",
       "year": 2026
@@ -923,7 +899,7 @@
   "month": 4,
   "published_at": "2026-04-17T12:31:11.445443+00:00",
   "station": {
-    "archive_count": 424,
+    "archive_count": 423,
     "display_name": "Radio Zielona Góra",
     "public_name": "Radio Zielona Góra",
     "slug": "radiozielonagora",

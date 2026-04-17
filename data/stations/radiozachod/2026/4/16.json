@@ -431,30 +431,6 @@
       "utc_label": "2026-04-16 20:00 UTC",
       "utc_started_at": "2026-04-16T20:00:00+00:00",
       "year": 2026
-    },
-    {
-      "archive_item_identifier": "radiozachod-2026-04-16",
-      "audio_url": "https://archive.org/download/radiozachod-2026-04-16/radiozachod_2026-04-16T21-00-00Z.mp3",
-      "completeness_ratio": 0.4619,
-      "day": 16,
-      "download_url": "https://archive.org/download/radiozachod-2026-04-16/radiozachod_2026-04-16T21-00-00Z.mp3",
-      "duration_seconds": 3598.176,
-      "hour": 23,
-      "hourly_archive_id": 18095,
-      "local_date_label": "16.04.2026",
-      "local_hour_label": "23:00",
-      "local_label": "2026-04-16 23:00 czasu polskiego",
-      "local_started_at": "2026-04-16T23:00:00+02:00",
-      "local_timezone_label": "czasu polskiego",
-      "month": 4,
-      "published_at": "2026-04-17T12:01:43.844909+00:00",
-      "published_local_label": "2026-04-17 14:01 czasu polskiego",
-      "remote_filename": "radiozachod_2026-04-16T21-00-00Z.mp3",
-      "station_slug": "radiozachod",
-      "status": "published",
-      "utc_label": "2026-04-16 21:00 UTC",
-      "utc_started_at": "2026-04-16T21:00:00+00:00",
-      "year": 2026
     }
   ],
   "day": 16,
@@ -898,7 +874,7 @@
       "year": 2026
     },
     {
-      "archive_status": "published",
+      "archive_status": "ready",
       "completeness_ratio": 0.4619,
       "day": 16,
       "hour": 23,
@@ -909,9 +885,9 @@
       "local_started_at": "2026-04-16T23:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 4,
-      "playable": true,
-      "state": "available",
-      "status_label": null,
+      "playable": false,
+      "state": "publishing",
+      "status_label": "Czeka w kolejce do publikacji",
       "utc_label": "2026-04-16 21:00 UTC",
       "utc_started_at": "2026-04-16T21:00:00+00:00",
       "year": 2026
@@ -923,7 +899,7 @@
   "month": 4,
   "published_at": "2026-04-17T12:30:52.549693+00:00",
   "station": {
-    "archive_count": 424,
+    "archive_count": 422,
     "display_name": "Radio Zachód",
     "public_name": "Radio Zachód",
     "slug": "radiozachod",
