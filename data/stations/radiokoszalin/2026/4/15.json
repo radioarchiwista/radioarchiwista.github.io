@@ -551,6 +551,30 @@
       "utc_label": "2026-04-15 20:00 UTC",
       "utc_started_at": "2026-04-15T20:00:00+00:00",
       "year": 2026
+    },
+    {
+      "archive_item_identifier": "radiokoszalin-2026-04-15",
+      "audio_url": "https://archive.org/download/radiokoszalin-2026-04-15/radiokoszalin_2026-04-15T21-00-00Z.mp3",
+      "completeness_ratio": 0.9997,
+      "day": 15,
+      "download_url": "https://archive.org/download/radiokoszalin-2026-04-15/radiokoszalin_2026-04-15T21-00-00Z.mp3",
+      "duration_seconds": 3599.4,
+      "hour": 23,
+      "hourly_archive_id": 16765,
+      "local_date_label": "15.04.2026",
+      "local_hour_label": "23:00",
+      "local_label": "2026-04-15 23:00 czasu polskiego",
+      "local_started_at": "2026-04-15T23:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 4,
+      "published_at": "2026-04-16T10:54:51.596989+00:00",
+      "published_local_label": "2026-04-16 12:54 czasu polskiego",
+      "remote_filename": "radiokoszalin_2026-04-15T21-00-00Z.mp3",
+      "station_slug": "radiokoszalin",
+      "status": "published",
+      "utc_label": "2026-04-15 21:00 UTC",
+      "utc_started_at": "2026-04-15T21:00:00+00:00",
+      "year": 2026
     }
   ],
   "day": 15,
@@ -994,7 +1018,7 @@
       "year": 2026
     },
     {
-      "archive_status": "error",
+      "archive_status": "published",
       "completeness_ratio": 0.9997,
       "day": 15,
       "hour": 23,
@@ -1005,9 +1029,9 @@
       "local_started_at": "2026-04-15T23:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 4,
-      "playable": false,
-      "state": "failed",
-      "status_label": "Nie udało się przygotować nagrania",
+      "playable": true,
+      "state": "available",
+      "status_label": null,
       "utc_label": "2026-04-15 21:00 UTC",
       "utc_started_at": "2026-04-15T21:00:00+00:00",
       "year": 2026
@@ -1018,7 +1042,7 @@
   "month": 4,
   "published_at": "2026-04-17T22:33:47.085947+00:00",
   "station": {
-    "archive_count": 433,
+    "archive_count": 434,
     "display_name": "Radio Koszalin",
     "public_name": "Radio Koszalin",
     "slug": "radiokoszalin",
