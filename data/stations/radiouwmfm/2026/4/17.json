@@ -25,30 +25,6 @@
       "year": 2026
     },
     {
-      "archive_item_identifier": "radio_uniwersytetu_warminsko_mazurskiego-2026-04-16",
-      "audio_url": "https://archive.org/download/radio_uniwersytetu_warminsko_mazurskiego-2026-04-16/radio_uniwersytetu_warminsko_mazurskiego_2026-04-16T23-00-00Z.mp3",
-      "completeness_ratio": 0.8531,
-      "day": 17,
-      "download_url": "https://archive.org/download/radio_uniwersytetu_warminsko_mazurskiego-2026-04-16/radio_uniwersytetu_warminsko_mazurskiego_2026-04-16T23-00-00Z.mp3",
-      "duration_seconds": 3599.88,
-      "hour": 1,
-      "hourly_archive_id": 17978,
-      "local_date_label": "17.04.2026",
-      "local_hour_label": "01:00",
-      "local_label": "2026-04-17 01:00 czasu polskiego",
-      "local_started_at": "2026-04-17T01:00:00+02:00",
-      "local_timezone_label": "czasu polskiego",
-      "month": 4,
-      "published_at": "2026-04-17T10:37:17.068142+00:00",
-      "published_local_label": "2026-04-17 12:37 czasu polskiego",
-      "remote_filename": "radio_uniwersytetu_warminsko_mazurskiego_2026-04-16T23-00-00Z.mp3",
-      "station_slug": "radiouwmfm",
-      "status": "published",
-      "utc_label": "2026-04-16 23:00 UTC",
-      "utc_started_at": "2026-04-16T23:00:00+00:00",
-      "year": 2026
-    },
-    {
       "archive_item_identifier": "radio_uniwersytetu_warminsko_mazurskiego-2026-04-17",
       "audio_url": "https://archive.org/download/radio_uniwersytetu_warminsko_mazurskiego-2026-04-17/radio_uniwersytetu_warminsko_mazurskiego_2026-04-17T00-00-00Z.mp3",
       "completeness_ratio": 0.8137,
@@ -312,7 +288,7 @@
       "year": 2026
     },
     {
-      "archive_status": "published",
+      "archive_status": "ready",
       "completeness_ratio": 0.8531,
       "day": 17,
       "hour": 1,
@@ -323,9 +299,9 @@
       "local_started_at": "2026-04-17T01:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 4,
-      "playable": true,
-      "state": "available",
-      "status_label": null,
+      "playable": false,
+      "state": "publishing",
+      "status_label": "Czeka w kolejce do publikacji",
       "utc_label": "2026-04-16 23:00 UTC",
       "utc_started_at": "2026-04-16T23:00:00+00:00",
       "year": 2026
@@ -546,7 +522,7 @@
   "month": 4,
   "published_at": "2026-04-17T10:49:32.756433+00:00",
   "station": {
-    "archive_count": 420,
+    "archive_count": 419,
     "display_name": "Radio UWM FM",
     "public_name": "Radio UWM FM",
     "slug": "radiouwmfm",
