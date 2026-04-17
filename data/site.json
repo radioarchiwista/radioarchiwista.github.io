@@ -1,8 +1,8 @@
 {
-  "archive_count": 17999,
+  "archive_count": 18007,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-17T18:40:15.498236+00:00",
+  "generated_at": "2026-04-17T19:12:31.160349+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-04-17T17:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -11,10 +11,12 @@
     "Polskie Radio 24",
     "Radio 357",
     "Radio Afera",
-    "Radio Białystok"
+    "Radio Białystok",
+    "Radio Gorzów",
+    "Radio Kielce"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-17T18:40:15.498236+00:00",
+  "published_at": "2026-04-17T19:12:31.160349+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
