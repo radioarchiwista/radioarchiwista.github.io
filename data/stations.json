@@ -1,24 +1,14 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-17T04:52:24.571566+00:00",
+  "generated_at": "2026-04-17T04:58:32.000452+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_missing_stations": [
     "Program 3",
-    "Radio Gdańsk",
     "Radio Index",
     "Radio Kampus",
-    "Radio Katowice",
-    "Radio Koszalin",
-    "Radio Kraków",
-    "Radio Łódź",
-    "Radio Lublin",
-    "Radio Olsztyn",
     "Radio Opole",
-    "Radio PiK",
-    "Radio Poznań",
-    "Radio Rzeszów",
-    "Radio Słupsk"
+    "Radio PiK"
   ],
   "latest_archive_hour_started_at": "2026-04-17T03:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -36,19 +26,29 @@
     "Radio Centrum Lublin",
     "Radio Centrum Rzeszów",
     "Radio Dla Ciebie",
+    "Radio Gdańsk",
     "Radio Gorzów",
+    "Radio Katowice",
     "Radio Kielce",
+    "Radio Koszalin",
+    "Radio Kraków",
+    "Radio Lublin",
     "Radio Luz",
     "Radio Maryja",
+    "Radio Olsztyn",
+    "Radio Poznań",
+    "Radio Rzeszów",
     "Radio Szczecin",
+    "Radio Słupsk",
     "Radio UWM FM",
     "Radio Wrocław",
     "Radio Zachód",
     "Radio Zielona Góra",
+    "Radio Łódź",
     "Radio Żak"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-17T04:52:24.571566+00:00",
+  "published_at": "2026-04-17T04:58:32.000452+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -67,7 +67,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1990,
+      "archive_count": 1967,
       "display_name": "Program 3",
       "public_name": "Polskie Radio Program 3",
       "slug": "pr3",
@@ -158,42 +158,42 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 414,
+      "archive_count": 415,
       "display_name": "Radio Gdańsk",
       "public_name": "Radio Gdańsk",
       "slug": "radiogdansk",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 414,
+      "archive_count": 415,
       "display_name": "Radio Gorzów",
       "public_name": "Radio Gorzów",
       "slug": "radiogorzow",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 407,
+      "archive_count": 408,
       "display_name": "Radio Index",
       "public_name": "Radio Index",
       "slug": "radioindex",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 397,
+      "archive_count": 398,
       "display_name": "Radio Kampus",
       "public_name": "Radio Kampus",
       "slug": "radiokampus",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 416,
+      "archive_count": 417,
       "display_name": "Radio Katowice",
       "public_name": "Radio Katowice",
       "slug": "radiokatowice",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 390,
+      "archive_count": 391,
       "display_name": "Radio Kielce",
       "public_name": "Radio Kielce",
       "slug": "radiokielce",
