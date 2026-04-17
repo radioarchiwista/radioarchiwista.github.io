@@ -362,6 +362,30 @@
     },
     {
       "archive_item_identifier": "radiokoszalin-2026-04-17",
+      "audio_url": "https://archive.org/download/radiokoszalin-2026-04-17/radiokoszalin_2026-04-17T13-00-00Z.mp3",
+      "completeness_ratio": 1.0,
+      "day": 17,
+      "download_url": "https://archive.org/download/radiokoszalin-2026-04-17/radiokoszalin_2026-04-17T13-00-00Z.mp3",
+      "duration_seconds": 3600.091,
+      "hour": 15,
+      "hourly_archive_id": 18607,
+      "local_date_label": "17.04.2026",
+      "local_hour_label": "15:00",
+      "local_label": "2026-04-17 15:00 czasu polskiego",
+      "local_started_at": "2026-04-17T15:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 4,
+      "published_at": "2026-04-17T23:23:37.177588+00:00",
+      "published_local_label": "2026-04-18 01:23 czasu polskiego",
+      "remote_filename": "radiokoszalin_2026-04-17T13-00-00Z.mp3",
+      "station_slug": "radiokoszalin",
+      "status": "published",
+      "utc_label": "2026-04-17 13:00 UTC",
+      "utc_started_at": "2026-04-17T13:00:00+00:00",
+      "year": 2026
+    },
+    {
+      "archive_item_identifier": "radiokoszalin-2026-04-17",
       "audio_url": "https://archive.org/download/radiokoszalin-2026-04-17/radiokoszalin_2026-04-17T14-00-00Z.mp3",
       "completeness_ratio": 1.0,
       "day": 17,
@@ -530,7 +554,7 @@
     }
   ],
   "day": 17,
-  "generated_at": "2026-04-17T22:59:20.567434+00:00",
+  "generated_at": "2026-04-17T23:23:37.177588+00:00",
   "hour_slots": [
     {
       "archive_status": "published",
@@ -818,7 +842,7 @@
       "year": 2026
     },
     {
-      "archive_status": "ready",
+      "archive_status": "published",
       "completeness_ratio": 1.0,
       "day": 17,
       "hour": 15,
@@ -829,9 +853,9 @@
       "local_started_at": "2026-04-17T15:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 4,
-      "playable": false,
-      "state": "publishing",
-      "status_label": "Czeka w kolejce do publikacji",
+      "playable": true,
+      "state": "available",
+      "status_label": null,
       "utc_label": "2026-04-17 13:00 UTC",
       "utc_started_at": "2026-04-17T13:00:00+00:00",
       "year": 2026
@@ -990,11 +1014,11 @@
     }
   ],
   "latest_archive_hour_expected_station_count": 0,
-  "latest_archive_hour_started_at": "2026-04-17T12:00:00+00:00",
+  "latest_archive_hour_started_at": "2026-04-17T20:00:00+00:00",
   "month": 4,
-  "published_at": "2026-04-17T22:59:20.567434+00:00",
+  "published_at": "2026-04-17T23:23:37.177588+00:00",
   "station": {
-    "archive_count": 435,
+    "archive_count": 436,
     "display_name": "Radio Koszalin",
     "public_name": "Radio Koszalin",
     "slug": "radiokoszalin",
