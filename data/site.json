@@ -2,14 +2,13 @@
   "archive_count": 17468,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-17T02:23:03.593999+00:00",
+  "generated_at": "2026-04-17T02:28:01.765251+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_missing_stations": [
     "Program 3",
     "Radio Dla Ciebie",
     "Radio Index",
     "Radio Kampus",
-    "Radio Katowice",
     "Radio Koszalin",
     "Radio Kraków",
     "Radio Łódź",
@@ -46,10 +45,11 @@
     "Radio Centrum Rzeszów",
     "Radio Gdańsk",
     "Radio Gorzów",
+    "Radio Katowice",
     "Radio Kielce"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-17T02:23:03.593999+00:00",
+  "published_at": "2026-04-17T02:28:01.765251+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
