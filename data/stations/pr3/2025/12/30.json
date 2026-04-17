@@ -770,7 +770,7 @@
       "year": 2025
     },
     {
-      "archive_status": "ready",
+      "archive_status": "error",
       "completeness_ratio": 0.4765,
       "day": 30,
       "hour": 15,
@@ -782,8 +782,8 @@
       "local_timezone_label": "czasu polskiego",
       "month": 12,
       "playable": false,
-      "state": "publishing",
-      "status_label": "Czeka w kolejce do publikacji",
+      "state": "failed",
+      "status_label": "Nie udało się przygotować nagrania",
       "utc_label": "2025-12-30 14:00 UTC",
       "utc_started_at": "2025-12-30T14:00:00+00:00",
       "year": 2025
@@ -884,7 +884,7 @@
       "year": 2025
     },
     {
-      "archive_status": "ready",
+      "archive_status": "error",
       "completeness_ratio": 0.4552,
       "day": 30,
       "hour": 21,
@@ -896,8 +896,8 @@
       "local_timezone_label": "czasu polskiego",
       "month": 12,
       "playable": false,
-      "state": "publishing",
-      "status_label": "Czeka w kolejce do publikacji",
+      "state": "failed",
+      "status_label": "Nie udało się przygotować nagrania",
       "utc_label": "2025-12-30 20:00 UTC",
       "utc_started_at": "2025-12-30T20:00:00+00:00",
       "year": 2025
@@ -946,7 +946,7 @@
   "month": 12,
   "published_at": "2026-04-17T05:53:57.773948+00:00",
   "station": {
-    "archive_count": 1969,
+    "archive_count": 1956,
     "display_name": "Program 3",
     "public_name": "Polskie Radio Program 3",
     "slug": "pr3",
