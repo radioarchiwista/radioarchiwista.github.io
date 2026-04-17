@@ -410,7 +410,7 @@
     }
   ],
   "day": 16,
-  "generated_at": "2026-04-17T06:37:57.582441+00:00",
+  "generated_at": "2026-04-17T06:59:46.300167+00:00",
   "hour_slots": [
     {
       "archive_status": "published",
@@ -793,11 +793,11 @@
       "year": 2026
     },
     {
-      "archive_status": null,
-      "completeness_ratio": null,
+      "archive_status": "ready",
+      "completeness_ratio": 0.7961,
       "day": 16,
       "hour": 20,
-      "hourly_archive_id": null,
+      "hourly_archive_id": 18264,
       "local_date_label": "16.04.2026",
       "local_hour_label": "20:00",
       "local_label": "2026-04-16 20:00 czasu polskiego",
@@ -805,8 +805,8 @@
       "local_timezone_label": "czasu polskiego",
       "month": 4,
       "playable": false,
-      "state": "recorded",
-      "status_label": "Nagranie czeka na złożenie",
+      "state": "publishing",
+      "status_label": "Czeka w kolejce do publikacji",
       "utc_label": "2026-04-16 18:00 UTC",
       "utc_started_at": "2026-04-16T18:00:00+00:00",
       "year": 2026
@@ -873,7 +873,7 @@
   "latest_archive_hour_missing_stations": [],
   "latest_archive_hour_started_at": "2026-04-17T05:00:00+00:00",
   "month": 4,
-  "published_at": "2026-04-17T06:37:57.582441+00:00",
+  "published_at": "2026-04-17T06:59:46.300167+00:00",
   "station": {
     "archive_count": 428,
     "display_name": "Radio Wnet",
