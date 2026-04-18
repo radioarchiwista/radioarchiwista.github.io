@@ -554,7 +554,7 @@
     }
   ],
   "day": 17,
-  "generated_at": "2026-04-18T06:43:45.373557+00:00",
+  "generated_at": "2026-04-18T07:47:01.152488+00:00",
   "hour_slots": [
     {
       "archive_status": "published",
@@ -994,7 +994,7 @@
       "year": 2026
     },
     {
-      "archive_status": "ready",
+      "archive_status": "error",
       "completeness_ratio": 0.9941,
       "day": 17,
       "hour": 23,
@@ -1006,19 +1006,19 @@
       "local_timezone_label": "czasu polskiego",
       "month": 4,
       "playable": false,
-      "state": "publishing",
-      "status_label": "Czeka w kolejce do publikacji",
+      "state": "failed",
+      "status_label": "Nie udało się przygotować nagrania",
       "utc_label": "2026-04-17 21:00 UTC",
       "utc_started_at": "2026-04-17T21:00:00+00:00",
       "year": 2026
     }
   ],
   "latest_archive_hour_expected_station_count": 0,
-  "latest_archive_hour_started_at": "2026-04-18T05:00:00+00:00",
+  "latest_archive_hour_started_at": "2026-04-18T06:00:00+00:00",
   "month": 4,
-  "published_at": "2026-04-18T06:43:45.373557+00:00",
+  "published_at": "2026-04-18T07:47:01.152488+00:00",
   "station": {
-    "archive_count": 300,
+    "archive_count": 301,
     "display_name": "Radio Maryja",
     "public_name": "Radio Maryja",
     "slug": "radiomaryja",
