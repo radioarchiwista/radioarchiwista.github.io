@@ -1,15 +1,16 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-18T04:16:18.010442+00:00",
+  "generated_at": "2026-04-18T04:20:34.603154+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-04-18T03:00:00+00:00",
   "latest_archive_hour_stations": [
     "Program 1",
-    "Program 2"
+    "Program 2",
+    "Polskie Radio 24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-18T04:16:18.010442+00:00",
+  "published_at": "2026-04-18T04:20:34.603154+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -35,7 +36,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 463,
+      "archive_count": 464,
       "display_name": "Polskie Radio 24",
       "public_name": "Polskie Radio 24",
       "slug": "pr24",
@@ -56,7 +57,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 446,
+      "archive_count": 445,
       "display_name": "TOK FM",
       "public_name": "TOK FM",
       "slug": "tokfm",
@@ -154,7 +155,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 420,
+      "archive_count": 419,
       "display_name": "Radio Kielce",
       "public_name": "Radio Kielce",
       "slug": "radiokielce",
