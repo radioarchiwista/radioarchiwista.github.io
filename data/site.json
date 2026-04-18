@@ -1,8 +1,8 @@
 {
-  "archive_count": 19415,
+  "archive_count": 19438,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-18T23:38:20.378604+00:00",
+  "generated_at": "2026-04-18T23:42:15.163873+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-04-18T22:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -12,10 +12,19 @@
     "Radio 357",
     "Radio Afera",
     "Radio Akadera",
-    "Radio Centrum Lublin"
+    "Radio Centrum Lublin",
+    "Radio Centrum Rzeszów",
+    "Radio Gdańsk",
+    "Radio Gorzów",
+    "Radio Index",
+    "Radio Katowice",
+    "Radio Kielce",
+    "Radio Koszalin",
+    "Radio Kraków",
+    "Radio Łódź"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-18T23:38:20.378604+00:00",
+  "published_at": "2026-04-18T23:42:15.163873+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
