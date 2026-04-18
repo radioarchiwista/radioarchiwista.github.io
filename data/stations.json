@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-18T07:49:51.959586+00:00",
+  "generated_at": "2026-04-18T07:52:14.683185+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-04-18T06:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -30,10 +30,13 @@
     "Radio Słupsk",
     "Radio UWM FM",
     "Radio Wrocław",
-    "Radio Łódź"
+    "Radio Zachód",
+    "Radio Zielona Góra",
+    "Radio Łódź",
+    "Radio Żak"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-18T07:49:51.959586+00:00",
+  "published_at": "2026-04-18T07:52:14.683185+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -283,14 +286,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 446,
+      "archive_count": 447,
       "display_name": "Radio Zachód",
       "public_name": "Radio Zachód",
       "slug": "radiozachod",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 445,
+      "archive_count": 446,
       "display_name": "Radio Zielona Góra",
       "public_name": "Radio Zielona Góra",
       "slug": "radiozielonagora",
@@ -304,7 +307,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 437,
+      "archive_count": 438,
       "display_name": "Radio Żak",
       "public_name": "Radio Żak",
       "slug": "radiozak",
