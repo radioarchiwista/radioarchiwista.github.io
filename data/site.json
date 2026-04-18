@@ -1,8 +1,8 @@
 {
-  "archive_count": 18277,
+  "archive_count": 18285,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-18T00:06:51.719228+00:00",
+  "generated_at": "2026-04-18T00:14:34.644179+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-04-17T22:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -10,15 +10,17 @@
     "Program 2",
     "Polskie Radio 24",
     "Radio 357",
+    "Radio Afera",
     "Radio Białystok",
     "Radio Centrum Lublin",
     "Radio Centrum Rzeszów",
     "Radio Gorzów",
     "Radio Kielce",
-    "Radio Kraków"
+    "Radio Kraków",
+    "Radio Maryja"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-18T00:06:51.719228+00:00",
+  "published_at": "2026-04-18T00:14:34.644179+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
