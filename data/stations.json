@@ -1,14 +1,16 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-18T11:14:28.694166+00:00",
+  "generated_at": "2026-04-18T11:16:42.528046+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-04-18T10:00:00+00:00",
   "latest_archive_hour_stations": [
-    "Program 1"
+    "Program 1",
+    "Program 2",
+    "Polskie Radio 24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-18T11:14:28.694166+00:00",
+  "published_at": "2026-04-18T11:16:42.528046+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -20,7 +22,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 471,
+      "archive_count": 472,
       "display_name": "Program 2",
       "public_name": "Polskie Radio Program 2",
       "slug": "pr2",
@@ -34,7 +36,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 470,
+      "archive_count": 471,
       "display_name": "Polskie Radio 24",
       "public_name": "Polskie Radio 24",
       "slug": "pr24",
@@ -118,7 +120,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 451,
+      "archive_count": 450,
       "display_name": "Radio Gdańsk",
       "public_name": "Radio Gdańsk",
       "slug": "radiogdansk",
@@ -160,7 +162,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 451,
+      "archive_count": 450,
       "display_name": "Radio Koszalin",
       "public_name": "Radio Koszalin",
       "slug": "radiokoszalin",
