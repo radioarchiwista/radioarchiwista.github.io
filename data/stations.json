@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-18T07:52:14.683185+00:00",
+  "generated_at": "2026-04-18T07:54:53.231108+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-04-18T06:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -9,34 +9,28 @@
     "Program 2",
     "Polskie Radio 24",
     "Radio 357",
+    "Radio Nowy Świat",
+    "TOK FM",
+    "Radio Republika",
     "Radio Afera",
     "Radio Akadera",
     "Radio Białystok",
     "Radio Centrum Lublin",
     "Radio Centrum Rzeszów",
+    "Radio Dla Ciebie",
     "Radio Gdańsk",
     "Radio Gorzów",
     "Radio Katowice",
     "Radio Kielce",
-    "Radio Koszalin",
     "Radio Kraków",
-    "Radio Lublin",
-    "Radio Luz",
     "Radio Maryja",
-    "Radio Olsztyn",
-    "Radio Poznań",
     "Radio Rzeszów",
-    "Radio Szczecin",
-    "Radio Słupsk",
-    "Radio UWM FM",
-    "Radio Wrocław",
     "Radio Zachód",
     "Radio Zielona Góra",
-    "Radio Łódź",
     "Radio Żak"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-18T07:52:14.683185+00:00",
+  "published_at": "2026-04-18T07:54:53.231108+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -76,14 +70,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 460,
+      "archive_count": 461,
       "display_name": "Radio Nowy Świat",
       "public_name": "Radio Nowy Świat",
       "slug": "rns",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 449,
+      "archive_count": 450,
       "display_name": "TOK FM",
       "public_name": "TOK FM",
       "slug": "tokfm",
@@ -97,7 +91,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 461,
+      "archive_count": 462,
       "display_name": "Radio Republika",
       "public_name": "Radio Republika",
       "slug": "republika",
@@ -139,7 +133,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 445,
+      "archive_count": 446,
       "display_name": "Radio Dla Ciebie",
       "public_name": "Radio Dla Ciebie",
       "slug": "rdc",
