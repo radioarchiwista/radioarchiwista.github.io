@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-18T01:38:56.189048+00:00",
+  "generated_at": "2026-04-18T01:54:56.069525+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-04-18T00:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -10,10 +10,13 @@
     "Polskie Radio 24",
     "Radio 357",
     "Radio Afera",
-    "Radio Centrum Lublin"
+    "Radio Białystok",
+    "Radio Centrum Lublin",
+    "Radio Centrum Rzeszów",
+    "Radio Gorzów"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-18T01:38:56.189048+00:00",
+  "published_at": "2026-04-18T01:54:56.069525+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -95,7 +98,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 433,
+      "archive_count": 434,
       "display_name": "Radio Białystok",
       "public_name": "Radio Białystok",
       "slug": "radiobialystok",
@@ -109,7 +112,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 437,
+      "archive_count": 438,
       "display_name": "Radio Centrum Rzeszów",
       "public_name": "Radio Centrum Rzeszów",
       "slug": "radiocentrumrzeszow",
@@ -123,14 +126,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 439,
+      "archive_count": 440,
       "display_name": "Radio Gdańsk",
       "public_name": "Radio Gdańsk",
       "slug": "radiogdansk",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 439,
+      "archive_count": 440,
       "display_name": "Radio Gorzów",
       "public_name": "Radio Gorzów",
       "slug": "radiogorzow",
