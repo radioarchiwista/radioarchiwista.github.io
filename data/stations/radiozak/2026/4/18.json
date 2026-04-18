@@ -173,7 +173,7 @@
   "generated_at": "2026-04-18T06:46:41.100545+00:00",
   "hour_slots": [
     {
-      "archive_status": "ready",
+      "archive_status": "error",
       "completeness_ratio": 0.9932,
       "day": 18,
       "hour": 0,
@@ -185,8 +185,8 @@
       "local_timezone_label": "czasu polskiego",
       "month": 4,
       "playable": false,
-      "state": "publishing",
-      "status_label": "Czeka w kolejce do publikacji",
+      "state": "failed",
+      "status_label": "Nie udało się przygotować nagrania",
       "utc_label": "2026-04-17 22:00 UTC",
       "utc_started_at": "2026-04-17T22:00:00+00:00",
       "year": 2026
