@@ -167,10 +167,34 @@
       "utc_label": "2026-04-18 05:00 UTC",
       "utc_started_at": "2026-04-18T05:00:00+00:00",
       "year": 2026
+    },
+    {
+      "archive_item_identifier": "radiokatowice-2026-04-18",
+      "audio_url": "https://archive.org/download/radiokatowice-2026-04-18/radiokatowice_2026-04-18T06-00-00Z.mp3",
+      "completeness_ratio": 1.0,
+      "day": 18,
+      "download_url": "https://archive.org/download/radiokatowice-2026-04-18/radiokatowice_2026-04-18T06-00-00Z.mp3",
+      "duration_seconds": 3599.664,
+      "hour": 8,
+      "hourly_archive_id": 19182,
+      "local_date_label": "18.04.2026",
+      "local_hour_label": "08:00",
+      "local_label": "2026-04-18 08:00 czasu polskiego",
+      "local_started_at": "2026-04-18T08:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 4,
+      "published_at": "2026-04-18T07:44:05.072849+00:00",
+      "published_local_label": "2026-04-18 09:44 czasu polskiego",
+      "remote_filename": "radiokatowice_2026-04-18T06-00-00Z.mp3",
+      "station_slug": "radiokatowice",
+      "status": "published",
+      "utc_label": "2026-04-18 06:00 UTC",
+      "utc_started_at": "2026-04-18T06:00:00+00:00",
+      "year": 2026
     }
   ],
   "day": 18,
-  "generated_at": "2026-04-18T06:46:32.636233+00:00",
+  "generated_at": "2026-04-18T07:44:05.072849+00:00",
   "hour_slots": [
     {
       "archive_status": "error",
@@ -325,7 +349,7 @@
       "year": 2026
     },
     {
-      "archive_status": "ready",
+      "archive_status": "published",
       "completeness_ratio": 1.0,
       "day": 18,
       "hour": 8,
@@ -336,20 +360,20 @@
       "local_started_at": "2026-04-18T08:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 4,
-      "playable": false,
-      "state": "publishing",
-      "status_label": "Czeka w kolejce do publikacji",
+      "playable": true,
+      "state": "available",
+      "status_label": null,
       "utc_label": "2026-04-18 06:00 UTC",
       "utc_started_at": "2026-04-18T06:00:00+00:00",
       "year": 2026
     }
   ],
   "latest_archive_hour_expected_station_count": 0,
-  "latest_archive_hour_started_at": "2026-04-18T05:00:00+00:00",
+  "latest_archive_hour_started_at": "2026-04-18T06:00:00+00:00",
   "month": 4,
-  "published_at": "2026-04-18T06:46:32.636233+00:00",
+  "published_at": "2026-04-18T07:44:05.072849+00:00",
   "station": {
-    "archive_count": 447,
+    "archive_count": 449,
     "display_name": "Radio Katowice",
     "public_name": "Radio Katowice",
     "slug": "radiokatowice",
