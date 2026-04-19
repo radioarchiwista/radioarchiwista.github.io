@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-19T00:58:23.792445+00:00",
+  "generated_at": "2026-04-19T01:01:33.548471+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-04-18T23:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -23,10 +23,14 @@
     "Radio Luz",
     "Radio Maryja",
     "Radio Olsztyn",
+    "Radio Opole",
+    "Radio PiK",
+    "Radio Poznań",
+    "Radio Rzeszów",
     "Radio Łódź"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-19T00:58:23.792445+00:00",
+  "published_at": "2026-04-19T01:01:33.548471+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -45,7 +49,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 2194,
+      "archive_count": 2185,
       "display_name": "Program 3",
       "public_name": "Polskie Radio Program 3",
       "slug": "pr3",
@@ -108,7 +112,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 459,
+      "archive_count": 460,
       "display_name": "Radio Białystok",
       "public_name": "Radio Białystok",
       "slug": "radiobialystok",
@@ -220,28 +224,28 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 370,
+      "archive_count": 371,
       "display_name": "Radio Opole",
       "public_name": "Radio Opole",
       "slug": "radioopole",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 418,
+      "archive_count": 419,
       "display_name": "Radio PiK",
       "public_name": "Radio PiK",
       "slug": "radiopik",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 463,
+      "archive_count": 464,
       "display_name": "Radio Poznań",
       "public_name": "Radio Poznań",
       "slug": "radiopoznan",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 464,
+      "archive_count": 465,
       "display_name": "Radio Rzeszów",
       "public_name": "Radio Rzeszów",
       "slug": "radiorzeszow",
