@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-19T12:57:54.444824+00:00",
+  "generated_at": "2026-04-19T13:00:16.520959+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-04-19T11:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -30,11 +30,15 @@
     "Radio PiK",
     "Radio Poznań",
     "Radio Rzeszów",
+    "Radio Szczecin",
     "Radio Słupsk",
+    "Radio UWM FM",
+    "Radio Wrocław",
+    "Radio Zachód",
     "Radio Łódź"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-19T12:57:54.444824+00:00",
+  "published_at": "2026-04-19T13:00:16.520959+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -53,7 +57,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 2468,
+      "archive_count": 2467,
       "display_name": "Program 3",
       "public_name": "Polskie Radio Program 3",
       "slug": "pr3",
@@ -256,7 +260,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 476,
+      "archive_count": 477,
       "display_name": "Radio Szczecin",
       "public_name": "Radio Szczecin",
       "slug": "radioszczecin",
@@ -270,21 +274,21 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 476,
+      "archive_count": 477,
       "display_name": "Radio UWM FM",
       "public_name": "Radio UWM FM",
       "slug": "radiouwmfm",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 476,
+      "archive_count": 477,
       "display_name": "Radio Wrocław",
       "public_name": "Radio Wrocław",
       "slug": "radiowroclaw",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 476,
+      "archive_count": 477,
       "display_name": "Radio Zachód",
       "public_name": "Radio Zachód",
       "slug": "radiozachod",
