@@ -837,7 +837,7 @@
       "year": 2025
     },
     {
-      "archive_status": "ready",
+      "archive_status": "error",
       "completeness_ratio": 1.0,
       "day": 8,
       "hour": 16,
@@ -849,14 +849,14 @@
       "local_timezone_label": "czasu polskiego",
       "month": 12,
       "playable": false,
-      "state": "publishing",
-      "status_label": "Czeka w kolejce do publikacji",
+      "state": "failed",
+      "status_label": "Nie udało się przygotować nagrania",
       "utc_label": "2025-12-08 15:00 UTC",
       "utc_started_at": "2025-12-08T15:00:00+00:00",
       "year": 2025
     },
     {
-      "archive_status": "ready",
+      "archive_status": "error",
       "completeness_ratio": 1.0,
       "day": 8,
       "hour": 17,
@@ -868,8 +868,8 @@
       "local_timezone_label": "czasu polskiego",
       "month": 12,
       "playable": false,
-      "state": "publishing",
-      "status_label": "Czeka w kolejce do publikacji",
+      "state": "failed",
+      "status_label": "Nie udało się przygotować nagrania",
       "utc_label": "2025-12-08 16:00 UTC",
       "utc_started_at": "2025-12-08T16:00:00+00:00",
       "year": 2025
