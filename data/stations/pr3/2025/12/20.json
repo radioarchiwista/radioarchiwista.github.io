@@ -122,7 +122,7 @@
     }
   ],
   "day": 20,
-  "generated_at": "2026-04-19T02:12:01.203886+00:00",
+  "generated_at": "2026-04-19T02:17:55.059997+00:00",
   "hour_slots": [
     {
       "archive_status": "ready",
@@ -410,11 +410,11 @@
       "year": 2025
     },
     {
-      "archive_status": null,
-      "completeness_ratio": null,
+      "archive_status": "ready",
+      "completeness_ratio": 1.0,
       "day": 20,
       "hour": 15,
-      "hourly_archive_id": null,
+      "hourly_archive_id": 20081,
       "local_date_label": "20.12.2025",
       "local_hour_label": "15:00",
       "local_label": "2025-12-20 15:00 czasu polskiego",
@@ -422,8 +422,8 @@
       "local_timezone_label": "czasu polskiego",
       "month": 12,
       "playable": false,
-      "state": "missing",
-      "status_label": "Nie udało się nagrać",
+      "state": "publishing",
+      "status_label": "Czeka w kolejce do publikacji",
       "utc_label": "2025-12-20 14:00 UTC",
       "utc_started_at": "2025-12-20T14:00:00+00:00",
       "year": 2025
@@ -582,11 +582,11 @@
     }
   ],
   "latest_archive_hour_expected_station_count": 0,
-  "latest_archive_hour_started_at": "2026-04-19T00:00:00+00:00",
+  "latest_archive_hour_started_at": "2026-04-19T01:00:00+00:00",
   "month": 12,
-  "published_at": "2026-04-19T02:12:01.203886+00:00",
+  "published_at": "2026-04-19T02:17:55.059997+00:00",
   "station": {
-    "archive_count": 2201,
+    "archive_count": 2206,
     "display_name": "Program 3",
     "public_name": "Polskie Radio Program 3",
     "slug": "pr3",
