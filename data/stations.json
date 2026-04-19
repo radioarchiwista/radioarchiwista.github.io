@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-19T17:50:42.377885+00:00",
+  "generated_at": "2026-04-19T17:53:15.717580+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-04-19T16:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -11,10 +11,11 @@
     "Radio 357",
     "Radio Afera",
     "Radio Białystok",
+    "Radio Gorzów",
     "Radio Kielce"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-19T17:50:42.377885+00:00",
+  "published_at": "2026-04-19T17:53:15.717580+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -110,7 +111,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 478,
+      "archive_count": 479,
       "display_name": "Radio Centrum Rzeszów",
       "public_name": "Radio Centrum Rzeszów",
       "slug": "radiocentrumrzeszow",
@@ -124,14 +125,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 480,
+      "archive_count": 481,
       "display_name": "Radio Gdańsk",
       "public_name": "Radio Gdańsk",
       "slug": "radiogdansk",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 480,
+      "archive_count": 481,
       "display_name": "Radio Gorzów",
       "public_name": "Radio Gorzów",
       "slug": "radiogorzow",
@@ -166,7 +167,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 480,
+      "archive_count": 481,
       "display_name": "Radio Koszalin",
       "public_name": "Radio Koszalin",
       "slug": "radiokoszalin",
