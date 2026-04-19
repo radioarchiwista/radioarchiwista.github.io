@@ -191,10 +191,34 @@
       "utc_label": "2026-04-19 06:00 UTC",
       "utc_started_at": "2026-04-19T06:00:00+00:00",
       "year": 2026
+    },
+    {
+      "archive_item_identifier": "radiozak-2026-04-19",
+      "audio_url": "https://archive.org/download/radiozak-2026-04-19/radiozak_2026-04-19T07-00-00Z.mp3",
+      "completeness_ratio": 1.0,
+      "day": 19,
+      "download_url": "https://archive.org/download/radiozak-2026-04-19/radiozak_2026-04-19T07-00-00Z.mp3",
+      "duration_seconds": 3600.039,
+      "hour": 9,
+      "hourly_archive_id": 20468,
+      "local_date_label": "19.04.2026",
+      "local_hour_label": "09:00",
+      "local_label": "2026-04-19 09:00 czasu polskiego",
+      "local_started_at": "2026-04-19T09:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 4,
+      "published_at": "2026-04-19T10:53:17.821594+00:00",
+      "published_local_label": "2026-04-19 12:53 czasu polskiego",
+      "remote_filename": "radiozak_2026-04-19T07-00-00Z.mp3",
+      "station_slug": "radiozak",
+      "status": "published",
+      "utc_label": "2026-04-19 07:00 UTC",
+      "utc_started_at": "2026-04-19T07:00:00+00:00",
+      "year": 2026
     }
   ],
   "day": 19,
-  "generated_at": "2026-04-19T08:57:01.242011+00:00",
+  "generated_at": "2026-04-19T10:53:17.821594+00:00",
   "hour_slots": [
     {
       "archive_status": "published",
@@ -368,7 +392,7 @@
       "year": 2026
     },
     {
-      "archive_status": "ready",
+      "archive_status": "published",
       "completeness_ratio": 1.0,
       "day": 19,
       "hour": 9,
@@ -379,9 +403,9 @@
       "local_started_at": "2026-04-19T09:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 4,
-      "playable": false,
-      "state": "publishing",
-      "status_label": "Czeka w kolejce do publikacji",
+      "playable": true,
+      "state": "available",
+      "status_label": null,
       "utc_label": "2026-04-19 07:00 UTC",
       "utc_started_at": "2026-04-19T07:00:00+00:00",
       "year": 2026
@@ -404,14 +428,33 @@
       "utc_label": "2026-04-19 08:00 UTC",
       "utc_started_at": "2026-04-19T08:00:00+00:00",
       "year": 2026
+    },
+    {
+      "archive_status": "ready",
+      "completeness_ratio": 1.0,
+      "day": 19,
+      "hour": 11,
+      "hourly_archive_id": 20586,
+      "local_date_label": "19.04.2026",
+      "local_hour_label": "11:00",
+      "local_label": "2026-04-19 11:00 czasu polskiego",
+      "local_started_at": "2026-04-19T11:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 4,
+      "playable": false,
+      "state": "publishing",
+      "status_label": "Czeka w kolejce do publikacji",
+      "utc_label": "2026-04-19 09:00 UTC",
+      "utc_started_at": "2026-04-19T09:00:00+00:00",
+      "year": 2026
     }
   ],
   "latest_archive_hour_expected_station_count": 0,
   "latest_archive_hour_started_at": "2026-04-18T23:00:00+00:00",
   "month": 4,
-  "published_at": "2026-04-19T08:57:01.242011+00:00",
+  "published_at": "2026-04-19T10:53:17.821594+00:00",
   "station": {
-    "archive_count": 463,
+    "archive_count": 464,
     "display_name": "Radio Żak",
     "public_name": "Radio Żak",
     "slug": "radiozak",
