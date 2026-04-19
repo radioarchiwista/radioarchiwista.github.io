@@ -527,10 +527,34 @@
       "utc_label": "2026-04-19 19:00 UTC",
       "utc_started_at": "2026-04-19T19:00:00+00:00",
       "year": 2026
+    },
+    {
+      "archive_item_identifier": "wnet-2026-04-19",
+      "audio_url": "https://archive.org/download/wnet-2026-04-19/wnet_2026-04-19T20-00-00Z.mp3",
+      "completeness_ratio": 1.0,
+      "day": 19,
+      "download_url": "https://archive.org/download/wnet-2026-04-19/wnet_2026-04-19T20-00-00Z.mp3",
+      "duration_seconds": 3599.935,
+      "hour": 22,
+      "hourly_archive_id": 21312,
+      "local_date_label": "19.04.2026",
+      "local_hour_label": "22:00",
+      "local_label": "2026-04-19 22:00 czasu polskiego",
+      "local_started_at": "2026-04-19T22:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 4,
+      "published_at": "2026-04-19T22:01:42.895559+00:00",
+      "published_local_label": "2026-04-20 00:01 czasu polskiego",
+      "remote_filename": "wnet_2026-04-19T20-00-00Z.mp3",
+      "station_slug": "wnet",
+      "status": "published",
+      "utc_label": "2026-04-19 20:00 UTC",
+      "utc_started_at": "2026-04-19T20:00:00+00:00",
+      "year": 2026
     }
   ],
   "day": 19,
-  "generated_at": "2026-04-19T21:55:53.150324+00:00",
+  "generated_at": "2026-04-19T22:01:42.895559+00:00",
   "hour_slots": [
     {
       "archive_status": "published",
@@ -951,7 +975,7 @@
       "year": 2026
     },
     {
-      "archive_status": "ready",
+      "archive_status": "published",
       "completeness_ratio": 1.0,
       "day": 19,
       "hour": 22,
@@ -962,9 +986,9 @@
       "local_started_at": "2026-04-19T22:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 4,
-      "playable": false,
-      "state": "publishing",
-      "status_label": "Czeka w kolejce do publikacji",
+      "playable": true,
+      "state": "available",
+      "status_label": null,
       "utc_label": "2026-04-19 20:00 UTC",
       "utc_started_at": "2026-04-19T20:00:00+00:00",
       "year": 2026
@@ -990,11 +1014,11 @@
     }
   ],
   "latest_archive_hour_expected_station_count": 0,
-  "latest_archive_hour_started_at": "2026-04-19T19:00:00+00:00",
+  "latest_archive_hour_started_at": "2026-04-19T20:00:00+00:00",
   "month": 4,
-  "published_at": "2026-04-19T21:55:53.150324+00:00",
+  "published_at": "2026-04-19T22:01:42.895559+00:00",
   "station": {
-    "archive_count": 502,
+    "archive_count": 503,
     "display_name": "Radio Wnet",
     "public_name": "Radio Wnet",
     "slug": "wnet",
