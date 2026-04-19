@@ -1,64 +1,43 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-19T11:22:57.636825+00:00",
+  "generated_at": "2026-04-19T11:22:57.574209+00:00",
   "latest_archive_hour_expected_station_count": 39,
-  "latest_archive_hour_started_at": "2026-04-19T09:00:00+00:00",
+  "latest_archive_hour_started_at": "2026-04-19T10:00:00+00:00",
   "latest_archive_hour_stations": [
     "Program 1",
     "Program 2",
     "Program 3",
-    "Polskie Radio 24",
-    "Radio 357",
-    "Radio Afera",
-    "Radio Akadera",
-    "Radio Białystok",
-    "Radio Centrum Lublin",
-    "Radio Centrum Rzeszów",
-    "Radio Gdańsk",
-    "Radio Gorzów",
-    "Radio Index",
-    "Radio Katowice",
-    "Radio Kielce",
-    "Radio Koszalin",
-    "Radio Kraków",
-    "Radio Lublin",
-    "Radio Luz",
-    "Radio Maryja",
-    "Radio Słupsk",
-    "Radio UWM FM",
-    "Radio Zachód",
-    "Radio Zielona Góra",
-    "Radio Łódź"
+    "Polskie Radio 24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-19T11:22:57.636825+00:00",
+  "published_at": "2026-04-19T11:22:57.574209+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
     {
-      "archive_count": 496,
+      "archive_count": 497,
       "display_name": "Program 1",
       "public_name": "Polskie Radio Program 1",
       "slug": "pr1",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 490,
+      "archive_count": 491,
       "display_name": "Program 2",
       "public_name": "Polskie Radio Program 2",
       "slug": "pr2",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 2399,
+      "archive_count": 2400,
       "display_name": "Program 3",
       "public_name": "Polskie Radio Program 3",
       "slug": "pr3",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 487,
+      "archive_count": 488,
       "display_name": "Polskie Radio 24",
       "public_name": "Polskie Radio 24",
       "slug": "pr24",
@@ -107,7 +86,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 473,
+      "archive_count": 474,
       "display_name": "Radio Akadera",
       "public_name": "Radio Akadera",
       "slug": "radioakadera",
@@ -268,7 +247,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 473,
+      "archive_count": 474,
       "display_name": "Radio UWM FM",
       "public_name": "Radio UWM FM",
       "slug": "radiouwmfm",
