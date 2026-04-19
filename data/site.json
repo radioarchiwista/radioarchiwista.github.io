@@ -1,8 +1,8 @@
 {
-  "archive_count": 20746,
+  "archive_count": 20776,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-19T21:31:09.000642+00:00",
+  "generated_at": "2026-04-19T21:42:21.334090+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-04-19T20:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -10,10 +10,18 @@
     "Program 2",
     "Program 3",
     "Polskie Radio 24",
-    "Radio Afera"
+    "Radio 357",
+    "Radio Afera",
+    "Radio Akadera",
+    "Radio Białystok",
+    "Radio Centrum Lublin",
+    "Radio Centrum Rzeszów",
+    "Radio Gdańsk",
+    "Radio Gorzów",
+    "Radio Index"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-19T21:31:09.000642+00:00",
+  "published_at": "2026-04-19T21:42:21.334090+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
