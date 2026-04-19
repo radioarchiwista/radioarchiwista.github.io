@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-19T23:22:58.264287+00:00",
+  "generated_at": "2026-04-19T23:32:48.802393+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-04-19T22:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -11,7 +11,7 @@
     "Polskie Radio 24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-19T23:22:58.264287+00:00",
+  "published_at": "2026-04-19T23:32:48.802393+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -30,7 +30,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 2787,
+      "archive_count": 2791,
       "display_name": "Program 3",
       "public_name": "Polskie Radio Program 3",
       "slug": "pr3",
@@ -51,7 +51,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 501,
+      "archive_count": 502,
       "display_name": "Radio Nowy Świat",
       "public_name": "Radio Nowy Świat",
       "slug": "rns",
@@ -149,7 +149,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 488,
+      "archive_count": 489,
       "display_name": "Radio Katowice",
       "public_name": "Radio Katowice",
       "slug": "radiokatowice",
