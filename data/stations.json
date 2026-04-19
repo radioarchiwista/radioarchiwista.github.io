@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-19T21:05:16.048953+00:00",
+  "generated_at": "2026-04-19T21:13:20.149541+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-04-19T19:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -17,17 +17,21 @@
     "Radio Centrum Rzeszów",
     "Radio Gdańsk",
     "Radio Gorzów",
+    "Radio Index",
     "Radio Katowice",
+    "Radio Kielce",
     "Radio Koszalin",
     "Radio Kraków",
     "Radio Lublin",
     "Radio Luz",
     "Radio Maryja",
     "Radio Olsztyn",
+    "Radio Opole",
+    "Radio PiK",
     "Radio Łódź"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-19T21:05:16.048953+00:00",
+  "published_at": "2026-04-19T21:13:20.149541+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -151,7 +155,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 431,
+      "archive_count": 432,
       "display_name": "Radio Index",
       "public_name": "Radio Index",
       "slug": "radioindex",
@@ -172,7 +176,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 460,
+      "archive_count": 461,
       "display_name": "Radio Kielce",
       "public_name": "Radio Kielce",
       "slug": "radiokielce",
@@ -221,14 +225,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 390,
+      "archive_count": 391,
       "display_name": "Radio Opole",
       "public_name": "Radio Opole",
       "slug": "radioopole",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 438,
+      "archive_count": 439,
       "display_name": "Radio PiK",
       "public_name": "Radio PiK",
       "slug": "radiopik",
