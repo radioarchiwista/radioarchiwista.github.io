@@ -1,17 +1,21 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-19T11:22:57.574209+00:00",
+  "generated_at": "2026-04-19T11:42:54.650665+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-04-19T10:00:00+00:00",
   "latest_archive_hour_stations": [
     "Program 1",
     "Program 2",
     "Program 3",
-    "Polskie Radio 24"
+    "Polskie Radio 24",
+    "Radio 357",
+    "Radio Afera",
+    "Radio Akadera",
+    "Radio Białystok"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-19T11:22:57.574209+00:00",
+  "published_at": "2026-04-19T11:42:54.650665+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -44,7 +48,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 483,
+      "archive_count": 484,
       "display_name": "Radio 357",
       "public_name": "Radio 357",
       "slug": "radio357",
@@ -79,21 +83,21 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 475,
+      "archive_count": 476,
       "display_name": "Radio Afera",
       "public_name": "Radio Afera",
       "slug": "afera",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 473,
+      "archive_count": 475,
       "display_name": "Radio Akadera",
       "public_name": "Radio Akadera",
       "slug": "radioakadera",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 469,
+      "archive_count": 471,
       "display_name": "Radio Białystok",
       "public_name": "Radio Białystok",
       "slug": "radiobialystok",
@@ -268,7 +272,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 473,
+      "archive_count": 474,
       "display_name": "Radio Zielona Góra",
       "public_name": "Radio Zielona Góra",
       "slug": "radiozielonagora",
