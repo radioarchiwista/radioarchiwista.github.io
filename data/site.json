@@ -1,8 +1,8 @@
 {
-  "archive_count": 19560,
+  "archive_count": 19557,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-19T01:57:06.453929+00:00",
+  "generated_at": "2026-04-19T02:04:43.694420+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-04-19T00:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -21,7 +21,7 @@
     "Radio Katowice"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-19T01:57:06.453929+00:00",
+  "published_at": "2026-04-19T02:04:43.694420+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
