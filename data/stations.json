@@ -1,17 +1,20 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-20T19:18:34.955806+00:00",
+  "generated_at": "2026-04-20T19:31:59.668003+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-04-20T18:00:00+00:00",
   "latest_archive_hour_stations": [
     "Program 1",
     "Program 2",
     "Program 3",
-    "Polskie Radio 24"
+    "Polskie Radio 24",
+    "Radio Afera",
+    "Radio Akadera",
+    "Radio Centrum Lublin"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-20T19:18:34.955806+00:00",
+  "published_at": "2026-04-20T19:31:59.668003+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -79,14 +82,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 507,
+      "archive_count": 508,
       "display_name": "Radio Afera",
       "public_name": "Radio Afera",
       "slug": "afera",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 506,
+      "archive_count": 507,
       "display_name": "Radio Akadera",
       "public_name": "Radio Akadera",
       "slug": "radioakadera",
@@ -100,7 +103,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 506,
+      "archive_count": 507,
       "display_name": "Radio Centrum Lublin",
       "public_name": "Radio Centrum Lublin",
       "slug": "radiocentrumlublin",
@@ -170,7 +173,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 505,
+      "archive_count": 506,
       "display_name": "Radio Kraków",
       "public_name": "Radio Kraków",
       "slug": "radiokrakow",
@@ -240,7 +243,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 502,
+      "archive_count": 503,
       "display_name": "Radio Słupsk",
       "public_name": "Radio Słupsk",
       "slug": "radioslupsk",
@@ -275,7 +278,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 504,
+      "archive_count": 505,
       "display_name": "Radio Łódź",
       "public_name": "Radio Łódź",
       "slug": "radiolodz",
