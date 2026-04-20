@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-20T22:11:38.532121+00:00",
+  "generated_at": "2026-04-20T22:02:59.191267+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-04-20T20:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -16,10 +16,11 @@
     "Radio Centrum Lublin",
     "Radio Gdańsk",
     "Radio Gorzów",
-    "Radio Index"
+    "Radio Index",
+    "Radio Kielce"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-20T22:11:38.532121+00:00",
+  "published_at": "2026-04-20T22:02:59.191267+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -38,7 +39,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3089,
+      "archive_count": 3075,
       "display_name": "Program 3",
       "public_name": "Polskie Radio Program 3",
       "slug": "pr3",
@@ -157,28 +158,28 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 510,
+      "archive_count": 511,
       "display_name": "Radio Katowice",
       "public_name": "Radio Katowice",
       "slug": "radiokatowice",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 483,
+      "archive_count": 484,
       "display_name": "Radio Kielce",
       "public_name": "Radio Kielce",
       "slug": "radiokielce",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 508,
+      "archive_count": 509,
       "display_name": "Radio Koszalin",
       "public_name": "Radio Koszalin",
       "slug": "radiokoszalin",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 508,
+      "archive_count": 509,
       "display_name": "Radio Kraków",
       "public_name": "Radio Kraków",
       "slug": "radiokrakow",
