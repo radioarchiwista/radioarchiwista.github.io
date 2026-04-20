@@ -1,8 +1,8 @@
 {
-  "archive_count": 21759,
+  "archive_count": 21755,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-20T16:09:24.955952+00:00",
+  "generated_at": "2026-04-20T16:15:08.038853+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-04-20T14:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -21,10 +21,16 @@
     "Radio Index",
     "Radio Katowice",
     "Radio Kielce",
-    "Radio Koszalin"
+    "Radio Koszalin",
+    "Radio Kraków",
+    "Radio Lublin",
+    "Radio Luz",
+    "Radio Maryja",
+    "Radio PiK",
+    "Radio Łódź"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-20T16:09:24.955952+00:00",
+  "published_at": "2026-04-20T16:15:08.038853+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
