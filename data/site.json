@@ -1,8 +1,8 @@
 {
-  "archive_count": 21181,
+  "archive_count": 21185,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-20T04:40:26.832919+00:00",
+  "generated_at": "2026-04-20T04:56:18.100310+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-04-20T03:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -12,10 +12,12 @@
     "Polskie Radio 24",
     "Radio 357",
     "Radio Afera",
-    "Radio Akadera"
+    "Radio Akadera",
+    "Radio Centrum Lublin",
+    "Radio Centrum Rzeszów"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-20T04:40:26.832919+00:00",
+  "published_at": "2026-04-20T04:56:18.100310+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
