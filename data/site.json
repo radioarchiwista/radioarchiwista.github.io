@@ -1,8 +1,8 @@
 {
-  "archive_count": 21857,
+  "archive_count": 21861,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-20T19:31:59.668003+00:00",
+  "generated_at": "2026-04-20T19:43:04.426402+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-04-20T18:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -12,10 +12,15 @@
     "Polskie Radio 24",
     "Radio Afera",
     "Radio Akadera",
-    "Radio Centrum Lublin"
+    "Radio Centrum Lublin",
+    "Radio Centrum Rzeszów",
+    "Radio Gdańsk",
+    "Radio Gorzów",
+    "Radio Index",
+    "Radio Kielce"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-20T19:31:59.668003+00:00",
+  "published_at": "2026-04-20T19:43:04.426402+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
