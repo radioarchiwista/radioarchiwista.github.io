@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-20T15:26:45.888111+00:00",
+  "generated_at": "2026-04-20T15:39:47.993132+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-04-20T14:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -11,7 +11,7 @@
     "Polskie Radio 24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-20T15:26:45.888111+00:00",
+  "published_at": "2026-04-20T15:39:47.993132+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -177,7 +177,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 502,
+      "archive_count": 503,
       "display_name": "Radio Lublin",
       "public_name": "Radio Lublin",
       "slug": "radiolublin",
@@ -261,14 +261,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 500,
+      "archive_count": 501,
       "display_name": "Radio Zachód",
       "public_name": "Radio Zachód",
       "slug": "radiozachod",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 500,
+      "archive_count": 501,
       "display_name": "Radio Zielona Góra",
       "public_name": "Radio Zielona Góra",
       "slug": "radiozielonagora",
@@ -282,7 +282,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 492,
+      "archive_count": 493,
       "display_name": "Radio Żak",
       "public_name": "Radio Żak",
       "slug": "radiozak",
