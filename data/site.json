@@ -1,8 +1,8 @@
 {
-  "archive_count": 21845,
+  "archive_count": 21849,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-20T18:53:59.784390+00:00",
+  "generated_at": "2026-04-20T19:13:32.396340+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-04-20T17:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -17,10 +17,12 @@
     "Radio Centrum Lublin",
     "Radio Centrum Rzeszów",
     "Radio Gdańsk",
-    "Radio Gorzów"
+    "Radio Gorzów",
+    "Radio Index",
+    "Radio Kielce"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-20T18:53:59.784390+00:00",
+  "published_at": "2026-04-20T19:13:32.396340+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
