@@ -1,8 +1,8 @@
 {
-  "archive_count": 21401,
+  "archive_count": 21429,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-20T08:54:04.459807+00:00",
+  "generated_at": "2026-04-20T09:05:34.737926+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-04-20T07:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -16,10 +16,13 @@
     "Radio Białystok",
     "Radio Centrum Lublin",
     "Radio Centrum Rzeszów",
-    "Radio Gorzów"
+    "Radio Gorzów",
+    "Radio Index",
+    "Radio Katowice",
+    "Radio Kielce"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-20T08:54:04.459807+00:00",
+  "published_at": "2026-04-20T09:05:34.737926+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
