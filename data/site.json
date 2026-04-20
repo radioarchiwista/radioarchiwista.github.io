@@ -1,8 +1,8 @@
 {
-  "archive_count": 21620,
+  "archive_count": 21624,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-20T13:48:32.545912+00:00",
+  "generated_at": "2026-04-20T13:58:59.212771+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-04-20T12:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -13,10 +13,14 @@
     "Radio 357",
     "Radio Afera",
     "Radio Akadera",
-    "Radio Białystok"
+    "Radio Białystok",
+    "Radio Centrum Rzeszów",
+    "Radio Gdańsk",
+    "Radio Gorzów",
+    "Radio Index"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-20T13:48:32.545912+00:00",
+  "published_at": "2026-04-20T13:58:59.212771+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
