@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-21T18:43:31.413102+00:00",
+  "generated_at": "2026-04-21T18:47:20.275320+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-04-21T17:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -10,7 +10,7 @@
     "Polskie Radio 24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-21T18:43:31.413102+00:00",
+  "published_at": "2026-04-21T18:47:20.275320+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -71,7 +71,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 537,
+      "archive_count": 538,
       "display_name": "Radio Republika",
       "public_name": "Radio Republika",
       "slug": "republika",
@@ -113,7 +113,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 523,
+      "archive_count": 524,
       "display_name": "Radio Dla Ciebie",
       "public_name": "Radio Dla Ciebie",
       "slug": "rdc",
@@ -246,7 +246,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 520,
+      "archive_count": 521,
       "display_name": "Radio UWM FM",
       "public_name": "Radio UWM FM",
       "slug": "radiouwmfm",
@@ -267,7 +267,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 523,
+      "archive_count": 524,
       "display_name": "Radio Zielona Góra",
       "public_name": "Radio Zielona Góra",
       "slug": "radiozielonagora",
