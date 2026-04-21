@@ -368,11 +368,11 @@
       "year": 2026
     },
     {
-      "archive_status": null,
-      "completeness_ratio": null,
+      "archive_status": "ready",
+      "completeness_ratio": 0.8765,
       "day": 21,
       "hour": 9,
-      "hourly_archive_id": null,
+      "hourly_archive_id": 23490,
       "local_date_label": "21.04.2026",
       "local_hour_label": "09:00",
       "local_label": "2026-04-21 09:00 czasu polskiego",
@@ -380,8 +380,8 @@
       "local_timezone_label": "czasu polskiego",
       "month": 4,
       "playable": false,
-      "state": "recorded",
-      "status_label": "Nagranie czeka na złożenie",
+      "state": "publishing",
+      "status_label": "Czeka w kolejce do publikacji",
       "utc_label": "2026-04-21 07:00 UTC",
       "utc_started_at": "2026-04-21T07:00:00+00:00",
       "year": 2026
@@ -392,7 +392,7 @@
   "month": 4,
   "published_at": "2026-04-21T06:36:58.501682+00:00",
   "station": {
-    "archive_count": 517,
+    "archive_count": 516,
     "display_name": "Radio Centrum Lublin",
     "public_name": "Radio Centrum Lublin",
     "slug": "radiocentrumlublin",
