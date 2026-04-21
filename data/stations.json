@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-21T01:03:11.808414+00:00",
+  "generated_at": "2026-04-21T01:28:20.966910+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-04-20T23:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -21,7 +21,7 @@
     "Radio Kielce"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-21T01:03:11.808414+00:00",
+  "published_at": "2026-04-21T01:28:20.966910+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -103,7 +103,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 505,
+      "archive_count": 504,
       "display_name": "Radio Białystok",
       "public_name": "Radio Białystok",
       "slug": "radiobialystok",
@@ -131,7 +131,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 513,
+      "archive_count": 512,
       "display_name": "Radio Gdańsk",
       "public_name": "Radio Gdańsk",
       "slug": "radiogdansk",
@@ -250,7 +250,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 507,
+      "archive_count": 506,
       "display_name": "Radio Słupsk",
       "public_name": "Radio Słupsk",
       "slug": "radioslupsk",
