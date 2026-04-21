@@ -339,11 +339,11 @@
       "year": 2026
     },
     {
-      "archive_status": null,
-      "completeness_ratio": null,
+      "archive_status": "ready",
+      "completeness_ratio": 1.0,
       "day": 21,
       "hour": 10,
-      "hourly_archive_id": null,
+      "hourly_archive_id": 23575,
       "local_date_label": "21.04.2026",
       "local_hour_label": "10:00",
       "local_label": "2026-04-21 10:00 czasu polskiego",
@@ -351,8 +351,8 @@
       "local_timezone_label": "czasu polskiego",
       "month": 4,
       "playable": false,
-      "state": "recorded",
-      "status_label": "Nagranie czeka na złożenie",
+      "state": "publishing",
+      "status_label": "Czeka w kolejce do publikacji",
       "utc_label": "2026-04-21 08:00 UTC",
       "utc_started_at": "2026-04-21T08:00:00+00:00",
       "year": 2026
@@ -363,7 +363,7 @@
   "month": 4,
   "published_at": "2026-04-21T06:54:34.188620+00:00",
   "station": {
-    "archive_count": 517,
+    "archive_count": 516,
     "display_name": "Radio Szczecin",
     "public_name": "Radio Szczecin",
     "slug": "radioszczecin",
