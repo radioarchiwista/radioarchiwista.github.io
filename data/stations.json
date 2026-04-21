@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-21T06:59:35.095515+00:00",
+  "generated_at": "2026-04-21T07:06:35.785174+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-04-21T05:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -28,7 +28,7 @@
     "Radio Zielona Góra"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-21T06:59:35.095515+00:00",
+  "published_at": "2026-04-21T07:06:35.785174+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -47,7 +47,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3303,
+      "archive_count": 3281,
       "display_name": "Program 3",
       "public_name": "Polskie Radio Program 3",
       "slug": "pr3",
@@ -68,14 +68,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 528,
+      "archive_count": 529,
       "display_name": "Radio Nowy Świat",
       "public_name": "Radio Nowy Świat",
       "slug": "rns",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 517,
+      "archive_count": 518,
       "display_name": "TOK FM",
       "public_name": "TOK FM",
       "slug": "tokfm",
@@ -89,7 +89,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 530,
+      "archive_count": 531,
       "display_name": "Radio Republika",
       "public_name": "Radio Republika",
       "slug": "republika",
@@ -110,7 +110,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 513,
+      "archive_count": 512,
       "display_name": "Radio Białystok",
       "public_name": "Radio Białystok",
       "slug": "radiobialystok",
@@ -131,7 +131,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 516,
+      "archive_count": 517,
       "display_name": "Radio Dla Ciebie",
       "public_name": "Radio Dla Ciebie",
       "slug": "rdc",
@@ -208,28 +208,28 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 371,
+      "archive_count": 372,
       "display_name": "Radio Maryja",
       "public_name": "Radio Maryja",
       "slug": "radiomaryja",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 516,
+      "archive_count": 517,
       "display_name": "Radio Olsztyn",
       "public_name": "Radio Olsztyn",
       "slug": "radioolsztyn",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 423,
+      "archive_count": 424,
       "display_name": "Radio Opole",
       "public_name": "Radio Opole",
       "slug": "radioopole",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 471,
+      "archive_count": 472,
       "display_name": "Radio PiK",
       "public_name": "Radio PiK",
       "slug": "radiopik",
