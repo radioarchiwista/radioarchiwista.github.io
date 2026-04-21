@@ -191,10 +191,34 @@
       "utc_label": "2026-04-21 05:00 UTC",
       "utc_started_at": "2026-04-21T05:00:00+00:00",
       "year": 2026
+    },
+    {
+      "archive_item_identifier": "pr1-2026-04-21",
+      "audio_url": "https://archive.org/download/pr1-2026-04-21/pr1_2026-04-21T06-00-00Z.mp3",
+      "completeness_ratio": 1.0,
+      "day": 21,
+      "download_url": "https://archive.org/download/pr1-2026-04-21/pr1_2026-04-21T06-00-00Z.mp3",
+      "duration_seconds": 3599.232,
+      "hour": 8,
+      "hourly_archive_id": 23417,
+      "local_date_label": "21.04.2026",
+      "local_hour_label": "08:00",
+      "local_label": "2026-04-21 08:00 czasu polskiego",
+      "local_started_at": "2026-04-21T08:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 4,
+      "published_at": "2026-04-21T07:23:59.812341+00:00",
+      "published_local_label": "2026-04-21 09:23 czasu polskiego",
+      "remote_filename": "pr1_2026-04-21T06-00-00Z.mp3",
+      "station_slug": "pr1",
+      "status": "published",
+      "utc_label": "2026-04-21 06:00 UTC",
+      "utc_started_at": "2026-04-21T06:00:00+00:00",
+      "year": 2026
     }
   ],
   "day": 21,
-  "generated_at": "2026-04-21T06:17:29.388874+00:00",
+  "generated_at": "2026-04-21T07:23:59.812341+00:00",
   "hour_slots": [
     {
       "archive_status": "published",
@@ -349,7 +373,7 @@
       "year": 2026
     },
     {
-      "archive_status": "ready",
+      "archive_status": "published",
       "completeness_ratio": 1.0,
       "day": 21,
       "hour": 8,
@@ -360,20 +384,20 @@
       "local_started_at": "2026-04-21T08:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 4,
-      "playable": false,
-      "state": "publishing",
-      "status_label": "Czeka w kolejce do publikacji",
+      "playable": true,
+      "state": "available",
+      "status_label": null,
       "utc_label": "2026-04-21 06:00 UTC",
       "utc_started_at": "2026-04-21T06:00:00+00:00",
       "year": 2026
     }
   ],
   "latest_archive_hour_expected_station_count": 0,
-  "latest_archive_hour_started_at": "2026-04-21T05:00:00+00:00",
+  "latest_archive_hour_started_at": "2026-04-21T06:00:00+00:00",
   "month": 4,
-  "published_at": "2026-04-21T06:17:29.388874+00:00",
+  "published_at": "2026-04-21T07:23:59.812341+00:00",
   "station": {
-    "archive_count": 540,
+    "archive_count": 541,
     "display_name": "Program 1",
     "public_name": "Polskie Radio Program 1",
     "slug": "pr1",
