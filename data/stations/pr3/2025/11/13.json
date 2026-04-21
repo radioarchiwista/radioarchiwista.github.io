@@ -618,7 +618,7 @@
       "year": 2025
     },
     {
-      "archive_status": "ready",
+      "archive_status": "error",
       "completeness_ratio": 1.0,
       "day": 13,
       "hour": 7,
@@ -630,14 +630,14 @@
       "local_timezone_label": "czasu polskiego",
       "month": 11,
       "playable": false,
-      "state": "publishing",
-      "status_label": "Czeka w kolejce do publikacji",
+      "state": "failed",
+      "status_label": "Nie udało się przygotować nagrania",
       "utc_label": "2025-11-13 06:00 UTC",
       "utc_started_at": "2025-11-13T06:00:00+00:00",
       "year": 2025
     },
     {
-      "archive_status": "ready",
+      "archive_status": "error",
       "completeness_ratio": 1.0,
       "day": 13,
       "hour": 8,
@@ -649,14 +649,14 @@
       "local_timezone_label": "czasu polskiego",
       "month": 11,
       "playable": false,
-      "state": "publishing",
-      "status_label": "Czeka w kolejce do publikacji",
+      "state": "failed",
+      "status_label": "Nie udało się przygotować nagrania",
       "utc_label": "2025-11-13 07:00 UTC",
       "utc_started_at": "2025-11-13T07:00:00+00:00",
       "year": 2025
     },
     {
-      "archive_status": "ready",
+      "archive_status": "error",
       "completeness_ratio": 1.0,
       "day": 13,
       "hour": 9,
@@ -668,8 +668,8 @@
       "local_timezone_label": "czasu polskiego",
       "month": 11,
       "playable": false,
-      "state": "publishing",
-      "status_label": "Czeka w kolejce do publikacji",
+      "state": "failed",
+      "status_label": "Nie udało się przygotować nagrania",
       "utc_label": "2025-11-13 08:00 UTC",
       "utc_started_at": "2025-11-13T08:00:00+00:00",
       "year": 2025
@@ -732,7 +732,7 @@
       "year": 2025
     },
     {
-      "archive_status": "ready",
+      "archive_status": "error",
       "completeness_ratio": 1.0,
       "day": 13,
       "hour": 13,
@@ -744,8 +744,8 @@
       "local_timezone_label": "czasu polskiego",
       "month": 11,
       "playable": false,
-      "state": "publishing",
-      "status_label": "Czeka w kolejce do publikacji",
+      "state": "failed",
+      "status_label": "Nie udało się przygotować nagrania",
       "utc_label": "2025-11-13 12:00 UTC",
       "utc_started_at": "2025-11-13T12:00:00+00:00",
       "year": 2025
@@ -946,7 +946,7 @@
   "month": 11,
   "published_at": "2026-04-21T12:21:12.867180+00:00",
   "station": {
-    "archive_count": 3279,
+    "archive_count": 3280,
     "display_name": "Program 3",
     "public_name": "Polskie Radio Program 3",
     "slug": "pr3",
