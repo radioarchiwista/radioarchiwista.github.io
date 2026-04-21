@@ -1,14 +1,16 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-21T22:18:29.306699+00:00",
+  "generated_at": "2026-04-21T22:56:12.362467+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-04-21T21:00:00+00:00",
   "latest_archive_hour_stations": [
-    "Program 1"
+    "Program 1",
+    "Program 3",
+    "Polskie Radio 24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-21T22:18:29.306699+00:00",
+  "published_at": "2026-04-21T22:56:12.362467+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -20,28 +22,28 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 543,
+      "archive_count": 544,
       "display_name": "Program 2",
       "public_name": "Polskie Radio Program 2",
       "slug": "pr2",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3533,
+      "archive_count": 3534,
       "display_name": "Program 3",
       "public_name": "Polskie Radio Program 3",
       "slug": "pr3",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 546,
+      "archive_count": 547,
       "display_name": "Polskie Radio 24",
       "public_name": "Polskie Radio 24",
       "slug": "pr24",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 535,
+      "archive_count": 536,
       "display_name": "Radio 357",
       "public_name": "Radio 357",
       "slug": "radio357",
@@ -118,7 +120,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 527,
+      "archive_count": 528,
       "display_name": "Radio Gdańsk",
       "public_name": "Radio Gdańsk",
       "slug": "radiogdansk",
@@ -153,7 +155,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 502,
+      "archive_count": 503,
       "display_name": "Radio Kielce",
       "public_name": "Radio Kielce",
       "slug": "radiokielce",
@@ -202,7 +204,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 432,
+      "archive_count": 433,
       "display_name": "Radio Opole",
       "public_name": "Radio Opole",
       "slug": "radioopole",
@@ -223,7 +225,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 526,
+      "archive_count": 527,
       "display_name": "Radio Rzeszów",
       "public_name": "Radio Rzeszów",
       "slug": "radiorzeszow",
