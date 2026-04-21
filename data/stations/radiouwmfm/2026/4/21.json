@@ -1,0 +1,82 @@
+{
+  "archives": [
+    {
+      "archive_item_identifier": "radio_uniwersytetu_warminsko_mazurskiego-2026-04-20",
+      "audio_url": "https://archive.org/download/radio_uniwersytetu_warminsko_mazurskiego-2026-04-20/radio_uniwersytetu_warminsko_mazurskiego_2026-04-20T22-00-00Z.mp3",
+      "completeness_ratio": 1.0,
+      "day": 21,
+      "download_url": "https://archive.org/download/radio_uniwersytetu_warminsko_mazurskiego-2026-04-20/radio_uniwersytetu_warminsko_mazurskiego_2026-04-20T22-00-00Z.mp3",
+      "duration_seconds": 3600.168,
+      "hour": 0,
+      "hourly_archive_id": 22940,
+      "local_date_label": "21.04.2026",
+      "local_hour_label": "00:00",
+      "local_label": "2026-04-21 00:00 czasu polskiego",
+      "local_started_at": "2026-04-21T00:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 4,
+      "published_at": "2026-04-21T00:08:44.196855+00:00",
+      "published_local_label": "2026-04-21 02:08 czasu polskiego",
+      "remote_filename": "radio_uniwersytetu_warminsko_mazurskiego_2026-04-20T22-00-00Z.mp3",
+      "station_slug": "radiouwmfm",
+      "status": "published",
+      "utc_label": "2026-04-20 22:00 UTC",
+      "utc_started_at": "2026-04-20T22:00:00+00:00",
+      "year": 2026
+    }
+  ],
+  "day": 21,
+  "generated_at": "2026-04-21T00:08:44.196855+00:00",
+  "hour_slots": [
+    {
+      "archive_status": "published",
+      "completeness_ratio": 1.0,
+      "day": 21,
+      "hour": 0,
+      "hourly_archive_id": 22940,
+      "local_date_label": "21.04.2026",
+      "local_hour_label": "00:00",
+      "local_label": "2026-04-21 00:00 czasu polskiego",
+      "local_started_at": "2026-04-21T00:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 4,
+      "playable": true,
+      "state": "available",
+      "status_label": null,
+      "utc_label": "2026-04-20 22:00 UTC",
+      "utc_started_at": "2026-04-20T22:00:00+00:00",
+      "year": 2026
+    },
+    {
+      "archive_status": null,
+      "completeness_ratio": null,
+      "day": 21,
+      "hour": 1,
+      "hourly_archive_id": null,
+      "local_date_label": "21.04.2026",
+      "local_hour_label": "01:00",
+      "local_label": "2026-04-21 01:00 czasu polskiego",
+      "local_started_at": "2026-04-21T01:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 4,
+      "playable": false,
+      "state": "recorded",
+      "status_label": "Nagranie czeka na złożenie",
+      "utc_label": "2026-04-20 23:00 UTC",
+      "utc_started_at": "2026-04-20T23:00:00+00:00",
+      "year": 2026
+    }
+  ],
+  "latest_archive_hour_expected_station_count": 0,
+  "latest_archive_hour_started_at": "2026-04-20T14:00:00+00:00",
+  "month": 4,
+  "published_at": "2026-04-21T00:08:44.196855+00:00",
+  "station": {
+    "archive_count": 507,
+    "display_name": "Radio UWM FM",
+    "public_name": "Radio UWM FM",
+    "slug": "radiouwmfm",
+    "timezone": "Europe/Warsaw"
+  },
+  "year": 2026
+}
