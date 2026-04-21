@@ -1,51 +1,43 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-21T10:06:09.013800+00:00",
+  "generated_at": "2026-04-21T10:21:10.766887+00:00",
   "latest_archive_hour_expected_station_count": 39,
-  "latest_archive_hour_started_at": "2026-04-21T08:00:00+00:00",
+  "latest_archive_hour_started_at": "2026-04-21T09:00:00+00:00",
   "latest_archive_hour_stations": [
     "Program 1",
     "Program 2",
     "Program 3",
-    "Polskie Radio 24",
-    "Radio 357",
-    "Radio Afera",
-    "Radio Akadera",
-    "Radio Białystok",
-    "Radio Centrum Lublin",
-    "Radio Centrum Rzeszów",
-    "Radio Gdańsk",
-    "Radio Gorzów"
+    "Polskie Radio 24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-21T10:06:09.013800+00:00",
+  "published_at": "2026-04-21T10:21:10.766887+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
     {
-      "archive_count": 543,
+      "archive_count": 544,
       "display_name": "Program 1",
       "public_name": "Polskie Radio Program 1",
       "slug": "pr1",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 537,
+      "archive_count": 538,
       "display_name": "Program 2",
       "public_name": "Polskie Radio Program 2",
       "slug": "pr2",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3269,
+      "archive_count": 3270,
       "display_name": "Program 3",
       "public_name": "Polskie Radio Program 3",
       "slug": "pr3",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 534,
+      "archive_count": 535,
       "display_name": "Polskie Radio 24",
       "public_name": "Polskie Radio 24",
       "slug": "pr24",
@@ -101,7 +93,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 514,
+      "archive_count": 516,
       "display_name": "Radio Białystok",
       "public_name": "Radio Białystok",
       "slug": "radiobialystok",
@@ -164,7 +156,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 495,
+      "archive_count": 494,
       "display_name": "Radio Kielce",
       "public_name": "Radio Kielce",
       "slug": "radiokielce",
@@ -178,7 +170,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 519,
+      "archive_count": 518,
       "display_name": "Radio Kraków",
       "public_name": "Radio Kraków",
       "slug": "radiokrakow",
@@ -255,7 +247,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 516,
+      "archive_count": 515,
       "display_name": "Radio UWM FM",
       "public_name": "Radio UWM FM",
       "slug": "radiouwmfm",
