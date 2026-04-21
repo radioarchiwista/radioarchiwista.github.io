@@ -1,13 +1,11 @@
 {
+  "days": [
+    30
+  ],
   "generated_at": "2026-04-21T15:24:44.923223+00:00",
   "latest_archive_hour_expected_station_count": 0,
   "latest_archive_hour_started_at": "2026-04-21T14:00:00+00:00",
-  "months": [
-    1,
-    2,
-    3,
-    4
-  ],
+  "month": 10,
   "published_at": "2026-04-21T15:24:44.923223+00:00",
   "station": {
     "archive_count": 3312,
@@ -16,5 +14,5 @@
     "slug": "pr3",
     "timezone": "Europe/Warsaw"
   },
-  "year": 2026
+  "year": 2025
 }
