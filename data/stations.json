@@ -1,16 +1,17 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-21T17:02:20.964480+00:00",
+  "generated_at": "2026-04-21T17:13:34.072053+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-04-21T15:00:00+00:00",
   "latest_archive_hour_stations": [
     "Program 1",
+    "Program 2",
     "Program 3",
     "Polskie Radio 24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-21T17:02:20.964480+00:00",
+  "published_at": "2026-04-21T17:13:34.072053+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -22,7 +23,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 543,
+      "archive_count": 544,
       "display_name": "Program 2",
       "public_name": "Polskie Radio Program 2",
       "slug": "pr2",
@@ -239,7 +240,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 522,
+      "archive_count": 523,
       "display_name": "Radio Słupsk",
       "public_name": "Radio Słupsk",
       "slug": "radioslupsk",
