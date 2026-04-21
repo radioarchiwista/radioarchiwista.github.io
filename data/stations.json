@@ -1,21 +1,19 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-21T19:05:32.996695+00:00",
+  "generated_at": "2026-04-21T19:19:04.759787+00:00",
   "latest_archive_hour_expected_station_count": 39,
-  "latest_archive_hour_started_at": "2026-04-21T17:00:00+00:00",
+  "latest_archive_hour_started_at": "2026-04-21T18:00:00+00:00",
   "latest_archive_hour_stations": [
-    "Program 1",
-    "Program 3",
-    "Polskie Radio 24"
+    "Program 1"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-21T19:05:32.996695+00:00",
+  "published_at": "2026-04-21T19:19:04.759787+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
     {
-      "archive_count": 552,
+      "archive_count": 553,
       "display_name": "Program 1",
       "public_name": "Polskie Radio Program 1",
       "slug": "pr1",
@@ -29,7 +27,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3384,
+      "archive_count": 3411,
       "display_name": "Program 3",
       "public_name": "Polskie Radio Program 3",
       "slug": "pr3",
@@ -43,7 +41,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 535,
+      "archive_count": 536,
       "display_name": "Radio 357",
       "public_name": "Radio 357",
       "slug": "radio357",
@@ -92,7 +90,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 521,
+      "archive_count": 522,
       "display_name": "Radio Białystok",
       "public_name": "Radio Białystok",
       "slug": "radiobialystok",
@@ -190,7 +188,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 379,
+      "archive_count": 378,
       "display_name": "Radio Maryja",
       "public_name": "Radio Maryja",
       "slug": "radiomaryja",
@@ -211,14 +209,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 478,
+      "archive_count": 477,
       "display_name": "Radio PiK",
       "public_name": "Radio PiK",
       "slug": "radiopik",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 523,
+      "archive_count": 522,
       "display_name": "Radio Poznań",
       "public_name": "Radio Poznań",
       "slug": "radiopoznan",
