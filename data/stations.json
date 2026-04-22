@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-22T09:02:04.051058+00:00",
+  "generated_at": "2026-04-22T09:05:25.880155+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-04-22T07:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -14,7 +14,7 @@
     "Radio Maryja"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-22T09:02:04.051058+00:00",
+  "published_at": "2026-04-22T09:05:25.880155+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -173,7 +173,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 532,
+      "archive_count": 533,
       "display_name": "Radio Kraków",
       "public_name": "Radio Kraków",
       "slug": "radiokrakow",
@@ -201,21 +201,21 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 530,
+      "archive_count": 531,
       "display_name": "Radio Olsztyn",
       "public_name": "Radio Olsztyn",
       "slug": "radioolsztyn",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 436,
+      "archive_count": 437,
       "display_name": "Radio Opole",
       "public_name": "Radio Opole",
       "slug": "radioopole",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 479,
+      "archive_count": 480,
       "display_name": "Radio PiK",
       "public_name": "Radio PiK",
       "slug": "radiopik",
