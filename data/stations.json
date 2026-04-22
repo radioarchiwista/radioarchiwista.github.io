@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-22T07:23:54.857259+00:00",
+  "generated_at": "2026-04-22T07:35:02.439836+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-04-22T06:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -10,7 +10,7 @@
     "Polskie Radio 24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-22T07:23:54.857259+00:00",
+  "published_at": "2026-04-22T07:35:02.439836+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -43,35 +43,35 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 541,
+      "archive_count": 542,
       "display_name": "Radio 357",
       "public_name": "Radio 357",
       "slug": "radio357",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 542,
+      "archive_count": 543,
       "display_name": "Radio Nowy Świat",
       "public_name": "Radio Nowy Świat",
       "slug": "rns",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 531,
+      "archive_count": 532,
       "display_name": "TOK FM",
       "public_name": "TOK FM",
       "slug": "tokfm",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 544,
+      "archive_count": 545,
       "display_name": "Radio Wnet",
       "public_name": "Radio Wnet",
       "slug": "wnet",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 543,
+      "archive_count": 544,
       "display_name": "Radio Republika",
       "public_name": "Radio Republika",
       "slug": "republika",
@@ -253,7 +253,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 527,
+      "archive_count": 528,
       "display_name": "Radio Wrocław",
       "public_name": "Radio Wrocław",
       "slug": "radiowroclaw",
