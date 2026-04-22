@@ -1,15 +1,16 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-22T13:30:47.918590+00:00",
+  "generated_at": "2026-04-22T13:55:48.607981+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-04-22T12:00:00+00:00",
   "latest_archive_hour_stations": [
     "Polskie Radio 24",
-    "Radio Białystok"
+    "Radio Białystok",
+    "Radio Gorzów"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-22T13:30:47.918590+00:00",
+  "published_at": "2026-04-22T13:55:48.607981+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -98,14 +99,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 538,
+      "archive_count": 539,
       "display_name": "Radio Centrum Lublin",
       "public_name": "Radio Centrum Lublin",
       "slug": "radiocentrumlublin",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 538,
+      "archive_count": 539,
       "display_name": "Radio Centrum Rzeszów",
       "public_name": "Radio Centrum Rzeszów",
       "slug": "radiocentrumrzeszow",
@@ -119,14 +120,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 540,
+      "archive_count": 541,
       "display_name": "Radio Gdańsk",
       "public_name": "Radio Gdańsk",
       "slug": "radiogdansk",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 540,
+      "archive_count": 541,
       "display_name": "Radio Gorzów",
       "public_name": "Radio Gorzów",
       "slug": "radiogorzow",
