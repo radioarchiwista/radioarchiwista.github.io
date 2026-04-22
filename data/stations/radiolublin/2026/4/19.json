@@ -25,6 +25,30 @@
       "year": 2026
     },
     {
+      "archive_item_identifier": "radiolublin-2026-04-18",
+      "audio_url": "https://archive.org/download/radiolublin-2026-04-18/radiolublin_2026-04-18T23-00-00Z.mp3",
+      "completeness_ratio": 0.9997,
+      "day": 19,
+      "download_url": "https://archive.org/download/radiolublin-2026-04-18/radiolublin_2026-04-18T23-00-00Z.mp3",
+      "duration_seconds": 3599.544,
+      "hour": 1,
+      "hourly_archive_id": 19955,
+      "local_date_label": "19.04.2026",
+      "local_hour_label": "01:00",
+      "local_label": "2026-04-19 01:00 czasu polskiego",
+      "local_started_at": "2026-04-19T01:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 4,
+      "published_at": "2026-04-19T01:42:48.055968+00:00",
+      "published_local_label": "2026-04-19 03:42 czasu polskiego",
+      "remote_filename": "radiolublin_2026-04-18T23-00-00Z.mp3",
+      "station_slug": "radiolublin",
+      "status": "published",
+      "utc_label": "2026-04-18 23:00 UTC",
+      "utc_started_at": "2026-04-18T23:00:00+00:00",
+      "year": 2026
+    },
+    {
       "archive_item_identifier": "radiolublin-2026-04-19",
       "audio_url": "https://archive.org/download/radiolublin-2026-04-19/radiolublin_2026-04-19T00-00-00Z.mp3",
       "completeness_ratio": 1.0,
@@ -576,7 +600,7 @@
       "year": 2026
     },
     {
-      "archive_status": "error",
+      "archive_status": "published",
       "completeness_ratio": 0.9997,
       "day": 19,
       "hour": 1,
@@ -587,9 +611,9 @@
       "local_started_at": "2026-04-19T01:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 4,
-      "playable": false,
-      "state": "failed",
-      "status_label": "Nie udało się przygotować nagrania",
+      "playable": true,
+      "state": "available",
+      "status_label": null,
       "utc_label": "2026-04-18 23:00 UTC",
       "utc_started_at": "2026-04-18T23:00:00+00:00",
       "year": 2026
@@ -1018,7 +1042,7 @@
   "month": 4,
   "published_at": "2026-04-21T20:43:31.629443+00:00",
   "station": {
-    "archive_count": 526,
+    "archive_count": 527,
     "display_name": "Radio Lublin",
     "public_name": "Radio Lublin",
     "slug": "radiolublin",
