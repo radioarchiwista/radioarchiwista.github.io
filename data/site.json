@@ -1,17 +1,15 @@
 {
-  "archive_count": 23987,
+  "archive_count": 23996,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-22T17:58:43.541962+00:00",
+  "generated_at": "2026-04-22T18:38:37.502899+00:00",
   "latest_archive_hour_expected_station_count": 39,
-  "latest_archive_hour_started_at": "2026-04-22T16:00:00+00:00",
+  "latest_archive_hour_started_at": "2026-04-22T17:00:00+00:00",
   "latest_archive_hour_stations": [
-    "Polskie Radio 24",
-    "Radio Białystok",
-    "Radio Gorzów"
+    "Polskie Radio 24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-22T17:58:43.541962+00:00",
+  "published_at": "2026-04-22T18:38:37.502899+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
