@@ -1,17 +1,18 @@
 {
-  "archive_count": 23252,
+  "archive_count": 23264,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-22T04:57:36.628327+00:00",
+  "generated_at": "2026-04-22T05:01:11.789281+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-04-22T03:00:00+00:00",
   "latest_archive_hour_stations": [
     "Program 1",
     "Program 3",
-    "Polskie Radio 24"
+    "Polskie Radio 24",
+    "Radio Gorzów"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-22T04:57:36.628327+00:00",
+  "published_at": "2026-04-22T05:01:11.789281+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
