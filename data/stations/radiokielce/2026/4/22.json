@@ -184,6 +184,25 @@
       "utc_label": "2026-04-22 04:00 UTC",
       "utc_started_at": "2026-04-22T04:00:00+00:00",
       "year": 2026
+    },
+    {
+      "archive_status": "ready",
+      "completeness_ratio": 0.9994,
+      "day": 22,
+      "hour": 7,
+      "hourly_archive_id": 24722,
+      "local_date_label": "22.04.2026",
+      "local_hour_label": "07:00",
+      "local_label": "2026-04-22 07:00 czasu polskiego",
+      "local_started_at": "2026-04-22T07:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 4,
+      "playable": false,
+      "state": "publishing",
+      "status_label": "Czeka w kolejce do publikacji",
+      "utc_label": "2026-04-22 05:00 UTC",
+      "utc_started_at": "2026-04-22T05:00:00+00:00",
+      "year": 2026
     }
   ],
   "latest_archive_hour_expected_station_count": 0,
