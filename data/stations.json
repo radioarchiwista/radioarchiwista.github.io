@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-22T02:36:04.580878+00:00",
+  "generated_at": "2026-04-22T02:53:45.944890+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-04-22T01:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -10,7 +10,7 @@
     "Polskie Radio 24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-22T02:36:04.580878+00:00",
+  "published_at": "2026-04-22T02:53:45.944890+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -43,7 +43,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 537,
+      "archive_count": 538,
       "display_name": "Radio 357",
       "public_name": "Radio 357",
       "slug": "radio357",
@@ -78,14 +78,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 529,
+      "archive_count": 530,
       "display_name": "Radio Afera",
       "public_name": "Radio Afera",
       "slug": "afera",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 527,
+      "archive_count": 528,
       "display_name": "Radio Akadera",
       "public_name": "Radio Akadera",
       "slug": "radioakadera",
@@ -99,7 +99,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 527,
+      "archive_count": 528,
       "display_name": "Radio Centrum Lublin",
       "public_name": "Radio Centrum Lublin",
       "slug": "radiocentrumlublin",
