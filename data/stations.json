@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-22T08:54:37.833182+00:00",
+  "generated_at": "2026-04-22T09:02:04.051058+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-04-22T07:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -9,10 +9,12 @@
     "Program 3",
     "Polskie Radio 24",
     "Radio Białystok",
-    "Radio Gorzów"
+    "Radio Gorzów",
+    "Radio Kielce",
+    "Radio Maryja"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-22T08:54:37.833182+00:00",
+  "published_at": "2026-04-22T09:02:04.051058+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -31,7 +33,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3720,
+      "archive_count": 3760,
       "display_name": "Program 3",
       "public_name": "Polskie Radio Program 3",
       "slug": "pr3",
@@ -136,7 +138,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 482,
+      "archive_count": 483,
       "display_name": "Radio Index",
       "public_name": "Radio Index",
       "slug": "radioindex",
@@ -150,21 +152,21 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 535,
+      "archive_count": 536,
       "display_name": "Radio Katowice",
       "public_name": "Radio Katowice",
       "slug": "radiokatowice",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 509,
+      "archive_count": 510,
       "display_name": "Radio Kielce",
       "public_name": "Radio Kielce",
       "slug": "radiokielce",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 531,
+      "archive_count": 532,
       "display_name": "Radio Koszalin",
       "public_name": "Radio Koszalin",
       "slug": "radiokoszalin",
@@ -178,21 +180,21 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 531,
+      "archive_count": 532,
       "display_name": "Radio Lublin",
       "public_name": "Radio Lublin",
       "slug": "radiolublin",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 530,
+      "archive_count": 531,
       "display_name": "Radio Luz",
       "public_name": "Radio Luz",
       "slug": "radioluz",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 384,
+      "archive_count": 385,
       "display_name": "Radio Maryja",
       "public_name": "Radio Maryja",
       "slug": "radiomaryja",
@@ -276,7 +278,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 531,
+      "archive_count": 532,
       "display_name": "Radio Łódź",
       "public_name": "Radio Łódź",
       "slug": "radiolodz",
