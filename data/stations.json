@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-22T22:45:36.595858+00:00",
+  "generated_at": "2026-04-22T22:52:05.276917+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-04-22T21:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -12,7 +12,7 @@
     "Radio Kielce"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-22T22:45:36.595858+00:00",
+  "published_at": "2026-04-22T22:52:05.276917+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -164,7 +164,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 543,
+      "archive_count": 544,
       "display_name": "Radio Koszalin",
       "public_name": "Radio Koszalin",
       "slug": "radiokoszalin",
@@ -178,42 +178,42 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 544,
+      "archive_count": 545,
       "display_name": "Radio Lublin",
       "public_name": "Radio Lublin",
       "slug": "radiolublin",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 542,
+      "archive_count": 543,
       "display_name": "Radio Luz",
       "public_name": "Radio Luz",
       "slug": "radioluz",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 395,
+      "archive_count": 396,
       "display_name": "Radio Maryja",
       "public_name": "Radio Maryja",
       "slug": "radiomaryja",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 541,
+      "archive_count": 542,
       "display_name": "Radio Olsztyn",
       "public_name": "Radio Olsztyn",
       "slug": "radioolsztyn",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 446,
+      "archive_count": 447,
       "display_name": "Radio Opole",
       "public_name": "Radio Opole",
       "slug": "radioopole",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 493,
+      "archive_count": 494,
       "display_name": "Radio PiK",
       "public_name": "Radio PiK",
       "slug": "radiopik",
