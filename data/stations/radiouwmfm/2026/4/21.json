@@ -431,7 +431,7 @@
       "year": 2026
     },
     {
-      "archive_status": "error",
+      "archive_status": "ready",
       "completeness_ratio": 0.9998,
       "day": 21,
       "hour": 6,
@@ -443,8 +443,8 @@
       "local_timezone_label": "czasu polskiego",
       "month": 4,
       "playable": false,
-      "state": "failed",
-      "status_label": "Nie udało się przygotować nagrania",
+      "state": "publishing",
+      "status_label": "Czeka w kolejce do publikacji",
       "utc_label": "2026-04-21 04:00 UTC",
       "utc_started_at": "2026-04-21T04:00:00+00:00",
       "year": 2026
@@ -778,7 +778,7 @@
   "month": 4,
   "published_at": "2026-04-21T21:49:05.681512+00:00",
   "station": {
-    "archive_count": 523,
+    "archive_count": 524,
     "display_name": "Radio UWM FM",
     "public_name": "Radio UWM FM",
     "slug": "radiouwmfm",
