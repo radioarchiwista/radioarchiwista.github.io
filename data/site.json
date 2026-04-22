@@ -1,21 +1,17 @@
 {
-  "archive_count": 23527,
+  "archive_count": 23529,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-22T08:03:48.872248+00:00",
+  "generated_at": "2026-04-22T08:18:50.421506+00:00",
   "latest_archive_hour_expected_station_count": 39,
-  "latest_archive_hour_started_at": "2026-04-22T06:00:00+00:00",
+  "latest_archive_hour_started_at": "2026-04-22T07:00:00+00:00",
   "latest_archive_hour_stations": [
     "Program 1",
     "Program 3",
-    "Polskie Radio 24",
-    "Radio Białystok",
-    "Radio Gorzów",
-    "Radio Kielce",
-    "Radio Maryja"
+    "Polskie Radio 24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-22T08:03:48.872248+00:00",
+  "published_at": "2026-04-22T08:18:50.421506+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
