@@ -1,16 +1,17 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-23T23:23:58.722544+00:00",
+  "generated_at": "2026-04-23T23:35:23.395561+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-04-23T22:00:00+00:00",
   "latest_archive_hour_stations": [
     "Program 1",
     "Program 2",
+    "Program 3",
     "Polskie Radio 24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-23T23:23:58.722544+00:00",
+  "published_at": "2026-04-23T23:35:23.395561+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -29,7 +30,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4507,
+      "archive_count": 4508,
       "display_name": "Program 3",
       "public_name": "Polskie Radio Program 3",
       "slug": "pr3",
@@ -50,7 +51,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 588,
+      "archive_count": 589,
       "display_name": "Radio Nowy Świat",
       "public_name": "Radio Nowy Świat",
       "slug": "rns",
@@ -71,7 +72,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 585,
+      "archive_count": 586,
       "display_name": "Radio Republika",
       "public_name": "Radio Republika",
       "slug": "republika",
@@ -113,7 +114,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 573,
+      "archive_count": 574,
       "display_name": "Radio Dla Ciebie",
       "public_name": "Radio Dla Ciebie",
       "slug": "rdc",
@@ -211,7 +212,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 533,
+      "archive_count": 534,
       "display_name": "Radio PiK",
       "public_name": "Radio PiK",
       "slug": "radiopik",
