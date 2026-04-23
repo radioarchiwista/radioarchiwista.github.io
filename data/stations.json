@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-23T11:00:53.096493+00:00",
+  "generated_at": "2026-04-23T11:14:19.031038+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-04-23T09:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -15,7 +15,7 @@
     "Radio Maryja"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-23T11:00:53.096493+00:00",
+  "published_at": "2026-04-23T11:14:19.031038+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -188,7 +188,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 559,
+      "archive_count": 558,
       "display_name": "Radio Luz",
       "public_name": "Radio Luz",
       "slug": "radioluz",
@@ -209,7 +209,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 463,
+      "archive_count": 462,
       "display_name": "Radio Opole",
       "public_name": "Radio Opole",
       "slug": "radioopole",
@@ -230,28 +230,28 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 555,
+      "archive_count": 556,
       "display_name": "Radio Rzeszów",
       "public_name": "Radio Rzeszów",
       "slug": "radiorzeszow",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 554,
+      "archive_count": 555,
       "display_name": "Radio Szczecin",
       "public_name": "Radio Szczecin",
       "slug": "radioszczecin",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 553,
+      "archive_count": 554,
       "display_name": "Radio Słupsk",
       "public_name": "Radio Słupsk",
       "slug": "radioslupsk",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 551,
+      "archive_count": 552,
       "display_name": "Radio UWM FM",
       "public_name": "Radio UWM FM",
       "slug": "radiouwmfm",
