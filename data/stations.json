@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-23T22:02:30.149431+00:00",
+  "generated_at": "2026-04-23T22:06:52.081296+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-04-23T20:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -18,10 +18,11 @@
     "Radio Gorzów",
     "Radio Index",
     "Radio Kielce",
-    "Radio Kraków"
+    "Radio Kraków",
+    "Radio Maryja"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-23T22:02:30.149431+00:00",
+  "published_at": "2026-04-23T22:06:52.081296+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -40,7 +41,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4479,
+      "archive_count": 4493,
       "display_name": "Program 3",
       "public_name": "Polskie Radio Program 3",
       "slug": "pr3",
@@ -103,7 +104,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 576,
+      "archive_count": 575,
       "display_name": "Radio Białystok",
       "public_name": "Radio Białystok",
       "slug": "radiobialystok",
@@ -187,21 +188,21 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 579,
+      "archive_count": 580,
       "display_name": "Radio Lublin",
       "public_name": "Radio Lublin",
       "slug": "radiolublin",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 579,
+      "archive_count": 580,
       "display_name": "Radio Luz",
       "public_name": "Radio Luz",
       "slug": "radioluz",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 433,
+      "archive_count": 434,
       "display_name": "Radio Maryja",
       "public_name": "Radio Maryja",
       "slug": "radiomaryja",
@@ -285,7 +286,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 580,
+      "archive_count": 581,
       "display_name": "Radio Łódź",
       "public_name": "Radio Łódź",
       "slug": "radiolodz",
