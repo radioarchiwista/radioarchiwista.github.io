@@ -1,23 +1,18 @@
 {
-  "archive_count": 25217,
+  "archive_count": 25226,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-23T16:06:37.515640+00:00",
+  "generated_at": "2026-04-23T16:23:22.786151+00:00",
   "latest_archive_hour_expected_station_count": 39,
-  "latest_archive_hour_started_at": "2026-04-23T14:00:00+00:00",
+  "latest_archive_hour_started_at": "2026-04-23T15:00:00+00:00",
   "latest_archive_hour_stations": [
     "Program 1",
     "Program 2",
     "Polskie Radio 24",
-    "Radio 357",
-    "Radio Afera",
-    "Radio Akadera",
-    "Radio Białystok",
-    "Radio Kielce",
-    "Radio Maryja"
+    "Radio Afera"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-23T16:06:37.515640+00:00",
+  "published_at": "2026-04-23T16:23:22.786151+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
