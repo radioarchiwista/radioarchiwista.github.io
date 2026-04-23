@@ -25,6 +25,30 @@
       "year": 2026
     },
     {
+      "archive_item_identifier": "radiocentrumlublin-2026-04-19",
+      "audio_url": "https://archive.org/download/radiocentrumlublin-2026-04-19/radiocentrumlublin_2026-04-19T23-00-00Z.mp3",
+      "completeness_ratio": 0.9997,
+      "day": 20,
+      "download_url": "https://archive.org/download/radiocentrumlublin-2026-04-19/radiocentrumlublin_2026-04-19T23-00-00Z.mp3",
+      "duration_seconds": 3599.904,
+      "hour": 1,
+      "hourly_archive_id": 21477,
+      "local_date_label": "20.04.2026",
+      "local_hour_label": "01:00",
+      "local_label": "2026-04-20 01:00 czasu polskiego",
+      "local_started_at": "2026-04-20T01:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 4,
+      "published_at": "2026-04-20T00:46:04.421081+00:00",
+      "published_local_label": "2026-04-20 02:46 czasu polskiego",
+      "remote_filename": "radiocentrumlublin_2026-04-19T23-00-00Z.mp3",
+      "station_slug": "radiocentrumlublin",
+      "status": "published",
+      "utc_label": "2026-04-19 23:00 UTC",
+      "utc_started_at": "2026-04-19T23:00:00+00:00",
+      "year": 2026
+    },
+    {
       "archive_item_identifier": "radiocentrumlublin-2026-04-20",
       "audio_url": "https://archive.org/download/radiocentrumlublin-2026-04-20/radiocentrumlublin_2026-04-20T00-00-00Z.mp3",
       "completeness_ratio": 1.0,
@@ -528,7 +552,7 @@
       "year": 2026
     },
     {
-      "archive_status": "error",
+      "archive_status": "published",
       "completeness_ratio": 0.9997,
       "day": 20,
       "hour": 1,
@@ -539,9 +563,9 @@
       "local_started_at": "2026-04-20T01:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 4,
-      "playable": false,
-      "state": "failed",
-      "status_label": "Nie udało się przygotować nagrania",
+      "playable": true,
+      "state": "available",
+      "status_label": null,
       "utc_label": "2026-04-19 23:00 UTC",
       "utc_started_at": "2026-04-19T23:00:00+00:00",
       "year": 2026
@@ -970,7 +994,7 @@
   "month": 4,
   "published_at": "2026-04-23T00:17:45.634219+00:00",
   "station": {
-    "archive_count": 548,
+    "archive_count": 549,
     "display_name": "Radio Centrum Lublin",
     "public_name": "Radio Centrum Lublin",
     "slug": "radiocentrumlublin",
