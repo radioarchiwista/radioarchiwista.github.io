@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-23T12:06:36.471074+00:00",
+  "generated_at": "2026-04-23T12:16:04.128573+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-04-23T10:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -16,7 +16,7 @@
     "Radio Maryja"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-23T12:06:36.471074+00:00",
+  "published_at": "2026-04-23T12:16:04.128573+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -91,7 +91,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 568,
+      "archive_count": 567,
       "display_name": "Radio Akadera",
       "public_name": "Radio Akadera",
       "slug": "radioakadera",
@@ -126,7 +126,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 568,
+      "archive_count": 567,
       "display_name": "Radio Gdańsk",
       "public_name": "Radio Gdańsk",
       "slug": "radiogdansk",
@@ -238,7 +238,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 556,
+      "archive_count": 557,
       "display_name": "Radio Szczecin",
       "public_name": "Radio Szczecin",
       "slug": "radioszczecin",
@@ -252,14 +252,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 553,
+      "archive_count": 554,
       "display_name": "Radio UWM FM",
       "public_name": "Radio UWM FM",
       "slug": "radiouwmfm",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 556,
+      "archive_count": 557,
       "display_name": "Radio Wrocław",
       "public_name": "Radio Wrocław",
       "slug": "radiowroclaw",
@@ -287,7 +287,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 546,
+      "archive_count": 547,
       "display_name": "Radio Żak",
       "public_name": "Radio Żak",
       "slug": "radiozak",
