@@ -1,34 +1,27 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-23T08:10:44.907494+00:00",
+  "generated_at": "2026-04-23T08:16:54.198932+00:00",
   "latest_archive_hour_expected_station_count": 39,
-  "latest_archive_hour_started_at": "2026-04-23T06:00:00+00:00",
+  "latest_archive_hour_started_at": "2026-04-23T07:00:00+00:00",
   "latest_archive_hour_stations": [
     "Program 1",
-    "Program 2",
-    "Polskie Radio 24",
-    "Radio 357",
-    "Radio Afera",
-    "Radio Akadera",
-    "Radio Białystok",
-    "Radio Kielce",
-    "Radio Maryja"
+    "Program 2"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-23T08:10:44.907494+00:00",
+  "published_at": "2026-04-23T08:16:54.198932+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
     {
-      "archive_count": 578,
+      "archive_count": 579,
       "display_name": "Program 1",
       "public_name": "Polskie Radio Program 1",
       "slug": "pr1",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 573,
+      "archive_count": 574,
       "display_name": "Program 2",
       "public_name": "Polskie Radio Program 2",
       "slug": "pr2",
@@ -175,7 +168,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 552,
+      "archive_count": 553,
       "display_name": "Radio Kraków",
       "public_name": "Radio Kraków",
       "slug": "radiokrakow",
@@ -203,7 +196,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 551,
+      "archive_count": 550,
       "display_name": "Radio Olsztyn",
       "public_name": "Radio Olsztyn",
       "slug": "radioolsztyn",
@@ -217,7 +210,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 504,
+      "archive_count": 503,
       "display_name": "Radio PiK",
       "public_name": "Radio PiK",
       "slug": "radiopik",
@@ -252,14 +245,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 540,
+      "archive_count": 541,
       "display_name": "Radio UWM FM",
       "public_name": "Radio UWM FM",
       "slug": "radiouwmfm",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 542,
+      "archive_count": 543,
       "display_name": "Radio Wrocław",
       "public_name": "Radio Wrocław",
       "slug": "radiowroclaw",
