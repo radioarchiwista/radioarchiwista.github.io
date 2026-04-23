@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-23T15:03:16.290852+00:00",
+  "generated_at": "2026-04-23T15:10:22.742354+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-04-23T13:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -11,10 +11,11 @@
     "Radio 357",
     "Radio Afera",
     "Radio Akadera",
-    "Radio Białystok"
+    "Radio Białystok",
+    "Radio Kielce"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-23T15:03:16.290852+00:00",
+  "published_at": "2026-04-23T15:10:22.742354+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -138,7 +139,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 515,
+      "archive_count": 516,
       "display_name": "Radio Index",
       "public_name": "Radio Index",
       "slug": "radioindex",
@@ -159,14 +160,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 541,
+      "archive_count": 542,
       "display_name": "Radio Kielce",
       "public_name": "Radio Kielce",
       "slug": "radiokielce",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 565,
+      "archive_count": 566,
       "display_name": "Radio Koszalin",
       "public_name": "Radio Koszalin",
       "slug": "radiokoszalin",
