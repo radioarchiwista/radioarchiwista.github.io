@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-23T20:19:45.804356+00:00",
+  "generated_at": "2026-04-23T20:29:59.066743+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-04-23T19:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -10,7 +10,7 @@
     "Polskie Radio 24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-23T20:19:45.804356+00:00",
+  "published_at": "2026-04-23T20:29:59.066743+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -50,7 +50,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 584,
+      "archive_count": 585,
       "display_name": "Radio Nowy Świat",
       "public_name": "Radio Nowy Świat",
       "slug": "rns",
@@ -71,7 +71,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 581,
+      "archive_count": 582,
       "display_name": "Radio Republika",
       "public_name": "Radio Republika",
       "slug": "republika",
@@ -85,7 +85,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 577,
+      "archive_count": 578,
       "display_name": "Radio Akadera",
       "public_name": "Radio Akadera",
       "slug": "radioakadera",
@@ -113,7 +113,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 569,
+      "archive_count": 570,
       "display_name": "Radio Dla Ciebie",
       "public_name": "Radio Dla Ciebie",
       "slug": "rdc",
@@ -239,14 +239,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 572,
+      "archive_count": 573,
       "display_name": "Radio Słupsk",
       "public_name": "Radio Słupsk",
       "slug": "radioslupsk",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 565,
+      "archive_count": 566,
       "display_name": "Radio UWM FM",
       "public_name": "Radio UWM FM",
       "slug": "radiouwmfm",
