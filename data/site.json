@@ -1,5 +1,5 @@
 {
-  "archive_count": 24247,
+  "archive_count": 24256,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
   "generated_at": "2026-04-23T06:30:55.263257+00:00",
@@ -7,6 +7,7 @@
   "latest_archive_hour_started_at": "2026-04-23T05:00:00+00:00",
   "latest_archive_hour_stations": [
     "Program 1",
+    "Program 2",
     "Polskie Radio 24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
