@@ -412,7 +412,7 @@
       "year": 2026
     },
     {
-      "archive_status": "ready",
+      "archive_status": "error",
       "completeness_ratio": 0.9997,
       "day": 22,
       "hour": 5,
@@ -424,8 +424,8 @@
       "local_timezone_label": "czasu polskiego",
       "month": 4,
       "playable": false,
-      "state": "publishing",
-      "status_label": "Czeka w kolejce do publikacji",
+      "state": "failed",
+      "status_label": "Nie udało się przygotować nagrania",
       "utc_label": "2026-04-22 03:00 UTC",
       "utc_started_at": "2026-04-22T03:00:00+00:00",
       "year": 2026
@@ -778,7 +778,7 @@
   "month": 4,
   "published_at": "2026-04-22T22:52:05.276917+00:00",
   "station": {
-    "archive_count": 447,
+    "archive_count": 446,
     "display_name": "Radio Opole",
     "public_name": "Radio Opole",
     "slug": "radioopole",
