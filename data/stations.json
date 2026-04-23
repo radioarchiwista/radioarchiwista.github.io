@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-23T03:07:33.120197+00:00",
+  "generated_at": "2026-04-23T03:28:35.626741+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-04-23T01:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -12,7 +12,7 @@
     "Radio Centrum Lublin"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-23T03:07:33.120197+00:00",
+  "published_at": "2026-04-23T03:28:35.626741+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -157,7 +157,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 523,
+      "archive_count": 522,
       "display_name": "Radio Kielce",
       "public_name": "Radio Kielce",
       "slug": "radiokielce",
@@ -213,7 +213,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 495,
+      "archive_count": 494,
       "display_name": "Radio PiK",
       "public_name": "Radio PiK",
       "slug": "radiopik",
