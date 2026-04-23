@@ -5,6 +5,7 @@
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-04-23T04:00:00+00:00",
   "latest_archive_hour_stations": [
+    "Program 1",
     "Program 2",
     "Polskie Radio 24"
   ],
@@ -14,35 +15,35 @@
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
     {
-      "archive_count": 575,
+      "archive_count": 576,
       "display_name": "Program 1",
       "public_name": "Polskie Radio Program 1",
       "slug": "pr1",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 569,
+      "archive_count": 570,
       "display_name": "Program 2",
       "public_name": "Polskie Radio Program 2",
       "slug": "pr2",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3939,
+      "archive_count": 3940,
       "display_name": "Program 3",
       "public_name": "Polskie Radio Program 3",
       "slug": "pr3",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 577,
+      "archive_count": 578,
       "display_name": "Polskie Radio 24",
       "public_name": "Polskie Radio 24",
       "slug": "pr24",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 562,
+      "archive_count": 564,
       "display_name": "Radio 357",
       "public_name": "Radio 357",
       "slug": "radio357",
@@ -98,14 +99,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 552,
+      "archive_count": 553,
       "display_name": "Radio Centrum Lublin",
       "public_name": "Radio Centrum Lublin",
       "slug": "radiocentrumlublin",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 551,
+      "archive_count": 552,
       "display_name": "Radio Centrum Rzeszów",
       "public_name": "Radio Centrum Rzeszów",
       "slug": "radiocentrumrzeszow",
@@ -133,7 +134,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 496,
+      "archive_count": 497,
       "display_name": "Radio Index",
       "public_name": "Radio Index",
       "slug": "radioindex",
@@ -245,7 +246,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 535,
+      "archive_count": 537,
       "display_name": "Radio UWM FM",
       "public_name": "Radio UWM FM",
       "slug": "radiouwmfm",
@@ -280,7 +281,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 521,
+      "archive_count": 522,
       "display_name": "Radio Żak",
       "public_name": "Radio Żak",
       "slug": "radiozak",
