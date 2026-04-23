@@ -186,11 +186,11 @@
       "year": 2026
     },
     {
-      "archive_status": null,
-      "completeness_ratio": null,
+      "archive_status": "ready",
+      "completeness_ratio": 1.0,
       "day": 23,
       "hour": 7,
-      "hourly_archive_id": null,
+      "hourly_archive_id": 26187,
       "local_date_label": "23.04.2026",
       "local_hour_label": "07:00",
       "local_label": "2026-04-23 07:00 czasu polskiego",
@@ -198,8 +198,8 @@
       "local_timezone_label": "czasu polskiego",
       "month": 4,
       "playable": false,
-      "state": "recorded",
-      "status_label": "Nagranie czeka na złożenie",
+      "state": "publishing",
+      "status_label": "Czeka w kolejce do publikacji",
       "utc_label": "2026-04-23 05:00 UTC",
       "utc_started_at": "2026-04-23T05:00:00+00:00",
       "year": 2026
@@ -210,7 +210,7 @@
   "month": 4,
   "published_at": "2026-04-23T06:00:27.124484+00:00",
   "station": {
-    "archive_count": 544,
+    "archive_count": 543,
     "display_name": "Radio Łódź",
     "public_name": "Radio Łódź",
     "slug": "radiolodz",
