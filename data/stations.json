@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-23T11:50:17.849863+00:00",
+  "generated_at": "2026-04-23T11:53:18.466877+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-04-23T10:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -14,7 +14,7 @@
     "Radio Białystok"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-23T11:50:17.849863+00:00",
+  "published_at": "2026-04-23T11:53:18.466877+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -173,21 +173,21 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 562,
+      "archive_count": 563,
       "display_name": "Radio Kraków",
       "public_name": "Radio Kraków",
       "slug": "radiokrakow",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 562,
+      "archive_count": 563,
       "display_name": "Radio Lublin",
       "public_name": "Radio Lublin",
       "slug": "radiolublin",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 560,
+      "archive_count": 561,
       "display_name": "Radio Luz",
       "public_name": "Radio Luz",
       "slug": "radioluz",
@@ -278,7 +278,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 559,
+      "archive_count": 560,
       "display_name": "Radio Łódź",
       "public_name": "Radio Łódź",
       "slug": "radiolodz",
