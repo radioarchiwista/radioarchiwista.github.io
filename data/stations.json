@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-23T21:19:34.391941+00:00",
+  "generated_at": "2026-04-23T21:32:36.812842+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-04-23T20:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -11,7 +11,7 @@
     "Polskie Radio 24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-23T21:19:34.391941+00:00",
+  "published_at": "2026-04-23T21:32:36.812842+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -30,7 +30,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4441,
+      "archive_count": 4443,
       "display_name": "Program 3",
       "public_name": "Polskie Radio Program 3",
       "slug": "pr3",
@@ -58,14 +58,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 572,
+      "archive_count": 573,
       "display_name": "TOK FM",
       "public_name": "TOK FM",
       "slug": "tokfm",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 584,
+      "archive_count": 585,
       "display_name": "Radio Wnet",
       "public_name": "Radio Wnet",
       "slug": "wnet",
@@ -93,7 +93,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 574,
+      "archive_count": 575,
       "display_name": "Radio Białystok",
       "public_name": "Radio Białystok",
       "slug": "radiobialystok",
@@ -107,7 +107,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 575,
+      "archive_count": 576,
       "display_name": "Radio Centrum Rzeszów",
       "public_name": "Radio Centrum Rzeszów",
       "slug": "radiocentrumrzeszow",
@@ -198,14 +198,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 577,
+      "archive_count": 578,
       "display_name": "Radio Olsztyn",
       "public_name": "Radio Olsztyn",
       "slug": "radioolsztyn",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 478,
+      "archive_count": 479,
       "display_name": "Radio Opole",
       "public_name": "Radio Opole",
       "slug": "radioopole",
