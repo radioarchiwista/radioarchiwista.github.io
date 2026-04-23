@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-23T18:02:21.665165+00:00",
+  "generated_at": "2026-04-23T18:11:40.268095+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-04-23T16:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -9,6 +9,7 @@
     "Program 2",
     "Polskie Radio 24",
     "Radio 357",
+    "TOK FM",
     "Radio Afera",
     "Radio Akadera",
     "Radio Białystok",
@@ -20,7 +21,7 @@
     "Radio Zielona Góra"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-23T18:02:21.665165+00:00",
+  "published_at": "2026-04-23T18:11:40.268095+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -60,28 +61,28 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 576,
+      "archive_count": 577,
       "display_name": "Radio Nowy Świat",
       "public_name": "Radio Nowy Świat",
       "slug": "rns",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 564,
+      "archive_count": 565,
       "display_name": "TOK FM",
       "public_name": "TOK FM",
       "slug": "tokfm",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 576,
+      "archive_count": 577,
       "display_name": "Radio Wnet",
       "public_name": "Radio Wnet",
       "slug": "wnet",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 572,
+      "archive_count": 573,
       "display_name": "Radio Republika",
       "public_name": "Radio Republika",
       "slug": "republika",
@@ -123,7 +124,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 561,
+      "archive_count": 562,
       "display_name": "Radio Dla Ciebie",
       "public_name": "Radio Dla Ciebie",
       "slug": "rdc",
@@ -137,7 +138,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 563,
+      "archive_count": 564,
       "display_name": "Radio Gorzów",
       "public_name": "Radio Gorzów",
       "slug": "radiogorzow",
@@ -221,7 +222,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 523,
+      "archive_count": 525,
       "display_name": "Radio PiK",
       "public_name": "Radio PiK",
       "slug": "radiopik",
