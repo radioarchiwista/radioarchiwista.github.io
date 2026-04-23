@@ -1,46 +1,42 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-23T01:08:08.312603+00:00",
+  "generated_at": "2026-04-23T01:24:59.405453+00:00",
   "latest_archive_hour_expected_station_count": 39,
-  "latest_archive_hour_started_at": "2026-04-22T23:00:00+00:00",
+  "latest_archive_hour_started_at": "2026-04-23T00:00:00+00:00",
   "latest_archive_hour_stations": [
     "Program 1",
     "Program 2",
-    "Polskie Radio 24",
-    "Radio 357",
-    "Radio Afera",
-    "Radio Białystok",
-    "Radio Gorzów"
+    "Polskie Radio 24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-23T01:08:08.312603+00:00",
+  "published_at": "2026-04-23T01:24:59.405453+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
     {
-      "archive_count": 571,
+      "archive_count": 572,
       "display_name": "Program 1",
       "public_name": "Polskie Radio Program 1",
       "slug": "pr1",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 565,
+      "archive_count": 566,
       "display_name": "Program 2",
       "public_name": "Polskie Radio Program 2",
       "slug": "pr2",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3935,
+      "archive_count": 3936,
       "display_name": "Program 3",
       "public_name": "Polskie Radio Program 3",
       "slug": "pr3",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 573,
+      "archive_count": 574,
       "display_name": "Polskie Radio 24",
       "public_name": "Polskie Radio 24",
       "slug": "pr24",
@@ -96,7 +92,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 541,
+      "archive_count": 542,
       "display_name": "Radio Białystok",
       "public_name": "Radio Białystok",
       "slug": "radiobialystok",
@@ -159,7 +155,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 521,
+      "archive_count": 522,
       "display_name": "Radio Kielce",
       "public_name": "Radio Kielce",
       "slug": "radiokielce",
