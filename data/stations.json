@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-24T00:19:00.873334+00:00",
+  "generated_at": "2026-04-24T00:29:28.612753+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-04-23T23:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -11,7 +11,7 @@
     "Polskie Radio 24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-24T00:19:00.873334+00:00",
+  "published_at": "2026-04-24T00:29:28.612753+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -51,7 +51,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 589,
+      "archive_count": 591,
       "display_name": "Radio Nowy Świat",
       "public_name": "Radio Nowy Świat",
       "slug": "rns",
@@ -72,7 +72,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 587,
+      "archive_count": 588,
       "display_name": "Radio Republika",
       "public_name": "Radio Republika",
       "slug": "republika",
@@ -114,7 +114,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 574,
+      "archive_count": 575,
       "display_name": "Radio Dla Ciebie",
       "public_name": "Radio Dla Ciebie",
       "slug": "rdc",
@@ -184,7 +184,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 582,
+      "archive_count": 583,
       "display_name": "Radio Luz",
       "public_name": "Radio Luz",
       "slug": "radioluz",
@@ -205,14 +205,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 479,
+      "archive_count": 480,
       "display_name": "Radio Opole",
       "public_name": "Radio Opole",
       "slug": "radioopole",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 535,
+      "archive_count": 536,
       "display_name": "Radio PiK",
       "public_name": "Radio PiK",
       "slug": "radiopik",
@@ -240,7 +240,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 577,
+      "archive_count": 578,
       "display_name": "Radio Słupsk",
       "public_name": "Radio Słupsk",
       "slug": "radioslupsk",
