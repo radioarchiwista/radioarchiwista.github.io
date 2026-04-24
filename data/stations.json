@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-24T06:51:48.154517+00:00",
+  "generated_at": "2026-04-24T07:01:10.037767+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-04-24T05:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -22,10 +22,11 @@
     "Radio Katowice",
     "Radio Kielce",
     "Radio Maryja",
+    "Radio Zachód",
     "Radio Zielona Góra"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-24T06:51:48.154517+00:00",
+  "published_at": "2026-04-24T07:01:10.037767+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -44,7 +45,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4759,
+      "archive_count": 4749,
       "display_name": "Program 3",
       "public_name": "Polskie Radio Program 3",
       "slug": "pr3",
@@ -219,7 +220,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 489,
+      "archive_count": 491,
       "display_name": "Radio Opole",
       "public_name": "Radio Opole",
       "slug": "radioopole",
@@ -275,7 +276,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 588,
+      "archive_count": 589,
       "display_name": "Radio Zachód",
       "public_name": "Radio Zachód",
       "slug": "radiozachod",
