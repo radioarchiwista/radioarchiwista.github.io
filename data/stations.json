@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-24T00:57:24.610316+00:00",
+  "generated_at": "2026-04-24T01:03:33.970249+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-04-23T23:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -19,13 +19,14 @@
     "Radio Index",
     "Radio Kielce",
     "Radio Koszalin",
+    "Radio Kraków",
     "Radio Lublin",
     "Radio Luz",
     "Radio Maryja",
     "Radio Łódź"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-24T00:57:24.610316+00:00",
+  "published_at": "2026-04-24T01:03:33.970249+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -44,7 +45,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4568,
+      "archive_count": 4579,
       "display_name": "Program 3",
       "public_name": "Polskie Radio Program 3",
       "slug": "pr3",
@@ -184,7 +185,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 583,
+      "archive_count": 584,
       "display_name": "Radio Kraków",
       "public_name": "Radio Kraków",
       "slug": "radiokrakow",
@@ -226,14 +227,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 536,
+      "archive_count": 537,
       "display_name": "Radio PiK",
       "public_name": "Radio PiK",
       "slug": "radiopik",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 579,
+      "archive_count": 580,
       "display_name": "Radio Poznań",
       "public_name": "Radio Poznań",
       "slug": "radiopoznan",
