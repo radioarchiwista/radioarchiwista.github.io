@@ -1,17 +1,21 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-24T01:20:22.923990+00:00",
+  "generated_at": "2026-04-24T01:38:52.629200+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-04-24T00:00:00+00:00",
   "latest_archive_hour_stations": [
     "Program 1",
     "Program 2",
     "Program 3",
-    "Polskie Radio 24"
+    "Polskie Radio 24",
+    "Radio 357",
+    "Radio Afera",
+    "Radio Akadera",
+    "Radio Białystok"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-24T01:20:22.923990+00:00",
+  "published_at": "2026-04-24T01:38:52.629200+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -44,7 +48,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 592,
+      "archive_count": 593,
       "display_name": "Radio 357",
       "public_name": "Radio 357",
       "slug": "radio357",
@@ -79,21 +83,21 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 585,
+      "archive_count": 586,
       "display_name": "Radio Afera",
       "public_name": "Radio Afera",
       "slug": "afera",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 583,
+      "archive_count": 584,
       "display_name": "Radio Akadera",
       "public_name": "Radio Akadera",
       "slug": "radioakadera",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 579,
+      "archive_count": 580,
       "display_name": "Radio Białystok",
       "public_name": "Radio Białystok",
       "slug": "radiobialystok",
@@ -156,7 +160,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 557,
+      "archive_count": 558,
       "display_name": "Radio Kielce",
       "public_name": "Radio Kielce",
       "slug": "radiokielce",
@@ -205,7 +209,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 480,
+      "archive_count": 481,
       "display_name": "Radio Opole",
       "public_name": "Radio Opole",
       "slug": "radioopole",
@@ -247,7 +251,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 572,
+      "archive_count": 573,
       "display_name": "Radio UWM FM",
       "public_name": "Radio UWM FM",
       "slug": "radiouwmfm",
