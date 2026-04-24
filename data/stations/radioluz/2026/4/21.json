@@ -25,30 +25,6 @@
       "year": 2026
     },
     {
-      "archive_item_identifier": "radioluz-2026-04-20",
-      "audio_url": "https://archive.org/download/radioluz-2026-04-20/radioluz_2026-04-20T23-00-00Z.mp3",
-      "completeness_ratio": 0.9997,
-      "day": 21,
-      "download_url": "https://archive.org/download/radioluz-2026-04-20/radioluz_2026-04-20T23-00-00Z.mp3",
-      "duration_seconds": 3599.856,
-      "hour": 1,
-      "hourly_archive_id": 22998,
-      "local_date_label": "21.04.2026",
-      "local_hour_label": "01:00",
-      "local_label": "2026-04-21 01:00 czasu polskiego",
-      "local_started_at": "2026-04-21T01:00:00+02:00",
-      "local_timezone_label": "czasu polskiego",
-      "month": 4,
-      "published_at": "2026-04-21T10:02:49.210014+00:00",
-      "published_local_label": "2026-04-21 12:02 czasu polskiego",
-      "remote_filename": "radioluz_2026-04-20T23-00-00Z.mp3",
-      "station_slug": "radioluz",
-      "status": "published",
-      "utc_label": "2026-04-20 23:00 UTC",
-      "utc_started_at": "2026-04-20T23:00:00+00:00",
-      "year": 2026
-    },
-    {
       "archive_item_identifier": "radioluz-2026-04-21",
       "audio_url": "https://archive.org/download/radioluz-2026-04-21/radioluz_2026-04-21T00-00-00Z.mp3",
       "completeness_ratio": 1.0,
@@ -600,7 +576,7 @@
       "year": 2026
     },
     {
-      "archive_status": "published",
+      "archive_status": "error",
       "completeness_ratio": 0.9997,
       "day": 21,
       "hour": 1,
@@ -611,9 +587,9 @@
       "local_started_at": "2026-04-21T01:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 4,
-      "playable": true,
-      "state": "available",
-      "status_label": null,
+      "playable": false,
+      "state": "failed",
+      "status_label": "Nie udało się przygotować nagrania",
       "utc_label": "2026-04-20 23:00 UTC",
       "utc_started_at": "2026-04-20T23:00:00+00:00",
       "year": 2026
@@ -1042,7 +1018,7 @@
   "month": 4,
   "published_at": "2026-04-23T23:59:21.784778+00:00",
   "station": {
-    "archive_count": 583,
+    "archive_count": 582,
     "display_name": "Radio Luz",
     "public_name": "Radio Luz",
     "slug": "radioluz",
