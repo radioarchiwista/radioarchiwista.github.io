@@ -1,8 +1,8 @@
 {
-  "archive_count": 26064,
+  "archive_count": 26078,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-24T00:00:46.004674+00:00",
+  "generated_at": "2026-04-24T00:11:33.070819+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-04-23T22:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -19,10 +19,15 @@
     "Radio Gorzów",
     "Radio Index",
     "Radio Kielce",
-    "Radio Koszalin"
+    "Radio Koszalin",
+    "Radio Kraków",
+    "Radio Lublin",
+    "Radio Luz",
+    "Radio Maryja",
+    "Radio Łódź"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-24T00:00:46.004674+00:00",
+  "published_at": "2026-04-24T00:11:33.070819+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
