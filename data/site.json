@@ -1,8 +1,8 @@
 {
-  "archive_count": 26493,
+  "archive_count": 26525,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-24T02:57:57.608351+00:00",
+  "generated_at": "2026-04-24T03:08:49.196295+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-04-24T01:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -20,10 +20,11 @@
     "Radio Gorzów",
     "Radio Index",
     "Radio Katowice",
+    "Radio Kielce",
     "Radio Maryja"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-24T02:57:57.608351+00:00",
+  "published_at": "2026-04-24T03:08:49.196295+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
