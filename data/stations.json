@@ -1,17 +1,23 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-24T09:23:05.724335+00:00",
+  "generated_at": "2026-04-24T09:39:39.568406+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-04-24T08:00:00+00:00",
   "latest_archive_hour_stations": [
     "Program 1",
     "Program 2",
     "Program 3",
-    "Polskie Radio 24"
+    "Polskie Radio 24",
+    "Radio 357",
+    "Radio Afera",
+    "Radio Akadera",
+    "Radio Białystok",
+    "Radio Centrum Lublin",
+    "Radio Centrum Rzeszów"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-24T09:23:05.724335+00:00",
+  "published_at": "2026-04-24T09:39:39.568406+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -44,7 +50,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 601,
+      "archive_count": 602,
       "display_name": "Radio 357",
       "public_name": "Radio 357",
       "slug": "radio357",
@@ -79,35 +85,35 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 593,
+      "archive_count": 594,
       "display_name": "Radio Afera",
       "public_name": "Radio Afera",
       "slug": "afera",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 592,
+      "archive_count": 593,
       "display_name": "Radio Akadera",
       "public_name": "Radio Akadera",
       "slug": "radioakadera",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 588,
+      "archive_count": 589,
       "display_name": "Radio Białystok",
       "public_name": "Radio Białystok",
       "slug": "radiobialystok",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 592,
+      "archive_count": 593,
       "display_name": "Radio Centrum Lublin",
       "public_name": "Radio Centrum Lublin",
       "slug": "radiocentrumlublin",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 590,
+      "archive_count": 591,
       "display_name": "Radio Centrum Rzeszów",
       "public_name": "Radio Centrum Rzeszów",
       "slug": "radiocentrumrzeszow",
