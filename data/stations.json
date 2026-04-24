@@ -1,16 +1,17 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-24T07:21:15.659486+00:00",
+  "generated_at": "2026-04-24T07:21:14.515057+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-04-24T06:00:00+00:00",
   "latest_archive_hour_stations": [
     "Program 1",
     "Program 2",
+    "Program 3",
     "Polskie Radio 24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-24T07:21:15.659486+00:00",
+  "published_at": "2026-04-24T07:21:14.515057+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -22,21 +23,21 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 596,
+      "archive_count": 597,
       "display_name": "Program 2",
       "public_name": "Polskie Radio Program 2",
       "slug": "pr2",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4759,
+      "archive_count": 4752,
       "display_name": "Program 3",
       "public_name": "Polskie Radio Program 3",
       "slug": "pr3",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 603,
+      "archive_count": 604,
       "display_name": "Polskie Radio 24",
       "public_name": "Polskie Radio 24",
       "slug": "pr24",
@@ -106,7 +107,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 587,
+      "archive_count": 588,
       "display_name": "Radio Centrum Rzeszów",
       "public_name": "Radio Centrum Rzeszów",
       "slug": "radiocentrumrzeszow",
@@ -148,7 +149,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 593,
+      "archive_count": 592,
       "display_name": "Radio Katowice",
       "public_name": "Radio Katowice",
       "slug": "radiokatowice",
@@ -211,7 +212,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 544,
+      "archive_count": 543,
       "display_name": "Radio PiK",
       "public_name": "Radio PiK",
       "slug": "radiopik",
@@ -274,7 +275,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 590,
+      "archive_count": 589,
       "display_name": "Radio Łódź",
       "public_name": "Radio Łódź",
       "slug": "radiolodz",
