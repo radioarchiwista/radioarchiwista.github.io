@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-24T04:49:34.300751+00:00",
+  "generated_at": "2026-04-24T04:49:28.865104+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-04-24T03:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -10,6 +10,7 @@
     "Program 3",
     "Polskie Radio 24",
     "Radio 357",
+    "TOK FM",
     "Radio Afera",
     "Radio Akadera",
     "Radio Białystok",
@@ -25,7 +26,7 @@
     "Radio Zielona Góra"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-24T04:49:34.300751+00:00",
+  "published_at": "2026-04-24T04:49:28.865104+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -44,7 +45,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4757,
+      "archive_count": 4747,
       "display_name": "Program 3",
       "public_name": "Polskie Radio Program 3",
       "slug": "pr3",
@@ -65,28 +66,28 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 600,
+      "archive_count": 601,
       "display_name": "Radio Nowy Świat",
       "public_name": "Radio Nowy Świat",
       "slug": "rns",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 589,
+      "archive_count": 590,
       "display_name": "TOK FM",
       "public_name": "TOK FM",
       "slug": "tokfm",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 602,
+      "archive_count": 603,
       "display_name": "Radio Wnet",
       "public_name": "Radio Wnet",
       "slug": "wnet",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 601,
+      "archive_count": 602,
       "display_name": "Radio Republika",
       "public_name": "Radio Republika",
       "slug": "republika",
@@ -219,7 +220,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 488,
+      "archive_count": 485,
       "display_name": "Radio Opole",
       "public_name": "Radio Opole",
       "slug": "radioopole",
@@ -247,7 +248,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 586,
+      "archive_count": 587,
       "display_name": "Radio Szczecin",
       "public_name": "Radio Szczecin",
       "slug": "radioszczecin",
