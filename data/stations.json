@@ -1,15 +1,16 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-25T17:21:02.132422+00:00",
+  "generated_at": "2026-04-25T17:28:33.995944+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-04-25T16:00:00+00:00",
   "latest_archive_hour_stations": [
     "Program 3",
-    "Polskie Radio 24"
+    "Polskie Radio 24",
+    "Radio 357"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-25T17:21:02.132422+00:00",
+  "published_at": "2026-04-25T17:28:33.995944+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -42,7 +43,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 632,
+      "archive_count": 633,
       "display_name": "Radio 357",
       "public_name": "Radio 357",
       "slug": "radio357",
@@ -161,14 +162,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 622,
+      "archive_count": 623,
       "display_name": "Radio Koszalin",
       "public_name": "Radio Koszalin",
       "slug": "radiokoszalin",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 621,
+      "archive_count": 622,
       "display_name": "Radio Kraków",
       "public_name": "Radio Kraków",
       "slug": "radiokrakow",
@@ -203,7 +204,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 525,
+      "archive_count": 524,
       "display_name": "Radio Opole",
       "public_name": "Radio Opole",
       "slug": "radioopole",
