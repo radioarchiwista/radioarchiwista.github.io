@@ -1,13 +1,14 @@
 {
-  "archive_count": 27566,
+  "archive_count": 27568,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-25T06:37:31.616482+00:00",
+  "generated_at": "2026-04-25T06:40:01.547496+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-04-25T05:00:00+00:00",
   "latest_archive_hour_stations": [
     "Polskie Radio 24",
     "Radio 357",
+    "TOK FM",
     "Radio Afera",
     "Radio Białystok",
     "Radio Centrum Rzeszów",
@@ -24,7 +25,7 @@
     "Radio Zielona Góra"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-25T06:37:31.616482+00:00",
+  "published_at": "2026-04-25T06:40:01.547496+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
