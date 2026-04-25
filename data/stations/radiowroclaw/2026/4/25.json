@@ -527,10 +527,34 @@
       "utc_label": "2026-04-25 19:00 UTC",
       "utc_started_at": "2026-04-25T19:00:00+00:00",
       "year": 2026
+    },
+    {
+      "archive_item_identifier": "radiowroclaw-2026-04-25",
+      "audio_url": "https://archive.org/download/radiowroclaw-2026-04-25/radiowroclaw_2026-04-25T20-00-00Z.mp3",
+      "completeness_ratio": 1.0,
+      "day": 25,
+      "download_url": "https://archive.org/download/radiowroclaw-2026-04-25/radiowroclaw_2026-04-25T20-00-00Z.mp3",
+      "duration_seconds": 3599.987,
+      "hour": 22,
+      "hourly_archive_id": 28757,
+      "local_date_label": "25.04.2026",
+      "local_hour_label": "22:00",
+      "local_label": "2026-04-25 22:00 czasu polskiego",
+      "local_started_at": "2026-04-25T22:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 4,
+      "published_at": "2026-04-25T22:33:19.327911+00:00",
+      "published_local_label": "2026-04-26 00:33 czasu polskiego",
+      "remote_filename": "radiowroclaw_2026-04-25T20-00-00Z.mp3",
+      "station_slug": "radiowroclaw",
+      "status": "published",
+      "utc_label": "2026-04-25 20:00 UTC",
+      "utc_started_at": "2026-04-25T20:00:00+00:00",
+      "year": 2026
     }
   ],
   "day": 25,
-  "generated_at": "2026-04-25T21:33:50.768338+00:00",
+  "generated_at": "2026-04-25T22:33:19.327911+00:00",
   "hour_slots": [
     {
       "archive_status": "published",
@@ -951,7 +975,7 @@
       "year": 2026
     },
     {
-      "archive_status": "ready",
+      "archive_status": "published",
       "completeness_ratio": 1.0,
       "day": 25,
       "hour": 22,
@@ -962,9 +986,9 @@
       "local_started_at": "2026-04-25T22:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 4,
-      "playable": false,
-      "state": "publishing",
-      "status_label": "Czeka w kolejce do publikacji",
+      "playable": true,
+      "state": "available",
+      "status_label": null,
       "utc_label": "2026-04-25 20:00 UTC",
       "utc_started_at": "2026-04-25T20:00:00+00:00",
       "year": 2026
@@ -990,11 +1014,11 @@
     }
   ],
   "latest_archive_hour_expected_station_count": 0,
-  "latest_archive_hour_started_at": "2026-04-25T19:00:00+00:00",
+  "latest_archive_hour_started_at": "2026-04-25T20:00:00+00:00",
   "month": 4,
-  "published_at": "2026-04-25T21:33:50.768338+00:00",
+  "published_at": "2026-04-25T22:33:19.327911+00:00",
   "station": {
-    "archive_count": 629,
+    "archive_count": 630,
     "display_name": "Radio Wrocław",
     "public_name": "Radio Wrocław",
     "slug": "radiowroclaw",
