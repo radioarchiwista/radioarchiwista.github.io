@@ -1,8 +1,8 @@
 {
-  "archive_count": 27654,
+  "archive_count": 27658,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-25T09:47:16.357900+00:00",
+  "generated_at": "2026-04-25T09:49:58.858619+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-04-25T08:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -18,10 +18,14 @@
     "Radio Gdańsk",
     "Radio Gorzów",
     "Radio Index",
-    "Radio Katowice"
+    "Radio Katowice",
+    "Radio Kielce",
+    "Radio Koszalin",
+    "Radio Opole",
+    "Radio PiK"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-25T09:47:16.357900+00:00",
+  "published_at": "2026-04-25T09:49:58.858619+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"

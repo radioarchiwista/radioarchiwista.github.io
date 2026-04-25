@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-25T09:47:16.357900+00:00",
+  "generated_at": "2026-04-25T09:49:58.858619+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-04-25T08:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -17,10 +17,14 @@
     "Radio Gdańsk",
     "Radio Gorzów",
     "Radio Index",
-    "Radio Katowice"
+    "Radio Katowice",
+    "Radio Kielce",
+    "Radio Koszalin",
+    "Radio Opole",
+    "Radio PiK"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-25T09:47:16.357900+00:00",
+  "published_at": "2026-04-25T09:49:58.858619+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -165,14 +169,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 592,
+      "archive_count": 593,
       "display_name": "Radio Kielce",
       "public_name": "Radio Kielce",
       "slug": "radiokielce",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 615,
+      "archive_count": 616,
       "display_name": "Radio Koszalin",
       "public_name": "Radio Koszalin",
       "slug": "radiokoszalin",
@@ -214,14 +218,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 518,
+      "archive_count": 519,
       "display_name": "Radio Opole",
       "public_name": "Radio Opole",
       "slug": "radioopole",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 570,
+      "archive_count": 571,
       "display_name": "Radio PiK",
       "public_name": "Radio PiK",
       "slug": "radiopik",
