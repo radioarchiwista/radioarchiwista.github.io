@@ -1,26 +1,15 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-25T18:15:02.957528+00:00",
+  "generated_at": "2026-04-25T18:20:09.472805+00:00",
   "latest_archive_hour_expected_station_count": 39,
-  "latest_archive_hour_started_at": "2026-04-25T16:00:00+00:00",
+  "latest_archive_hour_started_at": "2026-04-25T17:00:00+00:00",
   "latest_archive_hour_stations": [
-    "Program 3",
-    "Polskie Radio 24",
-    "Radio 357",
-    "TOK FM",
-    "Radio Afera",
-    "Radio Akadera",
-    "Radio Białystok",
-    "Radio Gorzów",
-    "Radio Kielce",
-    "Radio Maryja",
-    "Radio Opole",
-    "Radio Zachód",
-    "Radio Zielona Góra"
+    "Program 2",
+    "Polskie Radio 24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-25T18:15:02.957528+00:00",
+  "published_at": "2026-04-25T18:20:09.472805+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -32,14 +21,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 621,
+      "archive_count": 622,
       "display_name": "Program 2",
       "public_name": "Polskie Radio Program 2",
       "slug": "pr2",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4817,
+      "archive_count": 4809,
       "display_name": "Program 3",
       "public_name": "Polskie Radio Program 3",
       "slug": "pr3",
@@ -109,7 +98,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 621,
+      "archive_count": 622,
       "display_name": "Radio Centrum Lublin",
       "public_name": "Radio Centrum Lublin",
       "slug": "radiocentrumlublin",
@@ -144,7 +133,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 568,
+      "archive_count": 569,
       "display_name": "Radio Index",
       "public_name": "Radio Index",
       "slug": "radioindex",
@@ -158,7 +147,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 626,
+      "archive_count": 627,
       "display_name": "Radio Katowice",
       "public_name": "Radio Katowice",
       "slug": "radiokatowice",
