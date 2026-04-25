@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-25T21:42:20.908014+00:00",
+  "generated_at": "2026-04-25T21:52:04.817890+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-04-25T20:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -12,14 +12,18 @@
     "Radio 357",
     "Radio Afera",
     "Radio Akadera",
+    "Radio Białystok",
     "Radio Centrum Lublin",
     "Radio Centrum Rzeszów",
     "Radio Gdańsk",
     "Radio Gorzów",
-    "Radio Index"
+    "Radio Index",
+    "Radio Katowice",
+    "Radio Kielce",
+    "Radio Kraków"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-25T21:42:20.908014+00:00",
+  "published_at": "2026-04-25T21:52:04.817890+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -38,7 +42,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4830,
+      "archive_count": 4821,
       "display_name": "Program 3",
       "public_name": "Polskie Radio Program 3",
       "slug": "pr3",
@@ -101,7 +105,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 624,
+      "archive_count": 625,
       "display_name": "Radio Białystok",
       "public_name": "Radio Białystok",
       "slug": "radiobialystok",
@@ -157,14 +161,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 631,
+      "archive_count": 632,
       "display_name": "Radio Katowice",
       "public_name": "Radio Katowice",
       "slug": "radiokatowice",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 605,
+      "archive_count": 606,
       "display_name": "Radio Kielce",
       "public_name": "Radio Kielce",
       "slug": "radiokielce",
@@ -178,7 +182,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 629,
+      "archive_count": 630,
       "display_name": "Radio Kraków",
       "public_name": "Radio Kraków",
       "slug": "radiokrakow",
