@@ -1,30 +1,15 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-25T06:40:01.547496+00:00",
+  "generated_at": "2026-04-25T07:15:58.961057+00:00",
   "latest_archive_hour_expected_station_count": 39,
-  "latest_archive_hour_started_at": "2026-04-25T05:00:00+00:00",
+  "latest_archive_hour_started_at": "2026-04-25T06:00:00+00:00",
   "latest_archive_hour_stations": [
-    "Polskie Radio 24",
-    "Radio 357",
-    "TOK FM",
-    "Radio Afera",
-    "Radio Białystok",
-    "Radio Centrum Rzeszów",
-    "Radio Gdańsk",
-    "Radio Gorzów",
-    "Radio Kielce",
-    "Radio Koszalin",
-    "Radio Luz",
-    "Radio Maryja",
-    "Radio Szczecin",
-    "Radio Słupsk",
-    "Radio Wrocław",
-    "Radio Zachód",
-    "Radio Zielona Góra"
+    "Program 3",
+    "Polskie Radio 24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-25T06:40:01.547496+00:00",
+  "published_at": "2026-04-25T07:15:58.961057+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -43,14 +28,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4779,
+      "archive_count": 4780,
       "display_name": "Program 3",
       "public_name": "Polskie Radio Program 3",
       "slug": "pr3",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 627,
+      "archive_count": 628,
       "display_name": "Polskie Radio 24",
       "public_name": "Polskie Radio 24",
       "slug": "pr24",
