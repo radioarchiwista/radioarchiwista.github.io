@@ -239,10 +239,34 @@
       "utc_label": "2026-04-25 08:00 UTC",
       "utc_started_at": "2026-04-25T08:00:00+00:00",
       "year": 2026
+    },
+    {
+      "archive_item_identifier": "radioolsztyn-2026-04-25",
+      "audio_url": "https://archive.org/download/radioolsztyn-2026-04-25/radioolsztyn_2026-04-25T09-00-00Z.mp3",
+      "completeness_ratio": 1.0,
+      "day": 25,
+      "download_url": "https://archive.org/download/radioolsztyn-2026-04-25/radioolsztyn_2026-04-25T09-00-00Z.mp3",
+      "duration_seconds": 3599.804,
+      "hour": 11,
+      "hourly_archive_id": 28195,
+      "local_date_label": "25.04.2026",
+      "local_hour_label": "11:00",
+      "local_label": "2026-04-25 11:00 czasu polskiego",
+      "local_started_at": "2026-04-25T11:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 4,
+      "published_at": "2026-04-25T10:51:15.922457+00:00",
+      "published_local_label": "2026-04-25 12:51 czasu polskiego",
+      "remote_filename": "radioolsztyn_2026-04-25T09-00-00Z.mp3",
+      "station_slug": "radioolsztyn",
+      "status": "published",
+      "utc_label": "2026-04-25 09:00 UTC",
+      "utc_started_at": "2026-04-25T09:00:00+00:00",
+      "year": 2026
     }
   ],
   "day": 25,
-  "generated_at": "2026-04-25T10:01:59.344220+00:00",
+  "generated_at": "2026-04-25T10:51:15.922457+00:00",
   "hour_slots": [
     {
       "archive_status": "published",
@@ -283,7 +307,7 @@
       "year": 2026
     },
     {
-      "archive_status": "error",
+      "archive_status": "ready",
       "completeness_ratio": 1.0,
       "day": 25,
       "hour": 2,
@@ -295,8 +319,8 @@
       "local_timezone_label": "czasu polskiego",
       "month": 4,
       "playable": false,
-      "state": "failed",
-      "status_label": "Nie udało się przygotować nagrania",
+      "state": "publishing",
+      "status_label": "Czeka w kolejce do publikacji",
       "utc_label": "2026-04-25 00:00 UTC",
       "utc_started_at": "2026-04-25T00:00:00+00:00",
       "year": 2026
@@ -454,7 +478,7 @@
       "year": 2026
     },
     {
-      "archive_status": "ready",
+      "archive_status": "published",
       "completeness_ratio": 1.0,
       "day": 25,
       "hour": 11,
@@ -465,20 +489,20 @@
       "local_started_at": "2026-04-25T11:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 4,
-      "playable": false,
-      "state": "publishing",
-      "status_label": "Czeka w kolejce do publikacji",
+      "playable": true,
+      "state": "available",
+      "status_label": null,
       "utc_label": "2026-04-25 09:00 UTC",
       "utc_started_at": "2026-04-25T09:00:00+00:00",
       "year": 2026
     }
   ],
   "latest_archive_hour_expected_station_count": 0,
-  "latest_archive_hour_started_at": "2026-04-25T08:00:00+00:00",
+  "latest_archive_hour_started_at": "2026-04-24T23:00:00+00:00",
   "month": 4,
-  "published_at": "2026-04-25T10:01:59.344220+00:00",
+  "published_at": "2026-04-25T10:51:15.922457+00:00",
   "station": {
-    "archive_count": 617,
+    "archive_count": 618,
     "display_name": "Radio Olsztyn",
     "public_name": "Radio Olsztyn",
     "slug": "radioolsztyn",
