@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-25T01:39:17.158778+00:00",
+  "generated_at": "2026-04-25T01:50:21.137276+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-04-25T00:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -11,10 +11,15 @@
     "Polskie Radio 24",
     "Radio 357",
     "Radio Afera",
-    "Radio Akadera"
+    "Radio Akadera",
+    "Radio Białystok",
+    "Radio Centrum Lublin",
+    "Radio Centrum Rzeszów",
+    "Radio Gdańsk",
+    "Radio Gorzów"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-25T01:39:17.158778+00:00",
+  "published_at": "2026-04-25T01:50:21.137276+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -96,21 +101,21 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 604,
+      "archive_count": 605,
       "display_name": "Radio Białystok",
       "public_name": "Radio Białystok",
       "slug": "radiobialystok",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 609,
+      "archive_count": 610,
       "display_name": "Radio Centrum Lublin",
       "public_name": "Radio Centrum Lublin",
       "slug": "radiocentrumlublin",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 606,
+      "archive_count": 607,
       "display_name": "Radio Centrum Rzeszów",
       "public_name": "Radio Centrum Rzeszów",
       "slug": "radiocentrumrzeszow",
@@ -124,14 +129,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 609,
+      "archive_count": 610,
       "display_name": "Radio Gdańsk",
       "public_name": "Radio Gdańsk",
       "slug": "radiogdansk",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 609,
+      "archive_count": 610,
       "display_name": "Radio Gorzów",
       "public_name": "Radio Gorzów",
       "slug": "radiogorzow",
@@ -243,7 +248,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 607,
+      "archive_count": 608,
       "display_name": "Radio Słupsk",
       "public_name": "Radio Słupsk",
       "slug": "radioslupsk",
