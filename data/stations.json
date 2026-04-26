@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-26T00:36:39.862296+00:00",
+  "generated_at": "2026-04-26T00:44:22.594916+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-04-25T23:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -13,10 +13,14 @@
     "Radio Afera",
     "Radio Akadera",
     "Radio Białystok",
-    "Radio Centrum Lublin"
+    "Radio Centrum Lublin",
+    "Radio Centrum Rzeszów",
+    "Radio Gdańsk",
+    "Radio Gorzów",
+    "Radio Index"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-26T00:36:39.862296+00:00",
+  "published_at": "2026-04-26T00:44:22.594916+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -35,7 +39,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4829,
+      "archive_count": 4849,
       "display_name": "Program 3",
       "public_name": "Polskie Radio Program 3",
       "slug": "pr3",
@@ -112,7 +116,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 629,
+      "archive_count": 630,
       "display_name": "Radio Centrum Rzeszów",
       "public_name": "Radio Centrum Rzeszów",
       "slug": "radiocentrumrzeszow",
@@ -126,21 +130,21 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 632,
+      "archive_count": 633,
       "display_name": "Radio Gdańsk",
       "public_name": "Radio Gdańsk",
       "slug": "radiogdansk",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 632,
+      "archive_count": 633,
       "display_name": "Radio Gorzów",
       "public_name": "Radio Gorzów",
       "slug": "radiogorzow",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 576,
+      "archive_count": 577,
       "display_name": "Radio Index",
       "public_name": "Radio Index",
       "slug": "radioindex",
