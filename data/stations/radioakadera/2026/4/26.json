@@ -503,10 +503,34 @@
       "utc_label": "2026-04-26 18:00 UTC",
       "utc_started_at": "2026-04-26T18:00:00+00:00",
       "year": 2026
+    },
+    {
+      "archive_item_identifier": "radioakadera-2026-04-26",
+      "audio_url": "https://archive.org/download/radioakadera-2026-04-26/radioakadera_2026-04-26T19-00-00Z.mp3",
+      "completeness_ratio": 1.0,
+      "day": 26,
+      "download_url": "https://archive.org/download/radioakadera-2026-04-26/radioakadera_2026-04-26T19-00-00Z.mp3",
+      "duration_seconds": 3600.065,
+      "hour": 21,
+      "hourly_archive_id": 30181,
+      "local_date_label": "26.04.2026",
+      "local_hour_label": "21:00",
+      "local_label": "2026-04-26 21:00 czasu polskiego",
+      "local_started_at": "2026-04-26T21:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 4,
+      "published_at": "2026-04-26T20:44:12.419349+00:00",
+      "published_local_label": "2026-04-26 22:44 czasu polskiego",
+      "remote_filename": "radioakadera_2026-04-26T19-00-00Z.mp3",
+      "station_slug": "radioakadera",
+      "status": "published",
+      "utc_label": "2026-04-26 19:00 UTC",
+      "utc_started_at": "2026-04-26T19:00:00+00:00",
+      "year": 2026
     }
   ],
   "day": 26,
-  "generated_at": "2026-04-26T19:39:24.083301+00:00",
+  "generated_at": "2026-04-26T20:44:12.419349+00:00",
   "hour_slots": [
     {
       "archive_status": "published",
@@ -908,7 +932,7 @@
       "year": 2026
     },
     {
-      "archive_status": "ready",
+      "archive_status": "published",
       "completeness_ratio": 1.0,
       "day": 26,
       "hour": 21,
@@ -919,20 +943,20 @@
       "local_started_at": "2026-04-26T21:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 4,
-      "playable": false,
-      "state": "publishing",
-      "status_label": "Czeka w kolejce do publikacji",
+      "playable": true,
+      "state": "available",
+      "status_label": null,
       "utc_label": "2026-04-26 19:00 UTC",
       "utc_started_at": "2026-04-26T19:00:00+00:00",
       "year": 2026
     }
   ],
   "latest_archive_hour_expected_station_count": 0,
-  "latest_archive_hour_started_at": "2026-04-26T18:00:00+00:00",
+  "latest_archive_hour_started_at": "2026-04-26T19:00:00+00:00",
   "month": 4,
-  "published_at": "2026-04-26T19:39:24.083301+00:00",
+  "published_at": "2026-04-26T20:44:12.419349+00:00",
   "station": {
-    "archive_count": 649,
+    "archive_count": 650,
     "display_name": "Radio Akadera",
     "public_name": "Radio Akadera",
     "slug": "radioakadera",
