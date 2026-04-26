@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-26T05:10:26.130535+00:00",
+  "generated_at": "2026-04-26T05:10:26.106402+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-04-26T03:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -23,6 +23,7 @@
     "Radio Koszalin",
     "Radio Kraków",
     "Radio Lublin",
+    "Radio Luz",
     "Radio Maryja",
     "Radio Olsztyn",
     "Radio Opole",
@@ -39,7 +40,7 @@
     "Radio Żak"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-26T05:10:26.130535+00:00",
+  "published_at": "2026-04-26T05:10:26.106402+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -58,7 +59,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4867,
+      "archive_count": 4833,
       "display_name": "Program 3",
       "public_name": "Polskie Radio Program 3",
       "slug": "pr3",
@@ -79,7 +80,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 650,
+      "archive_count": 651,
       "display_name": "Radio Nowy Świat",
       "public_name": "Radio Nowy Świat",
       "slug": "rns",
@@ -100,7 +101,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 651,
+      "archive_count": 652,
       "display_name": "Radio Republika",
       "public_name": "Radio Republika",
       "slug": "republika",
@@ -121,7 +122,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 631,
+      "archive_count": 632,
       "display_name": "Radio Białystok",
       "public_name": "Radio Białystok",
       "slug": "radiobialystok",
@@ -142,7 +143,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 635,
+      "archive_count": 636,
       "display_name": "Radio Dla Ciebie",
       "public_name": "Radio Dla Ciebie",
       "slug": "rdc",
@@ -198,7 +199,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 637,
+      "archive_count": 636,
       "display_name": "Radio Kraków",
       "public_name": "Radio Kraków",
       "slug": "radiokrakow",
@@ -212,7 +213,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 636,
+      "archive_count": 637,
       "display_name": "Radio Luz",
       "public_name": "Radio Luz",
       "slug": "radioluz",
