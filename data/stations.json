@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-26T09:10:35.270852+00:00",
+  "generated_at": "2026-04-26T09:14:45.275163+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-04-26T07:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -31,10 +31,12 @@
     "Radio Rzeszów",
     "Radio Szczecin",
     "Radio Słupsk",
+    "Radio Zachód",
+    "Radio Zielona Góra",
     "Radio Łódź"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-26T09:10:35.270852+00:00",
+  "published_at": "2026-04-26T09:14:45.275163+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -53,7 +55,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4879,
+      "archive_count": 4854,
       "display_name": "Program 3",
       "public_name": "Polskie Radio Program 3",
       "slug": "pr3",
@@ -277,21 +279,21 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 639,
+      "archive_count": 640,
       "display_name": "Radio Wrocław",
       "public_name": "Radio Wrocław",
       "slug": "radiowroclaw",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 639,
+      "archive_count": 640,
       "display_name": "Radio Zachód",
       "public_name": "Radio Zachód",
       "slug": "radiozachod",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 639,
+      "archive_count": 640,
       "display_name": "Radio Zielona Góra",
       "public_name": "Radio Zielona Góra",
       "slug": "radiozielonagora",
@@ -305,7 +307,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 627,
+      "archive_count": 628,
       "display_name": "Radio Żak",
       "public_name": "Radio Żak",
       "slug": "radiozak",
