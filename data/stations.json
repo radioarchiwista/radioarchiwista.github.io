@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-26T04:45:57.160366+00:00",
+  "generated_at": "2026-04-26T04:55:11.856237+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-04-26T03:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -12,6 +12,7 @@
     "Radio 357",
     "Radio Afera",
     "Radio Akadera",
+    "Radio Białystok",
     "Radio Centrum Lublin",
     "Radio Centrum Rzeszów",
     "Radio Gdańsk",
@@ -20,10 +21,13 @@
     "Radio Katowice",
     "Radio Kielce",
     "Radio Koszalin",
-    "Radio Kraków"
+    "Radio Kraków",
+    "Radio Lublin",
+    "Radio Maryja",
+    "Radio Łódź"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-26T04:45:57.160366+00:00",
+  "published_at": "2026-04-26T04:55:11.856237+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -105,7 +109,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 631,
+      "archive_count": 632,
       "display_name": "Radio Białystok",
       "public_name": "Radio Białystok",
       "slug": "radiobialystok",
@@ -189,7 +193,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 636,
+      "archive_count": 637,
       "display_name": "Radio Lublin",
       "public_name": "Radio Lublin",
       "slug": "radiolublin",
@@ -203,7 +207,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 490,
+      "archive_count": 491,
       "display_name": "Radio Maryja",
       "public_name": "Radio Maryja",
       "slug": "radiomaryja",
@@ -287,7 +291,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 636,
+      "archive_count": 637,
       "display_name": "Radio Łódź",
       "public_name": "Radio Łódź",
       "slug": "radiolodz",
