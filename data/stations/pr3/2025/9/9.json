@@ -530,7 +530,7 @@
     }
   ],
   "day": 9,
-  "generated_at": "2026-04-26T16:01:37.186371+00:00",
+  "generated_at": "2026-04-26T16:20:18.349037+00:00",
   "hour_slots": [
     {
       "archive_status": "published",
@@ -780,7 +780,7 @@
       "year": 2025
     },
     {
-      "archive_status": "ready",
+      "archive_status": "error",
       "completeness_ratio": 1.0,
       "day": 9,
       "hour": 13,
@@ -792,14 +792,14 @@
       "local_timezone_label": "czasu polskiego",
       "month": 9,
       "playable": false,
-      "state": "publishing",
-      "status_label": "Czeka w kolejce do publikacji",
+      "state": "failed",
+      "status_label": "Nie udało się przygotować nagrania",
       "utc_label": "2025-09-09 11:00 UTC",
       "utc_started_at": "2025-09-09T11:00:00+00:00",
       "year": 2025
     },
     {
-      "archive_status": "ready",
+      "archive_status": "error",
       "completeness_ratio": 1.0,
       "day": 9,
       "hour": 14,
@@ -811,8 +811,8 @@
       "local_timezone_label": "czasu polskiego",
       "month": 9,
       "playable": false,
-      "state": "publishing",
-      "status_label": "Czeka w kolejce do publikacji",
+      "state": "failed",
+      "status_label": "Nie udało się przygotować nagrania",
       "utc_label": "2025-09-09 12:00 UTC",
       "utc_started_at": "2025-09-09T12:00:00+00:00",
       "year": 2025
@@ -990,11 +990,11 @@
     }
   ],
   "latest_archive_hour_expected_station_count": 0,
-  "latest_archive_hour_started_at": "2026-04-26T14:00:00+00:00",
+  "latest_archive_hour_started_at": "2026-04-26T15:00:00+00:00",
   "month": 9,
-  "published_at": "2026-04-26T16:01:37.186371+00:00",
+  "published_at": "2026-04-26T16:20:18.349037+00:00",
   "station": {
-    "archive_count": 4986,
+    "archive_count": 4987,
     "display_name": "Program 3",
     "public_name": "Polskie Radio Program 3",
     "slug": "pr3",
