@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-26T13:07:23.081385+00:00",
+  "generated_at": "2026-04-26T13:07:23.056854+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-04-26T11:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -28,10 +28,14 @@
     "Radio Olsztyn",
     "Radio PiK",
     "Radio Poznań",
+    "Radio Rzeszów",
+    "Radio Słupsk",
+    "Radio UWM FM",
+    "Radio Wrocław",
     "Radio Łódź"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-26T13:07:23.081385+00:00",
+  "published_at": "2026-04-26T13:07:23.056854+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -50,7 +54,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4931,
+      "archive_count": 4919,
       "display_name": "Program 3",
       "public_name": "Polskie Radio Program 3",
       "slug": "pr3",
@@ -246,7 +250,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 644,
+      "archive_count": 645,
       "display_name": "Radio Rzeszów",
       "public_name": "Radio Rzeszów",
       "slug": "radiorzeszow",
@@ -260,21 +264,21 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 644,
+      "archive_count": 645,
       "display_name": "Radio Słupsk",
       "public_name": "Radio Słupsk",
       "slug": "radioslupsk",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 641,
+      "archive_count": 642,
       "display_name": "Radio UWM FM",
       "public_name": "Radio UWM FM",
       "slug": "radiouwmfm",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 644,
+      "archive_count": 645,
       "display_name": "Radio Wrocław",
       "public_name": "Radio Wrocław",
       "slug": "radiowroclaw",
