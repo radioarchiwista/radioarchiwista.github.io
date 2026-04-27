@@ -71,10 +71,34 @@
       "utc_label": "2026-04-27 00:00 UTC",
       "utc_started_at": "2026-04-27T00:00:00+00:00",
       "year": 2026
+    },
+    {
+      "archive_item_identifier": "radiomaryja-2026-04-27",
+      "audio_url": "https://archive.org/download/radiomaryja-2026-04-27/radiomaryja_2026-04-27T01-00-00Z.mp3",
+      "completeness_ratio": 0.9976,
+      "day": 27,
+      "download_url": "https://archive.org/download/radiomaryja-2026-04-27/radiomaryja_2026-04-27T01-00-00Z.mp3",
+      "duration_seconds": 3596.544,
+      "hour": 3,
+      "hourly_archive_id": 30599,
+      "local_date_label": "27.04.2026",
+      "local_hour_label": "03:00",
+      "local_label": "2026-04-27 03:00 czasu polskiego",
+      "local_started_at": "2026-04-27T03:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 4,
+      "published_at": "2026-04-27T02:50:17.489859+00:00",
+      "published_local_label": "2026-04-27 04:50 czasu polskiego",
+      "remote_filename": "radiomaryja_2026-04-27T01-00-00Z.mp3",
+      "station_slug": "radiomaryja",
+      "status": "published",
+      "utc_label": "2026-04-27 01:00 UTC",
+      "utc_started_at": "2026-04-27T01:00:00+00:00",
+      "year": 2026
     }
   ],
   "day": 27,
-  "generated_at": "2026-04-27T01:57:51.280267+00:00",
+  "generated_at": "2026-04-27T02:50:17.489859+00:00",
   "hour_slots": [
     {
       "archive_status": "published",
@@ -134,7 +158,7 @@
       "year": 2026
     },
     {
-      "archive_status": "ready",
+      "archive_status": "published",
       "completeness_ratio": 0.9976,
       "day": 27,
       "hour": 3,
@@ -145,20 +169,20 @@
       "local_started_at": "2026-04-27T03:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 4,
-      "playable": false,
-      "state": "publishing",
-      "status_label": "Czeka w kolejce do publikacji",
+      "playable": true,
+      "state": "available",
+      "status_label": null,
       "utc_label": "2026-04-27 01:00 UTC",
       "utc_started_at": "2026-04-27T01:00:00+00:00",
       "year": 2026
     }
   ],
   "latest_archive_hour_expected_station_count": 0,
-  "latest_archive_hour_started_at": "2026-04-27T00:00:00+00:00",
+  "latest_archive_hour_started_at": "2026-04-27T01:00:00+00:00",
   "month": 4,
-  "published_at": "2026-04-27T01:57:51.280267+00:00",
+  "published_at": "2026-04-27T02:50:17.489859+00:00",
   "station": {
-    "archive_count": 512,
+    "archive_count": 513,
     "display_name": "Radio Maryja",
     "public_name": "Radio Maryja",
     "slug": "radiomaryja",
