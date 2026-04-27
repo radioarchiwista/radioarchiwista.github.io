@@ -779,7 +779,7 @@
       "year": 2026
     },
     {
-      "archive_status": "error",
+      "archive_status": "ready",
       "completeness_ratio": 0.9999,
       "day": 27,
       "hour": 18,
@@ -791,8 +791,8 @@
       "local_timezone_label": "czasu polskiego",
       "month": 4,
       "playable": false,
-      "state": "failed",
-      "status_label": "Nie udało się przygotować nagrania",
+      "state": "publishing",
+      "status_label": "Czeka w kolejce do publikacji",
       "utc_label": "2026-04-27 16:00 UTC",
       "utc_started_at": "2026-04-27T16:00:00+00:00",
       "year": 2026
