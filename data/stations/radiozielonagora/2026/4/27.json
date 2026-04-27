@@ -822,11 +822,11 @@
       "year": 2026
     },
     {
-      "archive_status": null,
-      "completeness_ratio": null,
+      "archive_status": "ready",
+      "completeness_ratio": 0.9962,
       "day": 27,
       "hour": 19,
-      "hourly_archive_id": null,
+      "hourly_archive_id": 31637,
       "local_date_label": "27.04.2026",
       "local_hour_label": "19:00",
       "local_label": "2026-04-27 19:00 czasu polskiego",
@@ -834,8 +834,8 @@
       "local_timezone_label": "czasu polskiego",
       "month": 4,
       "playable": false,
-      "state": "recorded",
-      "status_label": "Nagranie czeka na złożenie",
+      "state": "publishing",
+      "status_label": "Czeka w kolejce do publikacji",
       "utc_label": "2026-04-27 17:00 UTC",
       "utc_started_at": "2026-04-27T17:00:00+00:00",
       "year": 2026
@@ -846,7 +846,7 @@
   "month": 4,
   "published_at": "2026-04-27T17:55:36.307087+00:00",
   "station": {
-    "archive_count": 674,
+    "archive_count": 673,
     "display_name": "Radio Zielona Góra",
     "public_name": "Radio Zielona Góra",
     "slug": "radiozielonagora",
