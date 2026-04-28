@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-28T20:50:31.873743+00:00",
+  "generated_at": "2026-04-28T21:18:25.084512+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-04-28T19:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -10,7 +10,7 @@
     "Program 3"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-28T20:50:31.873743+00:00",
+  "published_at": "2026-04-28T21:18:25.084512+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -29,14 +29,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 6395,
+      "archive_count": 6399,
       "display_name": "Program 3",
       "public_name": "Polskie Radio Program 3",
       "slug": "pr3",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 711,
+      "archive_count": 710,
       "display_name": "Polskie Radio 24",
       "public_name": "Polskie Radio 24",
       "slug": "pr24",
@@ -92,7 +92,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 692,
+      "archive_count": 691,
       "display_name": "Radio Białystok",
       "public_name": "Radio Białystok",
       "slug": "radiobialystok",
@@ -106,7 +106,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 694,
+      "archive_count": 693,
       "display_name": "Radio Centrum Rzeszów",
       "public_name": "Radio Centrum Rzeszów",
       "slug": "radiocentrumrzeszow",
@@ -204,7 +204,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 597,
+      "archive_count": 598,
       "display_name": "Radio Opole",
       "public_name": "Radio Opole",
       "slug": "radioopole",
@@ -232,14 +232,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 695,
+      "archive_count": 696,
       "display_name": "Radio Szczecin",
       "public_name": "Radio Szczecin",
       "slug": "radioszczecin",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 696,
+      "archive_count": 695,
       "display_name": "Radio Słupsk",
       "public_name": "Radio Słupsk",
       "slug": "radioslupsk",
