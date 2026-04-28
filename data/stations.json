@@ -1,17 +1,16 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-28T23:11:40.918083+00:00",
+  "generated_at": "2026-04-28T21:54:32.294688+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-04-28T20:00:00+00:00",
   "latest_archive_hour_stations": [
     "Program 1",
     "Program 2",
-    "Program 3",
-    "Polskie Radio 24"
+    "Program 3"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-28T23:11:40.918083+00:00",
+  "published_at": "2026-04-28T21:54:32.294688+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -37,7 +36,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 712,
+      "archive_count": 710,
       "display_name": "Polskie Radio 24",
       "public_name": "Polskie Radio 24",
       "slug": "pr24",
@@ -149,7 +148,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 698,
+      "archive_count": 697,
       "display_name": "Radio Katowice",
       "public_name": "Radio Katowice",
       "slug": "radiokatowice",
@@ -205,7 +204,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 596,
+      "archive_count": 595,
       "display_name": "Radio Opole",
       "public_name": "Radio Opole",
       "slug": "radioopole",
@@ -261,7 +260,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 696,
+      "archive_count": 695,
       "display_name": "Radio Zachód",
       "public_name": "Radio Zachód",
       "slug": "radiozachod",
@@ -275,7 +274,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 697,
+      "archive_count": 696,
       "display_name": "Radio Łódź",
       "public_name": "Radio Łódź",
       "slug": "radiolodz",
