@@ -108,6 +108,25 @@
       "utc_label": "2026-04-28 00:00 UTC",
       "utc_started_at": "2026-04-28T00:00:00+00:00",
       "year": 2026
+    },
+    {
+      "archive_status": null,
+      "completeness_ratio": null,
+      "day": 28,
+      "hour": 3,
+      "hourly_archive_id": null,
+      "local_date_label": "28.04.2026",
+      "local_hour_label": "03:00",
+      "local_label": "2026-04-28 03:00 czasu polskiego",
+      "local_started_at": "2026-04-28T03:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 4,
+      "playable": false,
+      "state": "recorded",
+      "status_label": "Nagranie czeka na złożenie",
+      "utc_label": "2026-04-28 01:00 UTC",
+      "utc_started_at": "2026-04-28T01:00:00+00:00",
+      "year": 2026
     }
   ],
   "latest_archive_hour_expected_station_count": 0,
@@ -115,7 +134,7 @@
   "month": 4,
   "published_at": "2026-04-28T00:46:47.386702+00:00",
   "station": {
-    "archive_count": 680,
+    "archive_count": 681,
     "display_name": "Radio Luz",
     "public_name": "Radio Luz",
     "slug": "radioluz",
