@@ -1,17 +1,15 @@
 {
-  "archive_count": 32246,
+  "archive_count": 32248,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-28T21:54:32.294688+00:00",
+  "generated_at": "2026-04-28T23:43:05.957713+00:00",
   "latest_archive_hour_expected_station_count": 39,
-  "latest_archive_hour_started_at": "2026-04-28T20:00:00+00:00",
+  "latest_archive_hour_started_at": "2026-04-28T22:00:00+00:00",
   "latest_archive_hour_stations": [
-    "Program 1",
-    "Program 2",
-    "Program 3"
+    "Polskie Radio 24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-28T21:54:32.294688+00:00",
+  "published_at": "2026-04-28T23:43:05.957713+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
