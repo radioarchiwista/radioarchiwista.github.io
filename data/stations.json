@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-28T01:31:48.205012+00:00",
+  "generated_at": "2026-04-28T01:50:15.632000+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-04-28T00:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -11,7 +11,7 @@
     "Polskie Radio 24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-28T01:31:48.205012+00:00",
+  "published_at": "2026-04-28T01:50:15.632000+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -30,7 +30,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5827,
+      "archive_count": 5831,
       "display_name": "Program 3",
       "public_name": "Polskie Radio Program 3",
       "slug": "pr3",
@@ -184,7 +184,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 681,
+      "archive_count": 680,
       "display_name": "Radio Luz",
       "public_name": "Radio Luz",
       "slug": "radioluz",
@@ -205,7 +205,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 584,
+      "archive_count": 583,
       "display_name": "Radio Opole",
       "public_name": "Radio Opole",
       "slug": "radioopole",
@@ -240,7 +240,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 680,
+      "archive_count": 681,
       "display_name": "Radio Słupsk",
       "public_name": "Radio Słupsk",
       "slug": "radioslupsk",
