@@ -836,11 +836,11 @@
       "year": 2026
     },
     {
-      "archive_status": null,
-      "completeness_ratio": null,
+      "archive_status": "ready",
+      "completeness_ratio": 0.8083,
       "day": 28,
       "hour": 21,
-      "hourly_archive_id": null,
+      "hourly_archive_id": 33223,
       "local_date_label": "28.04.2026",
       "local_hour_label": "21:00",
       "local_label": "2026-04-28 21:00 czasu polskiego",
@@ -848,8 +848,8 @@
       "local_timezone_label": "czasu polskiego",
       "month": 4,
       "playable": false,
-      "state": "recorded",
-      "status_label": "Nagranie czeka na złożenie",
+      "state": "publishing",
+      "status_label": "Czeka w kolejce do publikacji",
       "utc_label": "2026-04-28 19:00 UTC",
       "utc_started_at": "2026-04-28T19:00:00+00:00",
       "year": 2026
@@ -860,7 +860,7 @@
   "month": 4,
   "published_at": "2026-04-28T19:14:05.740912+00:00",
   "station": {
-    "archive_count": 694,
+    "archive_count": 693,
     "display_name": "Radio Centrum Rzeszów",
     "public_name": "Radio Centrum Rzeszów",
     "slug": "radiocentrumrzeszow",
