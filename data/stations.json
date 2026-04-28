@@ -1,26 +1,27 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-28T20:24:05.344994+00:00",
+  "generated_at": "2026-04-28T20:24:05.320050+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-04-28T19:00:00+00:00",
   "latest_archive_hour_stations": [
-    "Polskie Radio 24"
+    "Program 1",
+    "Program 2"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-28T20:24:05.344994+00:00",
+  "published_at": "2026-04-28T20:24:05.320050+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
     {
-      "archive_count": 694,
+      "archive_count": 695,
       "display_name": "Program 1",
       "public_name": "Polskie Radio Program 1",
       "slug": "pr1",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 695,
+      "archive_count": 696,
       "display_name": "Program 2",
       "public_name": "Polskie Radio Program 2",
       "slug": "pr2",
@@ -34,7 +35,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 712,
+      "archive_count": 710,
       "display_name": "Polskie Radio 24",
       "public_name": "Polskie Radio 24",
       "slug": "pr24",
@@ -90,7 +91,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 691,
+      "archive_count": 692,
       "display_name": "Radio Białystok",
       "public_name": "Radio Białystok",
       "slug": "radiobialystok",
@@ -104,7 +105,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 693,
+      "archive_count": 694,
       "display_name": "Radio Centrum Rzeszów",
       "public_name": "Radio Centrum Rzeszów",
       "slug": "radiocentrumrzeszow",
@@ -160,14 +161,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 696,
+      "archive_count": 697,
       "display_name": "Radio Koszalin",
       "public_name": "Radio Koszalin",
       "slug": "radiokoszalin",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 695,
+      "archive_count": 696,
       "display_name": "Radio Kraków",
       "public_name": "Radio Kraków",
       "slug": "radiokrakow",
@@ -202,7 +203,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 598,
+      "archive_count": 599,
       "display_name": "Radio Opole",
       "public_name": "Radio Opole",
       "slug": "radioopole",
