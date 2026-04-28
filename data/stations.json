@@ -1,16 +1,17 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-28T02:20:03.218356+00:00",
+  "generated_at": "2026-04-28T02:37:11.107669+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-04-28T01:00:00+00:00",
   "latest_archive_hour_stations": [
     "Program 1",
     "Program 2",
+    "Program 3",
     "Polskie Radio 24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-28T02:20:03.218356+00:00",
+  "published_at": "2026-04-28T02:37:11.107669+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -29,7 +30,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5831,
+      "archive_count": 5832,
       "display_name": "Program 3",
       "public_name": "Polskie Radio Program 3",
       "slug": "pr3",
@@ -92,7 +93,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 676,
+      "archive_count": 677,
       "display_name": "Radio Białystok",
       "public_name": "Radio Białystok",
       "slug": "radiobialystok",
@@ -155,7 +156,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 657,
+      "archive_count": 658,
       "display_name": "Radio Kielce",
       "public_name": "Radio Kielce",
       "slug": "radiokielce",
@@ -204,7 +205,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 584,
+      "archive_count": 582,
       "display_name": "Radio Opole",
       "public_name": "Radio Opole",
       "slug": "radioopole",
@@ -239,7 +240,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 681,
+      "archive_count": 680,
       "display_name": "Radio Słupsk",
       "public_name": "Radio Słupsk",
       "slug": "radioslupsk",
