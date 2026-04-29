@@ -25,30 +25,6 @@
       "year": 2026
     },
     {
-      "archive_item_identifier": "wnet-2026-04-25",
-      "audio_url": "https://archive.org/download/wnet-2026-04-25/wnet_2026-04-25T23-00-00Z.mp3",
-      "completeness_ratio": 0.9997,
-      "day": 26,
-      "download_url": "https://archive.org/download/wnet-2026-04-25/wnet_2026-04-25T23-00-00Z.mp3",
-      "duration_seconds": 3599.76,
-      "hour": 1,
-      "hourly_archive_id": 28953,
-      "local_date_label": "26.04.2026",
-      "local_hour_label": "01:00",
-      "local_label": "2026-04-26 01:00 czasu polskiego",
-      "local_started_at": "2026-04-26T01:00:00+02:00",
-      "local_timezone_label": "czasu polskiego",
-      "month": 4,
-      "published_at": "2026-04-26T01:20:39.165404+00:00",
-      "published_local_label": "2026-04-26 03:20 czasu polskiego",
-      "remote_filename": "wnet_2026-04-25T23-00-00Z.mp3",
-      "station_slug": "wnet",
-      "status": "published",
-      "utc_label": "2026-04-25 23:00 UTC",
-      "utc_started_at": "2026-04-25T23:00:00+00:00",
-      "year": 2026
-    },
-    {
       "archive_item_identifier": "wnet-2026-04-26",
       "audio_url": "https://archive.org/download/wnet-2026-04-26/wnet_2026-04-26T00-00-00Z.mp3",
       "completeness_ratio": 1.0,
@@ -576,7 +552,7 @@
       "year": 2026
     },
     {
-      "archive_status": "published",
+      "archive_status": "error",
       "completeness_ratio": 0.9997,
       "day": 26,
       "hour": 1,
@@ -587,9 +563,9 @@
       "local_started_at": "2026-04-26T01:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 4,
-      "playable": true,
-      "state": "available",
-      "status_label": null,
+      "playable": false,
+      "state": "failed",
+      "status_label": "Nie udało się przygotować nagrania",
       "utc_label": "2026-04-25 23:00 UTC",
       "utc_started_at": "2026-04-25T23:00:00+00:00",
       "year": 2026
@@ -1018,7 +994,7 @@
   "month": 4,
   "published_at": "2026-04-28T16:41:52.660826+00:00",
   "station": {
-    "archive_count": 712,
+    "archive_count": 711,
     "display_name": "Radio Wnet",
     "public_name": "Radio Wnet",
     "slug": "wnet",
