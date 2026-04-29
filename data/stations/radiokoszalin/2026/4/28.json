@@ -817,11 +817,11 @@
       "year": 2026
     },
     {
-      "archive_status": null,
-      "completeness_ratio": null,
+      "archive_status": "ready",
+      "completeness_ratio": 0.8994,
       "day": 28,
       "hour": 20,
-      "hourly_archive_id": null,
+      "hourly_archive_id": 33526,
       "local_date_label": "28.04.2026",
       "local_hour_label": "20:00",
       "local_label": "2026-04-28 20:00 czasu polskiego",
@@ -829,8 +829,8 @@
       "local_timezone_label": "czasu polskiego",
       "month": 4,
       "playable": false,
-      "state": "recorded",
-      "status_label": "Nagranie czeka na złożenie",
+      "state": "publishing",
+      "status_label": "Czeka w kolejce do publikacji",
       "utc_label": "2026-04-28 18:00 UTC",
       "utc_started_at": "2026-04-28T18:00:00+00:00",
       "year": 2026
@@ -874,11 +874,11 @@
       "year": 2026
     },
     {
-      "archive_status": null,
-      "completeness_ratio": null,
+      "archive_status": "ready",
+      "completeness_ratio": 0.8758,
       "day": 28,
       "hour": 23,
-      "hourly_archive_id": null,
+      "hourly_archive_id": 33435,
       "local_date_label": "28.04.2026",
       "local_hour_label": "23:00",
       "local_label": "2026-04-28 23:00 czasu polskiego",
@@ -886,8 +886,8 @@
       "local_timezone_label": "czasu polskiego",
       "month": 4,
       "playable": false,
-      "state": "recorded",
-      "status_label": "Nagranie czeka na złożenie",
+      "state": "publishing",
+      "status_label": "Czeka w kolejce do publikacji",
       "utc_label": "2026-04-28 21:00 UTC",
       "utc_started_at": "2026-04-28T21:00:00+00:00",
       "year": 2026
@@ -898,7 +898,7 @@
   "month": 4,
   "published_at": "2026-04-28T20:24:05.320050+00:00",
   "station": {
-    "archive_count": 697,
+    "archive_count": 696,
     "display_name": "Radio Koszalin",
     "public_name": "Radio Koszalin",
     "slug": "radiokoszalin",
