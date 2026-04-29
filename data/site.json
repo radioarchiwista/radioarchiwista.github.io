@@ -1,20 +1,18 @@
 {
-  "archive_count": 32343,
+  "archive_count": 32345,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-04-29T13:51:10.956091+00:00",
+  "generated_at": "2026-04-29T14:19:00.828837+00:00",
   "latest_archive_hour_expected_station_count": 39,
-  "latest_archive_hour_started_at": "2026-04-29T12:00:00+00:00",
+  "latest_archive_hour_started_at": "2026-04-29T13:00:00+00:00",
   "latest_archive_hour_stations": [
     "Program 1",
     "Program 2",
     "Program 3",
-    "Polskie Radio 24",
-    "Radio Afera",
-    "Radio Białystok"
+    "Polskie Radio 24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-04-29T13:51:10.956091+00:00",
+  "published_at": "2026-04-29T14:19:00.828837+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
