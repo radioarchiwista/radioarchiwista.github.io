@@ -1,0 +1,63 @@
+{
+  "archives": [
+    {
+      "archive_item_identifier": "radiozak-2026-04-30",
+      "audio_url": "https://archive.org/download/radiozak-2026-04-30/radiozak_2026-04-30T22-00-00Z.mp3",
+      "completeness_ratio": 0.9877,
+      "day": 1,
+      "download_url": "https://archive.org/download/radiozak-2026-04-30/radiozak_2026-04-30T22-00-00Z.mp3",
+      "duration_seconds": 3599.904,
+      "hour": 0,
+      "hourly_archive_id": 35516,
+      "local_date_label": "01.05.2026",
+      "local_hour_label": "00:00",
+      "local_label": "2026-05-01 00:00 czasu polskiego",
+      "local_started_at": "2026-05-01T00:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 5,
+      "published_at": "2026-04-30T23:37:03.595088+00:00",
+      "published_local_label": "2026-05-01 01:37 czasu polskiego",
+      "remote_filename": "radiozak_2026-04-30T22-00-00Z.mp3",
+      "station_slug": "radiozak",
+      "status": "published",
+      "utc_label": "2026-04-30 22:00 UTC",
+      "utc_started_at": "2026-04-30T22:00:00+00:00",
+      "year": 2026
+    }
+  ],
+  "day": 1,
+  "generated_at": "2026-04-30T23:37:03.595088+00:00",
+  "hour_slots": [
+    {
+      "archive_status": "published",
+      "completeness_ratio": 0.9877,
+      "day": 1,
+      "hour": 0,
+      "hourly_archive_id": 35516,
+      "local_date_label": "01.05.2026",
+      "local_hour_label": "00:00",
+      "local_label": "2026-05-01 00:00 czasu polskiego",
+      "local_started_at": "2026-05-01T00:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 5,
+      "playable": true,
+      "state": "available",
+      "status_label": null,
+      "utc_label": "2026-04-30 22:00 UTC",
+      "utc_started_at": "2026-04-30T22:00:00+00:00",
+      "year": 2026
+    }
+  ],
+  "latest_archive_hour_expected_station_count": 0,
+  "latest_archive_hour_started_at": "2026-04-30T22:00:00+00:00",
+  "month": 5,
+  "published_at": "2026-04-30T23:37:03.595088+00:00",
+  "station": {
+    "archive_count": 720,
+    "display_name": "Radio Żak",
+    "public_name": "Radio Żak",
+    "slug": "radiozak",
+    "timezone": "Europe/Warsaw"
+  },
+  "year": 2026
+}
