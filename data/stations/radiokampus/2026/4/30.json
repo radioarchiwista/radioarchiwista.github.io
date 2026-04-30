@@ -191,10 +191,34 @@
       "utc_label": "2026-04-30 10:00 UTC",
       "utc_started_at": "2026-04-30T10:00:00+00:00",
       "year": 2026
+    },
+    {
+      "archive_item_identifier": "radiokampus-2026-04-30",
+      "audio_url": "https://archive.org/download/radiokampus-2026-04-30/radiokampus_2026-04-30T11-00-00Z.mp3",
+      "completeness_ratio": 0.9884,
+      "day": 30,
+      "download_url": "https://archive.org/download/radiokampus-2026-04-30/radiokampus_2026-04-30T11-00-00Z.mp3",
+      "duration_seconds": 3599.688,
+      "hour": 13,
+      "hourly_archive_id": 35054,
+      "local_date_label": "30.04.2026",
+      "local_hour_label": "13:00",
+      "local_label": "2026-04-30 13:00 czasu polskiego",
+      "local_started_at": "2026-04-30T13:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 4,
+      "published_at": "2026-04-30T12:44:56.511626+00:00",
+      "published_local_label": "2026-04-30 14:44 czasu polskiego",
+      "remote_filename": "radiokampus_2026-04-30T11-00-00Z.mp3",
+      "station_slug": "radiokampus",
+      "status": "published",
+      "utc_label": "2026-04-30 11:00 UTC",
+      "utc_started_at": "2026-04-30T11:00:00+00:00",
+      "year": 2026
     }
   ],
   "day": 30,
-  "generated_at": "2026-04-30T12:10:54.194239+00:00",
+  "generated_at": "2026-04-30T12:44:56.511626+00:00",
   "hour_slots": [
     {
       "archive_status": "published",
@@ -444,7 +468,7 @@
       "year": 2026
     },
     {
-      "archive_status": "ready",
+      "archive_status": "published",
       "completeness_ratio": 0.9884,
       "day": 30,
       "hour": 13,
@@ -455,9 +479,9 @@
       "local_started_at": "2026-04-30T13:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 4,
-      "playable": false,
-      "state": "publishing",
-      "status_label": "Czeka w kolejce do publikacji",
+      "playable": true,
+      "state": "available",
+      "status_label": null,
       "utc_label": "2026-04-30 11:00 UTC",
       "utc_started_at": "2026-04-30T11:00:00+00:00",
       "year": 2026
@@ -466,9 +490,9 @@
   "latest_archive_hour_expected_station_count": 0,
   "latest_archive_hour_started_at": null,
   "month": 4,
-  "published_at": "2026-04-30T12:10:54.194239+00:00",
+  "published_at": "2026-04-30T12:44:56.511626+00:00",
   "station": {
-    "archive_count": 427,
+    "archive_count": 428,
     "display_name": "Radio Kampus",
     "public_name": "Radio Kampus",
     "slug": "radiokampus",
