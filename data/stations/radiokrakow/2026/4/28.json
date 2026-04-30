@@ -434,6 +434,30 @@
     },
     {
       "archive_item_identifier": "radiokrakow-2026-04-28",
+      "audio_url": "https://archive.org/download/radiokrakow-2026-04-28/radiokrakow_2026-04-28T20-00-00Z.mp3",
+      "completeness_ratio": 0.7947,
+      "day": 28,
+      "download_url": "https://archive.org/download/radiokrakow-2026-04-28/radiokrakow_2026-04-28T20-00-00Z.mp3",
+      "duration_seconds": 3599.232,
+      "hour": 22,
+      "hourly_archive_id": 33305,
+      "local_date_label": "28.04.2026",
+      "local_hour_label": "22:00",
+      "local_label": "2026-04-28 22:00 czasu polskiego",
+      "local_started_at": "2026-04-28T22:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 4,
+      "published_at": "2026-04-30T20:24:24.073586+00:00",
+      "published_local_label": "2026-04-30 22:24 czasu polskiego",
+      "remote_filename": "radiokrakow_2026-04-28T20-00-00Z.mp3",
+      "station_slug": "radiokrakow",
+      "status": "published",
+      "utc_label": "2026-04-28 20:00 UTC",
+      "utc_started_at": "2026-04-28T20:00:00+00:00",
+      "year": 2026
+    },
+    {
+      "archive_item_identifier": "radiokrakow-2026-04-28",
       "audio_url": "https://archive.org/download/radiokrakow-2026-04-28/radiokrakow_2026-04-28T21-00-00Z.mp3",
       "completeness_ratio": 0.8552,
       "day": 28,
@@ -458,7 +482,7 @@
     }
   ],
   "day": 28,
-  "generated_at": "2026-04-30T20:08:48.939009+00:00",
+  "generated_at": "2026-04-30T20:33:03.494430+00:00",
   "hour_slots": [
     {
       "archive_status": "published",
@@ -879,7 +903,7 @@
       "year": 2026
     },
     {
-      "archive_status": "ready",
+      "archive_status": "published",
       "completeness_ratio": 0.7947,
       "day": 28,
       "hour": 22,
@@ -890,9 +914,9 @@
       "local_started_at": "2026-04-28T22:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 4,
-      "playable": false,
-      "state": "publishing",
-      "status_label": "Czeka w kolejce do publikacji",
+      "playable": true,
+      "state": "available",
+      "status_label": null,
       "utc_label": "2026-04-28 20:00 UTC",
       "utc_started_at": "2026-04-28T20:00:00+00:00",
       "year": 2026
@@ -918,11 +942,11 @@
     }
   ],
   "latest_archive_hour_expected_station_count": 0,
-  "latest_archive_hour_started_at": "2026-04-30T18:00:00+00:00",
+  "latest_archive_hour_started_at": "2026-04-30T19:00:00+00:00",
   "month": 4,
-  "published_at": "2026-04-30T20:08:48.939009+00:00",
+  "published_at": "2026-04-30T20:33:03.494430+00:00",
   "station": {
-    "archive_count": 728,
+    "archive_count": 730,
     "display_name": "Radio Kraków",
     "public_name": "Radio Kraków",
     "slug": "radiokrakow",
