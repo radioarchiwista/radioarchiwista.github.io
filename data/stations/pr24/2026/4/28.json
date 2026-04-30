@@ -479,6 +479,30 @@
       "utc_label": "2026-04-28 17:00 UTC",
       "utc_started_at": "2026-04-28T17:00:00+00:00",
       "year": 2026
+    },
+    {
+      "archive_item_identifier": "pr24-2026-04-28",
+      "audio_url": "https://archive.org/download/pr24-2026-04-28/pr24_2026-04-28T21-00-00Z.mp3",
+      "completeness_ratio": 0.9711,
+      "day": 28,
+      "download_url": "https://archive.org/download/pr24-2026-04-28/pr24_2026-04-28T21-00-00Z.mp3",
+      "duration_seconds": 3600.144,
+      "hour": 23,
+      "hourly_archive_id": 33339,
+      "local_date_label": "28.04.2026",
+      "local_hour_label": "23:00",
+      "local_label": "2026-04-28 23:00 czasu polskiego",
+      "local_started_at": "2026-04-28T23:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 4,
+      "published_at": "2026-04-30T10:10:51.650696+00:00",
+      "published_local_label": "2026-04-30 12:10 czasu polskiego",
+      "remote_filename": "pr24_2026-04-28T21-00-00Z.mp3",
+      "station_slug": "pr24",
+      "status": "published",
+      "utc_label": "2026-04-28 21:00 UTC",
+      "utc_started_at": "2026-04-28T21:00:00+00:00",
+      "year": 2026
     }
   ],
   "day": 28,
@@ -922,7 +946,7 @@
       "year": 2026
     },
     {
-      "archive_status": "ready",
+      "archive_status": "published",
       "completeness_ratio": 0.9711,
       "day": 28,
       "hour": 23,
@@ -933,9 +957,9 @@
       "local_started_at": "2026-04-28T23:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 4,
-      "playable": false,
-      "state": "publishing",
-      "status_label": "Czeka w kolejce do publikacji",
+      "playable": true,
+      "state": "available",
+      "status_label": null,
       "utc_label": "2026-04-28 21:00 UTC",
       "utc_started_at": "2026-04-28T21:00:00+00:00",
       "year": 2026
@@ -946,7 +970,7 @@
   "month": 4,
   "published_at": "2026-04-30T14:16:26.432748+00:00",
   "station": {
-    "archive_count": 736,
+    "archive_count": 737,
     "display_name": "Polskie Radio 24",
     "public_name": "Polskie Radio 24",
     "slug": "pr24",
