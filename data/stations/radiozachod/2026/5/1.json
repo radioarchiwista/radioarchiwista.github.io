@@ -407,10 +407,34 @@
       "utc_label": "2026-05-01 14:00 UTC",
       "utc_started_at": "2026-05-01T14:00:00+00:00",
       "year": 2026
+    },
+    {
+      "archive_item_identifier": "radiozachod-2026-05-01",
+      "audio_url": "https://archive.org/download/radiozachod-2026-05-01/radiozachod_2026-05-01T15-00-00Z.mp3",
+      "completeness_ratio": 0.9968,
+      "day": 1,
+      "download_url": "https://archive.org/download/radiozachod-2026-05-01/radiozachod_2026-05-01T15-00-00Z.mp3",
+      "duration_seconds": 3593.016,
+      "hour": 17,
+      "hourly_archive_id": 36302,
+      "local_date_label": "01.05.2026",
+      "local_hour_label": "17:00",
+      "local_label": "2026-05-01 17:00 czasu polskiego",
+      "local_started_at": "2026-05-01T17:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 5,
+      "published_at": "2026-05-01T16:33:42.661069+00:00",
+      "published_local_label": "2026-05-01 18:33 czasu polskiego",
+      "remote_filename": "radiozachod_2026-05-01T15-00-00Z.mp3",
+      "station_slug": "radiozachod",
+      "status": "published",
+      "utc_label": "2026-05-01 15:00 UTC",
+      "utc_started_at": "2026-05-01T15:00:00+00:00",
+      "year": 2026
     }
   ],
   "day": 1,
-  "generated_at": "2026-05-01T15:48:58.554479+00:00",
+  "generated_at": "2026-05-01T16:33:42.661069+00:00",
   "hour_slots": [
     {
       "archive_status": "published",
@@ -736,7 +760,7 @@
       "year": 2026
     },
     {
-      "archive_status": "ready",
+      "archive_status": "published",
       "completeness_ratio": 0.9968,
       "day": 1,
       "hour": 17,
@@ -747,20 +771,20 @@
       "local_started_at": "2026-05-01T17:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 5,
-      "playable": false,
-      "state": "publishing",
-      "status_label": "Czeka w kolejce do publikacji",
+      "playable": true,
+      "state": "available",
+      "status_label": null,
       "utc_label": "2026-05-01 15:00 UTC",
       "utc_started_at": "2026-05-01T15:00:00+00:00",
       "year": 2026
     }
   ],
   "latest_archive_hour_expected_station_count": 0,
-  "latest_archive_hour_started_at": "2026-05-01T14:00:00+00:00",
+  "latest_archive_hour_started_at": "2026-05-01T15:00:00+00:00",
   "month": 5,
-  "published_at": "2026-05-01T15:48:58.554479+00:00",
+  "published_at": "2026-05-01T16:33:42.661069+00:00",
   "station": {
-    "archive_count": 748,
+    "archive_count": 749,
     "display_name": "Radio Zachód",
     "public_name": "Radio Zachód",
     "slug": "radiozachod",
