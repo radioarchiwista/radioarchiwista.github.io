@@ -359,34 +359,10 @@
       "utc_label": "2026-04-30 17:00 UTC",
       "utc_started_at": "2026-04-30T17:00:00+00:00",
       "year": 2026
-    },
-    {
-      "archive_item_identifier": "radioszczecin-2026-04-30",
-      "audio_url": "https://archive.org/download/radioszczecin-2026-04-30/radioszczecin_2026-04-30T18-00-00Z.mp3",
-      "completeness_ratio": 1.0,
-      "day": 30,
-      "download_url": "https://archive.org/download/radioszczecin-2026-04-30/radioszczecin_2026-04-30T18-00-00Z.mp3",
-      "duration_seconds": 3599.935,
-      "hour": 20,
-      "hourly_archive_id": 35356,
-      "local_date_label": "30.04.2026",
-      "local_hour_label": "20:00",
-      "local_label": "2026-04-30 20:00 czasu polskiego",
-      "local_started_at": "2026-04-30T20:00:00+02:00",
-      "local_timezone_label": "czasu polskiego",
-      "month": 4,
-      "published_at": "2026-05-01T09:21:35.566004+00:00",
-      "published_local_label": "2026-05-01 11:21 czasu polskiego",
-      "remote_filename": "radioszczecin_2026-04-30T18-00-00Z.mp3",
-      "station_slug": "radioszczecin",
-      "status": "published",
-      "utc_label": "2026-04-30 18:00 UTC",
-      "utc_started_at": "2026-04-30T18:00:00+00:00",
-      "year": 2026
     }
   ],
   "day": 30,
-  "generated_at": "2026-05-01T09:21:35.566004+00:00",
+  "generated_at": "2026-05-01T09:37:33.699649+00:00",
   "hour_slots": [
     {
       "archive_status": "published",
@@ -769,7 +745,7 @@
       "year": 2026
     },
     {
-      "archive_status": "published",
+      "archive_status": "ready",
       "completeness_ratio": 1.0,
       "day": 30,
       "hour": 20,
@@ -780,9 +756,9 @@
       "local_started_at": "2026-04-30T20:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 4,
-      "playable": true,
-      "state": "available",
-      "status_label": null,
+      "playable": false,
+      "state": "publishing",
+      "status_label": "Czeka w kolejce do publikacji",
       "utc_label": "2026-04-30 18:00 UTC",
       "utc_started_at": "2026-04-30T18:00:00+00:00",
       "year": 2026
@@ -846,9 +822,9 @@
     }
   ],
   "latest_archive_hour_expected_station_count": 0,
-  "latest_archive_hour_started_at": "2026-04-30T18:00:00+00:00",
+  "latest_archive_hour_started_at": "2026-04-30T17:00:00+00:00",
   "month": 4,
-  "published_at": "2026-05-01T09:21:35.566004+00:00",
+  "published_at": "2026-05-01T09:37:33.699649+00:00",
   "station": {
     "archive_count": 736,
     "display_name": "Radio Szczecin",
