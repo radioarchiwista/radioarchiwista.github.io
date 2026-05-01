@@ -1,0 +1,63 @@
+{
+  "archives": [
+    {
+      "archive_item_identifier": "pr3-2026-05-01",
+      "audio_url": "https://archive.org/download/pr3-2026-05-01/pr3_2026-05-01T22-00-00Z.mp3",
+      "completeness_ratio": 1.0,
+      "day": 2,
+      "download_url": "https://archive.org/download/pr3-2026-05-01/pr3_2026-05-01T22-00-00Z.mp3",
+      "duration_seconds": 3599.112,
+      "hour": 0,
+      "hourly_archive_id": 36749,
+      "local_date_label": "02.05.2026",
+      "local_hour_label": "00:00",
+      "local_label": "2026-05-02 00:00 czasu polskiego",
+      "local_started_at": "2026-05-02T00:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 5,
+      "published_at": "2026-05-01T23:15:45.351710+00:00",
+      "published_local_label": "2026-05-02 01:15 czasu polskiego",
+      "remote_filename": "pr3_2026-05-01T22-00-00Z.mp3",
+      "station_slug": "pr3",
+      "status": "published",
+      "utc_label": "2026-05-01 22:00 UTC",
+      "utc_started_at": "2026-05-01T22:00:00+00:00",
+      "year": 2026
+    }
+  ],
+  "day": 2,
+  "generated_at": "2026-05-01T23:15:45.351710+00:00",
+  "hour_slots": [
+    {
+      "archive_status": "published",
+      "completeness_ratio": 1.0,
+      "day": 2,
+      "hour": 0,
+      "hourly_archive_id": 36749,
+      "local_date_label": "02.05.2026",
+      "local_hour_label": "00:00",
+      "local_label": "2026-05-02 00:00 czasu polskiego",
+      "local_started_at": "2026-05-02T00:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 5,
+      "playable": true,
+      "state": "available",
+      "status_label": null,
+      "utc_label": "2026-05-01 22:00 UTC",
+      "utc_started_at": "2026-05-01T22:00:00+00:00",
+      "year": 2026
+    }
+  ],
+  "latest_archive_hour_expected_station_count": 0,
+  "latest_archive_hour_started_at": "2026-05-01T22:00:00+00:00",
+  "month": 5,
+  "published_at": "2026-05-01T23:15:45.351710+00:00",
+  "station": {
+    "archive_count": 7835,
+    "display_name": "Program 3",
+    "public_name": "Polskie Radio Program 3",
+    "slug": "pr3",
+    "timezone": "Europe/Warsaw"
+  },
+  "year": 2026
+}
