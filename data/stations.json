@@ -1,16 +1,19 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-05-02T17:14:28.194699+00:00",
+  "generated_at": "2026-05-02T17:32:26.292848+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-05-02T16:00:00+00:00",
   "latest_archive_hour_stations": [
     "Program 1",
     "Program 2",
-    "Polskie Radio 24"
+    "Program 3",
+    "Polskie Radio 24",
+    "Radio 357",
+    "Radio Białystok"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-05-02T17:14:28.194699+00:00",
+  "published_at": "2026-05-02T17:32:26.292848+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -29,7 +32,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 8473,
+      "archive_count": 8474,
       "display_name": "Program 3",
       "public_name": "Polskie Radio Program 3",
       "slug": "pr3",
@@ -43,7 +46,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 784,
+      "archive_count": 785,
       "display_name": "Radio 357",
       "public_name": "Radio 357",
       "slug": "radio357",
@@ -92,7 +95,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 770,
+      "archive_count": 771,
       "display_name": "Radio Białystok",
       "public_name": "Radio Białystok",
       "slug": "radiobialystok",
