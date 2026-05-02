@@ -170,7 +170,7 @@
     }
   ],
   "day": 2,
-  "generated_at": "2026-05-02T05:42:58.922525+00:00",
+  "generated_at": "2026-05-02T05:58:52.417721+00:00",
   "hour_slots": [
     {
       "archive_status": "published",
@@ -304,14 +304,33 @@
       "utc_label": "2026-05-02 04:00 UTC",
       "utc_started_at": "2026-05-02T04:00:00+00:00",
       "year": 2026
+    },
+    {
+      "archive_status": "ready",
+      "completeness_ratio": 1.0,
+      "day": 2,
+      "hour": 7,
+      "hourly_archive_id": 37222,
+      "local_date_label": "02.05.2026",
+      "local_hour_label": "07:00",
+      "local_label": "2026-05-02 07:00 czasu polskiego",
+      "local_started_at": "2026-05-02T07:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 5,
+      "playable": false,
+      "state": "publishing",
+      "status_label": "Czeka w kolejce do publikacji",
+      "utc_label": "2026-05-02 05:00 UTC",
+      "utc_started_at": "2026-05-02T05:00:00+00:00",
+      "year": 2026
     }
   ],
   "latest_archive_hour_expected_station_count": 0,
   "latest_archive_hour_started_at": "2026-05-02T04:00:00+00:00",
   "month": 5,
-  "published_at": "2026-05-02T05:42:58.922525+00:00",
+  "published_at": "2026-05-02T05:58:52.417721+00:00",
   "station": {
-    "archive_count": 8149,
+    "archive_count": 8170,
     "display_name": "Program 3",
     "public_name": "Polskie Radio Program 3",
     "slug": "pr3",
