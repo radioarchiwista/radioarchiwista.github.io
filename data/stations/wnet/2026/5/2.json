@@ -433,6 +433,25 @@
       "utc_label": "2026-05-02 07:00 UTC",
       "utc_started_at": "2026-05-02T07:00:00+00:00",
       "year": 2026
+    },
+    {
+      "archive_status": null,
+      "completeness_ratio": null,
+      "day": 2,
+      "hour": 10,
+      "hourly_archive_id": null,
+      "local_date_label": "02.05.2026",
+      "local_hour_label": "10:00",
+      "local_label": "2026-05-02 10:00 czasu polskiego",
+      "local_started_at": "2026-05-02T10:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 5,
+      "playable": false,
+      "state": "recorded",
+      "status_label": "Nagranie czeka na złożenie",
+      "utc_label": "2026-05-02 08:00 UTC",
+      "utc_started_at": "2026-05-02T08:00:00+00:00",
+      "year": 2026
     }
   ],
   "latest_archive_hour_expected_station_count": 0,
