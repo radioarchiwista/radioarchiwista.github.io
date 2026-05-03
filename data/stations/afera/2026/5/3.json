@@ -167,10 +167,34 @@
       "utc_label": "2026-05-03 04:00 UTC",
       "utc_started_at": "2026-05-03T04:00:00+00:00",
       "year": 2026
+    },
+    {
+      "archive_item_identifier": "afera-2026-05-03",
+      "audio_url": "https://archive.org/download/afera-2026-05-03/afera_2026-05-03T05-00-00Z.mp3",
+      "completeness_ratio": 1.0,
+      "day": 3,
+      "download_url": "https://archive.org/download/afera-2026-05-03/afera_2026-05-03T05-00-00Z.mp3",
+      "duration_seconds": 3596.983,
+      "hour": 7,
+      "hourly_archive_id": 38664,
+      "local_date_label": "03.05.2026",
+      "local_hour_label": "07:00",
+      "local_label": "2026-05-03 07:00 czasu polskiego",
+      "local_started_at": "2026-05-03T07:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 5,
+      "published_at": "2026-05-03T06:27:34.027824+00:00",
+      "published_local_label": "2026-05-03 08:27 czasu polskiego",
+      "remote_filename": "afera_2026-05-03T05-00-00Z.mp3",
+      "station_slug": "afera",
+      "status": "published",
+      "utc_label": "2026-05-03 05:00 UTC",
+      "utc_started_at": "2026-05-03T05:00:00+00:00",
+      "year": 2026
     }
   ],
   "day": 3,
-  "generated_at": "2026-05-03T05:37:03.353196+00:00",
+  "generated_at": "2026-05-03T06:27:34.027824+00:00",
   "hour_slots": [
     {
       "archive_status": "published",
@@ -306,7 +330,7 @@
       "year": 2026
     },
     {
-      "archive_status": "ready",
+      "archive_status": "published",
       "completeness_ratio": 1.0,
       "day": 3,
       "hour": 7,
@@ -317,20 +341,20 @@
       "local_started_at": "2026-05-03T07:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 5,
-      "playable": false,
-      "state": "publishing",
-      "status_label": "Czeka w kolejce do publikacji",
+      "playable": true,
+      "state": "available",
+      "status_label": null,
       "utc_label": "2026-05-03 05:00 UTC",
       "utc_started_at": "2026-05-03T05:00:00+00:00",
       "year": 2026
     }
   ],
   "latest_archive_hour_expected_station_count": 0,
-  "latest_archive_hour_started_at": "2026-05-03T04:00:00+00:00",
+  "latest_archive_hour_started_at": "2026-05-03T05:00:00+00:00",
   "month": 5,
-  "published_at": "2026-05-03T05:37:03.353196+00:00",
+  "published_at": "2026-05-03T06:27:34.027824+00:00",
   "station": {
-    "archive_count": 789,
+    "archive_count": 790,
     "display_name": "Radio Afera",
     "public_name": "Radio Afera",
     "slug": "afera",
