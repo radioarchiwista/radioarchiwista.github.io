@@ -551,10 +551,34 @@
       "utc_label": "2025-03-25 21:00 UTC",
       "utc_started_at": "2025-03-25T21:00:00+00:00",
       "year": 2025
+    },
+    {
+      "archive_item_identifier": "pr3-2025-03-25",
+      "audio_url": "https://archive.org/download/pr3-2025-03-25/pr3_2025-03-25T22-00-00Z.ogg",
+      "completeness_ratio": 1.0,
+      "day": 25,
+      "download_url": "https://archive.org/download/pr3-2025-03-25/pr3_2025-03-25T22-00-00Z.ogg",
+      "duration_seconds": 3610.016,
+      "hour": 23,
+      "hourly_archive_id": 39204,
+      "local_date_label": "25.03.2025",
+      "local_hour_label": "23:00",
+      "local_label": "2025-03-25 23:00 czasu polskiego",
+      "local_started_at": "2025-03-25T23:00:00+01:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 3,
+      "published_at": "2026-05-03T15:36:01.919220+00:00",
+      "published_local_label": "2026-05-03 17:36 czasu polskiego",
+      "remote_filename": "pr3_2025-03-25T22-00-00Z.ogg",
+      "station_slug": "pr3",
+      "status": "published",
+      "utc_label": "2025-03-25 22:00 UTC",
+      "utc_started_at": "2025-03-25T22:00:00+00:00",
+      "year": 2025
     }
   ],
   "day": 25,
-  "generated_at": "2026-05-03T15:17:07.864577+00:00",
+  "generated_at": "2026-05-03T15:40:31.734580+00:00",
   "hour_slots": [
     {
       "archive_status": "published",
@@ -994,7 +1018,7 @@
       "year": 2025
     },
     {
-      "archive_status": "ready",
+      "archive_status": "published",
       "completeness_ratio": 1.0,
       "day": 25,
       "hour": 23,
@@ -1005,9 +1029,9 @@
       "local_started_at": "2025-03-25T23:00:00+01:00",
       "local_timezone_label": "czasu polskiego",
       "month": 3,
-      "playable": false,
-      "state": "publishing",
-      "status_label": "Czeka w kolejce do publikacji",
+      "playable": true,
+      "state": "available",
+      "status_label": null,
       "utc_label": "2025-03-25 22:00 UTC",
       "utc_started_at": "2025-03-25T22:00:00+00:00",
       "year": 2025
@@ -1016,9 +1040,9 @@
   "latest_archive_hour_expected_station_count": 0,
   "latest_archive_hour_started_at": "2026-05-03T14:00:00+00:00",
   "month": 3,
-  "published_at": "2026-05-03T15:17:07.864577+00:00",
+  "published_at": "2026-05-03T15:40:31.734580+00:00",
   "station": {
-    "archive_count": 8981,
+    "archive_count": 9027,
     "display_name": "Program 3",
     "public_name": "Polskie Radio Program 3",
     "slug": "pr3",
