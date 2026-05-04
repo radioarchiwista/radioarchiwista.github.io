@@ -407,10 +407,34 @@
       "utc_label": "2025-03-07 15:00 UTC",
       "utc_started_at": "2025-03-07T15:00:00+00:00",
       "year": 2025
+    },
+    {
+      "archive_item_identifier": "pr3-2025-03-07",
+      "audio_url": "https://archive.org/download/pr3-2025-03-07/pr3_2025-03-07T16-00-00Z.ogg",
+      "completeness_ratio": 1.0,
+      "day": 7,
+      "download_url": "https://archive.org/download/pr3-2025-03-07/pr3_2025-03-07T16-00-00Z.ogg",
+      "duration_seconds": 3610.012,
+      "hour": 17,
+      "hourly_archive_id": 40207,
+      "local_date_label": "07.03.2025",
+      "local_hour_label": "17:00",
+      "local_label": "2025-03-07 17:00 czasu polskiego",
+      "local_started_at": "2025-03-07T17:00:00+01:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 3,
+      "published_at": "2026-05-04T05:01:34.240091+00:00",
+      "published_local_label": "2026-05-04 07:01 czasu polskiego",
+      "remote_filename": "pr3_2025-03-07T16-00-00Z.ogg",
+      "station_slug": "pr3",
+      "status": "published",
+      "utc_label": "2025-03-07 16:00 UTC",
+      "utc_started_at": "2025-03-07T16:00:00+00:00",
+      "year": 2025
     }
   ],
   "day": 7,
-  "generated_at": "2026-05-04T05:01:12.377894+00:00",
+  "generated_at": "2026-05-04T05:15:20.225833+00:00",
   "hour_slots": [
     {
       "archive_status": "published",
@@ -736,7 +760,7 @@
       "year": 2025
     },
     {
-      "archive_status": "ready",
+      "archive_status": "published",
       "completeness_ratio": 1.0,
       "day": 7,
       "hour": 17,
@@ -747,9 +771,9 @@
       "local_started_at": "2025-03-07T17:00:00+01:00",
       "local_timezone_label": "czasu polskiego",
       "month": 3,
-      "playable": false,
-      "state": "publishing",
-      "status_label": "Czeka w kolejce do publikacji",
+      "playable": true,
+      "state": "available",
+      "status_label": null,
       "utc_label": "2025-03-07 16:00 UTC",
       "utc_started_at": "2025-03-07T16:00:00+00:00",
       "year": 2025
@@ -850,11 +874,11 @@
       "year": 2025
     },
     {
-      "archive_status": null,
-      "completeness_ratio": null,
+      "archive_status": "ready",
+      "completeness_ratio": 1.0,
       "day": 7,
       "hour": 23,
-      "hourly_archive_id": null,
+      "hourly_archive_id": 40213,
       "local_date_label": "07.03.2025",
       "local_hour_label": "23:00",
       "local_label": "2025-03-07 23:00 czasu polskiego",
@@ -862,19 +886,19 @@
       "local_timezone_label": "czasu polskiego",
       "month": 3,
       "playable": false,
-      "state": "missing",
-      "status_label": "Nie udało się nagrać",
+      "state": "publishing",
+      "status_label": "Czeka w kolejce do publikacji",
       "utc_label": "2025-03-07 22:00 UTC",
       "utc_started_at": "2025-03-07T22:00:00+00:00",
       "year": 2025
     }
   ],
   "latest_archive_hour_expected_station_count": 0,
-  "latest_archive_hour_started_at": "2026-05-04T03:00:00+00:00",
+  "latest_archive_hour_started_at": "2026-05-04T04:00:00+00:00",
   "month": 3,
-  "published_at": "2026-05-04T05:01:12.377894+00:00",
+  "published_at": "2026-05-04T05:15:20.225833+00:00",
   "station": {
-    "archive_count": 9408,
+    "archive_count": 9386,
     "display_name": "Program 3",
     "public_name": "Polskie Radio Program 3",
     "slug": "pr3",
