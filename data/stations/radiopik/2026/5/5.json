@@ -648,6 +648,25 @@
       "utc_label": "2026-05-05 12:00 UTC",
       "utc_started_at": "2026-05-05T12:00:00+00:00",
       "year": 2026
+    },
+    {
+      "archive_status": "ready",
+      "completeness_ratio": 1.0,
+      "day": 5,
+      "hour": 15,
+      "hourly_archive_id": 42594,
+      "local_date_label": "05.05.2026",
+      "local_hour_label": "15:00",
+      "local_label": "2026-05-05 15:00 czasu polskiego",
+      "local_started_at": "2026-05-05T15:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 5,
+      "playable": false,
+      "state": "publishing",
+      "status_label": "Czeka w kolejce do publikacji",
+      "utc_label": "2026-05-05 13:00 UTC",
+      "utc_started_at": "2026-05-05T13:00:00+00:00",
+      "year": 2026
     }
   ],
   "latest_archive_hour_expected_station_count": 0,
