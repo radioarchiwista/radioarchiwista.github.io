@@ -543,11 +543,11 @@
       "year": 2026
     },
     {
-      "archive_status": null,
-      "completeness_ratio": null,
+      "archive_status": "ready",
+      "completeness_ratio": 0.9928,
       "day": 7,
       "hour": 22,
-      "hourly_archive_id": null,
+      "hourly_archive_id": 45910,
       "local_date_label": "07.05.2026",
       "local_hour_label": "22:00",
       "local_label": "2026-05-07 22:00 czasu polskiego",
@@ -555,8 +555,8 @@
       "local_timezone_label": "czasu polskiego",
       "month": 5,
       "playable": false,
-      "state": "recorded",
-      "status_label": "Nagranie czeka na złożenie",
+      "state": "publishing",
+      "status_label": "Czeka w kolejce do publikacji",
       "utc_label": "2026-05-07 20:00 UTC",
       "utc_started_at": "2026-05-07T20:00:00+00:00",
       "year": 2026
@@ -567,7 +567,7 @@
   "month": 5,
   "published_at": "2026-05-07T17:12:36.880664+00:00",
   "station": {
-    "archive_count": 873,
+    "archive_count": 872,
     "display_name": "Radio Białystok",
     "public_name": "Radio Białystok",
     "slug": "radiobialystok",
