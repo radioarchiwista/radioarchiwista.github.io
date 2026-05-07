@@ -503,30 +503,6 @@
       "utc_label": "2026-05-06 20:00 UTC",
       "utc_started_at": "2026-05-06T20:00:00+00:00",
       "year": 2026
-    },
-    {
-      "archive_item_identifier": "radio_uniwersytetu_warminsko_mazurskiego-2026-05-06",
-      "audio_url": "https://archive.org/download/radio_uniwersytetu_warminsko_mazurskiego-2026-05-06/radio_uniwersytetu_warminsko_mazurskiego_2026-05-06T21-00-00Z.mp3",
-      "completeness_ratio": 0.9998,
-      "day": 6,
-      "download_url": "https://archive.org/download/radio_uniwersytetu_warminsko_mazurskiego-2026-05-06/radio_uniwersytetu_warminsko_mazurskiego_2026-05-06T21-00-00Z.mp3",
-      "duration_seconds": 3598.464,
-      "hour": 23,
-      "hourly_archive_id": 44841,
-      "local_date_label": "06.05.2026",
-      "local_hour_label": "23:00",
-      "local_label": "2026-05-06 23:00 czasu polskiego",
-      "local_started_at": "2026-05-06T23:00:00+02:00",
-      "local_timezone_label": "czasu polskiego",
-      "month": 5,
-      "published_at": "2026-05-06T23:11:32.953290+00:00",
-      "published_local_label": "2026-05-07 01:11 czasu polskiego",
-      "remote_filename": "radio_uniwersytetu_warminsko_mazurskiego_2026-05-06T21-00-00Z.mp3",
-      "station_slug": "radiouwmfm",
-      "status": "published",
-      "utc_label": "2026-05-06 21:00 UTC",
-      "utc_started_at": "2026-05-06T21:00:00+00:00",
-      "year": 2026
     }
   ],
   "day": 6,
@@ -970,7 +946,7 @@
       "year": 2026
     },
     {
-      "archive_status": "published",
+      "archive_status": "error",
       "completeness_ratio": 0.9998,
       "day": 6,
       "hour": 23,
@@ -981,9 +957,9 @@
       "local_started_at": "2026-05-06T23:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 5,
-      "playable": true,
-      "state": "available",
-      "status_label": null,
+      "playable": false,
+      "state": "failed",
+      "status_label": "Nie udało się przygotować nagrania",
       "utc_label": "2026-05-06 21:00 UTC",
       "utc_started_at": "2026-05-06T21:00:00+00:00",
       "year": 2026
@@ -994,7 +970,7 @@
   "month": 5,
   "published_at": "2026-05-07T01:44:20.211961+00:00",
   "station": {
-    "archive_count": 871,
+    "archive_count": 870,
     "display_name": "Radio UWM FM",
     "public_name": "Radio UWM FM",
     "slug": "radiouwmfm",
