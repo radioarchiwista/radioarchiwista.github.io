@@ -1,15 +1,17 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-05-07T06:14:05.322609+00:00",
+  "generated_at": "2026-05-07T06:15:52.278472+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-05-07T05:00:00+00:00",
   "latest_archive_hour_stations": [
     "Program 1",
-    "Program 2"
+    "Program 2",
+    "Program 3",
+    "Polskie Radio 24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-05-07T06:14:05.322609+00:00",
+  "published_at": "2026-05-07T06:15:52.278472+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -28,14 +30,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 11490,
+      "archive_count": 11491,
       "display_name": "Program 3",
       "public_name": "Polskie Radio Program 3",
       "slug": "pr3",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 899,
+      "archive_count": 900,
       "display_name": "Polskie Radio 24",
       "public_name": "Polskie Radio 24",
       "slug": "pr24",
@@ -161,7 +163,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 876,
+      "archive_count": 875,
       "display_name": "Radio Koszalin",
       "public_name": "Radio Koszalin",
       "slug": "radiokoszalin",
@@ -238,7 +240,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 875,
+      "archive_count": 874,
       "display_name": "Radio Słupsk",
       "public_name": "Radio Słupsk",
       "slug": "radioslupsk",
@@ -259,7 +261,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 875,
+      "archive_count": 874,
       "display_name": "Radio Zachód",
       "public_name": "Radio Zachód",
       "slug": "radiozachod",
@@ -273,7 +275,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 876,
+      "archive_count": 875,
       "display_name": "Radio Łódź",
       "public_name": "Radio Łódź",
       "slug": "radiolodz",
