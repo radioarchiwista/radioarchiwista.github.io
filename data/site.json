@@ -1,17 +1,22 @@
 {
-  "archive_count": 43995,
+  "archive_count": 44020,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-05-07T00:50:20.764527+00:00",
+  "generated_at": "2026-05-07T01:08:38.604896+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-05-06T23:00:00+00:00",
   "latest_archive_hour_stations": [
     "Program 3",
     "Polskie Radio 24",
-    "Radio Białystok"
+    "Radio Białystok",
+    "Radio Gorzów",
+    "Radio Kielce",
+    "Radio Maryja",
+    "Radio Zachód",
+    "Radio Zielona Góra"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-05-07T00:50:20.764527+00:00",
+  "published_at": "2026-05-07T01:08:38.604896+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
