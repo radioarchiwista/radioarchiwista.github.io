@@ -1,47 +1,43 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-05-07T07:56:00.288667+00:00",
+  "generated_at": "2026-05-07T08:15:11.916050+00:00",
   "latest_archive_hour_expected_station_count": 39,
-  "latest_archive_hour_started_at": "2026-05-07T06:00:00+00:00",
+  "latest_archive_hour_started_at": "2026-05-07T07:00:00+00:00",
   "latest_archive_hour_stations": [
     "Program 1",
     "Program 2",
     "Program 3",
-    "Polskie Radio 24",
-    "Radio Białystok",
-    "Radio Gorzów",
-    "Radio Kielce",
-    "Radio Maryja"
+    "Polskie Radio 24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-05-07T07:56:00.288667+00:00",
+  "published_at": "2026-05-07T08:15:11.916050+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
     {
-      "archive_count": 883,
+      "archive_count": 884,
       "display_name": "Program 1",
       "public_name": "Polskie Radio Program 1",
       "slug": "pr1",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 884,
+      "archive_count": 885,
       "display_name": "Program 2",
       "public_name": "Polskie Radio Program 2",
       "slug": "pr2",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 11492,
+      "archive_count": 11493,
       "display_name": "Program 3",
       "public_name": "Polskie Radio Program 3",
       "slug": "pr3",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 901,
+      "archive_count": 902,
       "display_name": "Polskie Radio 24",
       "public_name": "Polskie Radio 24",
       "slug": "pr24",
@@ -90,7 +86,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 877,
+      "archive_count": 876,
       "display_name": "Radio Akadera",
       "public_name": "Radio Akadera",
       "slug": "radioakadera",
@@ -174,7 +170,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 878,
+      "archive_count": 877,
       "display_name": "Radio Kraków",
       "public_name": "Radio Kraków",
       "slug": "radiokrakow",
