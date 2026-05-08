@@ -50,6 +50,30 @@
     },
     {
       "archive_item_identifier": "radioopole-2026-05-07",
+      "audio_url": "https://archive.org/download/radioopole-2026-05-07/radioopole_2026-05-07T20-00-00Z.mp3",
+      "completeness_ratio": 0.9991,
+      "day": 7,
+      "download_url": "https://archive.org/download/radioopole-2026-05-07/radioopole_2026-05-07T20-00-00Z.mp3",
+      "duration_seconds": 3599.208,
+      "hour": 22,
+      "hourly_archive_id": 45926,
+      "local_date_label": "07.05.2026",
+      "local_hour_label": "22:00",
+      "local_label": "2026-05-07 22:00 czasu polskiego",
+      "local_started_at": "2026-05-07T22:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 5,
+      "published_at": "2026-05-08T02:17:04.367645+00:00",
+      "published_local_label": "2026-05-08 04:17 czasu polskiego",
+      "remote_filename": "radioopole_2026-05-07T20-00-00Z.mp3",
+      "station_slug": "radioopole",
+      "status": "published",
+      "utc_label": "2026-05-07 20:00 UTC",
+      "utc_started_at": "2026-05-07T20:00:00+00:00",
+      "year": 2026
+    },
+    {
+      "archive_item_identifier": "radioopole-2026-05-07",
       "audio_url": "https://archive.org/download/radioopole-2026-05-07/radioopole_2026-05-07T21-00-00Z.mp3",
       "completeness_ratio": 0.9998,
       "day": 7,
@@ -74,7 +98,7 @@
     }
   ],
   "day": 7,
-  "generated_at": "2026-05-08T01:44:38.320095+00:00",
+  "generated_at": "2026-05-08T02:18:16.160912+00:00",
   "hour_slots": [
     {
       "archive_status": "published",
@@ -115,7 +139,7 @@
       "year": 2026
     },
     {
-      "archive_status": "error",
+      "archive_status": "ready",
       "completeness_ratio": 0.9995,
       "day": 7,
       "hour": 2,
@@ -127,14 +151,14 @@
       "local_timezone_label": "czasu polskiego",
       "month": 5,
       "playable": false,
-      "state": "failed",
-      "status_label": "Nie udało się przygotować nagrania",
+      "state": "publishing",
+      "status_label": "Czeka w kolejce do publikacji",
       "utc_label": "2026-05-07 00:00 UTC",
       "utc_started_at": "2026-05-07T00:00:00+00:00",
       "year": 2026
     },
     {
-      "archive_status": "ready",
+      "archive_status": "error",
       "completeness_ratio": 0.9994,
       "day": 7,
       "hour": 3,
@@ -146,8 +170,8 @@
       "local_timezone_label": "czasu polskiego",
       "month": 5,
       "playable": false,
-      "state": "publishing",
-      "status_label": "Czeka w kolejce do publikacji",
+      "state": "failed",
+      "status_label": "Nie udało się przygotować nagrania",
       "utc_label": "2026-05-07 01:00 UTC",
       "utc_started_at": "2026-05-07T01:00:00+00:00",
       "year": 2026
@@ -495,7 +519,7 @@
       "year": 2026
     },
     {
-      "archive_status": "ready",
+      "archive_status": "published",
       "completeness_ratio": 0.9991,
       "day": 7,
       "hour": 22,
@@ -506,9 +530,9 @@
       "local_started_at": "2026-05-07T22:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 5,
-      "playable": false,
-      "state": "publishing",
-      "status_label": "Czeka w kolejce do publikacji",
+      "playable": true,
+      "state": "available",
+      "status_label": null,
       "utc_label": "2026-05-07 20:00 UTC",
       "utc_started_at": "2026-05-07T20:00:00+00:00",
       "year": 2026
@@ -536,9 +560,9 @@
   "latest_archive_hour_expected_station_count": 0,
   "latest_archive_hour_started_at": "2026-05-06T23:00:00+00:00",
   "month": 5,
-  "published_at": "2026-05-08T01:44:38.320095+00:00",
+  "published_at": "2026-05-08T02:18:16.160912+00:00",
   "station": {
-    "archive_count": 774,
+    "archive_count": 776,
     "display_name": "Radio Opole",
     "public_name": "Radio Opole",
     "slug": "radioopole",

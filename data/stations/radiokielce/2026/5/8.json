@@ -23,10 +23,34 @@
       "utc_label": "2026-05-07 22:00 UTC",
       "utc_started_at": "2026-05-07T22:00:00+00:00",
       "year": 2026
+    },
+    {
+      "archive_item_identifier": "radiokielce-2026-05-07",
+      "audio_url": "https://archive.org/download/radiokielce-2026-05-07/radiokielce_2026-05-07T23-00-00Z.mp3",
+      "completeness_ratio": 0.9986,
+      "day": 8,
+      "download_url": "https://archive.org/download/radiokielce-2026-05-07/radiokielce_2026-05-07T23-00-00Z.mp3",
+      "duration_seconds": 3598.632,
+      "hour": 1,
+      "hourly_archive_id": 46035,
+      "local_date_label": "08.05.2026",
+      "local_hour_label": "01:00",
+      "local_label": "2026-05-08 01:00 czasu polskiego",
+      "local_started_at": "2026-05-08T01:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 5,
+      "published_at": "2026-05-08T02:18:56.957201+00:00",
+      "published_local_label": "2026-05-08 04:18 czasu polskiego",
+      "remote_filename": "radiokielce_2026-05-07T23-00-00Z.mp3",
+      "station_slug": "radiokielce",
+      "status": "published",
+      "utc_label": "2026-05-07 23:00 UTC",
+      "utc_started_at": "2026-05-07T23:00:00+00:00",
+      "year": 2026
     }
   ],
   "day": 8,
-  "generated_at": "2026-05-08T01:43:57.125629+00:00",
+  "generated_at": "2026-05-08T02:18:56.957201+00:00",
   "hour_slots": [
     {
       "archive_status": "published",
@@ -48,7 +72,7 @@
       "year": 2026
     },
     {
-      "archive_status": "ready",
+      "archive_status": "published",
       "completeness_ratio": 0.9986,
       "day": 8,
       "hour": 1,
@@ -59,9 +83,9 @@
       "local_started_at": "2026-05-08T01:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 5,
-      "playable": false,
-      "state": "publishing",
-      "status_label": "Czeka w kolejce do publikacji",
+      "playable": true,
+      "state": "available",
+      "status_label": null,
       "utc_label": "2026-05-07 23:00 UTC",
       "utc_started_at": "2026-05-07T23:00:00+00:00",
       "year": 2026
@@ -106,11 +130,11 @@
     }
   ],
   "latest_archive_hour_expected_station_count": 0,
-  "latest_archive_hour_started_at": "2026-05-07T22:00:00+00:00",
+  "latest_archive_hour_started_at": "2026-05-07T23:00:00+00:00",
   "month": 5,
-  "published_at": "2026-05-08T01:43:57.125629+00:00",
+  "published_at": "2026-05-08T02:18:56.957201+00:00",
   "station": {
-    "archive_count": 854,
+    "archive_count": 856,
     "display_name": "Radio Kielce",
     "public_name": "Radio Kielce",
     "slug": "radiokielce",
