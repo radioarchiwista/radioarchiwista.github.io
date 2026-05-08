@@ -448,7 +448,7 @@
       "year": 2026
     },
     {
-      "archive_status": "ready",
+      "archive_status": "error",
       "completeness_ratio": 0.9997,
       "day": 7,
       "hour": 17,
@@ -460,14 +460,14 @@
       "local_timezone_label": "czasu polskiego",
       "month": 5,
       "playable": false,
-      "state": "publishing",
-      "status_label": "Czeka w kolejce do publikacji",
+      "state": "failed",
+      "status_label": "Nie udało się przygotować nagrania",
       "utc_label": "2026-05-07 15:00 UTC",
       "utc_started_at": "2026-05-07T15:00:00+00:00",
       "year": 2026
     },
     {
-      "archive_status": "ready",
+      "archive_status": "error",
       "completeness_ratio": 0.999,
       "day": 7,
       "hour": 18,
@@ -479,14 +479,14 @@
       "local_timezone_label": "czasu polskiego",
       "month": 5,
       "playable": false,
-      "state": "publishing",
-      "status_label": "Czeka w kolejce do publikacji",
+      "state": "failed",
+      "status_label": "Nie udało się przygotować nagrania",
       "utc_label": "2026-05-07 16:00 UTC",
       "utc_started_at": "2026-05-07T16:00:00+00:00",
       "year": 2026
     },
     {
-      "archive_status": "ready",
+      "archive_status": "error",
       "completeness_ratio": 0.9992,
       "day": 7,
       "hour": 19,
@@ -498,8 +498,8 @@
       "local_timezone_label": "czasu polskiego",
       "month": 5,
       "playable": false,
-      "state": "publishing",
-      "status_label": "Czeka w kolejce do publikacji",
+      "state": "failed",
+      "status_label": "Nie udało się przygotować nagrania",
       "utc_label": "2026-05-07 17:00 UTC",
       "utc_started_at": "2026-05-07T17:00:00+00:00",
       "year": 2026
@@ -586,7 +586,7 @@
   "month": 5,
   "published_at": "2026-05-08T08:49:29.496977+00:00",
   "station": {
-    "archive_count": 858,
+    "archive_count": 857,
     "display_name": "Radio Kielce",
     "public_name": "Radio Kielce",
     "slug": "radiokielce",
