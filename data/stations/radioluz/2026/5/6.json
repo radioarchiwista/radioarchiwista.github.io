@@ -458,7 +458,7 @@
     }
   ],
   "day": 6,
-  "generated_at": "2026-05-08T02:18:26.758994+00:00",
+  "generated_at": "2026-05-08T03:15:45.818993+00:00",
   "hour_slots": [
     {
       "archive_status": "published",
@@ -841,7 +841,7 @@
       "year": 2026
     },
     {
-      "archive_status": "error",
+      "archive_status": "ready",
       "completeness_ratio": 0.9997,
       "day": 6,
       "hour": 20,
@@ -853,8 +853,8 @@
       "local_timezone_label": "czasu polskiego",
       "month": 5,
       "playable": false,
-      "state": "failed",
-      "status_label": "Nie udało się przygotować nagrania",
+      "state": "publishing",
+      "status_label": "Czeka w kolejce do publikacji",
       "utc_label": "2026-05-06 18:00 UTC",
       "utc_started_at": "2026-05-06T18:00:00+00:00",
       "year": 2026
@@ -920,9 +920,9 @@
   "latest_archive_hour_expected_station_count": 0,
   "latest_archive_hour_started_at": "2026-05-06T23:00:00+00:00",
   "month": 5,
-  "published_at": "2026-05-08T02:18:26.758994+00:00",
+  "published_at": "2026-05-08T03:15:45.818993+00:00",
   "station": {
-    "archive_count": 876,
+    "archive_count": 877,
     "display_name": "Radio Luz",
     "public_name": "Radio Luz",
     "slug": "radioluz",
