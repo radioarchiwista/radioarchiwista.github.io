@@ -424,7 +424,7 @@
       "year": 2026
     },
     {
-      "archive_status": "ready",
+      "archive_status": "error",
       "completeness_ratio": 0.9997,
       "day": 7,
       "hour": 17,
@@ -436,8 +436,8 @@
       "local_timezone_label": "czasu polskiego",
       "month": 5,
       "playable": false,
-      "state": "publishing",
-      "status_label": "Czeka w kolejce do publikacji",
+      "state": "failed",
+      "status_label": "Nie udało się przygotować nagrania",
       "utc_label": "2026-05-07 15:00 UTC",
       "utc_started_at": "2026-05-07T15:00:00+00:00",
       "year": 2026
@@ -562,7 +562,7 @@
   "month": 5,
   "published_at": "2026-05-08T01:50:20.199857+00:00",
   "station": {
-    "archive_count": 877,
+    "archive_count": 876,
     "display_name": "Radio Słupsk",
     "public_name": "Radio Słupsk",
     "slug": "radioslupsk",

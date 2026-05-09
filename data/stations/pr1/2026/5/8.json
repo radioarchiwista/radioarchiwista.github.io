@@ -407,6 +407,30 @@
       "utc_label": "2026-05-08 16:00 UTC",
       "utc_started_at": "2026-05-08T16:00:00+00:00",
       "year": 2026
+    },
+    {
+      "archive_item_identifier": "pr1-2026-05-08",
+      "audio_url": "https://archive.org/download/pr1-2026-05-08/pr1_2026-05-08T18-00-00Z.mp3",
+      "completeness_ratio": 1.0,
+      "day": 8,
+      "download_url": "https://archive.org/download/pr1-2026-05-08/pr1_2026-05-08T18-00-00Z.mp3",
+      "duration_seconds": 3599.808,
+      "hour": 20,
+      "hourly_archive_id": 46761,
+      "local_date_label": "08.05.2026",
+      "local_hour_label": "20:00",
+      "local_label": "2026-05-08 20:00 czasu polskiego",
+      "local_started_at": "2026-05-08T20:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 5,
+      "published_at": "2026-05-09T00:08:56.090016+00:00",
+      "published_local_label": "2026-05-09 02:08 czasu polskiego",
+      "remote_filename": "pr1_2026-05-08T18-00-00Z.mp3",
+      "station_slug": "pr1",
+      "status": "published",
+      "utc_label": "2026-05-08 18:00 UTC",
+      "utc_started_at": "2026-05-08T18:00:00+00:00",
+      "year": 2026
     }
   ],
   "day": 8,
@@ -793,7 +817,7 @@
       "year": 2026
     },
     {
-      "archive_status": "ready",
+      "archive_status": "published",
       "completeness_ratio": 1.0,
       "day": 8,
       "hour": 20,
@@ -804,9 +828,9 @@
       "local_started_at": "2026-05-08T20:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 5,
-      "playable": false,
-      "state": "publishing",
-      "status_label": "Czeka w kolejce do publikacji",
+      "playable": true,
+      "state": "available",
+      "status_label": null,
       "utc_label": "2026-05-08 18:00 UTC",
       "utc_started_at": "2026-05-08T18:00:00+00:00",
       "year": 2026
@@ -874,7 +898,7 @@
   "month": 5,
   "published_at": "2026-05-09T00:09:00.434406+00:00",
   "station": {
-    "archive_count": 915,
+    "archive_count": 916,
     "display_name": "Program 1",
     "public_name": "Polskie Radio Program 1",
     "slug": "pr1",
