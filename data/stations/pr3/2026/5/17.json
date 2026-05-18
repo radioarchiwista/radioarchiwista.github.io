@@ -26,30 +26,6 @@
     },
     {
       "archive_item_identifier": "pr3-2026-05-17",
-      "audio_url": "https://archive.org/download/pr3-2026-05-17/pr3_2026-05-17T03-00-00Z.ogg",
-      "completeness_ratio": 0.0044,
-      "day": 17,
-      "download_url": "https://archive.org/download/pr3-2026-05-17/pr3_2026-05-17T03-00-00Z.ogg",
-      "duration_seconds": 15.664,
-      "hour": 5,
-      "hourly_archive_id": 48165,
-      "local_date_label": "17.05.2026",
-      "local_hour_label": "05:00",
-      "local_label": "2026-05-17 05:00 czasu polskiego",
-      "local_started_at": "2026-05-17T05:00:00+02:00",
-      "local_timezone_label": "czasu polskiego",
-      "month": 5,
-      "published_at": "2026-05-18T19:01:09.990842+00:00",
-      "published_local_label": "2026-05-18 21:01 czasu polskiego",
-      "remote_filename": "pr3_2026-05-17T03-00-00Z.ogg",
-      "station_slug": "pr3",
-      "status": "published",
-      "utc_label": "2026-05-17 03:00 UTC",
-      "utc_started_at": "2026-05-17T03:00:00+00:00",
-      "year": 2026
-    },
-    {
-      "archive_item_identifier": "pr3-2026-05-17",
       "audio_url": "https://archive.org/download/pr3-2026-05-17/pr3_2026-05-17T12-00-00Z.mp3",
       "completeness_ratio": 0.1287,
       "day": 17,
@@ -290,7 +266,7 @@
     }
   ],
   "day": 17,
-  "generated_at": "2026-05-18T19:01:09.990842+00:00",
+  "generated_at": "2026-05-18T19:17:53.704030+00:00",
   "hour_slots": [
     {
       "archive_status": "published",
@@ -388,7 +364,7 @@
       "year": 2026
     },
     {
-      "archive_status": "published",
+      "archive_status": "ready",
       "completeness_ratio": 0.0044,
       "day": 17,
       "hour": 5,
@@ -399,9 +375,9 @@
       "local_started_at": "2026-05-17T05:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 5,
-      "playable": true,
-      "state": "available",
-      "status_label": null,
+      "playable": false,
+      "state": "publishing",
+      "status_label": "Czeka w kolejce do publikacji",
       "utc_label": "2026-05-17 03:00 UTC",
       "utc_started_at": "2026-05-17T03:00:00+00:00",
       "year": 2026
@@ -750,9 +726,9 @@
     }
   ],
   "latest_archive_hour_expected_station_count": 0,
-  "latest_archive_hour_started_at": "2026-05-18T17:00:00+00:00",
+  "latest_archive_hour_started_at": "2026-05-18T18:00:00+00:00",
   "month": 5,
-  "published_at": "2026-05-18T19:01:09.990842+00:00",
+  "published_at": "2026-05-18T19:17:53.704030+00:00",
   "station": {
     "archive_count": 11728,
     "display_name": "Program 3",
