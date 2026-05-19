@@ -1,16 +1,16 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-05-19T22:17:22.858554+00:00",
+  "generated_at": "2026-05-19T23:22:32.412626+00:00",
   "latest_archive_hour_expected_station_count": 39,
-  "latest_archive_hour_started_at": "2026-05-19T21:00:00+00:00",
+  "latest_archive_hour_started_at": "2026-05-19T22:00:00+00:00",
   "latest_archive_hour_stations": [
     "Program 2",
     "Program 3",
     "Polskie Radio 24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-05-19T22:17:22.858554+00:00",
+  "published_at": "2026-05-19T23:22:32.412626+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -22,21 +22,21 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 985,
+      "archive_count": 986,
       "display_name": "Program 2",
       "public_name": "Polskie Radio Program 2",
       "slug": "pr2",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 11978,
+      "archive_count": 11979,
       "display_name": "Program 3",
       "public_name": "Polskie Radio Program 3",
       "slug": "pr3",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1003,
+      "archive_count": 1004,
       "display_name": "Polskie Radio 24",
       "public_name": "Polskie Radio 24",
       "slug": "pr24",
@@ -106,7 +106,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 941,
+      "archive_count": 942,
       "display_name": "Radio Centrum Rzeszów",
       "public_name": "Radio Centrum Rzeszów",
       "slug": "radiocentrumrzeszow",
