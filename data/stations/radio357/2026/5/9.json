@@ -2,6 +2,30 @@
   "archives": [
     {
       "archive_item_identifier": "radio357-2026-05-08",
+      "audio_url": "https://archive.org/download/radio357-2026-05-08/radio357_2026-05-08T22-00-00Z.mp3",
+      "completeness_ratio": 0.9997,
+      "day": 9,
+      "download_url": "https://archive.org/download/radio357-2026-05-08/radio357_2026-05-08T22-00-00Z.mp3",
+      "duration_seconds": 3596.232,
+      "hour": 0,
+      "hourly_archive_id": 46922,
+      "local_date_label": "09.05.2026",
+      "local_hour_label": "00:00",
+      "local_label": "2026-05-09 00:00 czasu polskiego",
+      "local_started_at": "2026-05-09T00:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 5,
+      "published_at": "2026-05-19T15:10:34.784341+00:00",
+      "published_local_label": "2026-05-19 17:10 czasu polskiego",
+      "remote_filename": "radio357_2026-05-08T22-00-00Z.mp3",
+      "station_slug": "radio357",
+      "status": "published",
+      "utc_label": "2026-05-08 22:00 UTC",
+      "utc_started_at": "2026-05-08T22:00:00+00:00",
+      "year": 2026
+    },
+    {
+      "archive_item_identifier": "radio357-2026-05-08",
       "audio_url": "https://archive.org/download/radio357-2026-05-08/radio357_2026-05-08T23-00-00Z.mp3",
       "completeness_ratio": 0.9984,
       "day": 9,
@@ -74,10 +98,10 @@
     }
   ],
   "day": 9,
-  "generated_at": "2026-05-19T14:30:28.394848+00:00",
+  "generated_at": "2026-05-19T15:31:01.867516+00:00",
   "hour_slots": [
     {
-      "archive_status": "ready",
+      "archive_status": "published",
       "completeness_ratio": 0.9997,
       "day": 9,
       "hour": 0,
@@ -88,9 +112,9 @@
       "local_started_at": "2026-05-09T00:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 5,
-      "playable": false,
-      "state": "publishing",
-      "status_label": "Czeka w kolejce do publikacji",
+      "playable": true,
+      "state": "available",
+      "status_label": null,
       "utc_label": "2026-05-08 22:00 UTC",
       "utc_started_at": "2026-05-08T22:00:00+00:00",
       "year": 2026
@@ -534,11 +558,11 @@
     }
   ],
   "latest_archive_hour_expected_station_count": 0,
-  "latest_archive_hour_started_at": "2026-05-19T13:00:00+00:00",
+  "latest_archive_hour_started_at": "2026-05-19T14:00:00+00:00",
   "month": 5,
-  "published_at": "2026-05-19T14:30:28.394848+00:00",
+  "published_at": "2026-05-19T15:31:01.867516+00:00",
   "station": {
-    "archive_count": 944,
+    "archive_count": 946,
     "display_name": "Radio 357",
     "public_name": "Radio 357",
     "slug": "radio357",
