@@ -2,7 +2,7 @@
   "archive_count": 47323,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-05-20T01:40:47.344083+00:00",
+  "generated_at": "2026-05-20T01:55:56.612468+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-05-20T00:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -16,7 +16,7 @@
     "Radio Kielce"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-05-20T01:40:47.344083+00:00",
+  "published_at": "2026-05-20T01:55:56.612468+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
