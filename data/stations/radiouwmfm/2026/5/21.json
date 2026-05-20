@@ -1,0 +1,63 @@
+{
+  "archives": [
+    {
+      "archive_item_identifier": "radio_uniwersytetu_warminsko_mazurskiego-2026-05-20",
+      "audio_url": "https://archive.org/download/radio_uniwersytetu_warminsko_mazurskiego-2026-05-20/radio_uniwersytetu_warminsko_mazurskiego_2026-05-20T22-00-00Z.mp3",
+      "completeness_ratio": 0.9999,
+      "day": 21,
+      "download_url": "https://archive.org/download/radio_uniwersytetu_warminsko_mazurskiego-2026-05-20/radio_uniwersytetu_warminsko_mazurskiego_2026-05-20T22-00-00Z.mp3",
+      "duration_seconds": 3598.272,
+      "hour": 0,
+      "hourly_archive_id": 51349,
+      "local_date_label": "21.05.2026",
+      "local_hour_label": "00:00",
+      "local_label": "2026-05-21 00:00 czasu polskiego",
+      "local_started_at": "2026-05-21T00:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 5,
+      "published_at": "2026-05-20T23:18:23.121401+00:00",
+      "published_local_label": "2026-05-21 01:18 czasu polskiego",
+      "remote_filename": "radio_uniwersytetu_warminsko_mazurskiego_2026-05-20T22-00-00Z.mp3",
+      "station_slug": "radiouwmfm",
+      "status": "published",
+      "utc_label": "2026-05-20 22:00 UTC",
+      "utc_started_at": "2026-05-20T22:00:00+00:00",
+      "year": 2026
+    }
+  ],
+  "day": 21,
+  "generated_at": "2026-05-20T23:18:23.121401+00:00",
+  "hour_slots": [
+    {
+      "archive_status": "published",
+      "completeness_ratio": 0.9999,
+      "day": 21,
+      "hour": 0,
+      "hourly_archive_id": 51349,
+      "local_date_label": "21.05.2026",
+      "local_hour_label": "00:00",
+      "local_label": "2026-05-21 00:00 czasu polskiego",
+      "local_started_at": "2026-05-21T00:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 5,
+      "playable": true,
+      "state": "available",
+      "status_label": null,
+      "utc_label": "2026-05-20 22:00 UTC",
+      "utc_started_at": "2026-05-20T22:00:00+00:00",
+      "year": 2026
+    }
+  ],
+  "latest_archive_hour_expected_station_count": 0,
+  "latest_archive_hour_started_at": "2026-05-20T22:00:00+00:00",
+  "month": 5,
+  "published_at": "2026-05-20T23:18:23.121401+00:00",
+  "station": {
+    "archive_count": 962,
+    "display_name": "Radio UWM FM",
+    "public_name": "Radio UWM FM",
+    "slug": "radiouwmfm",
+    "timezone": "Europe/Warsaw"
+  },
+  "year": 2026
+}
