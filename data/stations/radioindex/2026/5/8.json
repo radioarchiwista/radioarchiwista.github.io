@@ -74,6 +74,30 @@
     },
     {
       "archive_item_identifier": "radioindex-2026-05-08",
+      "audio_url": "https://archive.org/download/radioindex-2026-05-08/radioindex_2026-05-08T20-00-00Z.mp3",
+      "completeness_ratio": 1.0,
+      "day": 8,
+      "download_url": "https://archive.org/download/radioindex-2026-05-08/radioindex_2026-05-08T20-00-00Z.mp3",
+      "duration_seconds": 3600.457,
+      "hour": 22,
+      "hourly_archive_id": 46851,
+      "local_date_label": "08.05.2026",
+      "local_hour_label": "22:00",
+      "local_label": "2026-05-08 22:00 czasu polskiego",
+      "local_started_at": "2026-05-08T22:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 5,
+      "published_at": "2026-05-19T21:55:45.171868+00:00",
+      "published_local_label": "2026-05-19 23:55 czasu polskiego",
+      "remote_filename": "radioindex_2026-05-08T20-00-00Z.mp3",
+      "station_slug": "radioindex",
+      "status": "published",
+      "utc_label": "2026-05-08 20:00 UTC",
+      "utc_started_at": "2026-05-08T20:00:00+00:00",
+      "year": 2026
+    },
+    {
+      "archive_item_identifier": "radioindex-2026-05-08",
       "audio_url": "https://archive.org/download/radioindex-2026-05-08/radioindex_2026-05-08T21-00-00Z.mp3",
       "completeness_ratio": 1.0,
       "day": 8,
@@ -98,7 +122,7 @@
     }
   ],
   "day": 8,
-  "generated_at": "2026-05-20T13:40:46.645160+00:00",
+  "generated_at": "2026-05-20T13:48:58.137753+00:00",
   "hour_slots": [
     {
       "archive_status": "published",
@@ -519,7 +543,7 @@
       "year": 2026
     },
     {
-      "archive_status": "ready",
+      "archive_status": "published",
       "completeness_ratio": 1.0,
       "day": 8,
       "hour": 22,
@@ -530,9 +554,9 @@
       "local_started_at": "2026-05-08T22:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 5,
-      "playable": false,
-      "state": "publishing",
-      "status_label": "Czeka w kolejce do publikacji",
+      "playable": true,
+      "state": "available",
+      "status_label": null,
       "utc_label": "2026-05-08 20:00 UTC",
       "utc_started_at": "2026-05-08T20:00:00+00:00",
       "year": 2026
@@ -558,11 +582,11 @@
     }
   ],
   "latest_archive_hour_expected_station_count": 0,
-  "latest_archive_hour_started_at": "2026-05-19T20:00:00+00:00",
+  "latest_archive_hour_started_at": "2026-05-20T12:00:00+00:00",
   "month": 5,
-  "published_at": "2026-05-20T13:40:46.645160+00:00",
+  "published_at": "2026-05-20T13:48:58.137753+00:00",
   "station": {
-    "archive_count": 900,
+    "archive_count": 906,
     "display_name": "Radio Index",
     "public_name": "Radio Index",
     "slug": "radioindex",
