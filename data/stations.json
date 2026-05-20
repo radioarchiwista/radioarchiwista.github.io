@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-05-20T14:18:56.662254+00:00",
+  "generated_at": "2026-05-20T14:27:21.668677+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-05-20T13:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -25,6 +25,7 @@
     "Radio Kampus",
     "Radio Katowice",
     "Radio Koszalin",
+    "Radio Kraków",
     "Radio Lublin",
     "Radio Olsztyn",
     "Radio Zielona Góra",
@@ -32,7 +33,7 @@
     "Radio Żak"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-05-20T14:18:56.662254+00:00",
+  "published_at": "2026-05-20T14:27:21.668677+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -72,14 +73,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 967,
+      "archive_count": 968,
       "display_name": "Radio Nowy Świat",
       "public_name": "Radio Nowy Świat",
       "slug": "rns",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 958,
+      "archive_count": 959,
       "display_name": "TOK FM",
       "public_name": "TOK FM",
       "slug": "tokfm",
@@ -93,7 +94,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 969,
+      "archive_count": 970,
       "display_name": "Radio Republika",
       "public_name": "Radio Republika",
       "slug": "republika",
@@ -135,7 +136,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 956,
+      "archive_count": 957,
       "display_name": "Radio Dla Ciebie",
       "public_name": "Radio Dla Ciebie",
       "slug": "rdc",
@@ -289,7 +290,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 957,
+      "archive_count": 958,
       "display_name": "Radio Zielona Góra",
       "public_name": "Radio Zielona Góra",
       "slug": "radiozielonagora",
