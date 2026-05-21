@@ -98,6 +98,30 @@
     },
     {
       "archive_item_identifier": "radiogorzow-2026-05-08",
+      "audio_url": "https://archive.org/download/radiogorzow-2026-05-08/radiogorzow_2026-05-08T19-00-00Z.mp3",
+      "completeness_ratio": 0.9977,
+      "day": 8,
+      "download_url": "https://archive.org/download/radiogorzow-2026-05-08/radiogorzow_2026-05-08T19-00-00Z.mp3",
+      "duration_seconds": 3589.632,
+      "hour": 21,
+      "hourly_archive_id": 46811,
+      "local_date_label": "08.05.2026",
+      "local_hour_label": "21:00",
+      "local_label": "2026-05-08 21:00 czasu polskiego",
+      "local_started_at": "2026-05-08T21:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 5,
+      "published_at": "2026-05-21T16:28:14.622770+00:00",
+      "published_local_label": "2026-05-21 18:28 czasu polskiego",
+      "remote_filename": "radiogorzow_2026-05-08T19-00-00Z.mp3",
+      "station_slug": "radiogorzow",
+      "status": "published",
+      "utc_label": "2026-05-08 19:00 UTC",
+      "utc_started_at": "2026-05-08T19:00:00+00:00",
+      "year": 2026
+    },
+    {
+      "archive_item_identifier": "radiogorzow-2026-05-08",
       "audio_url": "https://archive.org/download/radiogorzow-2026-05-08/radiogorzow_2026-05-08T20-00-00Z.mp3",
       "completeness_ratio": 0.9815,
       "day": 8,
@@ -146,7 +170,7 @@
     }
   ],
   "day": 8,
-  "generated_at": "2026-05-21T15:10:06.105592+00:00",
+  "generated_at": "2026-05-21T16:28:14.622770+00:00",
   "hour_slots": [
     {
       "archive_status": "published",
@@ -548,7 +572,7 @@
       "year": 2026
     },
     {
-      "archive_status": "ready",
+      "archive_status": "published",
       "completeness_ratio": 0.9977,
       "day": 8,
       "hour": 21,
@@ -559,9 +583,9 @@
       "local_started_at": "2026-05-08T21:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 5,
-      "playable": false,
-      "state": "publishing",
-      "status_label": "Czeka w kolejce do publikacji",
+      "playable": true,
+      "state": "available",
+      "status_label": null,
       "utc_label": "2026-05-08 19:00 UTC",
       "utc_started_at": "2026-05-08T19:00:00+00:00",
       "year": 2026
@@ -606,11 +630,11 @@
     }
   ],
   "latest_archive_hour_expected_station_count": 0,
-  "latest_archive_hour_started_at": "2026-05-21T14:00:00+00:00",
+  "latest_archive_hour_started_at": "2026-05-21T15:00:00+00:00",
   "month": 5,
-  "published_at": "2026-05-21T15:10:06.105592+00:00",
+  "published_at": "2026-05-21T16:28:14.622770+00:00",
   "station": {
-    "archive_count": 991,
+    "archive_count": 993,
     "display_name": "Radio Gorzów",
     "public_name": "Radio Gorzów",
     "slug": "radiogorzow",
