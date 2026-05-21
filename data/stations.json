@@ -1,9 +1,9 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-05-21T01:46:57.136610+00:00",
+  "generated_at": "2026-05-21T02:04:58.781869+00:00",
   "latest_archive_hour_expected_station_count": 39,
-  "latest_archive_hour_started_at": "2026-05-21T00:00:00+00:00",
+  "latest_archive_hour_started_at": "2026-05-21T01:00:00+00:00",
   "latest_archive_hour_stations": [
     "Program 1",
     "Program 2",
@@ -12,33 +12,33 @@
     "Radio 357"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-05-21T01:46:57.136610+00:00",
+  "published_at": "2026-05-21T02:04:58.781869+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
     {
-      "archive_count": 1011,
+      "archive_count": 1012,
       "display_name": "Program 1",
       "public_name": "Polskie Radio Program 1",
       "slug": "pr1",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1012,
+      "archive_count": 1013,
       "display_name": "Program 2",
       "public_name": "Polskie Radio Program 2",
       "slug": "pr2",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 12003,
+      "archive_count": 12004,
       "display_name": "Program 3",
       "public_name": "Polskie Radio Program 3",
       "slug": "pr3",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1030,
+      "archive_count": 1031,
       "display_name": "Polskie Radio 24",
       "public_name": "Polskie Radio 24",
       "slug": "pr24",
@@ -59,7 +59,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 963,
+      "archive_count": 966,
       "display_name": "TOK FM",
       "public_name": "TOK FM",
       "slug": "tokfm",
@@ -234,7 +234,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 964,
+      "archive_count": 966,
       "display_name": "Radio Szczecin",
       "public_name": "Radio Szczecin",
       "slug": "radioszczecin",
