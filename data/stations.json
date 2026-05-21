@@ -1,21 +1,23 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-05-21T06:04:16.771179+00:00",
+  "generated_at": "2026-05-21T06:09:35.259908+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-05-21T05:00:00+00:00",
   "latest_archive_hour_stations": [
+    "Program 1",
     "Program 2",
     "Program 3",
-    "Polskie Radio 24"
+    "Polskie Radio 24",
+    "Radio 357"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-05-21T06:04:16.771179+00:00",
+  "published_at": "2026-05-21T06:09:35.259908+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
     {
-      "archive_count": 1015,
+      "archive_count": 1016,
       "display_name": "Program 1",
       "public_name": "Polskie Radio Program 1",
       "slug": "pr1",
@@ -43,7 +45,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 986,
+      "archive_count": 987,
       "display_name": "Radio 357",
       "public_name": "Radio 357",
       "slug": "radio357",
