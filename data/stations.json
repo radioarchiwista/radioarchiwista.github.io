@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-05-21T10:41:38.363289+00:00",
+  "generated_at": "2026-05-21T10:50:25.348038+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-05-21T09:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -16,10 +16,11 @@
     "Radio Centrum Rzeszów",
     "Radio Gdańsk",
     "Radio Gorzów",
-    "Radio Katowice"
+    "Radio Katowice",
+    "Radio Kielce"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-05-21T10:41:38.363289+00:00",
+  "published_at": "2026-05-21T10:50:25.348038+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -143,7 +144,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 918,
+      "archive_count": 919,
       "display_name": "Radio Index",
       "public_name": "Radio Index",
       "slug": "radioindex",
@@ -164,14 +165,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 945,
+      "archive_count": 946,
       "display_name": "Radio Kielce",
       "public_name": "Radio Kielce",
       "slug": "radiokielce",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 973,
+      "archive_count": 974,
       "display_name": "Radio Koszalin",
       "public_name": "Radio Koszalin",
       "slug": "radiokoszalin",
@@ -283,7 +284,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 971,
+      "archive_count": 972,
       "display_name": "Radio Łódź",
       "public_name": "Radio Łódź",
       "slug": "radiolodz",
