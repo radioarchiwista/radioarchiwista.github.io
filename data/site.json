@@ -1,10 +1,10 @@
 {
-  "archive_count": 52444,
+  "archive_count": 52482,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-05-22T07:03:41.901529+00:00",
+  "generated_at": "2026-05-22T07:28:25.248991+00:00",
   "latest_archive_hour_expected_station_count": 39,
-  "latest_archive_hour_started_at": "2026-05-22T05:00:00+00:00",
+  "latest_archive_hour_started_at": "2026-05-22T06:00:00+00:00",
   "latest_archive_hour_stations": [
     "Program 1",
     "Program 2",
@@ -13,7 +13,6 @@
     "Radio 357",
     "Radio Nowy Świat",
     "TOK FM",
-    "Radio Wnet",
     "Radio Republika",
     "Radio Afera",
     "Radio Akadera",
@@ -46,7 +45,7 @@
     "Radio Żak"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-05-22T07:03:41.901529+00:00",
+  "published_at": "2026-05-22T07:28:25.248991+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
