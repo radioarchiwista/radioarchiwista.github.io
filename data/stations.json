@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-05-22T12:27:07.046567+00:00",
+  "generated_at": "2026-05-22T12:54:46.479176+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-05-22T11:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -29,11 +29,9 @@
     "Radio Koszalin",
     "Radio Kraków",
     "Radio Lublin",
-    "Radio Luz",
     "Radio Maryja",
     "Radio Olsztyn",
     "Radio Opole",
-    "Radio PiK",
     "Radio Poznań",
     "Radio Rzeszów",
     "Radio Szczecin",
@@ -45,7 +43,7 @@
     "Radio Żak"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-05-22T12:27:07.046567+00:00",
+  "published_at": "2026-05-22T12:54:46.479176+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -64,7 +62,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 13414,
+      "archive_count": 13418,
       "display_name": "Program 3",
       "public_name": "Polskie Radio Program 3",
       "slug": "pr3",
@@ -99,7 +97,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1068,
+      "archive_count": 1069,
       "display_name": "Radio Wnet",
       "public_name": "Radio Wnet",
       "slug": "wnet",
@@ -197,7 +195,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1051,
+      "archive_count": 1052,
       "display_name": "Radio Koszalin",
       "public_name": "Radio Koszalin",
       "slug": "radiokoszalin",
