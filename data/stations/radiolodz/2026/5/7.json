@@ -375,37 +375,13 @@
       "local_started_at": "2026-05-07T15:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 5,
-      "published_at": "2026-05-21T15:09:40.619527+00:00",
-      "published_local_label": "2026-05-21 17:09 czasu polskiego",
+      "published_at": "2026-05-22T05:06:50.260340+00:00",
+      "published_local_label": "2026-05-22 07:06 czasu polskiego",
       "remote_filename": "radiolodz_2026-05-07T13-00-00Z.mp3",
       "station_slug": "radiolodz",
       "status": "published",
       "utc_label": "2026-05-07 13:00 UTC",
       "utc_started_at": "2026-05-07T13:00:00+00:00",
-      "year": 2026
-    },
-    {
-      "archive_item_identifier": "radiolodz-2026-05-07",
-      "audio_url": "https://archive.org/download/radiolodz-2026-05-07/radiolodz_2026-05-07T14-00-00Z.mp3",
-      "completeness_ratio": 1.0,
-      "day": 7,
-      "download_url": "https://archive.org/download/radiolodz-2026-05-07/radiolodz_2026-05-07T14-00-00Z.mp3",
-      "duration_seconds": 3600.065,
-      "hour": 16,
-      "hourly_archive_id": 45685,
-      "local_date_label": "07.05.2026",
-      "local_hour_label": "16:00",
-      "local_label": "2026-05-07 16:00 czasu polskiego",
-      "local_started_at": "2026-05-07T16:00:00+02:00",
-      "local_timezone_label": "czasu polskiego",
-      "month": 5,
-      "published_at": "2026-05-21T15:16:52.798748+00:00",
-      "published_local_label": "2026-05-21 17:16 czasu polskiego",
-      "remote_filename": "radiolodz_2026-05-07T14-00-00Z.mp3",
-      "station_slug": "radiolodz",
-      "status": "published",
-      "utc_label": "2026-05-07 14:00 UTC",
-      "utc_started_at": "2026-05-07T14:00:00+00:00",
       "year": 2026
     },
     {
@@ -578,7 +554,7 @@
     }
   ],
   "day": 7,
-  "generated_at": "2026-05-22T04:57:18.454614+00:00",
+  "generated_at": "2026-05-22T05:14:20.249366+00:00",
   "hour_slots": [
     {
       "archive_status": "published",
@@ -885,7 +861,7 @@
       "year": 2026
     },
     {
-      "archive_status": "published",
+      "archive_status": "ready",
       "completeness_ratio": 1.0,
       "day": 7,
       "hour": 16,
@@ -896,9 +872,9 @@
       "local_started_at": "2026-05-07T16:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 5,
-      "playable": true,
-      "state": "available",
-      "status_label": null,
+      "playable": false,
+      "state": "publishing",
+      "status_label": "Czeka w kolejce do publikacji",
       "utc_label": "2026-05-07 14:00 UTC",
       "utc_started_at": "2026-05-07T14:00:00+00:00",
       "year": 2026
@@ -1038,9 +1014,9 @@
     }
   ],
   "latest_archive_hour_expected_station_count": 0,
-  "latest_archive_hour_started_at": "2026-05-22T03:00:00+00:00",
+  "latest_archive_hour_started_at": "2026-05-22T04:00:00+00:00",
   "month": 5,
-  "published_at": "2026-05-22T04:57:18.454614+00:00",
+  "published_at": "2026-05-22T05:14:20.249366+00:00",
   "station": {
     "archive_count": 1044,
     "display_name": "Radio Łódź",
