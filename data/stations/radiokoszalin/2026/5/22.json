@@ -351,8 +351,8 @@
       "local_started_at": "2026-05-22T14:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 5,
-      "published_at": "2026-05-22T13:11:06.177483+00:00",
-      "published_local_label": "2026-05-22 15:11 czasu polskiego",
+      "published_at": "2026-05-22T13:45:35.620702+00:00",
+      "published_local_label": "2026-05-22 15:45 czasu polskiego",
       "remote_filename": "radiokoszalin_2026-05-22T12-00-00Z.mp3",
       "station_slug": "radiokoszalin",
       "status": "published",
@@ -362,7 +362,7 @@
     }
   ],
   "day": 22,
-  "generated_at": "2026-05-22T13:42:20.274163+00:00",
+  "generated_at": "2026-05-22T14:06:24.379223+00:00",
   "hour_slots": [
     {
       "archive_status": "published",
@@ -648,14 +648,33 @@
       "utc_label": "2026-05-22 12:00 UTC",
       "utc_started_at": "2026-05-22T12:00:00+00:00",
       "year": 2026
+    },
+    {
+      "archive_status": null,
+      "completeness_ratio": null,
+      "day": 22,
+      "hour": 15,
+      "hourly_archive_id": null,
+      "local_date_label": "22.05.2026",
+      "local_hour_label": "15:00",
+      "local_label": "2026-05-22 15:00 czasu polskiego",
+      "local_started_at": "2026-05-22T15:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 5,
+      "playable": false,
+      "state": "recorded",
+      "status_label": "Nagranie czeka na złożenie",
+      "utc_label": "2026-05-22 13:00 UTC",
+      "utc_started_at": "2026-05-22T13:00:00+00:00",
+      "year": 2026
     }
   ],
   "latest_archive_hour_expected_station_count": 0,
   "latest_archive_hour_started_at": "2026-05-22T12:00:00+00:00",
   "month": 5,
-  "published_at": "2026-05-22T13:42:20.274163+00:00",
+  "published_at": "2026-05-22T14:06:24.379223+00:00",
   "station": {
-    "archive_count": 1053,
+    "archive_count": 1052,
     "display_name": "Radio Koszalin",
     "public_name": "Radio Koszalin",
     "slug": "radiokoszalin",
