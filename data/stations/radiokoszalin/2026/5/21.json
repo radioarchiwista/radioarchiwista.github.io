@@ -183,8 +183,8 @@
       "local_started_at": "2026-05-21T07:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 5,
-      "published_at": "2026-05-21T12:56:07.239394+00:00",
-      "published_local_label": "2026-05-21 14:56 czasu polskiego",
+      "published_at": "2026-05-22T03:36:02.421961+00:00",
+      "published_local_label": "2026-05-22 05:36 czasu polskiego",
       "remote_filename": "radiokoszalin_2026-05-21T05-00-00Z.mp3",
       "station_slug": "radiokoszalin",
       "status": "published",
@@ -214,6 +214,30 @@
       "status": "published",
       "utc_label": "2026-05-21 06:00 UTC",
       "utc_started_at": "2026-05-21T06:00:00+00:00",
+      "year": 2026
+    },
+    {
+      "archive_item_identifier": "radiokoszalin-2026-05-21",
+      "audio_url": "https://archive.org/download/radiokoszalin-2026-05-21/radiokoszalin_2026-05-21T07-00-00Z.mp3",
+      "completeness_ratio": 1.0,
+      "day": 21,
+      "download_url": "https://archive.org/download/radiokoszalin-2026-05-21/radiokoszalin_2026-05-21T07-00-00Z.mp3",
+      "duration_seconds": 3599.961,
+      "hour": 9,
+      "hourly_archive_id": 51686,
+      "local_date_label": "21.05.2026",
+      "local_hour_label": "09:00",
+      "local_label": "2026-05-21 09:00 czasu polskiego",
+      "local_started_at": "2026-05-21T09:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 5,
+      "published_at": "2026-05-22T03:17:05.712796+00:00",
+      "published_local_label": "2026-05-22 05:17 czasu polskiego",
+      "remote_filename": "radiokoszalin_2026-05-21T07-00-00Z.mp3",
+      "station_slug": "radiokoszalin",
+      "status": "published",
+      "utc_label": "2026-05-21 07:00 UTC",
+      "utc_started_at": "2026-05-21T07:00:00+00:00",
       "year": 2026
     },
     {
@@ -554,7 +578,7 @@
     }
   ],
   "day": 21,
-  "generated_at": "2026-05-22T03:14:07.040283+00:00",
+  "generated_at": "2026-05-22T03:38:03.871777+00:00",
   "hour_slots": [
     {
       "archive_status": "published",
@@ -728,7 +752,7 @@
       "year": 2026
     },
     {
-      "archive_status": "ready",
+      "archive_status": "published",
       "completeness_ratio": 1.0,
       "day": 21,
       "hour": 9,
@@ -739,9 +763,9 @@
       "local_started_at": "2026-05-21T09:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 5,
-      "playable": false,
-      "state": "publishing",
-      "status_label": "Czeka w kolejce do publikacji",
+      "playable": true,
+      "state": "available",
+      "status_label": null,
       "utc_label": "2026-05-21 07:00 UTC",
       "utc_started_at": "2026-05-21T07:00:00+00:00",
       "year": 2026
@@ -1014,11 +1038,11 @@
     }
   ],
   "latest_archive_hour_expected_station_count": 0,
-  "latest_archive_hour_started_at": "2026-05-21T06:00:00+00:00",
+  "latest_archive_hour_started_at": "2026-05-22T02:00:00+00:00",
   "month": 5,
-  "published_at": "2026-05-22T03:14:07.040283+00:00",
+  "published_at": "2026-05-22T03:38:03.871777+00:00",
   "station": {
-    "archive_count": 1042,
+    "archive_count": 1043,
     "display_name": "Radio Koszalin",
     "public_name": "Radio Koszalin",
     "slug": "radiokoszalin",
