@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-05-22T21:18:16.505937+00:00",
+  "generated_at": "2026-05-22T21:22:12.221500+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-05-22T20:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -10,15 +10,14 @@
     "Program 3",
     "Polskie Radio 24",
     "Radio 357",
+    "Radio Nowy Świat",
+    "Radio Republika",
     "Radio Afera",
     "Radio Akadera",
     "Radio Białystok",
     "Radio Centrum Lublin",
-    "Radio Centrum Rzeszów",
-    "Radio Gdańsk",
+    "Radio Dla Ciebie",
     "Radio Gorzów",
-    "Radio Index",
-    "Radio Kampus",
     "Radio Katowice",
     "Radio Kielce",
     "Radio Koszalin",
@@ -33,10 +32,14 @@
     "Radio Rzeszów",
     "Radio Szczecin",
     "Radio Słupsk",
-    "Radio Łódź"
+    "Radio Wrocław",
+    "Radio Zachód",
+    "Radio Zielona Góra",
+    "Radio Łódź",
+    "Radio Żak"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-05-22T21:18:16.505937+00:00",
+  "published_at": "2026-05-22T21:22:12.221500+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -55,7 +58,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 13712,
+      "archive_count": 13714,
       "display_name": "Program 3",
       "public_name": "Polskie Radio Program 3",
       "slug": "pr3",
@@ -76,7 +79,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1075,
+      "archive_count": 1076,
       "display_name": "Radio Nowy Świat",
       "public_name": "Radio Nowy Świat",
       "slug": "rns",
@@ -97,7 +100,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1076,
+      "archive_count": 1077,
       "display_name": "Radio Republika",
       "public_name": "Radio Republika",
       "slug": "republika",
@@ -132,21 +135,21 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1058,
+      "archive_count": 1057,
       "display_name": "Radio Centrum Rzeszów",
       "public_name": "Radio Centrum Rzeszów",
       "slug": "radiocentrumrzeszow",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1060,
+      "archive_count": 1061,
       "display_name": "Radio Dla Ciebie",
       "public_name": "Radio Dla Ciebie",
       "slug": "rdc",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1061,
+      "archive_count": 1060,
       "display_name": "Radio Gdańsk",
       "public_name": "Radio Gdańsk",
       "slug": "radiogdansk",
@@ -160,14 +163,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1005,
+      "archive_count": 1004,
       "display_name": "Radio Index",
       "public_name": "Radio Index",
       "slug": "radioindex",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 768,
+      "archive_count": 767,
       "display_name": "Radio Kampus",
       "public_name": "Radio Kampus",
       "slug": "radiokampus",
@@ -279,21 +282,21 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1060,
+      "archive_count": 1061,
       "display_name": "Radio Wrocław",
       "public_name": "Radio Wrocław",
       "slug": "radiowroclaw",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1060,
+      "archive_count": 1061,
       "display_name": "Radio Zachód",
       "public_name": "Radio Zachód",
       "slug": "radiozachod",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1060,
+      "archive_count": 1061,
       "display_name": "Radio Zielona Góra",
       "public_name": "Radio Zielona Góra",
       "slug": "radiozielonagora",
@@ -307,7 +310,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1048,
+      "archive_count": 1049,
       "display_name": "Radio Żak",
       "public_name": "Radio Żak",
       "slug": "radiozak",
