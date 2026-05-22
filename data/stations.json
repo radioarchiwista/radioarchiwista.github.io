@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-05-22T23:19:50.214643+00:00",
+  "generated_at": "2026-05-22T23:23:37.431416+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-05-22T22:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -31,10 +31,16 @@
     "Radio PiK",
     "Radio Poznań",
     "Radio Rzeszów",
-    "Radio Łódź"
+    "Radio Szczecin",
+    "Radio Słupsk",
+    "Radio Wrocław",
+    "Radio Zachód",
+    "Radio Zielona Góra",
+    "Radio Łódź",
+    "Radio Żak"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-05-22T23:19:50.214643+00:00",
+  "published_at": "2026-05-22T23:23:37.431416+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -53,7 +59,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 13786,
+      "archive_count": 13788,
       "display_name": "Program 3",
       "public_name": "Polskie Radio Program 3",
       "slug": "pr3",
@@ -256,14 +262,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1062,
+      "archive_count": 1063,
       "display_name": "Radio Szczecin",
       "public_name": "Radio Szczecin",
       "slug": "radioszczecin",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1061,
+      "archive_count": 1062,
       "display_name": "Radio Słupsk",
       "public_name": "Radio Słupsk",
       "slug": "radioslupsk",
@@ -277,21 +283,21 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1062,
+      "archive_count": 1063,
       "display_name": "Radio Wrocław",
       "public_name": "Radio Wrocław",
       "slug": "radiowroclaw",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1062,
+      "archive_count": 1063,
       "display_name": "Radio Zachód",
       "public_name": "Radio Zachód",
       "slug": "radiozachod",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1062,
+      "archive_count": 1063,
       "display_name": "Radio Zielona Góra",
       "public_name": "Radio Zielona Góra",
       "slug": "radiozielonagora",
@@ -305,7 +311,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1050,
+      "archive_count": 1051,
       "display_name": "Radio Żak",
       "public_name": "Radio Żak",
       "slug": "radiozak",
