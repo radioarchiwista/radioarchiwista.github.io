@@ -495,8 +495,8 @@
       "local_started_at": "2026-05-07T20:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 5,
-      "published_at": "2026-05-21T15:47:47.796282+00:00",
-      "published_local_label": "2026-05-21 17:47 czasu polskiego",
+      "published_at": "2026-05-22T06:25:01.046594+00:00",
+      "published_local_label": "2026-05-22 08:25 czasu polskiego",
       "remote_filename": "republika_2026-05-07T18-00-00Z.mp3",
       "station_slug": "republika",
       "status": "published",
@@ -519,37 +519,13 @@
       "local_started_at": "2026-05-07T21:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 5,
-      "published_at": "2026-05-21T15:54:10.047017+00:00",
-      "published_local_label": "2026-05-21 17:54 czasu polskiego",
+      "published_at": "2026-05-22T06:35:17.395498+00:00",
+      "published_local_label": "2026-05-22 08:35 czasu polskiego",
       "remote_filename": "republika_2026-05-07T19-00-00Z.mp3",
       "station_slug": "republika",
       "status": "published",
       "utc_label": "2026-05-07 19:00 UTC",
       "utc_started_at": "2026-05-07T19:00:00+00:00",
-      "year": 2026
-    },
-    {
-      "archive_item_identifier": "republika-2026-05-07",
-      "audio_url": "https://archive.org/download/republika-2026-05-07/republika_2026-05-07T20-00-00Z.mp3",
-      "completeness_ratio": 1.0,
-      "day": 7,
-      "download_url": "https://archive.org/download/republika-2026-05-07/republika_2026-05-07T20-00-00Z.mp3",
-      "duration_seconds": 3599.308,
-      "hour": 22,
-      "hourly_archive_id": 45938,
-      "local_date_label": "07.05.2026",
-      "local_hour_label": "22:00",
-      "local_label": "2026-05-07 22:00 czasu polskiego",
-      "local_started_at": "2026-05-07T22:00:00+02:00",
-      "local_timezone_label": "czasu polskiego",
-      "month": 5,
-      "published_at": "2026-05-21T15:55:06.629050+00:00",
-      "published_local_label": "2026-05-21 17:55 czasu polskiego",
-      "remote_filename": "republika_2026-05-07T20-00-00Z.mp3",
-      "station_slug": "republika",
-      "status": "published",
-      "utc_label": "2026-05-07 20:00 UTC",
-      "utc_started_at": "2026-05-07T20:00:00+00:00",
       "year": 2026
     },
     {
@@ -578,7 +554,7 @@
     }
   ],
   "day": 7,
-  "generated_at": "2026-05-22T06:02:43.580816+00:00",
+  "generated_at": "2026-05-22T06:35:17.395498+00:00",
   "hour_slots": [
     {
       "archive_status": "published",
@@ -999,7 +975,7 @@
       "year": 2026
     },
     {
-      "archive_status": "published",
+      "archive_status": "ready",
       "completeness_ratio": 1.0,
       "day": 7,
       "hour": 22,
@@ -1010,9 +986,9 @@
       "local_started_at": "2026-05-07T22:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 5,
-      "playable": true,
-      "state": "available",
-      "status_label": null,
+      "playable": false,
+      "state": "publishing",
+      "status_label": "Czeka w kolejce do publikacji",
       "utc_label": "2026-05-07 20:00 UTC",
       "utc_started_at": "2026-05-07T20:00:00+00:00",
       "year": 2026
@@ -1038,9 +1014,9 @@
     }
   ],
   "latest_archive_hour_expected_station_count": 0,
-  "latest_archive_hour_started_at": "2026-05-22T04:00:00+00:00",
+  "latest_archive_hour_started_at": "2026-05-22T05:00:00+00:00",
   "month": 5,
-  "published_at": "2026-05-22T06:02:43.580816+00:00",
+  "published_at": "2026-05-22T06:35:17.395498+00:00",
   "station": {
     "archive_count": 1061,
     "display_name": "Radio Republika",
