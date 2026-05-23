@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-05-23T18:52:54.435184+00:00",
+  "generated_at": "2026-05-23T19:01:42.342250+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-05-23T17:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -33,7 +33,7 @@
     "Radio Żak"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-05-23T18:52:54.435184+00:00",
+  "published_at": "2026-05-23T19:01:42.342250+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -115,7 +115,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1075,
+      "archive_count": 1077,
       "display_name": "Radio Białystok",
       "public_name": "Radio Białystok",
       "slug": "radiobialystok",
@@ -192,7 +192,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1064,
+      "archive_count": 1068,
       "display_name": "Radio Kraków",
       "public_name": "Radio Kraków",
       "slug": "radiokrakow",
