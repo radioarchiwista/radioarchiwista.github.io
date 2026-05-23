@@ -25,6 +25,30 @@
       "year": 2026
     },
     {
+      "archive_item_identifier": "radiomaryja-2026-05-22",
+      "audio_url": "https://archive.org/download/radiomaryja-2026-05-22/radiomaryja_2026-05-22T23-00-00Z.mp3",
+      "completeness_ratio": 0.9974,
+      "day": 23,
+      "download_url": "https://archive.org/download/radiomaryja-2026-05-22/radiomaryja_2026-05-22T23-00-00Z.mp3",
+      "duration_seconds": 3592.992,
+      "hour": 1,
+      "hourly_archive_id": 54131,
+      "local_date_label": "23.05.2026",
+      "local_hour_label": "01:00",
+      "local_label": "2026-05-23 01:00 czasu polskiego",
+      "local_started_at": "2026-05-23T01:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 5,
+      "published_at": "2026-05-23T22:19:28.811680+00:00",
+      "published_local_label": "2026-05-24 00:19 czasu polskiego",
+      "remote_filename": "radiomaryja_2026-05-22T23-00-00Z.mp3",
+      "station_slug": "radiomaryja",
+      "status": "published",
+      "utc_label": "2026-05-22 23:00 UTC",
+      "utc_started_at": "2026-05-22T23:00:00+00:00",
+      "year": 2026
+    },
+    {
       "archive_item_identifier": "radiomaryja-2026-05-23",
       "audio_url": "https://archive.org/download/radiomaryja-2026-05-23/radiomaryja_2026-05-23T00-00-00Z.mp3",
       "completeness_ratio": 0.9969,
@@ -543,8 +567,8 @@
       "local_started_at": "2026-05-23T23:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 5,
-      "published_at": "2026-05-23T22:13:56.758022+00:00",
-      "published_local_label": "2026-05-24 00:13 czasu polskiego",
+      "published_at": "2026-05-23T22:24:04.510028+00:00",
+      "published_local_label": "2026-05-24 00:24 czasu polskiego",
       "remote_filename": "radiomaryja_2026-05-23T21-00-00Z.mp3",
       "station_slug": "radiomaryja",
       "status": "published",
@@ -554,7 +578,7 @@
     }
   ],
   "day": 23,
-  "generated_at": "2026-05-23T22:18:56.644762+00:00",
+  "generated_at": "2026-05-23T22:24:04.510028+00:00",
   "hour_slots": [
     {
       "archive_status": "published",
@@ -576,7 +600,7 @@
       "year": 2026
     },
     {
-      "archive_status": "ready",
+      "archive_status": "published",
       "completeness_ratio": 0.9974,
       "day": 23,
       "hour": 1,
@@ -587,9 +611,9 @@
       "local_started_at": "2026-05-23T01:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 5,
-      "playable": false,
-      "state": "publishing",
-      "status_label": "Czeka w kolejce do publikacji",
+      "playable": true,
+      "state": "available",
+      "status_label": null,
       "utc_label": "2026-05-22 23:00 UTC",
       "utc_started_at": "2026-05-22T23:00:00+00:00",
       "year": 2026
@@ -1016,9 +1040,9 @@
   "latest_archive_hour_expected_station_count": 0,
   "latest_archive_hour_started_at": "2026-05-23T21:00:00+00:00",
   "month": 5,
-  "published_at": "2026-05-23T22:18:56.644762+00:00",
+  "published_at": "2026-05-23T22:24:04.510028+00:00",
   "station": {
-    "archive_count": 939,
+    "archive_count": 940,
     "display_name": "Radio Maryja",
     "public_name": "Radio Maryja",
     "slug": "radiomaryja",
