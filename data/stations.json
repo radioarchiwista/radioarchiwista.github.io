@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-05-23T20:39:29.326365+00:00",
+  "generated_at": "2026-05-23T20:45:02.544472+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-05-23T19:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -30,16 +30,18 @@
     "Radio Kraków",
     "Radio Lublin",
     "Radio Luz",
+    "Radio Maryja",
     "Radio Olsztyn",
     "Radio Poznań",
     "Radio Rzeszów",
+    "Radio Szczecin",
     "Radio Wrocław",
     "Radio Zielona Góra",
     "Radio Łódź",
     "Radio Żak"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-05-23T20:39:29.326365+00:00",
+  "published_at": "2026-05-23T20:45:02.544472+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -86,7 +88,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1074,
+      "archive_count": 1088,
       "display_name": "TOK FM",
       "public_name": "TOK FM",
       "slug": "tokfm",
@@ -219,7 +221,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 918,
+      "archive_count": 921,
       "display_name": "Radio Maryja",
       "public_name": "Radio Maryja",
       "slug": "radiomaryja",
@@ -261,7 +263,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1073,
+      "archive_count": 1084,
       "display_name": "Radio Szczecin",
       "public_name": "Radio Szczecin",
       "slug": "radioszczecin",
