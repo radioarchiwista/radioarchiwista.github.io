@@ -1,8 +1,8 @@
 {
-  "archive_count": 54048,
+  "archive_count": 54064,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-05-23T18:50:43.076495+00:00",
+  "generated_at": "2026-05-23T18:52:54.435184+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-05-23T17:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -28,11 +28,13 @@
     "Radio Luz",
     "Radio Olsztyn",
     "Radio Rzeszów",
+    "Radio Wrocław",
     "Radio Zielona Góra",
-    "Radio Łódź"
+    "Radio Łódź",
+    "Radio Żak"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-05-23T18:50:43.076495+00:00",
+  "published_at": "2026-05-23T18:52:54.435184+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
