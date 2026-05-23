@@ -1,51 +1,15 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-05-23T21:58:20.484255+00:00",
+  "generated_at": "2026-05-23T22:03:53.456340+00:00",
   "latest_archive_hour_expected_station_count": 39,
-  "latest_archive_hour_started_at": "2026-05-23T20:00:00+00:00",
+  "latest_archive_hour_started_at": "2026-05-23T21:00:00+00:00",
   "latest_archive_hour_stations": [
-    "Program 1",
     "Program 2",
-    "Program 3",
-    "Polskie Radio 24",
-    "Radio 357",
-    "Radio Nowy Świat",
-    "TOK FM",
-    "Radio Wnet",
-    "Radio Republika",
-    "Radio Afera",
-    "Radio Akadera",
-    "Radio Białystok",
-    "Radio Centrum Lublin",
-    "Radio Centrum Rzeszów",
-    "Radio Dla Ciebie",
-    "Radio Gdańsk",
-    "Radio Gorzów",
-    "Radio Index",
-    "Radio Kampus",
-    "Radio Katowice",
-    "Radio Kielce",
-    "Radio Koszalin",
-    "Radio Kraków",
-    "Radio Lublin",
-    "Radio Luz",
-    "Radio Maryja",
-    "Radio Olsztyn",
-    "Radio Opole",
-    "Radio PiK",
-    "Radio Poznań",
-    "Radio Rzeszów",
-    "Radio Szczecin",
-    "Radio Słupsk",
-    "Radio Wrocław",
-    "Radio Zachód",
-    "Radio Zielona Góra",
-    "Radio Łódź",
-    "Radio Żak"
+    "Polskie Radio 24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-05-23T21:58:20.484255+00:00",
+  "published_at": "2026-05-23T22:03:53.456340+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -57,7 +21,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1081,
+      "archive_count": 1082,
       "display_name": "Program 2",
       "public_name": "Polskie Radio Program 2",
       "slug": "pr2",
@@ -71,7 +35,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1098,
+      "archive_count": 1099,
       "display_name": "Polskie Radio 24",
       "public_name": "Polskie Radio 24",
       "slug": "pr24",
@@ -225,7 +189,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 939,
+      "archive_count": 938,
       "display_name": "Radio Maryja",
       "public_name": "Radio Maryja",
       "slug": "radiomaryja",
@@ -239,7 +203,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 988,
+      "archive_count": 987,
       "display_name": "Radio Opole",
       "public_name": "Radio Opole",
       "slug": "radioopole",
@@ -295,7 +259,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1085,
+      "archive_count": 1084,
       "display_name": "Radio Zachód",
       "public_name": "Radio Zachód",
       "slug": "radiozachod",
