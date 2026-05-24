@@ -407,10 +407,34 @@
       "utc_label": "2026-05-24 14:00 UTC",
       "utc_started_at": "2026-05-24T14:00:00+00:00",
       "year": 2026
+    },
+    {
+      "archive_item_identifier": "radiozielonagora-2026-05-24",
+      "audio_url": "https://archive.org/download/radiozielonagora-2026-05-24/radiozielonagora_2026-05-24T15-00-00Z.mp3",
+      "completeness_ratio": 0.997,
+      "day": 24,
+      "download_url": "https://archive.org/download/radiozielonagora-2026-05-24/radiozielonagora_2026-05-24T15-00-00Z.mp3",
+      "duration_seconds": 3596.712,
+      "hour": 17,
+      "hourly_archive_id": 55729,
+      "local_date_label": "24.05.2026",
+      "local_hour_label": "17:00",
+      "local_label": "2026-05-24 17:00 czasu polskiego",
+      "local_started_at": "2026-05-24T17:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 5,
+      "published_at": "2026-05-24T16:17:23.310249+00:00",
+      "published_local_label": "2026-05-24 18:17 czasu polskiego",
+      "remote_filename": "radiozielonagora_2026-05-24T15-00-00Z.mp3",
+      "station_slug": "radiozielonagora",
+      "status": "published",
+      "utc_label": "2026-05-24 15:00 UTC",
+      "utc_started_at": "2026-05-24T15:00:00+00:00",
+      "year": 2026
     }
   ],
   "day": 24,
-  "generated_at": "2026-05-24T15:27:21.515061+00:00",
+  "generated_at": "2026-05-24T16:17:23.310249+00:00",
   "hour_slots": [
     {
       "archive_status": "published",
@@ -736,7 +760,7 @@
       "year": 2026
     },
     {
-      "archive_status": "ready",
+      "archive_status": "published",
       "completeness_ratio": 0.997,
       "day": 24,
       "hour": 17,
@@ -747,20 +771,20 @@
       "local_started_at": "2026-05-24T17:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 5,
-      "playable": false,
-      "state": "publishing",
-      "status_label": "Czeka w kolejce do publikacji",
+      "playable": true,
+      "state": "available",
+      "status_label": null,
       "utc_label": "2026-05-24 15:00 UTC",
       "utc_started_at": "2026-05-24T15:00:00+00:00",
       "year": 2026
     }
   ],
   "latest_archive_hour_expected_station_count": 0,
-  "latest_archive_hour_started_at": "2026-05-24T14:00:00+00:00",
+  "latest_archive_hour_started_at": "2026-05-24T15:00:00+00:00",
   "month": 5,
-  "published_at": "2026-05-24T15:27:21.515061+00:00",
+  "published_at": "2026-05-24T16:17:23.310249+00:00",
   "station": {
-    "archive_count": 1103,
+    "archive_count": 1104,
     "display_name": "Radio Zielona Góra",
     "public_name": "Radio Zielona Góra",
     "slug": "radiozielonagora",
