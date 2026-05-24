@@ -386,7 +386,7 @@
     }
   ],
   "day": 19,
-  "generated_at": "2026-05-24T18:06:39.320523+00:00",
+  "generated_at": "2026-05-24T18:13:59.749710+00:00",
   "hour_slots": [
     {
       "archive_status": "ready",
@@ -769,11 +769,11 @@
       "year": 2024
     },
     {
-      "archive_status": null,
-      "completeness_ratio": null,
+      "archive_status": "ready",
+      "completeness_ratio": 1.0,
       "day": 19,
       "hour": 20,
-      "hourly_archive_id": null,
+      "hourly_archive_id": 55802,
       "local_date_label": "19.09.2024",
       "local_hour_label": "20:00",
       "local_label": "2024-09-19 20:00 czasu polskiego",
@@ -781,18 +781,18 @@
       "local_timezone_label": "czasu polskiego",
       "month": 9,
       "playable": false,
-      "state": "missing",
-      "status_label": "Nie udało się nagrać",
+      "state": "publishing",
+      "status_label": "Czeka w kolejce do publikacji",
       "utc_label": "2024-09-19 18:00 UTC",
       "utc_started_at": "2024-09-19T18:00:00+00:00",
       "year": 2024
     },
     {
-      "archive_status": null,
-      "completeness_ratio": null,
+      "archive_status": "ready",
+      "completeness_ratio": 1.0,
       "day": 19,
       "hour": 21,
-      "hourly_archive_id": null,
+      "hourly_archive_id": 55803,
       "local_date_label": "19.09.2024",
       "local_hour_label": "21:00",
       "local_label": "2024-09-19 21:00 czasu polskiego",
@@ -800,8 +800,8 @@
       "local_timezone_label": "czasu polskiego",
       "month": 9,
       "playable": false,
-      "state": "missing",
-      "status_label": "Nie udało się nagrać",
+      "state": "publishing",
+      "status_label": "Czeka w kolejce do publikacji",
       "utc_label": "2024-09-19 19:00 UTC",
       "utc_started_at": "2024-09-19T19:00:00+00:00",
       "year": 2024
@@ -848,7 +848,7 @@
   "latest_archive_hour_expected_station_count": 0,
   "latest_archive_hour_started_at": "2026-05-24T17:00:00+00:00",
   "month": 9,
-  "published_at": "2026-05-24T18:06:39.320523+00:00",
+  "published_at": "2026-05-24T18:13:59.749710+00:00",
   "station": {
     "archive_count": 13887,
     "display_name": "Program 3",
