@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-05-24T02:05:22.243333+00:00",
+  "generated_at": "2026-05-24T02:13:35.051981+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-05-24T01:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -9,11 +9,14 @@
     "Program 2",
     "Program 3",
     "Polskie Radio 24",
+    "Radio 357",
     "Radio Afera",
-    "Radio Akadera"
+    "Radio Akadera",
+    "Radio Białystok",
+    "Radio Centrum Lublin"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-05-24T02:05:22.243333+00:00",
+  "published_at": "2026-05-24T02:13:35.051981+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -46,7 +49,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1097,
+      "archive_count": 1098,
       "display_name": "Radio 357",
       "public_name": "Radio 357",
       "slug": "radio357",
@@ -95,14 +98,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1084,
+      "archive_count": 1085,
       "display_name": "Radio Białystok",
       "public_name": "Radio Białystok",
       "slug": "radiobialystok",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1086,
+      "archive_count": 1087,
       "display_name": "Radio Centrum Lublin",
       "public_name": "Radio Centrum Lublin",
       "slug": "radiocentrumlublin",
