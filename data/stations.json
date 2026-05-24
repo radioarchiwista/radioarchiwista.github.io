@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-05-24T09:39:23.645034+00:00",
+  "generated_at": "2026-05-24T09:45:08.364812+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-05-24T08:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -29,10 +29,11 @@
     "Radio Poznań",
     "Radio Wrocław",
     "Radio Zachód",
-    "Radio Łódź"
+    "Radio Łódź",
+    "Radio Żak"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-05-24T09:39:23.645034+00:00",
+  "published_at": "2026-05-24T09:45:08.364812+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -303,7 +304,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1077,
+      "archive_count": 1085,
       "display_name": "Radio Żak",
       "public_name": "Radio Żak",
       "slug": "radiozak",
