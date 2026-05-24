@@ -1,8 +1,8 @@
 {
-  "archive_count": 54742,
+  "archive_count": 54751,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-05-24T09:24:27.969457+00:00",
+  "generated_at": "2026-05-24T09:28:23.254415+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-05-24T08:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -27,10 +27,11 @@
     "Radio Olsztyn",
     "Radio Opole",
     "Radio Wrocław",
+    "Radio Zachód",
     "Radio Łódź"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-05-24T09:24:27.969457+00:00",
+  "published_at": "2026-05-24T09:28:23.254415+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
