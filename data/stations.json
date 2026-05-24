@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-05-24T10:44:01.066486+00:00",
+  "generated_at": "2026-05-24T10:52:00.850531+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-05-24T09:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -22,6 +22,7 @@
     "Radio Gorzów",
     "Radio Index",
     "Radio Kampus",
+    "Radio Kielce",
     "Radio Koszalin",
     "Radio Kraków",
     "Radio Lublin",
@@ -39,7 +40,7 @@
     "Radio Żak"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-05-24T10:44:01.066486+00:00",
+  "published_at": "2026-05-24T10:52:00.850531+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -135,7 +136,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1085,
+      "archive_count": 1093,
       "display_name": "Radio Centrum Rzeszów",
       "public_name": "Radio Centrum Rzeszów",
       "slug": "radiocentrumrzeszow",
@@ -184,7 +185,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1061,
+      "archive_count": 1068,
       "display_name": "Radio Kielce",
       "public_name": "Radio Kielce",
       "slug": "radiokielce",
