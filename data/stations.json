@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-05-25T08:26:39.237239+00:00",
+  "generated_at": "2026-05-25T08:29:54.607360+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-05-25T07:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -12,13 +12,14 @@
     "Radio Afera",
     "Radio Akadera",
     "Radio Kampus",
+    "Radio Kraków",
     "Radio Lublin",
     "Radio Słupsk",
     "Radio Łódź",
     "Radio Żak"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-05-25T08:26:39.237239+00:00",
+  "published_at": "2026-05-25T08:29:54.607360+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -177,7 +178,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1117,
+      "archive_count": 1120,
       "display_name": "Radio Kraków",
       "public_name": "Radio Kraków",
       "slug": "radiokrakow",
