@@ -1,20 +1,15 @@
 {
-  "archive_count": 55501,
+  "archive_count": 55502,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-05-25T05:19:06.221939+00:00",
+  "generated_at": "2026-05-25T06:02:40.849862+00:00",
   "latest_archive_hour_expected_station_count": 39,
-  "latest_archive_hour_started_at": "2026-05-25T04:00:00+00:00",
+  "latest_archive_hour_started_at": "2026-05-25T05:00:00+00:00",
   "latest_archive_hour_stations": [
-    "Program 1",
-    "Program 2",
-    "Program 3",
-    "Polskie Radio 24",
-    "Radio Afera",
-    "Radio Akadera"
+    "Program 2"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-05-25T05:19:06.221939+00:00",
+  "published_at": "2026-05-25T06:02:40.849862+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
