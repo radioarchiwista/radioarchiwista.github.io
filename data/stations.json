@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-05-25T07:43:04.237538+00:00",
+  "generated_at": "2026-05-25T07:48:27.710091+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-05-25T06:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -13,11 +13,12 @@
     "Radio Akadera",
     "Radio Kampus",
     "Radio Lublin",
+    "Radio Słupsk",
     "Radio Łódź",
     "Radio Żak"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-05-25T07:43:04.237538+00:00",
+  "published_at": "2026-05-25T07:48:27.710091+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -246,7 +247,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1111,
+      "archive_count": 1118,
       "display_name": "Radio Słupsk",
       "public_name": "Radio Słupsk",
       "slug": "radioslupsk",
