@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-05-25T09:18:04.457038+00:00",
+  "generated_at": "2026-05-25T09:24:19.046494+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-05-25T08:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -10,6 +10,7 @@
     "Program 3",
     "Polskie Radio 24",
     "Radio 357",
+    "Radio Wnet",
     "Radio Afera",
     "Radio Akadera",
     "Radio Dla Ciebie",
@@ -21,11 +22,12 @@
     "Radio Opole",
     "Radio Poznań",
     "Radio Słupsk",
+    "Radio Zielona Góra",
     "Radio Łódź",
     "Radio Żak"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-05-25T09:18:04.457038+00:00",
+  "published_at": "2026-05-25T09:24:19.046494+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -58,7 +60,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1121,
+      "archive_count": 1129,
       "display_name": "Radio 357",
       "public_name": "Radio 357",
       "slug": "radio357",
@@ -79,7 +81,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1137,
+      "archive_count": 1138,
       "display_name": "Radio Wnet",
       "public_name": "Radio Wnet",
       "slug": "wnet",
@@ -149,7 +151,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1055,
+      "archive_count": 1056,
       "display_name": "Radio Index",
       "public_name": "Radio Index",
       "slug": "radioindex",
@@ -198,7 +200,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1120,
+      "archive_count": 1121,
       "display_name": "Radio Luz",
       "public_name": "Radio Luz",
       "slug": "radioluz",
@@ -282,7 +284,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1120,
+      "archive_count": 1121,
       "display_name": "Radio Zielona Góra",
       "public_name": "Radio Zielona Góra",
       "slug": "radiozielonagora",
