@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-05-25T09:12:31.874390+00:00",
+  "generated_at": "2026-05-25T09:18:04.457038+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-05-25T08:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -9,17 +9,23 @@
     "Program 2",
     "Program 3",
     "Polskie Radio 24",
+    "Radio 357",
     "Radio Afera",
     "Radio Akadera",
+    "Radio Dla Ciebie",
     "Radio Kampus",
     "Radio Kielce",
     "Radio Kraków",
     "Radio Lublin",
     "Radio Luz",
-    "Radio Łódź"
+    "Radio Opole",
+    "Radio Poznań",
+    "Radio Słupsk",
+    "Radio Łódź",
+    "Radio Żak"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-05-25T09:12:31.874390+00:00",
+  "published_at": "2026-05-25T09:18:04.457038+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -52,7 +58,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1120,
+      "archive_count": 1121,
       "display_name": "Radio 357",
       "public_name": "Radio 357",
       "slug": "radio357",
@@ -122,7 +128,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1120,
+      "archive_count": 1121,
       "display_name": "Radio Dla Ciebie",
       "public_name": "Radio Dla Ciebie",
       "slug": "rdc",
@@ -143,7 +149,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1056,
+      "archive_count": 1055,
       "display_name": "Radio Index",
       "public_name": "Radio Index",
       "slug": "radioindex",
@@ -164,7 +170,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1087,
+      "archive_count": 1094,
       "display_name": "Radio Kielce",
       "public_name": "Radio Kielce",
       "slug": "radiokielce",
@@ -192,7 +198,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1121,
+      "archive_count": 1120,
       "display_name": "Radio Luz",
       "public_name": "Radio Luz",
       "slug": "radioluz",
@@ -213,7 +219,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1023,
+      "archive_count": 1024,
       "display_name": "Radio Opole",
       "public_name": "Radio Opole",
       "slug": "radioopole",
@@ -227,7 +233,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1119,
+      "archive_count": 1120,
       "display_name": "Radio Poznań",
       "public_name": "Radio Poznań",
       "slug": "radiopoznan",
@@ -248,7 +254,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1119,
+      "archive_count": 1120,
       "display_name": "Radio Słupsk",
       "public_name": "Radio Słupsk",
       "slug": "radioslupsk",
@@ -276,7 +282,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1117,
+      "archive_count": 1120,
       "display_name": "Radio Zielona Góra",
       "public_name": "Radio Zielona Góra",
       "slug": "radiozielonagora",
@@ -290,7 +296,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1108,
+      "archive_count": 1109,
       "display_name": "Radio Żak",
       "public_name": "Radio Żak",
       "slug": "radiozak",
