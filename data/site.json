@@ -1,8 +1,8 @@
 {
-  "archive_count": 55660,
+  "archive_count": 55661,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-05-25T09:32:22.862172+00:00",
+  "generated_at": "2026-05-25T09:40:18.737674+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-05-25T08:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -15,7 +15,6 @@
     "Radio Afera",
     "Radio Akadera",
     "Radio Dla Ciebie",
-    "Radio Index",
     "Radio Kampus",
     "Radio Kielce",
     "Radio Kraków",
@@ -29,7 +28,7 @@
     "Radio Żak"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-05-25T09:32:22.862172+00:00",
+  "published_at": "2026-05-25T09:40:18.737674+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
