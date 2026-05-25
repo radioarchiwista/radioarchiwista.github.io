@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-05-25T09:40:18.737674+00:00",
+  "generated_at": "2026-05-25T09:45:00.209441+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-05-25T08:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -13,7 +13,9 @@
     "Radio Wnet",
     "Radio Afera",
     "Radio Akadera",
+    "Radio Centrum Lublin",
     "Radio Dla Ciebie",
+    "Radio Index",
     "Radio Kampus",
     "Radio Kielce",
     "Radio Kraków",
@@ -27,7 +29,7 @@
     "Radio Żak"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-05-25T09:40:18.737674+00:00",
+  "published_at": "2026-05-25T09:45:00.209441+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -116,7 +118,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1110,
+      "archive_count": 1118,
       "display_name": "Radio Centrum Lublin",
       "public_name": "Radio Centrum Lublin",
       "slug": "radiocentrumlublin",
