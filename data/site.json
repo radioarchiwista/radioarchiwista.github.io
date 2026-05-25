@@ -1,18 +1,26 @@
 {
-  "archive_count": 55610,
+  "archive_count": 55625,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-05-25T09:04:29.775341+00:00",
+  "generated_at": "2026-05-25T09:12:31.874390+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-05-25T08:00:00+00:00",
   "latest_archive_hour_stations": [
     "Program 1",
+    "Program 2",
     "Program 3",
     "Polskie Radio 24",
-    "Radio Afera"
+    "Radio Afera",
+    "Radio Akadera",
+    "Radio Kampus",
+    "Radio Kielce",
+    "Radio Kraków",
+    "Radio Lublin",
+    "Radio Luz",
+    "Radio Łódź"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-05-25T09:04:29.775341+00:00",
+  "published_at": "2026-05-25T09:12:31.874390+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
