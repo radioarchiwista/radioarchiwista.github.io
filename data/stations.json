@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-05-25T08:43:35.378905+00:00",
+  "generated_at": "2026-05-25T08:48:02.510019+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-05-25T07:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -11,16 +11,18 @@
     "Polskie Radio 24",
     "Radio Afera",
     "Radio Akadera",
+    "Radio Dla Ciebie",
     "Radio Kampus",
     "Radio Kraków",
     "Radio Lublin",
+    "Radio Luz",
     "Radio Opole",
     "Radio Słupsk",
     "Radio Łódź",
     "Radio Żak"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-05-25T08:43:35.378905+00:00",
+  "published_at": "2026-05-25T08:48:02.510019+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -123,7 +125,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1117,
+      "archive_count": 1120,
       "display_name": "Radio Dla Ciebie",
       "public_name": "Radio Dla Ciebie",
       "slug": "rdc",
@@ -193,7 +195,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1118,
+      "archive_count": 1120,
       "display_name": "Radio Luz",
       "public_name": "Radio Luz",
       "slug": "radioluz",
