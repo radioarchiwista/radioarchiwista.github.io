@@ -1,8 +1,8 @@
 {
-  "archive_count": 56002,
+  "archive_count": 56001,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-05-25T14:36:51.328685+00:00",
+  "generated_at": "2026-05-25T14:41:15.675619+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-05-25T13:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -10,7 +10,6 @@
     "Program 2",
     "Program 3",
     "Polskie Radio 24",
-    "Radio 357",
     "Radio Nowy Świat",
     "TOK FM",
     "Radio Wnet",
@@ -46,7 +45,7 @@
     "Radio Żak"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-05-25T14:36:51.328685+00:00",
+  "published_at": "2026-05-25T14:41:15.675619+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
