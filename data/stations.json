@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-05-26T09:30:02.726580+00:00",
+  "generated_at": "2026-05-26T09:36:07.652730+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-05-26T08:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -34,7 +34,7 @@
     "Radio Żak"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-05-26T09:30:02.726580+00:00",
+  "published_at": "2026-05-26T09:36:07.652730+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -67,7 +67,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1151,
+      "archive_count": 1153,
       "display_name": "Radio 357",
       "public_name": "Radio 357",
       "slug": "radio357",
@@ -284,7 +284,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1145,
+      "archive_count": 1144,
       "display_name": "Radio Zachód",
       "public_name": "Radio Zachód",
       "slug": "radiozachod",
