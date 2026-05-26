@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-05-26T08:47:54.638709+00:00",
+  "generated_at": "2026-05-26T08:54:42.115475+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-05-26T07:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -18,17 +18,19 @@
     "Radio Akadera",
     "Radio Centrum Lublin",
     "Radio Gdańsk",
+    "Radio Kampus",
     "Radio Katowice",
     "Radio Koszalin",
     "Radio Lublin",
     "Radio Maryja",
+    "Radio PiK",
     "Radio Poznań",
     "Radio Słupsk",
     "Radio Łódź",
     "Radio Żak"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-05-26T08:47:54.638709+00:00",
+  "published_at": "2026-05-26T08:54:42.115475+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -61,7 +63,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1152,
+      "archive_count": 1150,
       "display_name": "Radio 357",
       "public_name": "Radio 357",
       "slug": "radio357",
@@ -159,7 +161,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 843,
+      "archive_count": 851,
       "display_name": "Radio Kampus",
       "public_name": "Radio Kampus",
       "slug": "radiokampus",
@@ -222,14 +224,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1039,
+      "archive_count": 1041,
       "display_name": "Radio Opole",
       "public_name": "Radio Opole",
       "slug": "radioopole",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1090,
+      "archive_count": 1098,
       "display_name": "Radio PiK",
       "public_name": "Radio PiK",
       "slug": "radiopik",
