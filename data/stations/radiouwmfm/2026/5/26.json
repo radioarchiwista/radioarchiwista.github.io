@@ -50,7 +50,7 @@
     }
   ],
   "day": 26,
-  "generated_at": "2026-05-26T16:52:06.018588+00:00",
+  "generated_at": "2026-05-26T16:59:55.664421+00:00",
   "hour_slots": [
     {
       "archive_status": "ready",
@@ -393,12 +393,31 @@
       "utc_label": "2026-05-26 15:00 UTC",
       "utc_started_at": "2026-05-26T15:00:00+00:00",
       "year": 2026
+    },
+    {
+      "archive_status": null,
+      "completeness_ratio": null,
+      "day": 26,
+      "hour": 18,
+      "hourly_archive_id": null,
+      "local_date_label": "26.05.2026",
+      "local_hour_label": "18:00",
+      "local_label": "2026-05-26 18:00 czasu polskiego",
+      "local_started_at": "2026-05-26T18:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 5,
+      "playable": false,
+      "state": "recorded",
+      "status_label": "Nagranie czeka na złożenie",
+      "utc_label": "2026-05-26 16:00 UTC",
+      "utc_started_at": "2026-05-26T16:00:00+00:00",
+      "year": 2026
     }
   ],
   "latest_archive_hour_expected_station_count": 0,
   "latest_archive_hour_started_at": "2026-05-26T15:00:00+00:00",
   "month": 5,
-  "published_at": "2026-05-26T16:52:06.018588+00:00",
+  "published_at": "2026-05-26T16:59:55.664421+00:00",
   "station": {
     "archive_count": 1066,
     "display_name": "Radio UWM FM",
