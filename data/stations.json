@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-05-26T07:38:15.352586+00:00",
+  "generated_at": "2026-05-26T07:40:37.933202+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-05-26T06:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -11,15 +11,18 @@
     "Polskie Radio 24",
     "Radio 357",
     "Radio Nowy Świat",
+    "Radio Wnet",
+    "Radio Republika",
     "Radio Afera",
     "Radio Akadera",
     "Radio Centrum Lublin",
     "Radio Gdańsk",
     "Radio Katowice",
+    "Radio Maryja",
     "Radio Łódź"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-05-26T07:38:15.352586+00:00",
+  "published_at": "2026-05-26T07:40:37.933202+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -73,14 +76,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1158,
+      "archive_count": 1160,
       "display_name": "Radio Wnet",
       "public_name": "Radio Wnet",
       "slug": "wnet",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1152,
+      "archive_count": 1159,
       "display_name": "Radio Republika",
       "public_name": "Radio Republika",
       "slug": "republika",
@@ -199,7 +202,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 990,
+      "archive_count": 997,
       "display_name": "Radio Maryja",
       "public_name": "Radio Maryja",
       "slug": "radiomaryja",
