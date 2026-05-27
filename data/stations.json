@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-05-27T10:16:01.685387+00:00",
+  "generated_at": "2026-05-27T10:21:31.915277+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-05-27T09:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -9,6 +9,8 @@
     "Program 2",
     "Program 3",
     "Polskie Radio 24",
+    "Radio Nowy Świat",
+    "Radio Republika",
     "Radio Afera",
     "Radio Akadera",
     "Radio Białystok",
@@ -24,11 +26,14 @@
     "Radio PiK",
     "Radio Poznań",
     "Radio Rzeszów",
+    "Radio Szczecin",
     "Radio Wrocław",
+    "Radio Zachód",
+    "Radio Zielona Góra",
     "Radio Łódź"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-05-27T10:16:01.685387+00:00",
+  "published_at": "2026-05-27T10:21:31.915277+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -68,7 +73,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1184,
+      "archive_count": 1185,
       "display_name": "Radio Nowy Świat",
       "public_name": "Radio Nowy Świat",
       "slug": "rns",
@@ -89,7 +94,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1185,
+      "archive_count": 1186,
       "display_name": "Radio Republika",
       "public_name": "Radio Republika",
       "slug": "republika",
@@ -250,7 +255,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1160,
+      "archive_count": 1168,
       "display_name": "Radio Szczecin",
       "public_name": "Radio Szczecin",
       "slug": "radioszczecin",
@@ -264,7 +269,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1108,
+      "archive_count": 1109,
       "display_name": "Radio UWM FM",
       "public_name": "Radio UWM FM",
       "slug": "radiouwmfm",
@@ -278,14 +283,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1169,
+      "archive_count": 1170,
       "display_name": "Radio Zachód",
       "public_name": "Radio Zachód",
       "slug": "radiozachod",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1169,
+      "archive_count": 1170,
       "display_name": "Radio Zielona Góra",
       "public_name": "Radio Zielona Góra",
       "slug": "radiozielonagora",
