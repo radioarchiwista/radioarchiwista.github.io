@@ -1,8 +1,8 @@
 {
-  "archive_count": 57376,
+  "archive_count": 57378,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-05-27T07:20:54.863242+00:00",
+  "generated_at": "2026-05-27T07:36:51.864487+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-05-27T06:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -11,10 +11,12 @@
     "Program 3",
     "Radio Afera",
     "Radio Akadera",
-    "Radio Białystok"
+    "Radio Białystok",
+    "Radio Gorzów",
+    "Radio Zachód"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-05-27T07:20:54.863242+00:00",
+  "published_at": "2026-05-27T07:36:51.864487+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
