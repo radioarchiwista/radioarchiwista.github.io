@@ -1,13 +1,14 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-05-27T07:47:45.213960+00:00",
+  "generated_at": "2026-05-27T07:53:09.216994+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-05-27T06:00:00+00:00",
   "latest_archive_hour_stations": [
     "Program 1",
     "Program 2",
     "Program 3",
+    "Polskie Radio 24",
     "Radio Afera",
     "Radio Akadera",
     "Radio Białystok",
@@ -19,7 +20,7 @@
     "Radio Zachód"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-05-27T07:47:45.213960+00:00",
+  "published_at": "2026-05-27T07:53:09.216994+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -45,7 +46,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1173,
+      "archive_count": 1180,
       "display_name": "Polskie Radio 24",
       "public_name": "Polskie Radio 24",
       "slug": "pr24",
@@ -255,7 +256,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1103,
+      "archive_count": 1104,
       "display_name": "Radio UWM FM",
       "public_name": "Radio UWM FM",
       "slug": "radiouwmfm",
