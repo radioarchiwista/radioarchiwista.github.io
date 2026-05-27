@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-05-27T08:17:42.542194+00:00",
+  "generated_at": "2026-05-27T08:23:01.398578+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-05-27T07:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -20,7 +20,7 @@
     "Radio Zachód"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-05-27T08:17:42.542194+00:00",
+  "published_at": "2026-05-27T08:23:01.398578+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -256,7 +256,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1104,
+      "archive_count": 1105,
       "display_name": "Radio UWM FM",
       "public_name": "Radio UWM FM",
       "slug": "radiouwmfm",
