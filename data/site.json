@@ -1,8 +1,8 @@
 {
-  "archive_count": 57457,
+  "archive_count": 57466,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-05-27T08:32:06.688793+00:00",
+  "generated_at": "2026-05-27T08:38:55.982930+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-05-27T07:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -17,13 +17,15 @@
     "Radio Dla Ciebie",
     "Radio Gorzów",
     "Radio Luz",
+    "Radio Maryja",
     "Radio Opole",
+    "Radio PiK",
     "Radio Wrocław",
     "Radio Zachód",
     "Radio Łódź"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-05-27T08:32:06.688793+00:00",
+  "published_at": "2026-05-27T08:38:55.982930+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
