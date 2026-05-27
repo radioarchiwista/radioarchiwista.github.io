@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-05-27T09:50:51.950944+00:00",
+  "generated_at": "2026-05-27T09:54:10.200620+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-05-27T08:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -23,6 +23,7 @@
     "Radio Lublin",
     "Radio Luz",
     "Radio Maryja",
+    "Radio Olsztyn",
     "Radio Opole",
     "Radio PiK",
     "Radio Poznań",
@@ -32,7 +33,7 @@
     "Radio Łódź"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-05-27T09:50:51.950944+00:00",
+  "published_at": "2026-05-27T09:54:10.200620+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -93,7 +94,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1177,
+      "archive_count": 1185,
       "display_name": "Radio Republika",
       "public_name": "Radio Republika",
       "slug": "republika",
@@ -219,7 +220,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1160,
+      "archive_count": 1169,
       "display_name": "Radio Olsztyn",
       "public_name": "Radio Olsztyn",
       "slug": "radioolsztyn",
