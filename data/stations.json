@@ -1,24 +1,23 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-05-28T04:59:05.743493+00:00",
+  "generated_at": "2026-05-28T05:05:05.487196+00:00",
   "latest_archive_hour_expected_station_count": 39,
-  "latest_archive_hour_started_at": "2026-05-28T03:00:00+00:00",
+  "latest_archive_hour_started_at": "2026-05-28T04:00:00+00:00",
   "latest_archive_hour_stations": [
     "Program 1",
     "Program 3",
     "Polskie Radio 24",
     "Radio 357",
-    "Radio Afera",
-    "Radio Akadera"
+    "Radio Afera"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-05-28T04:59:05.743493+00:00",
+  "published_at": "2026-05-28T05:05:05.487196+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
     {
-      "archive_count": 1179,
+      "archive_count": 1180,
       "display_name": "Program 1",
       "public_name": "Polskie Radio Program 1",
       "slug": "pr1",
@@ -32,21 +31,21 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 13965,
+      "archive_count": 13966,
       "display_name": "Program 3",
       "public_name": "Polskie Radio Program 3",
       "slug": "pr3",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1201,
+      "archive_count": 1202,
       "display_name": "Polskie Radio 24",
       "public_name": "Polskie Radio 24",
       "slug": "pr24",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1178,
+      "archive_count": 1179,
       "display_name": "Radio 357",
       "public_name": "Radio 357",
       "slug": "radio357",
@@ -81,7 +80,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1189,
+      "archive_count": 1190,
       "display_name": "Radio Afera",
       "public_name": "Radio Afera",
       "slug": "afera",
@@ -179,7 +178,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1184,
+      "archive_count": 1183,
       "display_name": "Radio Lublin",
       "public_name": "Radio Lublin",
       "slug": "radiolublin",
@@ -249,7 +248,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1138,
+      "archive_count": 1140,
       "display_name": "Radio UWM FM",
       "public_name": "Radio UWM FM",
       "slug": "radiouwmfm",
