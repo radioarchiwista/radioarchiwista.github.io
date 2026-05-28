@@ -1,13 +1,12 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-05-27T23:34:06.886455+00:00",
+  "generated_at": "2026-05-28T00:26:07.417618+00:00",
   "latest_archive_hour_expected_station_count": 39,
-  "latest_archive_hour_started_at": "2026-05-27T22:00:00+00:00",
+  "latest_archive_hour_started_at": "2026-05-27T23:00:00+00:00",
   "latest_archive_hour_stations": [
     "Radio Nowy Świat",
     "TOK FM",
-    "Radio Wnet",
     "Radio Republika",
     "Radio Wrocław",
     "Radio Zachód",
@@ -15,7 +14,7 @@
     "Radio Żak"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-05-27T23:34:06.886455+00:00",
+  "published_at": "2026-05-28T00:26:07.417618+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -55,7 +54,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1198,
+      "archive_count": 1199,
       "display_name": "Radio Nowy Świat",
       "public_name": "Radio Nowy Świat",
       "slug": "rns",
@@ -76,7 +75,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1199,
+      "archive_count": 1200,
       "display_name": "Radio Republika",
       "public_name": "Radio Republika",
       "slug": "republika",
@@ -258,21 +257,21 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1183,
+      "archive_count": 1184,
       "display_name": "Radio Wrocław",
       "public_name": "Radio Wrocław",
       "slug": "radiowroclaw",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1183,
+      "archive_count": 1184,
       "display_name": "Radio Zachód",
       "public_name": "Radio Zachód",
       "slug": "radiozachod",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1183,
+      "archive_count": 1184,
       "display_name": "Radio Zielona Góra",
       "public_name": "Radio Zielona Góra",
       "slug": "radiozielonagora",
@@ -286,7 +285,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1171,
+      "archive_count": 1172,
       "display_name": "Radio Żak",
       "public_name": "Radio Żak",
       "slug": "radiozak",
