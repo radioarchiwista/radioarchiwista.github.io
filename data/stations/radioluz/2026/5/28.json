@@ -479,34 +479,10 @@
       "utc_label": "2026-05-28 17:00 UTC",
       "utc_started_at": "2026-05-28T17:00:00+00:00",
       "year": 2026
-    },
-    {
-      "archive_item_identifier": "radioluz-2026-05-28",
-      "audio_url": "https://archive.org/download/radioluz-2026-05-28/radioluz_2026-05-28T18-00-00Z.mp3",
-      "completeness_ratio": 1.0,
-      "day": 28,
-      "download_url": "https://archive.org/download/radioluz-2026-05-28/radioluz_2026-05-28T18-00-00Z.mp3",
-      "duration_seconds": 3600.12,
-      "hour": 20,
-      "hourly_archive_id": 59567,
-      "local_date_label": "28.05.2026",
-      "local_hour_label": "20:00",
-      "local_label": "2026-05-28 20:00 czasu polskiego",
-      "local_started_at": "2026-05-28T20:00:00+02:00",
-      "local_timezone_label": "czasu polskiego",
-      "month": 5,
-      "published_at": "2026-05-28T19:09:02.309434+00:00",
-      "published_local_label": "2026-05-28 21:09 czasu polskiego",
-      "remote_filename": "radioluz_2026-05-28T18-00-00Z.mp3",
-      "station_slug": "radioluz",
-      "status": "published",
-      "utc_label": "2026-05-28 18:00 UTC",
-      "utc_started_at": "2026-05-28T18:00:00+00:00",
-      "year": 2026
     }
   ],
   "day": 28,
-  "generated_at": "2026-05-28T19:09:02.309434+00:00",
+  "generated_at": "2026-05-28T18:24:15.305178+00:00",
   "hour_slots": [
     {
       "archive_status": "published",
@@ -889,7 +865,7 @@
       "year": 2026
     },
     {
-      "archive_status": "published",
+      "archive_status": "ready",
       "completeness_ratio": 1.0,
       "day": 28,
       "hour": 20,
@@ -900,20 +876,20 @@
       "local_started_at": "2026-05-28T20:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 5,
-      "playable": true,
-      "state": "available",
-      "status_label": null,
+      "playable": false,
+      "state": "publishing",
+      "status_label": "Czeka w kolejce do publikacji",
       "utc_label": "2026-05-28 18:00 UTC",
       "utc_started_at": "2026-05-28T18:00:00+00:00",
       "year": 2026
     }
   ],
   "latest_archive_hour_expected_station_count": 0,
-  "latest_archive_hour_started_at": "2026-05-28T18:00:00+00:00",
+  "latest_archive_hour_started_at": "2026-05-28T17:00:00+00:00",
   "month": 5,
-  "published_at": "2026-05-28T19:09:02.309434+00:00",
+  "published_at": "2026-05-28T18:24:15.305178+00:00",
   "station": {
-    "archive_count": 1203,
+    "archive_count": 1202,
     "display_name": "Radio Luz",
     "public_name": "Radio Luz",
     "slug": "radioluz",
