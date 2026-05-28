@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-05-28T06:50:34.500173+00:00",
+  "generated_at": "2026-05-28T06:55:27.253402+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-05-28T05:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -13,7 +13,7 @@
     "Radio Akadera"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-05-28T06:50:34.500173+00:00",
+  "published_at": "2026-05-28T06:55:27.253402+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -102,7 +102,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1177,
+      "archive_count": 1181,
       "display_name": "Radio Centrum Lublin",
       "public_name": "Radio Centrum Lublin",
       "slug": "radiocentrumlublin",
@@ -172,7 +172,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1180,
+      "archive_count": 1184,
       "display_name": "Radio Kraków",
       "public_name": "Radio Kraków",
       "slug": "radiokrakow",
@@ -242,14 +242,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1179,
+      "archive_count": 1183,
       "display_name": "Radio Słupsk",
       "public_name": "Radio Słupsk",
       "slug": "radioslupsk",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1138,
+      "archive_count": 1141,
       "display_name": "Radio UWM FM",
       "public_name": "Radio UWM FM",
       "slug": "radiouwmfm",
