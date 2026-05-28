@@ -1,66 +1,53 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-05-28T08:58:52.786583+00:00",
+  "generated_at": "2026-05-28T09:05:03.113177+00:00",
   "latest_archive_hour_expected_station_count": 39,
-  "latest_archive_hour_started_at": "2026-05-28T07:00:00+00:00",
+  "latest_archive_hour_started_at": "2026-05-28T08:00:00+00:00",
   "latest_archive_hour_stations": [
     "Program 1",
     "Program 2",
     "Program 3",
     "Polskie Radio 24",
     "Radio 357",
-    "TOK FM",
-    "Radio Wnet",
     "Radio Afera",
-    "Radio Akadera",
-    "Radio Centrum Lublin",
-    "Radio Dla Ciebie",
-    "Radio Kielce",
-    "Radio Koszalin",
-    "Radio Kraków",
-    "Radio Luz",
-    "Radio Olsztyn",
-    "Radio Opole",
-    "Radio PiK",
-    "Radio Łódź",
-    "Radio Żak"
+    "Radio Akadera"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-05-28T08:58:52.786583+00:00",
+  "published_at": "2026-05-28T09:05:03.113177+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
     {
-      "archive_count": 1187,
+      "archive_count": 1188,
       "display_name": "Program 1",
       "public_name": "Polskie Radio Program 1",
       "slug": "pr1",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1188,
+      "archive_count": 1189,
       "display_name": "Program 2",
       "public_name": "Polskie Radio Program 2",
       "slug": "pr2",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 13973,
+      "archive_count": 13974,
       "display_name": "Program 3",
       "public_name": "Polskie Radio Program 3",
       "slug": "pr3",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1205,
+      "archive_count": 1206,
       "display_name": "Polskie Radio 24",
       "public_name": "Polskie Radio 24",
       "slug": "pr24",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1186,
+      "archive_count": 1187,
       "display_name": "Radio 357",
       "public_name": "Radio 357",
       "slug": "radio357",
@@ -95,14 +82,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1193,
+      "archive_count": 1194,
       "display_name": "Radio Afera",
       "public_name": "Radio Afera",
       "slug": "afera",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1189,
+      "archive_count": 1190,
       "display_name": "Radio Akadera",
       "public_name": "Radio Akadera",
       "slug": "radioakadera",
@@ -263,7 +250,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1145,
+      "archive_count": 1147,
       "display_name": "Radio UWM FM",
       "public_name": "Radio UWM FM",
       "slug": "radiouwmfm",
