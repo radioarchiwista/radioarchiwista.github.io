@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-05-28T07:42:14.024202+00:00",
+  "generated_at": "2026-05-28T07:47:10.435656+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-05-28T06:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -15,11 +15,10 @@
     "Radio Kielce",
     "Radio Koszalin",
     "Radio Kraków",
-    "Radio Luz",
-    "Radio PiK"
+    "Radio Żak"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-05-28T07:42:14.024202+00:00",
+  "published_at": "2026-05-28T07:47:10.435656+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -108,7 +107,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1187,
+      "archive_count": 1188,
       "display_name": "Radio Centrum Lublin",
       "public_name": "Radio Centrum Lublin",
       "slug": "radiocentrumlublin",
@@ -164,7 +163,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1163,
+      "archive_count": 1164,
       "display_name": "Radio Kielce",
       "public_name": "Radio Kielce",
       "slug": "radiokielce",
@@ -220,7 +219,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1144,
+      "archive_count": 1143,
       "display_name": "Radio PiK",
       "public_name": "Radio PiK",
       "slug": "radiopik",
@@ -290,7 +289,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1172,
+      "archive_count": 1176,
       "display_name": "Radio Żak",
       "public_name": "Radio Żak",
       "slug": "radiozak",
