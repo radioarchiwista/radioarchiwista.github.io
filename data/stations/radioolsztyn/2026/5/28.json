@@ -15,8 +15,8 @@
       "local_started_at": "2026-05-28T00:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 5,
-      "published_at": "2026-05-28T05:49:27.504948+00:00",
-      "published_local_label": "2026-05-28 07:49 czasu polskiego",
+      "published_at": "2026-05-28T05:59:33.437962+00:00",
+      "published_local_label": "2026-05-28 07:59 czasu polskiego",
       "remote_filename": "radioolsztyn_2026-05-27T22-00-00Z.mp3",
       "station_slug": "radioolsztyn",
       "status": "published",
@@ -39,8 +39,8 @@
       "local_started_at": "2026-05-28T01:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 5,
-      "published_at": "2026-05-28T05:48:02.094233+00:00",
-      "published_local_label": "2026-05-28 07:48 czasu polskiego",
+      "published_at": "2026-05-28T05:58:21.851609+00:00",
+      "published_local_label": "2026-05-28 07:58 czasu polskiego",
       "remote_filename": "radioolsztyn_2026-05-27T23-00-00Z.mp3",
       "station_slug": "radioolsztyn",
       "status": "published",
@@ -50,7 +50,7 @@
     }
   ],
   "day": 28,
-  "generated_at": "2026-05-28T05:49:49.835355+00:00",
+  "generated_at": "2026-05-28T06:00:22.420820+00:00",
   "hour_slots": [
     {
       "archive_status": "published",
@@ -184,12 +184,31 @@
       "utc_label": "2026-05-28 04:00 UTC",
       "utc_started_at": "2026-05-28T04:00:00+00:00",
       "year": 2026
+    },
+    {
+      "archive_status": null,
+      "completeness_ratio": null,
+      "day": 28,
+      "hour": 7,
+      "hourly_archive_id": null,
+      "local_date_label": "28.05.2026",
+      "local_hour_label": "07:00",
+      "local_label": "2026-05-28 07:00 czasu polskiego",
+      "local_started_at": "2026-05-28T07:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 5,
+      "playable": false,
+      "state": "recorded",
+      "status_label": "Nagranie czeka na złożenie",
+      "utc_label": "2026-05-28 05:00 UTC",
+      "utc_started_at": "2026-05-28T05:00:00+00:00",
+      "year": 2026
     }
   ],
   "latest_archive_hour_expected_station_count": 0,
   "latest_archive_hour_started_at": "2026-05-27T23:00:00+00:00",
   "month": 5,
-  "published_at": "2026-05-28T05:49:49.835355+00:00",
+  "published_at": "2026-05-28T06:00:22.420820+00:00",
   "station": {
     "archive_count": 1184,
     "display_name": "Radio Olsztyn",
