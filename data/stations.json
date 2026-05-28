@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-05-28T10:08:50.990033+00:00",
+  "generated_at": "2026-05-28T10:17:18.120683+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-05-28T09:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -10,20 +10,32 @@
     "Program 3",
     "Polskie Radio 24",
     "Radio 357",
+    "Radio Nowy Świat",
+    "Radio Wnet",
+    "Radio Republika",
     "Radio Afera",
     "Radio Akadera",
     "Radio Białystok",
     "Radio Centrum Lublin",
+    "Radio Dla Ciebie",
     "Radio Index",
     "Radio Kampus",
     "Radio Kielce",
     "Radio Koszalin",
     "Radio Kraków",
     "Radio Luz",
-    "Radio Łódź"
+    "Radio Maryja",
+    "Radio Olsztyn",
+    "Radio Opole",
+    "Radio PiK",
+    "Radio Rzeszów",
+    "Radio Szczecin",
+    "Radio Wrocław",
+    "Radio Łódź",
+    "Radio Żak"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-05-28T10:08:50.990033+00:00",
+  "published_at": "2026-05-28T10:17:18.120683+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -63,7 +75,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1208,
+      "archive_count": 1209,
       "display_name": "Radio Nowy Świat",
       "public_name": "Radio Nowy Świat",
       "slug": "rns",
@@ -77,14 +89,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1210,
+      "archive_count": 1211,
       "display_name": "Radio Wnet",
       "public_name": "Radio Wnet",
       "slug": "wnet",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1209,
+      "archive_count": 1210,
       "display_name": "Radio Republika",
       "public_name": "Radio Republika",
       "slug": "republika",
@@ -126,7 +138,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1193,
+      "archive_count": 1194,
       "display_name": "Radio Dla Ciebie",
       "public_name": "Radio Dla Ciebie",
       "slug": "rdc",
@@ -203,28 +215,28 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1038,
+      "archive_count": 1048,
       "display_name": "Radio Maryja",
       "public_name": "Radio Maryja",
       "slug": "radiomaryja",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1193,
+      "archive_count": 1194,
       "display_name": "Radio Olsztyn",
       "public_name": "Radio Olsztyn",
       "slug": "radioolsztyn",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1096,
+      "archive_count": 1097,
       "display_name": "Radio Opole",
       "public_name": "Radio Opole",
       "slug": "radioopole",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1147,
+      "archive_count": 1148,
       "display_name": "Radio PiK",
       "public_name": "Radio PiK",
       "slug": "radiopik",
@@ -238,14 +250,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1184,
+      "archive_count": 1194,
       "display_name": "Radio Rzeszów",
       "public_name": "Radio Rzeszów",
       "slug": "radiorzeszow",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1193,
+      "archive_count": 1194,
       "display_name": "Radio Szczecin",
       "public_name": "Radio Szczecin",
       "slug": "radioszczecin",
@@ -259,14 +271,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1148,
+      "archive_count": 1147,
       "display_name": "Radio UWM FM",
       "public_name": "Radio UWM FM",
       "slug": "radiouwmfm",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1193,
+      "archive_count": 1194,
       "display_name": "Radio Wrocław",
       "public_name": "Radio Wrocław",
       "slug": "radiowroclaw",
@@ -294,7 +306,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1181,
+      "archive_count": 1182,
       "display_name": "Radio Żak",
       "public_name": "Radio Żak",
       "slug": "radiozak",
