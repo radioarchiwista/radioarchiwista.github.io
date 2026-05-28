@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-05-28T09:14:33.575910+00:00",
+  "generated_at": "2026-05-28T09:20:06.501501+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-05-28T08:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -19,10 +19,13 @@
     "Radio Luz",
     "Radio Olsztyn",
     "Radio Opole",
-    "Radio Łódź"
+    "Radio PiK",
+    "Radio Wrocław",
+    "Radio Łódź",
+    "Radio Żak"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-05-28T09:14:33.575910+00:00",
+  "published_at": "2026-05-28T09:20:06.501501+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -223,7 +226,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1146,
+      "archive_count": 1147,
       "display_name": "Radio PiK",
       "public_name": "Radio PiK",
       "slug": "radiopik",
@@ -258,14 +261,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1146,
+      "archive_count": 1145,
       "display_name": "Radio UWM FM",
       "public_name": "Radio UWM FM",
       "slug": "radiouwmfm",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1192,
+      "archive_count": 1193,
       "display_name": "Radio Wrocław",
       "public_name": "Radio Wrocław",
       "slug": "radiowroclaw",
@@ -293,7 +296,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1180,
+      "archive_count": 1181,
       "display_name": "Radio Żak",
       "public_name": "Radio Żak",
       "slug": "radiozak",
