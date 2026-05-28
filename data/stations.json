@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-05-28T10:29:08.493142+00:00",
+  "generated_at": "2026-05-28T10:34:16.204769+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-05-28T09:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -19,6 +19,7 @@
     "Radio Białystok",
     "Radio Centrum Lublin",
     "Radio Dla Ciebie",
+    "Radio Gdańsk",
     "Radio Index",
     "Radio Kampus",
     "Radio Katowice",
@@ -34,11 +35,12 @@
     "Radio Rzeszów",
     "Radio Szczecin",
     "Radio Wrocław",
+    "Radio Zielona Góra",
     "Radio Łódź",
     "Radio Żak"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-05-28T10:29:08.493142+00:00",
+  "published_at": "2026-05-28T10:34:16.204769+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -148,7 +150,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1184,
+      "archive_count": 1194,
       "display_name": "Radio Gdańsk",
       "public_name": "Radio Gdańsk",
       "slug": "radiogdansk",
@@ -295,7 +297,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1184,
+      "archive_count": 1194,
       "display_name": "Radio Zielona Góra",
       "public_name": "Radio Zielona Góra",
       "slug": "radiozielonagora",
