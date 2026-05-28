@@ -1,19 +1,15 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-05-28T06:00:22.420820+00:00",
+  "generated_at": "2026-05-28T06:05:50.634613+00:00",
   "latest_archive_hour_expected_station_count": 39,
-  "latest_archive_hour_started_at": "2026-05-28T04:00:00+00:00",
+  "latest_archive_hour_started_at": "2026-05-28T05:00:00+00:00",
   "latest_archive_hour_stations": [
-    "Program 1",
-    "Program 3",
     "Polskie Radio 24",
-    "Radio 357",
-    "Radio Afera",
-    "Radio Akadera"
+    "Radio Afera"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-05-28T06:00:22.420820+00:00",
+  "published_at": "2026-05-28T06:05:50.634613+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -39,7 +35,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1202,
+      "archive_count": 1203,
       "display_name": "Polskie Radio 24",
       "public_name": "Polskie Radio 24",
       "slug": "pr24",
@@ -81,7 +77,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1190,
+      "archive_count": 1191,
       "display_name": "Radio Afera",
       "public_name": "Radio Afera",
       "slug": "afera",
@@ -249,7 +245,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1140,
+      "archive_count": 1141,
       "display_name": "Radio UWM FM",
       "public_name": "Radio UWM FM",
       "slug": "radiouwmfm",
