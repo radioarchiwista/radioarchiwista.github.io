@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-05-28T07:26:23.376999+00:00",
+  "generated_at": "2026-05-28T07:31:16.530125+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-05-28T06:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -11,10 +11,12 @@
     "Radio 357",
     "Radio Afera",
     "Radio Akadera",
-    "Radio Koszalin"
+    "Radio Centrum Lublin",
+    "Radio Koszalin",
+    "Radio Kraków"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-05-28T07:26:23.376999+00:00",
+  "published_at": "2026-05-28T07:31:16.530125+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -103,7 +105,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1181,
+      "archive_count": 1183,
       "display_name": "Radio Centrum Lublin",
       "public_name": "Radio Centrum Lublin",
       "slug": "radiocentrumlublin",
@@ -173,7 +175,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1184,
+      "archive_count": 1185,
       "display_name": "Radio Kraków",
       "public_name": "Radio Kraków",
       "slug": "radiokrakow",
@@ -250,7 +252,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1140,
+      "archive_count": 1144,
       "display_name": "Radio UWM FM",
       "public_name": "Radio UWM FM",
       "slug": "radiouwmfm",
