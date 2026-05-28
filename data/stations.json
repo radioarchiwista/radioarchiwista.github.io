@@ -1,20 +1,24 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-05-28T06:05:50.634613+00:00",
+  "generated_at": "2026-05-28T06:10:53.988638+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-05-28T05:00:00+00:00",
   "latest_archive_hour_stations": [
+    "Program 1",
+    "Program 3",
     "Polskie Radio 24",
-    "Radio Afera"
+    "Radio 357",
+    "Radio Afera",
+    "Radio Akadera"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-05-28T06:05:50.634613+00:00",
+  "published_at": "2026-05-28T06:10:53.988638+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
     {
-      "archive_count": 1180,
+      "archive_count": 1181,
       "display_name": "Program 1",
       "public_name": "Polskie Radio Program 1",
       "slug": "pr1",
@@ -28,7 +32,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 13966,
+      "archive_count": 13967,
       "display_name": "Program 3",
       "public_name": "Polskie Radio Program 3",
       "slug": "pr3",
@@ -42,7 +46,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1183,
+      "archive_count": 1184,
       "display_name": "Radio 357",
       "public_name": "Radio 357",
       "slug": "radio357",
@@ -84,7 +88,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1186,
+      "archive_count": 1187,
       "display_name": "Radio Akadera",
       "public_name": "Radio Akadera",
       "slug": "radioakadera",
@@ -224,7 +228,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1180,
+      "archive_count": 1184,
       "display_name": "Radio Rzeszów",
       "public_name": "Radio Rzeszów",
       "slug": "radiorzeszow",
