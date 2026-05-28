@@ -1,8 +1,8 @@
 {
-  "archive_count": 58467,
+  "archive_count": 58487,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-05-28T09:25:36.311934+00:00",
+  "generated_at": "2026-05-28T09:31:23.604074+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-05-28T08:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -13,6 +13,7 @@
     "Radio 357",
     "TOK FM",
     "Radio Wnet",
+    "Radio Republika",
     "Radio Afera",
     "Radio Akadera",
     "Radio Centrum Lublin",
@@ -24,12 +25,13 @@
     "Radio Olsztyn",
     "Radio Opole",
     "Radio PiK",
+    "Radio Szczecin",
     "Radio Wrocław",
     "Radio Łódź",
     "Radio Żak"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-05-28T09:25:36.311934+00:00",
+  "published_at": "2026-05-28T09:31:23.604074+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
