@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-05-28T07:47:10.435656+00:00",
+  "generated_at": "2026-05-28T07:52:57.402706+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-05-28T06:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -15,10 +15,12 @@
     "Radio Kielce",
     "Radio Koszalin",
     "Radio Kraków",
+    "Radio Luz",
+    "Radio PiK",
     "Radio Żak"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-05-28T07:47:10.435656+00:00",
+  "published_at": "2026-05-28T07:52:57.402706+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -30,7 +32,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1180,
+      "archive_count": 1183,
       "display_name": "Program 2",
       "public_name": "Polskie Radio Program 2",
       "slug": "pr2",
@@ -177,7 +179,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1190,
+      "archive_count": 1191,
       "display_name": "Radio Kraków",
       "public_name": "Radio Kraków",
       "slug": "radiokrakow",
@@ -191,7 +193,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1190,
+      "archive_count": 1191,
       "display_name": "Radio Luz",
       "public_name": "Radio Luz",
       "slug": "radioluz",
@@ -219,7 +221,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1143,
+      "archive_count": 1145,
       "display_name": "Radio PiK",
       "public_name": "Radio PiK",
       "slug": "radiopik",
@@ -254,7 +256,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1142,
+      "archive_count": 1143,
       "display_name": "Radio UWM FM",
       "public_name": "Radio UWM FM",
       "slug": "radiouwmfm",
@@ -289,7 +291,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1176,
+      "archive_count": 1179,
       "display_name": "Radio Żak",
       "public_name": "Radio Żak",
       "slug": "radiozak",
