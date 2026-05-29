@@ -1,8 +1,8 @@
 {
-  "archive_count": 59339,
+  "archive_count": 59347,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-05-29T08:47:27.685164+00:00",
+  "generated_at": "2026-05-29T08:56:23.258700+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-05-29T07:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -17,7 +17,9 @@
     "Radio Białystok",
     "Radio Centrum Rzeszów",
     "Radio Gdańsk",
+    "Radio Katowice",
     "Radio Kielce",
+    "Radio Luz",
     "Radio Maryja",
     "Radio Opole",
     "Radio Rzeszów",
@@ -25,7 +27,7 @@
     "Radio Żak"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-05-29T08:47:27.685164+00:00",
+  "published_at": "2026-05-29T08:56:23.258700+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
