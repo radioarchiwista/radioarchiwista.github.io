@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-05-29T08:22:19.198491+00:00",
+  "generated_at": "2026-05-29T08:30:35.782884+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-05-29T07:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -10,18 +10,20 @@
     "Program 3",
     "Polskie Radio 24",
     "Radio 357",
+    "Radio Wnet",
     "Radio Afera",
     "Radio Akadera",
     "Radio Białystok",
     "Radio Centrum Rzeszów",
     "Radio Gdańsk",
+    "Radio Kielce",
     "Radio Maryja",
     "Radio Opole",
     "Radio Rzeszów",
     "Radio Żak"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-05-29T08:22:19.198491+00:00",
+  "published_at": "2026-05-29T08:30:35.782884+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -75,7 +77,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1225,
+      "archive_count": 1232,
       "display_name": "Radio Wnet",
       "public_name": "Radio Wnet",
       "slug": "wnet",
@@ -166,7 +168,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1181,
+      "archive_count": 1182,
       "display_name": "Radio Kielce",
       "public_name": "Radio Kielce",
       "slug": "radiokielce",
