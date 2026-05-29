@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-05-29T11:33:19.609483+00:00",
+  "generated_at": "2026-05-29T11:40:21.111692+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-05-29T10:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -38,14 +38,13 @@
     "Radio Rzeszów",
     "Radio Szczecin",
     "Radio Słupsk",
-    "Radio Wrocław",
     "Radio Zachód",
     "Radio Zielona Góra",
     "Radio Łódź",
     "Radio Żak"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-05-29T11:33:19.609483+00:00",
+  "published_at": "2026-05-29T11:40:21.111692+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -92,7 +91,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1222,
+      "archive_count": 1223,
       "display_name": "TOK FM",
       "public_name": "TOK FM",
       "slug": "tokfm",
@@ -288,7 +287,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1219,
+      "archive_count": 1218,
       "display_name": "Radio Wrocław",
       "public_name": "Radio Wrocław",
       "slug": "radiowroclaw",
