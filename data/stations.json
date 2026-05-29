@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-05-29T10:13:45.572952+00:00",
+  "generated_at": "2026-05-29T10:20:17.224752+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-05-29T09:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -20,13 +20,19 @@
     "Radio Kampus",
     "Radio Katowice",
     "Radio Kielce",
+    "Radio Koszalin",
     "Radio Lublin",
     "Radio Luz",
     "Radio Maryja",
+    "Radio Opole",
+    "Radio Rzeszów",
+    "Radio Szczecin",
+    "Radio Słupsk",
+    "Radio Wrocław",
     "Radio Łódź"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-05-29T10:13:45.572952+00:00",
+  "published_at": "2026-05-29T10:20:17.224752+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -73,7 +79,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1211,
+      "archive_count": 1212,
       "display_name": "TOK FM",
       "public_name": "TOK FM",
       "slug": "tokfm",
@@ -178,7 +184,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1208,
+      "archive_count": 1210,
       "display_name": "Radio Koszalin",
       "public_name": "Radio Koszalin",
       "slug": "radiokoszalin",
@@ -220,7 +226,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1120,
+      "archive_count": 1121,
       "display_name": "Radio Opole",
       "public_name": "Radio Opole",
       "slug": "radioopole",
@@ -241,21 +247,21 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1217,
+      "archive_count": 1218,
       "display_name": "Radio Rzeszów",
       "public_name": "Radio Rzeszów",
       "slug": "radiorzeszow",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1217,
+      "archive_count": 1218,
       "display_name": "Radio Szczecin",
       "public_name": "Radio Szczecin",
       "slug": "radioszczecin",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1207,
+      "archive_count": 1217,
       "display_name": "Radio Słupsk",
       "public_name": "Radio Słupsk",
       "slug": "radioslupsk",
@@ -269,7 +275,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1217,
+      "archive_count": 1218,
       "display_name": "Radio Wrocław",
       "public_name": "Radio Wrocław",
       "slug": "radiowroclaw",
