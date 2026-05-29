@@ -25,30 +25,6 @@
       "year": 2026
     },
     {
-      "archive_item_identifier": "tokfm-2026-05-28",
-      "audio_url": "https://archive.org/download/tokfm-2026-05-28/tokfm_2026-05-28T23-00-00Z.mp3",
-      "completeness_ratio": 0.9971,
-      "day": 29,
-      "download_url": "https://archive.org/download/tokfm-2026-05-28/tokfm_2026-05-28T23-00-00Z.mp3",
-      "duration_seconds": 3597.168,
-      "hour": 1,
-      "hourly_archive_id": 59779,
-      "local_date_label": "29.05.2026",
-      "local_hour_label": "01:00",
-      "local_label": "2026-05-29 01:00 czasu polskiego",
-      "local_started_at": "2026-05-29T01:00:00+02:00",
-      "local_timezone_label": "czasu polskiego",
-      "month": 5,
-      "published_at": "2026-05-29T11:37:49.903964+00:00",
-      "published_local_label": "2026-05-29 13:37 czasu polskiego",
-      "remote_filename": "tokfm_2026-05-28T23-00-00Z.mp3",
-      "station_slug": "tokfm",
-      "status": "published",
-      "utc_label": "2026-05-28 23:00 UTC",
-      "utc_started_at": "2026-05-28T23:00:00+00:00",
-      "year": 2026
-    },
-    {
       "archive_item_identifier": "tokfm-2026-05-29",
       "audio_url": "https://archive.org/download/tokfm-2026-05-29/tokfm_2026-05-29T00-00-00Z.mp3",
       "completeness_ratio": 0.998,
@@ -336,7 +312,7 @@
       "year": 2026
     },
     {
-      "archive_status": "published",
+      "archive_status": "ready",
       "completeness_ratio": 0.9971,
       "day": 29,
       "hour": 1,
@@ -347,9 +323,9 @@
       "local_started_at": "2026-05-29T01:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 5,
-      "playable": true,
-      "state": "available",
-      "status_label": null,
+      "playable": false,
+      "state": "publishing",
+      "status_label": "Czeka w kolejce do publikacji",
       "utc_label": "2026-05-28 23:00 UTC",
       "utc_started_at": "2026-05-28T23:00:00+00:00",
       "year": 2026
@@ -569,7 +545,7 @@
   "month": 5,
   "published_at": "2026-05-29T11:46:10.306517+00:00",
   "station": {
-    "archive_count": 1223,
+    "archive_count": 1222,
     "display_name": "TOK FM",
     "public_name": "TOK FM",
     "slug": "tokfm",
