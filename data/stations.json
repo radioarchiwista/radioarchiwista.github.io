@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-05-29T09:49:19.030300+00:00",
+  "generated_at": "2026-05-29T09:53:16.500356+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-05-29T08:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -34,7 +34,7 @@
     "Radio Żak"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-05-29T09:49:19.030300+00:00",
+  "published_at": "2026-05-29T09:53:16.500356+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -81,7 +81,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1211,
+      "archive_count": 1212,
       "display_name": "TOK FM",
       "public_name": "TOK FM",
       "slug": "tokfm",
@@ -158,7 +158,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1156,
+      "archive_count": 1161,
       "display_name": "Radio Index",
       "public_name": "Radio Index",
       "slug": "radioindex",
@@ -298,7 +298,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1216,
+      "archive_count": 1217,
       "display_name": "Radio Łódź",
       "public_name": "Radio Łódź",
       "slug": "radiolodz",
