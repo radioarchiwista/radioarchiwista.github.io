@@ -1,8 +1,8 @@
 {
-  "archive_count": 59215,
+  "archive_count": 59216,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-05-29T02:06:28.961498+00:00",
+  "generated_at": "2026-05-29T02:14:43.749479+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-05-29T01:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -13,10 +13,11 @@
     "Radio 357",
     "Radio Afera",
     "Radio Akadera",
-    "Radio Białystok"
+    "Radio Centrum Rzeszów",
+    "Radio Gdańsk"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-05-29T02:06:28.961498+00:00",
+  "published_at": "2026-05-29T02:14:43.749479+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
