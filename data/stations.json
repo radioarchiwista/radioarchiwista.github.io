@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-05-29T21:50:07.152186+00:00",
+  "generated_at": "2026-05-29T21:53:52.776484+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-05-29T20:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -44,7 +44,7 @@
     "Radio Żak"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-05-29T21:50:07.152186+00:00",
+  "published_at": "2026-05-29T21:53:52.776484+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -91,7 +91,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1232,
+      "archive_count": 1233,
       "display_name": "TOK FM",
       "public_name": "TOK FM",
       "slug": "tokfm",
@@ -140,7 +140,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1223,
+      "archive_count": 1222,
       "display_name": "Radio Centrum Rzeszów",
       "public_name": "Radio Centrum Rzeszów",
       "slug": "radiocentrumrzeszow",
