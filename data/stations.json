@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-05-30T14:22:43.853374+00:00",
+  "generated_at": "2026-05-30T14:28:58.938714+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-05-30T13:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -32,8 +32,12 @@
     "Radio Luz",
     "Radio Maryja",
     "Radio Olsztyn",
+    "Radio Opole",
     "Radio PiK",
     "Radio Poznań",
+    "Radio Rzeszów",
+    "Radio Szczecin",
+    "Radio Słupsk",
     "Radio Wrocław",
     "Radio Zachód",
     "Radio Zielona Góra",
@@ -41,7 +45,7 @@
     "Radio Żak"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-05-30T14:22:43.853374+00:00",
+  "published_at": "2026-05-30T14:28:58.938714+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -137,7 +141,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1242,
+      "archive_count": 1241,
       "display_name": "Radio Centrum Rzeszów",
       "public_name": "Radio Centrum Rzeszów",
       "slug": "radiocentrumrzeszow",
@@ -235,7 +239,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1148,
+      "archive_count": 1149,
       "display_name": "Radio Opole",
       "public_name": "Radio Opole",
       "slug": "radioopole",
@@ -256,21 +260,21 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1245,
+      "archive_count": 1246,
       "display_name": "Radio Rzeszów",
       "public_name": "Radio Rzeszów",
       "slug": "radiorzeszow",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1245,
+      "archive_count": 1246,
       "display_name": "Radio Szczecin",
       "public_name": "Radio Szczecin",
       "slug": "radioszczecin",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1244,
+      "archive_count": 1245,
       "display_name": "Radio Słupsk",
       "public_name": "Radio Słupsk",
       "slug": "radioslupsk",
