@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-05-30T09:52:22.797437+00:00",
+  "generated_at": "2026-05-30T09:56:23.671799+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-05-30T08:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -35,7 +35,7 @@
     "Radio Żak"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-05-30T09:52:22.797437+00:00",
+  "published_at": "2026-05-30T09:56:23.671799+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -131,7 +131,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1232,
+      "archive_count": 1234,
       "display_name": "Radio Centrum Rzeszów",
       "public_name": "Radio Centrum Rzeszów",
       "slug": "radiocentrumrzeszow",
@@ -145,7 +145,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1237,
+      "archive_count": 1241,
       "display_name": "Radio Gdańsk",
       "public_name": "Radio Gdańsk",
       "slug": "radiogdansk",
@@ -229,7 +229,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1136,
+      "archive_count": 1144,
       "display_name": "Radio Opole",
       "public_name": "Radio Opole",
       "slug": "radioopole",
