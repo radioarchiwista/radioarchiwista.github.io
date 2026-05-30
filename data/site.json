@@ -1,20 +1,19 @@
 {
-  "archive_count": 60124,
+  "archive_count": 60130,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-05-30T04:52:45.490334+00:00",
+  "generated_at": "2026-05-30T05:04:56.593090+00:00",
   "latest_archive_hour_expected_station_count": 39,
-  "latest_archive_hour_started_at": "2026-05-30T03:00:00+00:00",
+  "latest_archive_hour_started_at": "2026-05-30T04:00:00+00:00",
   "latest_archive_hour_stations": [
     "Program 1",
     "Program 2",
     "Program 3",
     "Polskie Radio 24",
-    "Radio 357",
     "Radio Afera"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-05-30T04:52:45.490334+00:00",
+  "published_at": "2026-05-30T05:04:56.593090+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
