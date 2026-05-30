@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-05-30T08:21:49.122621+00:00",
+  "generated_at": "2026-05-30T08:28:01.498971+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-05-30T07:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -12,15 +12,19 @@
     "Radio 357",
     "TOK FM",
     "Radio Afera",
+    "Radio Białystok",
     "Radio Index",
     "Radio Katowice",
     "Radio Koszalin",
+    "Radio Kraków",
+    "Radio Luz",
     "Radio PiK",
+    "Radio Rzeszów",
     "Radio Szczecin",
     "Radio Wrocław"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-05-30T08:21:49.122621+00:00",
+  "published_at": "2026-05-30T08:28:01.498971+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -102,7 +106,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1227,
+      "archive_count": 1235,
       "display_name": "Radio Białystok",
       "public_name": "Radio Białystok",
       "slug": "radiobialystok",
@@ -179,7 +183,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1232,
+      "archive_count": 1239,
       "display_name": "Radio Kraków",
       "public_name": "Radio Kraków",
       "slug": "radiokrakow",
@@ -193,7 +197,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1232,
+      "archive_count": 1238,
       "display_name": "Radio Luz",
       "public_name": "Radio Luz",
       "slug": "radioluz",
@@ -235,7 +239,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1232,
+      "archive_count": 1233,
       "display_name": "Radio Rzeszów",
       "public_name": "Radio Rzeszów",
       "slug": "radiorzeszow",
