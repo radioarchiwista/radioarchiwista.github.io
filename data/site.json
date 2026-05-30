@@ -1,8 +1,8 @@
 {
-  "archive_count": 60316,
+  "archive_count": 60336,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-05-30T09:36:06.369171+00:00",
+  "generated_at": "2026-05-30T09:41:07.739585+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-05-30T08:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -12,12 +12,14 @@
     "Polskie Radio 24",
     "Radio 357",
     "TOK FM",
+    "Radio Republika",
     "Radio Afera",
     "Radio Akadera",
     "Radio Białystok",
     "Radio Centrum Rzeszów",
     "Radio Gorzów",
     "Radio Index",
+    "Radio Kampus",
     "Radio Katowice",
     "Radio Kielce",
     "Radio Koszalin",
@@ -32,7 +34,7 @@
     "Radio Żak"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-05-30T09:36:06.369171+00:00",
+  "published_at": "2026-05-30T09:41:07.739585+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"

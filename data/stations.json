@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-05-30T09:36:06.369171+00:00",
+  "generated_at": "2026-05-30T09:41:07.739585+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-05-30T08:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -11,12 +11,14 @@
     "Polskie Radio 24",
     "Radio 357",
     "TOK FM",
+    "Radio Republika",
     "Radio Afera",
     "Radio Akadera",
     "Radio Białystok",
     "Radio Centrum Rzeszów",
     "Radio Gorzów",
     "Radio Index",
+    "Radio Kampus",
     "Radio Katowice",
     "Radio Kielce",
     "Radio Koszalin",
@@ -31,7 +33,7 @@
     "Radio Żak"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-05-30T09:36:06.369171+00:00",
+  "published_at": "2026-05-30T09:41:07.739585+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -92,7 +94,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1248,
+      "archive_count": 1257,
       "display_name": "Radio Republika",
       "public_name": "Radio Republika",
       "slug": "republika",
@@ -148,7 +150,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1241,
+      "archive_count": 1240,
       "display_name": "Radio Gorzów",
       "public_name": "Radio Gorzów",
       "slug": "radiogorzow",
@@ -162,7 +164,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 939,
+      "archive_count": 948,
       "display_name": "Radio Kampus",
       "public_name": "Radio Kampus",
       "slug": "radiokampus",
@@ -302,7 +304,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1224,
+      "archive_count": 1227,
       "display_name": "Radio Żak",
       "public_name": "Radio Żak",
       "slug": "radiozak",
