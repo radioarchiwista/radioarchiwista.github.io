@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-05-30T10:29:54.517739+00:00",
+  "generated_at": "2026-05-30T10:35:06.148738+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-05-30T09:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -27,6 +27,7 @@
     "Radio Koszalin",
     "Radio Kraków",
     "Radio Luz",
+    "Radio Maryja",
     "Radio Olsztyn",
     "Radio Opole",
     "Radio PiK",
@@ -39,7 +40,7 @@
     "Radio Żak"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-05-30T10:29:54.517739+00:00",
+  "published_at": "2026-05-30T10:35:06.148738+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -135,14 +136,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1236,
+      "archive_count": 1235,
       "display_name": "Radio Centrum Rzeszów",
       "public_name": "Radio Centrum Rzeszów",
       "slug": "radiocentrumrzeszow",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1241,
+      "archive_count": 1242,
       "display_name": "Radio Dla Ciebie",
       "public_name": "Radio Dla Ciebie",
       "slug": "rdc",
@@ -219,7 +220,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1086,
+      "archive_count": 1087,
       "display_name": "Radio Maryja",
       "public_name": "Radio Maryja",
       "slug": "radiomaryja",
