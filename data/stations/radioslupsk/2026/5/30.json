@@ -98,6 +98,30 @@
     },
     {
       "archive_item_identifier": "radioslupsk-2026-05-30",
+      "audio_url": "https://archive.org/download/radioslupsk-2026-05-30/radioslupsk_2026-05-30T03-00-00Z.mp3",
+      "completeness_ratio": 0.9997,
+      "day": 30,
+      "download_url": "https://archive.org/download/radioslupsk-2026-05-30/radioslupsk_2026-05-30T03-00-00Z.mp3",
+      "duration_seconds": 3599.664,
+      "hour": 5,
+      "hourly_archive_id": 60861,
+      "local_date_label": "30.05.2026",
+      "local_hour_label": "05:00",
+      "local_label": "2026-05-30 05:00 czasu polskiego",
+      "local_started_at": "2026-05-30T05:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 5,
+      "published_at": "2026-05-30T09:40:13.622652+00:00",
+      "published_local_label": "2026-05-30 11:40 czasu polskiego",
+      "remote_filename": "radioslupsk_2026-05-30T03-00-00Z.mp3",
+      "station_slug": "radioslupsk",
+      "status": "published",
+      "utc_label": "2026-05-30 03:00 UTC",
+      "utc_started_at": "2026-05-30T03:00:00+00:00",
+      "year": 2026
+    },
+    {
+      "archive_item_identifier": "radioslupsk-2026-05-30",
       "audio_url": "https://archive.org/download/radioslupsk-2026-05-30/radioslupsk_2026-05-30T04-00-00Z.mp3",
       "completeness_ratio": 1.0,
       "day": 30,
@@ -190,6 +214,30 @@
       "status": "published",
       "utc_label": "2026-05-30 07:00 UTC",
       "utc_started_at": "2026-05-30T07:00:00+00:00",
+      "year": 2026
+    },
+    {
+      "archive_item_identifier": "radioslupsk-2026-05-30",
+      "audio_url": "https://archive.org/download/radioslupsk-2026-05-30/radioslupsk_2026-05-30T08-00-00Z.mp3",
+      "completeness_ratio": 0.9997,
+      "day": 30,
+      "download_url": "https://archive.org/download/radioslupsk-2026-05-30/radioslupsk_2026-05-30T08-00-00Z.mp3",
+      "duration_seconds": 3599.376,
+      "hour": 10,
+      "hourly_archive_id": 61056,
+      "local_date_label": "30.05.2026",
+      "local_hour_label": "10:00",
+      "local_label": "2026-05-30 10:00 czasu polskiego",
+      "local_started_at": "2026-05-30T10:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 5,
+      "published_at": "2026-05-30T09:36:43.084451+00:00",
+      "published_local_label": "2026-05-30 11:36 czasu polskiego",
+      "remote_filename": "radioslupsk_2026-05-30T08-00-00Z.mp3",
+      "station_slug": "radioslupsk",
+      "status": "published",
+      "utc_label": "2026-05-30 08:00 UTC",
+      "utc_started_at": "2026-05-30T08:00:00+00:00",
       "year": 2026
     },
     {
@@ -506,7 +554,7 @@
     }
   ],
   "day": 30,
-  "generated_at": "2026-05-31T13:23:43.864468+00:00",
+  "generated_at": "2026-05-31T13:29:03.772412+00:00",
   "hour_slots": [
     {
       "archive_status": "published",
@@ -604,7 +652,7 @@
       "year": 2026
     },
     {
-      "archive_status": "error",
+      "archive_status": "published",
       "completeness_ratio": 0.9997,
       "day": 30,
       "hour": 5,
@@ -615,9 +663,9 @@
       "local_started_at": "2026-05-30T05:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 5,
-      "playable": false,
-      "state": "failed",
-      "status_label": "Nie udało się przygotować nagrania",
+      "playable": true,
+      "state": "available",
+      "status_label": null,
       "utc_label": "2026-05-30 03:00 UTC",
       "utc_started_at": "2026-05-30T03:00:00+00:00",
       "year": 2026
@@ -699,7 +747,7 @@
       "year": 2026
     },
     {
-      "archive_status": "error",
+      "archive_status": "published",
       "completeness_ratio": 0.9997,
       "day": 30,
       "hour": 10,
@@ -710,9 +758,9 @@
       "local_started_at": "2026-05-30T10:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 5,
-      "playable": false,
-      "state": "failed",
-      "status_label": "Nie udało się przygotować nagrania",
+      "playable": true,
+      "state": "available",
+      "status_label": null,
       "utc_label": "2026-05-30 08:00 UTC",
       "utc_started_at": "2026-05-30T08:00:00+00:00",
       "year": 2026
@@ -968,9 +1016,9 @@
   "latest_archive_hour_expected_station_count": 0,
   "latest_archive_hour_started_at": "2026-05-31T12:00:00+00:00",
   "month": 5,
-  "published_at": "2026-05-31T13:23:43.864468+00:00",
+  "published_at": "2026-05-31T13:29:03.772412+00:00",
   "station": {
-    "archive_count": 1263,
+    "archive_count": 1266,
     "display_name": "Radio Słupsk",
     "public_name": "Radio Słupsk",
     "slug": "radioslupsk",
