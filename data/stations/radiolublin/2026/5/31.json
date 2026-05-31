@@ -25,30 +25,6 @@
       "year": 2026
     },
     {
-      "archive_item_identifier": "radiolublin-2026-05-30",
-      "audio_url": "https://archive.org/download/radiolublin-2026-05-30/radiolublin_2026-05-30T23-00-00Z.mp3",
-      "completeness_ratio": 1.0,
-      "day": 31,
-      "download_url": "https://archive.org/download/radiolublin-2026-05-30/radiolublin_2026-05-30T23-00-00Z.mp3",
-      "duration_seconds": 3600.0,
-      "hour": 1,
-      "hourly_archive_id": 61633,
-      "local_date_label": "31.05.2026",
-      "local_hour_label": "01:00",
-      "local_label": "2026-05-31 01:00 czasu polskiego",
-      "local_started_at": "2026-05-31T01:00:00+02:00",
-      "local_timezone_label": "czasu polskiego",
-      "month": 5,
-      "published_at": "2026-05-31T20:49:48.619461+00:00",
-      "published_local_label": "2026-05-31 22:49 czasu polskiego",
-      "remote_filename": "radiolublin_2026-05-30T23-00-00Z.mp3",
-      "station_slug": "radiolublin",
-      "status": "published",
-      "utc_label": "2026-05-30 23:00 UTC",
-      "utc_started_at": "2026-05-30T23:00:00+00:00",
-      "year": 2026
-    },
-    {
       "archive_item_identifier": "radiolublin-2026-05-31",
       "audio_url": "https://archive.org/download/radiolublin-2026-05-31/radiolublin_2026-05-31T00-00-00Z.mp3",
       "completeness_ratio": 1.0,
@@ -552,7 +528,7 @@
       "year": 2026
     },
     {
-      "archive_status": "published",
+      "archive_status": "ready",
       "completeness_ratio": 1.0,
       "day": 31,
       "hour": 1,
@@ -563,9 +539,9 @@
       "local_started_at": "2026-05-31T01:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 5,
-      "playable": true,
-      "state": "available",
-      "status_label": null,
+      "playable": false,
+      "state": "publishing",
+      "status_label": "Czeka w kolejce do publikacji",
       "utc_label": "2026-05-30 23:00 UTC",
       "utc_started_at": "2026-05-30T23:00:00+00:00",
       "year": 2026
@@ -949,6 +925,25 @@
       "utc_label": "2026-05-31 19:00 UTC",
       "utc_started_at": "2026-05-31T19:00:00+00:00",
       "year": 2026
+    },
+    {
+      "archive_status": null,
+      "completeness_ratio": null,
+      "day": 31,
+      "hour": 22,
+      "hourly_archive_id": null,
+      "local_date_label": "31.05.2026",
+      "local_hour_label": "22:00",
+      "local_label": "2026-05-31 22:00 czasu polskiego",
+      "local_started_at": "2026-05-31T22:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 5,
+      "playable": false,
+      "state": "recorded",
+      "status_label": "Nagranie czeka na złożenie",
+      "utc_label": "2026-05-31 20:00 UTC",
+      "utc_started_at": "2026-05-31T20:00:00+00:00",
+      "year": 2026
     }
   ],
   "latest_archive_hour_expected_station_count": 0,
@@ -956,7 +951,7 @@
   "month": 5,
   "published_at": "2026-05-31T20:52:11.484638+00:00",
   "station": {
-    "archive_count": 1268,
+    "archive_count": 1267,
     "display_name": "Radio Lublin",
     "public_name": "Radio Lublin",
     "slug": "radiolublin",
