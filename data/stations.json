@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-05-31T22:31:15.544926+00:00",
+  "generated_at": "2026-05-31T22:55:49.609452+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-05-31T21:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -19,10 +19,16 @@
     "Radio Gorzów",
     "Radio Index",
     "Radio Koszalin",
-    "Radio Kraków"
+    "Radio Kraków",
+    "Radio Olsztyn",
+    "Radio Opole",
+    "Radio Rzeszów",
+    "Radio Słupsk",
+    "Radio Zielona Góra",
+    "Radio Żak"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-05-31T22:31:15.544926+00:00",
+  "published_at": "2026-05-31T22:55:49.609452+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -55,7 +61,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1261,
+      "archive_count": 1262,
       "display_name": "Radio 357",
       "public_name": "Radio 357",
       "slug": "radio357",
@@ -104,7 +110,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1262,
+      "archive_count": 1263,
       "display_name": "Radio Białystok",
       "public_name": "Radio Białystok",
       "slug": "radiobialystok",
@@ -209,14 +215,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1266,
+      "archive_count": 1267,
       "display_name": "Radio Olsztyn",
       "public_name": "Radio Olsztyn",
       "slug": "radioolsztyn",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1170,
+      "archive_count": 1171,
       "display_name": "Radio Opole",
       "public_name": "Radio Opole",
       "slug": "radioopole",
@@ -237,7 +243,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1268,
+      "archive_count": 1269,
       "display_name": "Radio Rzeszów",
       "public_name": "Radio Rzeszów",
       "slug": "radiorzeszow",
@@ -251,7 +257,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1276,
+      "archive_count": 1277,
       "display_name": "Radio Słupsk",
       "public_name": "Radio Słupsk",
       "slug": "radioslupsk",
@@ -279,7 +285,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1276,
+      "archive_count": 1277,
       "display_name": "Radio Zielona Góra",
       "public_name": "Radio Zielona Góra",
       "slug": "radiozielonagora",
@@ -293,7 +299,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1264,
+      "archive_count": 1265,
       "display_name": "Radio Żak",
       "public_name": "Radio Żak",
       "slug": "radiozak",
