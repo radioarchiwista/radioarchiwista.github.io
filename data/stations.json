@@ -1,26 +1,19 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-05-30T23:11:43.088726+00:00",
+  "generated_at": "2026-05-31T10:39:22.847382+00:00",
   "latest_archive_hour_expected_station_count": 39,
-  "latest_archive_hour_started_at": "2026-05-30T21:00:00+00:00",
+  "latest_archive_hour_started_at": "2026-05-31T09:00:00+00:00",
   "latest_archive_hour_stations": [
     "Program 2",
+    "Program 3",
     "Polskie Radio 24",
-    "Radio Nowy Świat",
-    "TOK FM",
-    "Radio Wnet",
-    "Radio Republika",
-    "Radio Dla Ciebie",
-    "Radio PiK",
-    "Radio Słupsk",
-    "Radio Wrocław",
-    "Radio Zachód",
-    "Radio Zielona Góra",
-    "Radio Żak"
+    "Radio 357",
+    "Radio Afera",
+    "Radio Białystok"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-05-30T23:11:43.088726+00:00",
+  "published_at": "2026-05-31T10:39:22.847382+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -32,28 +25,28 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1250,
+      "archive_count": 1257,
       "display_name": "Program 2",
       "public_name": "Polskie Radio Program 2",
       "slug": "pr2",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 14027,
+      "archive_count": 14034,
       "display_name": "Program 3",
       "public_name": "Polskie Radio Program 3",
       "slug": "pr3",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1267,
+      "archive_count": 1274,
       "display_name": "Polskie Radio 24",
       "public_name": "Polskie Radio 24",
       "slug": "pr24",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1237,
+      "archive_count": 1238,
       "display_name": "Radio 357",
       "public_name": "Radio 357",
       "slug": "radio357",
@@ -88,7 +81,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1247,
+      "archive_count": 1248,
       "display_name": "Radio Afera",
       "public_name": "Radio Afera",
       "slug": "afera",
@@ -102,7 +95,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1239,
+      "archive_count": 1240,
       "display_name": "Radio Białystok",
       "public_name": "Radio Białystok",
       "slug": "radiobialystok",
