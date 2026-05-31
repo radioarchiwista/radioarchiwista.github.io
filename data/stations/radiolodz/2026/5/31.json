@@ -25,30 +25,6 @@
       "year": 2026
     },
     {
-      "archive_item_identifier": "radiolodz-2026-05-30",
-      "audio_url": "https://archive.org/download/radiolodz-2026-05-30/radiolodz_2026-05-30T23-00-00Z.mp3",
-      "completeness_ratio": 1.0,
-      "day": 31,
-      "download_url": "https://archive.org/download/radiolodz-2026-05-30/radiolodz_2026-05-30T23-00-00Z.mp3",
-      "duration_seconds": 3600.013,
-      "hour": 1,
-      "hourly_archive_id": 61632,
-      "local_date_label": "31.05.2026",
-      "local_hour_label": "01:00",
-      "local_label": "2026-05-31 01:00 czasu polskiego",
-      "local_started_at": "2026-05-31T01:00:00+02:00",
-      "local_timezone_label": "czasu polskiego",
-      "month": 5,
-      "published_at": "2026-05-31T16:57:10.953769+00:00",
-      "published_local_label": "2026-05-31 18:57 czasu polskiego",
-      "remote_filename": "radiolodz_2026-05-30T23-00-00Z.mp3",
-      "station_slug": "radiolodz",
-      "status": "published",
-      "utc_label": "2026-05-30 23:00 UTC",
-      "utc_started_at": "2026-05-30T23:00:00+00:00",
-      "year": 2026
-    },
-    {
       "archive_item_identifier": "radiolodz-2026-05-31",
       "audio_url": "https://archive.org/download/radiolodz-2026-05-31/radiolodz_2026-05-31T00-00-00Z.mp3",
       "completeness_ratio": 0.9994,
@@ -432,7 +408,7 @@
       "year": 2026
     },
     {
-      "archive_status": "published",
+      "archive_status": "ready",
       "completeness_ratio": 1.0,
       "day": 31,
       "hour": 1,
@@ -443,9 +419,9 @@
       "local_started_at": "2026-05-31T01:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 5,
-      "playable": true,
-      "state": "available",
-      "status_label": null,
+      "playable": false,
+      "state": "publishing",
+      "status_label": "Czeka w kolejce do publikacji",
       "utc_label": "2026-05-30 23:00 UTC",
       "utc_started_at": "2026-05-30T23:00:00+00:00",
       "year": 2026
@@ -779,7 +755,7 @@
   "month": 5,
   "published_at": "2026-05-31T17:00:47.756525+00:00",
   "station": {
-    "archive_count": 1264,
+    "archive_count": 1263,
     "display_name": "Radio Łódź",
     "public_name": "Radio Łódź",
     "slug": "radiolodz",
