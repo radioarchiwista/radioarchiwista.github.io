@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-05-31T10:49:27.232961+00:00",
+  "generated_at": "2026-05-31T10:55:02.252158+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-05-31T09:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -16,12 +16,12 @@
     "Radio Gdańsk"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-05-31T10:49:27.232961+00:00",
+  "published_at": "2026-05-31T10:55:02.252158+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
     {
-      "archive_count": 1245,
+      "archive_count": 1247,
       "display_name": "Program 1",
       "public_name": "Polskie Radio Program 1",
       "slug": "pr1",
