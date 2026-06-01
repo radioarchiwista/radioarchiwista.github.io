@@ -551,10 +551,34 @@
       "utc_label": "2026-05-31 20:00 UTC",
       "utc_started_at": "2026-05-31T20:00:00+00:00",
       "year": 2026
+    },
+    {
+      "archive_item_identifier": "radiolodz-2026-05-31",
+      "audio_url": "https://archive.org/download/radiolodz-2026-05-31/radiolodz_2026-05-31T21-00-00Z.mp3",
+      "completeness_ratio": 1.0,
+      "day": 31,
+      "download_url": "https://archive.org/download/radiolodz-2026-05-31/radiolodz_2026-05-31T21-00-00Z.mp3",
+      "duration_seconds": 3599.987,
+      "hour": 23,
+      "hourly_archive_id": 62490,
+      "local_date_label": "31.05.2026",
+      "local_hour_label": "23:00",
+      "local_label": "2026-05-31 23:00 czasu polskiego",
+      "local_started_at": "2026-05-31T23:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 5,
+      "published_at": "2026-06-01T06:39:18.635344+00:00",
+      "published_local_label": "2026-06-01 08:39 czasu polskiego",
+      "remote_filename": "radiolodz_2026-05-31T21-00-00Z.mp3",
+      "station_slug": "radiolodz",
+      "status": "published",
+      "utc_label": "2026-05-31 21:00 UTC",
+      "utc_started_at": "2026-05-31T21:00:00+00:00",
+      "year": 2026
     }
   ],
   "day": 31,
-  "generated_at": "2026-06-01T05:40:26.719316+00:00",
+  "generated_at": "2026-06-01T06:39:18.635344+00:00",
   "hour_slots": [
     {
       "archive_status": "published",
@@ -994,7 +1018,7 @@
       "year": 2026
     },
     {
-      "archive_status": "ready",
+      "archive_status": "published",
       "completeness_ratio": 1.0,
       "day": 31,
       "hour": 23,
@@ -1005,20 +1029,20 @@
       "local_started_at": "2026-05-31T23:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 5,
-      "playable": false,
-      "state": "publishing",
-      "status_label": "Czeka w kolejce do publikacji",
+      "playable": true,
+      "state": "available",
+      "status_label": null,
       "utc_label": "2026-05-31 21:00 UTC",
       "utc_started_at": "2026-05-31T21:00:00+00:00",
       "year": 2026
     }
   ],
   "latest_archive_hour_expected_station_count": 0,
-  "latest_archive_hour_started_at": "2026-06-01T04:00:00+00:00",
+  "latest_archive_hour_started_at": "2026-06-01T05:00:00+00:00",
   "month": 5,
-  "published_at": "2026-06-01T05:40:26.719316+00:00",
+  "published_at": "2026-06-01T06:39:18.635344+00:00",
   "station": {
-    "archive_count": 1282,
+    "archive_count": 1284,
     "display_name": "Radio Łódź",
     "public_name": "Radio Łódź",
     "slug": "radiolodz",
