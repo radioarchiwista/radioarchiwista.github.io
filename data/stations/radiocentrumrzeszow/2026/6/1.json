@@ -23,10 +23,34 @@
       "utc_label": "2026-05-31 23:00 UTC",
       "utc_started_at": "2026-05-31T23:00:00+00:00",
       "year": 2026
+    },
+    {
+      "archive_item_identifier": "radiocentrumrzeszow-2026-06-01",
+      "audio_url": "https://archive.org/download/radiocentrumrzeszow-2026-06-01/radiocentrumrzeszow_2026-06-01T00-00-00Z.mp3",
+      "completeness_ratio": 1.0,
+      "day": 1,
+      "download_url": "https://archive.org/download/radiocentrumrzeszow-2026-06-01/radiocentrumrzeszow_2026-06-01T00-00-00Z.mp3",
+      "duration_seconds": 3599.856,
+      "hour": 2,
+      "hourly_archive_id": 62598,
+      "local_date_label": "01.06.2026",
+      "local_hour_label": "02:00",
+      "local_label": "2026-06-01 02:00 czasu polskiego",
+      "local_started_at": "2026-06-01T02:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 6,
+      "published_at": "2026-06-01T01:38:04.003636+00:00",
+      "published_local_label": "2026-06-01 03:38 czasu polskiego",
+      "remote_filename": "radiocentrumrzeszow_2026-06-01T00-00-00Z.mp3",
+      "station_slug": "radiocentrumrzeszow",
+      "status": "published",
+      "utc_label": "2026-06-01 00:00 UTC",
+      "utc_started_at": "2026-06-01T00:00:00+00:00",
+      "year": 2026
     }
   ],
   "day": 1,
-  "generated_at": "2026-06-01T00:46:19.515934+00:00",
+  "generated_at": "2026-06-01T01:41:29.554342+00:00",
   "hour_slots": [
     {
       "archive_status": "ready",
@@ -67,7 +91,7 @@
       "year": 2026
     },
     {
-      "archive_status": "ready",
+      "archive_status": "published",
       "completeness_ratio": 1.0,
       "day": 1,
       "hour": 2,
@@ -78,20 +102,20 @@
       "local_started_at": "2026-06-01T02:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 6,
-      "playable": false,
-      "state": "publishing",
-      "status_label": "Czeka w kolejce do publikacji",
+      "playable": true,
+      "state": "available",
+      "status_label": null,
       "utc_label": "2026-06-01 00:00 UTC",
       "utc_started_at": "2026-06-01T00:00:00+00:00",
       "year": 2026
     }
   ],
   "latest_archive_hour_expected_station_count": 0,
-  "latest_archive_hour_started_at": "2026-05-31T23:00:00+00:00",
+  "latest_archive_hour_started_at": "2026-06-01T00:00:00+00:00",
   "month": 6,
-  "published_at": "2026-06-01T00:46:19.515934+00:00",
+  "published_at": "2026-06-01T01:41:29.554342+00:00",
   "station": {
-    "archive_count": 1260,
+    "archive_count": 1263,
     "display_name": "Radio Centrum Rzeszów",
     "public_name": "Radio Centrum Rzeszów",
     "slug": "radiocentrumrzeszow",
