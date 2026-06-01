@@ -122,6 +122,30 @@
     },
     {
       "archive_item_identifier": "pr2-2026-06-01",
+      "audio_url": "https://archive.org/download/pr2-2026-06-01/pr2_2026-06-01T03-00-00Z.mp3",
+      "completeness_ratio": 1.0,
+      "day": 1,
+      "download_url": "https://archive.org/download/pr2-2026-06-01/pr2_2026-06-01T03-00-00Z.mp3",
+      "duration_seconds": 3600.096,
+      "hour": 5,
+      "hourly_archive_id": 62707,
+      "local_date_label": "01.06.2026",
+      "local_hour_label": "05:00",
+      "local_label": "2026-06-01 05:00 czasu polskiego",
+      "local_started_at": "2026-06-01T05:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 6,
+      "published_at": "2026-06-01T10:59:43.332467+00:00",
+      "published_local_label": "2026-06-01 12:59 czasu polskiego",
+      "remote_filename": "pr2_2026-06-01T03-00-00Z.mp3",
+      "station_slug": "pr2",
+      "status": "published",
+      "utc_label": "2026-06-01 03:00 UTC",
+      "utc_started_at": "2026-06-01T03:00:00+00:00",
+      "year": 2026
+    },
+    {
+      "archive_item_identifier": "pr2-2026-06-01",
       "audio_url": "https://archive.org/download/pr2-2026-06-01/pr2_2026-06-01T06-00-00Z.mp3",
       "completeness_ratio": 1.0,
       "day": 1,
@@ -218,7 +242,7 @@
     }
   ],
   "day": 1,
-  "generated_at": "2026-06-01T10:12:47.149836+00:00",
+  "generated_at": "2026-06-01T10:59:43.332467+00:00",
   "hour_slots": [
     {
       "archive_status": "published",
@@ -316,7 +340,7 @@
       "year": 2026
     },
     {
-      "archive_status": "ready",
+      "archive_status": "published",
       "completeness_ratio": 1.0,
       "day": 1,
       "hour": 5,
@@ -327,9 +351,9 @@
       "local_started_at": "2026-06-01T05:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 6,
-      "playable": false,
-      "state": "publishing",
-      "status_label": "Czeka w kolejce do publikacji",
+      "playable": true,
+      "state": "available",
+      "status_label": null,
       "utc_label": "2026-06-01 03:00 UTC",
       "utc_started_at": "2026-06-01T03:00:00+00:00",
       "year": 2026
@@ -447,14 +471,33 @@
       "utc_label": "2026-06-01 09:00 UTC",
       "utc_started_at": "2026-06-01T09:00:00+00:00",
       "year": 2026
+    },
+    {
+      "archive_status": null,
+      "completeness_ratio": null,
+      "day": 1,
+      "hour": 12,
+      "hourly_archive_id": null,
+      "local_date_label": "01.06.2026",
+      "local_hour_label": "12:00",
+      "local_label": "2026-06-01 12:00 czasu polskiego",
+      "local_started_at": "2026-06-01T12:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 6,
+      "playable": false,
+      "state": "recorded",
+      "status_label": "Nagranie czeka na złożenie",
+      "utc_label": "2026-06-01 10:00 UTC",
+      "utc_started_at": "2026-06-01T10:00:00+00:00",
+      "year": 2026
     }
   ],
   "latest_archive_hour_expected_station_count": 0,
   "latest_archive_hour_started_at": "2026-06-01T09:00:00+00:00",
   "month": 6,
-  "published_at": "2026-06-01T10:12:47.149836+00:00",
+  "published_at": "2026-06-01T10:59:43.332467+00:00",
   "station": {
-    "archive_count": 1283,
+    "archive_count": 1284,
     "display_name": "Program 2",
     "public_name": "Polskie Radio Program 2",
     "slug": "pr2",
