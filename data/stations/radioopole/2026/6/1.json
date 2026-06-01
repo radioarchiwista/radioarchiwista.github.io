@@ -39,8 +39,8 @@
       "local_started_at": "2026-06-01T01:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 6,
-      "published_at": "2026-06-01T05:00:07.274271+00:00",
-      "published_local_label": "2026-06-01 07:00 czasu polskiego",
+      "published_at": "2026-06-01T05:10:24.581835+00:00",
+      "published_local_label": "2026-06-01 07:10 czasu polskiego",
       "remote_filename": "radioopole_2026-05-31T23-00-00Z.mp3",
       "station_slug": "radioopole",
       "status": "published",
@@ -146,7 +146,7 @@
     }
   ],
   "day": 1,
-  "generated_at": "2026-06-01T05:05:47.390507+00:00",
+  "generated_at": "2026-06-01T05:10:24.581835+00:00",
   "hour_slots": [
     {
       "archive_status": "published",
@@ -263,11 +263,11 @@
       "year": 2026
     },
     {
-      "archive_status": null,
-      "completeness_ratio": null,
+      "archive_status": "ready",
+      "completeness_ratio": 1.0,
       "day": 1,
       "hour": 6,
-      "hourly_archive_id": null,
+      "hourly_archive_id": 62766,
       "local_date_label": "01.06.2026",
       "local_hour_label": "06:00",
       "local_label": "2026-06-01 06:00 czasu polskiego",
@@ -275,8 +275,8 @@
       "local_timezone_label": "czasu polskiego",
       "month": 6,
       "playable": false,
-      "state": "recorded",
-      "status_label": "Nagranie czeka na złożenie",
+      "state": "publishing",
+      "status_label": "Czeka w kolejce do publikacji",
       "utc_label": "2026-06-01 04:00 UTC",
       "utc_started_at": "2026-06-01T04:00:00+00:00",
       "year": 2026
@@ -285,7 +285,7 @@
   "latest_archive_hour_expected_station_count": 0,
   "latest_archive_hour_started_at": "2026-06-01T03:00:00+00:00",
   "month": 6,
-  "published_at": "2026-06-01T05:05:47.390507+00:00",
+  "published_at": "2026-06-01T05:10:24.581835+00:00",
   "station": {
     "archive_count": 1187,
     "display_name": "Radio Opole",
