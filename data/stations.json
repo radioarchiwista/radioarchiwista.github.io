@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-06-02T23:29:18.652979+00:00",
+  "generated_at": "2026-06-02T23:35:03.458987+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-06-02T22:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -37,6 +37,8 @@
     "Radio Poznań",
     "Radio Rzeszów",
     "Radio Szczecin",
+    "Radio Słupsk",
+    "Radio UWM FM",
     "Radio Wrocław",
     "Radio Zachód",
     "Radio Zielona Góra",
@@ -44,7 +46,7 @@
     "Radio Żak"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-06-02T23:29:18.652979+00:00",
+  "published_at": "2026-06-02T23:35:03.458987+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -63,7 +65,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 14115,
+      "archive_count": 14116,
       "display_name": "Program 3",
       "public_name": "Polskie Radio Program 3",
       "slug": "pr3",
@@ -273,14 +275,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1325,
+      "archive_count": 1326,
       "display_name": "Radio Słupsk",
       "public_name": "Radio Słupsk",
       "slug": "radioslupsk",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1260,
+      "archive_count": 1261,
       "display_name": "Radio UWM FM",
       "public_name": "Radio UWM FM",
       "slug": "radiouwmfm",
