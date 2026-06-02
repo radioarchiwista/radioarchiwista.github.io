@@ -111,8 +111,8 @@
       "local_started_at": "2026-06-02T04:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 6,
-      "published_at": "2026-06-02T09:49:00.789333+00:00",
-      "published_local_label": "2026-06-02 11:49 czasu polskiego",
+      "published_at": "2026-06-02T09:59:09.360303+00:00",
+      "published_local_label": "2026-06-02 11:59 czasu polskiego",
       "remote_filename": "radiopoznan_2026-06-02T02-00-00Z.mp3",
       "station_slug": "radiopoznan",
       "status": "published",
@@ -266,7 +266,7 @@
     }
   ],
   "day": 2,
-  "generated_at": "2026-06-02T09:49:00.789333+00:00",
+  "generated_at": "2026-06-02T09:59:09.360303+00:00",
   "hour_slots": [
     {
       "archive_status": "published",
@@ -476,12 +476,31 @@
       "utc_label": "2026-06-02 08:00 UTC",
       "utc_started_at": "2026-06-02T08:00:00+00:00",
       "year": 2026
+    },
+    {
+      "archive_status": null,
+      "completeness_ratio": null,
+      "day": 2,
+      "hour": 11,
+      "hourly_archive_id": null,
+      "local_date_label": "02.06.2026",
+      "local_hour_label": "11:00",
+      "local_label": "2026-06-02 11:00 czasu polskiego",
+      "local_started_at": "2026-06-02T11:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 6,
+      "playable": false,
+      "state": "recorded",
+      "status_label": "Nagranie czeka na złożenie",
+      "utc_label": "2026-06-02 09:00 UTC",
+      "utc_started_at": "2026-06-02T09:00:00+00:00",
+      "year": 2026
     }
   ],
   "latest_archive_hour_expected_station_count": 0,
   "latest_archive_hour_started_at": "2026-06-02T08:00:00+00:00",
   "month": 6,
-  "published_at": "2026-06-02T09:49:00.789333+00:00",
+  "published_at": "2026-06-02T09:59:09.360303+00:00",
   "station": {
     "archive_count": 1312,
     "display_name": "Radio Poznań",
