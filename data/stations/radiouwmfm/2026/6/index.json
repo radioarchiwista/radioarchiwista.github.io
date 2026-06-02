@@ -1,7 +1,11 @@
 {
+  "days": [
+    2
+  ],
   "generated_at": "2026-06-02T21:42:40.612503+00:00",
   "latest_archive_hour_expected_station_count": 0,
   "latest_archive_hour_started_at": "2026-06-02T20:00:00+00:00",
+  "month": 6,
   "published_at": "2026-06-02T21:42:40.612503+00:00",
   "station": {
     "archive_count": 1229,
@@ -10,7 +14,5 @@
     "slug": "radiouwmfm",
     "timezone": "Europe/Warsaw"
   },
-  "years": [
-    2026
-  ]
+  "year": 2026
 }
