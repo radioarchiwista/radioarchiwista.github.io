@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-06-02T11:25:27.541361+00:00",
+  "generated_at": "2026-06-02T11:30:50.488205+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-06-02T10:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -13,7 +13,6 @@
     "Radio Nowy Świat",
     "TOK FM",
     "Radio Wnet",
-    "Radio Republika",
     "Radio Afera",
     "Radio Akadera",
     "Radio Białystok",
@@ -41,11 +40,10 @@
     "Radio Wrocław",
     "Radio Zachód",
     "Radio Zielona Góra",
-    "Radio Łódź",
-    "Radio Żak"
+    "Radio Łódź"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-06-02T11:25:27.541361+00:00",
+  "published_at": "2026-06-02T11:30:50.488205+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -106,7 +104,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1331,
+      "archive_count": 1330,
       "display_name": "Radio Republika",
       "public_name": "Radio Republika",
       "slug": "republika",
@@ -197,7 +195,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1313,
+      "archive_count": 1314,
       "display_name": "Radio Koszalin",
       "public_name": "Radio Koszalin",
       "slug": "radiokoszalin",
