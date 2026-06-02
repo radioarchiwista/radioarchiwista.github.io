@@ -98,6 +98,30 @@
     },
     {
       "archive_item_identifier": "tokfm-2026-06-02",
+      "audio_url": "https://archive.org/download/tokfm-2026-06-02/tokfm_2026-06-02T03-00-00Z.mp3",
+      "completeness_ratio": 0.9967,
+      "day": 2,
+      "download_url": "https://archive.org/download/tokfm-2026-06-02/tokfm_2026-06-02T03-00-00Z.mp3",
+      "duration_seconds": 3593.928,
+      "hour": 5,
+      "hourly_archive_id": 63671,
+      "local_date_label": "02.06.2026",
+      "local_hour_label": "05:00",
+      "local_label": "2026-06-02 05:00 czasu polskiego",
+      "local_started_at": "2026-06-02T05:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 6,
+      "published_at": "2026-06-02T11:19:01.883313+00:00",
+      "published_local_label": "2026-06-02 13:19 czasu polskiego",
+      "remote_filename": "tokfm_2026-06-02T03-00-00Z.mp3",
+      "station_slug": "tokfm",
+      "status": "published",
+      "utc_label": "2026-06-02 03:00 UTC",
+      "utc_started_at": "2026-06-02T03:00:00+00:00",
+      "year": 2026
+    },
+    {
+      "archive_item_identifier": "tokfm-2026-06-02",
       "audio_url": "https://archive.org/download/tokfm-2026-06-02/tokfm_2026-06-02T05-00-00Z.mp3",
       "completeness_ratio": 0.998,
       "day": 2,
@@ -218,7 +242,7 @@
     }
   ],
   "day": 2,
-  "generated_at": "2026-06-02T10:29:20.246666+00:00",
+  "generated_at": "2026-06-02T11:19:01.883313+00:00",
   "hour_slots": [
     {
       "archive_status": "published",
@@ -316,7 +340,7 @@
       "year": 2026
     },
     {
-      "archive_status": "ready",
+      "archive_status": "published",
       "completeness_ratio": 0.9967,
       "day": 2,
       "hour": 5,
@@ -327,9 +351,9 @@
       "local_started_at": "2026-06-02T05:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 6,
-      "playable": false,
-      "state": "publishing",
-      "status_label": "Czeka w kolejce do publikacji",
+      "playable": true,
+      "state": "available",
+      "status_label": null,
       "utc_label": "2026-06-02 03:00 UTC",
       "utc_started_at": "2026-06-02T03:00:00+00:00",
       "year": 2026
@@ -447,14 +471,33 @@
       "utc_label": "2026-06-02 09:00 UTC",
       "utc_started_at": "2026-06-02T09:00:00+00:00",
       "year": 2026
+    },
+    {
+      "archive_status": null,
+      "completeness_ratio": null,
+      "day": 2,
+      "hour": 12,
+      "hourly_archive_id": null,
+      "local_date_label": "02.06.2026",
+      "local_hour_label": "12:00",
+      "local_label": "2026-06-02 12:00 czasu polskiego",
+      "local_started_at": "2026-06-02T12:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 6,
+      "playable": false,
+      "state": "recorded",
+      "status_label": "Nagranie czeka na złożenie",
+      "utc_label": "2026-06-02 10:00 UTC",
+      "utc_started_at": "2026-06-02T10:00:00+00:00",
+      "year": 2026
     }
   ],
   "latest_archive_hour_expected_station_count": 0,
   "latest_archive_hour_started_at": "2026-06-02T09:00:00+00:00",
   "month": 6,
-  "published_at": "2026-06-02T10:29:20.246666+00:00",
+  "published_at": "2026-06-02T11:19:01.883313+00:00",
   "station": {
-    "archive_count": 1315,
+    "archive_count": 1316,
     "display_name": "TOK FM",
     "public_name": "TOK FM",
     "slug": "tokfm",
