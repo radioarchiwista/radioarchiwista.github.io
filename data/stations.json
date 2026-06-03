@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-06-03T11:42:20.608865+00:00",
+  "generated_at": "2026-06-03T11:48:56.193901+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-06-03T10:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -45,7 +45,7 @@
     "Radio Żak"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-06-03T11:42:20.608865+00:00",
+  "published_at": "2026-06-03T11:48:56.193901+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -64,7 +64,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 14170,
+      "archive_count": 14178,
       "display_name": "Program 3",
       "public_name": "Polskie Radio Program 3",
       "slug": "pr3",
@@ -253,7 +253,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1336,
+      "archive_count": 1337,
       "display_name": "Radio Poznań",
       "public_name": "Radio Poznań",
       "slug": "radiopoznan",
@@ -274,7 +274,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1337,
+      "archive_count": 1336,
       "display_name": "Radio Słupsk",
       "public_name": "Radio Słupsk",
       "slug": "radioslupsk",
