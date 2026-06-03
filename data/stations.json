@@ -1,16 +1,20 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-06-03T13:59:26.375170+00:00",
+  "generated_at": "2026-06-03T14:06:40.245277+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-06-03T12:00:00+00:00",
   "latest_archive_hour_stations": [
+    "Program 1",
+    "Program 2",
     "Program 3",
+    "Polskie Radio 24",
     "Radio 357",
     "Radio Nowy Świat",
     "TOK FM",
     "Radio Wnet",
     "Radio Republika",
+    "Radio Afera",
     "Radio Akadera",
     "Radio Białystok",
     "Radio Centrum Lublin",
@@ -41,33 +45,33 @@
     "Radio Żak"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-06-03T13:59:26.375170+00:00",
+  "published_at": "2026-06-03T14:06:40.245277+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
     {
-      "archive_count": 1335,
+      "archive_count": 1336,
       "display_name": "Program 1",
       "public_name": "Polskie Radio Program 1",
       "slug": "pr1",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1336,
+      "archive_count": 1337,
       "display_name": "Program 2",
       "public_name": "Polskie Radio Program 2",
       "slug": "pr2",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 14242,
+      "archive_count": 14243,
       "display_name": "Program 3",
       "public_name": "Polskie Radio Program 3",
       "slug": "pr3",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1353,
+      "archive_count": 1354,
       "display_name": "Polskie Radio 24",
       "public_name": "Polskie Radio 24",
       "slug": "pr24",
@@ -109,7 +113,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1341,
+      "archive_count": 1342,
       "display_name": "Radio Afera",
       "public_name": "Radio Afera",
       "slug": "afera",
@@ -263,7 +267,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1339,
+      "archive_count": 1341,
       "display_name": "Radio Szczecin",
       "public_name": "Radio Szczecin",
       "slug": "radioszczecin",
@@ -312,7 +316,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1328,
+      "archive_count": 1329,
       "display_name": "Radio Żak",
       "public_name": "Radio Żak",
       "slug": "radiozak",
