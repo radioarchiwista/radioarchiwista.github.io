@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-06-03T15:18:31.241800+00:00",
+  "generated_at": "2026-06-03T15:24:21.849249+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-06-03T14:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -15,10 +15,13 @@
     "Radio Białystok",
     "Radio Centrum Lublin",
     "Radio Centrum Rzeszów",
-    "Radio Gorzów"
+    "Radio Gdańsk",
+    "Radio Gorzów",
+    "Radio Kampus",
+    "Radio Katowice"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-06-03T15:18:31.241800+00:00",
+  "published_at": "2026-06-03T15:24:21.849249+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -37,7 +40,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 14257,
+      "archive_count": 14258,
       "display_name": "Program 3",
       "public_name": "Polskie Radio Program 3",
       "slug": "pr3",
@@ -128,7 +131,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1342,
+      "archive_count": 1343,
       "display_name": "Radio Gdańsk",
       "public_name": "Radio Gdańsk",
       "slug": "radiogdansk",
@@ -149,14 +152,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1049,
+      "archive_count": 1050,
       "display_name": "Radio Kampus",
       "public_name": "Radio Kampus",
       "slug": "radiokampus",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1340,
+      "archive_count": 1341,
       "display_name": "Radio Katowice",
       "public_name": "Radio Katowice",
       "slug": "radiokatowice",
