@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-06-03T23:28:17.145294+00:00",
+  "generated_at": "2026-06-03T23:33:16.912187+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-06-03T22:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -16,10 +16,18 @@
     "Radio Centrum Lublin",
     "Radio Centrum Rzeszów",
     "Radio Gdańsk",
-    "Radio Gorzów"
+    "Radio Gorzów",
+    "Radio Index",
+    "Radio Kampus",
+    "Radio Kielce",
+    "Radio Koszalin",
+    "Radio Kraków",
+    "Radio Lublin",
+    "Radio Luz",
+    "Radio Łódź"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-06-03T23:28:17.145294+00:00",
+  "published_at": "2026-06-03T23:33:16.912187+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -143,14 +151,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1283,
+      "archive_count": 1284,
       "display_name": "Radio Index",
       "public_name": "Radio Index",
       "slug": "radioindex",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1054,
+      "archive_count": 1055,
       "display_name": "Radio Kampus",
       "public_name": "Radio Kampus",
       "slug": "radiokampus",
@@ -164,35 +172,35 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1320,
+      "archive_count": 1321,
       "display_name": "Radio Kielce",
       "public_name": "Radio Kielce",
       "slug": "radiokielce",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1347,
+      "archive_count": 1348,
       "display_name": "Radio Koszalin",
       "public_name": "Radio Koszalin",
       "slug": "radiokoszalin",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1344,
+      "archive_count": 1345,
       "display_name": "Radio Kraków",
       "public_name": "Radio Kraków",
       "slug": "radiokrakow",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1347,
+      "archive_count": 1348,
       "display_name": "Radio Lublin",
       "public_name": "Radio Lublin",
       "slug": "radiolublin",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1347,
+      "archive_count": 1348,
       "display_name": "Radio Luz",
       "public_name": "Radio Luz",
       "slug": "radioluz",
@@ -283,7 +291,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1347,
+      "archive_count": 1348,
       "display_name": "Radio Łódź",
       "public_name": "Radio Łódź",
       "slug": "radiolodz",
