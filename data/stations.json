@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-06-03T15:59:44.971838+00:00",
+  "generated_at": "2026-06-03T16:14:01.873138+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-06-03T14:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -27,10 +27,11 @@
     "Radio Luz",
     "Radio Maryja",
     "Radio Olsztyn",
+    "Radio PiK",
     "Radio Łódź"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-06-03T15:59:44.971838+00:00",
+  "published_at": "2026-06-03T16:14:01.873138+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -231,7 +232,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1296,
+      "archive_count": 1297,
       "display_name": "Radio PiK",
       "public_name": "Radio PiK",
       "slug": "radiopik",
