@@ -15,8 +15,8 @@
       "local_started_at": "2024-09-14T00:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 9,
-      "published_at": "2026-06-03T13:16:47.932943+00:00",
-      "published_local_label": "2026-06-03 15:16 czasu polskiego",
+      "published_at": "2026-06-03T13:27:30.901220+00:00",
+      "published_local_label": "2026-06-03 15:27 czasu polskiego",
       "remote_filename": "pr3_2024-09-13T22-00-00Z.ogg",
       "station_slug": "pr3",
       "status": "published",
@@ -46,6 +46,30 @@
       "status": "published",
       "utc_label": "2024-09-13 23:00 UTC",
       "utc_started_at": "2024-09-13T23:00:00+00:00",
+      "year": 2024
+    },
+    {
+      "archive_item_identifier": "pr3-2024-09-14",
+      "audio_url": "https://archive.org/download/pr3-2024-09-14/pr3_2024-09-14T04-00-00Z.ogg",
+      "completeness_ratio": 1.0,
+      "day": 14,
+      "download_url": "https://archive.org/download/pr3-2024-09-14/pr3_2024-09-14T04-00-00Z.ogg",
+      "duration_seconds": 3610.008,
+      "hour": 6,
+      "hourly_archive_id": 64981,
+      "local_date_label": "14.09.2024",
+      "local_hour_label": "06:00",
+      "local_label": "2024-09-14 06:00 czasu polskiego",
+      "local_started_at": "2024-09-14T06:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 9,
+      "published_at": "2026-06-03T13:27:07.025350+00:00",
+      "published_local_label": "2026-06-03 15:27 czasu polskiego",
+      "remote_filename": "pr3_2024-09-14T04-00-00Z.ogg",
+      "station_slug": "pr3",
+      "status": "published",
+      "utc_label": "2024-09-14 04:00 UTC",
+      "utc_started_at": "2024-09-14T04:00:00+00:00",
       "year": 2024
     },
     {
@@ -338,7 +362,7 @@
     }
   ],
   "day": 14,
-  "generated_at": "2026-06-03T13:19:14.691376+00:00",
+  "generated_at": "2026-06-03T13:27:30.901220+00:00",
   "hour_slots": [
     {
       "archive_status": "published",
@@ -455,7 +479,7 @@
       "year": 2024
     },
     {
-      "archive_status": "ready",
+      "archive_status": "published",
       "completeness_ratio": 1.0,
       "day": 14,
       "hour": 6,
@@ -466,9 +490,9 @@
       "local_started_at": "2024-09-14T06:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 9,
-      "playable": false,
-      "state": "publishing",
-      "status_label": "Czeka w kolejce do publikacji",
+      "playable": true,
+      "state": "available",
+      "status_label": null,
       "utc_label": "2024-09-14 04:00 UTC",
       "utc_started_at": "2024-09-14T04:00:00+00:00",
       "year": 2024
@@ -702,11 +726,11 @@
       "year": 2024
     },
     {
-      "archive_status": null,
-      "completeness_ratio": null,
+      "archive_status": "ready",
+      "completeness_ratio": 1.0,
       "day": 14,
       "hour": 19,
-      "hourly_archive_id": null,
+      "hourly_archive_id": 65066,
       "local_date_label": "14.09.2024",
       "local_hour_label": "19:00",
       "local_label": "2024-09-14 19:00 czasu polskiego",
@@ -714,8 +738,8 @@
       "local_timezone_label": "czasu polskiego",
       "month": 9,
       "playable": false,
-      "state": "missing",
-      "status_label": "Nie udało się nagrać",
+      "state": "publishing",
+      "status_label": "Czeka w kolejce do publikacji",
       "utc_label": "2024-09-14 17:00 UTC",
       "utc_started_at": "2024-09-14T17:00:00+00:00",
       "year": 2024
@@ -800,9 +824,9 @@
   "latest_archive_hour_expected_station_count": 0,
   "latest_archive_hour_started_at": "2026-06-03T12:00:00+00:00",
   "month": 9,
-  "published_at": "2026-06-03T13:19:14.691376+00:00",
+  "published_at": "2026-06-03T13:27:30.901220+00:00",
   "station": {
-    "archive_count": 14238,
+    "archive_count": 14239,
     "display_name": "Program 3",
     "public_name": "Polskie Radio Program 3",
     "slug": "pr3",
