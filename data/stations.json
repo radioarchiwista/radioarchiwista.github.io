@@ -1,15 +1,14 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-06-04T17:06:40.056793+00:00",
+  "generated_at": "2026-06-04T17:19:20.877700+00:00",
   "latest_archive_hour_expected_station_count": 39,
-  "latest_archive_hour_started_at": "2026-06-04T15:00:00+00:00",
+  "latest_archive_hour_started_at": "2026-06-04T16:00:00+00:00",
   "latest_archive_hour_stations": [
-    "Program 1",
     "Radio UWM FM"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-06-04T17:06:40.056793+00:00",
+  "published_at": "2026-06-04T17:19:20.877700+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -21,7 +20,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1363,
+      "archive_count": 1364,
       "display_name": "Program 2",
       "public_name": "Polskie Radio Program 2",
       "slug": "pr2",
@@ -35,7 +34,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1380,
+      "archive_count": 1381,
       "display_name": "Polskie Radio 24",
       "public_name": "Polskie Radio 24",
       "slug": "pr24",
@@ -245,7 +244,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1364,
+      "archive_count": 1365,
       "display_name": "Radio UWM FM",
       "public_name": "Radio UWM FM",
       "slug": "radiouwmfm",
