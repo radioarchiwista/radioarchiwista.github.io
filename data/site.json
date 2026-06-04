@@ -1,8 +1,8 @@
 {
-  "archive_count": 65059,
+  "archive_count": 65065,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-06-04T04:40:14.979774+00:00",
+  "generated_at": "2026-06-04T04:42:33.102456+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-06-04T03:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -27,12 +27,17 @@
     "Radio Lublin",
     "Radio Luz",
     "Radio Maryja",
+    "Radio Olsztyn",
     "Radio Opole",
     "Radio PiK",
-    "Radio UWM FM"
+    "Radio Poznań",
+    "Radio Rzeszów",
+    "Radio Szczecin",
+    "Radio UWM FM",
+    "Radio Wrocław"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-06-04T04:40:14.979774+00:00",
+  "published_at": "2026-06-04T04:42:33.102456+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
