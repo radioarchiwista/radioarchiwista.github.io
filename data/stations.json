@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-06-04T09:26:26.702320+00:00",
+  "generated_at": "2026-06-04T09:32:03.861505+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-06-04T08:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -38,13 +38,15 @@
     "Radio Rzeszów",
     "Radio Szczecin",
     "Radio Słupsk",
+    "Radio UWM FM",
     "Radio Wrocław",
+    "Radio Zachód",
     "Radio Zielona Góra",
     "Radio Łódź",
     "Radio Żak"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-06-04T09:26:26.702320+00:00",
+  "published_at": "2026-06-04T09:32:03.861505+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -280,7 +282,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1348,
+      "archive_count": 1349,
       "display_name": "Radio UWM FM",
       "public_name": "Radio UWM FM",
       "slug": "radiouwmfm",
@@ -294,7 +296,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1358,
+      "archive_count": 1359,
       "display_name": "Radio Zachód",
       "public_name": "Radio Zachód",
       "slug": "radiozachod",
