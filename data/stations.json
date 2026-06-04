@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-06-04T12:23:51.835282+00:00",
+  "generated_at": "2026-06-04T12:30:01.530041+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-06-04T11:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -11,6 +11,7 @@
     "Polskie Radio 24",
     "Radio 357",
     "Radio Nowy Świat",
+    "TOK FM",
     "Radio Wnet",
     "Radio Republika",
     "Radio Afera",
@@ -37,7 +38,6 @@
     "Radio Rzeszów",
     "Radio Szczecin",
     "Radio Słupsk",
-    "Radio UWM FM",
     "Radio Wrocław",
     "Radio Zachód",
     "Radio Zielona Góra",
@@ -45,7 +45,7 @@
     "Radio Żak"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-06-04T12:23:51.835282+00:00",
+  "published_at": "2026-06-04T12:30:01.530041+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -85,14 +85,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1378,
+      "archive_count": 1379,
       "display_name": "Radio Nowy Świat",
       "public_name": "Radio Nowy Świat",
       "slug": "rns",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1361,
+      "archive_count": 1362,
       "display_name": "TOK FM",
       "public_name": "TOK FM",
       "slug": "tokfm",
@@ -281,7 +281,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1360,
+      "archive_count": 1359,
       "display_name": "Radio UWM FM",
       "public_name": "Radio UWM FM",
       "slug": "radiouwmfm",
