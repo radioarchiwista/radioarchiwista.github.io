@@ -386,6 +386,30 @@
     },
     {
       "archive_item_identifier": "rdc-2026-06-03",
+      "audio_url": "https://archive.org/download/rdc-2026-06-03/rdc_2026-06-03T15-00-00Z.mp3",
+      "completeness_ratio": 1.0,
+      "day": 3,
+      "download_url": "https://archive.org/download/rdc-2026-06-03/rdc_2026-06-03T15-00-00Z.mp3",
+      "duration_seconds": 3598.184,
+      "hour": 17,
+      "hourly_archive_id": 65205,
+      "local_date_label": "03.06.2026",
+      "local_hour_label": "17:00",
+      "local_label": "2026-06-03 17:00 czasu polskiego",
+      "local_started_at": "2026-06-03T17:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 6,
+      "published_at": "2026-06-04T00:53:05.407400+00:00",
+      "published_local_label": "2026-06-04 02:53 czasu polskiego",
+      "remote_filename": "rdc_2026-06-03T15-00-00Z.mp3",
+      "station_slug": "rdc",
+      "status": "published",
+      "utc_label": "2026-06-03 15:00 UTC",
+      "utc_started_at": "2026-06-03T15:00:00+00:00",
+      "year": 2026
+    },
+    {
+      "archive_item_identifier": "rdc-2026-06-03",
       "audio_url": "https://archive.org/download/rdc-2026-06-03/rdc_2026-06-03T16-00-00Z.mp3",
       "completeness_ratio": 1.0,
       "day": 3,
@@ -530,7 +554,7 @@
     }
   ],
   "day": 3,
-  "generated_at": "2026-06-04T00:42:35.588348+00:00",
+  "generated_at": "2026-06-04T00:53:05.407400+00:00",
   "hour_slots": [
     {
       "archive_status": "published",
@@ -856,7 +880,7 @@
       "year": 2026
     },
     {
-      "archive_status": "ready",
+      "archive_status": "published",
       "completeness_ratio": 1.0,
       "day": 3,
       "hour": 17,
@@ -867,9 +891,9 @@
       "local_started_at": "2026-06-03T17:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 6,
-      "playable": false,
-      "state": "publishing",
-      "status_label": "Czeka w kolejce do publikacji",
+      "playable": true,
+      "state": "available",
+      "status_label": null,
       "utc_label": "2026-06-03 15:00 UTC",
       "utc_started_at": "2026-06-03T15:00:00+00:00",
       "year": 2026
@@ -992,9 +1016,9 @@
   "latest_archive_hour_expected_station_count": 0,
   "latest_archive_hour_started_at": "2026-06-03T23:00:00+00:00",
   "month": 6,
-  "published_at": "2026-06-04T00:42:35.588348+00:00",
+  "published_at": "2026-06-04T00:53:05.407400+00:00",
   "station": {
-    "archive_count": 1350,
+    "archive_count": 1351,
     "display_name": "Radio Dla Ciebie",
     "public_name": "Radio Dla Ciebie",
     "slug": "rdc",
