@@ -386,6 +386,30 @@
     },
     {
       "archive_item_identifier": "radiorzeszow-2026-06-03",
+      "audio_url": "https://archive.org/download/radiorzeszow-2026-06-03/radiorzeszow_2026-06-03T16-00-00Z.mp3",
+      "completeness_ratio": 1.0,
+      "day": 3,
+      "download_url": "https://archive.org/download/radiorzeszow-2026-06-03/radiorzeszow_2026-06-03T16-00-00Z.mp3",
+      "duration_seconds": 3599.882,
+      "hour": 18,
+      "hourly_archive_id": 65237,
+      "local_date_label": "03.06.2026",
+      "local_hour_label": "18:00",
+      "local_label": "2026-06-03 18:00 czasu polskiego",
+      "local_started_at": "2026-06-03T18:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 6,
+      "published_at": "2026-06-04T00:37:08.721636+00:00",
+      "published_local_label": "2026-06-04 02:37 czasu polskiego",
+      "remote_filename": "radiorzeszow_2026-06-03T16-00-00Z.mp3",
+      "station_slug": "radiorzeszow",
+      "status": "published",
+      "utc_label": "2026-06-03 16:00 UTC",
+      "utc_started_at": "2026-06-03T16:00:00+00:00",
+      "year": 2026
+    },
+    {
+      "archive_item_identifier": "radiorzeszow-2026-06-03",
       "audio_url": "https://archive.org/download/radiorzeszow-2026-06-03/radiorzeszow_2026-06-03T17-00-00Z.mp3",
       "completeness_ratio": 1.0,
       "day": 3,
@@ -506,7 +530,7 @@
     }
   ],
   "day": 3,
-  "generated_at": "2026-06-04T00:21:35.166868+00:00",
+  "generated_at": "2026-06-04T00:37:08.721636+00:00",
   "hour_slots": [
     {
       "archive_status": "published",
@@ -851,7 +875,7 @@
       "year": 2026
     },
     {
-      "archive_status": "ready",
+      "archive_status": "published",
       "completeness_ratio": 1.0,
       "day": 3,
       "hour": 18,
@@ -862,9 +886,9 @@
       "local_started_at": "2026-06-03T18:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 6,
-      "playable": false,
-      "state": "publishing",
-      "status_label": "Czeka w kolejce do publikacji",
+      "playable": true,
+      "state": "available",
+      "status_label": null,
       "utc_label": "2026-06-03 16:00 UTC",
       "utc_started_at": "2026-06-03T16:00:00+00:00",
       "year": 2026
@@ -968,9 +992,9 @@
   "latest_archive_hour_expected_station_count": 0,
   "latest_archive_hour_started_at": "2026-06-03T23:00:00+00:00",
   "month": 6,
-  "published_at": "2026-06-04T00:21:35.166868+00:00",
+  "published_at": "2026-06-04T00:37:08.721636+00:00",
   "station": {
-    "archive_count": 1349,
+    "archive_count": 1350,
     "display_name": "Radio Rzeszów",
     "public_name": "Radio Rzeszów",
     "slug": "radiorzeszow",
