@@ -74,6 +74,30 @@
     },
     {
       "archive_item_identifier": "radioopole-2026-06-05",
+      "audio_url": "https://archive.org/download/radioopole-2026-06-05/radioopole_2026-06-05T01-00-00Z.mp3",
+      "completeness_ratio": 1.0,
+      "day": 5,
+      "download_url": "https://archive.org/download/radioopole-2026-06-05/radioopole_2026-06-05T01-00-00Z.mp3",
+      "duration_seconds": 3599.856,
+      "hour": 3,
+      "hourly_archive_id": 66714,
+      "local_date_label": "05.06.2026",
+      "local_hour_label": "03:00",
+      "local_label": "2026-06-05 03:00 czasu polskiego",
+      "local_started_at": "2026-06-05T03:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 6,
+      "published_at": "2026-06-05T09:37:07.850208+00:00",
+      "published_local_label": "2026-06-05 11:37 czasu polskiego",
+      "remote_filename": "radioopole_2026-06-05T01-00-00Z.mp3",
+      "station_slug": "radioopole",
+      "status": "published",
+      "utc_label": "2026-06-05 01:00 UTC",
+      "utc_started_at": "2026-06-05T01:00:00+00:00",
+      "year": 2026
+    },
+    {
+      "archive_item_identifier": "radioopole-2026-06-05",
       "audio_url": "https://archive.org/download/radioopole-2026-06-05/radioopole_2026-06-05T03-00-00Z.mp3",
       "completeness_ratio": 1.0,
       "day": 5,
@@ -218,7 +242,7 @@
     }
   ],
   "day": 5,
-  "generated_at": "2026-06-05T09:25:39.760971+00:00",
+  "generated_at": "2026-06-05T09:37:07.850208+00:00",
   "hour_slots": [
     {
       "archive_status": "published",
@@ -278,7 +302,7 @@
       "year": 2026
     },
     {
-      "archive_status": "ready",
+      "archive_status": "published",
       "completeness_ratio": 1.0,
       "day": 5,
       "hour": 3,
@@ -289,9 +313,9 @@
       "local_started_at": "2026-06-05T03:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 6,
-      "playable": false,
-      "state": "publishing",
-      "status_label": "Czeka w kolejce do publikacji",
+      "playable": true,
+      "state": "available",
+      "status_label": null,
       "utc_label": "2026-06-05 01:00 UTC",
       "utc_started_at": "2026-06-05T01:00:00+00:00",
       "year": 2026
@@ -433,9 +457,9 @@
   "latest_archive_hour_expected_station_count": 0,
   "latest_archive_hour_started_at": "2026-06-05T08:00:00+00:00",
   "month": 6,
-  "published_at": "2026-06-05T09:25:39.760971+00:00",
+  "published_at": "2026-06-05T09:37:07.850208+00:00",
   "station": {
-    "archive_count": 1286,
+    "archive_count": 1287,
     "display_name": "Radio Opole",
     "public_name": "Radio Opole",
     "slug": "radioopole",
