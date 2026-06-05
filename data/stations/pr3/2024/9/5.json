@@ -386,7 +386,7 @@
     }
   ],
   "day": 5,
-  "generated_at": "2026-06-05T02:21:21.500383+00:00",
+  "generated_at": "2026-06-05T03:15:19.959662+00:00",
   "hour_slots": [
     {
       "archive_status": "published",
@@ -807,11 +807,11 @@
       "year": 2024
     },
     {
-      "archive_status": null,
-      "completeness_ratio": null,
+      "archive_status": "ready",
+      "completeness_ratio": 1.0,
       "day": 5,
       "hour": 22,
-      "hourly_archive_id": null,
+      "hourly_archive_id": 66740,
       "local_date_label": "05.09.2024",
       "local_hour_label": "22:00",
       "local_label": "2024-09-05 22:00 czasu polskiego",
@@ -819,18 +819,18 @@
       "local_timezone_label": "czasu polskiego",
       "month": 9,
       "playable": false,
-      "state": "missing",
-      "status_label": "Nie udało się nagrać",
+      "state": "publishing",
+      "status_label": "Czeka w kolejce do publikacji",
       "utc_label": "2024-09-05 20:00 UTC",
       "utc_started_at": "2024-09-05T20:00:00+00:00",
       "year": 2024
     },
     {
-      "archive_status": null,
-      "completeness_ratio": null,
+      "archive_status": "ready",
+      "completeness_ratio": 1.0,
       "day": 5,
       "hour": 23,
-      "hourly_archive_id": null,
+      "hourly_archive_id": 66758,
       "local_date_label": "05.09.2024",
       "local_hour_label": "23:00",
       "local_label": "2024-09-05 23:00 czasu polskiego",
@@ -838,19 +838,19 @@
       "local_timezone_label": "czasu polskiego",
       "month": 9,
       "playable": false,
-      "state": "missing",
-      "status_label": "Nie udało się nagrać",
+      "state": "publishing",
+      "status_label": "Czeka w kolejce do publikacji",
       "utc_label": "2024-09-05 21:00 UTC",
       "utc_started_at": "2024-09-05T21:00:00+00:00",
       "year": 2024
     }
   ],
   "latest_archive_hour_expected_station_count": 0,
-  "latest_archive_hour_started_at": "2026-06-05T01:00:00+00:00",
+  "latest_archive_hour_started_at": "2026-06-05T02:00:00+00:00",
   "month": 9,
-  "published_at": "2026-06-05T02:21:21.500383+00:00",
+  "published_at": "2026-06-05T03:15:19.959662+00:00",
   "station": {
-    "archive_count": 14492,
+    "archive_count": 14493,
     "display_name": "Program 3",
     "public_name": "Polskie Radio Program 3",
     "slug": "pr3",
