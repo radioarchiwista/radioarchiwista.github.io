@@ -482,6 +482,30 @@
     },
     {
       "archive_item_identifier": "pr3-2024-09-01",
+      "audio_url": "https://archive.org/download/pr3-2024-09-01/pr3_2024-09-01T19-00-00Z.ogg",
+      "completeness_ratio": 1.0,
+      "day": 1,
+      "download_url": "https://archive.org/download/pr3-2024-09-01/pr3_2024-09-01T19-00-00Z.ogg",
+      "duration_seconds": 3610.007,
+      "hour": 21,
+      "hourly_archive_id": 67296,
+      "local_date_label": "01.09.2024",
+      "local_hour_label": "21:00",
+      "local_label": "2024-09-01 21:00 czasu polskiego",
+      "local_started_at": "2024-09-01T21:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 9,
+      "published_at": "2026-06-05T14:32:41.411781+00:00",
+      "published_local_label": "2026-06-05 16:32 czasu polskiego",
+      "remote_filename": "pr3_2024-09-01T19-00-00Z.ogg",
+      "station_slug": "pr3",
+      "status": "published",
+      "utc_label": "2024-09-01 19:00 UTC",
+      "utc_started_at": "2024-09-01T19:00:00+00:00",
+      "year": 2024
+    },
+    {
+      "archive_item_identifier": "pr3-2024-09-01",
       "audio_url": "https://archive.org/download/pr3-2024-09-01/pr3_2024-09-01T20-00-00Z.ogg",
       "completeness_ratio": 1.0,
       "day": 1,
@@ -506,7 +530,7 @@
     }
   ],
   "day": 1,
-  "generated_at": "2026-06-05T14:44:37.444870+00:00",
+  "generated_at": "2026-06-05T14:50:08.885816+00:00",
   "hour_slots": [
     {
       "archive_status": "published",
@@ -908,7 +932,7 @@
       "year": 2024
     },
     {
-      "archive_status": "ready",
+      "archive_status": "published",
       "completeness_ratio": 1.0,
       "day": 1,
       "hour": 21,
@@ -919,9 +943,9 @@
       "local_started_at": "2024-09-01T21:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 9,
-      "playable": false,
-      "state": "publishing",
-      "status_label": "Czeka w kolejce do publikacji",
+      "playable": true,
+      "state": "available",
+      "status_label": null,
       "utc_label": "2024-09-01 19:00 UTC",
       "utc_started_at": "2024-09-01T19:00:00+00:00",
       "year": 2024
@@ -946,11 +970,11 @@
       "year": 2024
     },
     {
-      "archive_status": null,
-      "completeness_ratio": null,
+      "archive_status": "ready",
+      "completeness_ratio": 1.0,
       "day": 1,
       "hour": 23,
-      "hourly_archive_id": null,
+      "hourly_archive_id": 67298,
       "local_date_label": "01.09.2024",
       "local_hour_label": "23:00",
       "local_label": "2024-09-01 23:00 czasu polskiego",
@@ -958,8 +982,8 @@
       "local_timezone_label": "czasu polskiego",
       "month": 9,
       "playable": false,
-      "state": "missing",
-      "status_label": "Nie udało się nagrać",
+      "state": "publishing",
+      "status_label": "Czeka w kolejce do publikacji",
       "utc_label": "2024-09-01 21:00 UTC",
       "utc_started_at": "2024-09-01T21:00:00+00:00",
       "year": 2024
@@ -968,7 +992,7 @@
   "latest_archive_hour_expected_station_count": 0,
   "latest_archive_hour_started_at": "2026-06-05T13:00:00+00:00",
   "month": 9,
-  "published_at": "2026-06-05T14:44:37.444870+00:00",
+  "published_at": "2026-06-05T14:50:08.885816+00:00",
   "station": {
     "archive_count": 14605,
     "display_name": "Program 3",
