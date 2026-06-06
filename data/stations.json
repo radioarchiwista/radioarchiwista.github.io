@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-06-06T11:46:47.032242+00:00",
+  "generated_at": "2026-06-06T11:56:14.902115+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-06-06T10:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -45,7 +45,7 @@
     "Radio Żak"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-06-06T11:46:47.032242+00:00",
+  "published_at": "2026-06-06T11:56:14.902115+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -64,7 +64,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 14753,
+      "archive_count": 14765,
       "display_name": "Program 3",
       "public_name": "Polskie Radio Program 3",
       "slug": "pr3",
@@ -92,7 +92,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1414,
+      "archive_count": 1415,
       "display_name": "TOK FM",
       "public_name": "TOK FM",
       "slug": "tokfm",
@@ -162,7 +162,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1409,
+      "archive_count": 1408,
       "display_name": "Radio Gorzów",
       "public_name": "Radio Gorzów",
       "slug": "radiogorzow",
