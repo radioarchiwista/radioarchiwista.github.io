@@ -324,11 +324,11 @@
       "year": 2024
     },
     {
-      "archive_status": null,
-      "completeness_ratio": null,
+      "archive_status": "ready",
+      "completeness_ratio": 1.0,
       "day": 28,
       "hour": 13,
-      "hourly_archive_id": null,
+      "hourly_archive_id": 67852,
       "local_date_label": "28.08.2024",
       "local_hour_label": "13:00",
       "local_label": "2024-08-28 13:00 czasu polskiego",
@@ -336,8 +336,8 @@
       "local_timezone_label": "czasu polskiego",
       "month": 8,
       "playable": false,
-      "state": "missing",
-      "status_label": "Nie udało się nagrać",
+      "state": "publishing",
+      "status_label": "Czeka w kolejce do publikacji",
       "utc_label": "2024-08-28 11:00 UTC",
       "utc_started_at": "2024-08-28T11:00:00+00:00",
       "year": 2024
