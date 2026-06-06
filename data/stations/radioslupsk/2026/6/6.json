@@ -111,8 +111,8 @@
       "local_started_at": "2026-06-06T05:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 6,
-      "published_at": "2026-06-06T13:51:56.095184+00:00",
-      "published_local_label": "2026-06-06 15:51 czasu polskiego",
+      "published_at": "2026-06-06T14:02:44.741586+00:00",
+      "published_local_label": "2026-06-06 16:02 czasu polskiego",
       "remote_filename": "radioslupsk_2026-06-06T03-00-00Z.mp3",
       "station_slug": "radioslupsk",
       "status": "published",
@@ -338,7 +338,7 @@
     }
   ],
   "day": 6,
-  "generated_at": "2026-06-06T13:51:56.095184+00:00",
+  "generated_at": "2026-06-06T14:02:44.741586+00:00",
   "hour_slots": [
     {
       "archive_status": "published",
@@ -624,12 +624,31 @@
       "utc_label": "2026-06-06 12:00 UTC",
       "utc_started_at": "2026-06-06T12:00:00+00:00",
       "year": 2026
+    },
+    {
+      "archive_status": null,
+      "completeness_ratio": null,
+      "day": 6,
+      "hour": 15,
+      "hourly_archive_id": null,
+      "local_date_label": "06.06.2026",
+      "local_hour_label": "15:00",
+      "local_label": "2026-06-06 15:00 czasu polskiego",
+      "local_started_at": "2026-06-06T15:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 6,
+      "playable": false,
+      "state": "recorded",
+      "status_label": "Nagranie czeka na złożenie",
+      "utc_label": "2026-06-06 13:00 UTC",
+      "utc_started_at": "2026-06-06T13:00:00+00:00",
+      "year": 2026
     }
   ],
   "latest_archive_hour_expected_station_count": 0,
   "latest_archive_hour_started_at": "2026-06-06T12:00:00+00:00",
   "month": 6,
-  "published_at": "2026-06-06T13:51:56.095184+00:00",
+  "published_at": "2026-06-06T14:02:44.741586+00:00",
   "station": {
     "archive_count": 1411,
     "display_name": "Radio Słupsk",
