@@ -1,8 +1,8 @@
 {
-  "archive_count": 67922,
+  "archive_count": 67923,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-06-06T15:41:08.590436+00:00",
+  "generated_at": "2026-06-06T15:46:17.019237+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-06-06T14:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -22,7 +22,6 @@
     "Radio Centrum Rzeszów",
     "Radio Dla Ciebie",
     "Radio Gdańsk",
-    "Radio Gorzów",
     "Radio Index",
     "Radio Kampus",
     "Radio Katowice",
@@ -47,7 +46,7 @@
     "Radio Żak"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-06-06T15:41:08.590436+00:00",
+  "published_at": "2026-06-06T15:46:17.019237+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
