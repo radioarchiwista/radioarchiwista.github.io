@@ -50,6 +50,30 @@
     },
     {
       "archive_item_identifier": "ra48y11epcc792se-2026-06-05",
+      "audio_url": "https://archive.org/download/ra48y11epcc792se-2026-06-05/ra48y11epcc792se_2026-06-05T10-00-00Z.mp3",
+      "completeness_ratio": 1.0,
+      "day": 5,
+      "download_url": "https://archive.org/download/ra48y11epcc792se-2026-06-05/ra48y11epcc792se_2026-06-05T10-00-00Z.mp3",
+      "duration_seconds": 3598.344,
+      "hour": 12,
+      "hourly_archive_id": 67143,
+      "local_date_label": "05.06.2026",
+      "local_hour_label": "12:00",
+      "local_label": "2026-06-05 12:00 czasu polskiego",
+      "local_started_at": "2026-06-05T12:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 6,
+      "published_at": "2026-06-06T07:01:19.855058+00:00",
+      "published_local_label": "2026-06-06 09:01 czasu polskiego",
+      "remote_filename": "ra48y11epcc792se_2026-06-05T10-00-00Z.mp3",
+      "station_slug": "radiouwmfm",
+      "status": "published",
+      "utc_label": "2026-06-05 10:00 UTC",
+      "utc_started_at": "2026-06-05T10:00:00+00:00",
+      "year": 2026
+    },
+    {
+      "archive_item_identifier": "ra48y11epcc792se-2026-06-05",
       "audio_url": "https://archive.org/download/ra48y11epcc792se-2026-06-05/ra48y11epcc792se_2026-06-05T11-00-00Z.mp3",
       "completeness_ratio": 0.9998,
       "day": 5,
@@ -314,7 +338,7 @@
     }
   ],
   "day": 5,
-  "generated_at": "2026-06-06T06:54:38.839828+00:00",
+  "generated_at": "2026-06-06T07:01:19.855058+00:00",
   "hour_slots": [
     {
       "archive_status": "published",
@@ -545,7 +569,7 @@
       "year": 2026
     },
     {
-      "archive_status": "ready",
+      "archive_status": "published",
       "completeness_ratio": 1.0,
       "day": 5,
       "hour": 12,
@@ -556,9 +580,9 @@
       "local_started_at": "2026-06-05T12:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 6,
-      "playable": false,
-      "state": "publishing",
-      "status_label": "Czeka w kolejce do publikacji",
+      "playable": true,
+      "state": "available",
+      "status_label": null,
       "utc_label": "2026-06-05 10:00 UTC",
       "utc_started_at": "2026-06-05T10:00:00+00:00",
       "year": 2026
@@ -776,9 +800,9 @@
   "latest_archive_hour_expected_station_count": 0,
   "latest_archive_hour_started_at": "2026-06-06T05:00:00+00:00",
   "month": 6,
-  "published_at": "2026-06-06T06:54:38.839828+00:00",
+  "published_at": "2026-06-06T07:01:19.855058+00:00",
   "station": {
-    "archive_count": 1391,
+    "archive_count": 1392,
     "display_name": "Radio UWM FM",
     "public_name": "Radio UWM FM",
     "slug": "radiouwmfm",
