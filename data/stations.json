@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-06-06T15:27:29.727373+00:00",
+  "generated_at": "2026-06-06T15:33:17.930419+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-06-06T14:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -40,10 +40,12 @@
     "Radio UWM FM",
     "Radio Wrocław",
     "Radio Zachód",
-    "Radio Łódź"
+    "Radio Zielona Góra",
+    "Radio Łódź",
+    "Radio Żak"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-06-06T15:27:29.727373+00:00",
+  "published_at": "2026-06-06T15:33:17.930419+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -62,7 +64,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 14812,
+      "archive_count": 14814,
       "display_name": "Program 3",
       "public_name": "Polskie Radio Program 3",
       "slug": "pr3",
@@ -160,7 +162,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1412,
+      "archive_count": 1410,
       "display_name": "Radio Gorzów",
       "public_name": "Radio Gorzów",
       "slug": "radiogorzow",
@@ -314,7 +316,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1402,
+      "archive_count": 1403,
       "display_name": "Radio Żak",
       "public_name": "Radio Żak",
       "slug": "radiozak",
