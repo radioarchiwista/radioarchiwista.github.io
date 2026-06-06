@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-06-06T20:57:01.338991+00:00",
+  "generated_at": "2026-06-06T21:02:03.605237+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-06-06T19:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -21,6 +21,7 @@
     "Radio Centrum Rzeszów",
     "Radio Dla Ciebie",
     "Radio Gdańsk",
+    "Radio Gorzów",
     "Radio Index",
     "Radio Kampus",
     "Radio Katowice",
@@ -45,7 +46,7 @@
     "Radio Żak"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-06-06T20:57:01.338991+00:00",
+  "published_at": "2026-06-06T21:02:03.605237+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -64,7 +65,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 14854,
+      "archive_count": 14855,
       "display_name": "Program 3",
       "public_name": "Polskie Radio Program 3",
       "slug": "pr3",
@@ -162,7 +163,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1413,
+      "archive_count": 1412,
       "display_name": "Radio Gorzów",
       "public_name": "Radio Gorzów",
       "slug": "radiogorzow",
