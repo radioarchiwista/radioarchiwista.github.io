@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-06-06T14:55:31.843161+00:00",
+  "generated_at": "2026-06-06T15:01:22.824968+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-06-06T13:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -21,6 +21,7 @@
     "Radio Centrum Rzeszów",
     "Radio Dla Ciebie",
     "Radio Gdańsk",
+    "Radio Gorzów",
     "Radio Index",
     "Radio Kampus",
     "Radio Katowice",
@@ -45,7 +46,7 @@
     "Radio Żak"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-06-06T14:55:31.843161+00:00",
+  "published_at": "2026-06-06T15:01:22.824968+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -64,7 +65,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 14808,
+      "archive_count": 14807,
       "display_name": "Program 3",
       "public_name": "Polskie Radio Program 3",
       "slug": "pr3",
