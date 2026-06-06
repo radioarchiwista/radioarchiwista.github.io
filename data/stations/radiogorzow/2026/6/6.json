@@ -218,26 +218,26 @@
     },
     {
       "archive_item_identifier": "radiogorzow-2026-06-06",
-      "audio_url": "https://archive.org/download/radiogorzow-2026-06-06/radiogorzow_2026-06-06T09-00-00Z.mp3",
-      "completeness_ratio": 0.9997,
+      "audio_url": "https://archive.org/download/radiogorzow-2026-06-06/radiogorzow_2026-06-06T07-00-00Z.mp3",
+      "completeness_ratio": 0.9972,
       "day": 6,
-      "download_url": "https://archive.org/download/radiogorzow-2026-06-06/radiogorzow_2026-06-06T09-00-00Z.mp3",
-      "duration_seconds": 3570.744,
-      "hour": 11,
-      "hourly_archive_id": 68191,
+      "download_url": "https://archive.org/download/radiogorzow-2026-06-06/radiogorzow_2026-06-06T07-00-00Z.mp3",
+      "duration_seconds": 3583.44,
+      "hour": 9,
+      "hourly_archive_id": 68095,
       "local_date_label": "06.06.2026",
-      "local_hour_label": "11:00",
-      "local_label": "2026-06-06 11:00 czasu polskiego",
-      "local_started_at": "2026-06-06T11:00:00+02:00",
+      "local_hour_label": "09:00",
+      "local_label": "2026-06-06 09:00 czasu polskiego",
+      "local_started_at": "2026-06-06T09:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 6,
-      "published_at": "2026-06-06T13:16:38.210635+00:00",
-      "published_local_label": "2026-06-06 15:16 czasu polskiego",
-      "remote_filename": "radiogorzow_2026-06-06T09-00-00Z.mp3",
+      "published_at": "2026-06-06T13:24:18.362612+00:00",
+      "published_local_label": "2026-06-06 15:24 czasu polskiego",
+      "remote_filename": "radiogorzow_2026-06-06T07-00-00Z.mp3",
       "station_slug": "radiogorzow",
       "status": "published",
-      "utc_label": "2026-06-06 09:00 UTC",
-      "utc_started_at": "2026-06-06T09:00:00+00:00",
+      "utc_label": "2026-06-06 07:00 UTC",
+      "utc_started_at": "2026-06-06T07:00:00+00:00",
       "year": 2026
     },
     {
@@ -266,7 +266,7 @@
     }
   ],
   "day": 6,
-  "generated_at": "2026-06-06T13:19:50.326591+00:00",
+  "generated_at": "2026-06-06T13:24:18.362612+00:00",
   "hour_slots": [
     {
       "archive_status": "published",
@@ -440,7 +440,7 @@
       "year": 2026
     },
     {
-      "archive_status": "ready",
+      "archive_status": "published",
       "completeness_ratio": 0.9972,
       "day": 6,
       "hour": 9,
@@ -451,9 +451,9 @@
       "local_started_at": "2026-06-06T09:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 6,
-      "playable": false,
-      "state": "publishing",
-      "status_label": "Czeka w kolejce do publikacji",
+      "playable": true,
+      "state": "available",
+      "status_label": null,
       "utc_label": "2026-06-06 07:00 UTC",
       "utc_started_at": "2026-06-06T07:00:00+00:00",
       "year": 2026
@@ -478,7 +478,7 @@
       "year": 2026
     },
     {
-      "archive_status": "published",
+      "archive_status": "ready",
       "completeness_ratio": 0.9997,
       "day": 6,
       "hour": 11,
@@ -489,9 +489,9 @@
       "local_started_at": "2026-06-06T11:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 6,
-      "playable": true,
-      "state": "available",
-      "status_label": null,
+      "playable": false,
+      "state": "publishing",
+      "status_label": "Czeka w kolejce do publikacji",
       "utc_label": "2026-06-06 09:00 UTC",
       "utc_started_at": "2026-06-06T09:00:00+00:00",
       "year": 2026
@@ -557,7 +557,7 @@
   "latest_archive_hour_expected_station_count": 0,
   "latest_archive_hour_started_at": "2026-06-06T10:00:00+00:00",
   "month": 6,
-  "published_at": "2026-06-06T13:19:50.326591+00:00",
+  "published_at": "2026-06-06T13:24:18.362612+00:00",
   "station": {
     "archive_count": 1409,
     "display_name": "Radio Gorzów",
