@@ -386,7 +386,7 @@
     }
   ],
   "day": 18,
-  "generated_at": "2026-06-07T12:03:56.222983+00:00",
+  "generated_at": "2026-06-07T12:09:38.695782+00:00",
   "hour_slots": [
     {
       "archive_status": "published",
@@ -693,11 +693,11 @@
       "year": 2024
     },
     {
-      "archive_status": null,
-      "completeness_ratio": null,
+      "archive_status": "ready",
+      "completeness_ratio": 1.0,
       "day": 18,
       "hour": 16,
-      "hourly_archive_id": null,
+      "hourly_archive_id": 69406,
       "local_date_label": "18.08.2024",
       "local_hour_label": "16:00",
       "local_label": "2024-08-18 16:00 czasu polskiego",
@@ -705,8 +705,8 @@
       "local_timezone_label": "czasu polskiego",
       "month": 8,
       "playable": false,
-      "state": "missing",
-      "status_label": "Nie udało się nagrać",
+      "state": "publishing",
+      "status_label": "Czeka w kolejce do publikacji",
       "utc_label": "2024-08-18 14:00 UTC",
       "utc_started_at": "2024-08-18T14:00:00+00:00",
       "year": 2024
@@ -848,7 +848,7 @@
   "latest_archive_hour_expected_station_count": 0,
   "latest_archive_hour_started_at": "2026-06-07T11:00:00+00:00",
   "month": 8,
-  "published_at": "2026-06-07T12:03:56.222983+00:00",
+  "published_at": "2026-06-07T12:09:38.695782+00:00",
   "station": {
     "archive_count": 14978,
     "display_name": "Program 3",
