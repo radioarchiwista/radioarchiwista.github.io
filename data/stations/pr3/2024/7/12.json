@@ -2,6 +2,30 @@
   "archives": [
     {
       "archive_item_identifier": "pr3-2024-07-12",
+      "audio_url": "https://archive.org/download/pr3-2024-07-12/pr3_2024-07-12T07-00-00Z.ogg",
+      "completeness_ratio": 1.0,
+      "day": 12,
+      "download_url": "https://archive.org/download/pr3-2024-07-12/pr3_2024-07-12T07-00-00Z.ogg",
+      "duration_seconds": 3609.993,
+      "hour": 9,
+      "hourly_archive_id": 71344,
+      "local_date_label": "12.07.2024",
+      "local_hour_label": "09:00",
+      "local_label": "2024-07-12 09:00 czasu polskiego",
+      "local_started_at": "2024-07-12T09:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 7,
+      "published_at": "2026-06-08T16:37:49.847616+00:00",
+      "published_local_label": "2026-06-08 18:37 czasu polskiego",
+      "remote_filename": "pr3_2024-07-12T07-00-00Z.ogg",
+      "station_slug": "pr3",
+      "status": "published",
+      "utc_label": "2024-07-12 07:00 UTC",
+      "utc_started_at": "2024-07-12T07:00:00+00:00",
+      "year": 2024
+    },
+    {
+      "archive_item_identifier": "pr3-2024-07-12",
       "audio_url": "https://archive.org/download/pr3-2024-07-12/pr3_2024-07-12T08-00-00Z.ogg",
       "completeness_ratio": 1.0,
       "day": 12,
@@ -338,7 +362,7 @@
     }
   ],
   "day": 12,
-  "generated_at": "2026-06-08T16:34:39.657365+00:00",
+  "generated_at": "2026-06-08T16:44:35.800048+00:00",
   "hour_slots": [
     {
       "archive_status": null,
@@ -512,7 +536,7 @@
       "year": 2024
     },
     {
-      "archive_status": "ready",
+      "archive_status": "published",
       "completeness_ratio": 1.0,
       "day": 12,
       "hour": 9,
@@ -523,9 +547,9 @@
       "local_started_at": "2024-07-12T09:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 7,
-      "playable": false,
-      "state": "publishing",
-      "status_label": "Czeka w kolejce do publikacji",
+      "playable": true,
+      "state": "available",
+      "status_label": null,
       "utc_label": "2024-07-12 07:00 UTC",
       "utc_started_at": "2024-07-12T07:00:00+00:00",
       "year": 2024
@@ -800,9 +824,9 @@
   "latest_archive_hour_expected_station_count": 0,
   "latest_archive_hour_started_at": "2026-06-08T15:00:00+00:00",
   "month": 7,
-  "published_at": "2026-06-08T16:34:39.657365+00:00",
+  "published_at": "2026-06-08T16:44:35.800048+00:00",
   "station": {
-    "archive_count": 15896,
+    "archive_count": 15900,
     "display_name": "Program 3",
     "public_name": "Polskie Radio Program 3",
     "slug": "pr3",
