@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-06-08T05:41:45.059166+00:00",
+  "generated_at": "2026-06-08T05:49:08.707858+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-06-08T04:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -46,7 +46,7 @@
     "Radio Żak"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-06-08T05:41:45.059166+00:00",
+  "published_at": "2026-06-08T05:49:08.707858+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -65,7 +65,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 15481,
+      "archive_count": 15489,
       "display_name": "Program 3",
       "public_name": "Polskie Radio Program 3",
       "slug": "pr3",
@@ -226,7 +226,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1306,
+      "archive_count": 1305,
       "display_name": "Radio Maryja",
       "public_name": "Radio Maryja",
       "slug": "radiomaryja",
@@ -282,7 +282,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1438,
+      "archive_count": 1442,
       "display_name": "Radio UWM FM",
       "public_name": "Radio UWM FM",
       "slug": "radiouwmfm",
