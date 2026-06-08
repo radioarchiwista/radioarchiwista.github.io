@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-06-08T02:36:50.842212+00:00",
+  "generated_at": "2026-06-08T02:46:04.445586+00:00",
   "latest_archive_hour_expected_station_count": 39,
   "latest_archive_hour_started_at": "2026-06-08T01:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -30,6 +30,7 @@
     "Radio Kraków",
     "Radio Lublin",
     "Radio Luz",
+    "Radio Maryja",
     "Radio Olsztyn",
     "Radio Opole",
     "Radio PiK",
@@ -44,7 +45,7 @@
     "Radio Żak"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-06-08T02:36:50.842212+00:00",
+  "published_at": "2026-06-08T02:46:04.445586+00:00",
   "station_count": 39,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -63,7 +64,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 15369,
+      "archive_count": 15372,
       "display_name": "Program 3",
       "public_name": "Polskie Radio Program 3",
       "slug": "pr3",
@@ -224,7 +225,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1303,
+      "archive_count": 1304,
       "display_name": "Radio Maryja",
       "public_name": "Radio Maryja",
       "slug": "radiomaryja",
