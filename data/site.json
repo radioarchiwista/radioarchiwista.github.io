@@ -1,8 +1,8 @@
 {
-  "archive_count": 72082,
+  "archive_count": 72103,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-06-09T13:15:11.355699+00:00",
+  "generated_at": "2026-06-09T13:25:15.630791+00:00",
   "latest_archive_hour_expected_station_count": 41,
   "latest_archive_hour_started_at": "2026-06-09T12:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -21,10 +21,24 @@
     "Radio Index",
     "Radio Kampus",
     "Radio Katowice",
-    "Radio Koszalin"
+    "Radio Kielce",
+    "Radio Koszalin",
+    "Radio Kraków",
+    "Radio Lublin",
+    "Radio Luz",
+    "Radio Maryja",
+    "Radio Olsztyn",
+    "Radio Opole",
+    "Radio PiK",
+    "Radio Poznań",
+    "Radio Rzeszów",
+    "Radio Szczecin",
+    "Radio Słupsk",
+    "Radio Wrocław",
+    "Radio Łódź"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-06-09T13:15:11.355699+00:00",
+  "published_at": "2026-06-09T13:25:15.630791+00:00",
   "station_count": 41,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
