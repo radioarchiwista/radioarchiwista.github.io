@@ -119,34 +119,10 @@
       "utc_label": "2026-06-09 03:00 UTC",
       "utc_started_at": "2026-06-09T03:00:00+00:00",
       "year": 2026
-    },
-    {
-      "archive_item_identifier": "radiopik-2026-06-09",
-      "audio_url": "https://archive.org/download/radiopik-2026-06-09/radiopik_2026-06-09T04-00-00Z.mp3",
-      "completeness_ratio": 0.8761,
-      "day": 9,
-      "download_url": "https://archive.org/download/radiopik-2026-06-09/radiopik_2026-06-09T04-00-00Z.mp3",
-      "duration_seconds": 3599.808,
-      "hour": 6,
-      "hourly_archive_id": 72347,
-      "local_date_label": "09.06.2026",
-      "local_hour_label": "06:00",
-      "local_label": "2026-06-09 06:00 czasu polskiego",
-      "local_started_at": "2026-06-09T06:00:00+02:00",
-      "local_timezone_label": "czasu polskiego",
-      "month": 6,
-      "published_at": "2026-06-09T05:19:34.230979+00:00",
-      "published_local_label": "2026-06-09 07:19 czasu polskiego",
-      "remote_filename": "radiopik_2026-06-09T04-00-00Z.mp3",
-      "station_slug": "radiopik",
-      "status": "published",
-      "utc_label": "2026-06-09 04:00 UTC",
-      "utc_started_at": "2026-06-09T04:00:00+00:00",
-      "year": 2026
     }
   ],
   "day": 9,
-  "generated_at": "2026-06-09T05:19:34.230979+00:00",
+  "generated_at": "2026-06-09T04:33:58.443223+00:00",
   "hour_slots": [
     {
       "archive_status": "published",
@@ -263,7 +239,7 @@
       "year": 2026
     },
     {
-      "archive_status": "published",
+      "archive_status": "ready",
       "completeness_ratio": 0.8761,
       "day": 9,
       "hour": 6,
@@ -274,20 +250,20 @@
       "local_started_at": "2026-06-09T06:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 6,
-      "playable": true,
-      "state": "available",
-      "status_label": null,
+      "playable": false,
+      "state": "publishing",
+      "status_label": "Czeka w kolejce do publikacji",
       "utc_label": "2026-06-09 04:00 UTC",
       "utc_started_at": "2026-06-09T04:00:00+00:00",
       "year": 2026
     }
   ],
   "latest_archive_hour_expected_station_count": 0,
-  "latest_archive_hour_started_at": "2026-06-09T04:00:00+00:00",
+  "latest_archive_hour_started_at": "2026-06-09T03:00:00+00:00",
   "month": 6,
-  "published_at": "2026-06-09T05:19:34.230979+00:00",
+  "published_at": "2026-06-09T04:33:58.443223+00:00",
   "station": {
-    "archive_count": 1430,
+    "archive_count": 1429,
     "display_name": "Radio PiK",
     "public_name": "Radio PiK",
     "slug": "radiopik",
