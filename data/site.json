@@ -1,18 +1,22 @@
 {
-  "archive_count": 71716,
+  "archive_count": 71720,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-06-09T07:06:10.411509+00:00",
+  "generated_at": "2026-06-09T07:12:21.337829+00:00",
   "latest_archive_hour_expected_station_count": 41,
   "latest_archive_hour_started_at": "2026-06-09T06:00:00+00:00",
   "latest_archive_hour_stations": [
     "Program 1",
     "Program 2",
     "Polskie Radio 24",
-    "Radio Gdańsk"
+    "Radio Afera",
+    "Radio Gdańsk",
+    "Radio Kampus",
+    "Radio Kielce",
+    "Radio Łódź"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-06-09T07:06:10.411509+00:00",
+  "published_at": "2026-06-09T07:12:21.337829+00:00",
   "station_count": 41,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"

@@ -1,17 +1,21 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-06-09T07:06:10.411509+00:00",
+  "generated_at": "2026-06-09T07:12:21.337829+00:00",
   "latest_archive_hour_expected_station_count": 41,
   "latest_archive_hour_started_at": "2026-06-09T06:00:00+00:00",
   "latest_archive_hour_stations": [
     "Program 1",
     "Program 2",
     "Polskie Radio 24",
-    "Radio Gdańsk"
+    "Radio Afera",
+    "Radio Gdańsk",
+    "Radio Kampus",
+    "Radio Kielce",
+    "Radio Łódź"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-06-09T07:06:10.411509+00:00",
+  "published_at": "2026-06-09T07:12:21.337829+00:00",
   "station_count": 41,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -79,7 +83,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1479,
+      "archive_count": 1480,
       "display_name": "Radio Afera",
       "public_name": "Radio Afera",
       "slug": "afera",
@@ -142,7 +146,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1185,
+      "archive_count": 1186,
       "display_name": "Radio Kampus",
       "public_name": "Radio Kampus",
       "slug": "radiokampus",
@@ -156,7 +160,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1450,
+      "archive_count": 1451,
       "display_name": "Radio Kielce",
       "public_name": "Radio Kielce",
       "slug": "radiokielce",
@@ -275,7 +279,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1478,
+      "archive_count": 1479,
       "display_name": "Radio Łódź",
       "public_name": "Radio Łódź",
       "slug": "radiolodz",
