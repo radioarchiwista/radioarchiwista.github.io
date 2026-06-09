@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-06-09T07:28:43.179491+00:00",
+  "generated_at": "2026-06-09T07:43:36.372894+00:00",
   "latest_archive_hour_expected_station_count": 41,
   "latest_archive_hour_started_at": "2026-06-09T06:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -16,15 +16,19 @@
     "Radio Kampus",
     "Radio Kielce",
     "Radio Koszalin",
+    "Radio Maryja",
+    "Radio Olsztyn",
     "Radio PiK",
+    "Radio Poznań",
     "Radio Rzeszów",
     "Radio Słupsk",
     "Radio Wrocław",
     "Radio Zielona Góra",
-    "Radio Łódź"
+    "Radio Łódź",
+    "RMF Classic"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-06-09T07:28:43.179491+00:00",
+  "published_at": "2026-06-09T07:43:36.372894+00:00",
   "station_count": 41,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -204,14 +208,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1330,
+      "archive_count": 1331,
       "display_name": "Radio Maryja",
       "public_name": "Radio Maryja",
       "slug": "radiomaryja",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1477,
+      "archive_count": 1478,
       "display_name": "Radio Olsztyn",
       "public_name": "Radio Olsztyn",
       "slug": "radioolsztyn",
@@ -232,7 +236,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1476,
+      "archive_count": 1477,
       "display_name": "Radio Poznań",
       "public_name": "Radio Poznań",
       "slug": "radiopoznan",
@@ -302,7 +306,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5,
+      "archive_count": 6,
       "display_name": "RMF Classic",
       "public_name": "RMF Classic",
       "slug": "rmfclassic",
