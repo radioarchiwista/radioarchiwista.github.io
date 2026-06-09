@@ -1,14 +1,18 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-06-09T09:04:55.193697+00:00",
+  "generated_at": "2026-06-09T09:09:56.555317+00:00",
   "latest_archive_hour_expected_station_count": 41,
   "latest_archive_hour_started_at": "2026-06-09T08:00:00+00:00",
   "latest_archive_hour_stations": [
-    "Program 1"
+    "Program 1",
+    "Program 2",
+    "Radio 357",
+    "Radio Afera",
+    "Radio Akadera"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-06-09T09:04:55.193697+00:00",
+  "published_at": "2026-06-09T09:09:56.555317+00:00",
   "station_count": 41,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -20,7 +24,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1476,
+      "archive_count": 1477,
       "display_name": "Program 2",
       "public_name": "Polskie Radio Program 2",
       "slug": "pr2",
@@ -41,7 +45,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1476,
+      "archive_count": 1477,
       "display_name": "Radio 357",
       "public_name": "Radio 357",
       "slug": "radio357",
@@ -76,14 +80,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1481,
+      "archive_count": 1482,
       "display_name": "Radio Afera",
       "public_name": "Radio Afera",
       "slug": "afera",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1477,
+      "archive_count": 1478,
       "display_name": "Radio Akadera",
       "public_name": "Radio Akadera",
       "slug": "radioakadera",
@@ -293,7 +297,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5,
+      "archive_count": 6,
       "display_name": "RMF24",
       "public_name": "RMF24",
       "slug": "rmf24",
