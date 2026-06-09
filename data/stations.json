@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-06-09T13:34:23.226644+00:00",
+  "generated_at": "2026-06-09T13:43:21.129052+00:00",
   "latest_archive_hour_expected_station_count": 41,
   "latest_archive_hour_started_at": "2026-06-09T12:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -27,6 +27,7 @@
     "Radio Katowice",
     "Radio Kielce",
     "Radio Koszalin",
+    "Radio Kraków",
     "Radio Lublin",
     "Radio Luz",
     "Radio Maryja",
@@ -40,12 +41,12 @@
     "Radio Wrocław",
     "Radio Zachód",
     "Radio Zielona Góra",
+    "Radio Łódź",
     "Radio Żak",
-    "RMF Classic",
     "RMF24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-06-09T13:34:23.226644+00:00",
+  "published_at": "2026-06-09T13:43:21.129052+00:00",
   "station_count": 41,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -64,7 +65,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 16339,
+      "archive_count": 16341,
       "display_name": "Program 3",
       "public_name": "Polskie Radio Program 3",
       "slug": "pr3",
@@ -204,7 +205,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1481,
+      "archive_count": 1482,
       "display_name": "Radio Kraków",
       "public_name": "Radio Kraków",
       "slug": "radiokrakow",
@@ -323,14 +324,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 15,
+      "archive_count": 14,
       "display_name": "RMF Classic",
       "public_name": "RMF Classic",
       "slug": "rmfclassic",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 14,
+      "archive_count": 15,
       "display_name": "RMF24",
       "public_name": "RMF24",
       "slug": "rmf24",
