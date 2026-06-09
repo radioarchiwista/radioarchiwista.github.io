@@ -1,45 +1,20 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-06-09T08:00:55.252976+00:00",
+  "generated_at": "2026-06-09T08:03:57.030278+00:00",
   "latest_archive_hour_expected_station_count": 41,
-  "latest_archive_hour_started_at": "2026-06-09T06:00:00+00:00",
+  "latest_archive_hour_started_at": "2026-06-09T07:00:00+00:00",
   "latest_archive_hour_stations": [
     "Program 1",
-    "Program 2",
-    "Polskie Radio 24",
-    "Radio Nowy Świat",
-    "TOK FM",
-    "Radio Wnet",
-    "Radio Republika",
-    "Radio Afera",
-    "Radio Centrum Rzeszów",
-    "Radio Gdańsk",
-    "Radio Gorzów",
-    "Radio Kampus",
-    "Radio Kielce",
-    "Radio Koszalin",
-    "Radio Maryja",
-    "Radio Olsztyn",
-    "Radio PiK",
-    "Radio Poznań",
-    "Radio Rzeszów",
-    "Radio Szczecin",
-    "Radio Słupsk",
-    "Radio Wrocław",
-    "Radio Zielona Góra",
-    "Radio Łódź",
-    "Radio Żak",
-    "RMF Classic",
-    "RMF24"
+    "Program 3"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-06-09T08:00:55.252976+00:00",
+  "published_at": "2026-06-09T08:03:57.030278+00:00",
   "station_count": 41,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
     {
-      "archive_count": 1474,
+      "archive_count": 1475,
       "display_name": "Program 1",
       "public_name": "Polskie Radio Program 1",
       "slug": "pr1",
@@ -53,7 +28,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 16237,
+      "archive_count": 16238,
       "display_name": "Program 3",
       "public_name": "Polskie Radio Program 3",
       "slug": "pr3",
@@ -137,7 +112,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1477,
+      "archive_count": 1478,
       "display_name": "Radio Dla Ciebie",
       "public_name": "Radio Dla Ciebie",
       "slug": "rdc",
