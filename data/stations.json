@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-06-09T01:12:59.547903+00:00",
+  "generated_at": "2026-06-09T01:20:52.216035+00:00",
   "latest_archive_hour_expected_station_count": 41,
   "latest_archive_hour_started_at": "2026-06-09T00:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -19,10 +19,14 @@
     "Radio Gorzów",
     "Radio Index",
     "Radio Kampus",
-    "Radio Katowice"
+    "Radio Katowice",
+    "Radio Koszalin",
+    "Radio Kraków",
+    "Radio Lublin",
+    "Radio Łódź"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-06-09T01:12:59.547903+00:00",
+  "published_at": "2026-06-09T01:20:52.216035+00:00",
   "station_count": 41,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -41,7 +45,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 16226,
+      "archive_count": 16230,
       "display_name": "Program 3",
       "public_name": "Polskie Radio Program 3",
       "slug": "pr3",
@@ -174,21 +178,21 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1472,
+      "archive_count": 1473,
       "display_name": "Radio Koszalin",
       "public_name": "Radio Koszalin",
       "slug": "radiokoszalin",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1469,
+      "archive_count": 1470,
       "display_name": "Radio Kraków",
       "public_name": "Radio Kraków",
       "slug": "radiokrakow",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1472,
+      "archive_count": 1473,
       "display_name": "Radio Lublin",
       "public_name": "Radio Lublin",
       "slug": "radiolublin",
@@ -286,7 +290,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1472,
+      "archive_count": 1473,
       "display_name": "Radio Łódź",
       "public_name": "Radio Łódź",
       "slug": "radiolodz",
