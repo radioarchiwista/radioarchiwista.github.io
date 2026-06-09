@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-06-09T08:14:53.693569+00:00",
+  "generated_at": "2026-06-09T08:22:13.606691+00:00",
   "latest_archive_hour_expected_station_count": 41,
   "latest_archive_hour_started_at": "2026-06-09T07:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -17,10 +17,11 @@
     "Radio Gdańsk",
     "Radio Gorzów",
     "Radio Kampus",
-    "Radio Katowice"
+    "Radio Katowice",
+    "Radio Koszalin"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-06-09T08:14:53.693569+00:00",
+  "published_at": "2026-06-09T08:22:13.606691+00:00",
   "station_count": 41,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -172,7 +173,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1479,
+      "archive_count": 1480,
       "display_name": "Radio Koszalin",
       "public_name": "Radio Koszalin",
       "slug": "radiokoszalin",
