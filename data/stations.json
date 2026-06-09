@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-06-09T06:29:32.183982+00:00",
+  "generated_at": "2026-06-09T06:39:59.175589+00:00",
   "latest_archive_hour_expected_station_count": 41,
   "latest_archive_hour_started_at": "2026-06-09T05:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -10,6 +10,7 @@
     "Program 3",
     "Polskie Radio 24",
     "Radio 357",
+    "Radio Nowy Świat",
     "TOK FM",
     "Radio Wnet",
     "Radio Republika",
@@ -34,10 +35,12 @@
     "Radio Szczecin",
     "Radio Wrocław",
     "Radio Zachód",
-    "Radio Łódź"
+    "Radio Łódź",
+    "Radio Żak",
+    "RMF Classic"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-06-09T06:29:32.183982+00:00",
+  "published_at": "2026-06-09T06:39:59.175589+00:00",
   "station_count": 41,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -77,7 +80,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1489,
+      "archive_count": 1490,
       "display_name": "Radio Nowy Świat",
       "public_name": "Radio Nowy Świat",
       "slug": "rns",
@@ -308,14 +311,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1464,
+      "archive_count": 1465,
       "display_name": "Radio Żak",
       "public_name": "Radio Żak",
       "slug": "radiozak",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4,
+      "archive_count": 5,
       "display_name": "RMF Classic",
       "public_name": "RMF Classic",
       "slug": "rmfclassic",
