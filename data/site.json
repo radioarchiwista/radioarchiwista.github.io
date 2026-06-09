@@ -1,8 +1,8 @@
 {
-  "archive_count": 71762,
+  "archive_count": 71765,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-06-09T08:28:35.331802+00:00",
+  "generated_at": "2026-06-09T08:33:50.038075+00:00",
   "latest_archive_hour_expected_station_count": 41,
   "latest_archive_hour_started_at": "2026-06-09T07:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -15,6 +15,7 @@
     "Radio Akadera",
     "Radio Białystok",
     "Radio Centrum Lublin",
+    "Radio Centrum Rzeszów",
     "Radio Gdańsk",
     "Radio Gorzów",
     "Radio Index",
@@ -24,10 +25,12 @@
     "Radio Koszalin",
     "Radio Kraków",
     "Radio Lublin",
+    "Radio Opole",
+    "Radio PiK",
     "Radio Łódź"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-06-09T08:28:35.331802+00:00",
+  "published_at": "2026-06-09T08:33:50.038075+00:00",
   "station_count": 41,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
