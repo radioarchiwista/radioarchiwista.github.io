@@ -1,8 +1,8 @@
 {
-  "archive_count": 73268,
+  "archive_count": 73270,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-06-10T06:06:53.824139+00:00",
+  "generated_at": "2026-06-10T06:12:27.750942+00:00",
   "latest_archive_hour_expected_station_count": 41,
   "latest_archive_hour_started_at": "2026-06-10T04:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -32,11 +32,13 @@
     "Radio Poznań",
     "Radio Rzeszów",
     "Radio Szczecin",
+    "Radio Słupsk",
     "Radio Zachód",
-    "Radio Łódź"
+    "Radio Łódź",
+    "Radio Żak"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-06-10T06:06:53.824139+00:00",
+  "published_at": "2026-06-10T06:12:27.750942+00:00",
   "station_count": 41,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
