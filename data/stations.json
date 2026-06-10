@@ -1,15 +1,24 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-06-10T06:14:08.129408+00:00",
+  "generated_at": "2026-06-10T06:26:16.058930+00:00",
   "latest_archive_hour_expected_station_count": 41,
   "latest_archive_hour_started_at": "2026-06-10T05:00:00+00:00",
   "latest_archive_hour_stations": [
     "Program 1",
-    "Program 3"
+    "Program 2",
+    "Program 3",
+    "Polskie Radio 24",
+    "Radio 357",
+    "Radio Afera",
+    "Radio Akadera",
+    "Radio Centrum Lublin",
+    "Radio Centrum Rzeszów",
+    "Radio Gdańsk",
+    "Radio Gorzów"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-06-10T06:14:08.129408+00:00",
+  "published_at": "2026-06-10T06:26:16.058930+00:00",
   "station_count": 41,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -21,7 +30,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1494,
+      "archive_count": 1495,
       "display_name": "Program 2",
       "public_name": "Polskie Radio Program 2",
       "slug": "pr2",
@@ -35,14 +44,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1511,
+      "archive_count": 1512,
       "display_name": "Polskie Radio 24",
       "public_name": "Polskie Radio 24",
       "slug": "pr24",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1496,
+      "archive_count": 1497,
       "display_name": "Radio 357",
       "public_name": "Radio 357",
       "slug": "radio357",
@@ -77,14 +86,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1502,
+      "archive_count": 1503,
       "display_name": "Radio Afera",
       "public_name": "Radio Afera",
       "slug": "afera",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1497,
+      "archive_count": 1498,
       "display_name": "Radio Akadera",
       "public_name": "Radio Akadera",
       "slug": "radioakadera",
@@ -98,14 +107,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1494,
+      "archive_count": 1496,
       "display_name": "Radio Centrum Lublin",
       "public_name": "Radio Centrum Lublin",
       "slug": "radiocentrumlublin",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1497,
+      "archive_count": 1498,
       "display_name": "Radio Centrum Rzeszów",
       "public_name": "Radio Centrum Rzeszów",
       "slug": "radiocentrumrzeszow",
@@ -119,14 +128,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1500,
+      "archive_count": 1501,
       "display_name": "Radio Gdańsk",
       "public_name": "Radio Gdańsk",
       "slug": "radiogdansk",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1500,
+      "archive_count": 1501,
       "display_name": "Radio Gorzów",
       "public_name": "Radio Gorzów",
       "slug": "radiogorzow",
@@ -175,7 +184,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1499,
+      "archive_count": 1498,
       "display_name": "Radio Lublin",
       "public_name": "Radio Lublin",
       "slug": "radiolublin",
