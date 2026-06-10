@@ -50,6 +50,30 @@
     },
     {
       "archive_item_identifier": "rmf24-2026-06-10",
+      "audio_url": "https://archive.org/download/rmf24-2026-06-10/rmf24_2026-06-10T03-00-00Z.mp3",
+      "completeness_ratio": 0.9999,
+      "day": 10,
+      "download_url": "https://archive.org/download/rmf24-2026-06-10/rmf24_2026-06-10T03-00-00Z.mp3",
+      "duration_seconds": 3600.065,
+      "hour": 5,
+      "hourly_archive_id": 74056,
+      "local_date_label": "10.06.2026",
+      "local_hour_label": "05:00",
+      "local_label": "2026-06-10 05:00 czasu polskiego",
+      "local_started_at": "2026-06-10T05:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 6,
+      "published_at": "2026-06-10T06:50:28.424219+00:00",
+      "published_local_label": "2026-06-10 08:50 czasu polskiego",
+      "remote_filename": "rmf24_2026-06-10T03-00-00Z.mp3",
+      "station_slug": "rmf24",
+      "status": "published",
+      "utc_label": "2026-06-10 03:00 UTC",
+      "utc_started_at": "2026-06-10T03:00:00+00:00",
+      "year": 2026
+    },
+    {
+      "archive_item_identifier": "rmf24-2026-06-10",
       "audio_url": "https://archive.org/download/rmf24-2026-06-10/rmf24_2026-06-10T04-00-00Z.mp3",
       "completeness_ratio": 1.0,
       "day": 10,
@@ -98,7 +122,7 @@
     }
   ],
   "day": 10,
-  "generated_at": "2026-06-10T06:43:34.577182+00:00",
+  "generated_at": "2026-06-10T06:50:28.424219+00:00",
   "hour_slots": [
     {
       "archive_status": "published",
@@ -196,7 +220,7 @@
       "year": 2026
     },
     {
-      "archive_status": "ready",
+      "archive_status": "published",
       "completeness_ratio": 0.9999,
       "day": 10,
       "hour": 5,
@@ -207,9 +231,9 @@
       "local_started_at": "2026-06-10T05:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 6,
-      "playable": false,
-      "state": "publishing",
-      "status_label": "Czeka w kolejce do publikacji",
+      "playable": true,
+      "state": "available",
+      "status_label": null,
       "utc_label": "2026-06-10 03:00 UTC",
       "utc_started_at": "2026-06-10T03:00:00+00:00",
       "year": 2026
@@ -256,9 +280,9 @@
   "latest_archive_hour_expected_station_count": 0,
   "latest_archive_hour_started_at": "2026-06-10T05:00:00+00:00",
   "month": 6,
-  "published_at": "2026-06-10T06:43:34.577182+00:00",
+  "published_at": "2026-06-10T06:50:28.424219+00:00",
   "station": {
-    "archive_count": 28,
+    "archive_count": 29,
     "display_name": "RMF24",
     "public_name": "RMF24",
     "slug": "rmf24",
