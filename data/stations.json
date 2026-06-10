@@ -1,18 +1,30 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-06-10T01:05:40.541613+00:00",
+  "generated_at": "2026-06-10T01:16:13.635830+00:00",
   "latest_archive_hour_expected_station_count": 41,
   "latest_archive_hour_started_at": "2026-06-10T00:00:00+00:00",
   "latest_archive_hour_stations": [
     "Program 1",
     "Program 2",
+    "Program 3",
     "Polskie Radio 24",
+    "Radio 357",
     "Radio Afera",
-    "Radio Akadera"
+    "Radio Akadera",
+    "Radio Białystok",
+    "Radio Centrum Lublin",
+    "Radio Centrum Rzeszów",
+    "Radio Gdańsk",
+    "Radio Gorzów",
+    "Radio Index",
+    "Radio Kampus",
+    "Radio Kielce",
+    "Radio Kraków",
+    "Radio Łódź"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-06-10T01:05:40.541613+00:00",
+  "published_at": "2026-06-10T01:16:13.635830+00:00",
   "station_count": 41,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -31,7 +43,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 16837,
+      "archive_count": 16844,
       "display_name": "Program 3",
       "public_name": "Polskie Radio Program 3",
       "slug": "pr3",
@@ -45,7 +57,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1492,
+      "archive_count": 1493,
       "display_name": "Radio 357",
       "public_name": "Radio 357",
       "slug": "radio357",
@@ -94,21 +106,21 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1491,
+      "archive_count": 1492,
       "display_name": "Radio Białystok",
       "public_name": "Radio Białystok",
       "slug": "radiobialystok",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1493,
+      "archive_count": 1494,
       "display_name": "Radio Centrum Lublin",
       "public_name": "Radio Centrum Lublin",
       "slug": "radiocentrumlublin",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1493,
+      "archive_count": 1494,
       "display_name": "Radio Centrum Rzeszów",
       "public_name": "Radio Centrum Rzeszów",
       "slug": "radiocentrumrzeszow",
@@ -122,28 +134,28 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1496,
+      "archive_count": 1497,
       "display_name": "Radio Gdańsk",
       "public_name": "Radio Gdańsk",
       "slug": "radiogdansk",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1496,
+      "archive_count": 1497,
       "display_name": "Radio Gorzów",
       "public_name": "Radio Gorzów",
       "slug": "radiogorzow",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1432,
+      "archive_count": 1433,
       "display_name": "Radio Index",
       "public_name": "Radio Index",
       "slug": "radioindex",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1203,
+      "archive_count": 1204,
       "display_name": "Radio Kampus",
       "public_name": "Radio Kampus",
       "slug": "radiokampus",
@@ -157,7 +169,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1469,
+      "archive_count": 1470,
       "display_name": "Radio Kielce",
       "public_name": "Radio Kielce",
       "slug": "radiokielce",
@@ -171,7 +183,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1493,
+      "archive_count": 1494,
       "display_name": "Radio Kraków",
       "public_name": "Radio Kraków",
       "slug": "radiokrakow",
@@ -276,7 +288,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1496,
+      "archive_count": 1497,
       "display_name": "Radio Łódź",
       "public_name": "Radio Łódź",
       "slug": "radiolodz",
