@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-06-10T23:23:48.888462+00:00",
+  "generated_at": "2026-06-10T23:32:24.544093+00:00",
   "latest_archive_hour_expected_station_count": 41,
   "latest_archive_hour_started_at": "2026-06-10T22:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -46,7 +46,7 @@
     "RMF24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-06-10T23:23:48.888462+00:00",
+  "published_at": "2026-06-10T23:32:24.544093+00:00",
   "station_count": 41,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -65,7 +65,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 17792,
+      "archive_count": 17799,
       "display_name": "Program 3",
       "public_name": "Polskie Radio Program 3",
       "slug": "pr3",
@@ -261,7 +261,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1515,
+      "archive_count": 1514,
       "display_name": "Radio Rzeszów",
       "public_name": "Radio Rzeszów",
       "slug": "radiorzeszow",
