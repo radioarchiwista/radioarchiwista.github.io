@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-06-10T21:47:59.670398+00:00",
+  "generated_at": "2026-06-10T21:55:36.384540+00:00",
   "latest_archive_hour_expected_station_count": 41,
   "latest_archive_hour_started_at": "2026-06-10T20:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -35,7 +35,6 @@
     "Radio Opole",
     "Radio PiK",
     "Radio Poznań",
-    "Radio Rzeszów",
     "Radio Szczecin",
     "Radio Słupsk",
     "Radio Wrocław",
@@ -47,7 +46,7 @@
     "RMF24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-06-10T21:47:59.670398+00:00",
+  "published_at": "2026-06-10T21:55:36.384540+00:00",
   "station_count": 41,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -66,7 +65,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 17732,
+      "archive_count": 17737,
       "display_name": "Program 3",
       "public_name": "Polskie Radio Program 3",
       "slug": "pr3",
