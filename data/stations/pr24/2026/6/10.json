@@ -74,6 +74,30 @@
     },
     {
       "archive_item_identifier": "pr24-2026-06-10",
+      "audio_url": "https://archive.org/download/pr24-2026-06-10/pr24_2026-06-10T01-00-00Z.mp3",
+      "completeness_ratio": 1.0,
+      "day": 10,
+      "download_url": "https://archive.org/download/pr24-2026-06-10/pr24_2026-06-10T01-00-00Z.mp3",
+      "duration_seconds": 3599.928,
+      "hour": 3,
+      "hourly_archive_id": 73888,
+      "local_date_label": "10.06.2026",
+      "local_hour_label": "03:00",
+      "local_label": "2026-06-10 03:00 czasu polskiego",
+      "local_started_at": "2026-06-10T03:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 6,
+      "published_at": "2026-06-10T11:45:29.362658+00:00",
+      "published_local_label": "2026-06-10 13:45 czasu polskiego",
+      "remote_filename": "pr24_2026-06-10T01-00-00Z.mp3",
+      "station_slug": "pr24",
+      "status": "published",
+      "utc_label": "2026-06-10 01:00 UTC",
+      "utc_started_at": "2026-06-10T01:00:00+00:00",
+      "year": 2026
+    },
+    {
+      "archive_item_identifier": "pr24-2026-06-10",
       "audio_url": "https://archive.org/download/pr24-2026-06-10/pr24_2026-06-10T02-00-00Z.mp3",
       "completeness_ratio": 1.0,
       "day": 10,
@@ -266,7 +290,7 @@
     }
   ],
   "day": 10,
-  "generated_at": "2026-06-10T11:26:57.192962+00:00",
+  "generated_at": "2026-06-10T11:45:29.362658+00:00",
   "hour_slots": [
     {
       "archive_status": "published",
@@ -326,7 +350,7 @@
       "year": 2026
     },
     {
-      "archive_status": "ready",
+      "archive_status": "published",
       "completeness_ratio": 1.0,
       "day": 10,
       "hour": 3,
@@ -337,9 +361,9 @@
       "local_started_at": "2026-06-10T03:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 6,
-      "playable": false,
-      "state": "publishing",
-      "status_label": "Czeka w kolejce do publikacji",
+      "playable": true,
+      "state": "available",
+      "status_label": null,
       "utc_label": "2026-06-10 01:00 UTC",
       "utc_started_at": "2026-06-10T01:00:00+00:00",
       "year": 2026
@@ -519,9 +543,9 @@
   "latest_archive_hour_expected_station_count": 0,
   "latest_archive_hour_started_at": "2026-06-10T10:00:00+00:00",
   "month": 6,
-  "published_at": "2026-06-10T11:26:57.192962+00:00",
+  "published_at": "2026-06-10T11:45:29.362658+00:00",
   "station": {
-    "archive_count": 1518,
+    "archive_count": 1519,
     "display_name": "Polskie Radio 24",
     "public_name": "Polskie Radio 24",
     "slug": "pr24",
