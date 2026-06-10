@@ -1,22 +1,16 @@
 {
-  "archive_count": 73238,
+  "archive_count": 73240,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-06-10T03:58:17.950354+00:00",
+  "generated_at": "2026-06-10T04:21:39.714456+00:00",
   "latest_archive_hour_expected_station_count": 41,
-  "latest_archive_hour_started_at": "2026-06-10T02:00:00+00:00",
+  "latest_archive_hour_started_at": "2026-06-10T03:00:00+00:00",
   "latest_archive_hour_stations": [
-    "Program 1",
-    "Program 3",
-    "Radio Afera",
-    "Radio Akadera",
-    "Radio Centrum Rzeszów",
-    "Radio Gdańsk",
-    "Radio Gorzów",
-    "Radio Kielce"
+    "Radio 357",
+    "Radio Afera"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-06-10T03:58:17.950354+00:00",
+  "published_at": "2026-06-10T04:21:39.714456+00:00",
   "station_count": 41,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
