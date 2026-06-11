@@ -1,8 +1,8 @@
 {
-  "archive_count": 75765,
+  "archive_count": 75769,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-06-11T10:37:48.868973+00:00",
+  "generated_at": "2026-06-11T10:45:26.777801+00:00",
   "latest_archive_hour_expected_station_count": 41,
   "latest_archive_hour_started_at": "2026-06-11T09:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -16,7 +16,6 @@
     "Radio Wnet",
     "Radio Republika",
     "Radio Afera",
-    "Radio Akadera",
     "Radio Białystok",
     "Radio Centrum Lublin",
     "Radio Centrum Rzeszów",
@@ -39,6 +38,7 @@
     "Radio Rzeszów",
     "Radio Szczecin",
     "Radio Słupsk",
+    "Radio Wrocław",
     "Radio Zachód",
     "Radio Zielona Góra",
     "Radio Łódź",
@@ -47,7 +47,7 @@
     "RMF24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-06-11T10:37:48.868973+00:00",
+  "published_at": "2026-06-11T10:45:26.777801+00:00",
   "station_count": 41,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"

@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-06-11T10:37:48.868973+00:00",
+  "generated_at": "2026-06-11T10:45:26.777801+00:00",
   "latest_archive_hour_expected_station_count": 41,
   "latest_archive_hour_started_at": "2026-06-11T09:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -15,7 +15,6 @@
     "Radio Wnet",
     "Radio Republika",
     "Radio Afera",
-    "Radio Akadera",
     "Radio Białystok",
     "Radio Centrum Lublin",
     "Radio Centrum Rzeszów",
@@ -38,6 +37,7 @@
     "Radio Rzeszów",
     "Radio Szczecin",
     "Radio Słupsk",
+    "Radio Wrocław",
     "Radio Zachód",
     "Radio Zielona Góra",
     "Radio Łódź",
@@ -46,7 +46,7 @@
     "RMF24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-06-11T10:37:48.868973+00:00",
+  "published_at": "2026-06-11T10:45:26.777801+00:00",
   "station_count": 41,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -65,7 +65,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 18223,
+      "archive_count": 18228,
       "display_name": "Program 3",
       "public_name": "Polskie Radio Program 3",
       "slug": "pr3",
@@ -121,7 +121,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1526,
+      "archive_count": 1525,
       "display_name": "Radio Akadera",
       "public_name": "Radio Akadera",
       "slug": "radioakadera",
