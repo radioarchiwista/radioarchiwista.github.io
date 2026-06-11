@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-06-11T01:31:58.533193+00:00",
+  "generated_at": "2026-06-11T01:39:27.478556+00:00",
   "latest_archive_hour_expected_station_count": 41,
   "latest_archive_hour_started_at": "2026-06-11T00:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -10,6 +10,7 @@
     "Program 3",
     "Polskie Radio 24",
     "Radio 357",
+    "Radio Nowy Świat",
     "TOK FM",
     "Radio Wnet",
     "Radio Republika",
@@ -45,7 +46,7 @@
     "RMF Classic"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-06-11T01:31:58.533193+00:00",
+  "published_at": "2026-06-11T01:39:27.478556+00:00",
   "station_count": 41,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -64,7 +65,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 17871,
+      "archive_count": 17876,
       "display_name": "Program 3",
       "public_name": "Polskie Radio Program 3",
       "slug": "pr3",
@@ -85,7 +86,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1535,
+      "archive_count": 1536,
       "display_name": "Radio Nowy Świat",
       "public_name": "Radio Nowy Świat",
       "slug": "rns",
@@ -260,7 +261,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1516,
+      "archive_count": 1517,
       "display_name": "Radio Rzeszów",
       "public_name": "Radio Rzeszów",
       "slug": "radiorzeszow",
