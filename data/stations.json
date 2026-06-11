@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-06-11T11:30:54.622718+00:00",
+  "generated_at": "2026-06-11T11:39:57.147433+00:00",
   "latest_archive_hour_expected_station_count": 41,
   "latest_archive_hour_started_at": "2026-06-11T10:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -13,7 +13,9 @@
     "Radio Nowy Świat",
     "TOK FM",
     "Radio Wnet",
+    "Radio Republika",
     "Radio Afera",
+    "Radio Akadera",
     "Radio Białystok",
     "Radio Centrum Lublin",
     "Radio Centrum Rzeszów",
@@ -44,7 +46,7 @@
     "RMF24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-06-11T11:30:54.622718+00:00",
+  "published_at": "2026-06-11T11:39:57.147433+00:00",
   "station_count": 41,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -105,7 +107,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1546,
+      "archive_count": 1547,
       "display_name": "Radio Republika",
       "public_name": "Radio Republika",
       "slug": "republika",
@@ -119,7 +121,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1525,
+      "archive_count": 1527,
       "display_name": "Radio Akadera",
       "public_name": "Radio Akadera",
       "slug": "radioakadera",
@@ -287,7 +289,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1530,
+      "archive_count": 1529,
       "display_name": "Radio Wrocław",
       "public_name": "Radio Wrocław",
       "slug": "radiowroclaw",
