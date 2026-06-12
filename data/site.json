@@ -1,8 +1,8 @@
 {
-  "archive_count": 78001,
+  "archive_count": 78006,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-06-12T15:24:17.415909+00:00",
+  "generated_at": "2026-06-12T15:34:30.501801+00:00",
   "latest_archive_hour_expected_station_count": 41,
   "latest_archive_hour_started_at": "2026-06-12T14:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -11,6 +11,9 @@
     "Program 3",
     "Polskie Radio 24",
     "Radio 357",
+    "Radio Nowy Świat",
+    "TOK FM",
+    "Radio Wnet",
     "Radio Republika",
     "Radio Afera",
     "Radio Akadera",
@@ -41,10 +44,11 @@
     "Radio Zielona Góra",
     "Radio Łódź",
     "Radio Żak",
+    "RMF Classic",
     "RMF24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-06-12T15:24:17.415909+00:00",
+  "published_at": "2026-06-12T15:34:30.501801+00:00",
   "station_count": 41,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
