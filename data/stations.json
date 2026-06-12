@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-06-12T04:46:43.811238+00:00",
+  "generated_at": "2026-06-12T04:56:43.589023+00:00",
   "latest_archive_hour_expected_station_count": 41,
   "latest_archive_hour_started_at": "2026-06-12T03:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -11,7 +11,7 @@
     "Polskie Radio 24",
     "Radio 357",
     "Radio Nowy Świat",
-    "Radio Wnet",
+    "TOK FM",
     "Radio Republika",
     "Radio Afera",
     "Radio Akadera",
@@ -22,7 +22,6 @@
     "Radio Gdańsk",
     "Radio Gorzów",
     "Radio Kampus",
-    "Radio Katowice",
     "Radio Kielce",
     "Radio Koszalin",
     "Radio Kraków",
@@ -45,7 +44,7 @@
     "RMF24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-06-12T04:46:43.811238+00:00",
+  "published_at": "2026-06-12T04:56:43.589023+00:00",
   "station_count": 41,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -92,14 +91,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1551,
+      "archive_count": 1552,
       "display_name": "TOK FM",
       "public_name": "TOK FM",
       "slug": "tokfm",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1565,
+      "archive_count": 1564,
       "display_name": "Radio Wnet",
       "public_name": "Radio Wnet",
       "slug": "wnet",
@@ -134,7 +133,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1544,
+      "archive_count": 1545,
       "display_name": "Radio Centrum Lublin",
       "public_name": "Radio Centrum Lublin",
       "slug": "radiocentrumlublin",
@@ -169,7 +168,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1483,
+      "archive_count": 1482,
       "display_name": "Radio Index",
       "public_name": "Radio Index",
       "slug": "radioindex",
@@ -183,7 +182,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1546,
+      "archive_count": 1544,
       "display_name": "Radio Katowice",
       "public_name": "Radio Katowice",
       "slug": "radiokatowice",
