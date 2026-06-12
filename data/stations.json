@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-06-12T06:37:03.878314+00:00",
+  "generated_at": "2026-06-12T06:45:52.782951+00:00",
   "latest_archive_hour_expected_station_count": 41,
   "latest_archive_hour_started_at": "2026-06-12T05:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -47,7 +47,7 @@
     "RMF24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-06-12T06:37:03.878314+00:00",
+  "published_at": "2026-06-12T06:45:52.782951+00:00",
   "station_count": 41,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -66,7 +66,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 18923,
+      "archive_count": 18926,
       "display_name": "Program 3",
       "public_name": "Polskie Radio Program 3",
       "slug": "pr3",
@@ -171,7 +171,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1484,
+      "archive_count": 1486,
       "display_name": "Radio Index",
       "public_name": "Radio Index",
       "slug": "radioindex",
@@ -185,7 +185,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1546,
+      "archive_count": 1548,
       "display_name": "Radio Katowice",
       "public_name": "Radio Katowice",
       "slug": "radiokatowice",
