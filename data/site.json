@@ -1,8 +1,8 @@
 {
-  "archive_count": 77298,
+  "archive_count": 77308,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-06-12T06:18:07.124170+00:00",
+  "generated_at": "2026-06-12T06:28:46.381844+00:00",
   "latest_archive_hour_expected_station_count": 41,
   "latest_archive_hour_started_at": "2026-06-12T05:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -23,7 +23,6 @@
     "Radio Dla Ciebie",
     "Radio Gdańsk",
     "Radio Gorzów",
-    "Radio Index",
     "Radio Kampus",
     "Radio Kielce",
     "Radio Koszalin",
@@ -42,11 +41,12 @@
     "Radio Zachód",
     "Radio Zielona Góra",
     "Radio Łódź",
+    "Radio Żak",
     "RMF Classic",
     "RMF24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-06-12T06:18:07.124170+00:00",
+  "published_at": "2026-06-12T06:28:46.381844+00:00",
   "station_count": 41,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"

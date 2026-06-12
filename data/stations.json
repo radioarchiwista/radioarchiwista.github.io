@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-06-12T06:18:07.124170+00:00",
+  "generated_at": "2026-06-12T06:28:46.381844+00:00",
   "latest_archive_hour_expected_station_count": 41,
   "latest_archive_hour_started_at": "2026-06-12T05:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -22,7 +22,6 @@
     "Radio Dla Ciebie",
     "Radio Gdańsk",
     "Radio Gorzów",
-    "Radio Index",
     "Radio Kampus",
     "Radio Kielce",
     "Radio Koszalin",
@@ -41,11 +40,12 @@
     "Radio Zachód",
     "Radio Zielona Góra",
     "Radio Łódź",
+    "Radio Żak",
     "RMF Classic",
     "RMF24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-06-12T06:18:07.124170+00:00",
+  "published_at": "2026-06-12T06:28:46.381844+00:00",
   "station_count": 41,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -64,7 +64,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 18910,
+      "archive_count": 18917,
       "display_name": "Program 3",
       "public_name": "Polskie Radio Program 3",
       "slug": "pr3",
@@ -183,7 +183,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1545,
+      "archive_count": 1546,
       "display_name": "Radio Katowice",
       "public_name": "Radio Katowice",
       "slug": "radiokatowice",
@@ -295,7 +295,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1549,
+      "archive_count": 1550,
       "display_name": "Radio Zachód",
       "public_name": "Radio Zachód",
       "slug": "radiozachod",
@@ -316,7 +316,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1537,
+      "archive_count": 1538,
       "display_name": "Radio Żak",
       "public_name": "Radio Żak",
       "slug": "radiozak",
