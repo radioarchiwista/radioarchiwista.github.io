@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-06-12T12:25:02.318272+00:00",
+  "generated_at": "2026-06-12T12:33:43.440447+00:00",
   "latest_archive_hour_expected_station_count": 41,
   "latest_archive_hour_started_at": "2026-06-12T11:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -33,9 +33,12 @@
     "Radio Maryja",
     "Radio Olsztyn",
     "Radio Opole",
+    "Radio PiK",
     "Radio Poznań",
     "Radio Rzeszów",
     "Radio Szczecin",
+    "Radio Słupsk",
+    "Radio Wrocław",
     "Radio Zachód",
     "Radio Zielona Góra",
     "Radio Łódź",
@@ -44,7 +47,7 @@
     "RMF24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-06-12T12:25:02.318272+00:00",
+  "published_at": "2026-06-12T12:33:43.440447+00:00",
   "station_count": 41,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -63,7 +66,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 19139,
+      "archive_count": 19144,
       "display_name": "Program 3",
       "public_name": "Polskie Radio Program 3",
       "slug": "pr3",
@@ -245,7 +248,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1509,
+      "archive_count": 1510,
       "display_name": "Radio PiK",
       "public_name": "Radio PiK",
       "slug": "radiopik",
@@ -273,7 +276,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1554,
+      "archive_count": 1555,
       "display_name": "Radio Słupsk",
       "public_name": "Radio Słupsk",
       "slug": "radioslupsk",
@@ -287,7 +290,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1555,
+      "archive_count": 1556,
       "display_name": "Radio Wrocław",
       "public_name": "Radio Wrocław",
       "slug": "radiowroclaw",
