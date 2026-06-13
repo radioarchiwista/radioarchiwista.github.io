@@ -1,14 +1,14 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-06-13T11:13:30.922123+00:00",
+  "generated_at": "2026-06-13T11:18:34.252166+00:00",
   "latest_archive_hour_expected_station_count": 41,
-  "latest_archive_hour_started_at": "2026-06-13T09:00:00+00:00",
+  "latest_archive_hour_started_at": "2026-06-13T10:00:00+00:00",
   "latest_archive_hour_stations": [
     "Radio UWM FM"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-06-13T11:13:30.922123+00:00",
+  "published_at": "2026-06-13T11:18:34.252166+00:00",
   "station_count": 41,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -244,7 +244,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1574,
+      "archive_count": 1575,
       "display_name": "Radio UWM FM",
       "public_name": "Radio UWM FM",
       "slug": "radiouwmfm",
