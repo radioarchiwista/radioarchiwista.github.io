@@ -194,6 +194,30 @@
     },
     {
       "archive_item_identifier": "pr2-2026-06-13",
+      "audio_url": "https://archive.org/download/pr2-2026-06-13/pr2_2026-06-13T09-00-00Z.mp3",
+      "completeness_ratio": 1.0,
+      "day": 13,
+      "download_url": "https://archive.org/download/pr2-2026-06-13/pr2_2026-06-13T09-00-00Z.mp3",
+      "duration_seconds": 3600.0,
+      "hour": 11,
+      "hourly_archive_id": 79767,
+      "local_date_label": "13.06.2026",
+      "local_hour_label": "11:00",
+      "local_label": "2026-06-13 11:00 czasu polskiego",
+      "local_started_at": "2026-06-13T11:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 6,
+      "published_at": "2026-06-13T18:24:26.006054+00:00",
+      "published_local_label": "2026-06-13 20:24 czasu polskiego",
+      "remote_filename": "pr2_2026-06-13T09-00-00Z.mp3",
+      "station_slug": "pr2",
+      "status": "published",
+      "utc_label": "2026-06-13 09:00 UTC",
+      "utc_started_at": "2026-06-13T09:00:00+00:00",
+      "year": 2026
+    },
+    {
+      "archive_item_identifier": "pr2-2026-06-13",
       "audio_url": "https://archive.org/download/pr2-2026-06-13/pr2_2026-06-13T10-00-00Z.mp3",
       "completeness_ratio": 1.0,
       "day": 13,
@@ -238,6 +262,30 @@
       "status": "published",
       "utc_label": "2026-06-13 11:00 UTC",
       "utc_started_at": "2026-06-13T11:00:00+00:00",
+      "year": 2026
+    },
+    {
+      "archive_item_identifier": "pr2-2026-06-13",
+      "audio_url": "https://archive.org/download/pr2-2026-06-13/pr2_2026-06-13T14-00-00Z.mp3",
+      "completeness_ratio": 1.0,
+      "day": 13,
+      "download_url": "https://archive.org/download/pr2-2026-06-13/pr2_2026-06-13T14-00-00Z.mp3",
+      "duration_seconds": 3600.048,
+      "hour": 16,
+      "hourly_archive_id": 80012,
+      "local_date_label": "13.06.2026",
+      "local_hour_label": "16:00",
+      "local_label": "2026-06-13 16:00 czasu polskiego",
+      "local_started_at": "2026-06-13T16:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 6,
+      "published_at": "2026-06-13T18:24:44.314387+00:00",
+      "published_local_label": "2026-06-13 20:24 czasu polskiego",
+      "remote_filename": "pr2_2026-06-13T14-00-00Z.mp3",
+      "station_slug": "pr2",
+      "status": "published",
+      "utc_label": "2026-06-13 14:00 UTC",
+      "utc_started_at": "2026-06-13T14:00:00+00:00",
       "year": 2026
     },
     {
@@ -314,7 +362,7 @@
     }
   ],
   "day": 13,
-  "generated_at": "2026-06-13T18:19:31.779865+00:00",
+  "generated_at": "2026-06-13T18:24:44.314387+00:00",
   "hour_slots": [
     {
       "archive_status": "published",
@@ -526,7 +574,7 @@
       "year": 2026
     },
     {
-      "archive_status": "ready",
+      "archive_status": "published",
       "completeness_ratio": 1.0,
       "day": 13,
       "hour": 11,
@@ -537,9 +585,9 @@
       "local_started_at": "2026-06-13T11:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 6,
-      "playable": false,
-      "state": "publishing",
-      "status_label": "Czeka w kolejce do publikacji",
+      "playable": true,
+      "state": "available",
+      "status_label": null,
       "utc_label": "2026-06-13 09:00 UTC",
       "utc_started_at": "2026-06-13T09:00:00+00:00",
       "year": 2026
@@ -621,7 +669,7 @@
       "year": 2026
     },
     {
-      "archive_status": "ready",
+      "archive_status": "published",
       "completeness_ratio": 1.0,
       "day": 13,
       "hour": 16,
@@ -632,9 +680,9 @@
       "local_started_at": "2026-06-13T16:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 6,
-      "playable": false,
-      "state": "publishing",
-      "status_label": "Czeka w kolejce do publikacji",
+      "playable": true,
+      "state": "available",
+      "status_label": null,
       "utc_label": "2026-06-13 14:00 UTC",
       "utc_started_at": "2026-06-13T14:00:00+00:00",
       "year": 2026
@@ -700,9 +748,9 @@
   "latest_archive_hour_expected_station_count": 0,
   "latest_archive_hour_started_at": "2026-06-13T17:00:00+00:00",
   "month": 6,
-  "published_at": "2026-06-13T18:19:31.779865+00:00",
+  "published_at": "2026-06-13T18:24:44.314387+00:00",
   "station": {
-    "archive_count": 1575,
+    "archive_count": 1577,
     "display_name": "Program 2",
     "public_name": "Polskie Radio Program 2",
     "slug": "pr2",
