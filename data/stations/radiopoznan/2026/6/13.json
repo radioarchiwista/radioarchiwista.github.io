@@ -194,6 +194,30 @@
     },
     {
       "archive_item_identifier": "radiopoznan-2026-06-13",
+      "audio_url": "https://archive.org/download/radiopoznan-2026-06-13/radiopoznan_2026-06-13T09-00-00Z.mp3",
+      "completeness_ratio": 0.9945,
+      "day": 13,
+      "download_url": "https://archive.org/download/radiopoznan-2026-06-13/radiopoznan_2026-06-13T09-00-00Z.mp3",
+      "duration_seconds": 3599.256,
+      "hour": 11,
+      "hourly_archive_id": 79799,
+      "local_date_label": "13.06.2026",
+      "local_hour_label": "11:00",
+      "local_label": "2026-06-13 11:00 czasu polskiego",
+      "local_started_at": "2026-06-13T11:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 6,
+      "published_at": "2026-06-13T19:22:56.035564+00:00",
+      "published_local_label": "2026-06-13 21:22 czasu polskiego",
+      "remote_filename": "radiopoznan_2026-06-13T09-00-00Z.mp3",
+      "station_slug": "radiopoznan",
+      "status": "published",
+      "utc_label": "2026-06-13 09:00 UTC",
+      "utc_started_at": "2026-06-13T09:00:00+00:00",
+      "year": 2026
+    },
+    {
+      "archive_item_identifier": "radiopoznan-2026-06-13",
       "audio_url": "https://archive.org/download/radiopoznan-2026-06-13/radiopoznan_2026-06-13T10-00-00Z.mp3",
       "completeness_ratio": 1.0,
       "day": 13,
@@ -410,7 +434,7 @@
     }
   ],
   "day": 13,
-  "generated_at": "2026-06-13T19:14:28.263346+00:00",
+  "generated_at": "2026-06-13T19:22:56.035564+00:00",
   "hour_slots": [
     {
       "archive_status": "published",
@@ -622,7 +646,7 @@
       "year": 2026
     },
     {
-      "archive_status": "ready",
+      "archive_status": "published",
       "completeness_ratio": 0.9945,
       "day": 13,
       "hour": 11,
@@ -633,9 +657,9 @@
       "local_started_at": "2026-06-13T11:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 6,
-      "playable": false,
-      "state": "publishing",
-      "status_label": "Czeka w kolejce do publikacji",
+      "playable": true,
+      "state": "available",
+      "status_label": null,
       "utc_label": "2026-06-13 09:00 UTC",
       "utc_started_at": "2026-06-13T09:00:00+00:00",
       "year": 2026
@@ -815,9 +839,9 @@
   "latest_archive_hour_expected_station_count": 0,
   "latest_archive_hour_started_at": "2026-06-13T18:00:00+00:00",
   "month": 6,
-  "published_at": "2026-06-13T19:14:28.263346+00:00",
+  "published_at": "2026-06-13T19:22:56.035564+00:00",
   "station": {
-    "archive_count": 1582,
+    "archive_count": 1583,
     "display_name": "Radio Poznań",
     "public_name": "Radio Poznań",
     "slug": "radiopoznan",
