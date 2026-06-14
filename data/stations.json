@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-06-14T21:36:10.108464+00:00",
+  "generated_at": "2026-06-14T21:45:44.408579+00:00",
   "latest_archive_hour_expected_station_count": 41,
   "latest_archive_hour_started_at": "2026-06-14T20:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -23,7 +23,6 @@
     "Radio Gdańsk",
     "Radio Gorzów",
     "Radio Index",
-    "Radio Kampus",
     "Radio Katowice",
     "Radio Kielce",
     "Radio Koszalin",
@@ -37,6 +36,7 @@
     "Radio Poznań",
     "Radio Rzeszów",
     "Radio Szczecin",
+    "Radio Słupsk",
     "Radio Wrocław",
     "Radio Zachód",
     "Radio Zielona Góra",
@@ -46,7 +46,7 @@
     "RMF24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-06-14T21:36:10.108464+00:00",
+  "published_at": "2026-06-14T21:45:44.408579+00:00",
   "station_count": 41,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -65,7 +65,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 20671,
+      "archive_count": 20676,
       "display_name": "Program 3",
       "public_name": "Polskie Radio Program 3",
       "slug": "pr3",
@@ -114,7 +114,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1608,
+      "archive_count": 1607,
       "display_name": "Radio Afera",
       "public_name": "Radio Afera",
       "slug": "afera",
@@ -177,7 +177,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1320,
+      "archive_count": 1319,
       "display_name": "Radio Kampus",
       "public_name": "Radio Kampus",
       "slug": "radiokampus",
@@ -275,7 +275,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1611,
+      "archive_count": 1612,
       "display_name": "Radio Słupsk",
       "public_name": "Radio Słupsk",
       "slug": "radioslupsk",
