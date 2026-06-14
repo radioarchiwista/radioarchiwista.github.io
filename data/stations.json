@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-06-14T04:20:49.122336+00:00",
+  "generated_at": "2026-06-14T04:31:07.659407+00:00",
   "latest_archive_hour_expected_station_count": 41,
   "latest_archive_hour_started_at": "2026-06-14T03:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -11,6 +11,8 @@
     "Polskie Radio 24",
     "Radio 357",
     "Radio Nowy Świat",
+    "TOK FM",
+    "Radio Wnet",
     "Radio Republika",
     "Radio Afera",
     "Radio Akadera",
@@ -40,10 +42,12 @@
     "Radio Zachód",
     "Radio Zielona Góra",
     "Radio Łódź",
-    "Radio Żak"
+    "Radio Żak",
+    "RMF Classic",
+    "RMF24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-06-14T04:20:49.122336+00:00",
+  "published_at": "2026-06-14T04:31:07.659407+00:00",
   "station_count": 41,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -62,7 +66,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 20116,
+      "archive_count": 20119,
       "display_name": "Program 3",
       "public_name": "Polskie Radio Program 3",
       "slug": "pr3",
@@ -90,14 +94,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1599,
+      "archive_count": 1600,
       "display_name": "TOK FM",
       "public_name": "TOK FM",
       "slug": "tokfm",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1612,
+      "archive_count": 1613,
       "display_name": "Radio Wnet",
       "public_name": "Radio Wnet",
       "slug": "wnet",
@@ -111,7 +115,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1589,
+      "archive_count": 1592,
       "display_name": "Radio Afera",
       "public_name": "Radio Afera",
       "slug": "afera",
@@ -321,14 +325,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 125,
+      "archive_count": 126,
       "display_name": "RMF Classic",
       "public_name": "RMF Classic",
       "slug": "rmfclassic",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 123,
+      "archive_count": 124,
       "display_name": "RMF24",
       "public_name": "RMF24",
       "slug": "rmf24",
