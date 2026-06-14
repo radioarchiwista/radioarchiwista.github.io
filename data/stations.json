@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-06-14T15:52:03.020900+00:00",
+  "generated_at": "2026-06-14T16:01:26.772833+00:00",
   "latest_archive_hour_expected_station_count": 41,
   "latest_archive_hour_started_at": "2026-06-14T14:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -10,7 +10,6 @@
     "Program 3",
     "Polskie Radio 24",
     "Radio 357",
-    "Radio Nowy Świat",
     "TOK FM",
     "Radio Wnet",
     "Radio Republika",
@@ -47,7 +46,7 @@
     "RMF24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-06-14T15:52:03.020900+00:00",
+  "published_at": "2026-06-14T16:01:26.772833+00:00",
   "station_count": 41,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -66,7 +65,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 20551,
+      "archive_count": 20557,
       "display_name": "Program 3",
       "public_name": "Polskie Radio Program 3",
       "slug": "pr3",
@@ -87,7 +86,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1622,
+      "archive_count": 1621,
       "display_name": "Radio Nowy Świat",
       "public_name": "Radio Nowy Świat",
       "slug": "rns",
@@ -115,7 +114,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1601,
+      "archive_count": 1602,
       "display_name": "Radio Afera",
       "public_name": "Radio Afera",
       "slug": "afera",
