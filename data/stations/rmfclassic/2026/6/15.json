@@ -239,10 +239,34 @@
       "utc_label": "2026-06-15 08:00 UTC",
       "utc_started_at": "2026-06-15T08:00:00+00:00",
       "year": 2026
+    },
+    {
+      "archive_item_identifier": "rmfclassic-2026-06-15",
+      "audio_url": "https://archive.org/download/rmfclassic-2026-06-15/rmfclassic_2026-06-15T09-00-00Z.mp3",
+      "completeness_ratio": 1.0,
+      "day": 15,
+      "download_url": "https://archive.org/download/rmfclassic-2026-06-15/rmfclassic_2026-06-15T09-00-00Z.mp3",
+      "duration_seconds": 3599.376,
+      "hour": 11,
+      "hourly_archive_id": 83011,
+      "local_date_label": "15.06.2026",
+      "local_hour_label": "11:00",
+      "local_label": "2026-06-15 11:00 czasu polskiego",
+      "local_started_at": "2026-06-15T11:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 6,
+      "published_at": "2026-06-15T10:21:52.148640+00:00",
+      "published_local_label": "2026-06-15 12:21 czasu polskiego",
+      "remote_filename": "rmfclassic_2026-06-15T09-00-00Z.mp3",
+      "station_slug": "rmfclassic",
+      "status": "published",
+      "utc_label": "2026-06-15 09:00 UTC",
+      "utc_started_at": "2026-06-15T09:00:00+00:00",
+      "year": 2026
     }
   ],
   "day": 15,
-  "generated_at": "2026-06-15T10:17:31.820884+00:00",
+  "generated_at": "2026-06-15T10:21:52.148640+00:00",
   "hour_slots": [
     {
       "archive_status": "published",
@@ -454,7 +478,7 @@
       "year": 2026
     },
     {
-      "archive_status": "ready",
+      "archive_status": "published",
       "completeness_ratio": 1.0,
       "day": 15,
       "hour": 11,
@@ -465,20 +489,20 @@
       "local_started_at": "2026-06-15T11:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 6,
-      "playable": false,
-      "state": "publishing",
-      "status_label": "Czeka w kolejce do publikacji",
+      "playable": true,
+      "state": "available",
+      "status_label": null,
       "utc_label": "2026-06-15 09:00 UTC",
       "utc_started_at": "2026-06-15T09:00:00+00:00",
       "year": 2026
     }
   ],
   "latest_archive_hour_expected_station_count": 0,
-  "latest_archive_hour_started_at": "2026-06-15T08:00:00+00:00",
+  "latest_archive_hour_started_at": "2026-06-15T09:00:00+00:00",
   "month": 6,
-  "published_at": "2026-06-15T10:17:31.820884+00:00",
+  "published_at": "2026-06-15T10:21:52.148640+00:00",
   "station": {
-    "archive_count": 154,
+    "archive_count": 155,
     "display_name": "RMF Classic",
     "public_name": "RMF Classic",
     "slug": "rmfclassic",
