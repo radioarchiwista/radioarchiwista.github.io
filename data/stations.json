@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-06-15T00:34:29.549742+00:00",
+  "generated_at": "2026-06-15T00:43:33.055879+00:00",
   "latest_archive_hour_expected_station_count": 41,
   "latest_archive_hour_started_at": "2026-06-14T23:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -37,6 +37,7 @@
     "Radio Poznań",
     "Radio Rzeszów",
     "Radio Szczecin",
+    "Radio Słupsk",
     "Radio Wrocław",
     "Radio Zachód",
     "Radio Zielona Góra",
@@ -46,7 +47,7 @@
     "RMF24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-06-15T00:34:29.549742+00:00",
+  "published_at": "2026-06-15T00:43:33.055879+00:00",
   "station_count": 41,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -65,7 +66,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 20781,
+      "archive_count": 20782,
       "display_name": "Program 3",
       "public_name": "Polskie Radio Program 3",
       "slug": "pr3",
@@ -177,7 +178,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1322,
+      "archive_count": 1321,
       "display_name": "Radio Kampus",
       "public_name": "Radio Kampus",
       "slug": "radiokampus",
