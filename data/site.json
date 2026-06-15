@@ -1,8 +1,8 @@
 {
-  "archive_count": 81822,
+  "archive_count": 81824,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-06-15T01:19:56.863942+00:00",
+  "generated_at": "2026-06-15T01:21:31.498950+00:00",
   "latest_archive_hour_expected_station_count": 41,
   "latest_archive_hour_started_at": "2026-06-15T00:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -14,13 +14,15 @@
     "Radio Afera",
     "Radio Akadera",
     "Radio Białystok",
+    "Radio Centrum Lublin",
+    "Radio Centrum Rzeszów",
     "Radio Gdańsk",
     "Radio Gorzów",
     "Radio Index",
     "Radio Kampus"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-06-15T01:19:56.863942+00:00",
+  "published_at": "2026-06-15T01:21:31.498950+00:00",
   "station_count": 41,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
