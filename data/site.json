@@ -1,8 +1,8 @@
 {
-  "archive_count": 84131,
+  "archive_count": 84142,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-06-16T10:25:24.444323+00:00",
+  "generated_at": "2026-06-16T10:35:02.832376+00:00",
   "latest_archive_hour_expected_station_count": 41,
   "latest_archive_hour_started_at": "2026-06-16T09:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -13,7 +13,6 @@
     "Radio 357",
     "Radio Nowy Świat",
     "TOK FM",
-    "Radio Wnet",
     "Radio Republika",
     "Radio Afera",
     "Radio Akadera",
@@ -41,12 +40,14 @@
     "Radio Słupsk",
     "Radio Wrocław",
     "Radio Zachód",
+    "Radio Zielona Góra",
     "Radio Łódź",
+    "Radio Żak",
     "RMF Classic",
     "RMF24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-06-16T10:25:24.444323+00:00",
+  "published_at": "2026-06-16T10:35:02.832376+00:00",
   "station_count": 41,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
