@@ -482,7 +482,7 @@
     }
   ],
   "day": 16,
-  "generated_at": "2026-06-16T18:56:48.722463+00:00",
+  "generated_at": "2026-06-16T19:10:55.232365+00:00",
   "hour_slots": [
     {
       "archive_status": "published",
@@ -865,11 +865,11 @@
       "year": 2026
     },
     {
-      "archive_status": null,
-      "completeness_ratio": null,
+      "archive_status": "ready",
+      "completeness_ratio": 0.9999,
       "day": 16,
       "hour": 20,
-      "hourly_archive_id": null,
+      "hourly_archive_id": 85387,
       "local_date_label": "16.06.2026",
       "local_hour_label": "20:00",
       "local_label": "2026-06-16 20:00 czasu polskiego",
@@ -877,8 +877,8 @@
       "local_timezone_label": "czasu polskiego",
       "month": 6,
       "playable": false,
-      "state": "recorded",
-      "status_label": "Nagranie czeka na złożenie",
+      "state": "publishing",
+      "status_label": "Czeka w kolejce do publikacji",
       "utc_label": "2026-06-16 18:00 UTC",
       "utc_started_at": "2026-06-16T18:00:00+00:00",
       "year": 2026
@@ -887,9 +887,9 @@
   "latest_archive_hour_expected_station_count": 0,
   "latest_archive_hour_started_at": "2026-06-16T17:00:00+00:00",
   "month": 6,
-  "published_at": "2026-06-16T18:56:48.722463+00:00",
+  "published_at": "2026-06-16T19:10:55.232365+00:00",
   "station": {
-    "archive_count": 1642,
+    "archive_count": 1643,
     "display_name": "Radio UWM FM",
     "public_name": "Radio UWM FM",
     "slug": "radiouwmfm",
