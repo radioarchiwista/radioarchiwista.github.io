@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-06-16T00:31:46.330043+00:00",
+  "generated_at": "2026-06-16T00:41:20.928485+00:00",
   "latest_archive_hour_expected_station_count": 41,
   "latest_archive_hour_started_at": "2026-06-15T23:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -17,6 +17,7 @@
     "Radio Afera",
     "Radio Akadera",
     "Radio Białystok",
+    "Radio Centrum Lublin",
     "Radio Centrum Rzeszów",
     "Radio Dla Ciebie",
     "Radio Gdańsk",
@@ -34,16 +35,18 @@
     "Radio PiK",
     "Radio Poznań",
     "Radio Rzeszów",
+    "Radio Szczecin",
     "Radio Słupsk",
     "Radio Wrocław",
     "Radio Zachód",
+    "Radio Zielona Góra",
     "Radio Łódź",
     "Radio Żak",
     "RMF Classic",
     "RMF24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-06-16T00:31:46.330043+00:00",
+  "published_at": "2026-06-16T00:41:20.928485+00:00",
   "station_count": 41,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -62,7 +65,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 21481,
+      "archive_count": 21487,
       "display_name": "Program 3",
       "public_name": "Polskie Radio Program 3",
       "slug": "pr3",
@@ -188,7 +191,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1612,
+      "archive_count": 1610,
       "display_name": "Radio Kielce",
       "public_name": "Radio Kielce",
       "slug": "radiokielce",
@@ -265,7 +268,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1639,
+      "archive_count": 1640,
       "display_name": "Radio Szczecin",
       "public_name": "Radio Szczecin",
       "slug": "radioszczecin",
@@ -300,7 +303,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1639,
+      "archive_count": 1640,
       "display_name": "Radio Zielona Góra",
       "public_name": "Radio Zielona Góra",
       "slug": "radiozielonagora",
