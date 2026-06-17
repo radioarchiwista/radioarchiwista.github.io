@@ -159,37 +159,13 @@
       "local_started_at": "2026-06-17T06:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 6,
-      "published_at": "2026-06-17T07:57:34.029271+00:00",
-      "published_local_label": "2026-06-17 09:57 czasu polskiego",
+      "published_at": "2026-06-17T08:08:53.216649+00:00",
+      "published_local_label": "2026-06-17 10:08 czasu polskiego",
       "remote_filename": "pr1_2026-06-17T04-00-00Z.mp3",
       "station_slug": "pr1",
       "status": "published",
       "utc_label": "2026-06-17 04:00 UTC",
       "utc_started_at": "2026-06-17T04:00:00+00:00",
-      "year": 2026
-    },
-    {
-      "archive_item_identifier": "pr1-2026-06-17",
-      "audio_url": "https://archive.org/download/pr1-2026-06-17/pr1_2026-06-17T06-00-00Z.mp3",
-      "completeness_ratio": 1.0,
-      "day": 17,
-      "download_url": "https://archive.org/download/pr1-2026-06-17/pr1_2026-06-17T06-00-00Z.mp3",
-      "duration_seconds": 3602.136,
-      "hour": 8,
-      "hourly_archive_id": 85938,
-      "local_date_label": "17.06.2026",
-      "local_hour_label": "08:00",
-      "local_label": "2026-06-17 08:00 czasu polskiego",
-      "local_started_at": "2026-06-17T08:00:00+02:00",
-      "local_timezone_label": "czasu polskiego",
-      "month": 6,
-      "published_at": "2026-06-17T07:57:20.779380+00:00",
-      "published_local_label": "2026-06-17 09:57 czasu polskiego",
-      "remote_filename": "pr1_2026-06-17T06-00-00Z.mp3",
-      "station_slug": "pr1",
-      "status": "published",
-      "utc_label": "2026-06-17 06:00 UTC",
-      "utc_started_at": "2026-06-17T06:00:00+00:00",
       "year": 2026
     },
     {
@@ -218,7 +194,7 @@
     }
   ],
   "day": 17,
-  "generated_at": "2026-06-17T08:04:10.904684+00:00",
+  "generated_at": "2026-06-17T08:08:53.216649+00:00",
   "hour_slots": [
     {
       "archive_status": "published",
@@ -373,7 +349,7 @@
       "year": 2026
     },
     {
-      "archive_status": "published",
+      "archive_status": "ready",
       "completeness_ratio": 1.0,
       "day": 17,
       "hour": 8,
@@ -384,9 +360,9 @@
       "local_started_at": "2026-06-17T08:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 6,
-      "playable": true,
-      "state": "available",
-      "status_label": null,
+      "playable": false,
+      "state": "publishing",
+      "status_label": "Czeka w kolejce do publikacji",
       "utc_label": "2026-06-17 06:00 UTC",
       "utc_started_at": "2026-06-17T06:00:00+00:00",
       "year": 2026
@@ -414,9 +390,9 @@
   "latest_archive_hour_expected_station_count": 0,
   "latest_archive_hour_started_at": "2026-06-17T07:00:00+00:00",
   "month": 6,
-  "published_at": "2026-06-17T08:04:10.904684+00:00",
+  "published_at": "2026-06-17T08:08:53.216649+00:00",
   "station": {
-    "archive_count": 1666,
+    "archive_count": 1665,
     "display_name": "Program 1",
     "public_name": "Polskie Radio Program 1",
     "slug": "pr1",
