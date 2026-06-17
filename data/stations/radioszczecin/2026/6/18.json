@@ -1,0 +1,63 @@
+{
+  "archives": [
+    {
+      "archive_item_identifier": "radioszczecin-2026-06-17",
+      "audio_url": "https://archive.org/download/radioszczecin-2026-06-17/radioszczecin_2026-06-17T22-00-00Z.mp3",
+      "completeness_ratio": 1.0,
+      "day": 18,
+      "download_url": "https://archive.org/download/radioszczecin-2026-06-17/radioszczecin_2026-06-17T22-00-00Z.mp3",
+      "duration_seconds": 3599.961,
+      "hour": 0,
+      "hourly_archive_id": 87054,
+      "local_date_label": "18.06.2026",
+      "local_hour_label": "00:00",
+      "local_label": "2026-06-18 00:00 czasu polskiego",
+      "local_started_at": "2026-06-18T00:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 6,
+      "published_at": "2026-06-17T23:12:57.710193+00:00",
+      "published_local_label": "2026-06-18 01:12 czasu polskiego",
+      "remote_filename": "radioszczecin_2026-06-17T22-00-00Z.mp3",
+      "station_slug": "radioszczecin",
+      "status": "published",
+      "utc_label": "2026-06-17 22:00 UTC",
+      "utc_started_at": "2026-06-17T22:00:00+00:00",
+      "year": 2026
+    }
+  ],
+  "day": 18,
+  "generated_at": "2026-06-17T23:12:57.710193+00:00",
+  "hour_slots": [
+    {
+      "archive_status": "published",
+      "completeness_ratio": 1.0,
+      "day": 18,
+      "hour": 0,
+      "hourly_archive_id": 87054,
+      "local_date_label": "18.06.2026",
+      "local_hour_label": "00:00",
+      "local_label": "2026-06-18 00:00 czasu polskiego",
+      "local_started_at": "2026-06-18T00:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 6,
+      "playable": true,
+      "state": "available",
+      "status_label": null,
+      "utc_label": "2026-06-17 22:00 UTC",
+      "utc_started_at": "2026-06-17T22:00:00+00:00",
+      "year": 2026
+    }
+  ],
+  "latest_archive_hour_expected_station_count": 0,
+  "latest_archive_hour_started_at": "2026-06-17T22:00:00+00:00",
+  "month": 6,
+  "published_at": "2026-06-17T23:12:57.710193+00:00",
+  "station": {
+    "archive_count": 1687,
+    "display_name": "Radio Szczecin",
+    "public_name": "Radio Szczecin",
+    "slug": "radioszczecin",
+    "timezone": "Europe/Warsaw"
+  },
+  "year": 2026
+}
