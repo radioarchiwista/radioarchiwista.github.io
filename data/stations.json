@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-06-17T09:55:28.589842+00:00",
+  "generated_at": "2026-06-17T09:57:38.361249+00:00",
   "latest_archive_hour_expected_station_count": 41,
   "latest_archive_hour_started_at": "2026-06-17T08:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -45,12 +45,12 @@
     "RMF24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-06-17T09:55:28.589842+00:00",
+  "published_at": "2026-06-17T09:57:38.361249+00:00",
   "station_count": 41,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
     {
-      "archive_count": 1666,
+      "archive_count": 1664,
       "display_name": "Program 1",
       "public_name": "Polskie Radio Program 1",
       "slug": "pr1",
@@ -183,7 +183,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1669,
+      "archive_count": 1670,
       "display_name": "Radio Katowice",
       "public_name": "Radio Katowice",
       "slug": "radiokatowice",
@@ -295,7 +295,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1671,
+      "archive_count": 1672,
       "display_name": "Radio Zachód",
       "public_name": "Radio Zachód",
       "slug": "radiozachod",
