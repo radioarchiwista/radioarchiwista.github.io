@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-06-17T13:36:35.533696+00:00",
+  "generated_at": "2026-06-17T13:46:43.434409+00:00",
   "latest_archive_hour_expected_station_count": 41,
   "latest_archive_hour_started_at": "2026-06-17T12:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -39,6 +39,7 @@
     "Radio Szczecin",
     "Radio Słupsk",
     "Radio Wrocław",
+    "Radio Zachód",
     "Radio Zielona Góra",
     "Radio Łódź",
     "Radio Żak",
@@ -46,12 +47,12 @@
     "RMF24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-06-17T13:36:35.533696+00:00",
+  "published_at": "2026-06-17T13:46:43.434409+00:00",
   "station_count": 41,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
     {
-      "archive_count": 1668,
+      "archive_count": 1672,
       "display_name": "Program 1",
       "public_name": "Polskie Radio Program 1",
       "slug": "pr1",
@@ -65,7 +66,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 22260,
+      "archive_count": 22276,
       "display_name": "Program 3",
       "public_name": "Polskie Radio Program 3",
       "slug": "pr3",
@@ -93,7 +94,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1680,
+      "archive_count": 1681,
       "display_name": "TOK FM",
       "public_name": "TOK FM",
       "slug": "tokfm",
@@ -149,7 +150,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1675,
+      "archive_count": 1676,
       "display_name": "Radio Dla Ciebie",
       "public_name": "Radio Dla Ciebie",
       "slug": "rdc",
@@ -184,7 +185,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1673,
+      "archive_count": 1675,
       "display_name": "Radio Katowice",
       "public_name": "Radio Katowice",
       "slug": "radiokatowice",
@@ -296,7 +297,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1672,
+      "archive_count": 1677,
       "display_name": "Radio Zachód",
       "public_name": "Radio Zachód",
       "slug": "radiozachod",
