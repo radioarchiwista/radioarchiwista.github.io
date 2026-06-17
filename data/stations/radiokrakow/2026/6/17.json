@@ -23,34 +23,10 @@
       "utc_label": "2026-06-16 22:00 UTC",
       "utc_started_at": "2026-06-16T22:00:00+00:00",
       "year": 2026
-    },
-    {
-      "archive_item_identifier": "radiokrakow-2026-06-16",
-      "audio_url": "https://archive.org/download/radiokrakow-2026-06-16/radiokrakow_2026-06-16T23-00-00Z.mp3",
-      "completeness_ratio": 1.0,
-      "day": 17,
-      "download_url": "https://archive.org/download/radiokrakow-2026-06-16/radiokrakow_2026-06-16T23-00-00Z.mp3",
-      "duration_seconds": 3599.952,
-      "hour": 1,
-      "hourly_archive_id": 85609,
-      "local_date_label": "17.06.2026",
-      "local_hour_label": "01:00",
-      "local_label": "2026-06-17 01:00 czasu polskiego",
-      "local_started_at": "2026-06-17T01:00:00+02:00",
-      "local_timezone_label": "czasu polskiego",
-      "month": 6,
-      "published_at": "2026-06-17T00:13:54.751814+00:00",
-      "published_local_label": "2026-06-17 02:13 czasu polskiego",
-      "remote_filename": "radiokrakow_2026-06-16T23-00-00Z.mp3",
-      "station_slug": "radiokrakow",
-      "status": "published",
-      "utc_label": "2026-06-16 23:00 UTC",
-      "utc_started_at": "2026-06-16T23:00:00+00:00",
-      "year": 2026
     }
   ],
   "day": 17,
-  "generated_at": "2026-06-17T00:13:54.751814+00:00",
+  "generated_at": "2026-06-16T23:23:47.321903+00:00",
   "hour_slots": [
     {
       "archive_status": "published",
@@ -72,7 +48,7 @@
       "year": 2026
     },
     {
-      "archive_status": "published",
+      "archive_status": "ready",
       "completeness_ratio": 1.0,
       "day": 17,
       "hour": 1,
@@ -83,20 +59,20 @@
       "local_started_at": "2026-06-17T01:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 6,
-      "playable": true,
-      "state": "available",
-      "status_label": null,
+      "playable": false,
+      "state": "publishing",
+      "status_label": "Czeka w kolejce do publikacji",
       "utc_label": "2026-06-16 23:00 UTC",
       "utc_started_at": "2026-06-16T23:00:00+00:00",
       "year": 2026
     }
   ],
   "latest_archive_hour_expected_station_count": 0,
-  "latest_archive_hour_started_at": "2026-06-16T23:00:00+00:00",
+  "latest_archive_hour_started_at": "2026-06-16T22:00:00+00:00",
   "month": 6,
-  "published_at": "2026-06-17T00:13:54.751814+00:00",
+  "published_at": "2026-06-16T23:23:47.321903+00:00",
   "station": {
-    "archive_count": 1661,
+    "archive_count": 1660,
     "display_name": "Radio Kraków",
     "public_name": "Radio Kraków",
     "slug": "radiokrakow",
