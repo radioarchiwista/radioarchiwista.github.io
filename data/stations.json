@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-06-17T10:54:00.866670+00:00",
+  "generated_at": "2026-06-17T11:00:09.823837+00:00",
   "latest_archive_hour_expected_station_count": 41,
   "latest_archive_hour_started_at": "2026-06-17T09:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -23,6 +23,7 @@
     "Radio Gorzów",
     "Radio Index",
     "Radio Kampus",
+    "Radio Katowice",
     "Radio Kielce",
     "Radio Koszalin",
     "Radio Kraków",
@@ -44,7 +45,7 @@
     "RMF24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-06-17T10:54:00.866670+00:00",
+  "published_at": "2026-06-17T11:00:09.823837+00:00",
   "station_count": 41,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -182,7 +183,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1670,
+      "archive_count": 1671,
       "display_name": "Radio Katowice",
       "public_name": "Radio Katowice",
       "slug": "radiokatowice",
@@ -231,7 +232,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1673,
+      "archive_count": 1674,
       "display_name": "Radio Olsztyn",
       "public_name": "Radio Olsztyn",
       "slug": "radioolsztyn",
@@ -294,7 +295,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1671,
+      "archive_count": 1670,
       "display_name": "Radio Zachód",
       "public_name": "Radio Zachód",
       "slug": "radiozachod",
