@@ -2,7 +2,7 @@
   "archive_count": 85430,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-06-17T09:48:47.891423+00:00",
+  "generated_at": "2026-06-17T09:55:28.589842+00:00",
   "latest_archive_hour_expected_station_count": 41,
   "latest_archive_hour_started_at": "2026-06-17T08:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -24,7 +24,6 @@
     "Radio Gorzów",
     "Radio Index",
     "Radio Kampus",
-    "Radio Katowice",
     "Radio Kielce",
     "Radio Koszalin",
     "Radio Kraków",
@@ -39,6 +38,7 @@
     "Radio Szczecin",
     "Radio Słupsk",
     "Radio Wrocław",
+    "Radio Zachód",
     "Radio Zielona Góra",
     "Radio Łódź",
     "Radio Żak",
@@ -46,7 +46,7 @@
     "RMF24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-06-17T09:48:47.891423+00:00",
+  "published_at": "2026-06-17T09:55:28.589842+00:00",
   "station_count": 41,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
