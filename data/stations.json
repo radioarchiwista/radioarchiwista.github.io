@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-06-18T18:34:14.756606+00:00",
+  "generated_at": "2026-06-18T18:41:51.461161+00:00",
   "latest_archive_hour_expected_station_count": 41,
   "latest_archive_hour_started_at": "2026-06-18T17:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -10,6 +10,7 @@
     "Program 3",
     "Polskie Radio 24",
     "Radio 357",
+    "Radio Nowy Świat",
     "TOK FM",
     "Radio Wnet",
     "Radio Republika",
@@ -41,10 +42,12 @@
     "Radio Zachód",
     "Radio Zielona Góra",
     "Radio Łódź",
-    "Radio Żak"
+    "Radio Żak",
+    "RMF Classic",
+    "RMF24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-06-18T18:34:14.756606+00:00",
+  "published_at": "2026-06-18T18:41:51.461161+00:00",
   "station_count": 41,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -63,7 +66,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 23048,
+      "archive_count": 23047,
       "display_name": "Program 3",
       "public_name": "Polskie Radio Program 3",
       "slug": "pr3",
@@ -84,7 +87,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1720,
+      "archive_count": 1721,
       "display_name": "Radio Nowy Świat",
       "public_name": "Radio Nowy Świat",
       "slug": "rns",
@@ -322,14 +325,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 235,
+      "archive_count": 236,
       "display_name": "RMF Classic",
       "public_name": "RMF Classic",
       "slug": "rmfclassic",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 235,
+      "archive_count": 236,
       "display_name": "RMF24",
       "public_name": "RMF24",
       "slug": "rmf24",
