@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-06-18T06:38:57.773857+00:00",
+  "generated_at": "2026-06-18T06:40:23.999444+00:00",
   "latest_archive_hour_expected_station_count": 41,
   "latest_archive_hour_started_at": "2026-06-18T05:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -47,7 +47,7 @@
     "RMF24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-06-18T06:38:57.773857+00:00",
+  "published_at": "2026-06-18T06:40:23.999444+00:00",
   "station_count": 41,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -143,7 +143,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1688,
+      "archive_count": 1689,
       "display_name": "Radio Centrum Rzeszów",
       "public_name": "Radio Centrum Rzeszów",
       "slug": "radiocentrumrzeszow",
