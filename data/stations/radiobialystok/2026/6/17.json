@@ -170,30 +170,6 @@
     },
     {
       "archive_item_identifier": "radiobialystok-2026-06-17",
-      "audio_url": "https://archive.org/download/radiobialystok-2026-06-17/radiobialystok_2026-06-17T05-00-00Z.mp3",
-      "completeness_ratio": 0.9994,
-      "day": 17,
-      "download_url": "https://archive.org/download/radiobialystok-2026-06-17/radiobialystok_2026-06-17T05-00-00Z.mp3",
-      "duration_seconds": 3597.216,
-      "hour": 7,
-      "hourly_archive_id": 85871,
-      "local_date_label": "17.06.2026",
-      "local_hour_label": "07:00",
-      "local_label": "2026-06-17 07:00 czasu polskiego",
-      "local_started_at": "2026-06-17T07:00:00+02:00",
-      "local_timezone_label": "czasu polskiego",
-      "month": 6,
-      "published_at": "2026-06-17T06:24:21.019929+00:00",
-      "published_local_label": "2026-06-17 08:24 czasu polskiego",
-      "remote_filename": "radiobialystok_2026-06-17T05-00-00Z.mp3",
-      "station_slug": "radiobialystok",
-      "status": "published",
-      "utc_label": "2026-06-17 05:00 UTC",
-      "utc_started_at": "2026-06-17T05:00:00+00:00",
-      "year": 2026
-    },
-    {
-      "archive_item_identifier": "radiobialystok-2026-06-17",
       "audio_url": "https://archive.org/download/radiobialystok-2026-06-17/radiobialystok_2026-06-17T06-00-00Z.mp3",
       "completeness_ratio": 0.9996,
       "day": 17,
@@ -578,7 +554,7 @@
     }
   ],
   "day": 17,
-  "generated_at": "2026-06-18T05:08:47.553051+00:00",
+  "generated_at": "2026-06-18T06:14:38.580612+00:00",
   "hour_slots": [
     {
       "archive_status": "published",
@@ -714,7 +690,7 @@
       "year": 2026
     },
     {
-      "archive_status": "published",
+      "archive_status": "error",
       "completeness_ratio": 0.9994,
       "day": 17,
       "hour": 7,
@@ -725,9 +701,9 @@
       "local_started_at": "2026-06-17T07:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 6,
-      "playable": true,
-      "state": "available",
-      "status_label": null,
+      "playable": false,
+      "state": "failed",
+      "status_label": "Nie udało się przygotować nagrania",
       "utc_label": "2026-06-17 05:00 UTC",
       "utc_started_at": "2026-06-17T05:00:00+00:00",
       "year": 2026
@@ -1038,9 +1014,9 @@
     }
   ],
   "latest_archive_hour_expected_station_count": 0,
-  "latest_archive_hour_started_at": "2026-06-18T04:00:00+00:00",
+  "latest_archive_hour_started_at": "2026-06-18T05:00:00+00:00",
   "month": 6,
-  "published_at": "2026-06-18T05:08:47.553051+00:00",
+  "published_at": "2026-06-18T06:14:38.580612+00:00",
   "station": {
     "archive_count": 1688,
     "display_name": "Radio Białystok",
