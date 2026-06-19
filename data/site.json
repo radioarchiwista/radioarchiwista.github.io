@@ -1,8 +1,8 @@
 {
-  "archive_count": 88354,
+  "archive_count": 88355,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-06-19T02:22:24.790276+00:00",
+  "generated_at": "2026-06-19T02:29:30.286930+00:00",
   "latest_archive_hour_expected_station_count": 41,
   "latest_archive_hour_started_at": "2026-06-19T01:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -13,6 +13,8 @@
     "Radio 357",
     "Radio Nowy Świat",
     "TOK FM",
+    "Radio Wnet",
+    "Radio Republika",
     "Radio Afera",
     "Radio Akadera",
     "Radio Białystok",
@@ -45,7 +47,7 @@
     "RMF Classic"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-06-19T02:22:24.790276+00:00",
+  "published_at": "2026-06-19T02:29:30.286930+00:00",
   "station_count": 41,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
