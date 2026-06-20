@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-06-20T15:27:05.750646+00:00",
+  "generated_at": "2026-06-20T15:33:19.822534+00:00",
   "latest_archive_hour_expected_station_count": 41,
   "latest_archive_hour_started_at": "2026-06-20T14:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -12,16 +12,20 @@
     "Radio 357",
     "Radio Afera",
     "Radio Akadera",
+    "Radio Białystok",
     "Radio Centrum Lublin",
     "Radio Centrum Rzeszów",
     "Radio Gdańsk",
     "Radio Gorzów",
     "Radio Index",
+    "Radio Kampus",
     "Radio Katowice",
+    "Radio Kielce",
+    "Radio Koszalin",
     "Radio UWM FM"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-06-20T15:27:05.750646+00:00",
+  "published_at": "2026-06-20T15:33:19.822534+00:00",
   "station_count": 41,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -61,7 +65,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1763,
+      "archive_count": 1764,
       "display_name": "Radio Nowy Świat",
       "public_name": "Radio Nowy Świat",
       "slug": "rns",
@@ -103,7 +107,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1744,
+      "archive_count": 1745,
       "display_name": "Radio Białystok",
       "public_name": "Radio Białystok",
       "slug": "radiobialystok",
@@ -152,7 +156,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1457,
+      "archive_count": 1458,
       "display_name": "Radio Kampus",
       "public_name": "Radio Kampus",
       "slug": "radiokampus",
@@ -166,14 +170,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1723,
+      "archive_count": 1724,
       "display_name": "Radio Kielce",
       "public_name": "Radio Kielce",
       "slug": "radiokielce",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1749,
+      "archive_count": 1750,
       "display_name": "Radio Koszalin",
       "public_name": "Radio Koszalin",
       "slug": "radiokoszalin",
