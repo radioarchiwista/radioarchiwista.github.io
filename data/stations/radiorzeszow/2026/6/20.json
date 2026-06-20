@@ -74,30 +74,6 @@
     },
     {
       "archive_item_identifier": "radiorzeszow-2026-06-20",
-      "audio_url": "https://archive.org/download/radiorzeszow-2026-06-20/radiorzeszow_2026-06-20T01-00-00Z.mp3",
-      "completeness_ratio": 1.0,
-      "day": 20,
-      "download_url": "https://archive.org/download/radiorzeszow-2026-06-20/radiorzeszow_2026-06-20T01-00-00Z.mp3",
-      "duration_seconds": 3599.961,
-      "hour": 3,
-      "hourly_archive_id": 90498,
-      "local_date_label": "20.06.2026",
-      "local_hour_label": "03:00",
-      "local_label": "2026-06-20 03:00 czasu polskiego",
-      "local_started_at": "2026-06-20T03:00:00+02:00",
-      "local_timezone_label": "czasu polskiego",
-      "month": 6,
-      "published_at": "2026-06-20T08:54:21.749451+00:00",
-      "published_local_label": "2026-06-20 10:54 czasu polskiego",
-      "remote_filename": "radiorzeszow_2026-06-20T01-00-00Z.mp3",
-      "station_slug": "radiorzeszow",
-      "status": "published",
-      "utc_label": "2026-06-20 01:00 UTC",
-      "utc_started_at": "2026-06-20T01:00:00+00:00",
-      "year": 2026
-    },
-    {
-      "archive_item_identifier": "radiorzeszow-2026-06-20",
       "audio_url": "https://archive.org/download/radiorzeszow-2026-06-20/radiorzeszow_2026-06-20T03-00-00Z.mp3",
       "completeness_ratio": 1.0,
       "day": 20,
@@ -218,7 +194,7 @@
     }
   ],
   "day": 20,
-  "generated_at": "2026-06-20T08:54:21.749451+00:00",
+  "generated_at": "2026-06-20T08:26:38.213660+00:00",
   "hour_slots": [
     {
       "archive_status": "published",
@@ -278,7 +254,7 @@
       "year": 2026
     },
     {
-      "archive_status": "published",
+      "archive_status": "ready",
       "completeness_ratio": 1.0,
       "day": 20,
       "hour": 3,
@@ -289,9 +265,9 @@
       "local_started_at": "2026-06-20T03:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 6,
-      "playable": true,
-      "state": "available",
-      "status_label": null,
+      "playable": false,
+      "state": "publishing",
+      "status_label": "Czeka w kolejce do publikacji",
       "utc_label": "2026-06-20 01:00 UTC",
       "utc_started_at": "2026-06-20T01:00:00+00:00",
       "year": 2026
@@ -409,14 +385,33 @@
       "utc_label": "2026-06-20 07:00 UTC",
       "utc_started_at": "2026-06-20T07:00:00+00:00",
       "year": 2026
+    },
+    {
+      "archive_status": null,
+      "completeness_ratio": null,
+      "day": 20,
+      "hour": 10,
+      "hourly_archive_id": null,
+      "local_date_label": "20.06.2026",
+      "local_hour_label": "10:00",
+      "local_label": "2026-06-20 10:00 czasu polskiego",
+      "local_started_at": "2026-06-20T10:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 6,
+      "playable": false,
+      "state": "recorded",
+      "status_label": "Nagranie czeka na złożenie",
+      "utc_label": "2026-06-20 08:00 UTC",
+      "utc_started_at": "2026-06-20T08:00:00+00:00",
+      "year": 2026
     }
   ],
   "latest_archive_hour_expected_station_count": 0,
   "latest_archive_hour_started_at": "2026-06-20T07:00:00+00:00",
   "month": 6,
-  "published_at": "2026-06-20T08:54:21.749451+00:00",
+  "published_at": "2026-06-20T08:26:38.213660+00:00",
   "station": {
-    "archive_count": 1743,
+    "archive_count": 1742,
     "display_name": "Radio Rzeszów",
     "public_name": "Radio Rzeszów",
     "slug": "radiorzeszow",
