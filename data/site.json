@@ -1,8 +1,8 @@
 {
-  "archive_count": 90349,
+  "archive_count": 90353,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-06-20T12:43:19.951390+00:00",
+  "generated_at": "2026-06-20T12:50:01.084915+00:00",
   "latest_archive_hour_expected_station_count": 41,
   "latest_archive_hour_started_at": "2026-06-20T11:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -34,10 +34,13 @@
     "Radio Rzeszów",
     "Radio Szczecin",
     "Radio UWM FM",
-    "Radio Łódź"
+    "Radio Wrocław",
+    "Radio Zielona Góra",
+    "Radio Łódź",
+    "Radio Żak"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-06-20T12:43:19.951390+00:00",
+  "published_at": "2026-06-20T12:50:01.084915+00:00",
   "station_count": 41,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
