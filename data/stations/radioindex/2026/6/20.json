@@ -351,13 +351,37 @@
       "local_started_at": "2026-06-20T14:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 6,
-      "published_at": "2026-06-20T13:26:37.656235+00:00",
-      "published_local_label": "2026-06-20 15:26 czasu polskiego",
+      "published_at": "2026-06-20T21:02:42.534453+00:00",
+      "published_local_label": "2026-06-20 23:02 czasu polskiego",
       "remote_filename": "radioindex_2026-06-20T12-00-00Z.mp3",
       "station_slug": "radioindex",
       "status": "published",
       "utc_label": "2026-06-20 12:00 UTC",
       "utc_started_at": "2026-06-20T12:00:00+00:00",
+      "year": 2026
+    },
+    {
+      "archive_item_identifier": "radioindex-2026-06-20",
+      "audio_url": "https://archive.org/download/radioindex-2026-06-20/radioindex_2026-06-20T13-00-00Z.mp3",
+      "completeness_ratio": 1.0,
+      "day": 20,
+      "download_url": "https://archive.org/download/radioindex-2026-06-20/radioindex_2026-06-20T13-00-00Z.mp3",
+      "duration_seconds": 3599.83,
+      "hour": 15,
+      "hourly_archive_id": 91254,
+      "local_date_label": "20.06.2026",
+      "local_hour_label": "15:00",
+      "local_label": "2026-06-20 15:00 czasu polskiego",
+      "local_started_at": "2026-06-20T15:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 6,
+      "published_at": "2026-06-20T21:00:56.146240+00:00",
+      "published_local_label": "2026-06-20 23:00 czasu polskiego",
+      "remote_filename": "radioindex_2026-06-20T13-00-00Z.mp3",
+      "station_slug": "radioindex",
+      "status": "published",
+      "utc_label": "2026-06-20 13:00 UTC",
+      "utc_started_at": "2026-06-20T13:00:00+00:00",
       "year": 2026
     },
     {
@@ -506,7 +530,7 @@
     }
   ],
   "day": 20,
-  "generated_at": "2026-06-20T20:57:51.479194+00:00",
+  "generated_at": "2026-06-20T21:02:42.534453+00:00",
   "hour_slots": [
     {
       "archive_status": "published",
@@ -794,7 +818,7 @@
       "year": 2026
     },
     {
-      "archive_status": "ready",
+      "archive_status": "published",
       "completeness_ratio": 1.0,
       "day": 20,
       "hour": 15,
@@ -805,9 +829,9 @@
       "local_started_at": "2026-06-20T15:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 6,
-      "playable": false,
-      "state": "publishing",
-      "status_label": "Czeka w kolejce do publikacji",
+      "playable": true,
+      "state": "available",
+      "status_label": null,
       "utc_label": "2026-06-20 13:00 UTC",
       "utc_started_at": "2026-06-20T13:00:00+00:00",
       "year": 2026
@@ -927,11 +951,11 @@
       "year": 2026
     },
     {
-      "archive_status": null,
-      "completeness_ratio": null,
+      "archive_status": "ready",
+      "completeness_ratio": 1.0,
       "day": 20,
       "hour": 22,
-      "hourly_archive_id": null,
+      "hourly_archive_id": 91741,
       "local_date_label": "20.06.2026",
       "local_hour_label": "22:00",
       "local_label": "2026-06-20 22:00 czasu polskiego",
@@ -939,8 +963,8 @@
       "local_timezone_label": "czasu polskiego",
       "month": 6,
       "playable": false,
-      "state": "recorded",
-      "status_label": "Nagranie czeka na złożenie",
+      "state": "publishing",
+      "status_label": "Czeka w kolejce do publikacji",
       "utc_label": "2026-06-20 20:00 UTC",
       "utc_started_at": "2026-06-20T20:00:00+00:00",
       "year": 2026
@@ -949,9 +973,9 @@
   "latest_archive_hour_expected_station_count": 0,
   "latest_archive_hour_started_at": "2026-06-20T19:00:00+00:00",
   "month": 6,
-  "published_at": "2026-06-20T20:57:51.479194+00:00",
+  "published_at": "2026-06-20T21:02:42.534453+00:00",
   "station": {
-    "archive_count": 1691,
+    "archive_count": 1692,
     "display_name": "Radio Index",
     "public_name": "Radio Index",
     "slug": "radioindex",
