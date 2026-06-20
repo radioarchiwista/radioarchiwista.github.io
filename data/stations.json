@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-06-20T13:17:40.827366+00:00",
+  "generated_at": "2026-06-20T13:28:30.546541+00:00",
   "latest_archive_hour_expected_station_count": 41,
   "latest_archive_hour_started_at": "2026-06-20T12:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -12,10 +12,16 @@
     "Radio 357",
     "Radio Afera",
     "Radio Akadera",
+    "Radio Białystok",
+    "Radio Centrum Lublin",
+    "Radio Gdańsk",
+    "Radio Gorzów",
+    "Radio Index",
+    "Radio Kampus",
     "Radio UWM FM"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-06-20T13:17:40.827366+00:00",
+  "published_at": "2026-06-20T13:28:30.546541+00:00",
   "station_count": 41,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -97,14 +103,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1742,
+      "archive_count": 1743,
       "display_name": "Radio Białystok",
       "public_name": "Radio Białystok",
       "slug": "radiobialystok",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1745,
+      "archive_count": 1746,
       "display_name": "Radio Centrum Lublin",
       "public_name": "Radio Centrum Lublin",
       "slug": "radiocentrumlublin",
@@ -125,28 +131,28 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1748,
+      "archive_count": 1749,
       "display_name": "Radio Gdańsk",
       "public_name": "Radio Gdańsk",
       "slug": "radiogdansk",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1747,
+      "archive_count": 1748,
       "display_name": "Radio Gorzów",
       "public_name": "Radio Gorzów",
       "slug": "radiogorzow",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1683,
+      "archive_count": 1684,
       "display_name": "Radio Index",
       "public_name": "Radio Index",
       "slug": "radioindex",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1455,
+      "archive_count": 1456,
       "display_name": "Radio Kampus",
       "public_name": "Radio Kampus",
       "slug": "radiokampus",
@@ -216,7 +222,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1700,
+      "archive_count": 1701,
       "display_name": "Radio PiK",
       "public_name": "Radio PiK",
       "slug": "radiopik",
@@ -300,7 +306,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 277,
+      "archive_count": 278,
       "display_name": "RMF24",
       "public_name": "RMF24",
       "slug": "rmf24",
