@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-06-20T17:34:01.930790+00:00",
+  "generated_at": "2026-06-20T17:41:04.940791+00:00",
   "latest_archive_hour_expected_station_count": 41,
   "latest_archive_hour_started_at": "2026-06-20T16:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -22,10 +22,14 @@
     "Radio Kielce",
     "Radio Koszalin",
     "Radio Kraków",
-    "Radio UWM FM"
+    "Radio Lublin",
+    "Radio Luz",
+    "Radio Maryja",
+    "Radio UWM FM",
+    "Radio Łódź"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-06-20T17:34:01.930790+00:00",
+  "published_at": "2026-06-20T17:41:04.940791+00:00",
   "station_count": 41,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -44,7 +48,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 24099,
+      "archive_count": 24098,
       "display_name": "Program 3",
       "public_name": "Polskie Radio Program 3",
       "slug": "pr3",
@@ -191,21 +195,21 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1751,
+      "archive_count": 1752,
       "display_name": "Radio Lublin",
       "public_name": "Radio Lublin",
       "slug": "radiolublin",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1752,
+      "archive_count": 1753,
       "display_name": "Radio Luz",
       "public_name": "Radio Luz",
       "slug": "radioluz",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1606,
+      "archive_count": 1607,
       "display_name": "Radio Maryja",
       "public_name": "Radio Maryja",
       "slug": "radiomaryja",
@@ -289,7 +293,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1752,
+      "archive_count": 1753,
       "display_name": "Radio Łódź",
       "public_name": "Radio Łódź",
       "slug": "radiolodz",
@@ -303,7 +307,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 281,
+      "archive_count": 282,
       "display_name": "RMF Classic",
       "public_name": "RMF Classic",
       "slug": "rmfclassic",
