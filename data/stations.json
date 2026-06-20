@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-06-20T15:00:03.340070+00:00",
+  "generated_at": "2026-06-20T15:05:51.086732+00:00",
   "latest_archive_hour_expected_station_count": 41,
   "latest_archive_hour_started_at": "2026-06-20T13:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -12,6 +12,7 @@
     "Radio 357",
     "Radio Nowy Świat",
     "TOK FM",
+    "Radio Wnet",
     "Radio Republika",
     "Radio Afera",
     "Radio Akadera",
@@ -47,7 +48,7 @@
     "RMF24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-06-20T15:00:03.340070+00:00",
+  "published_at": "2026-06-20T15:05:51.086732+00:00",
   "station_count": 41,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -87,7 +88,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1762,
+      "archive_count": 1763,
       "display_name": "Radio Nowy Świat",
       "public_name": "Radio Nowy Świat",
       "slug": "rns",
@@ -101,7 +102,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1765,
+      "archive_count": 1767,
       "display_name": "Radio Wnet",
       "public_name": "Radio Wnet",
       "slug": "wnet",
@@ -297,7 +298,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1749,
+      "archive_count": 1750,
       "display_name": "Radio Zachód",
       "public_name": "Radio Zachód",
       "slug": "radiozachod",
@@ -325,7 +326,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 276,
+      "archive_count": 277,
       "display_name": "RMF Classic",
       "public_name": "RMF Classic",
       "slug": "rmfclassic",
