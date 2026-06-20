@@ -2,7 +2,7 @@
   "archive_count": 89902,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-06-20T02:10:43.540708+00:00",
+  "generated_at": "2026-06-20T02:20:54.356840+00:00",
   "latest_archive_hour_expected_station_count": 41,
   "latest_archive_hour_started_at": "2026-06-20T01:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -24,7 +24,7 @@
     "Radio Koszalin"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-06-20T02:10:43.540708+00:00",
+  "published_at": "2026-06-20T02:20:54.356840+00:00",
   "station_count": 41,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
