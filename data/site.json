@@ -1,8 +1,8 @@
 {
-  "archive_count": 91422,
+  "archive_count": 91425,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-06-21T10:29:57.197755+00:00",
+  "generated_at": "2026-06-21T10:35:31.288598+00:00",
   "latest_archive_hour_expected_station_count": 41,
   "latest_archive_hour_started_at": "2026-06-21T09:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -24,10 +24,13 @@
     "Radio Koszalin",
     "Radio Kraków",
     "Radio Lublin",
+    "Radio Maryja",
+    "Radio Olsztyn",
+    "Radio PiK",
     "Radio Łódź"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-06-21T10:29:57.197755+00:00",
+  "published_at": "2026-06-21T10:35:31.288598+00:00",
   "station_count": 41,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
