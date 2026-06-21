@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-06-21T07:33:34.003815+00:00",
+  "generated_at": "2026-06-21T07:40:18.801941+00:00",
   "latest_archive_hour_expected_station_count": 41,
   "latest_archive_hour_started_at": "2026-06-21T06:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -27,10 +27,15 @@
     "Radio Luz",
     "Radio Maryja",
     "Radio Olsztyn",
+    "Radio Opole",
+    "Radio PiK",
+    "Radio Rzeszów",
+    "Radio Słupsk",
+    "Radio Wrocław",
     "Radio Łódź"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-06-21T07:33:34.003815+00:00",
+  "published_at": "2026-06-21T07:40:18.801941+00:00",
   "station_count": 41,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -224,14 +229,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1668,
+      "archive_count": 1669,
       "display_name": "Radio Opole",
       "public_name": "Radio Opole",
       "slug": "radioopole",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1719,
+      "archive_count": 1720,
       "display_name": "Radio PiK",
       "public_name": "Radio PiK",
       "slug": "radiopik",
@@ -245,7 +250,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1764,
+      "archive_count": 1765,
       "display_name": "Radio Rzeszów",
       "public_name": "Radio Rzeszów",
       "slug": "radiorzeszow",
@@ -259,7 +264,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1763,
+      "archive_count": 1764,
       "display_name": "Radio Słupsk",
       "public_name": "Radio Słupsk",
       "slug": "radioslupsk",
@@ -273,7 +278,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1764,
+      "archive_count": 1765,
       "display_name": "Radio Wrocław",
       "public_name": "Radio Wrocław",
       "slug": "radiowroclaw",
