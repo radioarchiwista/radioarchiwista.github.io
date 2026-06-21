@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-06-21T10:57:52.766021+00:00",
+  "generated_at": "2026-06-21T11:03:39.144168+00:00",
   "latest_archive_hour_expected_station_count": 41,
   "latest_archive_hour_started_at": "2026-06-21T09:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -43,10 +43,11 @@
     "Radio Zielona Góra",
     "Radio Łódź",
     "Radio Żak",
+    "RMF Classic",
     "RMF24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-06-21T10:57:52.766021+00:00",
+  "published_at": "2026-06-21T11:03:39.144168+00:00",
   "station_count": 41,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -65,7 +66,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 24274,
+      "archive_count": 24275,
       "display_name": "Program 3",
       "public_name": "Polskie Radio Program 3",
       "slug": "pr3",
@@ -128,7 +129,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1763,
+      "archive_count": 1764,
       "display_name": "Radio Białystok",
       "public_name": "Radio Białystok",
       "slug": "radiobialystok",
@@ -303,7 +304,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1769,
+      "archive_count": 1770,
       "display_name": "Radio Zielona Góra",
       "public_name": "Radio Zielona Góra",
       "slug": "radiozielonagora",
@@ -317,14 +318,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1757,
+      "archive_count": 1758,
       "display_name": "Radio Żak",
       "public_name": "Radio Żak",
       "slug": "radiozak",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 298,
+      "archive_count": 299,
       "display_name": "RMF Classic",
       "public_name": "RMF Classic",
       "slug": "rmfclassic",
