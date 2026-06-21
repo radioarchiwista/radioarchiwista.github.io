@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-06-21T20:43:07.485655+00:00",
+  "generated_at": "2026-06-21T20:53:06.149883+00:00",
   "latest_archive_hour_expected_station_count": 41,
   "latest_archive_hour_started_at": "2026-06-21T19:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -31,10 +31,14 @@
     "Radio PiK",
     "Radio Poznań",
     "Radio Rzeszów",
-    "Radio Łódź"
+    "Radio Słupsk",
+    "Radio Zachód",
+    "Radio Zielona Góra",
+    "Radio Łódź",
+    "Radio Żak"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-06-21T20:43:07.485655+00:00",
+  "published_at": "2026-06-21T20:53:06.149883+00:00",
   "station_count": 41,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -53,7 +57,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 24473,
+      "archive_count": 24476,
       "display_name": "Program 3",
       "public_name": "Polskie Radio Program 3",
       "slug": "pr3",
@@ -263,7 +267,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1778,
+      "archive_count": 1779,
       "display_name": "Radio Słupsk",
       "public_name": "Radio Słupsk",
       "slug": "radioslupsk",
@@ -284,14 +288,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1779,
+      "archive_count": 1780,
       "display_name": "Radio Zachód",
       "public_name": "Radio Zachód",
       "slug": "radiozachod",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1779,
+      "archive_count": 1780,
       "display_name": "Radio Zielona Góra",
       "public_name": "Radio Zielona Góra",
       "slug": "radiozielonagora",
@@ -305,7 +309,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1767,
+      "archive_count": 1768,
       "display_name": "Radio Żak",
       "public_name": "Radio Żak",
       "slug": "radiozak",
