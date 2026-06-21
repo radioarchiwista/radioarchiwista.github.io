@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-06-21T08:54:08.758461+00:00",
+  "generated_at": "2026-06-21T08:58:45.103761+00:00",
   "latest_archive_hour_expected_station_count": 41,
   "latest_archive_hour_started_at": "2026-06-21T07:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -16,6 +16,7 @@
     "Radio Białystok",
     "Radio Centrum Lublin",
     "Radio Centrum Rzeszów",
+    "Radio Dla Ciebie",
     "Radio Gdańsk",
     "Radio Gorzów",
     "Radio Index",
@@ -38,10 +39,11 @@
     "Radio Zachód",
     "Radio Zielona Góra",
     "Radio Łódź",
-    "Radio Żak"
+    "Radio Żak",
+    "RMF24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-06-21T08:54:08.758461+00:00",
+  "published_at": "2026-06-21T08:58:45.103761+00:00",
   "station_count": 41,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -144,7 +146,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1766,
+      "archive_count": 1767,
       "display_name": "Radio Dla Ciebie",
       "public_name": "Radio Dla Ciebie",
       "slug": "rdc",
@@ -186,7 +188,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1740,
+      "archive_count": 1741,
       "display_name": "Radio Kielce",
       "public_name": "Radio Kielce",
       "slug": "radiokielce",
@@ -326,7 +328,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 296,
+      "archive_count": 297,
       "display_name": "RMF24",
       "public_name": "RMF24",
       "slug": "rmf24",
