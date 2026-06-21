@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-06-21T05:59:57.773252+00:00",
+  "generated_at": "2026-06-21T06:04:27.225000+00:00",
   "latest_archive_hour_expected_station_count": 41,
   "latest_archive_hour_started_at": "2026-06-21T04:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -47,7 +47,7 @@
     "RMF24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-06-21T05:59:57.773252+00:00",
+  "published_at": "2026-06-21T06:04:27.225000+00:00",
   "station_count": 41,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -304,7 +304,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1763,
+      "archive_count": 1764,
       "display_name": "Radio Zielona Góra",
       "public_name": "Radio Zielona Góra",
       "slug": "radiozielonagora",
@@ -318,7 +318,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1751,
+      "archive_count": 1752,
       "display_name": "Radio Żak",
       "public_name": "Radio Żak",
       "slug": "radiozak",
