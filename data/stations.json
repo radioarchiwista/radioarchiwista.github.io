@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-06-21T11:52:26.922911+00:00",
+  "generated_at": "2026-06-21T11:57:37.200027+00:00",
   "latest_archive_hour_expected_station_count": 41,
   "latest_archive_hour_started_at": "2026-06-21T10:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -10,6 +10,7 @@
     "Program 3",
     "Polskie Radio 24",
     "Radio 357",
+    "Radio Republika",
     "Radio Afera",
     "Radio Akadera",
     "Radio Białystok",
@@ -37,10 +38,12 @@
     "Radio Zachód",
     "Radio Zielona Góra",
     "Radio Łódź",
-    "Radio Żak"
+    "Radio Żak",
+    "RMF Classic",
+    "RMF24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-06-21T11:52:26.922911+00:00",
+  "published_at": "2026-06-21T11:57:37.200027+00:00",
   "station_count": 41,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -59,7 +62,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 24282,
+      "archive_count": 24284,
       "display_name": "Program 3",
       "public_name": "Polskie Radio Program 3",
       "slug": "pr3",
@@ -101,7 +104,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1785,
+      "archive_count": 1786,
       "display_name": "Radio Republika",
       "public_name": "Radio Republika",
       "slug": "republika",
@@ -262,7 +265,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1769,
+      "archive_count": 1770,
       "display_name": "Radio Szczecin",
       "public_name": "Radio Szczecin",
       "slug": "radioszczecin",
@@ -318,14 +321,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 299,
+      "archive_count": 300,
       "display_name": "RMF Classic",
       "public_name": "RMF Classic",
       "slug": "rmfclassic",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 299,
+      "archive_count": 300,
       "display_name": "RMF24",
       "public_name": "RMF24",
       "slug": "rmf24",
