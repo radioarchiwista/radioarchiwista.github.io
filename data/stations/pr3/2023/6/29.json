@@ -1,6 +1,54 @@
 {
   "archives": [
     {
+      "archive_item_identifier": "pr3-2023-06-28",
+      "audio_url": "https://archive.org/download/pr3-2023-06-28/pr3_2023-06-28T23-00-00Z.ogg",
+      "completeness_ratio": 1.0,
+      "day": 29,
+      "download_url": "https://archive.org/download/pr3-2023-06-28/pr3_2023-06-28T23-00-00Z.ogg",
+      "duration_seconds": 3610.008,
+      "hour": 1,
+      "hourly_archive_id": 91857,
+      "local_date_label": "29.06.2023",
+      "local_hour_label": "01:00",
+      "local_label": "2023-06-29 01:00 czasu polskiego",
+      "local_started_at": "2023-06-29T01:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 6,
+      "published_at": "2026-06-22T12:57:46.572457+00:00",
+      "published_local_label": "2026-06-22 14:57 czasu polskiego",
+      "remote_filename": "pr3_2023-06-28T23-00-00Z.ogg",
+      "station_slug": "pr3",
+      "status": "published",
+      "utc_label": "2023-06-28 23:00 UTC",
+      "utc_started_at": "2023-06-28T23:00:00+00:00",
+      "year": 2023
+    },
+    {
+      "archive_item_identifier": "pr3-2023-06-29",
+      "audio_url": "https://archive.org/download/pr3-2023-06-29/pr3_2023-06-29T14-00-00Z.ogg",
+      "completeness_ratio": 1.0,
+      "day": 29,
+      "download_url": "https://archive.org/download/pr3-2023-06-29/pr3_2023-06-29T14-00-00Z.ogg",
+      "duration_seconds": 3610.016,
+      "hour": 16,
+      "hourly_archive_id": 91879,
+      "local_date_label": "29.06.2023",
+      "local_hour_label": "16:00",
+      "local_label": "2023-06-29 16:00 czasu polskiego",
+      "local_started_at": "2023-06-29T16:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 6,
+      "published_at": "2026-06-22T12:57:23.012548+00:00",
+      "published_local_label": "2026-06-22 14:57 czasu polskiego",
+      "remote_filename": "pr3_2023-06-29T14-00-00Z.ogg",
+      "station_slug": "pr3",
+      "status": "published",
+      "utc_label": "2023-06-29 14:00 UTC",
+      "utc_started_at": "2023-06-29T14:00:00+00:00",
+      "year": 2023
+    },
+    {
       "archive_item_identifier": "pr3-2023-06-29",
       "audio_url": "https://archive.org/download/pr3-2023-06-29/pr3_2023-06-29T15-00-00Z.ogg",
       "completeness_ratio": 1.0,
@@ -170,7 +218,7 @@
     }
   ],
   "day": 29,
-  "generated_at": "2026-06-22T12:21:59.522111+00:00",
+  "generated_at": "2026-06-22T12:57:46.572457+00:00",
   "hour_slots": [
     {
       "archive_status": "ready",
@@ -192,7 +240,7 @@
       "year": 2023
     },
     {
-      "archive_status": "ready",
+      "archive_status": "published",
       "completeness_ratio": 1.0,
       "day": 29,
       "hour": 1,
@@ -203,9 +251,9 @@
       "local_started_at": "2023-06-29T01:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 6,
-      "playable": false,
-      "state": "publishing",
-      "status_label": "Czeka w kolejce do publikacji",
+      "playable": true,
+      "state": "available",
+      "status_label": null,
       "utc_label": "2023-06-28 23:00 UTC",
       "utc_started_at": "2023-06-28T23:00:00+00:00",
       "year": 2023
@@ -477,7 +525,7 @@
       "year": 2023
     },
     {
-      "archive_status": "ready",
+      "archive_status": "published",
       "completeness_ratio": 1.0,
       "day": 29,
       "hour": 16,
@@ -488,9 +536,9 @@
       "local_started_at": "2023-06-29T16:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 6,
-      "playable": false,
-      "state": "publishing",
-      "status_label": "Czeka w kolejce do publikacji",
+      "playable": true,
+      "state": "available",
+      "status_label": null,
       "utc_label": "2023-06-29 14:00 UTC",
       "utc_started_at": "2023-06-29T14:00:00+00:00",
       "year": 2023
@@ -632,9 +680,9 @@
   "latest_archive_hour_expected_station_count": 0,
   "latest_archive_hour_started_at": "2026-06-22T11:00:00+00:00",
   "month": 6,
-  "published_at": "2026-06-22T12:21:59.522111+00:00",
+  "published_at": "2026-06-22T12:57:46.572457+00:00",
   "station": {
-    "archive_count": 24651,
+    "archive_count": 24653,
     "display_name": "Program 3",
     "public_name": "Polskie Radio Program 3",
     "slug": "pr3",

@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-06-22T12:51:17.459985+00:00",
+  "generated_at": "2026-06-22T12:57:46.572457+00:00",
   "latest_archive_hour_expected_station_count": 41,
   "latest_archive_hour_started_at": "2026-06-22T11:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -10,11 +10,13 @@
     "Program 3",
     "Polskie Radio 24",
     "Radio 357",
+    "Radio Republika",
     "Radio Afera",
     "Radio Akadera",
     "Radio Białystok",
     "Radio Centrum Lublin",
     "Radio Centrum Rzeszów",
+    "Radio Dla Ciebie",
     "Radio Gdańsk",
     "Radio Gorzów",
     "Radio Index",
@@ -26,6 +28,7 @@
     "Radio Luz",
     "Radio Maryja",
     "Radio Olsztyn",
+    "Radio Opole",
     "Radio PiK",
     "Radio Poznań",
     "Radio Rzeszów",
@@ -33,11 +36,12 @@
     "Radio Słupsk",
     "Radio Wrocław",
     "Radio Zachód",
+    "Radio Zielona Góra",
     "Radio Łódź",
     "Radio Żak"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-06-22T12:51:17.459985+00:00",
+  "published_at": "2026-06-22T12:57:46.572457+00:00",
   "station_count": 41,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -56,7 +60,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 24651,
+      "archive_count": 24653,
       "display_name": "Program 3",
       "public_name": "Polskie Radio Program 3",
       "slug": "pr3",
@@ -98,7 +102,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1811,
+      "archive_count": 1812,
       "display_name": "Radio Republika",
       "public_name": "Radio Republika",
       "slug": "republika",
@@ -140,7 +144,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1795,
+      "archive_count": 1796,
       "display_name": "Radio Dla Ciebie",
       "public_name": "Radio Dla Ciebie",
       "slug": "rdc",
@@ -231,7 +235,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1697,
+      "archive_count": 1698,
       "display_name": "Radio Opole",
       "public_name": "Radio Opole",
       "slug": "radioopole",
@@ -294,7 +298,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1794,
+      "archive_count": 1795,
       "display_name": "Radio Zielona Góra",
       "public_name": "Radio Zielona Góra",
       "slug": "radiozielonagora",
