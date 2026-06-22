@@ -359,10 +359,34 @@
       "utc_label": "2026-06-22 12:00 UTC",
       "utc_started_at": "2026-06-22T12:00:00+00:00",
       "year": 2026
+    },
+    {
+      "archive_item_identifier": "republika-2026-06-22",
+      "audio_url": "https://archive.org/download/republika-2026-06-22/republika_2026-06-22T13-00-00Z.mp3",
+      "completeness_ratio": 1.0,
+      "day": 22,
+      "download_url": "https://archive.org/download/republika-2026-06-22/republika_2026-06-22T13-00-00Z.mp3",
+      "duration_seconds": 3599.308,
+      "hour": 15,
+      "hourly_archive_id": 94521,
+      "local_date_label": "22.06.2026",
+      "local_hour_label": "15:00",
+      "local_label": "2026-06-22 15:00 czasu polskiego",
+      "local_started_at": "2026-06-22T15:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 6,
+      "published_at": "2026-06-22T15:03:14.228357+00:00",
+      "published_local_label": "2026-06-22 17:03 czasu polskiego",
+      "remote_filename": "republika_2026-06-22T13-00-00Z.mp3",
+      "station_slug": "republika",
+      "status": "published",
+      "utc_label": "2026-06-22 13:00 UTC",
+      "utc_started_at": "2026-06-22T13:00:00+00:00",
+      "year": 2026
     }
   ],
   "day": 22,
-  "generated_at": "2026-06-22T14:01:56.905500+00:00",
+  "generated_at": "2026-06-22T15:03:14.228357+00:00",
   "hour_slots": [
     {
       "archive_status": "published",
@@ -650,7 +674,7 @@
       "year": 2026
     },
     {
-      "archive_status": "ready",
+      "archive_status": "published",
       "completeness_ratio": 1.0,
       "day": 22,
       "hour": 15,
@@ -661,9 +685,9 @@
       "local_started_at": "2026-06-22T15:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 6,
-      "playable": false,
-      "state": "publishing",
-      "status_label": "Czeka w kolejce do publikacji",
+      "playable": true,
+      "state": "available",
+      "status_label": null,
       "utc_label": "2026-06-22 13:00 UTC",
       "utc_started_at": "2026-06-22T13:00:00+00:00",
       "year": 2026
@@ -689,11 +713,11 @@
     }
   ],
   "latest_archive_hour_expected_station_count": 0,
-  "latest_archive_hour_started_at": "2026-06-22T12:00:00+00:00",
+  "latest_archive_hour_started_at": "2026-06-22T13:00:00+00:00",
   "month": 6,
-  "published_at": "2026-06-22T14:01:56.905500+00:00",
+  "published_at": "2026-06-22T15:03:14.228357+00:00",
   "station": {
-    "archive_count": 1813,
+    "archive_count": 1814,
     "display_name": "Radio Republika",
     "public_name": "Radio Republika",
     "slug": "republika",
