@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-06-22T16:37:18.401243+00:00",
+  "generated_at": "2026-06-22T16:45:03.949571+00:00",
   "latest_archive_hour_expected_station_count": 41,
   "latest_archive_hour_started_at": "2026-06-22T15:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -23,13 +23,20 @@
     "Radio Kielce",
     "Radio Koszalin",
     "Radio Kraków",
+    "Radio Lublin",
     "Radio Luz",
     "Radio Maryja",
     "Radio Olsztyn",
+    "Radio Opole",
+    "Radio PiK",
+    "Radio Poznań",
+    "Radio Rzeszów",
+    "Radio Słupsk",
+    "Radio Wrocław",
     "Radio Łódź"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-06-22T16:37:18.401243+00:00",
+  "published_at": "2026-06-22T16:45:03.949571+00:00",
   "station_count": 41,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -195,7 +202,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1798,
+      "archive_count": 1799,
       "display_name": "Radio Lublin",
       "public_name": "Radio Lublin",
       "slug": "radiolublin",
@@ -223,28 +230,28 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1701,
+      "archive_count": 1702,
       "display_name": "Radio Opole",
       "public_name": "Radio Opole",
       "slug": "radioopole",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1753,
+      "archive_count": 1754,
       "display_name": "Radio PiK",
       "public_name": "Radio PiK",
       "slug": "radiopik",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1798,
+      "archive_count": 1799,
       "display_name": "Radio Poznań",
       "public_name": "Radio Poznań",
       "slug": "radiopoznan",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1798,
+      "archive_count": 1799,
       "display_name": "Radio Rzeszów",
       "public_name": "Radio Rzeszów",
       "slug": "radiorzeszow",
@@ -258,7 +265,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1798,
+      "archive_count": 1799,
       "display_name": "Radio Słupsk",
       "public_name": "Radio Słupsk",
       "slug": "radioslupsk",
@@ -272,7 +279,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1799,
+      "archive_count": 1800,
       "display_name": "Radio Wrocław",
       "public_name": "Radio Wrocław",
       "slug": "radiowroclaw",
