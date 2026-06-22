@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-06-22T10:52:54.230646+00:00",
+  "generated_at": "2026-06-22T11:02:24.936585+00:00",
   "latest_archive_hour_expected_station_count": 41,
   "latest_archive_hour_started_at": "2026-06-22T09:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -10,11 +10,14 @@
     "Program 3",
     "Polskie Radio 24",
     "Radio 357",
+    "Radio Nowy Świat",
+    "Radio Republika",
     "Radio Afera",
     "Radio Akadera",
     "Radio Białystok",
     "Radio Centrum Lublin",
     "Radio Centrum Rzeszów",
+    "Radio Dla Ciebie",
     "Radio Gdańsk",
     "Radio Gorzów",
     "Radio Index",
@@ -35,10 +38,13 @@
     "Radio Słupsk",
     "Radio Zachód",
     "Radio Zielona Góra",
-    "Radio Łódź"
+    "Radio Łódź",
+    "Radio Żak",
+    "RMF Classic",
+    "RMF24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-06-22T10:52:54.230646+00:00",
+  "published_at": "2026-06-22T11:02:24.936585+00:00",
   "station_count": 41,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -57,7 +63,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 24623,
+      "archive_count": 24628,
       "display_name": "Program 3",
       "public_name": "Polskie Radio Program 3",
       "slug": "pr3",
@@ -78,7 +84,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1806,
+      "archive_count": 1807,
       "display_name": "Radio Nowy Świat",
       "public_name": "Radio Nowy Świat",
       "slug": "rns",
@@ -99,7 +105,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1809,
+      "archive_count": 1810,
       "display_name": "Radio Republika",
       "public_name": "Radio Republika",
       "slug": "republika",
@@ -141,7 +147,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1792,
+      "archive_count": 1793,
       "display_name": "Radio Dla Ciebie",
       "public_name": "Radio Dla Ciebie",
       "slug": "rdc",
@@ -302,28 +308,28 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1793,
+      "archive_count": 1794,
       "display_name": "Radio Łódź",
       "public_name": "Radio Łódź",
       "slug": "radiolodz",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1780,
+      "archive_count": 1781,
       "display_name": "Radio Żak",
       "public_name": "Radio Żak",
       "slug": "radiozak",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 322,
+      "archive_count": 323,
       "display_name": "RMF Classic",
       "public_name": "RMF Classic",
       "slug": "rmfclassic",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 323,
+      "archive_count": 324,
       "display_name": "RMF24",
       "public_name": "RMF24",
       "slug": "rmf24",
