@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-06-22T10:45:56.315508+00:00",
+  "generated_at": "2026-06-22T10:52:54.230646+00:00",
   "latest_archive_hour_expected_station_count": 41,
   "latest_archive_hour_started_at": "2026-06-22T09:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -31,10 +31,14 @@
     "Radio PiK",
     "Radio Poznań",
     "Radio Rzeszów",
+    "Radio Szczecin",
+    "Radio Słupsk",
+    "Radio Zachód",
+    "Radio Zielona Góra",
     "Radio Łódź"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-06-22T10:45:56.315508+00:00",
+  "published_at": "2026-06-22T10:52:54.230646+00:00",
   "station_count": 41,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -53,7 +57,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 24620,
+      "archive_count": 24623,
       "display_name": "Program 3",
       "public_name": "Polskie Radio Program 3",
       "slug": "pr3",
@@ -256,14 +260,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1793,
+      "archive_count": 1794,
       "display_name": "Radio Szczecin",
       "public_name": "Radio Szczecin",
       "slug": "radioszczecin",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1792,
+      "archive_count": 1793,
       "display_name": "Radio Słupsk",
       "public_name": "Radio Słupsk",
       "slug": "radioslupsk",
@@ -284,14 +288,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1793,
+      "archive_count": 1794,
       "display_name": "Radio Zachód",
       "public_name": "Radio Zachód",
       "slug": "radiozachod",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1792,
+      "archive_count": 1793,
       "display_name": "Radio Zielona Góra",
       "public_name": "Radio Zielona Góra",
       "slug": "radiozielonagora",
