@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-06-22T04:56:02.436711+00:00",
+  "generated_at": "2026-06-22T05:00:11.790403+00:00",
   "latest_archive_hour_expected_station_count": 41,
   "latest_archive_hour_started_at": "2026-06-22T03:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -10,6 +10,7 @@
     "Program 3",
     "Polskie Radio 24",
     "Radio 357",
+    "TOK FM",
     "Radio Republika",
     "Radio Afera",
     "Radio Akadera",
@@ -39,10 +40,12 @@
     "Radio Zachód",
     "Radio Zielona Góra",
     "Radio Łódź",
-    "Radio Żak"
+    "Radio Żak",
+    "RMF Classic",
+    "RMF24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-06-22T04:56:02.436711+00:00",
+  "published_at": "2026-06-22T05:00:11.790403+00:00",
   "station_count": 41,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -89,7 +92,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1788,
+      "archive_count": 1789,
       "display_name": "TOK FM",
       "public_name": "TOK FM",
       "slug": "tokfm",
@@ -320,14 +323,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 314,
+      "archive_count": 315,
       "display_name": "RMF Classic",
       "public_name": "RMF Classic",
       "slug": "rmfclassic",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 314,
+      "archive_count": 315,
       "display_name": "RMF24",
       "public_name": "RMF24",
       "slug": "rmf24",
