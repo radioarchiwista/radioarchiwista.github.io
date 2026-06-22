@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-06-22T06:47:24.459578+00:00",
+  "generated_at": "2026-06-22T06:55:52.348735+00:00",
   "latest_archive_hour_expected_station_count": 41,
   "latest_archive_hour_started_at": "2026-06-22T05:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -34,10 +34,15 @@
     "Radio Szczecin",
     "Radio Słupsk",
     "Radio Wrocław",
-    "Radio Łódź"
+    "Radio Zachód",
+    "Radio Zielona Góra",
+    "Radio Łódź",
+    "Radio Żak",
+    "RMF Classic",
+    "RMF24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-06-22T06:47:24.459578+00:00",
+  "published_at": "2026-06-22T06:55:52.348735+00:00",
   "station_count": 41,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -287,14 +292,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1788,
+      "archive_count": 1789,
       "display_name": "Radio Zachód",
       "public_name": "Radio Zachód",
       "slug": "radiozachod",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1787,
+      "archive_count": 1788,
       "display_name": "Radio Zielona Góra",
       "public_name": "Radio Zielona Góra",
       "slug": "radiozielonagora",
@@ -308,21 +313,21 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1775,
+      "archive_count": 1776,
       "display_name": "Radio Żak",
       "public_name": "Radio Żak",
       "slug": "radiozak",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 316,
+      "archive_count": 317,
       "display_name": "RMF Classic",
       "public_name": "RMF Classic",
       "slug": "rmfclassic",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 317,
+      "archive_count": 318,
       "display_name": "RMF24",
       "public_name": "RMF24",
       "slug": "rmf24",
