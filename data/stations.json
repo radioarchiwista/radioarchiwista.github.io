@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-06-22T08:45:56.136566+00:00",
+  "generated_at": "2026-06-22T08:50:45.344469+00:00",
   "latest_archive_hour_expected_station_count": 41,
   "latest_archive_hour_started_at": "2026-06-22T07:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -10,6 +10,7 @@
     "Program 3",
     "Polskie Radio 24",
     "Radio 357",
+    "Radio Republika",
     "Radio Afera",
     "Radio Akadera",
     "Radio Białystok",
@@ -35,10 +36,13 @@
     "Radio Słupsk",
     "Radio Wrocław",
     "Radio Zachód",
-    "Radio Łódź"
+    "Radio Zielona Góra",
+    "Radio Łódź",
+    "Radio Żak",
+    "RMF24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-06-22T08:45:56.136566+00:00",
+  "published_at": "2026-06-22T08:50:45.344469+00:00",
   "station_count": 41,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -99,7 +103,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1805,
+      "archive_count": 1806,
       "display_name": "Radio Republika",
       "public_name": "Radio Republika",
       "slug": "republika",
@@ -295,7 +299,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1789,
+      "archive_count": 1790,
       "display_name": "Radio Zielona Góra",
       "public_name": "Radio Zielona Góra",
       "slug": "radiozielonagora",
@@ -309,7 +313,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1777,
+      "archive_count": 1778,
       "display_name": "Radio Żak",
       "public_name": "Radio Żak",
       "slug": "radiozak",
@@ -323,7 +327,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 319,
+      "archive_count": 320,
       "display_name": "RMF24",
       "public_name": "RMF24",
       "slug": "rmf24",
