@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-06-22T04:32:51.325146+00:00",
+  "generated_at": "2026-06-22T04:38:30.516948+00:00",
   "latest_archive_hour_expected_station_count": 41,
   "latest_archive_hour_started_at": "2026-06-22T03:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -22,11 +22,15 @@
     "Radio Katowice",
     "Radio Kielce",
     "Radio Koszalin",
+    "Radio Kraków",
     "Radio Lublin",
+    "Radio Luz",
+    "Radio Maryja",
+    "Radio Olsztyn",
     "Radio Łódź"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-06-22T04:32:51.325146+00:00",
+  "published_at": "2026-06-22T04:38:30.516948+00:00",
   "station_count": 41,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -185,7 +189,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1784,
+      "archive_count": 1785,
       "display_name": "Radio Kraków",
       "public_name": "Radio Kraków",
       "slug": "radiokrakow",
@@ -199,21 +203,21 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1786,
+      "archive_count": 1787,
       "display_name": "Radio Luz",
       "public_name": "Radio Luz",
       "slug": "radioluz",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1640,
+      "archive_count": 1641,
       "display_name": "Radio Maryja",
       "public_name": "Radio Maryja",
       "slug": "radiomaryja",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1786,
+      "archive_count": 1787,
       "display_name": "Radio Olsztyn",
       "public_name": "Radio Olsztyn",
       "slug": "radioolsztyn",
