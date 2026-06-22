@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-06-22T13:54:03.621713+00:00",
+  "generated_at": "2026-06-22T14:01:56.905500+00:00",
   "latest_archive_hour_expected_station_count": 41,
   "latest_archive_hour_started_at": "2026-06-22T12:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -10,6 +10,7 @@
     "Program 3",
     "Polskie Radio 24",
     "Radio 357",
+    "Radio Republika",
     "Radio Afera",
     "Radio Akadera",
     "Radio Białystok",
@@ -34,10 +35,12 @@
     "Radio Szczecin",
     "Radio Słupsk",
     "Radio Wrocław",
+    "Radio Zachód",
+    "Radio Zielona Góra",
     "Radio Łódź"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-06-22T13:54:03.621713+00:00",
+  "published_at": "2026-06-22T14:01:56.905500+00:00",
   "station_count": 41,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -56,7 +59,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 24664,
+      "archive_count": 24666,
       "display_name": "Program 3",
       "public_name": "Polskie Radio Program 3",
       "slug": "pr3",
@@ -98,7 +101,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1812,
+      "archive_count": 1813,
       "display_name": "Radio Republika",
       "public_name": "Radio Republika",
       "slug": "republika",
@@ -287,14 +290,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1796,
+      "archive_count": 1797,
       "display_name": "Radio Zachód",
       "public_name": "Radio Zachód",
       "slug": "radiozachod",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1796,
+      "archive_count": 1797,
       "display_name": "Radio Zielona Góra",
       "public_name": "Radio Zielona Góra",
       "slug": "radiozielonagora",
