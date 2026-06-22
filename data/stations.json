@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-06-22T08:39:28.826378+00:00",
+  "generated_at": "2026-06-22T08:45:56.136566+00:00",
   "latest_archive_hour_expected_station_count": 41,
   "latest_archive_hour_started_at": "2026-06-22T07:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -29,12 +29,16 @@
     "Radio Olsztyn",
     "Radio Opole",
     "Radio PiK",
+    "Radio Poznań",
     "Radio Rzeszów",
+    "Radio Szczecin",
     "Radio Słupsk",
+    "Radio Wrocław",
+    "Radio Zachód",
     "Radio Łódź"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-06-22T08:39:28.826378+00:00",
+  "published_at": "2026-06-22T08:45:56.136566+00:00",
   "station_count": 41,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -242,7 +246,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1789,
+      "archive_count": 1790,
       "display_name": "Radio Poznań",
       "public_name": "Radio Poznań",
       "slug": "radiopoznan",
@@ -256,7 +260,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1790,
+      "archive_count": 1791,
       "display_name": "Radio Szczecin",
       "public_name": "Radio Szczecin",
       "slug": "radioszczecin",
@@ -277,14 +281,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1790,
+      "archive_count": 1791,
       "display_name": "Radio Wrocław",
       "public_name": "Radio Wrocław",
       "slug": "radiowroclaw",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1790,
+      "archive_count": 1791,
       "display_name": "Radio Zachód",
       "public_name": "Radio Zachód",
       "slug": "radiozachod",
