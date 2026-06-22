@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-06-22T07:46:43.905837+00:00",
+  "generated_at": "2026-06-22T07:52:26.817981+00:00",
   "latest_archive_hour_expected_station_count": 41,
   "latest_archive_hour_started_at": "2026-06-22T06:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -27,16 +27,20 @@
     "Radio Luz",
     "Radio Maryja",
     "Radio Olsztyn",
+    "Radio Opole",
     "Radio PiK",
     "Radio Poznań",
     "Radio Rzeszów",
     "Radio Szczecin",
     "Radio Słupsk",
     "Radio Wrocław",
-    "Radio Łódź"
+    "Radio Zachód",
+    "Radio Zielona Góra",
+    "Radio Łódź",
+    "Radio Żak"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-06-22T07:46:43.905837+00:00",
+  "published_at": "2026-06-22T07:52:26.817981+00:00",
   "station_count": 41,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -230,7 +234,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1692,
+      "archive_count": 1693,
       "display_name": "Radio Opole",
       "public_name": "Radio Opole",
       "slug": "radioopole",
@@ -286,14 +290,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1789,
+      "archive_count": 1790,
       "display_name": "Radio Zachód",
       "public_name": "Radio Zachód",
       "slug": "radiozachod",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1788,
+      "archive_count": 1789,
       "display_name": "Radio Zielona Góra",
       "public_name": "Radio Zielona Góra",
       "slug": "radiozielonagora",
@@ -307,7 +311,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1776,
+      "archive_count": 1777,
       "display_name": "Radio Żak",
       "public_name": "Radio Żak",
       "slug": "radiozak",
