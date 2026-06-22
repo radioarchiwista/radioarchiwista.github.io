@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-06-22T06:24:46.037864+00:00",
+  "generated_at": "2026-06-22T06:33:29.376808+00:00",
   "latest_archive_hour_expected_station_count": 41,
   "latest_archive_hour_started_at": "2026-06-22T05:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -15,12 +15,18 @@
     "Radio Białystok",
     "Radio Centrum Lublin",
     "Radio Centrum Rzeszów",
+    "Radio Gdańsk",
     "Radio Gorzów",
+    "Radio Index",
     "Radio Kampus",
-    "Radio Katowice"
+    "Radio Katowice",
+    "Radio Kraków",
+    "Radio Lublin",
+    "Radio Olsztyn",
+    "Radio Łódź"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-06-22T06:24:46.037864+00:00",
+  "published_at": "2026-06-22T06:33:29.376808+00:00",
   "station_count": 41,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -130,7 +136,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1789,
+      "archive_count": 1790,
       "display_name": "Radio Gdańsk",
       "public_name": "Radio Gdańsk",
       "slug": "radiogdansk",
@@ -144,7 +150,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1725,
+      "archive_count": 1726,
       "display_name": "Radio Index",
       "public_name": "Radio Index",
       "slug": "radioindex",
@@ -179,14 +185,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1786,
+      "archive_count": 1787,
       "display_name": "Radio Kraków",
       "public_name": "Radio Kraków",
       "slug": "radiokrakow",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1787,
+      "archive_count": 1788,
       "display_name": "Radio Lublin",
       "public_name": "Radio Lublin",
       "slug": "radiolublin",
@@ -207,7 +213,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1788,
+      "archive_count": 1789,
       "display_name": "Radio Olsztyn",
       "public_name": "Radio Olsztyn",
       "slug": "radioolsztyn",
@@ -284,7 +290,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1788,
+      "archive_count": 1789,
       "display_name": "Radio Łódź",
       "public_name": "Radio Łódź",
       "slug": "radiolodz",
