@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-06-22T04:43:59.082630+00:00",
+  "generated_at": "2026-06-22T04:49:17.945472+00:00",
   "latest_archive_hour_expected_station_count": 41,
   "latest_archive_hour_started_at": "2026-06-22T03:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -33,10 +33,13 @@
     "Radio Rzeszów",
     "Radio Szczecin",
     "Radio Słupsk",
-    "Radio Łódź"
+    "Radio Wrocław",
+    "Radio Zachód",
+    "Radio Łódź",
+    "Radio Żak"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-06-22T04:43:59.082630+00:00",
+  "published_at": "2026-06-22T04:49:17.945472+00:00",
   "station_count": 41,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -279,14 +282,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1785,
+      "archive_count": 1786,
       "display_name": "Radio Wrocław",
       "public_name": "Radio Wrocław",
       "slug": "radiowroclaw",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1785,
+      "archive_count": 1786,
       "display_name": "Radio Zachód",
       "public_name": "Radio Zachód",
       "slug": "radiozachod",
@@ -307,7 +310,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1772,
+      "archive_count": 1773,
       "display_name": "Radio Żak",
       "public_name": "Radio Żak",
       "slug": "radiozak",
