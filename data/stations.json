@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-06-22T06:33:29.376808+00:00",
+  "generated_at": "2026-06-22T06:39:28.832416+00:00",
   "latest_archive_hour_expected_station_count": 41,
   "latest_archive_hour_started_at": "2026-06-22T05:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -20,13 +20,18 @@
     "Radio Index",
     "Radio Kampus",
     "Radio Katowice",
+    "Radio Koszalin",
     "Radio Kraków",
     "Radio Lublin",
+    "Radio Luz",
+    "Radio Maryja",
     "Radio Olsztyn",
+    "Radio Opole",
+    "Radio PiK",
     "Radio Łódź"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-06-22T06:33:29.376808+00:00",
+  "published_at": "2026-06-22T06:39:28.832416+00:00",
   "station_count": 41,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -178,7 +183,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1789,
+      "archive_count": 1790,
       "display_name": "Radio Koszalin",
       "public_name": "Radio Koszalin",
       "slug": "radiokoszalin",
@@ -199,14 +204,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1788,
+      "archive_count": 1789,
       "display_name": "Radio Luz",
       "public_name": "Radio Luz",
       "slug": "radioluz",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1642,
+      "archive_count": 1643,
       "display_name": "Radio Maryja",
       "public_name": "Radio Maryja",
       "slug": "radiomaryja",
@@ -220,14 +225,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1691,
+      "archive_count": 1692,
       "display_name": "Radio Opole",
       "public_name": "Radio Opole",
       "slug": "radioopole",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1742,
+      "archive_count": 1743,
       "display_name": "Radio PiK",
       "public_name": "Radio PiK",
       "slug": "radiopik",
