@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-06-22T12:29:41.970068+00:00",
+  "generated_at": "2026-06-22T12:40:41.533828+00:00",
   "latest_archive_hour_expected_station_count": 41,
   "latest_archive_hour_started_at": "2026-06-22T11:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -12,17 +12,25 @@
     "Radio 357",
     "Radio Afera",
     "Radio Akadera",
+    "Radio Białystok",
     "Radio Centrum Lublin",
     "Radio Centrum Rzeszów",
+    "Radio Gdańsk",
     "Radio Gorzów",
     "Radio Index",
     "Radio Kampus",
     "Radio Katowice",
     "Radio Kielce",
-    "Radio Koszalin"
+    "Radio Koszalin",
+    "Radio Lublin",
+    "Radio Luz",
+    "Radio Maryja",
+    "Radio Olsztyn",
+    "Radio PiK",
+    "Radio Łódź"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-06-22T12:29:41.970068+00:00",
+  "published_at": "2026-06-22T12:40:41.533828+00:00",
   "station_count": 41,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -104,7 +112,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1790,
+      "archive_count": 1791,
       "display_name": "Radio Białystok",
       "public_name": "Radio Białystok",
       "slug": "radiobialystok",
@@ -132,7 +140,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1795,
+      "archive_count": 1796,
       "display_name": "Radio Gdańsk",
       "public_name": "Radio Gdańsk",
       "slug": "radiogdansk",
@@ -188,28 +196,28 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1794,
+      "archive_count": 1795,
       "display_name": "Radio Lublin",
       "public_name": "Radio Lublin",
       "slug": "radiolublin",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1795,
+      "archive_count": 1796,
       "display_name": "Radio Luz",
       "public_name": "Radio Luz",
       "slug": "radioluz",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1649,
+      "archive_count": 1650,
       "display_name": "Radio Maryja",
       "public_name": "Radio Maryja",
       "slug": "radiomaryja",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1795,
+      "archive_count": 1796,
       "display_name": "Radio Olsztyn",
       "public_name": "Radio Olsztyn",
       "slug": "radioolsztyn",
@@ -223,7 +231,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1749,
+      "archive_count": 1750,
       "display_name": "Radio PiK",
       "public_name": "Radio PiK",
       "slug": "radiopik",
@@ -286,7 +294,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1795,
+      "archive_count": 1796,
       "display_name": "Radio Łódź",
       "public_name": "Radio Łódź",
       "slug": "radiolodz",
