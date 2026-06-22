@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-06-22T01:44:47.565599+00:00",
+  "generated_at": "2026-06-22T01:56:56.457647+00:00",
   "latest_archive_hour_expected_station_count": 41,
   "latest_archive_hour_started_at": "2026-06-22T00:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -25,7 +25,7 @@
     "Radio Kraków"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-06-22T01:44:47.565599+00:00",
+  "published_at": "2026-06-22T01:56:56.457647+00:00",
   "station_count": 41,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -44,7 +44,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 24587,
+      "archive_count": 24590,
       "display_name": "Program 3",
       "public_name": "Polskie Radio Program 3",
       "slug": "pr3",
