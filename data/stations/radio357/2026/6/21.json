@@ -25,30 +25,6 @@
       "year": 2026
     },
     {
-      "archive_item_identifier": "radio357-2026-06-20",
-      "audio_url": "https://archive.org/download/radio357-2026-06-20/radio357_2026-06-20T23-00-00Z.mp3",
-      "completeness_ratio": 0.9997,
-      "day": 21,
-      "download_url": "https://archive.org/download/radio357-2026-06-20/radio357_2026-06-20T23-00-00Z.mp3",
-      "duration_seconds": 3599.856,
-      "hour": 1,
-      "hourly_archive_id": 91949,
-      "local_date_label": "21.06.2026",
-      "local_hour_label": "01:00",
-      "local_label": "2026-06-21 01:00 czasu polskiego",
-      "local_started_at": "2026-06-21T01:00:00+02:00",
-      "local_timezone_label": "czasu polskiego",
-      "month": 6,
-      "published_at": "2026-06-21T00:57:41.780692+00:00",
-      "published_local_label": "2026-06-21 02:57 czasu polskiego",
-      "remote_filename": "radio357_2026-06-20T23-00-00Z.mp3",
-      "station_slug": "radio357",
-      "status": "published",
-      "utc_label": "2026-06-20 23:00 UTC",
-      "utc_started_at": "2026-06-20T23:00:00+00:00",
-      "year": 2026
-    },
-    {
       "archive_item_identifier": "radio357-2026-06-21",
       "audio_url": "https://archive.org/download/radio357-2026-06-21/radio357_2026-06-21T00-00-00Z.mp3",
       "completeness_ratio": 1.0,
@@ -578,7 +554,7 @@
     }
   ],
   "day": 21,
-  "generated_at": "2026-06-21T23:55:59.449065+00:00",
+  "generated_at": "2026-06-22T00:11:43.779314+00:00",
   "hour_slots": [
     {
       "archive_status": "published",
@@ -600,7 +576,7 @@
       "year": 2026
     },
     {
-      "archive_status": "published",
+      "archive_status": "error",
       "completeness_ratio": 0.9997,
       "day": 21,
       "hour": 1,
@@ -611,9 +587,9 @@
       "local_started_at": "2026-06-21T01:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 6,
-      "playable": true,
-      "state": "available",
-      "status_label": null,
+      "playable": false,
+      "state": "failed",
+      "status_label": "Nie udało się przygotować nagrania",
       "utc_label": "2026-06-20 23:00 UTC",
       "utc_started_at": "2026-06-20T23:00:00+00:00",
       "year": 2026
@@ -1038,9 +1014,9 @@
     }
   ],
   "latest_archive_hour_expected_station_count": 0,
-  "latest_archive_hour_started_at": "2026-06-21T22:00:00+00:00",
+  "latest_archive_hour_started_at": "2026-06-21T23:00:00+00:00",
   "month": 6,
-  "published_at": "2026-06-21T23:55:59.449065+00:00",
+  "published_at": "2026-06-22T00:11:43.779314+00:00",
   "station": {
     "archive_count": 1779,
     "display_name": "Radio 357",
