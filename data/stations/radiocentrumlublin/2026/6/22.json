@@ -231,13 +231,37 @@
       "local_started_at": "2026-06-22T09:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 6,
-      "published_at": "2026-06-22T08:20:03.085895+00:00",
-      "published_local_label": "2026-06-22 10:20 czasu polskiego",
+      "published_at": "2026-06-23T01:57:43.639243+00:00",
+      "published_local_label": "2026-06-23 03:57 czasu polskiego",
       "remote_filename": "radiocentrumlublin_2026-06-22T07-00-00Z.mp3",
       "station_slug": "radiocentrumlublin",
       "status": "published",
       "utc_label": "2026-06-22 07:00 UTC",
       "utc_started_at": "2026-06-22T07:00:00+00:00",
+      "year": 2026
+    },
+    {
+      "archive_item_identifier": "radiocentrumlublin-2026-06-22",
+      "audio_url": "https://archive.org/download/radiocentrumlublin-2026-06-22/radiocentrumlublin_2026-06-22T08-00-00Z.mp3",
+      "completeness_ratio": 1.0,
+      "day": 22,
+      "download_url": "https://archive.org/download/radiocentrumlublin-2026-06-22/radiocentrumlublin_2026-06-22T08-00-00Z.mp3",
+      "duration_seconds": 3600.118,
+      "hour": 10,
+      "hourly_archive_id": 94164,
+      "local_date_label": "22.06.2026",
+      "local_hour_label": "10:00",
+      "local_label": "2026-06-22 10:00 czasu polskiego",
+      "local_started_at": "2026-06-22T10:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 6,
+      "published_at": "2026-06-23T01:56:17.793651+00:00",
+      "published_local_label": "2026-06-23 03:56 czasu polskiego",
+      "remote_filename": "radiocentrumlublin_2026-06-22T08-00-00Z.mp3",
+      "station_slug": "radiocentrumlublin",
+      "status": "published",
+      "utc_label": "2026-06-22 08:00 UTC",
+      "utc_started_at": "2026-06-22T08:00:00+00:00",
       "year": 2026
     },
     {
@@ -554,7 +578,7 @@
     }
   ],
   "day": 22,
-  "generated_at": "2026-06-23T01:54:42.668572+00:00",
+  "generated_at": "2026-06-23T01:57:43.639243+00:00",
   "hour_slots": [
     {
       "archive_status": "published",
@@ -747,7 +771,7 @@
       "year": 2026
     },
     {
-      "archive_status": "ready",
+      "archive_status": "published",
       "completeness_ratio": 1.0,
       "day": 22,
       "hour": 10,
@@ -758,9 +782,9 @@
       "local_started_at": "2026-06-22T10:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 6,
-      "playable": false,
-      "state": "publishing",
-      "status_label": "Czeka w kolejce do publikacji",
+      "playable": true,
+      "state": "available",
+      "status_label": null,
       "utc_label": "2026-06-22 08:00 UTC",
       "utc_started_at": "2026-06-22T08:00:00+00:00",
       "year": 2026
@@ -1016,9 +1040,9 @@
   "latest_archive_hour_expected_station_count": 0,
   "latest_archive_hour_started_at": "2026-06-23T00:00:00+00:00",
   "month": 6,
-  "published_at": "2026-06-23T01:54:42.668572+00:00",
+  "published_at": "2026-06-23T01:57:43.639243+00:00",
   "station": {
-    "archive_count": 1805,
+    "archive_count": 1806,
     "display_name": "Radio Centrum Lublin",
     "public_name": "Radio Centrum Lublin",
     "slug": "radiocentrumlublin",
