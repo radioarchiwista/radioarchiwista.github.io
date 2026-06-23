@@ -1,8 +1,8 @@
 {
-  "archive_count": 93435,
+  "archive_count": 93434,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-06-23T01:25:11.956957+00:00",
+  "generated_at": "2026-06-23T01:35:33.452340+00:00",
   "latest_archive_hour_expected_station_count": 41,
   "latest_archive_hour_started_at": "2026-06-23T00:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -19,7 +19,7 @@
     "Radio Gdańsk"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-06-23T01:25:11.956957+00:00",
+  "published_at": "2026-06-23T01:35:33.452340+00:00",
   "station_count": 41,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
