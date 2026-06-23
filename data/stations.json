@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-06-23T01:58:07.568548+00:00",
+  "generated_at": "2026-06-23T02:07:04.904576+00:00",
   "latest_archive_hour_expected_station_count": 41,
   "latest_archive_hour_started_at": "2026-06-23T00:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -18,7 +18,7 @@
     "Radio Gdańsk"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-06-23T01:58:07.568548+00:00",
+  "published_at": "2026-06-23T02:07:04.904576+00:00",
   "station_count": 41,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -44,7 +44,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1822,
+      "archive_count": 1821,
       "display_name": "Polskie Radio 24",
       "public_name": "Polskie Radio 24",
       "slug": "pr24",
