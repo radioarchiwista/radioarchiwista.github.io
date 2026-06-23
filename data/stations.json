@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-06-23T00:30:29.724364+00:00",
+  "generated_at": "2026-06-23T00:36:41.410736+00:00",
   "latest_archive_hour_expected_station_count": 41,
   "latest_archive_hour_started_at": "2026-06-22T23:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -20,10 +20,15 @@
     "Radio Index",
     "Radio Kampus",
     "Radio Katowice",
-    "Radio Koszalin"
+    "Radio Kielce",
+    "Radio Koszalin",
+    "Radio Kraków",
+    "Radio Lublin",
+    "Radio Luz",
+    "Radio Łódź"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-06-23T00:30:29.724364+00:00",
+  "published_at": "2026-06-23T00:36:41.410736+00:00",
   "station_count": 41,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -168,7 +173,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1780,
+      "archive_count": 1781,
       "display_name": "Radio Kielce",
       "public_name": "Radio Kielce",
       "slug": "radiokielce",
@@ -182,21 +187,21 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1804,
+      "archive_count": 1805,
       "display_name": "Radio Kraków",
       "public_name": "Radio Kraków",
       "slug": "radiokrakow",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1806,
+      "archive_count": 1807,
       "display_name": "Radio Lublin",
       "public_name": "Radio Lublin",
       "slug": "radiolublin",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1807,
+      "archive_count": 1808,
       "display_name": "Radio Luz",
       "public_name": "Radio Luz",
       "slug": "radioluz",
@@ -287,7 +292,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1807,
+      "archive_count": 1808,
       "display_name": "Radio Łódź",
       "public_name": "Radio Łódź",
       "slug": "radiolodz",
