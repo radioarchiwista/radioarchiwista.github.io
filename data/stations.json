@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-06-23T18:26:47.164806+00:00",
+  "generated_at": "2026-06-23T18:36:36.551628+00:00",
   "latest_archive_hour_expected_station_count": 41,
   "latest_archive_hour_started_at": "2026-06-23T17:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -11,6 +11,8 @@
     "Polskie Radio 24",
     "Radio 357",
     "Radio Nowy Świat",
+    "TOK FM",
+    "Radio Wnet",
     "Radio Republika",
     "Radio Afera",
     "Radio Akadera",
@@ -45,7 +47,7 @@
     "RMF24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-06-23T18:26:47.164806+00:00",
+  "published_at": "2026-06-23T18:36:36.551628+00:00",
   "station_count": 41,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -64,7 +66,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 25458,
+      "archive_count": 25468,
       "display_name": "Program 3",
       "public_name": "Polskie Radio Program 3",
       "slug": "pr3",
@@ -92,14 +94,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1828,
+      "archive_count": 1829,
       "display_name": "TOK FM",
       "public_name": "TOK FM",
       "slug": "tokfm",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1841,
+      "archive_count": 1842,
       "display_name": "Radio Wnet",
       "public_name": "Radio Wnet",
       "slug": "wnet",
