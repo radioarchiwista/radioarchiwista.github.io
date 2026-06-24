@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-06-24T20:25:48.299924+00:00",
+  "generated_at": "2026-06-24T20:37:53.537568+00:00",
   "latest_archive_hour_expected_station_count": 41,
   "latest_archive_hour_started_at": "2026-06-24T19:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -26,6 +26,7 @@
     "Radio Kampus",
     "Radio Katowice",
     "Radio Kielce",
+    "Radio Koszalin",
     "Radio Kraków",
     "Radio Lublin",
     "Radio Luz",
@@ -46,7 +47,7 @@
     "RMF24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-06-24T20:25:48.299924+00:00",
+  "published_at": "2026-06-24T20:37:53.537568+00:00",
   "station_count": 41,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -65,7 +66,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 27157,
+      "archive_count": 27167,
       "display_name": "Program 3",
       "public_name": "Polskie Radio Program 3",
       "slug": "pr3",
@@ -198,7 +199,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1851,
+      "archive_count": 1852,
       "display_name": "Radio Koszalin",
       "public_name": "Radio Koszalin",
       "slug": "radiokoszalin",
