@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-06-25T19:20:44.776025+00:00",
+  "generated_at": "2026-06-25T19:34:25.728853+00:00",
   "latest_archive_hour_expected_station_count": 41,
   "latest_archive_hour_started_at": "2026-06-25T18:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -16,7 +16,6 @@
     "Radio Republika",
     "Radio Afera",
     "Radio Akadera",
-    "Radio Białystok",
     "Radio Centrum Lublin",
     "Radio Centrum Rzeszów",
     "Radio Dla Ciebie",
@@ -28,6 +27,8 @@
     "Radio Kielce",
     "Radio Koszalin",
     "Radio Kraków",
+    "Radio Lublin",
+    "Radio Luz",
     "Radio Maryja",
     "Radio Olsztyn",
     "Radio Opole",
@@ -39,12 +40,13 @@
     "Radio Wrocław",
     "Radio Zachód",
     "Radio Zielona Góra",
+    "Radio Łódź",
     "Radio Żak",
     "RMF Classic",
     "RMF24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-06-25T19:20:44.776025+00:00",
+  "published_at": "2026-06-25T19:34:25.728853+00:00",
   "station_count": 41,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -63,7 +65,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 28043,
+      "archive_count": 28050,
       "display_name": "Program 3",
       "public_name": "Polskie Radio Program 3",
       "slug": "pr3",
@@ -126,7 +128,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1870,
+      "archive_count": 1869,
       "display_name": "Radio Białystok",
       "public_name": "Radio Białystok",
       "slug": "radiobialystok",
@@ -210,7 +212,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1873,
+      "archive_count": 1874,
       "display_name": "Radio Lublin",
       "public_name": "Radio Lublin",
       "slug": "radiolublin",
@@ -231,7 +233,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1874,
+      "archive_count": 1875,
       "display_name": "Radio Olsztyn",
       "public_name": "Radio Olsztyn",
       "slug": "radioolsztyn",
@@ -273,7 +275,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1873,
+      "archive_count": 1874,
       "display_name": "Radio Słupsk",
       "public_name": "Radio Słupsk",
       "slug": "radioslupsk",
@@ -294,7 +296,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1874,
+      "archive_count": 1875,
       "display_name": "Radio Zachód",
       "public_name": "Radio Zachód",
       "slug": "radiozachod",
@@ -308,7 +310,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1874,
+      "archive_count": 1875,
       "display_name": "Radio Łódź",
       "public_name": "Radio Łódź",
       "slug": "radiolodz",
