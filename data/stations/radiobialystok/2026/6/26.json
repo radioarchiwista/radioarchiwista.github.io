@@ -1,30 +1,6 @@
 {
   "archives": [
     {
-      "archive_item_identifier": "radiobialystok-2026-06-25",
-      "audio_url": "https://archive.org/download/radiobialystok-2026-06-25/radiobialystok_2026-06-25T22-00-00Z.mp3",
-      "completeness_ratio": 0.9996,
-      "day": 26,
-      "download_url": "https://archive.org/download/radiobialystok-2026-06-25/radiobialystok_2026-06-25T22-00-00Z.mp3",
-      "duration_seconds": 3599.568,
-      "hour": 0,
-      "hourly_archive_id": 100240,
-      "local_date_label": "26.06.2026",
-      "local_hour_label": "00:00",
-      "local_label": "2026-06-26 00:00 czasu polskiego",
-      "local_started_at": "2026-06-26T00:00:00+02:00",
-      "local_timezone_label": "czasu polskiego",
-      "month": 6,
-      "published_at": "2026-06-26T05:15:19.109602+00:00",
-      "published_local_label": "2026-06-26 07:15 czasu polskiego",
-      "remote_filename": "radiobialystok_2026-06-25T22-00-00Z.mp3",
-      "station_slug": "radiobialystok",
-      "status": "published",
-      "utc_label": "2026-06-25 22:00 UTC",
-      "utc_started_at": "2026-06-25T22:00:00+00:00",
-      "year": 2026
-    },
-    {
       "archive_item_identifier": "radiobialystok-2026-06-26",
       "audio_url": "https://archive.org/download/radiobialystok-2026-06-26/radiobialystok_2026-06-26T00-00-00Z.mp3",
       "completeness_ratio": 0.9996,
@@ -135,8 +111,8 @@
       "local_started_at": "2026-06-26T06:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 6,
-      "published_at": "2026-06-26T05:11:24.616286+00:00",
-      "published_local_label": "2026-06-26 07:11 czasu polskiego",
+      "published_at": "2026-06-26T05:22:16.949347+00:00",
+      "published_local_label": "2026-06-26 07:22 czasu polskiego",
       "remote_filename": "radiobialystok_2026-06-26T04-00-00Z.mp3",
       "station_slug": "radiobialystok",
       "status": "published",
@@ -146,10 +122,10 @@
     }
   ],
   "day": 26,
-  "generated_at": "2026-06-26T05:15:19.109602+00:00",
+  "generated_at": "2026-06-26T05:22:22.228230+00:00",
   "hour_slots": [
     {
-      "archive_status": "published",
+      "archive_status": "ready",
       "completeness_ratio": 0.9996,
       "day": 26,
       "hour": 0,
@@ -160,9 +136,9 @@
       "local_started_at": "2026-06-26T00:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 6,
-      "playable": true,
-      "state": "available",
-      "status_label": null,
+      "playable": false,
+      "state": "publishing",
+      "status_label": "Czeka w kolejce do publikacji",
       "utc_label": "2026-06-25 22:00 UTC",
       "utc_started_at": "2026-06-25T22:00:00+00:00",
       "year": 2026
@@ -285,7 +261,7 @@
   "latest_archive_hour_expected_station_count": 0,
   "latest_archive_hour_started_at": "2026-06-26T04:00:00+00:00",
   "month": 6,
-  "published_at": "2026-06-26T05:15:19.109602+00:00",
+  "published_at": "2026-06-26T05:22:22.228230+00:00",
   "station": {
     "archive_count": 1876,
     "display_name": "Radio Białystok",
