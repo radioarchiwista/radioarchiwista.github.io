@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-06-27T16:21:07.859131+00:00",
+  "generated_at": "2026-06-27T16:34:10.861685+00:00",
   "latest_archive_hour_expected_station_count": 41,
   "latest_archive_hour_started_at": "2026-06-27T15:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -11,12 +11,15 @@
     "Polskie Radio 24",
     "Radio 357",
     "Radio Nowy Świat",
+    "TOK FM",
+    "Radio Wnet",
     "Radio Republika",
     "Radio Afera",
     "Radio Akadera",
     "Radio Białystok",
     "Radio Centrum Lublin",
     "Radio Centrum Rzeszów",
+    "Radio Dla Ciebie",
     "Radio Gdańsk",
     "Radio Gorzów",
     "Radio Index",
@@ -44,7 +47,7 @@
     "RMF24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-06-27T16:21:07.859131+00:00",
+  "published_at": "2026-06-27T16:34:10.861685+00:00",
   "station_count": 41,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -63,7 +66,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 29726,
+      "archive_count": 29731,
       "display_name": "Program 3",
       "public_name": "Polskie Radio Program 3",
       "slug": "pr3",
@@ -91,14 +94,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1923,
+      "archive_count": 1924,
       "display_name": "TOK FM",
       "public_name": "TOK FM",
       "slug": "tokfm",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1936,
+      "archive_count": 1937,
       "display_name": "Radio Wnet",
       "public_name": "Radio Wnet",
       "slug": "wnet",
@@ -147,7 +150,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1919,
+      "archive_count": 1920,
       "display_name": "Radio Dla Ciebie",
       "public_name": "Radio Dla Ciebie",
       "slug": "rdc",
@@ -210,7 +213,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1918,
+      "archive_count": 1914,
       "display_name": "Radio Lublin",
       "public_name": "Radio Lublin",
       "slug": "radiolublin",
