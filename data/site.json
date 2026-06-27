@@ -1,8 +1,8 @@
 {
-  "archive_count": 102608,
+  "archive_count": 102620,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-06-27T14:21:17.452423+00:00",
+  "generated_at": "2026-06-27T14:33:53.487619+00:00",
   "latest_archive_hour_expected_station_count": 41,
   "latest_archive_hour_started_at": "2026-06-27T13:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -39,6 +39,7 @@
     "Radio Rzeszów",
     "Radio Szczecin",
     "Radio Słupsk",
+    "Radio Wrocław",
     "Radio Zachód",
     "Radio Zielona Góra",
     "Radio Łódź",
@@ -47,7 +48,7 @@
     "RMF24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-06-27T14:21:17.452423+00:00",
+  "published_at": "2026-06-27T14:33:53.487619+00:00",
   "station_count": 41,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
