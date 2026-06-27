@@ -506,30 +506,6 @@
     },
     {
       "archive_item_identifier": "radioszczecin-2026-06-26",
-      "audio_url": "https://archive.org/download/radioszczecin-2026-06-26/radioszczecin_2026-06-26T19-00-00Z.mp3",
-      "completeness_ratio": 0.9997,
-      "day": 26,
-      "download_url": "https://archive.org/download/radioszczecin-2026-06-26/radioszczecin_2026-06-26T19-00-00Z.mp3",
-      "duration_seconds": 3599.856,
-      "hour": 21,
-      "hourly_archive_id": 101879,
-      "local_date_label": "26.06.2026",
-      "local_hour_label": "21:00",
-      "local_label": "2026-06-26 21:00 czasu polskiego",
-      "local_started_at": "2026-06-26T21:00:00+02:00",
-      "local_timezone_label": "czasu polskiego",
-      "month": 6,
-      "published_at": "2026-06-26T20:29:41.249203+00:00",
-      "published_local_label": "2026-06-26 22:29 czasu polskiego",
-      "remote_filename": "radioszczecin_2026-06-26T19-00-00Z.mp3",
-      "station_slug": "radioszczecin",
-      "status": "published",
-      "utc_label": "2026-06-26 19:00 UTC",
-      "utc_started_at": "2026-06-26T19:00:00+00:00",
-      "year": 2026
-    },
-    {
-      "archive_item_identifier": "radioszczecin-2026-06-26",
       "audio_url": "https://archive.org/download/radioszczecin-2026-06-26/radioszczecin_2026-06-26T20-00-00Z.mp3",
       "completeness_ratio": 1.0,
       "day": 26,
@@ -578,7 +554,7 @@
     }
   ],
   "day": 26,
-  "generated_at": "2026-06-27T19:17:14.534468+00:00",
+  "generated_at": "2026-06-27T20:12:42.646744+00:00",
   "hour_slots": [
     {
       "archive_status": "published",
@@ -980,7 +956,7 @@
       "year": 2026
     },
     {
-      "archive_status": "published",
+      "archive_status": "error",
       "completeness_ratio": 0.9997,
       "day": 26,
       "hour": 21,
@@ -991,9 +967,9 @@
       "local_started_at": "2026-06-26T21:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 6,
-      "playable": true,
-      "state": "available",
-      "status_label": null,
+      "playable": false,
+      "state": "failed",
+      "status_label": "Nie udało się przygotować nagrania",
       "utc_label": "2026-06-26 19:00 UTC",
       "utc_started_at": "2026-06-26T19:00:00+00:00",
       "year": 2026
@@ -1038,9 +1014,9 @@
     }
   ],
   "latest_archive_hour_expected_station_count": 0,
-  "latest_archive_hour_started_at": "2026-06-27T18:00:00+00:00",
+  "latest_archive_hour_started_at": "2026-06-27T19:00:00+00:00",
   "month": 6,
-  "published_at": "2026-06-27T19:17:14.534468+00:00",
+  "published_at": "2026-06-27T20:12:42.646744+00:00",
   "station": {
     "archive_count": 1923,
     "display_name": "Radio Szczecin",
