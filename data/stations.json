@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-06-28T04:24:34.934876+00:00",
+  "generated_at": "2026-06-28T04:38:36.824400+00:00",
   "latest_archive_hour_expected_station_count": 41,
   "latest_archive_hour_started_at": "2026-06-28T03:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -28,6 +28,7 @@
     "Radio Kielce",
     "Radio Koszalin",
     "Radio Kraków",
+    "Radio Lublin",
     "Radio Luz",
     "Radio Maryja",
     "Radio Olsztyn",
@@ -46,7 +47,7 @@
     "RMF24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-06-28T04:24:34.934876+00:00",
+  "published_at": "2026-06-28T04:38:36.824400+00:00",
   "station_count": 41,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -65,7 +66,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 30155,
+      "archive_count": 30164,
       "display_name": "Program 3",
       "public_name": "Polskie Radio Program 3",
       "slug": "pr3",
@@ -205,7 +206,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1928,
+      "archive_count": 1929,
       "display_name": "Radio Kraków",
       "public_name": "Radio Kraków",
       "slug": "radiokrakow",
@@ -233,7 +234,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1931,
+      "archive_count": 1932,
       "display_name": "Radio Olsztyn",
       "public_name": "Radio Olsztyn",
       "slug": "radioolsztyn",
