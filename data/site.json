@@ -1,8 +1,8 @@
 {
-  "archive_count": 106623,
+  "archive_count": 106633,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-06-29T21:20:48.253911+00:00",
+  "generated_at": "2026-06-29T21:36:26.225134+00:00",
   "latest_archive_hour_expected_station_count": 41,
   "latest_archive_hour_started_at": "2026-06-29T20:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -28,6 +28,7 @@
     "Radio Katowice",
     "Radio Kielce",
     "Radio Koszalin",
+    "Radio Kraków",
     "Radio Lublin",
     "Radio Luz",
     "Radio Maryja",
@@ -47,7 +48,7 @@
     "RMF24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-06-29T21:20:48.253911+00:00",
+  "published_at": "2026-06-29T21:36:26.225134+00:00",
   "station_count": 41,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
