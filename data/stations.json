@@ -1,22 +1,38 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-06-29T05:11:44.914207+00:00",
+  "generated_at": "2026-06-29T05:20:07.154482+00:00",
   "latest_archive_hour_expected_station_count": 41,
   "latest_archive_hour_started_at": "2026-06-29T04:00:00+00:00",
   "latest_archive_hour_stations": [
+    "Program 1",
     "Program 2",
+    "Program 3",
     "Polskie Radio 24",
     "Radio 357",
-    "Radio Afera"
+    "Radio Afera",
+    "Radio Akadera",
+    "Radio Białystok",
+    "Radio Centrum Lublin",
+    "Radio Centrum Rzeszów",
+    "Radio Gdańsk",
+    "Radio Gorzów",
+    "Radio Index",
+    "Radio Kampus",
+    "Radio Katowice",
+    "Radio Kielce",
+    "Radio Kraków",
+    "Radio Lublin",
+    "Radio Maryja",
+    "Radio Łódź"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-06-29T05:11:44.914207+00:00",
+  "published_at": "2026-06-29T05:20:07.154482+00:00",
   "station_count": 41,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
     {
-      "archive_count": 1951,
+      "archive_count": 1952,
       "display_name": "Program 1",
       "public_name": "Polskie Radio Program 1",
       "slug": "pr1",
@@ -30,7 +46,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 30858,
+      "archive_count": 30859,
       "display_name": "Program 3",
       "public_name": "Polskie Radio Program 3",
       "slug": "pr3",
@@ -86,28 +102,28 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1953,
+      "archive_count": 1954,
       "display_name": "Radio Akadera",
       "public_name": "Radio Akadera",
       "slug": "radioakadera",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1951,
+      "archive_count": 1952,
       "display_name": "Radio Białystok",
       "public_name": "Radio Białystok",
       "slug": "radiobialystok",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1953,
+      "archive_count": 1954,
       "display_name": "Radio Centrum Lublin",
       "public_name": "Radio Centrum Lublin",
       "slug": "radiocentrumlublin",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1951,
+      "archive_count": 1952,
       "display_name": "Radio Centrum Rzeszów",
       "public_name": "Radio Centrum Rzeszów",
       "slug": "radiocentrumrzeszow",
@@ -121,42 +137,42 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1956,
+      "archive_count": 1957,
       "display_name": "Radio Gdańsk",
       "public_name": "Radio Gdańsk",
       "slug": "radiogdansk",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1955,
+      "archive_count": 1956,
       "display_name": "Radio Gorzów",
       "public_name": "Radio Gorzów",
       "slug": "radiogorzow",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1891,
+      "archive_count": 1892,
       "display_name": "Radio Index",
       "public_name": "Radio Index",
       "slug": "radioindex",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1662,
+      "archive_count": 1663,
       "display_name": "Radio Kampus",
       "public_name": "Radio Kampus",
       "slug": "radiokampus",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1953,
+      "archive_count": 1954,
       "display_name": "Radio Katowice",
       "public_name": "Radio Katowice",
       "slug": "radiokatowice",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1926,
+      "archive_count": 1927,
       "display_name": "Radio Kielce",
       "public_name": "Radio Kielce",
       "slug": "radiokielce",
@@ -170,14 +186,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1952,
+      "archive_count": 1953,
       "display_name": "Radio Kraków",
       "public_name": "Radio Kraków",
       "slug": "radiokrakow",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1954,
+      "archive_count": 1955,
       "display_name": "Radio Lublin",
       "public_name": "Radio Lublin",
       "slug": "radiolublin",
@@ -191,7 +207,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1808,
+      "archive_count": 1809,
       "display_name": "Radio Maryja",
       "public_name": "Radio Maryja",
       "slug": "radiomaryja",
@@ -275,7 +291,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1955,
+      "archive_count": 1956,
       "display_name": "Radio Łódź",
       "public_name": "Radio Łódź",
       "slug": "radiolodz",
