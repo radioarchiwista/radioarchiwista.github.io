@@ -1,8 +1,8 @@
 {
-  "archive_count": 107931,
+  "archive_count": 107935,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-06-30T14:38:08.065150+00:00",
+  "generated_at": "2026-06-30T14:47:12.980677+00:00",
   "latest_archive_hour_expected_station_count": 41,
   "latest_archive_hour_started_at": "2026-06-30T13:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -48,7 +48,7 @@
     "RMF24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-06-30T14:38:08.065150+00:00",
+  "published_at": "2026-06-30T14:47:12.980677+00:00",
   "station_count": 41,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
