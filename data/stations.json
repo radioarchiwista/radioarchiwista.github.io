@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-07-01T15:25:58.410487+00:00",
+  "generated_at": "2026-07-01T15:39:25.462957+00:00",
   "latest_archive_hour_expected_station_count": 41,
   "latest_archive_hour_started_at": "2026-07-01T14:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -24,6 +24,7 @@
     "Radio Gorzów",
     "Radio Index",
     "Radio Kampus",
+    "Radio Katowice",
     "Radio Kielce",
     "Radio Koszalin",
     "Radio Kraków",
@@ -47,7 +48,7 @@
     "RMF24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-07-01T15:25:58.410487+00:00",
+  "published_at": "2026-07-01T15:39:25.462957+00:00",
   "station_count": 41,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -66,7 +67,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 33051,
+      "archive_count": 33060,
       "display_name": "Program 3",
       "public_name": "Polskie Radio Program 3",
       "slug": "pr3",
@@ -185,7 +186,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 2003,
+      "archive_count": 2005,
       "display_name": "Radio Katowice",
       "public_name": "Radio Katowice",
       "slug": "radiokatowice",
@@ -283,7 +284,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1837,
+      "archive_count": 1838,
       "display_name": "Radio UWM FM",
       "public_name": "Radio UWM FM",
       "slug": "radiouwmfm",
