@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-07-01T12:22:25.367656+00:00",
+  "generated_at": "2026-07-01T12:36:05.835314+00:00",
   "latest_archive_hour_expected_station_count": 41,
   "latest_archive_hour_started_at": "2026-07-01T11:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -10,11 +10,14 @@
     "Program 3",
     "Polskie Radio 24",
     "Radio 357",
+    "TOK FM",
+    "Radio Wnet",
     "Radio Afera",
     "Radio Akadera",
     "Radio Białystok",
     "Radio Centrum Lublin",
     "Radio Centrum Rzeszów",
+    "Radio Dla Ciebie",
     "Radio Gdańsk",
     "Radio Gorzów",
     "Radio Index",
@@ -32,10 +35,13 @@
     "Radio Rzeszów",
     "Radio Szczecin",
     "Radio Słupsk",
-    "Radio Wrocław"
+    "Radio UWM FM",
+    "Radio Wrocław",
+    "Radio Łódź",
+    "Radio Żak"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-07-01T12:22:25.367656+00:00",
+  "published_at": "2026-07-01T12:36:05.835314+00:00",
   "station_count": 41,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -82,14 +88,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 2015,
+      "archive_count": 2016,
       "display_name": "TOK FM",
       "public_name": "TOK FM",
       "slug": "tokfm",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 2028,
+      "archive_count": 2029,
       "display_name": "Radio Wnet",
       "public_name": "Radio Wnet",
       "slug": "wnet",
@@ -138,7 +144,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 2011,
+      "archive_count": 2012,
       "display_name": "Radio Dla Ciebie",
       "public_name": "Radio Dla Ciebie",
       "slug": "rdc",
@@ -271,7 +277,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1820,
+      "archive_count": 1822,
       "display_name": "Radio UWM FM",
       "public_name": "Radio UWM FM",
       "slug": "radiouwmfm",
@@ -299,14 +305,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 2011,
+      "archive_count": 2012,
       "display_name": "Radio Łódź",
       "public_name": "Radio Łódź",
       "slug": "radiolodz",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1999,
+      "archive_count": 2000,
       "display_name": "Radio Żak",
       "public_name": "Radio Żak",
       "slug": "radiozak",
