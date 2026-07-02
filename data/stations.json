@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-07-02T14:25:01.580940+00:00",
+  "generated_at": "2026-07-02T14:39:22.110474+00:00",
   "latest_archive_hour_expected_station_count": 41,
   "latest_archive_hour_started_at": "2026-07-02T13:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -12,6 +12,7 @@
     "Radio 357",
     "Radio Nowy Świat",
     "TOK FM",
+    "Radio Wnet",
     "Radio Republika",
     "Radio Afera",
     "Radio Akadera",
@@ -31,6 +32,8 @@
     "Radio Luz",
     "Radio Maryja",
     "Radio Olsztyn",
+    "Radio Opole",
+    "Radio PiK",
     "Radio Poznań",
     "Radio Rzeszów",
     "Radio Szczecin",
@@ -44,7 +47,7 @@
     "RMF24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-07-02T14:25:01.580940+00:00",
+  "published_at": "2026-07-02T14:39:22.110474+00:00",
   "station_count": 41,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -63,7 +66,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 33895,
+      "archive_count": 33906,
       "display_name": "Program 3",
       "public_name": "Polskie Radio Program 3",
       "slug": "pr3",
@@ -98,7 +101,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 2054,
+      "archive_count": 2055,
       "display_name": "Radio Wnet",
       "public_name": "Radio Wnet",
       "slug": "wnet",
@@ -238,14 +241,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1939,
+      "archive_count": 1940,
       "display_name": "Radio Opole",
       "public_name": "Radio Opole",
       "slug": "radioopole",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1991,
+      "archive_count": 1992,
       "display_name": "Radio PiK",
       "public_name": "Radio PiK",
       "slug": "radiopik",
