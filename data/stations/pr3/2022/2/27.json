@@ -538,11 +538,11 @@
       "year": 2022
     },
     {
-      "archive_status": null,
-      "completeness_ratio": null,
+      "archive_status": "ready",
+      "completeness_ratio": 1.0,
       "day": 27,
       "hour": 23,
-      "hourly_archive_id": null,
+      "hourly_archive_id": 111403,
       "local_date_label": "27.02.2022",
       "local_hour_label": "23:00",
       "local_label": "2022-02-27 23:00 czasu polskiego",
@@ -550,8 +550,8 @@
       "local_timezone_label": "czasu polskiego",
       "month": 2,
       "playable": false,
-      "state": "missing",
-      "status_label": "Nie udało się nagrać",
+      "state": "publishing",
+      "status_label": "Czeka w kolejce do publikacji",
       "utc_label": "2022-02-27 22:00 UTC",
       "utc_started_at": "2022-02-27T22:00:00+00:00",
       "year": 2022
