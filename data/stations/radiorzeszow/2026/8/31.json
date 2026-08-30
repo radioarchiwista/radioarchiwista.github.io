@@ -1,0 +1,58 @@
+{
+  "archives": [
+    {
+      "archive_item_identifier": "radiorzeszow-2026-08-30",
+      "audio_url": "https://archive.org/download/radiorzeszow-2026-08-30/radiorzeszow_2026-08-30T22-00-00Z.mp3",
+      "completeness_ratio": 1.0,
+      "day": 31,
+      "download_url": "https://archive.org/download/radiorzeszow-2026-08-30/radiorzeszow_2026-08-30T22-00-00Z.mp3",
+      "duration_seconds": 3599.987,
+      "hour": 0,
+      "hourly_archive_id": 180922,
+      "local_date_label": "31.08.2026",
+      "local_hour_label": "00:00",
+      "local_label": "2026-08-31 00:00 czasu polskiego",
+      "local_started_at": "2026-08-31T00:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 8,
+      "published_at": "2026-08-30T23:16:30.183873+00:00",
+      "published_local_label": "2026-08-31 01:16 czasu polskiego",
+      "remote_filename": "radiorzeszow_2026-08-30T22-00-00Z.mp3",
+      "station_slug": "radiorzeszow",
+      "status": "published",
+      "utc_label": "2026-08-30 22:00 UTC",
+      "utc_started_at": "2026-08-30T22:00:00+00:00",
+      "year": 2026
+    }
+  ],
+  "day": 31,
+  "hour_slots": [
+    {
+      "archive_status": "published",
+      "completeness_ratio": 1.0,
+      "day": 31,
+      "hour": 0,
+      "hourly_archive_id": 180922,
+      "local_date_label": "31.08.2026",
+      "local_hour_label": "00:00",
+      "local_label": "2026-08-31 00:00 czasu polskiego",
+      "local_started_at": "2026-08-31T00:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 8,
+      "playable": true,
+      "state": "available",
+      "status_label": null,
+      "utc_label": "2026-08-30 22:00 UTC",
+      "utc_started_at": "2026-08-30T22:00:00+00:00",
+      "year": 2026
+    }
+  ],
+  "month": 8,
+  "station": {
+    "display_name": "Radio Rzeszów",
+    "public_name": "Radio Rzeszów",
+    "slug": "radiorzeszow",
+    "timezone": "Europe/Warsaw"
+  },
+  "year": 2026
+}
