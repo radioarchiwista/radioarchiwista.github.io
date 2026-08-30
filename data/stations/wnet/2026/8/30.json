@@ -359,6 +359,30 @@
       "utc_label": "2026-08-30 12:00 UTC",
       "utc_started_at": "2026-08-30T12:00:00+00:00",
       "year": 2026
+    },
+    {
+      "archive_item_identifier": "wnet-2026-08-30",
+      "audio_url": "https://archive.org/download/wnet-2026-08-30/wnet_2026-08-30T13-00-00Z.mp3",
+      "completeness_ratio": 1.0,
+      "day": 30,
+      "download_url": "https://archive.org/download/wnet-2026-08-30/wnet_2026-08-30T13-00-00Z.mp3",
+      "duration_seconds": 3599.935,
+      "hour": 15,
+      "hourly_archive_id": 180549,
+      "local_date_label": "30.08.2026",
+      "local_hour_label": "15:00",
+      "local_label": "2026-08-30 15:00 czasu polskiego",
+      "local_started_at": "2026-08-30T15:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 8,
+      "published_at": "2026-08-30T14:24:09.308197+00:00",
+      "published_local_label": "2026-08-30 16:24 czasu polskiego",
+      "remote_filename": "wnet_2026-08-30T13-00-00Z.mp3",
+      "station_slug": "wnet",
+      "status": "published",
+      "utc_label": "2026-08-30 13:00 UTC",
+      "utc_started_at": "2026-08-30T13:00:00+00:00",
+      "year": 2026
     }
   ],
   "day": 30,
@@ -649,7 +673,7 @@
       "year": 2026
     },
     {
-      "archive_status": "ready",
+      "archive_status": "published",
       "completeness_ratio": 1.0,
       "day": 30,
       "hour": 15,
@@ -660,9 +684,9 @@
       "local_started_at": "2026-08-30T15:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 8,
-      "playable": false,
-      "state": "publishing",
-      "status_label": "Czeka w kolejce do publikacji",
+      "playable": true,
+      "state": "available",
+      "status_label": null,
       "utc_label": "2026-08-30 13:00 UTC",
       "utc_started_at": "2026-08-30T13:00:00+00:00",
       "year": 2026
