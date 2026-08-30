@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-08-30T18:57:55.036850+00:00",
+  "generated_at": "2026-08-30T19:02:51.892478+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-08-30T17:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -10,6 +10,9 @@
     "Program 3",
     "Polskie Radio 24",
     "Radio 357",
+    "Radio Nowy Świat",
+    "TOK FM",
+    "Radio Wnet",
     "Radio Republika",
     "Polskie Radio Dzieciom",
     "Radio Afera",
@@ -37,6 +40,7 @@
     "Radio Rzeszów",
     "Radio Szczecin",
     "Radio Słupsk",
+    "Radio Wrocław",
     "Radio Zachód",
     "Radio Zielona Góra",
     "Radio Łódź",
@@ -45,7 +49,7 @@
     "RMF24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-08-30T18:57:55.036850+00:00",
+  "published_at": "2026-08-30T19:02:51.892478+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -85,21 +89,21 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3472,
+      "archive_count": 3473,
       "display_name": "Radio Nowy Świat",
       "public_name": "Radio Nowy Świat",
       "slug": "rns",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3461,
+      "archive_count": 3462,
       "display_name": "TOK FM",
       "public_name": "TOK FM",
       "slug": "tokfm",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3474,
+      "archive_count": 3475,
       "display_name": "Radio Wnet",
       "public_name": "Radio Wnet",
       "slug": "wnet",
@@ -169,7 +173,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 928,
+      "archive_count": 929,
       "display_name": "Radio Gdańsk Regiony",
       "public_name": "Radio Gdańsk Regiony",
       "slug": "radiogdanskregiony",
@@ -302,7 +306,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3457,
+      "archive_count": 3458,
       "display_name": "Radio Wrocław",
       "public_name": "Radio Wrocław",
       "slug": "radiowroclaw",
