@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-08-30T22:34:49.599654+00:00",
+  "generated_at": "2026-08-30T22:47:05.725975+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-08-30T21:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -38,6 +38,7 @@
     "Radio Rzeszów",
     "Radio Szczecin",
     "Radio Słupsk",
+    "Radio Wrocław",
     "Radio Zachód",
     "Radio Zielona Góra",
     "Radio Łódź",
@@ -46,12 +47,12 @@
     "RMF24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-08-30T22:34:49.599654+00:00",
+  "published_at": "2026-08-30T22:47:05.725975+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
     {
-      "archive_count": 3453,
+      "archive_count": 3454,
       "display_name": "Program 1",
       "public_name": "Polskie Radio Program 1",
       "slug": "pr1",
@@ -212,7 +213,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3352,
+      "archive_count": 3353,
       "display_name": "Radio Koszalin",
       "public_name": "Radio Koszalin",
       "slug": "radiokoszalin",
@@ -303,7 +304,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3460,
+      "archive_count": 3462,
       "display_name": "Radio Wrocław",
       "public_name": "Radio Wrocław",
       "slug": "radiowroclaw",
