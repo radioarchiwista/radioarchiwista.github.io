@@ -1,0 +1,16 @@
+{
+  "archive_count": 179518,
+  "catalog_version": 2,
+  "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
+  "generated_at": "2026-08-30T04:04:06.719952+00:00",
+  "latest_archive_hour_expected_station_count": 43,
+  "latest_archive_hour_started_at": "2026-08-30T03:00:00+00:00",
+  "latest_archive_hour_stations": [
+    "Polskie Radio Dzieciom"
+  ],
+  "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
+  "published_at": "2026-08-30T04:04:06.719952+00:00",
+  "station_count": 43,
+  "station_index_path_template": "./data/stations/{slug}/index.json",
+  "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
+}

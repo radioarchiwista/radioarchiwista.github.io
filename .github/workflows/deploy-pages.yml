@@ -1,0 +1,89 @@
+name: Deploy static site to Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Pozwalamy tylko na jeden aktywny deploy naraz; nowy push anuluje
+# poprzedni, zamiast czekac w kolejce az do timeoutu.
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy1.outputs.page_url || steps.deploy2.outputs.page_url || steps.deploy3.outputs.page_url || steps.deploy4.outputs.page_url || steps.deploy5.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout (shallow)
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Drop git metadata from publish payload
+        run: rm -rf .git
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload static artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: '.'
+
+      # GitHub Pages potrafi sporadycznie zwrocic "Deployment failed, try again
+      # later." (przejsciowy blad ich infrastruktury, epizody do ~2 min).
+      # Ponawiamy do 5 razy z rosnacym backoffem (10/20/40/60s), zeby taki
+      # chwilowy blad nie generowal maila o nieudanym runie. Run failuje (i wysyla
+      # maila) dopiero gdy WSZYSTKIE 5 prob padnie = realna, dluzsza awaria Pages.
+      - name: Deploy to GitHub Pages (proba 1)
+        id: deploy1
+        continue-on-error: true
+        uses: actions/deploy-pages@v4
+
+      - name: Odczekaj przed proba 2
+        if: steps.deploy1.outcome == 'failure'
+        run: sleep 10
+
+      - name: Deploy to GitHub Pages (proba 2)
+        id: deploy2
+        if: steps.deploy1.outcome == 'failure'
+        continue-on-error: true
+        uses: actions/deploy-pages@v4
+
+      - name: Odczekaj przed proba 3
+        if: steps.deploy1.outcome == 'failure' && steps.deploy2.outcome == 'failure'
+        run: sleep 20
+
+      - name: Deploy to GitHub Pages (proba 3)
+        id: deploy3
+        if: steps.deploy1.outcome == 'failure' && steps.deploy2.outcome == 'failure'
+        continue-on-error: true
+        uses: actions/deploy-pages@v4
+
+      - name: Odczekaj przed proba 4
+        if: steps.deploy1.outcome == 'failure' && steps.deploy2.outcome == 'failure' && steps.deploy3.outcome == 'failure'
+        run: sleep 40
+
+      - name: Deploy to GitHub Pages (proba 4)
+        id: deploy4
+        if: steps.deploy1.outcome == 'failure' && steps.deploy2.outcome == 'failure' && steps.deploy3.outcome == 'failure'
+        continue-on-error: true
+        uses: actions/deploy-pages@v4
+
+      - name: Odczekaj przed proba 5
+        if: steps.deploy1.outcome == 'failure' && steps.deploy2.outcome == 'failure' && steps.deploy3.outcome == 'failure' && steps.deploy4.outcome == 'failure'
+        run: sleep 60
+
+      - name: Deploy to GitHub Pages (proba 5, ostateczna)
+        id: deploy5
+        if: steps.deploy1.outcome == 'failure' && steps.deploy2.outcome == 'failure' && steps.deploy3.outcome == 'failure' && steps.deploy4.outcome == 'failure'
+        uses: actions/deploy-pages@v4
