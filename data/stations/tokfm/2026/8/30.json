@@ -191,6 +191,30 @@
       "utc_label": "2026-08-30 05:00 UTC",
       "utc_started_at": "2026-08-30T05:00:00+00:00",
       "year": 2026
+    },
+    {
+      "archive_item_identifier": "tokfm-2026-08-30",
+      "audio_url": "https://archive.org/download/tokfm-2026-08-30/tokfm_2026-08-30T06-00-00Z.mp3",
+      "completeness_ratio": 0.9964,
+      "day": 30,
+      "download_url": "https://archive.org/download/tokfm-2026-08-30/tokfm_2026-08-30T06-00-00Z.mp3",
+      "duration_seconds": 3596.616,
+      "hour": 8,
+      "hourly_archive_id": 180247,
+      "local_date_label": "30.08.2026",
+      "local_hour_label": "08:00",
+      "local_label": "2026-08-30 08:00 czasu polskiego",
+      "local_started_at": "2026-08-30T08:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 8,
+      "published_at": "2026-08-30T07:24:25.308959+00:00",
+      "published_local_label": "2026-08-30 09:24 czasu polskiego",
+      "remote_filename": "tokfm_2026-08-30T06-00-00Z.mp3",
+      "station_slug": "tokfm",
+      "status": "published",
+      "utc_label": "2026-08-30 06:00 UTC",
+      "utc_started_at": "2026-08-30T06:00:00+00:00",
+      "year": 2026
     }
   ],
   "day": 30,
@@ -348,7 +372,7 @@
       "year": 2026
     },
     {
-      "archive_status": "ready",
+      "archive_status": "published",
       "completeness_ratio": 0.9964,
       "day": 30,
       "hour": 8,
@@ -359,9 +383,9 @@
       "local_started_at": "2026-08-30T08:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 8,
-      "playable": false,
-      "state": "publishing",
-      "status_label": "Czeka w kolejce do publikacji",
+      "playable": true,
+      "state": "available",
+      "status_label": null,
       "utc_label": "2026-08-30 06:00 UTC",
       "utc_started_at": "2026-08-30T06:00:00+00:00",
       "year": 2026
