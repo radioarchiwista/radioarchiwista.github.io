@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-08-30T20:45:39.315663+00:00",
+  "generated_at": "2026-08-30T20:54:19.763981+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-08-30T19:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -27,10 +27,12 @@
     "Radio Kampus",
     "Radio Katowice",
     "Radio Kielce",
+    "Radio Koszalin",
     "Radio Kraków",
     "Radio Lublin",
     "Radio Luz",
     "Radio Maryja",
+    "Radio Olsztyn",
     "Radio Opole",
     "Radio PiK",
     "Radio Poznań",
@@ -46,12 +48,12 @@
     "RMF24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-08-30T20:45:39.315663+00:00",
+  "published_at": "2026-08-30T20:54:19.763981+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
     {
-      "archive_count": 3453,
+      "archive_count": 3454,
       "display_name": "Program 1",
       "public_name": "Polskie Radio Program 1",
       "slug": "pr1",
@@ -212,7 +214,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3351,
+      "archive_count": 3352,
       "display_name": "Radio Koszalin",
       "public_name": "Radio Koszalin",
       "slug": "radiokoszalin",
@@ -247,7 +249,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3442,
+      "archive_count": 3443,
       "display_name": "Radio Olsztyn",
       "public_name": "Radio Olsztyn",
       "slug": "radioolsztyn",
