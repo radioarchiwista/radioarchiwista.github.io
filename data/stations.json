@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-08-30T18:39:13.703242+00:00",
+  "generated_at": "2026-08-30T18:44:56.093748+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-08-30T17:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -26,15 +26,18 @@
     "Radio Lublin",
     "Radio Luz",
     "Radio Maryja",
+    "Radio Olsztyn",
     "Radio Opole",
     "Radio PiK",
     "Radio Poznań",
     "Radio Rzeszów",
+    "Radio Szczecin",
     "Radio Słupsk",
-    "Radio Łódź"
+    "Radio Łódź",
+    "Radio Żak"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-08-30T18:39:13.703242+00:00",
+  "published_at": "2026-08-30T18:44:56.093748+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -179,14 +182,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3164,
+      "archive_count": 3165,
       "display_name": "Radio Kampus",
       "public_name": "Radio Kampus",
       "slug": "radiokampus",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3455,
+      "archive_count": 3456,
       "display_name": "Radio Katowice",
       "public_name": "Radio Katowice",
       "slug": "radiokatowice",
@@ -235,7 +238,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3440,
+      "archive_count": 3441,
       "display_name": "Radio Olsztyn",
       "public_name": "Radio Olsztyn",
       "slug": "radioolsztyn",
@@ -270,7 +273,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3451,
+      "archive_count": 3452,
       "display_name": "Radio Szczecin",
       "public_name": "Radio Szczecin",
       "slug": "radioszczecin",
@@ -319,7 +322,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3441,
+      "archive_count": 3442,
       "display_name": "Radio Żak",
       "public_name": "Radio Żak",
       "slug": "radiozak",
