@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-08-31T12:30:59.842622+00:00",
+  "generated_at": "2026-08-31T12:35:34.736111+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-08-31T11:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -48,7 +48,7 @@
     "RMF24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-08-31T12:30:59.842622+00:00",
+  "published_at": "2026-08-31T12:35:34.736111+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -95,7 +95,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3479,
+      "archive_count": 3480,
       "display_name": "TOK FM",
       "public_name": "TOK FM",
       "slug": "tokfm",
@@ -228,14 +228,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3474,
+      "archive_count": 3475,
       "display_name": "Radio Lublin",
       "public_name": "Radio Lublin",
       "slug": "radiolublin",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3475,
+      "archive_count": 3476,
       "display_name": "Radio Luz",
       "public_name": "Radio Luz",
       "slug": "radioluz",
@@ -270,7 +270,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3474,
+      "archive_count": 3475,
       "display_name": "Radio Poznań",
       "public_name": "Radio Poznań",
       "slug": "radiopoznan",
@@ -284,7 +284,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3469,
+      "archive_count": 3470,
       "display_name": "Radio Szczecin",
       "public_name": "Radio Szczecin",
       "slug": "radioszczecin",
@@ -333,7 +333,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3459,
+      "archive_count": 3460,
       "display_name": "Radio Żak",
       "public_name": "Radio Żak",
       "slug": "radiozak",
