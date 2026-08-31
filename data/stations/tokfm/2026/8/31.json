@@ -735,11 +735,11 @@
       "year": 2026
     },
     {
-      "archive_status": null,
-      "completeness_ratio": null,
+      "archive_status": "ready",
+      "completeness_ratio": 0.9986,
       "day": 31,
       "hour": 17,
-      "hourly_archive_id": null,
+      "hourly_archive_id": 181666,
       "local_date_label": "31.08.2026",
       "local_hour_label": "17:00",
       "local_label": "2026-08-31 17:00 czasu polskiego",
@@ -747,8 +747,8 @@
       "local_timezone_label": "czasu polskiego",
       "month": 8,
       "playable": false,
-      "state": "recorded",
-      "status_label": "Nagranie czeka na złożenie",
+      "state": "publishing",
+      "status_label": "Czeka w kolejce do publikacji",
       "utc_label": "2026-08-31 15:00 UTC",
       "utc_started_at": "2026-08-31T15:00:00+00:00",
       "year": 2026
