@@ -1,0 +1,58 @@
+{
+  "archives": [
+    {
+      "archive_item_identifier": "radiopik-2026-08-31",
+      "audio_url": "https://archive.org/download/radiopik-2026-08-31/radiopik_2026-08-31T22-00-00Z.mp3",
+      "completeness_ratio": 1.0,
+      "day": 1,
+      "download_url": "https://archive.org/download/radiopik-2026-08-31/radiopik_2026-08-31T22-00-00Z.mp3",
+      "duration_seconds": 3599.882,
+      "hour": 0,
+      "hourly_archive_id": 181952,
+      "local_date_label": "01.09.2026",
+      "local_hour_label": "00:00",
+      "local_label": "2026-09-01 00:00 czasu polskiego",
+      "local_started_at": "2026-09-01T00:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 9,
+      "published_at": "2026-08-31T23:23:22.151014+00:00",
+      "published_local_label": "2026-09-01 01:23 czasu polskiego",
+      "remote_filename": "radiopik_2026-08-31T22-00-00Z.mp3",
+      "station_slug": "radiopik",
+      "status": "published",
+      "utc_label": "2026-08-31 22:00 UTC",
+      "utc_started_at": "2026-08-31T22:00:00+00:00",
+      "year": 2026
+    }
+  ],
+  "day": 1,
+  "hour_slots": [
+    {
+      "archive_status": "published",
+      "completeness_ratio": 1.0,
+      "day": 1,
+      "hour": 0,
+      "hourly_archive_id": 181952,
+      "local_date_label": "01.09.2026",
+      "local_hour_label": "00:00",
+      "local_label": "2026-09-01 00:00 czasu polskiego",
+      "local_started_at": "2026-09-01T00:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 9,
+      "playable": true,
+      "state": "available",
+      "status_label": null,
+      "utc_label": "2026-08-31 22:00 UTC",
+      "utc_started_at": "2026-08-31T22:00:00+00:00",
+      "year": 2026
+    }
+  ],
+  "month": 9,
+  "station": {
+    "display_name": "Radio PiK",
+    "public_name": "Radio PiK",
+    "slug": "radiopik",
+    "timezone": "Europe/Warsaw"
+  },
+  "year": 2026
+}

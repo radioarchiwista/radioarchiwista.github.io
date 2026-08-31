@@ -1,0 +1,58 @@
+{
+  "archives": [
+    {
+      "archive_item_identifier": "pr3-2026-08-31",
+      "audio_url": "https://archive.org/download/pr3-2026-08-31/pr3_2026-08-31T22-00-00Z.mp3",
+      "completeness_ratio": 1.0,
+      "day": 1,
+      "download_url": "https://archive.org/download/pr3-2026-08-31/pr3_2026-08-31T22-00-00Z.mp3",
+      "duration_seconds": 3599.688,
+      "hour": 0,
+      "hourly_archive_id": 181930,
+      "local_date_label": "01.09.2026",
+      "local_hour_label": "00:00",
+      "local_label": "2026-09-01 00:00 czasu polskiego",
+      "local_started_at": "2026-09-01T00:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 9,
+      "published_at": "2026-08-31T23:19:29.129075+00:00",
+      "published_local_label": "2026-09-01 01:19 czasu polskiego",
+      "remote_filename": "pr3_2026-08-31T22-00-00Z.mp3",
+      "station_slug": "pr3",
+      "status": "published",
+      "utc_label": "2026-08-31 22:00 UTC",
+      "utc_started_at": "2026-08-31T22:00:00+00:00",
+      "year": 2026
+    }
+  ],
+  "day": 1,
+  "hour_slots": [
+    {
+      "archive_status": "published",
+      "completeness_ratio": 1.0,
+      "day": 1,
+      "hour": 0,
+      "hourly_archive_id": 181930,
+      "local_date_label": "01.09.2026",
+      "local_hour_label": "00:00",
+      "local_label": "2026-09-01 00:00 czasu polskiego",
+      "local_started_at": "2026-09-01T00:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 9,
+      "playable": true,
+      "state": "available",
+      "status_label": null,
+      "utc_label": "2026-08-31 22:00 UTC",
+      "utc_started_at": "2026-08-31T22:00:00+00:00",
+      "year": 2026
+    }
+  ],
+  "month": 9,
+  "station": {
+    "display_name": "Program 3",
+    "public_name": "Polskie Radio Program 3",
+    "slug": "pr3",
+    "timezone": "Europe/Warsaw"
+  },
+  "year": 2026
+}
