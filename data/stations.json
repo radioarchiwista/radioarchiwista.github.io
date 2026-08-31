@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-08-31T01:28:53.781339+00:00",
+  "generated_at": "2026-08-31T01:35:18.325548+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-08-31T00:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -13,13 +13,16 @@
     "Polskie Radio Dzieciom",
     "Radio Afera",
     "Radio Akadera",
+    "Radio Białystok",
     "Radio Centrum Lublin",
     "Radio Centrum Rzeszów",
     "Radio Gdańsk",
-    "Radio Gdańsk Regiony"
+    "Radio Gdańsk Regiony",
+    "Radio Index",
+    "Radio Kampus"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-08-31T01:28:53.781339+00:00",
+  "published_at": "2026-08-31T01:35:18.325548+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -157,14 +160,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3400,
+      "archive_count": 3401,
       "display_name": "Radio Index",
       "public_name": "Radio Index",
       "slug": "radioindex",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3171,
+      "archive_count": 3172,
       "display_name": "Radio Kampus",
       "public_name": "Radio Kampus",
       "slug": "radiokampus",
