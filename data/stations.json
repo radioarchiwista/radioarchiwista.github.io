@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-09-01T08:39:03.489481+00:00",
+  "generated_at": "2026-09-01T08:50:32.102932+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-09-01T07:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -10,6 +10,7 @@
     "Program 3",
     "Polskie Radio 24",
     "Radio 357",
+    "Radio Nowy Świat",
     "Radio Republika",
     "Polskie Radio Dzieciom",
     "Radio Afera",
@@ -25,6 +26,7 @@
     "Radio Kampus",
     "Radio Katowice",
     "Radio Kielce",
+    "Radio Koszalin",
     "Radio Kraków",
     "Radio Lublin",
     "Radio Maryja",
@@ -36,12 +38,14 @@
     "Radio Szczecin",
     "Radio Słupsk",
     "Radio Wrocław",
+    "Radio Zachód",
     "Radio Łódź",
     "Radio Żak",
+    "RMF Classic",
     "RMF24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-09-01T08:39:03.489481+00:00",
+  "published_at": "2026-09-01T08:50:32.102932+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -81,7 +85,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3510,
+      "archive_count": 3511,
       "display_name": "Radio Nowy Świat",
       "public_name": "Radio Nowy Świat",
       "slug": "rns",
@@ -207,7 +211,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3387,
+      "archive_count": 3388,
       "display_name": "Radio Koszalin",
       "public_name": "Radio Koszalin",
       "slug": "radiokoszalin",
@@ -305,7 +309,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3495,
+      "archive_count": 3496,
       "display_name": "Radio Zachód",
       "public_name": "Radio Zachód",
       "slug": "radiozachod",
