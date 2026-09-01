@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-09-01T02:33:03.799283+00:00",
+  "generated_at": "2026-09-01T02:43:35.523572+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-09-01T01:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -27,10 +27,14 @@
     "Radio Lublin",
     "Radio Luz",
     "Radio Olsztyn",
-    "Radio Łódź"
+    "Radio Szczecin",
+    "Radio Słupsk",
+    "Radio Wrocław",
+    "Radio Łódź",
+    "Radio Żak"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-09-01T02:33:03.799283+00:00",
+  "published_at": "2026-09-01T02:43:35.523572+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -231,7 +235,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3472,
+      "archive_count": 3473,
       "display_name": "Radio Olsztyn",
       "public_name": "Radio Olsztyn",
       "slug": "radioolsztyn",
@@ -266,14 +270,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3483,
+      "archive_count": 3484,
       "display_name": "Radio Szczecin",
       "public_name": "Radio Szczecin",
       "slug": "radioszczecin",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3379,
+      "archive_count": 3380,
       "display_name": "Radio Słupsk",
       "public_name": "Radio Słupsk",
       "slug": "radioslupsk",
@@ -287,7 +291,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3489,
+      "archive_count": 3490,
       "display_name": "Radio Wrocław",
       "public_name": "Radio Wrocław",
       "slug": "radiowroclaw",
