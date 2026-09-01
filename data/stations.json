@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-09-01T16:41:09.022987+00:00",
+  "generated_at": "2026-09-01T16:47:59.542594+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-09-01T15:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -21,15 +21,19 @@
     "Radio Index",
     "Radio Kampus",
     "Radio Katowice",
+    "Radio Koszalin",
     "Radio Kraków",
+    "Radio Lublin",
+    "Radio Maryja",
     "Radio Olsztyn",
     "Radio Opole",
-    "Radio PiK",
     "Radio Poznań",
+    "Radio Rzeszów",
+    "Radio Wrocław",
     "Radio Łódź"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-09-01T16:41:09.022987+00:00",
+  "published_at": "2026-09-01T16:47:59.542594+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -104,7 +108,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3505,
+      "archive_count": 3504,
       "display_name": "Radio Afera",
       "public_name": "Radio Afera",
       "slug": "afera",
@@ -195,7 +199,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3395,
+      "archive_count": 3396,
       "display_name": "Radio Koszalin",
       "public_name": "Radio Koszalin",
       "slug": "radiokoszalin",
@@ -209,7 +213,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3502,
+      "archive_count": 3503,
       "display_name": "Radio Lublin",
       "public_name": "Radio Lublin",
       "slug": "radiolublin",
@@ -223,7 +227,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3357,
+      "archive_count": 3358,
       "display_name": "Radio Maryja",
       "public_name": "Radio Maryja",
       "slug": "radiomaryja",
@@ -244,7 +248,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3458,
+      "archive_count": 3457,
       "display_name": "Radio PiK",
       "public_name": "Radio PiK",
       "slug": "radiopik",
@@ -258,7 +262,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3503,
+      "archive_count": 3504,
       "display_name": "Radio Rzeszów",
       "public_name": "Radio Rzeszów",
       "slug": "radiorzeszow",
@@ -286,7 +290,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3503,
+      "archive_count": 3504,
       "display_name": "Radio Wrocław",
       "public_name": "Radio Wrocław",
       "slug": "radiowroclaw",
