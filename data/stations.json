@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-09-01T14:40:07.427080+00:00",
+  "generated_at": "2026-09-01T14:49:23.863232+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-09-01T13:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -11,7 +11,6 @@
     "Polskie Radio 24",
     "Radio 357",
     "Radio Nowy Świat",
-    "TOK FM",
     "Radio Wnet",
     "Radio Republika",
     "Polskie Radio Dzieciom",
@@ -31,6 +30,7 @@
     "Radio Koszalin",
     "Radio Kraków",
     "Radio Lublin",
+    "Radio Luz",
     "Radio Maryja",
     "Radio Olsztyn",
     "Radio Opole",
@@ -38,15 +38,17 @@
     "Radio Poznań",
     "Radio Rzeszów",
     "Radio Szczecin",
+    "Radio Słupsk",
     "Radio Wrocław",
     "Radio Zachód",
     "Radio Zielona Góra",
     "Radio Łódź",
     "Radio Żak",
-    "RMF Classic"
+    "RMF Classic",
+    "RMF24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-09-01T14:40:07.427080+00:00",
+  "published_at": "2026-09-01T14:49:23.863232+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -93,14 +95,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3506,
+      "archive_count": 3505,
       "display_name": "TOK FM",
       "public_name": "TOK FM",
       "slug": "tokfm",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3518,
+      "archive_count": 3519,
       "display_name": "Radio Wnet",
       "public_name": "Radio Wnet",
       "slug": "wnet",
@@ -289,7 +291,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3392,
+      "archive_count": 3393,
       "display_name": "Radio Słupsk",
       "public_name": "Radio Słupsk",
       "slug": "radioslupsk",

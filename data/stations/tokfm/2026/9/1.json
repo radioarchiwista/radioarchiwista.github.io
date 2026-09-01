@@ -359,30 +359,6 @@
       "utc_label": "2026-09-01 12:00 UTC",
       "utc_started_at": "2026-09-01T12:00:00+00:00",
       "year": 2026
-    },
-    {
-      "archive_item_identifier": "tokfm-2026-09-01",
-      "audio_url": "https://archive.org/download/tokfm-2026-09-01/tokfm_2026-09-01T13-00-00Z.mp3",
-      "completeness_ratio": 0.9964,
-      "day": 1,
-      "download_url": "https://archive.org/download/tokfm-2026-09-01/tokfm_2026-09-01T13-00-00Z.mp3",
-      "duration_seconds": 3584.016,
-      "hour": 15,
-      "hourly_archive_id": 182612,
-      "local_date_label": "01.09.2026",
-      "local_hour_label": "15:00",
-      "local_label": "2026-09-01 15:00 czasu polskiego",
-      "local_started_at": "2026-09-01T15:00:00+02:00",
-      "local_timezone_label": "czasu polskiego",
-      "month": 9,
-      "published_at": "2026-09-01T14:34:36.127026+00:00",
-      "published_local_label": "2026-09-01 16:34 czasu polskiego",
-      "remote_filename": "tokfm_2026-09-01T13-00-00Z.mp3",
-      "station_slug": "tokfm",
-      "status": "published",
-      "utc_label": "2026-09-01 13:00 UTC",
-      "utc_started_at": "2026-09-01T13:00:00+00:00",
-      "year": 2026
     }
   ],
   "day": 1,
@@ -673,7 +649,7 @@
       "year": 2026
     },
     {
-      "archive_status": "published",
+      "archive_status": "ready",
       "completeness_ratio": 0.9964,
       "day": 1,
       "hour": 15,
@@ -684,9 +660,9 @@
       "local_started_at": "2026-09-01T15:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 9,
-      "playable": true,
-      "state": "available",
-      "status_label": null,
+      "playable": false,
+      "state": "publishing",
+      "status_label": "Czeka w kolejce do publikacji",
       "utc_label": "2026-09-01 13:00 UTC",
       "utc_started_at": "2026-09-01T13:00:00+00:00",
       "year": 2026
