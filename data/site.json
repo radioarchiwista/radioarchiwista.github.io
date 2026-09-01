@@ -1,8 +1,8 @@
 {
-  "archive_count": 181789,
+  "archive_count": 181798,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-09-01T08:23:19.434719+00:00",
+  "generated_at": "2026-09-01T08:32:24.515900+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-09-01T07:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -24,10 +24,18 @@
     "Radio Kampus",
     "Radio Katowice",
     "Radio Kielce",
-    "Radio Olsztyn"
+    "Radio Kraków",
+    "Radio Lublin",
+    "Radio Maryja",
+    "Radio Olsztyn",
+    "Radio Opole",
+    "Radio PiK",
+    "Radio Poznań",
+    "Radio Rzeszów",
+    "Radio Słupsk"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-09-01T08:23:19.434719+00:00",
+  "published_at": "2026-09-01T08:32:24.515900+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
