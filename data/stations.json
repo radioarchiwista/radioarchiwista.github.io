@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-09-01T16:23:33.546360+00:00",
+  "generated_at": "2026-09-01T16:31:26.694820+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-09-01T15:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -13,12 +13,15 @@
     "Polskie Radio Dzieciom",
     "Radio Akadera",
     "Radio Białystok",
+    "Radio Centrum Rzeszów",
     "Radio Gdańsk",
     "Radio Gdańsk Regiony",
-    "Radio Kampus"
+    "Radio Kampus",
+    "Radio Kraków",
+    "Radio Łódź"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-09-01T16:23:33.546360+00:00",
+  "published_at": "2026-09-01T16:31:26.694820+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -121,7 +124,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3473,
+      "archive_count": 3474,
       "display_name": "Radio Centrum Rzeszów",
       "public_name": "Radio Centrum Rzeszów",
       "slug": "radiocentrumrzeszow",
@@ -191,7 +194,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3499,
+      "archive_count": 3500,
       "display_name": "Radio Kraków",
       "public_name": "Radio Kraków",
       "slug": "radiokrakow",
@@ -296,7 +299,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3503,
+      "archive_count": 3504,
       "display_name": "Radio Łódź",
       "public_name": "Radio Łódź",
       "slug": "radiolodz",
