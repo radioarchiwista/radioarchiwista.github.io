@@ -1,20 +1,33 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-09-01T13:05:07.561171+00:00",
+  "generated_at": "2026-09-01T13:21:44.101744+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-09-01T12:00:00+00:00",
   "latest_archive_hour_stations": [
+    "Program 1",
     "Program 2",
-    "Polskie Radio Dzieciom"
+    "Program 3",
+    "Radio 357",
+    "Polskie Radio Dzieciom",
+    "Radio Afera",
+    "Radio Akadera",
+    "Radio Białystok",
+    "Radio Centrum Lublin",
+    "Radio Gdańsk Regiony",
+    "Radio Gorzów",
+    "Radio Index",
+    "Radio Katowice",
+    "Radio Kielce",
+    "Radio Kraków"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-09-01T13:05:07.561171+00:00",
+  "published_at": "2026-09-01T13:21:44.101744+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
     {
-      "archive_count": 3495,
+      "archive_count": 3496,
       "display_name": "Program 1",
       "public_name": "Polskie Radio Program 1",
       "slug": "pr1",
@@ -28,14 +41,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 43936,
+      "archive_count": 43937,
       "display_name": "Program 3",
       "public_name": "Polskie Radio Program 3",
       "slug": "pr3",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3513,
+      "archive_count": 3514,
       "display_name": "Polskie Radio 24",
       "public_name": "Polskie Radio 24",
       "slug": "pr24",
