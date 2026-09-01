@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-09-01T16:31:26.694820+00:00",
+  "generated_at": "2026-09-01T16:41:09.022987+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-09-01T15:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -11,17 +11,25 @@
     "Polskie Radio 24",
     "Radio 357",
     "Polskie Radio Dzieciom",
+    "Radio Afera",
     "Radio Akadera",
     "Radio Białystok",
     "Radio Centrum Rzeszów",
     "Radio Gdańsk",
     "Radio Gdańsk Regiony",
+    "Radio Gorzów",
+    "Radio Index",
     "Radio Kampus",
+    "Radio Katowice",
     "Radio Kraków",
+    "Radio Olsztyn",
+    "Radio Opole",
+    "Radio PiK",
+    "Radio Poznań",
     "Radio Łódź"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-09-01T16:31:26.694820+00:00",
+  "published_at": "2026-09-01T16:41:09.022987+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -96,7 +104,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3504,
+      "archive_count": 3505,
       "display_name": "Radio Afera",
       "public_name": "Radio Afera",
       "slug": "afera",
@@ -152,14 +160,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3503,
+      "archive_count": 3504,
       "display_name": "Radio Gorzów",
       "public_name": "Radio Gorzów",
       "slug": "radiogorzow",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3439,
+      "archive_count": 3440,
       "display_name": "Radio Index",
       "public_name": "Radio Index",
       "slug": "radioindex",
@@ -173,7 +181,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3501,
+      "archive_count": 3502,
       "display_name": "Radio Katowice",
       "public_name": "Radio Katowice",
       "slug": "radiokatowice",
@@ -222,28 +230,28 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3486,
+      "archive_count": 3487,
       "display_name": "Radio Olsztyn",
       "public_name": "Radio Olsztyn",
       "slug": "radioolsztyn",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3404,
+      "archive_count": 3405,
       "display_name": "Radio Opole",
       "public_name": "Radio Opole",
       "slug": "radioopole",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3457,
+      "archive_count": 3458,
       "display_name": "Radio PiK",
       "public_name": "Radio PiK",
       "slug": "radiopik",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3502,
+      "archive_count": 3503,
       "display_name": "Radio Poznań",
       "public_name": "Radio Poznań",
       "slug": "radiopoznan",
