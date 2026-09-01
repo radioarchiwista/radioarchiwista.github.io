@@ -1,11 +1,12 @@
 {
-  "archive_count": 182148,
+  "archive_count": 182159,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-09-01T17:26:30.435476+00:00",
+  "generated_at": "2026-09-01T17:35:40.356966+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-09-01T16:00:00+00:00",
   "latest_archive_hour_stations": [
+    "Program 1",
     "Program 3",
     "Polskie Radio 24",
     "Polskie Radio Dzieciom",
@@ -16,10 +17,14 @@
     "Radio Kampus",
     "Radio Katowice",
     "Radio Koszalin",
-    "Radio Kraków"
+    "Radio Kraków",
+    "Radio Lublin",
+    "Radio Poznań",
+    "Radio Rzeszów",
+    "Radio Łódź"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-09-01T17:26:30.435476+00:00",
+  "published_at": "2026-09-01T17:35:40.356966+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
