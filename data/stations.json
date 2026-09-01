@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-09-01T08:50:32.102932+00:00",
+  "generated_at": "2026-09-01T08:55:57.256241+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-09-01T07:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -29,6 +29,7 @@
     "Radio Koszalin",
     "Radio Kraków",
     "Radio Lublin",
+    "Radio Luz",
     "Radio Maryja",
     "Radio Olsztyn",
     "Radio Opole",
@@ -39,13 +40,14 @@
     "Radio Słupsk",
     "Radio Wrocław",
     "Radio Zachód",
+    "Radio Zielona Góra",
     "Radio Łódź",
     "Radio Żak",
     "RMF Classic",
     "RMF24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-09-01T08:50:32.102932+00:00",
+  "published_at": "2026-09-01T08:55:57.256241+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -232,7 +234,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3495,
+      "archive_count": 3496,
       "display_name": "Radio Luz",
       "public_name": "Radio Luz",
       "slug": "radioluz",
@@ -316,7 +318,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3495,
+      "archive_count": 3496,
       "display_name": "Radio Zielona Góra",
       "public_name": "Radio Zielona Góra",
       "slug": "radiozielonagora",
@@ -337,7 +339,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 2025,
+      "archive_count": 2026,
       "display_name": "RMF Classic",
       "public_name": "RMF Classic",
       "slug": "rmfclassic",
