@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-09-01T16:17:30.401637+00:00",
+  "generated_at": "2026-09-01T16:23:33.546360+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-09-01T15:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -9,14 +9,16 @@
     "Program 2",
     "Program 3",
     "Polskie Radio 24",
+    "Radio 357",
     "Polskie Radio Dzieciom",
     "Radio Akadera",
     "Radio Białystok",
     "Radio Gdańsk",
-    "Radio Gdańsk Regiony"
+    "Radio Gdańsk Regiony",
+    "Radio Kampus"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-09-01T16:17:30.401637+00:00",
+  "published_at": "2026-09-01T16:23:33.546360+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -42,14 +44,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3516,
+      "archive_count": 3517,
       "display_name": "Polskie Radio 24",
       "public_name": "Polskie Radio 24",
       "slug": "pr24",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3499,
+      "archive_count": 3500,
       "display_name": "Radio 357",
       "public_name": "Radio 357",
       "slug": "radio357",
@@ -98,14 +100,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3500,
+      "archive_count": 3501,
       "display_name": "Radio Akadera",
       "public_name": "Radio Akadera",
       "slug": "radioakadera",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3498,
+      "archive_count": 3499,
       "display_name": "Radio Białystok",
       "public_name": "Radio Białystok",
       "slug": "radiobialystok",
@@ -133,14 +135,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3503,
+      "archive_count": 3504,
       "display_name": "Radio Gdańsk",
       "public_name": "Radio Gdańsk",
       "slug": "radiogdansk",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 974,
+      "archive_count": 975,
       "display_name": "Radio Gdańsk Regiony",
       "public_name": "Radio Gdańsk Regiony",
       "slug": "radiogdanskregiony",
@@ -161,7 +163,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3210,
+      "archive_count": 3211,
       "display_name": "Radio Kampus",
       "public_name": "Radio Kampus",
       "slug": "radiokampus",
