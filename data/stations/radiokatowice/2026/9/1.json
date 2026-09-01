@@ -239,6 +239,30 @@
       "utc_label": "2026-09-01 07:00 UTC",
       "utc_started_at": "2026-09-01T07:00:00+00:00",
       "year": 2026
+    },
+    {
+      "archive_item_identifier": "radiokatowice-2026-09-01",
+      "audio_url": "https://archive.org/download/radiokatowice-2026-09-01/radiokatowice_2026-09-01T08-00-00Z.mp3",
+      "completeness_ratio": 1.0,
+      "day": 1,
+      "download_url": "https://archive.org/download/radiokatowice-2026-09-01/radiokatowice_2026-09-01T08-00-00Z.mp3",
+      "duration_seconds": 3600.072,
+      "hour": 10,
+      "hourly_archive_id": 182372,
+      "local_date_label": "01.09.2026",
+      "local_hour_label": "10:00",
+      "local_label": "2026-09-01 10:00 czasu polskiego",
+      "local_started_at": "2026-09-01T10:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 9,
+      "published_at": "2026-09-01T09:27:41.275229+00:00",
+      "published_local_label": "2026-09-01 11:27 czasu polskiego",
+      "remote_filename": "radiokatowice_2026-09-01T08-00-00Z.mp3",
+      "station_slug": "radiokatowice",
+      "status": "published",
+      "utc_label": "2026-09-01 08:00 UTC",
+      "utc_started_at": "2026-09-01T08:00:00+00:00",
+      "year": 2026
     }
   ],
   "day": 1,
@@ -434,7 +458,7 @@
       "year": 2026
     },
     {
-      "archive_status": "ready",
+      "archive_status": "published",
       "completeness_ratio": 1.0,
       "day": 1,
       "hour": 10,
@@ -445,9 +469,9 @@
       "local_started_at": "2026-09-01T10:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 9,
-      "playable": false,
-      "state": "publishing",
-      "status_label": "Czeka w kolejce do publikacji",
+      "playable": true,
+      "state": "available",
+      "status_label": null,
       "utc_label": "2026-09-01 08:00 UTC",
       "utc_started_at": "2026-09-01T08:00:00+00:00",
       "year": 2026
