@@ -431,6 +431,30 @@
       "utc_label": "2026-09-01 15:00 UTC",
       "utc_started_at": "2026-09-01T15:00:00+00:00",
       "year": 2026
+    },
+    {
+      "archive_item_identifier": "afera-2026-09-01",
+      "audio_url": "https://archive.org/download/afera-2026-09-01/afera_2026-09-01T16-00-00Z.mp3",
+      "completeness_ratio": 0.9999,
+      "day": 1,
+      "download_url": "https://archive.org/download/afera-2026-09-01/afera_2026-09-01T16-00-00Z.mp3",
+      "duration_seconds": 3596.983,
+      "hour": 18,
+      "hourly_archive_id": 182705,
+      "local_date_label": "01.09.2026",
+      "local_hour_label": "18:00",
+      "local_label": "2026-09-01 18:00 czasu polskiego",
+      "local_started_at": "2026-09-01T18:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 9,
+      "published_at": "2026-09-01T17:38:12.182033+00:00",
+      "published_local_label": "2026-09-01 19:38 czasu polskiego",
+      "remote_filename": "afera_2026-09-01T16-00-00Z.mp3",
+      "station_slug": "afera",
+      "status": "published",
+      "utc_label": "2026-09-01 16:00 UTC",
+      "utc_started_at": "2026-09-01T16:00:00+00:00",
+      "year": 2026
     }
   ],
   "day": 1,
@@ -778,7 +802,7 @@
       "year": 2026
     },
     {
-      "archive_status": "ready",
+      "archive_status": "published",
       "completeness_ratio": 0.9999,
       "day": 1,
       "hour": 18,
@@ -789,9 +813,9 @@
       "local_started_at": "2026-09-01T18:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 9,
-      "playable": false,
-      "state": "publishing",
-      "status_label": "Czeka w kolejce do publikacji",
+      "playable": true,
+      "state": "available",
+      "status_label": null,
       "utc_label": "2026-09-01 16:00 UTC",
       "utc_started_at": "2026-09-01T16:00:00+00:00",
       "year": 2026
