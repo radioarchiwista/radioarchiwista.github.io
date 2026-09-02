@@ -1,16 +1,17 @@
 {
-  "archive_count": 182867,
+  "archive_count": 182868,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-09-02T10:14:15.088361+00:00",
+  "generated_at": "2026-09-02T10:28:46.171696+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-09-02T09:00:00+00:00",
   "latest_archive_hour_stations": [
     "Program 1",
-    "Radio Gdańsk"
+    "Radio Gdańsk",
+    "Radio Maryja"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-09-02T10:14:15.088361+00:00",
+  "published_at": "2026-09-02T10:28:46.171696+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
