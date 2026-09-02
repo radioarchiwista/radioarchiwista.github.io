@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-09-02T11:21:07.631331+00:00",
+  "generated_at": "2026-09-02T11:44:38.968698+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-09-02T10:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -9,10 +9,13 @@
     "Program 3",
     "Radio 357",
     "Radio Centrum Lublin",
-    "Radio Centrum Rzeszów"
+    "Radio Centrum Rzeszów",
+    "Radio Index",
+    "Radio Kraków",
+    "Radio Poznań"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-09-02T11:21:07.631331+00:00",
+  "published_at": "2026-09-02T11:44:38.968698+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -150,7 +153,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3458,
+      "archive_count": 3459,
       "display_name": "Radio Index",
       "public_name": "Radio Index",
       "slug": "radioindex",
@@ -234,7 +237,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3521,
+      "archive_count": 3522,
       "display_name": "Radio Poznań",
       "public_name": "Radio Poznań",
       "slug": "radiopoznan",
