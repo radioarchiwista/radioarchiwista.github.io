@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-09-02T14:49:43.765362+00:00",
+  "generated_at": "2026-09-02T14:56:49.163375+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-09-02T13:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -16,6 +16,7 @@
     "Radio Białystok",
     "Radio Centrum Lublin",
     "Radio Centrum Rzeszów",
+    "Radio Gdańsk",
     "Radio Gdańsk Regiony",
     "Radio Gorzów",
     "Radio Index",
@@ -27,10 +28,14 @@
     "Radio Olsztyn",
     "Radio Opole",
     "Radio PiK",
-    "Radio Poznań"
+    "Radio Poznań",
+    "Radio Rzeszów",
+    "Radio Wrocław",
+    "Radio Zachód",
+    "Radio Żak"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-09-02T14:49:43.765362+00:00",
+  "published_at": "2026-09-02T14:56:49.163375+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -147,7 +152,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3524,
+      "archive_count": 3525,
       "display_name": "Radio Gdańsk",
       "public_name": "Radio Gdańsk",
       "slug": "radiogdansk",
@@ -259,7 +264,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3523,
+      "archive_count": 3524,
       "display_name": "Radio Rzeszów",
       "public_name": "Radio Rzeszów",
       "slug": "radiorzeszow",
@@ -287,7 +292,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3522,
+      "archive_count": 3523,
       "display_name": "Radio Wrocław",
       "public_name": "Radio Wrocław",
       "slug": "radiowroclaw",
