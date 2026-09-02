@@ -1,20 +1,32 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-09-02T14:06:05.917202+00:00",
+  "generated_at": "2026-09-02T14:23:30.958788+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-09-02T13:00:00+00:00",
   "latest_archive_hour_stations": [
+    "Program 1",
+    "Program 3",
     "Polskie Radio 24",
-    "Polskie Radio Dzieciom"
+    "Polskie Radio Dzieciom",
+    "Radio Afera",
+    "Radio Akadera",
+    "Radio Białystok",
+    "Radio Centrum Lublin",
+    "Radio Centrum Rzeszów",
+    "Radio Gdańsk Regiony",
+    "Radio Gorzów",
+    "Radio Index",
+    "Radio Kampus",
+    "Radio Luz"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-09-02T14:06:05.917202+00:00",
+  "published_at": "2026-09-02T14:23:30.958788+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
     {
-      "archive_count": 3520,
+      "archive_count": 3521,
       "display_name": "Program 1",
       "public_name": "Polskie Radio Program 1",
       "slug": "pr1",
@@ -28,7 +40,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 43960,
+      "archive_count": 43961,
       "display_name": "Program 3",
       "public_name": "Polskie Radio Program 3",
       "slug": "pr3",
@@ -112,7 +124,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3494,
+      "archive_count": 3495,
       "display_name": "Radio Centrum Rzeszów",
       "public_name": "Radio Centrum Rzeszów",
       "slug": "radiocentrumrzeszow",
