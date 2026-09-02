@@ -1,8 +1,8 @@
 {
-  "archive_count": 182862,
+  "archive_count": 182863,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-09-02T09:48:58.129013+00:00",
+  "generated_at": "2026-09-02T09:54:55.632951+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-09-02T08:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -12,6 +12,7 @@
     "Polskie Radio 24",
     "Radio 357",
     "Radio Nowy Świat",
+    "Radio Wnet",
     "Polskie Radio Dzieciom",
     "Radio Afera",
     "Radio Akadera",
@@ -41,7 +42,7 @@
     "Radio Łódź"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-09-02T09:48:58.129013+00:00",
+  "published_at": "2026-09-02T09:54:55.632951+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
