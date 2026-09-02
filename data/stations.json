@@ -1,18 +1,20 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-09-02T01:20:31.168085+00:00",
+  "generated_at": "2026-09-02T01:34:41.893185+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-09-02T00:00:00+00:00",
   "latest_archive_hour_stations": [
     "Program 1",
     "Program 2",
-    "Program 3",
     "Polskie Radio 24",
-    "Polskie Radio Dzieciom"
+    "Polskie Radio Dzieciom",
+    "Radio Białystok",
+    "Radio Centrum Rzeszów",
+    "Radio Kampus"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-09-02T01:20:31.168085+00:00",
+  "published_at": "2026-09-02T01:34:41.893185+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -24,14 +26,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3508,
+      "archive_count": 3509,
       "display_name": "Program 2",
       "public_name": "Polskie Radio Program 2",
       "slug": "pr2",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 43949,
+      "archive_count": 43948,
       "display_name": "Program 3",
       "public_name": "Polskie Radio Program 3",
       "slug": "pr3",
@@ -101,7 +103,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3507,
+      "archive_count": 3508,
       "display_name": "Radio Białystok",
       "public_name": "Radio Białystok",
       "slug": "radiobialystok",
@@ -185,7 +187,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3507,
+      "archive_count": 3508,
       "display_name": "Radio Kraków",
       "public_name": "Radio Kraków",
       "slug": "radiokrakow",
@@ -276,7 +278,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3511,
+      "archive_count": 3512,
       "display_name": "Radio Zachód",
       "public_name": "Radio Zachód",
       "slug": "radiozachod",
