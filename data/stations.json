@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-09-02T11:44:38.968698+00:00",
+  "generated_at": "2026-09-02T11:50:17.904697+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-09-02T10:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -10,12 +10,17 @@
     "Radio 357",
     "Radio Centrum Lublin",
     "Radio Centrum Rzeszów",
+    "Radio Dla Ciebie",
     "Radio Index",
+    "Radio Kampus",
+    "Radio Koszalin",
     "Radio Kraków",
-    "Radio Poznań"
+    "Radio Poznań",
+    "Radio Zachód",
+    "RMF24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-09-02T11:44:38.968698+00:00",
+  "published_at": "2026-09-02T11:50:17.904697+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -125,7 +130,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3520,
+      "archive_count": 3521,
       "display_name": "Radio Dla Ciebie",
       "public_name": "Radio Dla Ciebie",
       "slug": "rdc",
@@ -160,7 +165,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3228,
+      "archive_count": 3229,
       "display_name": "Radio Kampus",
       "public_name": "Radio Kampus",
       "slug": "radiokampus",
@@ -181,14 +186,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3413,
+      "archive_count": 3414,
       "display_name": "Radio Koszalin",
       "public_name": "Radio Koszalin",
       "slug": "radiokoszalin",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3518,
+      "archive_count": 3519,
       "display_name": "Radio Kraków",
       "public_name": "Radio Kraków",
       "slug": "radiokrakow",
@@ -279,7 +284,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3521,
+      "archive_count": 3522,
       "display_name": "Radio Zachód",
       "public_name": "Radio Zachód",
       "slug": "radiozachod",
@@ -314,7 +319,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 2051,
+      "archive_count": 2052,
       "display_name": "RMF24",
       "public_name": "RMF24",
       "slug": "rmf24",
