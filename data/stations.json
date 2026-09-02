@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-09-02T18:31:29.161536+00:00",
+  "generated_at": "2026-09-02T18:40:05.628190+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-09-02T17:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -41,7 +41,7 @@
     "Radio Żak"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-09-02T18:31:29.161536+00:00",
+  "published_at": "2026-09-02T18:40:05.628190+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -284,7 +284,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3421,
+      "archive_count": 3420,
       "display_name": "Radio Słupsk",
       "public_name": "Radio Słupsk",
       "slug": "radioslupsk",
@@ -333,14 +333,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 2060,
+      "archive_count": 2059,
       "display_name": "RMF Classic",
       "public_name": "RMF Classic",
       "slug": "rmfclassic",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 2060,
+      "archive_count": 2059,
       "display_name": "RMF24",
       "public_name": "RMF24",
       "slug": "rmf24",
