@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-09-02T02:52:39.769891+00:00",
+  "generated_at": "2026-09-02T02:59:10.546269+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-09-02T01:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -10,6 +10,7 @@
     "Program 3",
     "Polskie Radio 24",
     "Radio 357",
+    "Radio Republika",
     "Polskie Radio Dzieciom",
     "Radio Afera",
     "Radio Akadera",
@@ -29,15 +30,21 @@
     "Radio Luz",
     "Radio Maryja",
     "Radio Olsztyn",
+    "Radio Opole",
     "Radio PiK",
     "Radio Poznań",
     "Radio Rzeszów",
+    "Radio Szczecin",
     "Radio Słupsk",
     "Radio Wrocław",
-    "Radio Łódź"
+    "Radio Zachód",
+    "Radio Zielona Góra",
+    "Radio Łódź",
+    "Radio Żak",
+    "RMF Classic"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-09-02T02:52:39.769891+00:00",
+  "published_at": "2026-09-02T02:59:10.546269+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -98,7 +105,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3528,
+      "archive_count": 3529,
       "display_name": "Radio Republika",
       "public_name": "Radio Republika",
       "slug": "republika",
@@ -245,7 +252,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3414,
+      "archive_count": 3415,
       "display_name": "Radio Opole",
       "public_name": "Radio Opole",
       "slug": "radioopole",
@@ -301,14 +308,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3512,
+      "archive_count": 3513,
       "display_name": "Radio Zachód",
       "public_name": "Radio Zachód",
       "slug": "radiozachod",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3512,
+      "archive_count": 3513,
       "display_name": "Radio Zielona Góra",
       "public_name": "Radio Zielona Góra",
       "slug": "radiozielonagora",
@@ -322,7 +329,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3496,
+      "archive_count": 3497,
       "display_name": "Radio Żak",
       "public_name": "Radio Żak",
       "slug": "radiozak",
