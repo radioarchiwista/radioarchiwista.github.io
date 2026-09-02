@@ -1,8 +1,8 @@
 {
-  "archive_count": 182933,
+  "archive_count": 182935,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-09-02T12:53:37.995756+00:00",
+  "generated_at": "2026-09-02T12:58:23.630698+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-09-02T11:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -11,6 +11,7 @@
     "Program 3",
     "Polskie Radio 24",
     "Radio 357",
+    "Radio Wnet",
     "Polskie Radio Dzieciom",
     "Radio Afera",
     "Radio Akadera",
@@ -20,10 +21,11 @@
     "Radio Kampus",
     "Radio Katowice",
     "Radio Kielce",
-    "Radio PiK"
+    "Radio PiK",
+    "Radio Szczecin"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-09-02T12:53:37.995756+00:00",
+  "published_at": "2026-09-02T12:58:23.630698+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
