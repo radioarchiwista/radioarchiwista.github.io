@@ -1,0 +1,58 @@
+{
+  "archives": [
+    {
+      "archive_item_identifier": "radioindex-2026-09-03",
+      "audio_url": "https://archive.org/download/radioindex-2026-09-03/radioindex_2026-09-03T22-00-00Z.mp3",
+      "completeness_ratio": 0.9998,
+      "day": 4,
+      "download_url": "https://archive.org/download/radioindex-2026-09-03/radioindex_2026-09-03T22-00-00Z.mp3",
+      "duration_seconds": 3598.44,
+      "hour": 0,
+      "hourly_archive_id": 185035,
+      "local_date_label": "04.09.2026",
+      "local_hour_label": "00:00",
+      "local_label": "2026-09-04 00:00 czasu polskiego",
+      "local_started_at": "2026-09-04T00:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 9,
+      "published_at": "2026-09-03T23:19:22.801089+00:00",
+      "published_local_label": "2026-09-04 01:19 czasu polskiego",
+      "remote_filename": "radioindex_2026-09-03T22-00-00Z.mp3",
+      "station_slug": "radioindex",
+      "status": "published",
+      "utc_label": "2026-09-03 22:00 UTC",
+      "utc_started_at": "2026-09-03T22:00:00+00:00",
+      "year": 2026
+    }
+  ],
+  "day": 4,
+  "hour_slots": [
+    {
+      "archive_status": "published",
+      "completeness_ratio": 0.9998,
+      "day": 4,
+      "hour": 0,
+      "hourly_archive_id": 185035,
+      "local_date_label": "04.09.2026",
+      "local_hour_label": "00:00",
+      "local_label": "2026-09-04 00:00 czasu polskiego",
+      "local_started_at": "2026-09-04T00:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 9,
+      "playable": true,
+      "state": "available",
+      "status_label": null,
+      "utc_label": "2026-09-03 22:00 UTC",
+      "utc_started_at": "2026-09-03T22:00:00+00:00",
+      "year": 2026
+    }
+  ],
+  "month": 9,
+  "station": {
+    "display_name": "Radio Index",
+    "public_name": "Radio Index",
+    "slug": "radioindex",
+    "timezone": "Europe/Warsaw"
+  },
+  "year": 2026
+}
