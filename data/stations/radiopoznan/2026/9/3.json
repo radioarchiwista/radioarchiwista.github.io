@@ -383,6 +383,30 @@
       "utc_label": "2026-09-03 13:00 UTC",
       "utc_started_at": "2026-09-03T13:00:00+00:00",
       "year": 2026
+    },
+    {
+      "archive_item_identifier": "radiopoznan-2026-09-03",
+      "audio_url": "https://archive.org/download/radiopoznan-2026-09-03/radiopoznan_2026-09-03T14-00-00Z.mp3",
+      "completeness_ratio": 0.9997,
+      "day": 3,
+      "download_url": "https://archive.org/download/radiopoznan-2026-09-03/radiopoznan_2026-09-03T14-00-00Z.mp3",
+      "duration_seconds": 3599.424,
+      "hour": 16,
+      "hourly_archive_id": 184704,
+      "local_date_label": "03.09.2026",
+      "local_hour_label": "16:00",
+      "local_label": "2026-09-03 16:00 czasu polskiego",
+      "local_started_at": "2026-09-03T16:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 9,
+      "published_at": "2026-09-03T15:31:53.022100+00:00",
+      "published_local_label": "2026-09-03 17:31 czasu polskiego",
+      "remote_filename": "radiopoznan_2026-09-03T14-00-00Z.mp3",
+      "station_slug": "radiopoznan",
+      "status": "published",
+      "utc_label": "2026-09-03 14:00 UTC",
+      "utc_started_at": "2026-09-03T14:00:00+00:00",
+      "year": 2026
     }
   ],
   "day": 3,
@@ -692,7 +716,7 @@
       "year": 2026
     },
     {
-      "archive_status": "ready",
+      "archive_status": "published",
       "completeness_ratio": 0.9997,
       "day": 3,
       "hour": 16,
@@ -703,9 +727,9 @@
       "local_started_at": "2026-09-03T16:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 9,
-      "playable": false,
-      "state": "publishing",
-      "status_label": "Czeka w kolejce do publikacji",
+      "playable": true,
+      "state": "available",
+      "status_label": null,
       "utc_label": "2026-09-03 14:00 UTC",
       "utc_started_at": "2026-09-03T14:00:00+00:00",
       "year": 2026
