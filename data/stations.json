@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-09-03T12:32:57.637801+00:00",
+  "generated_at": "2026-09-03T12:57:09.469267+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-09-03T11:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -49,7 +49,7 @@
     "RMF24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-09-03T12:32:57.637801+00:00",
+  "published_at": "2026-09-03T12:57:09.469267+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -96,7 +96,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3549,
+      "archive_count": 3550,
       "display_name": "TOK FM",
       "public_name": "TOK FM",
       "slug": "tokfm",
