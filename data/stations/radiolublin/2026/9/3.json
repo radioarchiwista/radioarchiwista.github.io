@@ -71,6 +71,30 @@
       "utc_label": "2026-09-03 00:00 UTC",
       "utc_started_at": "2026-09-03T00:00:00+00:00",
       "year": 2026
+    },
+    {
+      "archive_item_identifier": "radiolublin-2026-09-03",
+      "audio_url": "https://archive.org/download/radiolublin-2026-09-03/radiolublin_2026-09-03T01-00-00Z.mp3",
+      "completeness_ratio": 1.0,
+      "day": 3,
+      "download_url": "https://archive.org/download/radiolublin-2026-09-03/radiolublin_2026-09-03T01-00-00Z.mp3",
+      "duration_seconds": 3599.808,
+      "hour": 3,
+      "hourly_archive_id": 184139,
+      "local_date_label": "03.09.2026",
+      "local_hour_label": "03:00",
+      "local_label": "2026-09-03 03:00 czasu polskiego",
+      "local_started_at": "2026-09-03T03:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 9,
+      "published_at": "2026-09-03T02:25:54.887294+00:00",
+      "published_local_label": "2026-09-03 04:25 czasu polskiego",
+      "remote_filename": "radiolublin_2026-09-03T01-00-00Z.mp3",
+      "station_slug": "radiolublin",
+      "status": "published",
+      "utc_label": "2026-09-03 01:00 UTC",
+      "utc_started_at": "2026-09-03T01:00:00+00:00",
+      "year": 2026
     }
   ],
   "day": 3,
@@ -133,7 +157,7 @@
       "year": 2026
     },
     {
-      "archive_status": "ready",
+      "archive_status": "published",
       "completeness_ratio": 1.0,
       "day": 3,
       "hour": 3,
@@ -144,9 +168,9 @@
       "local_started_at": "2026-09-03T03:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 9,
-      "playable": false,
-      "state": "publishing",
-      "status_label": "Czeka w kolejce do publikacji",
+      "playable": true,
+      "state": "available",
+      "status_label": null,
       "utc_label": "2026-09-03 01:00 UTC",
       "utc_started_at": "2026-09-03T01:00:00+00:00",
       "year": 2026
