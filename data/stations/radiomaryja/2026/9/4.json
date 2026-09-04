@@ -455,30 +455,6 @@
       "utc_label": "2026-09-04 16:00 UTC",
       "utc_started_at": "2026-09-04T16:00:00+00:00",
       "year": 2026
-    },
-    {
-      "archive_item_identifier": "radiomaryja-2026-09-04",
-      "audio_url": "https://archive.org/download/radiomaryja-2026-09-04/radiomaryja_2026-09-04T17-00-00Z.mp3",
-      "completeness_ratio": 0.9991,
-      "day": 4,
-      "download_url": "https://archive.org/download/radiomaryja-2026-09-04/radiomaryja_2026-09-04T17-00-00Z.mp3",
-      "duration_seconds": 3586.776,
-      "hour": 19,
-      "hourly_archive_id": 185861,
-      "local_date_label": "04.09.2026",
-      "local_hour_label": "19:00",
-      "local_label": "2026-09-04 19:00 czasu polskiego",
-      "local_started_at": "2026-09-04T19:00:00+02:00",
-      "local_timezone_label": "czasu polskiego",
-      "month": 9,
-      "published_at": "2026-09-04T18:27:04.624801+00:00",
-      "published_local_label": "2026-09-04 20:27 czasu polskiego",
-      "remote_filename": "radiomaryja_2026-09-04T17-00-00Z.mp3",
-      "station_slug": "radiomaryja",
-      "status": "published",
-      "utc_label": "2026-09-04 17:00 UTC",
-      "utc_started_at": "2026-09-04T17:00:00+00:00",
-      "year": 2026
     }
   ],
   "day": 4,
@@ -845,7 +821,7 @@
       "year": 2026
     },
     {
-      "archive_status": "published",
+      "archive_status": "ready",
       "completeness_ratio": 0.9991,
       "day": 4,
       "hour": 19,
@@ -856,9 +832,9 @@
       "local_started_at": "2026-09-04T19:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 9,
-      "playable": true,
-      "state": "available",
-      "status_label": null,
+      "playable": false,
+      "state": "publishing",
+      "status_label": "Czeka w kolejce do publikacji",
       "utc_label": "2026-09-04 17:00 UTC",
       "utc_started_at": "2026-09-04T17:00:00+00:00",
       "year": 2026
