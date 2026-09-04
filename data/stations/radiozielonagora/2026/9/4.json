@@ -335,6 +335,30 @@
       "utc_label": "2026-09-04 11:00 UTC",
       "utc_started_at": "2026-09-04T11:00:00+00:00",
       "year": 2026
+    },
+    {
+      "archive_item_identifier": "radiozielonagora-2026-09-04",
+      "audio_url": "https://archive.org/download/radiozielonagora-2026-09-04/radiozielonagora_2026-09-04T12-00-00Z.mp3",
+      "completeness_ratio": 0.9955,
+      "day": 4,
+      "download_url": "https://archive.org/download/radiozielonagora-2026-09-04/radiozielonagora_2026-09-04T12-00-00Z.mp3",
+      "duration_seconds": 3595.776,
+      "hour": 14,
+      "hourly_archive_id": 185658,
+      "local_date_label": "04.09.2026",
+      "local_hour_label": "14:00",
+      "local_label": "2026-09-04 14:00 czasu polskiego",
+      "local_started_at": "2026-09-04T14:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 9,
+      "published_at": "2026-09-04T13:47:58.137827+00:00",
+      "published_local_label": "2026-09-04 15:47 czasu polskiego",
+      "remote_filename": "radiozielonagora_2026-09-04T12-00-00Z.mp3",
+      "station_slug": "radiozielonagora",
+      "status": "published",
+      "utc_label": "2026-09-04 12:00 UTC",
+      "utc_started_at": "2026-09-04T12:00:00+00:00",
+      "year": 2026
     }
   ],
   "day": 4,
@@ -606,7 +630,7 @@
       "year": 2026
     },
     {
-      "archive_status": "ready",
+      "archive_status": "published",
       "completeness_ratio": 0.9955,
       "day": 4,
       "hour": 14,
@@ -617,9 +641,9 @@
       "local_started_at": "2026-09-04T14:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 9,
-      "playable": false,
-      "state": "publishing",
-      "status_label": "Czeka w kolejce do publikacji",
+      "playable": true,
+      "state": "available",
+      "status_label": null,
       "utc_label": "2026-09-04 12:00 UTC",
       "utc_started_at": "2026-09-04T12:00:00+00:00",
       "year": 2026
