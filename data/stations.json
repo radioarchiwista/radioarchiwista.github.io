@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-09-04T16:52:08.029159+00:00",
+  "generated_at": "2026-09-04T17:01:07.389105+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-09-04T15:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -10,17 +10,20 @@
     "Program 3",
     "Polskie Radio 24",
     "Radio 357",
+    "Radio Nowy Świat",
     "Polskie Radio Dzieciom",
     "Radio Afera",
     "Radio Akadera",
     "Radio Białystok",
     "Radio Centrum Lublin",
+    "Radio Dla Ciebie",
     "Radio Gdańsk",
     "Radio Gdańsk Regiony",
     "Radio Gorzów",
     "Radio Index",
     "Radio Kampus",
     "Radio Katowice",
+    "Radio Koszalin",
     "Radio Kraków",
     "Radio Lublin",
     "Radio Luz",
@@ -34,10 +37,12 @@
     "Radio Wrocław",
     "Radio Zachód",
     "Radio Zielona Góra",
-    "Radio Łódź"
+    "Radio Łódź",
+    "Radio Żak",
+    "RMF Classic"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-09-04T16:52:08.029159+00:00",
+  "published_at": "2026-09-04T17:01:07.389105+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -77,7 +82,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3590,
+      "archive_count": 3591,
       "display_name": "Radio Nowy Świat",
       "public_name": "Radio Nowy Świat",
       "slug": "rns",
@@ -147,7 +152,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3575,
+      "archive_count": 3576,
       "display_name": "Radio Dla Ciebie",
       "public_name": "Radio Dla Ciebie",
       "slug": "rdc",
@@ -203,7 +208,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3467,
+      "archive_count": 3468,
       "display_name": "Radio Koszalin",
       "public_name": "Radio Koszalin",
       "slug": "radiokoszalin",
@@ -308,7 +313,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3575,
+      "archive_count": 3576,
       "display_name": "Radio Zielona Góra",
       "public_name": "Radio Zielona Góra",
       "slug": "radiozielonagora",
@@ -322,14 +327,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3559,
+      "archive_count": 3560,
       "display_name": "Radio Żak",
       "public_name": "Radio Żak",
       "slug": "radiozak",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 2105,
+      "archive_count": 2106,
       "display_name": "RMF Classic",
       "public_name": "RMF Classic",
       "slug": "rmfclassic",
