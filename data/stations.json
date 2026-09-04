@@ -1,16 +1,37 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-09-04T11:08:40.951173+00:00",
+  "generated_at": "2026-09-04T11:27:51.180853+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-09-04T10:00:00+00:00",
   "latest_archive_hour_stations": [
     "Program 2",
     "Program 3",
-    "Polskie Radio Dzieciom"
+    "Polskie Radio 24",
+    "Radio 357",
+    "Polskie Radio Dzieciom",
+    "Radio Afera",
+    "Radio Akadera",
+    "Radio Centrum Lublin",
+    "Radio Centrum Rzeszów",
+    "Radio Gdańsk",
+    "Radio Gdańsk Regiony",
+    "Radio Gorzów",
+    "Radio Index",
+    "Radio Kampus",
+    "Radio Katowice",
+    "Radio Kielce",
+    "Radio Koszalin",
+    "Radio Kraków",
+    "Radio Lublin",
+    "Radio Luz",
+    "Radio Maryja",
+    "Radio Olsztyn",
+    "Radio Poznań",
+    "Radio Łódź"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-09-04T11:08:40.951173+00:00",
+  "published_at": "2026-09-04T11:27:51.180853+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -29,21 +50,21 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 44006,
+      "archive_count": 44007,
       "display_name": "Program 3",
       "public_name": "Polskie Radio Program 3",
       "slug": "pr3",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3583,
+      "archive_count": 3584,
       "display_name": "Polskie Radio 24",
       "public_name": "Polskie Radio 24",
       "slug": "pr24",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3566,
+      "archive_count": 3567,
       "display_name": "Radio 357",
       "public_name": "Radio 357",
       "slug": "radio357",
@@ -92,7 +113,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3567,
+      "archive_count": 3568,
       "display_name": "Radio Akadera",
       "public_name": "Radio Akadera",
       "slug": "radioakadera",
@@ -113,7 +134,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3540,
+      "archive_count": 3541,
       "display_name": "Radio Centrum Rzeszów",
       "public_name": "Radio Centrum Rzeszów",
       "slug": "radiocentrumrzeszow",
@@ -127,7 +148,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3570,
+      "archive_count": 3571,
       "display_name": "Radio Gdańsk",
       "public_name": "Radio Gdańsk",
       "slug": "radiogdansk",
