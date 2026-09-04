@@ -431,6 +431,30 @@
       "utc_label": "2026-09-04 15:00 UTC",
       "utc_started_at": "2026-09-04T15:00:00+00:00",
       "year": 2026
+    },
+    {
+      "archive_item_identifier": "radioindex-2026-09-04",
+      "audio_url": "https://archive.org/download/radioindex-2026-09-04/radioindex_2026-09-04T16-00-00Z.mp3",
+      "completeness_ratio": 1.0,
+      "day": 4,
+      "download_url": "https://archive.org/download/radioindex-2026-09-04/radioindex_2026-09-04T16-00-00Z.mp3",
+      "duration_seconds": 3600.013,
+      "hour": 18,
+      "hourly_archive_id": 185809,
+      "local_date_label": "04.09.2026",
+      "local_hour_label": "18:00",
+      "local_label": "2026-09-04 18:00 czasu polskiego",
+      "local_started_at": "2026-09-04T18:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 9,
+      "published_at": "2026-09-04T17:38:44.610169+00:00",
+      "published_local_label": "2026-09-04 19:38 czasu polskiego",
+      "remote_filename": "radioindex_2026-09-04T16-00-00Z.mp3",
+      "station_slug": "radioindex",
+      "status": "published",
+      "utc_label": "2026-09-04 16:00 UTC",
+      "utc_started_at": "2026-09-04T16:00:00+00:00",
+      "year": 2026
     }
   ],
   "day": 4,
@@ -778,7 +802,7 @@
       "year": 2026
     },
     {
-      "archive_status": "ready",
+      "archive_status": "published",
       "completeness_ratio": 1.0,
       "day": 4,
       "hour": 18,
@@ -789,9 +813,9 @@
       "local_started_at": "2026-09-04T18:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 9,
-      "playable": false,
-      "state": "publishing",
-      "status_label": "Czeka w kolejce do publikacji",
+      "playable": true,
+      "state": "available",
+      "status_label": null,
       "utc_label": "2026-09-04 16:00 UTC",
       "utc_started_at": "2026-09-04T16:00:00+00:00",
       "year": 2026
