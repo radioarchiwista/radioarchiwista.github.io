@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-09-04T22:48:32.967007+00:00",
+  "generated_at": "2026-09-04T22:56:23.729730+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-09-04T21:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -18,9 +18,12 @@
     "Radio Białystok",
     "Radio Centrum Lublin",
     "Radio Centrum Rzeszów",
-    "Radio Gdańsk",
+    "Radio Dla Ciebie",
     "Radio Gdańsk Regiony",
+    "Radio Gorzów",
+    "Radio Kampus",
     "Radio Katowice",
+    "Radio Kielce",
     "Radio Koszalin",
     "Radio Lublin",
     "Radio Luz",
@@ -31,11 +34,14 @@
     "Radio Rzeszów",
     "Radio Szczecin",
     "Radio Słupsk",
+    "Radio Zachód",
     "Radio Zielona Góra",
-    "Radio Łódź"
+    "Radio Łódź",
+    "RMF Classic",
+    "RMF24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-09-04T22:48:32.967007+00:00",
+  "published_at": "2026-09-04T22:56:23.729730+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -166,7 +172,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3581,
+      "archive_count": 3582,
       "display_name": "Radio Gorzów",
       "public_name": "Radio Gorzów",
       "slug": "radiogorzow",
@@ -180,7 +186,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3288,
+      "archive_count": 3289,
       "display_name": "Radio Kampus",
       "public_name": "Radio Kampus",
       "slug": "radiokampus",
@@ -194,7 +200,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3545,
+      "archive_count": 3546,
       "display_name": "Radio Kielce",
       "public_name": "Radio Kielce",
       "slug": "radiokielce",
@@ -243,7 +249,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3482,
+      "archive_count": 3483,
       "display_name": "Radio Opole",
       "public_name": "Radio Opole",
       "slug": "radioopole",
@@ -278,7 +284,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3472,
+      "archive_count": 3473,
       "display_name": "Radio Słupsk",
       "public_name": "Radio Słupsk",
       "slug": "radioslupsk",
@@ -299,7 +305,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3581,
+      "archive_count": 3582,
       "display_name": "Radio Zachód",
       "public_name": "Radio Zachód",
       "slug": "radiozachod",
