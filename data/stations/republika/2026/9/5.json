@@ -47,6 +47,30 @@
       "utc_label": "2026-09-04 23:00 UTC",
       "utc_started_at": "2026-09-04T23:00:00+00:00",
       "year": 2026
+    },
+    {
+      "archive_item_identifier": "republika-2026-09-05",
+      "audio_url": "https://archive.org/download/republika-2026-09-05/republika_2026-09-05T01-00-00Z.mp3",
+      "completeness_ratio": 0.9997,
+      "day": 5,
+      "download_url": "https://archive.org/download/republika-2026-09-05/republika_2026-09-05T01-00-00Z.mp3",
+      "duration_seconds": 3599.328,
+      "hour": 3,
+      "hourly_archive_id": 186219,
+      "local_date_label": "05.09.2026",
+      "local_hour_label": "03:00",
+      "local_label": "2026-09-05 03:00 czasu polskiego",
+      "local_started_at": "2026-09-05T03:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 9,
+      "published_at": "2026-09-05T03:32:11.313957+00:00",
+      "published_local_label": "2026-09-05 05:32 czasu polskiego",
+      "remote_filename": "republika_2026-09-05T01-00-00Z.mp3",
+      "station_slug": "republika",
+      "status": "published",
+      "utc_label": "2026-09-05 01:00 UTC",
+      "utc_started_at": "2026-09-05T01:00:00+00:00",
+      "year": 2026
     }
   ],
   "day": 5,
@@ -109,7 +133,7 @@
       "year": 2026
     },
     {
-      "archive_status": "ready",
+      "archive_status": "published",
       "completeness_ratio": 0.9997,
       "day": 5,
       "hour": 3,
@@ -120,9 +144,9 @@
       "local_started_at": "2026-09-05T03:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 9,
-      "playable": false,
-      "state": "publishing",
-      "status_label": "Czeka w kolejce do publikacji",
+      "playable": true,
+      "state": "available",
+      "status_label": null,
       "utc_label": "2026-09-05 01:00 UTC",
       "utc_started_at": "2026-09-05T01:00:00+00:00",
       "year": 2026
