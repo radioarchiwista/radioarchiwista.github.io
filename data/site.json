@@ -1,8 +1,8 @@
 {
-  "archive_count": 185707,
+  "archive_count": 185713,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-09-05T05:50:19.818254+00:00",
+  "generated_at": "2026-09-05T05:57:10.851480+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-09-05T04:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -10,6 +10,7 @@
     "Program 3",
     "Polskie Radio 24",
     "Radio 357",
+    "TOK FM",
     "Radio Wnet",
     "Radio Republika",
     "Polskie Radio Dzieciom",
@@ -44,7 +45,7 @@
     "RMF24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-09-05T05:50:19.818254+00:00",
+  "published_at": "2026-09-05T05:57:10.851480+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"

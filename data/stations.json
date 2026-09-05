@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-09-05T05:50:19.818254+00:00",
+  "generated_at": "2026-09-05T05:57:10.851480+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-09-05T04:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -9,6 +9,7 @@
     "Program 3",
     "Polskie Radio 24",
     "Radio 357",
+    "TOK FM",
     "Radio Wnet",
     "Radio Republika",
     "Polskie Radio Dzieciom",
@@ -43,7 +44,7 @@
     "RMF24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-09-05T05:50:19.818254+00:00",
+  "published_at": "2026-09-05T05:57:10.851480+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -90,14 +91,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3591,
+      "archive_count": 3592,
       "display_name": "TOK FM",
       "public_name": "TOK FM",
       "slug": "tokfm",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3603,
+      "archive_count": 3604,
       "display_name": "Radio Wnet",
       "public_name": "Radio Wnet",
       "slug": "wnet",
@@ -209,7 +210,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3480,
+      "archive_count": 3481,
       "display_name": "Radio Koszalin",
       "public_name": "Radio Koszalin",
       "slug": "radiokoszalin",
@@ -328,21 +329,21 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3572,
+      "archive_count": 3573,
       "display_name": "Radio Żak",
       "public_name": "Radio Żak",
       "slug": "radiozak",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 2117,
+      "archive_count": 2118,
       "display_name": "RMF Classic",
       "public_name": "RMF Classic",
       "slug": "rmfclassic",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 2117,
+      "archive_count": 2118,
       "display_name": "RMF24",
       "public_name": "RMF24",
       "slug": "rmf24",
