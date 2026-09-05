@@ -1,0 +1,58 @@
+{
+  "archives": [
+    {
+      "archive_item_identifier": "rmf24-2026-09-05",
+      "audio_url": "https://archive.org/download/rmf24-2026-09-05/rmf24_2026-09-05T22-00-00Z.mp3",
+      "completeness_ratio": 0.9999,
+      "day": 6,
+      "download_url": "https://archive.org/download/rmf24-2026-09-05/rmf24_2026-09-05T22-00-00Z.mp3",
+      "duration_seconds": 3599.726,
+      "hour": 0,
+      "hourly_archive_id": 187120,
+      "local_date_label": "06.09.2026",
+      "local_hour_label": "00:00",
+      "local_label": "2026-09-06 00:00 czasu polskiego",
+      "local_started_at": "2026-09-06T00:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 9,
+      "published_at": "2026-09-05T23:24:29.105825+00:00",
+      "published_local_label": "2026-09-06 01:24 czasu polskiego",
+      "remote_filename": "rmf24_2026-09-05T22-00-00Z.mp3",
+      "station_slug": "rmf24",
+      "status": "published",
+      "utc_label": "2026-09-05 22:00 UTC",
+      "utc_started_at": "2026-09-05T22:00:00+00:00",
+      "year": 2026
+    }
+  ],
+  "day": 6,
+  "hour_slots": [
+    {
+      "archive_status": "published",
+      "completeness_ratio": 0.9999,
+      "day": 6,
+      "hour": 0,
+      "hourly_archive_id": 187120,
+      "local_date_label": "06.09.2026",
+      "local_hour_label": "00:00",
+      "local_label": "2026-09-06 00:00 czasu polskiego",
+      "local_started_at": "2026-09-06T00:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 9,
+      "playable": true,
+      "state": "available",
+      "status_label": null,
+      "utc_label": "2026-09-05 22:00 UTC",
+      "utc_started_at": "2026-09-05T22:00:00+00:00",
+      "year": 2026
+    }
+  ],
+  "month": 9,
+  "station": {
+    "display_name": "RMF24",
+    "public_name": "RMF24",
+    "slug": "rmf24",
+    "timezone": "Europe/Warsaw"
+  },
+  "year": 2026
+}
