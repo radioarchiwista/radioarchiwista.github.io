@@ -1,8 +1,8 @@
 {
-  "archive_count": 185582,
+  "archive_count": 185583,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-09-05T02:53:48.595676+00:00",
+  "generated_at": "2026-09-05T03:00:42.733116+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-09-05T01:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -30,10 +30,11 @@
     "Radio Luz",
     "Radio Olsztyn",
     "Radio Wrocław",
+    "Radio Zielona Góra",
     "Radio Żak"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-09-05T02:53:48.595676+00:00",
+  "published_at": "2026-09-05T03:00:42.733116+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
