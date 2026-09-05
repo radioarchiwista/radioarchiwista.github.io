@@ -1,8 +1,8 @@
 {
-  "archive_count": 185917,
+  "archive_count": 185927,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-09-05T10:19:24.053900+00:00",
+  "generated_at": "2026-09-05T10:28:20.410281+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-09-05T09:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -17,10 +17,22 @@
     "Radio Centrum Lublin",
     "Radio Centrum Rzeszów",
     "Radio Gdańsk",
-    "Radio Kampus"
+    "Radio Gdańsk Regiony",
+    "Radio Gorzów",
+    "Radio Kampus",
+    "Radio Katowice",
+    "Radio Kielce",
+    "Radio Koszalin",
+    "Radio Kraków",
+    "Radio Lublin",
+    "Radio Luz",
+    "Radio Maryja",
+    "Radio Opole",
+    "Radio PiK",
+    "Radio Łódź"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-09-05T10:19:24.053900+00:00",
+  "published_at": "2026-09-05T10:28:20.410281+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
