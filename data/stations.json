@@ -1,17 +1,20 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-09-05T00:13:39.281812+00:00",
+  "generated_at": "2026-09-05T00:21:15.648731+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-09-04T23:00:00+00:00",
   "latest_archive_hour_stations": [
     "Program 1",
     "Program 2",
     "Polskie Radio 24",
-    "Polskie Radio Dzieciom"
+    "Polskie Radio Dzieciom",
+    "Radio Gdańsk",
+    "Radio Gdańsk Regiony",
+    "Radio Gorzów"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-09-05T00:13:39.281812+00:00",
+  "published_at": "2026-09-05T00:21:15.648731+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -79,7 +82,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1055,
+      "archive_count": 1056,
       "display_name": "Polskie Radio Dzieciom",
       "public_name": "Polskie Radio Dzieciom",
       "slug": "polskieradiodzieciom",
@@ -128,7 +131,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3583,
+      "archive_count": 3584,
       "display_name": "Radio Gdańsk",
       "public_name": "Radio Gdańsk",
       "slug": "radiogdansk",
