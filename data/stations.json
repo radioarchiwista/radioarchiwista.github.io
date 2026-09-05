@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-09-05T13:51:06.105782+00:00",
+  "generated_at": "2026-09-05T13:58:34.405356+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-09-05T12:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -13,6 +13,7 @@
     "Radio Nowy Świat",
     "TOK FM",
     "Radio Wnet",
+    "Radio Republika",
     "Polskie Radio Dzieciom",
     "Radio Afera",
     "Radio Akadera",
@@ -26,24 +27,29 @@
     "Radio Index",
     "Radio Kampus",
     "Radio Katowice",
+    "Radio Kielce",
     "Radio Koszalin",
     "Radio Kraków",
     "Radio Lublin",
+    "Radio Luz",
     "Radio Maryja",
     "Radio Olsztyn",
     "Radio Opole",
     "Radio PiK",
+    "Radio Poznań",
     "Radio Rzeszów",
+    "Radio Szczecin",
     "Radio Słupsk",
     "Radio Wrocław",
     "Radio Zachód",
     "Radio Zielona Góra",
     "Radio Łódź",
     "Radio Żak",
+    "RMF Classic",
     "RMF24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-09-05T13:51:06.105782+00:00",
+  "published_at": "2026-09-05T13:58:34.405356+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -104,7 +110,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3612,
+      "archive_count": 3613,
       "display_name": "Radio Republika",
       "public_name": "Radio Republika",
       "slug": "republika",
@@ -181,7 +187,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3532,
+      "archive_count": 3533,
       "display_name": "Radio Index",
       "public_name": "Radio Index",
       "slug": "radioindex",
@@ -202,7 +208,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3560,
+      "archive_count": 3561,
       "display_name": "Radio Kielce",
       "public_name": "Radio Kielce",
       "slug": "radiokielce",
@@ -230,14 +236,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3596,
+      "archive_count": 3597,
       "display_name": "Radio Luz",
       "public_name": "Radio Luz",
       "slug": "radioluz",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3450,
+      "archive_count": 3451,
       "display_name": "Radio Maryja",
       "public_name": "Radio Maryja",
       "slug": "radiomaryja",
@@ -258,28 +264,28 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3550,
+      "archive_count": 3551,
       "display_name": "Radio PiK",
       "public_name": "Radio PiK",
       "slug": "radiopik",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3595,
+      "archive_count": 3596,
       "display_name": "Radio Poznań",
       "public_name": "Radio Poznań",
       "slug": "radiopoznan",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3596,
+      "archive_count": 3597,
       "display_name": "Radio Rzeszów",
       "public_name": "Radio Rzeszów",
       "slug": "radiorzeszow",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3590,
+      "archive_count": 3591,
       "display_name": "Radio Szczecin",
       "public_name": "Radio Szczecin",
       "slug": "radioszczecin",
@@ -335,7 +341,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 2126,
+      "archive_count": 2127,
       "display_name": "RMF Classic",
       "public_name": "RMF Classic",
       "slug": "rmfclassic",
