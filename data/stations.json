@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-09-05T04:44:37.036133+00:00",
+  "generated_at": "2026-09-05T04:51:30.804273+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-09-05T03:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -26,14 +26,19 @@
     "Radio Lublin",
     "Radio Luz",
     "Radio Maryja",
-    "Radio Olsztyn",
     "Radio Opole",
     "Radio PiK",
     "Radio Poznań",
-    "Radio Łódź"
+    "Radio Szczecin",
+    "Radio Słupsk",
+    "Radio Wrocław",
+    "Radio Zachód",
+    "Radio Zielona Góra",
+    "Radio Łódź",
+    "Radio Żak"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-09-05T04:44:37.036133+00:00",
+  "published_at": "2026-09-05T04:51:30.804273+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -248,7 +253,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3540,
+      "archive_count": 3541,
       "display_name": "Radio PiK",
       "public_name": "Radio PiK",
       "slug": "radiopik",
@@ -269,14 +274,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3579,
+      "archive_count": 3580,
       "display_name": "Radio Szczecin",
       "public_name": "Radio Szczecin",
       "slug": "radioszczecin",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3476,
+      "archive_count": 3477,
       "display_name": "Radio Słupsk",
       "public_name": "Radio Słupsk",
       "slug": "radioslupsk",
@@ -290,14 +295,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3587,
+      "archive_count": 3588,
       "display_name": "Radio Wrocław",
       "public_name": "Radio Wrocław",
       "slug": "radiowroclaw",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3587,
+      "archive_count": 3588,
       "display_name": "Radio Zachód",
       "public_name": "Radio Zachód",
       "slug": "radiozachod",
@@ -318,7 +323,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3571,
+      "archive_count": 3572,
       "display_name": "Radio Żak",
       "public_name": "Radio Żak",
       "slug": "radiozak",
