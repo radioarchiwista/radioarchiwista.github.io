@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-09-06T05:43:14.465458+00:00",
+  "generated_at": "2026-09-06T05:55:44.178094+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-09-06T04:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -48,7 +48,7 @@
     "RMF Classic"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-09-06T05:43:14.465458+00:00",
+  "published_at": "2026-09-06T05:55:44.178094+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -102,7 +102,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3629,
+      "archive_count": 3630,
       "display_name": "Radio Wnet",
       "public_name": "Radio Wnet",
       "slug": "wnet",
@@ -347,7 +347,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 2138,
+      "archive_count": 2139,
       "display_name": "RMF24",
       "public_name": "RMF24",
       "slug": "rmf24",
