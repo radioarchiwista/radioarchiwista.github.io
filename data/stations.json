@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-09-06T03:28:35.324774+00:00",
+  "generated_at": "2026-09-06T03:37:33.325296+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-09-06T02:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -21,10 +21,15 @@
     "Radio Gorzów",
     "Radio Index",
     "Radio Kampus",
-    "Radio Katowice"
+    "Radio Katowice",
+    "Radio Kielce",
+    "Radio Koszalin",
+    "Radio Kraków",
+    "Radio Olsztyn",
+    "Radio Łódź"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-09-06T03:28:35.324774+00:00",
+  "published_at": "2026-09-06T03:37:33.325296+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -64,7 +69,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3623,
+      "archive_count": 3624,
       "display_name": "Radio Nowy Świat",
       "public_name": "Radio Nowy Świat",
       "slug": "rns",
@@ -134,7 +139,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3608,
+      "archive_count": 3609,
       "display_name": "Radio Dla Ciebie",
       "public_name": "Radio Dla Ciebie",
       "slug": "rdc",
@@ -148,56 +153,56 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1081,
+      "archive_count": 1082,
       "display_name": "Radio Gdańsk Regiony",
       "public_name": "Radio Gdańsk Regiony",
       "slug": "radiogdanskregiony",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3609,
+      "archive_count": 3610,
       "display_name": "Radio Gorzów",
       "public_name": "Radio Gorzów",
       "slug": "radiogorzow",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3545,
+      "archive_count": 3546,
       "display_name": "Radio Index",
       "public_name": "Radio Index",
       "slug": "radioindex",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3315,
+      "archive_count": 3316,
       "display_name": "Radio Kampus",
       "public_name": "Radio Kampus",
       "slug": "radiokampus",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3606,
+      "archive_count": 3607,
       "display_name": "Radio Katowice",
       "public_name": "Radio Katowice",
       "slug": "radiokatowice",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3574,
+      "archive_count": 3575,
       "display_name": "Radio Kielce",
       "public_name": "Radio Kielce",
       "slug": "radiokielce",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3502,
+      "archive_count": 3503,
       "display_name": "Radio Koszalin",
       "public_name": "Radio Koszalin",
       "slug": "radiokoszalin",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3606,
+      "archive_count": 3607,
       "display_name": "Radio Kraków",
       "public_name": "Radio Kraków",
       "slug": "radiokrakow",
@@ -239,7 +244,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3562,
+      "archive_count": 3563,
       "display_name": "Radio PiK",
       "public_name": "Radio PiK",
       "slug": "radiopik",
@@ -302,7 +307,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3608,
+      "archive_count": 3610,
       "display_name": "Radio Łódź",
       "public_name": "Radio Łódź",
       "slug": "radiolodz",
@@ -316,7 +321,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 2138,
+      "archive_count": 2139,
       "display_name": "RMF Classic",
       "public_name": "RMF Classic",
       "slug": "rmfclassic",
