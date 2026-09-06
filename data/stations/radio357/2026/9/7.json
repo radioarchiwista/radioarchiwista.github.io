@@ -1,0 +1,33 @@
+{
+  "archives": [],
+  "day": 7,
+  "hour_slots": [
+    {
+      "archive_status": "ready",
+      "completeness_ratio": 0.9966,
+      "day": 7,
+      "hour": 0,
+      "hourly_archive_id": 188120,
+      "local_date_label": "07.09.2026",
+      "local_hour_label": "00:00",
+      "local_label": "2026-09-07 00:00 czasu polskiego",
+      "local_started_at": "2026-09-07T00:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 9,
+      "playable": false,
+      "state": "publishing",
+      "status_label": "Czeka w kolejce do publikacji",
+      "utc_label": "2026-09-06 22:00 UTC",
+      "utc_started_at": "2026-09-06T22:00:00+00:00",
+      "year": 2026
+    }
+  ],
+  "month": 9,
+  "station": {
+    "display_name": "Radio 357",
+    "public_name": "Radio 357",
+    "slug": "radio357",
+    "timezone": "Europe/Warsaw"
+  },
+  "year": 2026
+}
