@@ -1,8 +1,8 @@
 {
-  "archive_count": 186618,
+  "archive_count": 186622,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-09-06T03:55:31.429627+00:00",
+  "generated_at": "2026-09-06T04:00:38.162764+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-09-06T02:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -11,6 +11,7 @@
     "Program 3",
     "Polskie Radio 24",
     "Radio 357",
+    "Radio Nowy Świat",
     "Polskie Radio Dzieciom",
     "Radio Afera",
     "Radio Akadera",
@@ -41,7 +42,7 @@
     "RMF Classic"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-09-06T03:55:31.429627+00:00",
+  "published_at": "2026-09-06T04:00:38.162764+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
