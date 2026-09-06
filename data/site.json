@@ -1,10 +1,10 @@
 {
-  "archive_count": 186551,
+  "archive_count": 186559,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-09-06T02:01:43.159341+00:00",
+  "generated_at": "2026-09-06T02:18:03.501162+00:00",
   "latest_archive_hour_expected_station_count": 43,
-  "latest_archive_hour_started_at": "2026-09-06T00:00:00+00:00",
+  "latest_archive_hour_started_at": "2026-09-06T01:00:00+00:00",
   "latest_archive_hour_stations": [
     "Program 1",
     "Program 2",
@@ -14,13 +14,15 @@
     "Polskie Radio Dzieciom",
     "Radio Afera",
     "Radio Akadera",
+    "Radio Białystok",
     "Radio Centrum Lublin",
+    "Radio Gdańsk",
     "Radio Gdańsk Regiony",
-    "Radio Kielce",
-    "Radio Poznań"
+    "Radio Gorzów",
+    "Radio Index"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-09-06T02:01:43.159341+00:00",
+  "published_at": "2026-09-06T02:18:03.501162+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
