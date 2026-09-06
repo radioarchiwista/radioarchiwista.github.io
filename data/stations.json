@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-09-06T02:36:37.567453+00:00",
+  "generated_at": "2026-09-06T02:43:35.104007+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-09-06T01:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -22,10 +22,14 @@
     "Radio Kielce",
     "Radio Koszalin",
     "Radio Kraków",
-    "Radio Poznań"
+    "Radio Poznań",
+    "Radio Rzeszów",
+    "Radio Słupsk",
+    "Radio Wrocław",
+    "Radio Zachód"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-09-06T02:36:37.567453+00:00",
+  "published_at": "2026-09-06T02:43:35.104007+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -254,7 +258,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3609,
+      "archive_count": 3610,
       "display_name": "Radio Rzeszów",
       "public_name": "Radio Rzeszów",
       "slug": "radiorzeszow",
@@ -268,7 +272,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3500,
+      "archive_count": 3501,
       "display_name": "Radio Słupsk",
       "public_name": "Radio Słupsk",
       "slug": "radioslupsk",
@@ -282,14 +286,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3609,
+      "archive_count": 3610,
       "display_name": "Radio Wrocław",
       "public_name": "Radio Wrocław",
       "slug": "radiowroclaw",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3609,
+      "archive_count": 3610,
       "display_name": "Radio Zachód",
       "public_name": "Radio Zachód",
       "slug": "radiozachod",
