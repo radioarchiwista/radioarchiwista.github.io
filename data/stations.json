@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-09-06T00:38:41.587087+00:00",
+  "generated_at": "2026-09-06T00:44:11.223500+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-09-05T23:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -10,6 +10,9 @@
     "Program 3",
     "Polskie Radio 24",
     "Radio 357",
+    "Radio Nowy Świat",
+    "TOK FM",
+    "Radio Wnet",
     "Radio Republika",
     "Polskie Radio Dzieciom",
     "Radio Afera",
@@ -46,7 +49,7 @@
     "RMF24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-09-06T00:38:41.587087+00:00",
+  "published_at": "2026-09-06T00:44:11.223500+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -86,14 +89,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3622,
+      "archive_count": 3623,
       "display_name": "Radio Nowy Świat",
       "public_name": "Radio Nowy Świat",
       "slug": "rns",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3611,
+      "archive_count": 3612,
       "display_name": "TOK FM",
       "public_name": "TOK FM",
       "slug": "tokfm",
@@ -317,7 +320,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3607,
+      "archive_count": 3608,
       "display_name": "Radio Zielona Góra",
       "public_name": "Radio Zielona Góra",
       "slug": "radiozielonagora",
