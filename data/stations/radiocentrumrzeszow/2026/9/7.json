@@ -1,34 +1,9 @@
 {
-  "archives": [
-    {
-      "archive_item_identifier": "radiocentrumrzeszow-2026-09-06",
-      "audio_url": "https://archive.org/download/radiocentrumrzeszow-2026-09-06/radiocentrumrzeszow_2026-09-06T22-00-00Z.mp3",
-      "completeness_ratio": 0.9975,
-      "day": 7,
-      "download_url": "https://archive.org/download/radiocentrumrzeszow-2026-09-06/radiocentrumrzeszow_2026-09-06T22-00-00Z.mp3",
-      "duration_seconds": 3599.592,
-      "hour": 0,
-      "hourly_archive_id": 188124,
-      "local_date_label": "07.09.2026",
-      "local_hour_label": "00:00",
-      "local_label": "2026-09-07 00:00 czasu polskiego",
-      "local_started_at": "2026-09-07T00:00:00+02:00",
-      "local_timezone_label": "czasu polskiego",
-      "month": 9,
-      "published_at": "2026-09-06T23:21:21.652172+00:00",
-      "published_local_label": "2026-09-07 01:21 czasu polskiego",
-      "remote_filename": "radiocentrumrzeszow_2026-09-06T22-00-00Z.mp3",
-      "station_slug": "radiocentrumrzeszow",
-      "status": "published",
-      "utc_label": "2026-09-06 22:00 UTC",
-      "utc_started_at": "2026-09-06T22:00:00+00:00",
-      "year": 2026
-    }
-  ],
+  "archives": [],
   "day": 7,
   "hour_slots": [
     {
-      "archive_status": "published",
+      "archive_status": "ready",
       "completeness_ratio": 0.9975,
       "day": 7,
       "hour": 0,
@@ -39,9 +14,9 @@
       "local_started_at": "2026-09-07T00:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 9,
-      "playable": true,
-      "state": "available",
-      "status_label": null,
+      "playable": false,
+      "state": "publishing",
+      "status_label": "Czeka w kolejce do publikacji",
       "utc_label": "2026-09-06 22:00 UTC",
       "utc_started_at": "2026-09-06T22:00:00+00:00",
       "year": 2026
