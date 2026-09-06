@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-09-06T03:37:33.325296+00:00",
+  "generated_at": "2026-09-06T03:47:10.401854+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-09-06T02:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -26,10 +26,17 @@
     "Radio Koszalin",
     "Radio Kraków",
     "Radio Olsztyn",
+    "Radio Opole",
+    "Radio PiK",
+    "Radio Poznań",
+    "Radio Rzeszów",
+    "Radio Słupsk",
+    "Radio Wrocław",
+    "Radio Zachód",
     "Radio Łódź"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-09-06T03:37:33.325296+00:00",
+  "published_at": "2026-09-06T03:47:10.401854+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -230,35 +237,35 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3592,
+      "archive_count": 3593,
       "display_name": "Radio Olsztyn",
       "public_name": "Radio Olsztyn",
       "slug": "radioolsztyn",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3509,
+      "archive_count": 3510,
       "display_name": "Radio Opole",
       "public_name": "Radio Opole",
       "slug": "radioopole",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3563,
+      "archive_count": 3564,
       "display_name": "Radio PiK",
       "public_name": "Radio PiK",
       "slug": "radiopik",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3609,
+      "archive_count": 3610,
       "display_name": "Radio Poznań",
       "public_name": "Radio Poznań",
       "slug": "radiopoznan",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3610,
+      "archive_count": 3611,
       "display_name": "Radio Rzeszów",
       "public_name": "Radio Rzeszów",
       "slug": "radiorzeszow",
@@ -272,7 +279,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3501,
+      "archive_count": 3502,
       "display_name": "Radio Słupsk",
       "public_name": "Radio Słupsk",
       "slug": "radioslupsk",
