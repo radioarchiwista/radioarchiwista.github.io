@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-09-07T02:41:50.333632+00:00",
+  "generated_at": "2026-09-07T02:44:21.562569+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-09-07T01:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -19,6 +19,7 @@
     "Radio Gdańsk",
     "Radio Gdańsk Regiony",
     "Radio Gorzów",
+    "Radio Index",
     "Radio Kampus",
     "Radio Katowice",
     "Radio Kielce",
@@ -27,10 +28,11 @@
     "Radio Luz",
     "Radio Opole",
     "Radio Rzeszów",
+    "Radio Słupsk",
     "Radio Łódź"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-09-07T02:41:50.333632+00:00",
+  "published_at": "2026-09-07T02:44:21.562569+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -259,7 +261,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3632,
+      "archive_count": 3633,
       "display_name": "Radio Rzeszów",
       "public_name": "Radio Rzeszów",
       "slug": "radiorzeszow",
@@ -273,7 +275,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3523,
+      "archive_count": 3524,
       "display_name": "Radio Słupsk",
       "public_name": "Radio Słupsk",
       "slug": "radioslupsk",
