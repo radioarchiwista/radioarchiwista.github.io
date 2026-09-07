@@ -1,26 +1,34 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-09-07T04:26:48.750245+00:00",
+  "generated_at": "2026-09-07T04:36:38.385031+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-09-07T03:00:00+00:00",
   "latest_archive_hour_stations": [
     "Program 1",
+    "Program 2",
     "Program 3",
     "Polskie Radio 24",
     "Radio 357",
     "Polskie Radio Dzieciom",
+    "Radio Afera",
     "Radio Akadera",
     "Radio Białystok",
     "Radio Centrum Lublin",
     "Radio Centrum Rzeszów",
     "Radio Gdańsk",
+    "Radio Gdańsk Regiony",
+    "Radio Gorzów",
     "Radio Kampus",
     "Radio Koszalin",
+    "Radio Lublin",
+    "Radio Maryja",
+    "Radio Olsztyn",
+    "Radio PiK",
     "Radio Łódź"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-09-07T04:26:48.750245+00:00",
+  "published_at": "2026-09-07T04:36:38.385031+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -32,7 +40,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3631,
+      "archive_count": 3632,
       "display_name": "Program 2",
       "public_name": "Polskie Radio Program 2",
       "slug": "pr2",
@@ -95,14 +103,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3633,
+      "archive_count": 3634,
       "display_name": "Radio Afera",
       "public_name": "Radio Afera",
       "slug": "afera",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3632,
+      "archive_count": 3633,
       "display_name": "Radio Akadera",
       "public_name": "Radio Akadera",
       "slug": "radioakadera",
@@ -123,7 +131,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3605,
+      "archive_count": 3606,
       "display_name": "Radio Centrum Rzeszów",
       "public_name": "Radio Centrum Rzeszów",
       "slug": "radiocentrumrzeszow",
@@ -137,21 +145,21 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3635,
+      "archive_count": 3636,
       "display_name": "Radio Gdańsk",
       "public_name": "Radio Gdańsk",
       "slug": "radiogdansk",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1106,
+      "archive_count": 1107,
       "display_name": "Radio Gdańsk Regiony",
       "public_name": "Radio Gdańsk Regiony",
       "slug": "radiogdanskregiony",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3634,
+      "archive_count": 3635,
       "display_name": "Radio Gorzów",
       "public_name": "Radio Gorzów",
       "slug": "radiogorzow",
@@ -165,7 +173,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3342,
+      "archive_count": 3343,
       "display_name": "Radio Kampus",
       "public_name": "Radio Kampus",
       "slug": "radiokampus",
@@ -186,7 +194,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3526,
+      "archive_count": 3527,
       "display_name": "Radio Koszalin",
       "public_name": "Radio Koszalin",
       "slug": "radiokoszalin",
@@ -200,7 +208,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3633,
+      "archive_count": 3634,
       "display_name": "Radio Lublin",
       "public_name": "Radio Lublin",
       "slug": "radiolublin",
@@ -214,14 +222,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3488,
+      "archive_count": 3489,
       "display_name": "Radio Maryja",
       "public_name": "Radio Maryja",
       "slug": "radiomaryja",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3617,
+      "archive_count": 3618,
       "display_name": "Radio Olsztyn",
       "public_name": "Radio Olsztyn",
       "slug": "radioolsztyn",
@@ -298,7 +306,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3634,
+      "archive_count": 3635,
       "display_name": "Radio Łódź",
       "public_name": "Radio Łódź",
       "slug": "radiolodz",
