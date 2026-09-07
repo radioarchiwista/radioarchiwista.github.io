@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-09-07T01:40:30.307717+00:00",
+  "generated_at": "2026-09-07T01:46:33.035098+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-09-07T00:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -21,7 +21,7 @@
     "Radio Kampus"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-09-07T01:40:30.307717+00:00",
+  "published_at": "2026-09-07T01:46:33.035098+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -166,7 +166,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3340,
+      "archive_count": 3339,
       "display_name": "Radio Kampus",
       "public_name": "Radio Kampus",
       "slug": "radiokampus",
