@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-09-08T03:00:06.259881+00:00",
+  "generated_at": "2026-09-08T03:04:35.165967+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-09-08T01:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -11,6 +11,7 @@
     "Polskie Radio 24",
     "Radio 357",
     "Radio Nowy Świat",
+    "TOK FM",
     "Polskie Radio Dzieciom",
     "Radio Afera",
     "Radio Akadera",
@@ -32,7 +33,7 @@
     "Radio Łódź"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-09-08T03:00:06.259881+00:00",
+  "published_at": "2026-09-08T03:04:35.165967+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -79,7 +80,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3660,
+      "archive_count": 3661,
       "display_name": "TOK FM",
       "public_name": "TOK FM",
       "slug": "tokfm",
