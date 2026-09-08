@@ -431,6 +431,30 @@
       "utc_label": "2026-09-08 15:00 UTC",
       "utc_started_at": "2026-09-08T15:00:00+00:00",
       "year": 2026
+    },
+    {
+      "archive_item_identifier": "radioolsztyn-2026-09-08",
+      "audio_url": "https://archive.org/download/radioolsztyn-2026-09-08/radioolsztyn_2026-09-08T16-00-00Z.mp3",
+      "completeness_ratio": 1.0,
+      "day": 8,
+      "download_url": "https://archive.org/download/radioolsztyn-2026-09-08/radioolsztyn_2026-09-08T16-00-00Z.mp3",
+      "duration_seconds": 3599.935,
+      "hour": 18,
+      "hourly_archive_id": 189934,
+      "local_date_label": "08.09.2026",
+      "local_hour_label": "18:00",
+      "local_label": "2026-09-08 18:00 czasu polskiego",
+      "local_started_at": "2026-09-08T18:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 9,
+      "published_at": "2026-09-08T17:38:03.240659+00:00",
+      "published_local_label": "2026-09-08 19:38 czasu polskiego",
+      "remote_filename": "radioolsztyn_2026-09-08T16-00-00Z.mp3",
+      "station_slug": "radioolsztyn",
+      "status": "published",
+      "utc_label": "2026-09-08 16:00 UTC",
+      "utc_started_at": "2026-09-08T16:00:00+00:00",
+      "year": 2026
     }
   ],
   "day": 8,
@@ -778,7 +802,7 @@
       "year": 2026
     },
     {
-      "archive_status": "ready",
+      "archive_status": "published",
       "completeness_ratio": 1.0,
       "day": 8,
       "hour": 18,
@@ -789,9 +813,9 @@
       "local_started_at": "2026-09-08T18:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 9,
-      "playable": false,
-      "state": "publishing",
-      "status_label": "Czeka w kolejce do publikacji",
+      "playable": true,
+      "state": "available",
+      "status_label": null,
       "utc_label": "2026-09-08 16:00 UTC",
       "utc_started_at": "2026-09-08T16:00:00+00:00",
       "year": 2026
