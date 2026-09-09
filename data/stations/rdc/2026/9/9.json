@@ -527,6 +527,30 @@
       "utc_label": "2026-09-09 19:00 UTC",
       "utc_started_at": "2026-09-09T19:00:00+00:00",
       "year": 2026
+    },
+    {
+      "archive_item_identifier": "rdc-2026-09-09",
+      "audio_url": "https://archive.org/download/rdc-2026-09-09/rdc_2026-09-09T21-00-00Z.mp3",
+      "completeness_ratio": 0.9999,
+      "day": 9,
+      "download_url": "https://archive.org/download/rdc-2026-09-09/rdc_2026-09-09T21-00-00Z.mp3",
+      "duration_seconds": 3598.184,
+      "hour": 23,
+      "hourly_archive_id": 191193,
+      "local_date_label": "09.09.2026",
+      "local_hour_label": "23:00",
+      "local_label": "2026-09-09 23:00 czasu polskiego",
+      "local_started_at": "2026-09-09T23:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 9,
+      "published_at": "2026-09-09T23:28:32.063321+00:00",
+      "published_local_label": "2026-09-10 01:28 czasu polskiego",
+      "remote_filename": "rdc_2026-09-09T21-00-00Z.mp3",
+      "station_slug": "rdc",
+      "status": "published",
+      "utc_label": "2026-09-09 21:00 UTC",
+      "utc_started_at": "2026-09-09T21:00:00+00:00",
+      "year": 2026
     }
   ],
   "day": 9,
@@ -969,7 +993,7 @@
       "year": 2026
     },
     {
-      "archive_status": "ready",
+      "archive_status": "published",
       "completeness_ratio": 0.9999,
       "day": 9,
       "hour": 23,
@@ -980,9 +1004,9 @@
       "local_started_at": "2026-09-09T23:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 9,
-      "playable": false,
-      "state": "publishing",
-      "status_label": "Czeka w kolejce do publikacji",
+      "playable": true,
+      "state": "available",
+      "status_label": null,
       "utc_label": "2026-09-09 21:00 UTC",
       "utc_started_at": "2026-09-09T21:00:00+00:00",
       "year": 2026
