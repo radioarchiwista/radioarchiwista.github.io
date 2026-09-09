@@ -503,6 +503,30 @@
       "utc_label": "2026-09-09 18:00 UTC",
       "utc_started_at": "2026-09-09T18:00:00+00:00",
       "year": 2026
+    },
+    {
+      "archive_item_identifier": "pr1-2026-09-09",
+      "audio_url": "https://archive.org/download/pr1-2026-09-09/pr1_2026-09-09T19-00-00Z.mp3",
+      "completeness_ratio": 1.0,
+      "day": 9,
+      "download_url": "https://archive.org/download/pr1-2026-09-09/pr1_2026-09-09T19-00-00Z.mp3",
+      "duration_seconds": 3600.912,
+      "hour": 21,
+      "hourly_archive_id": 191072,
+      "local_date_label": "09.09.2026",
+      "local_hour_label": "21:00",
+      "local_label": "2026-09-09 21:00 czasu polskiego",
+      "local_started_at": "2026-09-09T21:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 9,
+      "published_at": "2026-09-09T20:10:19.524778+00:00",
+      "published_local_label": "2026-09-09 22:10 czasu polskiego",
+      "remote_filename": "pr1_2026-09-09T19-00-00Z.mp3",
+      "station_slug": "pr1",
+      "status": "published",
+      "utc_label": "2026-09-09 19:00 UTC",
+      "utc_started_at": "2026-09-09T19:00:00+00:00",
+      "year": 2026
     }
   ],
   "day": 9,
@@ -907,7 +931,7 @@
       "year": 2026
     },
     {
-      "archive_status": "ready",
+      "archive_status": "published",
       "completeness_ratio": 1.0,
       "day": 9,
       "hour": 21,
@@ -918,9 +942,9 @@
       "local_started_at": "2026-09-09T21:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 9,
-      "playable": false,
-      "state": "publishing",
-      "status_label": "Czeka w kolejce do publikacji",
+      "playable": true,
+      "state": "available",
+      "status_label": null,
       "utc_label": "2026-09-09 19:00 UTC",
       "utc_started_at": "2026-09-09T19:00:00+00:00",
       "year": 2026
