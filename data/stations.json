@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-09-09T19:46:24.387054+00:00",
+  "generated_at": "2026-09-09T19:52:27.596623+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-09-09T18:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -9,13 +9,11 @@
     "Program 3",
     "Polskie Radio 24",
     "Radio 357",
-    "Radio Nowy Świat",
-    "TOK FM",
-    "Radio Wnet",
     "Radio Republika",
     "Polskie Radio Dzieciom",
     "Radio Afera",
     "Radio Akadera",
+    "Radio Białystok",
     "Radio Centrum Lublin",
     "Radio Centrum Rzeszów",
     "Radio Dla Ciebie",
@@ -44,7 +42,7 @@
     "RMF24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-09-09T19:46:24.387054+00:00",
+  "published_at": "2026-09-09T19:52:27.596623+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -91,7 +89,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3703,
+      "archive_count": 3702,
       "display_name": "TOK FM",
       "public_name": "TOK FM",
       "slug": "tokfm",
@@ -203,7 +201,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3655,
+      "archive_count": 3653,
       "display_name": "Radio Kielce",
       "public_name": "Radio Kielce",
       "slug": "radiokielce",
@@ -287,7 +285,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3590,
+      "archive_count": 3589,
       "display_name": "Radio Słupsk",
       "public_name": "Radio Słupsk",
       "slug": "radioslupsk",
