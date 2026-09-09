@@ -1,50 +1,14 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-09-09T21:57:04.079129+00:00",
+  "generated_at": "2026-09-09T22:04:02.135235+00:00",
   "latest_archive_hour_expected_station_count": 43,
-  "latest_archive_hour_started_at": "2026-09-09T20:00:00+00:00",
+  "latest_archive_hour_started_at": "2026-09-09T21:00:00+00:00",
   "latest_archive_hour_stations": [
-    "Program 1",
-    "Program 2",
-    "Program 3",
-    "Polskie Radio 24",
-    "Radio 357",
-    "Radio Nowy Świat",
-    "TOK FM",
-    "Radio Republika",
-    "Polskie Radio Dzieciom",
-    "Radio Afera",
-    "Radio Akadera",
-    "Radio Białystok",
-    "Radio Centrum Lublin",
-    "Radio Centrum Rzeszów",
-    "Radio Gdańsk",
-    "Radio Gdańsk Regiony",
-    "Radio Gorzów",
-    "Radio Index",
-    "Radio Katowice",
-    "Radio Koszalin",
-    "Radio Kraków",
-    "Radio Lublin",
-    "Radio Luz",
-    "Radio Maryja",
-    "Radio Olsztyn",
-    "Radio Opole",
-    "Radio PiK",
-    "Radio Rzeszów",
-    "Radio Szczecin",
-    "Radio Słupsk",
-    "Radio Wrocław",
-    "Radio Zachód",
-    "Radio Zielona Góra",
-    "Radio Łódź",
-    "Radio Żak",
-    "RMF Classic",
-    "RMF24"
+    "Polskie Radio Dzieciom"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-09-09T21:57:04.079129+00:00",
+  "published_at": "2026-09-09T22:04:02.135235+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -98,7 +62,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3714,
+      "archive_count": 3711,
       "display_name": "Radio Wnet",
       "public_name": "Radio Wnet",
       "slug": "wnet",
@@ -175,7 +139,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3700,
+      "archive_count": 3699,
       "display_name": "Radio Gorzów",
       "public_name": "Radio Gorzów",
       "slug": "radiogorzow",
@@ -189,7 +153,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3406,
+      "archive_count": 3405,
       "display_name": "Radio Kampus",
       "public_name": "Radio Kampus",
       "slug": "radiokampus",
@@ -203,7 +167,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3657,
+      "archive_count": 3653,
       "display_name": "Radio Kielce",
       "public_name": "Radio Kielce",
       "slug": "radiokielce",
