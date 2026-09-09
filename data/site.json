@@ -1,8 +1,8 @@
 {
-  "archive_count": 190301,
+  "archive_count": 190320,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-09-09T18:25:29.129568+00:00",
+  "generated_at": "2026-09-09T18:35:40.562393+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-09-09T17:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -12,6 +12,7 @@
     "Polskie Radio 24",
     "Radio 357",
     "Polskie Radio Dzieciom",
+    "Radio Afera",
     "Radio Akadera",
     "Radio Białystok",
     "Radio Centrum Lublin",
@@ -28,10 +29,12 @@
     "Radio Lublin",
     "Radio Luz",
     "Radio Maryja",
+    "Radio Opole",
+    "Radio PiK",
     "Radio Łódź"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-09-09T18:25:29.129568+00:00",
+  "published_at": "2026-09-09T18:35:40.562393+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
