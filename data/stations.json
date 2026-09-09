@@ -1,26 +1,37 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-09-09T22:04:02.135235+00:00",
+  "generated_at": "2026-09-09T22:13:55.581127+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-09-09T21:00:00+00:00",
   "latest_archive_hour_stations": [
-    "Polskie Radio Dzieciom"
+    "Program 1",
+    "Program 2",
+    "Polskie Radio 24",
+    "Radio 357",
+    "Polskie Radio Dzieciom",
+    "Radio Afera",
+    "Radio Akadera",
+    "Radio Białystok",
+    "Radio Centrum Lublin",
+    "Radio Centrum Rzeszów",
+    "Radio Gdańsk",
+    "Radio Gdańsk Regiony"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-09-09T22:04:02.135235+00:00",
+  "published_at": "2026-09-09T22:13:55.581127+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
     {
-      "archive_count": 3696,
+      "archive_count": 3697,
       "display_name": "Program 1",
       "public_name": "Polskie Radio Program 1",
       "slug": "pr1",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3697,
+      "archive_count": 3698,
       "display_name": "Program 2",
       "public_name": "Polskie Radio Program 2",
       "slug": "pr2",
@@ -34,7 +45,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3714,
+      "archive_count": 3715,
       "display_name": "Polskie Radio 24",
       "public_name": "Polskie Radio 24",
       "slug": "pr24",
@@ -62,7 +73,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3711,
+      "archive_count": 3709,
       "display_name": "Radio Wnet",
       "public_name": "Radio Wnet",
       "slug": "wnet",
@@ -76,14 +87,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1173,
+      "archive_count": 1174,
       "display_name": "Polskie Radio Dzieciom",
       "public_name": "Polskie Radio Dzieciom",
       "slug": "polskieradiodzieciom",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3699,
+      "archive_count": 3700,
       "display_name": "Radio Afera",
       "public_name": "Radio Afera",
       "slug": "afera",
@@ -167,7 +178,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3653,
+      "archive_count": 3654,
       "display_name": "Radio Kielce",
       "public_name": "Radio Kielce",
       "slug": "radiokielce",
