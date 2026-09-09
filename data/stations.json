@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-09-09T18:53:46.307682+00:00",
+  "generated_at": "2026-09-09T19:00:00.008789+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-09-09T17:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -10,8 +10,8 @@
     "Program 3",
     "Polskie Radio 24",
     "Radio 357",
+    "Radio Nowy Świat",
     "TOK FM",
-    "Radio Wnet",
     "Radio Republika",
     "Polskie Radio Dzieciom",
     "Radio Afera",
@@ -31,8 +31,10 @@
     "Radio Lublin",
     "Radio Luz",
     "Radio Maryja",
+    "Radio Olsztyn",
     "Radio Opole",
     "Radio PiK",
+    "Radio Poznań",
     "Radio Rzeszów",
     "Radio Szczecin",
     "Radio Słupsk",
@@ -45,7 +47,7 @@
     "RMF24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-09-09T18:53:46.307682+00:00",
+  "published_at": "2026-09-09T19:00:00.008789+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -85,7 +87,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3712,
+      "archive_count": 3713,
       "display_name": "Radio Nowy Świat",
       "public_name": "Radio Nowy Świat",
       "slug": "rns",
@@ -99,7 +101,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3711,
+      "archive_count": 3710,
       "display_name": "Radio Wnet",
       "public_name": "Radio Wnet",
       "slug": "wnet",
@@ -337,7 +339,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 2228,
+      "archive_count": 2227,
       "display_name": "RMF Classic",
       "public_name": "RMF Classic",
       "slug": "rmfclassic",
