@@ -1,28 +1,33 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-09-10T01:50:00.701679+00:00",
+  "generated_at": "2026-09-10T01:59:49.792213+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-09-10T00:00:00+00:00",
   "latest_archive_hour_stations": [
     "Program 1",
     "Program 2",
-    "Radio Kampus"
+    "Program 3",
+    "Polskie Radio 24",
+    "Radio Kampus",
+    "Radio Lublin",
+    "Radio Maryja",
+    "Radio Łódź"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-09-10T01:50:00.701679+00:00",
+  "published_at": "2026-09-10T01:59:49.792213+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
     {
-      "archive_count": 3697,
+      "archive_count": 3698,
       "display_name": "Program 1",
       "public_name": "Polskie Radio Program 1",
       "slug": "pr1",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3701,
+      "archive_count": 3700,
       "display_name": "Program 2",
       "public_name": "Polskie Radio Program 2",
       "slug": "pr2",
@@ -36,7 +41,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3715,
+      "archive_count": 3716,
       "display_name": "Polskie Radio 24",
       "public_name": "Polskie Radio 24",
       "slug": "pr24",
@@ -71,7 +76,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3717,
+      "archive_count": 3718,
       "display_name": "Radio Republika",
       "public_name": "Radio Republika",
       "slug": "republika",
@@ -155,7 +160,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3406,
+      "archive_count": 3407,
       "display_name": "Radio Kampus",
       "public_name": "Radio Kampus",
       "slug": "radiokampus",
@@ -274,7 +279,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3701,
+      "archive_count": 3703,
       "display_name": "Radio Zachód",
       "public_name": "Radio Zachód",
       "slug": "radiozachod",
