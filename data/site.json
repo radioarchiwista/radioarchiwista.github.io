@@ -1,8 +1,8 @@
 {
-  "archive_count": 191582,
+  "archive_count": 191604,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-09-10T20:26:45.058311+00:00",
+  "generated_at": "2026-09-10T20:43:14.590651+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-09-10T19:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -30,10 +30,22 @@
     "Radio Luz",
     "Radio Maryja",
     "Radio Olsztyn",
-    "Radio Łódź"
+    "Radio Opole",
+    "Radio PiK",
+    "Radio Poznań",
+    "Radio Szczecin",
+    "Radio Słupsk",
+    "Radio UWM FM",
+    "Radio Wrocław",
+    "Radio Zachód",
+    "Radio Zielona Góra",
+    "Radio Łódź",
+    "Radio Żak",
+    "RMF Classic",
+    "RMF24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-09-10T20:26:45.058311+00:00",
+  "published_at": "2026-09-10T20:43:14.590651+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
