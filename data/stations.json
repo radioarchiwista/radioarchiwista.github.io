@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-09-10T02:41:10.252040+00:00",
+  "generated_at": "2026-09-10T02:52:53.092315+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-09-10T01:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -16,10 +16,13 @@
     "Radio Białystok",
     "Radio Gdańsk Regiony",
     "Radio Kampus",
+    "Radio Maryja",
+    "Radio Opole",
+    "Radio Poznań",
     "Radio Łódź"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-09-10T02:41:10.252040+00:00",
+  "published_at": "2026-09-10T02:52:53.092315+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -31,7 +34,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3701,
+      "archive_count": 3702,
       "display_name": "Program 2",
       "public_name": "Polskie Radio Program 2",
       "slug": "pr2",
@@ -80,7 +83,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3718,
+      "archive_count": 3719,
       "display_name": "Radio Republika",
       "public_name": "Radio Republika",
       "slug": "republika",
@@ -101,7 +104,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3698,
+      "archive_count": 3699,
       "display_name": "Radio Akadera",
       "public_name": "Radio Akadera",
       "slug": "radioakadera",
@@ -129,7 +132,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3700,
+      "archive_count": 3701,
       "display_name": "Radio Dla Ciebie",
       "public_name": "Radio Dla Ciebie",
       "slug": "rdc",
@@ -143,14 +146,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1174,
+      "archive_count": 1175,
       "display_name": "Radio Gdańsk Regiony",
       "public_name": "Radio Gdańsk Regiony",
       "slug": "radiogdanskregiony",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3699,
+      "archive_count": 3701,
       "display_name": "Radio Gorzów",
       "public_name": "Radio Gorzów",
       "slug": "radiogorzow",
@@ -164,7 +167,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3407,
+      "archive_count": 3408,
       "display_name": "Radio Kampus",
       "public_name": "Radio Kampus",
       "slug": "radiokampus",
@@ -213,7 +216,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3558,
+      "archive_count": 3559,
       "display_name": "Radio Maryja",
       "public_name": "Radio Maryja",
       "slug": "radiomaryja",
