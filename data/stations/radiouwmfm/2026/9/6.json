@@ -407,6 +407,30 @@
       "utc_label": "2026-09-06 18:00 UTC",
       "utc_started_at": "2026-09-06T18:00:00+00:00",
       "year": 2026
+    },
+    {
+      "archive_item_identifier": "ra48y11epcc792se-2026-09-06",
+      "audio_url": "https://archive.org/download/ra48y11epcc792se-2026-09-06/ra48y11epcc792se_2026-09-06T21-00-00Z.mp3",
+      "completeness_ratio": 0.9964,
+      "day": 6,
+      "download_url": "https://archive.org/download/ra48y11epcc792se-2026-09-06/ra48y11epcc792se_2026-09-06T21-00-00Z.mp3",
+      "duration_seconds": 3598.608,
+      "hour": 23,
+      "hourly_archive_id": 188102,
+      "local_date_label": "06.09.2026",
+      "local_hour_label": "23:00",
+      "local_label": "2026-09-06 23:00 czasu polskiego",
+      "local_started_at": "2026-09-06T23:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 9,
+      "published_at": "2026-09-10T14:57:09.020031+00:00",
+      "published_local_label": "2026-09-10 16:57 czasu polskiego",
+      "remote_filename": "ra48y11epcc792se_2026-09-06T21-00-00Z.mp3",
+      "station_slug": "radiouwmfm",
+      "status": "published",
+      "utc_label": "2026-09-06 21:00 UTC",
+      "utc_started_at": "2026-09-06T21:00:00+00:00",
+      "year": 2026
     }
   ],
   "day": 6,
@@ -849,7 +873,7 @@
       "year": 2026
     },
     {
-      "archive_status": "ready",
+      "archive_status": "published",
       "completeness_ratio": 0.9964,
       "day": 6,
       "hour": 23,
@@ -860,9 +884,9 @@
       "local_started_at": "2026-09-06T23:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 9,
-      "playable": false,
-      "state": "publishing",
-      "status_label": "Czeka w kolejce do publikacji",
+      "playable": true,
+      "state": "available",
+      "status_label": null,
       "utc_label": "2026-09-06 21:00 UTC",
       "utc_started_at": "2026-09-06T21:00:00+00:00",
       "year": 2026
