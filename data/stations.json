@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-09-10T07:45:57.219197+00:00",
+  "generated_at": "2026-09-10T07:56:43.617367+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-09-10T06:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -10,6 +10,9 @@
     "Program 3",
     "Polskie Radio 24",
     "Radio 357",
+    "Radio Nowy Świat",
+    "TOK FM",
+    "Radio Wnet",
     "Radio Republika",
     "Polskie Radio Dzieciom",
     "Radio Afera",
@@ -34,6 +37,7 @@
     "Radio Opole",
     "Radio PiK",
     "Radio Poznań",
+    "Radio Rzeszów",
     "Radio Szczecin",
     "Radio Słupsk",
     "Radio Wrocław",
@@ -45,7 +49,7 @@
     "RMF24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-09-10T07:45:57.219197+00:00",
+  "published_at": "2026-09-10T07:56:43.617367+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -85,7 +89,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3725,
+      "archive_count": 3726,
       "display_name": "Radio Nowy Świat",
       "public_name": "Radio Nowy Świat",
       "slug": "rns",
@@ -99,7 +103,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3718,
+      "archive_count": 3716,
       "display_name": "Radio Wnet",
       "public_name": "Radio Wnet",
       "slug": "wnet",
@@ -134,7 +138,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3706,
+      "archive_count": 3705,
       "display_name": "Radio Białystok",
       "public_name": "Radio Białystok",
       "slug": "radiobialystok",
@@ -190,7 +194,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3415,
+      "archive_count": 3413,
       "display_name": "Radio Kampus",
       "public_name": "Radio Kampus",
       "slug": "radiokampus",
@@ -204,7 +208,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3663,
+      "archive_count": 3661,
       "display_name": "Radio Kielce",
       "public_name": "Radio Kielce",
       "slug": "radiokielce",
