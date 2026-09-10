@@ -1,15 +1,15 @@
 {
-  "archive_count": 190512,
+  "archive_count": 190514,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-09-10T01:02:00.109890+00:00",
+  "generated_at": "2026-09-10T01:12:57.632368+00:00",
   "latest_archive_hour_expected_station_count": 43,
-  "latest_archive_hour_started_at": "2026-09-09T23:00:00+00:00",
+  "latest_archive_hour_started_at": "2026-09-10T00:00:00+00:00",
   "latest_archive_hour_stations": [
-    "Polskie Radio Dzieciom"
+    "Program 1"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-09-10T01:02:00.109890+00:00",
+  "published_at": "2026-09-10T01:12:57.632368+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"

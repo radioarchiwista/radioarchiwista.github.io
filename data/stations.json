@@ -1,19 +1,19 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-09-10T01:02:00.109890+00:00",
+  "generated_at": "2026-09-10T01:12:57.632368+00:00",
   "latest_archive_hour_expected_station_count": 43,
-  "latest_archive_hour_started_at": "2026-09-09T23:00:00+00:00",
+  "latest_archive_hour_started_at": "2026-09-10T00:00:00+00:00",
   "latest_archive_hour_stations": [
-    "Polskie Radio Dzieciom"
+    "Program 1"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-09-10T01:02:00.109890+00:00",
+  "published_at": "2026-09-10T01:12:57.632368+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
     {
-      "archive_count": 3696,
+      "archive_count": 3697,
       "display_name": "Program 1",
       "public_name": "Polskie Radio Program 1",
       "slug": "pr1",
@@ -27,14 +27,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 44139,
+      "archive_count": 44140,
       "display_name": "Program 3",
       "public_name": "Polskie Radio Program 3",
       "slug": "pr3",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3715,
+      "archive_count": 3716,
       "display_name": "Polskie Radio 24",
       "public_name": "Polskie Radio 24",
       "slug": "pr24",
@@ -69,7 +69,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3718,
+      "archive_count": 3717,
       "display_name": "Radio Republika",
       "public_name": "Radio Republika",
       "slug": "republika",
