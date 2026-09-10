@@ -1,8 +1,8 @@
 {
-  "archive_count": 190523,
+  "archive_count": 190510,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-09-09T23:48:47.123823+00:00",
+  "generated_at": "2026-09-10T00:00:11.508434+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-09-09T22:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -10,15 +10,11 @@
     "Program 3",
     "Radio 357",
     "Radio Nowy Świat",
-    "TOK FM",
-    "Radio Wnet",
-    "Radio Republika",
     "Polskie Radio Dzieciom",
     "Radio Afera",
     "Radio Białystok",
     "Radio Centrum Lublin",
     "Radio Centrum Rzeszów",
-    "Radio Dla Ciebie",
     "Radio Gdańsk Regiony",
     "Radio Index",
     "Radio Katowice",
@@ -41,7 +37,7 @@
     "RMF24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-09-09T23:48:47.123823+00:00",
+  "published_at": "2026-09-10T00:00:11.508434+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
