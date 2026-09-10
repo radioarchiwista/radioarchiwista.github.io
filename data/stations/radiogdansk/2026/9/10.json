@@ -2,6 +2,30 @@
   "archives": [
     {
       "archive_item_identifier": "radiogdansk-2026-09-09",
+      "audio_url": "https://archive.org/download/radiogdansk-2026-09-09/radiogdansk_2026-09-09T22-00-00Z.mp3",
+      "completeness_ratio": 1.0,
+      "day": 10,
+      "download_url": "https://archive.org/download/radiogdansk-2026-09-09/radiogdansk_2026-09-09T22-00-00Z.mp3",
+      "duration_seconds": 3599.952,
+      "hour": 0,
+      "hourly_archive_id": 191211,
+      "local_date_label": "10.09.2026",
+      "local_hour_label": "00:00",
+      "local_label": "2026-09-10 00:00 czasu polskiego",
+      "local_started_at": "2026-09-10T00:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 9,
+      "published_at": "2026-09-10T06:38:04.713347+00:00",
+      "published_local_label": "2026-09-10 08:38 czasu polskiego",
+      "remote_filename": "radiogdansk_2026-09-09T22-00-00Z.mp3",
+      "station_slug": "radiogdansk",
+      "status": "published",
+      "utc_label": "2026-09-09 22:00 UTC",
+      "utc_started_at": "2026-09-09T22:00:00+00:00",
+      "year": 2026
+    },
+    {
+      "archive_item_identifier": "radiogdansk-2026-09-09",
       "audio_url": "https://archive.org/download/radiogdansk-2026-09-09/radiogdansk_2026-09-09T23-00-00Z.mp3",
       "completeness_ratio": 1.0,
       "day": 10,
@@ -172,7 +196,7 @@
   "day": 10,
   "hour_slots": [
     {
-      "archive_status": "ready",
+      "archive_status": "published",
       "completeness_ratio": 1.0,
       "day": 10,
       "hour": 0,
@@ -183,9 +207,9 @@
       "local_started_at": "2026-09-10T00:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 9,
-      "playable": false,
-      "state": "publishing",
-      "status_label": "Czeka w kolejce do publikacji",
+      "playable": true,
+      "state": "available",
+      "status_label": null,
       "utc_label": "2026-09-09 22:00 UTC",
       "utc_started_at": "2026-09-09T22:00:00+00:00",
       "year": 2026
