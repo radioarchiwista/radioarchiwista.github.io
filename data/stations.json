@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-09-11T17:49:53.077374+00:00",
+  "generated_at": "2026-09-11T17:56:40.172773+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-09-11T16:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -10,6 +10,9 @@
     "Program 3",
     "Polskie Radio 24",
     "Radio 357",
+    "Radio Nowy Świat",
+    "TOK FM",
+    "Radio Republika",
     "Polskie Radio Dzieciom",
     "Radio Afera",
     "Radio Akadera",
@@ -30,6 +33,7 @@
     "Radio Olsztyn",
     "Radio Opole",
     "Radio PiK",
+    "Radio Poznań",
     "Radio Rzeszów",
     "Radio Szczecin",
     "Radio Słupsk",
@@ -43,7 +47,7 @@
     "RMF24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-09-11T17:49:53.077374+00:00",
+  "published_at": "2026-09-11T17:56:40.172773+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -83,14 +87,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3759,
+      "archive_count": 3760,
       "display_name": "Radio Nowy Świat",
       "public_name": "Radio Nowy Świat",
       "slug": "rns",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3747,
+      "archive_count": 3748,
       "display_name": "TOK FM",
       "public_name": "TOK FM",
       "slug": "tokfm",
@@ -104,7 +108,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3760,
+      "archive_count": 3761,
       "display_name": "Radio Republika",
       "public_name": "Radio Republika",
       "slug": "republika",
@@ -118,7 +122,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3742,
+      "archive_count": 3743,
       "display_name": "Radio Afera",
       "public_name": "Radio Afera",
       "slug": "afera",
@@ -258,14 +262,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3698,
+      "archive_count": 3699,
       "display_name": "Radio PiK",
       "public_name": "Radio PiK",
       "slug": "radiopik",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3743,
+      "archive_count": 3744,
       "display_name": "Radio Poznań",
       "public_name": "Radio Poznań",
       "slug": "radiopoznan",
@@ -335,14 +339,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 2273,
+      "archive_count": 2274,
       "display_name": "RMF Classic",
       "public_name": "RMF Classic",
       "slug": "rmfclassic",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 2274,
+      "archive_count": 2275,
       "display_name": "RMF24",
       "public_name": "RMF24",
       "slug": "rmf24",
