@@ -1,8 +1,8 @@
 {
-  "archive_count": 192228,
+  "archive_count": 192239,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-09-11T11:29:14.915090+00:00",
+  "generated_at": "2026-09-11T11:40:59.201656+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-09-11T10:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -25,11 +25,20 @@
     "Radio Koszalin",
     "Radio Kraków",
     "Radio Lublin",
+    "Radio Maryja",
+    "Radio Olsztyn",
+    "Radio PiK",
+    "Radio Poznań",
+    "Radio Rzeszów",
+    "Radio Szczecin",
+    "Radio Słupsk",
     "Radio UWM FM",
-    "Radio Łódź"
+    "Radio Wrocław",
+    "Radio Zachód",
+    "Radio Zielona Góra"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-09-11T11:29:14.915090+00:00",
+  "published_at": "2026-09-11T11:40:59.201656+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
