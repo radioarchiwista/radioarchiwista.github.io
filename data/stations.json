@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-09-11T12:55:59.878025+00:00",
+  "generated_at": "2026-09-11T13:03:15.055955+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-09-11T11:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -33,10 +33,12 @@
     "Radio Szczecin",
     "Radio Słupsk",
     "Radio UWM FM",
-    "Radio Wrocław"
+    "Radio Wrocław",
+    "Radio Żak",
+    "RMF Classic"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-09-11T12:55:59.878025+00:00",
+  "published_at": "2026-09-11T13:03:15.055955+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -321,14 +323,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3723,
+      "archive_count": 3724,
       "display_name": "Radio Żak",
       "public_name": "Radio Żak",
       "slug": "radiozak",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 2267,
+      "archive_count": 2268,
       "display_name": "RMF Classic",
       "public_name": "RMF Classic",
       "slug": "rmfclassic",
