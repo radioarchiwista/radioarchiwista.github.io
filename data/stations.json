@@ -1,17 +1,24 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-09-11T15:09:24.803147+00:00",
+  "generated_at": "2026-09-11T15:27:38.365733+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-09-11T14:00:00+00:00",
   "latest_archive_hour_stations": [
     "Program 1",
     "Program 2",
     "Program 3",
-    "Polskie Radio Dzieciom"
+    "Radio 357",
+    "Polskie Radio Dzieciom",
+    "Radio Akadera",
+    "Radio Białystok",
+    "Radio Gdańsk",
+    "Radio Kampus",
+    "Radio Kielce",
+    "Radio Koszalin"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-09-11T15:09:24.803147+00:00",
+  "published_at": "2026-09-11T15:27:38.365733+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -30,7 +37,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 44178,
+      "archive_count": 44179,
       "display_name": "Program 3",
       "public_name": "Polskie Radio Program 3",
       "slug": "pr3",
@@ -303,7 +310,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 2268,
+      "archive_count": 2267,
       "display_name": "RMF Classic",
       "public_name": "RMF Classic",
       "slug": "rmfclassic",
