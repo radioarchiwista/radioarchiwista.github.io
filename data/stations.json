@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-09-12T06:43:11.122079+00:00",
+  "generated_at": "2026-09-12T06:49:35.584085+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-09-12T05:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -23,9 +23,11 @@
     "Radio Kampus",
     "Radio Katowice",
     "Radio Kielce",
+    "Radio Koszalin",
     "Radio Kraków",
     "Radio Lublin",
     "Radio Luz",
+    "Radio Maryja",
     "Radio Olsztyn",
     "Radio Opole",
     "Radio Poznań",
@@ -34,10 +36,12 @@
     "Radio Słupsk",
     "Radio UWM FM",
     "Radio Wrocław",
-    "Radio Łódź"
+    "Radio Zielona Góra",
+    "Radio Łódź",
+    "Radio Żak"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-09-12T06:43:11.122079+00:00",
+  "published_at": "2026-09-12T06:49:35.584085+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -203,14 +207,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3649,
+      "archive_count": 3650,
       "display_name": "Radio Koszalin",
       "public_name": "Radio Koszalin",
       "slug": "radiokoszalin",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3753,
+      "archive_count": 3754,
       "display_name": "Radio Kraków",
       "public_name": "Radio Kraków",
       "slug": "radiokrakow",
@@ -231,7 +235,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3611,
+      "archive_count": 3612,
       "display_name": "Radio Maryja",
       "public_name": "Radio Maryja",
       "slug": "radiomaryja",
@@ -308,7 +312,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3757,
+      "archive_count": 3758,
       "display_name": "Radio Zielona Góra",
       "public_name": "Radio Zielona Góra",
       "slug": "radiozielonagora",
@@ -322,7 +326,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3741,
+      "archive_count": 3742,
       "display_name": "Radio Żak",
       "public_name": "Radio Żak",
       "slug": "radiozak",
