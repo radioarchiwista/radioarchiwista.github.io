@@ -1,8 +1,8 @@
 {
-  "archive_count": 193106,
+  "archive_count": 193108,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-09-12T07:43:52.190969+00:00",
+  "generated_at": "2026-09-12T07:46:25.885776+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-09-12T06:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -22,6 +22,7 @@
     "Radio Gorzów",
     "Radio Index",
     "Radio Kampus",
+    "Radio Katowice",
     "Radio Kielce",
     "Radio Kraków",
     "Radio Lublin",
@@ -31,12 +32,13 @@
     "Radio PiK",
     "Radio Poznań",
     "Radio Szczecin",
+    "Radio Wrocław",
     "Radio Zachód",
     "Radio Łódź",
     "Radio Żak"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-09-12T07:43:52.190969+00:00",
+  "published_at": "2026-09-12T07:46:25.885776+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"

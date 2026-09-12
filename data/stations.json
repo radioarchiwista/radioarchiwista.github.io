@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-09-12T07:43:52.190969+00:00",
+  "generated_at": "2026-09-12T07:46:25.885776+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-09-12T06:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -21,6 +21,7 @@
     "Radio Gorzów",
     "Radio Index",
     "Radio Kampus",
+    "Radio Katowice",
     "Radio Kielce",
     "Radio Kraków",
     "Radio Lublin",
@@ -30,12 +31,13 @@
     "Radio PiK",
     "Radio Poznań",
     "Radio Szczecin",
+    "Radio Wrocław",
     "Radio Zachód",
     "Radio Łódź",
     "Radio Żak"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-09-12T07:43:52.190969+00:00",
+  "published_at": "2026-09-12T07:46:25.885776+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -292,7 +294,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3758,
+      "archive_count": 3759,
       "display_name": "Radio Wrocław",
       "public_name": "Radio Wrocław",
       "slug": "radiowroclaw",
@@ -320,7 +322,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3742,
+      "archive_count": 3743,
       "display_name": "Radio Żak",
       "public_name": "Radio Żak",
       "slug": "radiozak",
