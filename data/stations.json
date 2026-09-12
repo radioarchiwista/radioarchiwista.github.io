@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-09-12T01:44:17.243064+00:00",
+  "generated_at": "2026-09-12T01:50:06.878268+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-09-12T00:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -14,7 +14,6 @@
     "Radio Afera",
     "Radio Akadera",
     "Radio Białystok",
-    "Radio Centrum Lublin",
     "Radio Centrum Rzeszów",
     "Radio Gdańsk",
     "Radio Gdańsk Regiony",
@@ -22,10 +21,11 @@
     "Radio Kampus",
     "Radio Katowice",
     "Radio Kraków",
+    "Radio Maryja",
     "Radio Łódź"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-09-12T01:44:17.243064+00:00",
+  "published_at": "2026-09-12T01:50:06.878268+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -170,7 +170,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3459,
+      "archive_count": 3460,
       "display_name": "Radio Kampus",
       "public_name": "Radio Kampus",
       "slug": "radiokampus",
@@ -198,7 +198,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3748,
+      "archive_count": 3749,
       "display_name": "Radio Kraków",
       "public_name": "Radio Kraków",
       "slug": "radiokrakow",
@@ -219,7 +219,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3606,
+      "archive_count": 3607,
       "display_name": "Radio Maryja",
       "public_name": "Radio Maryja",
       "slug": "radiomaryja",
@@ -303,7 +303,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3752,
+      "archive_count": 3753,
       "display_name": "Radio Łódź",
       "public_name": "Radio Łódź",
       "slug": "radiolodz",
