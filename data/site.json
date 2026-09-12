@@ -1,26 +1,16 @@
 {
-  "archive_count": 193173,
+  "archive_count": 193171,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-09-12T10:59:06.482305+00:00",
+  "generated_at": "2026-09-12T11:05:50.837039+00:00",
   "latest_archive_hour_expected_station_count": 43,
-  "latest_archive_hour_started_at": "2026-09-12T08:00:00+00:00",
+  "latest_archive_hour_started_at": "2026-09-12T10:00:00+00:00",
   "latest_archive_hour_stations": [
-    "Radio Akadera",
-    "Radio Centrum Lublin",
-    "Radio Centrum Rzeszów",
-    "Radio Kielce",
-    "Radio Kraków",
-    "Radio Lublin",
-    "Radio Olsztyn",
-    "Radio PiK",
-    "Radio Słupsk",
-    "Radio UWM FM",
-    "Radio Wrocław",
-    "Radio Zachód"
+    "Program 1",
+    "Polskie Radio Dzieciom"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-09-12T10:59:06.482305+00:00",
+  "published_at": "2026-09-12T11:05:50.837039+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
