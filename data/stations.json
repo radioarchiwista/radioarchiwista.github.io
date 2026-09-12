@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-09-12T06:36:36.010736+00:00",
+  "generated_at": "2026-09-12T06:43:11.122079+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-09-12T05:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -18,19 +18,26 @@
     "Radio Centrum Rzeszów",
     "Radio Gdańsk",
     "Radio Gdańsk Regiony",
+    "Radio Gorzów",
     "Radio Index",
     "Radio Kampus",
     "Radio Katowice",
     "Radio Kielce",
     "Radio Kraków",
+    "Radio Lublin",
     "Radio Luz",
+    "Radio Olsztyn",
     "Radio Opole",
     "Radio Poznań",
+    "Radio Rzeszów",
+    "Radio Szczecin",
+    "Radio Słupsk",
     "Radio UWM FM",
+    "Radio Wrocław",
     "Radio Łódź"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-09-12T06:36:36.010736+00:00",
+  "published_at": "2026-09-12T06:43:11.122079+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -112,7 +119,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3754,
+      "archive_count": 3755,
       "display_name": "Radio Akadera",
       "public_name": "Radio Akadera",
       "slug": "radioakadera",
@@ -161,7 +168,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3757,
+      "archive_count": 3758,
       "display_name": "Radio Gorzów",
       "public_name": "Radio Gorzów",
       "slug": "radiogorzow",
@@ -203,14 +210,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3754,
+      "archive_count": 3753,
       "display_name": "Radio Kraków",
       "public_name": "Radio Kraków",
       "slug": "radiokrakow",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3756,
+      "archive_count": 3757,
       "display_name": "Radio Lublin",
       "public_name": "Radio Lublin",
       "slug": "radiolublin",
@@ -231,7 +238,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3740,
+      "archive_count": 3741,
       "display_name": "Radio Olsztyn",
       "public_name": "Radio Olsztyn",
       "slug": "radioolsztyn",
@@ -259,21 +266,21 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3752,
+      "archive_count": 3753,
       "display_name": "Radio Rzeszów",
       "public_name": "Radio Rzeszów",
       "slug": "radiorzeszow",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3751,
+      "archive_count": 3752,
       "display_name": "Radio Szczecin",
       "public_name": "Radio Szczecin",
       "slug": "radioszczecin",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3648,
+      "archive_count": 3649,
       "display_name": "Radio Słupsk",
       "public_name": "Radio Słupsk",
       "slug": "radioslupsk",
@@ -287,7 +294,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3757,
+      "archive_count": 3758,
       "display_name": "Radio Wrocław",
       "public_name": "Radio Wrocław",
       "slug": "radiowroclaw",
