@@ -1,20 +1,25 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-09-12T01:19:34.309642+00:00",
+  "generated_at": "2026-09-12T01:35:55.478805+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-09-12T00:00:00+00:00",
   "latest_archive_hour_stations": [
     "Program 1",
     "Program 2",
+    "Program 3",
     "Polskie Radio 24",
     "Radio 357",
     "Polskie Radio Dzieciom",
     "Radio Afera",
-    "Radio Białystok"
+    "Radio Akadera",
+    "Radio Białystok",
+    "Radio Centrum Lublin",
+    "Radio Centrum Rzeszów",
+    "Radio Index"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-09-12T01:19:34.309642+00:00",
+  "published_at": "2026-09-12T01:35:55.478805+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -33,7 +38,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 44188,
+      "archive_count": 44189,
       "display_name": "Program 3",
       "public_name": "Polskie Radio Program 3",
       "slug": "pr3",
@@ -96,14 +101,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3749,
+      "archive_count": 3750,
       "display_name": "Radio Akadera",
       "public_name": "Radio Akadera",
       "slug": "radioakadera",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3747,
+      "archive_count": 3748,
       "display_name": "Radio Białystok",
       "public_name": "Radio Białystok",
       "slug": "radiobialystok",
@@ -222,7 +227,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3652,
+      "archive_count": 3653,
       "display_name": "Radio Opole",
       "public_name": "Radio Opole",
       "slug": "radioopole",
