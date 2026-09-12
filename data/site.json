@@ -1,18 +1,16 @@
 {
-  "archive_count": 193165,
+  "archive_count": 193167,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-09-12T09:44:02.868087+00:00",
+  "generated_at": "2026-09-12T11:37:13.585307+00:00",
   "latest_archive_hour_expected_station_count": 43,
-  "latest_archive_hour_started_at": "2026-09-12T08:00:00+00:00",
+  "latest_archive_hour_started_at": "2026-09-12T10:00:00+00:00",
   "latest_archive_hour_stations": [
-    "Radio Akadera",
-    "Radio Centrum Lublin",
-    "Radio Centrum Rzeszów",
-    "Radio Lublin"
+    "Polskie Radio 24",
+    "Radio Kielce"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-09-12T09:44:02.868087+00:00",
+  "published_at": "2026-09-12T11:37:13.585307+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
