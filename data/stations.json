@@ -1,19 +1,25 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-09-12T23:03:18.670384+00:00",
+  "generated_at": "2026-09-12T23:16:53.457390+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-09-12T22:00:00+00:00",
   "latest_archive_hour_stations": [
-    "Polskie Radio Dzieciom"
+    "Program 1",
+    "Polskie Radio 24",
+    "Polskie Radio Dzieciom",
+    "Radio Afera",
+    "Radio Akadera",
+    "Radio Centrum Lublin",
+    "Radio Centrum Rzeszów"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-09-12T23:03:18.670384+00:00",
+  "published_at": "2026-09-12T23:16:53.457390+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
     {
-      "archive_count": 3769,
+      "archive_count": 3770,
       "display_name": "Program 1",
       "public_name": "Polskie Radio Program 1",
       "slug": "pr1",
@@ -34,7 +40,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3787,
+      "archive_count": 3788,
       "display_name": "Polskie Radio 24",
       "public_name": "Polskie Radio 24",
       "slug": "pr24",
@@ -83,14 +89,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3772,
+      "archive_count": 3773,
       "display_name": "Radio Afera",
       "public_name": "Radio Afera",
       "slug": "afera",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3771,
+      "archive_count": 3772,
       "display_name": "Radio Akadera",
       "public_name": "Radio Akadera",
       "slug": "radioakadera",
@@ -104,7 +110,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3771,
+      "archive_count": 3772,
       "display_name": "Radio Centrum Lublin",
       "public_name": "Radio Centrum Lublin",
       "slug": "radiocentrumlublin",
