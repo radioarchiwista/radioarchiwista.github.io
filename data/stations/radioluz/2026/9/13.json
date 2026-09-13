@@ -119,6 +119,30 @@
       "utc_label": "2026-09-13 02:00 UTC",
       "utc_started_at": "2026-09-13T02:00:00+00:00",
       "year": 2026
+    },
+    {
+      "archive_item_identifier": "radioluz-2026-09-13",
+      "audio_url": "https://archive.org/download/radioluz-2026-09-13/radioluz_2026-09-13T03-00-00Z.mp3",
+      "completeness_ratio": 1.0,
+      "day": 13,
+      "download_url": "https://archive.org/download/radioluz-2026-09-13/radioluz_2026-09-13T03-00-00Z.mp3",
+      "duration_seconds": 3600.12,
+      "hour": 5,
+      "hourly_archive_id": 194532,
+      "local_date_label": "13.09.2026",
+      "local_hour_label": "05:00",
+      "local_label": "2026-09-13 05:00 czasu polskiego",
+      "local_started_at": "2026-09-13T05:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 9,
+      "published_at": "2026-09-13T04:31:35.636026+00:00",
+      "published_local_label": "2026-09-13 06:31 czasu polskiego",
+      "remote_filename": "radioluz_2026-09-13T03-00-00Z.mp3",
+      "station_slug": "radioluz",
+      "status": "published",
+      "utc_label": "2026-09-13 03:00 UTC",
+      "utc_started_at": "2026-09-13T03:00:00+00:00",
+      "year": 2026
     }
   ],
   "day": 13,
@@ -219,7 +243,7 @@
       "year": 2026
     },
     {
-      "archive_status": "ready",
+      "archive_status": "published",
       "completeness_ratio": 1.0,
       "day": 13,
       "hour": 5,
@@ -230,9 +254,9 @@
       "local_started_at": "2026-09-13T05:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 9,
-      "playable": false,
-      "state": "publishing",
-      "status_label": "Czeka w kolejce do publikacji",
+      "playable": true,
+      "state": "available",
+      "status_label": null,
       "utc_label": "2026-09-13 03:00 UTC",
       "utc_started_at": "2026-09-13T03:00:00+00:00",
       "year": 2026
