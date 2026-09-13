@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-09-13T00:41:58.710887+00:00",
+  "generated_at": "2026-09-13T00:50:32.129711+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-09-12T23:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -31,6 +31,7 @@
     "Radio Koszalin",
     "Radio Kraków",
     "Radio Lublin",
+    "Radio Luz",
     "Radio Maryja",
     "Radio Olsztyn",
     "Radio Opole",
@@ -49,7 +50,7 @@
     "RMF24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-09-13T00:41:58.710887+00:00",
+  "published_at": "2026-09-13T00:50:32.129711+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -215,7 +216,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3667,
+      "archive_count": 3668,
       "display_name": "Radio Koszalin",
       "public_name": "Radio Koszalin",
       "slug": "radiokoszalin",
@@ -229,14 +230,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3774,
+      "archive_count": 3775,
       "display_name": "Radio Lublin",
       "public_name": "Radio Lublin",
       "slug": "radiolublin",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3775,
+      "archive_count": 3776,
       "display_name": "Radio Luz",
       "public_name": "Radio Luz",
       "slug": "radioluz",
@@ -271,7 +272,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3774,
+      "archive_count": 3775,
       "display_name": "Radio Poznań",
       "public_name": "Radio Poznań",
       "slug": "radiopoznan",
