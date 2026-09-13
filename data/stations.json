@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-09-13T00:12:34.941384+00:00",
+  "generated_at": "2026-09-13T00:19:11.082320+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-09-12T23:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -11,11 +11,16 @@
     "Radio 357",
     "Polskie Radio Dzieciom",
     "Radio Afera",
+    "Radio Białystok",
     "Radio Centrum Lublin",
-    "Radio Gdańsk"
+    "Radio Centrum Rzeszów",
+    "Radio Gdańsk",
+    "Radio Kampus",
+    "Radio Katowice",
+    "Radio UWM FM"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-09-13T00:12:34.941384+00:00",
+  "published_at": "2026-09-13T00:19:11.082320+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -48,7 +53,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3771,
+      "archive_count": 3772,
       "display_name": "Radio 357",
       "public_name": "Radio 357",
       "slug": "radio357",
@@ -90,7 +95,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3773,
+      "archive_count": 3774,
       "display_name": "Radio Afera",
       "public_name": "Radio Afera",
       "slug": "afera",
@@ -104,14 +109,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3770,
+      "archive_count": 3771,
       "display_name": "Radio Białystok",
       "public_name": "Radio Białystok",
       "slug": "radiobialystok",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3772,
+      "archive_count": 3773,
       "display_name": "Radio Centrum Lublin",
       "public_name": "Radio Centrum Lublin",
       "slug": "radiocentrumlublin",
@@ -132,7 +137,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3775,
+      "archive_count": 3776,
       "display_name": "Radio Gdańsk",
       "public_name": "Radio Gdańsk",
       "slug": "radiogdansk",
