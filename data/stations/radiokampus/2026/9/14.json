@@ -1,0 +1,58 @@
+{
+  "archives": [
+    {
+      "archive_item_identifier": "radiokampus-2026-09-13",
+      "audio_url": "https://archive.org/download/radiokampus-2026-09-13/radiokampus_2026-09-13T22-00-00Z.mp3",
+      "completeness_ratio": 1.0,
+      "day": 14,
+      "download_url": "https://archive.org/download/radiokampus-2026-09-13/radiokampus_2026-09-13T22-00-00Z.mp3",
+      "duration_seconds": 3600.144,
+      "hour": 0,
+      "hourly_archive_id": 195342,
+      "local_date_label": "14.09.2026",
+      "local_hour_label": "00:00",
+      "local_label": "2026-09-14 00:00 czasu polskiego",
+      "local_started_at": "2026-09-14T00:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 9,
+      "published_at": "2026-09-13T23:19:15.031167+00:00",
+      "published_local_label": "2026-09-14 01:19 czasu polskiego",
+      "remote_filename": "radiokampus_2026-09-13T22-00-00Z.mp3",
+      "station_slug": "radiokampus",
+      "status": "published",
+      "utc_label": "2026-09-13 22:00 UTC",
+      "utc_started_at": "2026-09-13T22:00:00+00:00",
+      "year": 2026
+    }
+  ],
+  "day": 14,
+  "hour_slots": [
+    {
+      "archive_status": "published",
+      "completeness_ratio": 1.0,
+      "day": 14,
+      "hour": 0,
+      "hourly_archive_id": 195342,
+      "local_date_label": "14.09.2026",
+      "local_hour_label": "00:00",
+      "local_label": "2026-09-14 00:00 czasu polskiego",
+      "local_started_at": "2026-09-14T00:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 9,
+      "playable": true,
+      "state": "available",
+      "status_label": null,
+      "utc_label": "2026-09-13 22:00 UTC",
+      "utc_started_at": "2026-09-13T22:00:00+00:00",
+      "year": 2026
+    }
+  ],
+  "month": 9,
+  "station": {
+    "display_name": "Radio Kampus",
+    "public_name": "Radio Kampus",
+    "slug": "radiokampus",
+    "timezone": "Europe/Warsaw"
+  },
+  "year": 2026
+}
