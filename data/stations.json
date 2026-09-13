@@ -1,26 +1,35 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-09-13T05:04:32.101848+00:00",
+  "generated_at": "2026-09-13T05:13:44.779099+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-09-13T04:00:00+00:00",
   "latest_archive_hour_stations": [
-    "Polskie Radio Dzieciom"
+    "Program 1",
+    "Program 2",
+    "Polskie Radio 24",
+    "Radio 357",
+    "Polskie Radio Dzieciom",
+    "Radio Afera",
+    "Radio Akadera",
+    "Radio Centrum Lublin",
+    "Radio Centrum Rzeszów",
+    "Radio Gdańsk"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-09-13T05:04:32.101848+00:00",
+  "published_at": "2026-09-13T05:13:44.779099+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
     {
-      "archive_count": 3775,
+      "archive_count": 3776,
       "display_name": "Program 1",
       "public_name": "Polskie Radio Program 1",
       "slug": "pr1",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3776,
+      "archive_count": 3777,
       "display_name": "Program 2",
       "public_name": "Polskie Radio Program 2",
       "slug": "pr2",
@@ -34,14 +43,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3793,
+      "archive_count": 3794,
       "display_name": "Polskie Radio 24",
       "public_name": "Polskie Radio 24",
       "slug": "pr24",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3776,
+      "archive_count": 3777,
       "display_name": "Radio 357",
       "public_name": "Radio 357",
       "slug": "radio357",
@@ -83,7 +92,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3778,
+      "archive_count": 3779,
       "display_name": "Radio Afera",
       "public_name": "Radio Afera",
       "slug": "afera",
@@ -223,7 +232,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3733,
+      "archive_count": 3734,
       "display_name": "Radio PiK",
       "public_name": "Radio PiK",
       "slug": "radiopik",
