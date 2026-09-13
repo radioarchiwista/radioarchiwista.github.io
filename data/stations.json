@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-09-13T10:46:40.329251+00:00",
+  "generated_at": "2026-09-13T10:52:36.487722+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-09-13T09:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -37,6 +37,7 @@
     "Radio PiK",
     "Radio Poznań",
     "Radio Rzeszów",
+    "Radio Szczecin",
     "Radio Słupsk",
     "Radio UWM FM",
     "Radio Wrocław",
@@ -48,7 +49,7 @@
     "RMF24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-09-13T10:46:40.329251+00:00",
+  "published_at": "2026-09-13T10:52:36.487722+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -312,7 +313,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3785,
+      "archive_count": 3786,
       "display_name": "Radio Zachód",
       "public_name": "Radio Zachód",
       "slug": "radiozachod",
@@ -333,7 +334,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3769,
+      "archive_count": 3770,
       "display_name": "Radio Żak",
       "public_name": "Radio Żak",
       "slug": "radiozak",
