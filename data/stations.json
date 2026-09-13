@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-09-13T23:46:22.394366+00:00",
+  "generated_at": "2026-09-13T23:47:14.168066+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-09-13T22:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -12,6 +12,7 @@
     "Radio 357",
     "Radio Nowy Świat",
     "TOK FM",
+    "Radio Wnet",
     "Radio Republika",
     "Polskie Radio Dzieciom",
     "Radio Afera",
@@ -49,7 +50,7 @@
     "RMF24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-09-13T23:46:22.394366+00:00",
+  "published_at": "2026-09-13T23:47:14.168066+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -89,7 +90,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3813,
+      "archive_count": 3814,
       "display_name": "Radio Nowy Świat",
       "public_name": "Radio Nowy Świat",
       "slug": "rns",
@@ -341,7 +342,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 2328,
+      "archive_count": 2329,
       "display_name": "RMF Classic",
       "public_name": "RMF Classic",
       "slug": "rmfclassic",
