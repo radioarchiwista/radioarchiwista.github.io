@@ -1,16 +1,27 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-09-13T01:06:47.821999+00:00",
+  "generated_at": "2026-09-13T01:24:54.135826+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-09-13T00:00:00+00:00",
   "latest_archive_hour_stations": [
     "Program 1",
     "Program 2",
-    "Polskie Radio Dzieciom"
+    "Program 3",
+    "Polskie Radio 24",
+    "Radio 357",
+    "Polskie Radio Dzieciom",
+    "Radio Afera",
+    "Radio Akadera",
+    "Radio Centrum Lublin",
+    "Radio Centrum Rzeszów",
+    "Radio Gdańsk",
+    "Radio Gdańsk Regiony",
+    "Radio Gorzów",
+    "Radio Index"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-09-13T01:06:47.821999+00:00",
+  "published_at": "2026-09-13T01:24:54.135826+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -22,28 +33,28 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3772,
+      "archive_count": 3773,
       "display_name": "Program 2",
       "public_name": "Polskie Radio Program 2",
       "slug": "pr2",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 44212,
+      "archive_count": 44213,
       "display_name": "Program 3",
       "public_name": "Polskie Radio Program 3",
       "slug": "pr3",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3789,
+      "archive_count": 3790,
       "display_name": "Polskie Radio 24",
       "public_name": "Polskie Radio 24",
       "slug": "pr24",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3772,
+      "archive_count": 3773,
       "display_name": "Radio 357",
       "public_name": "Radio 357",
       "slug": "radio357",
@@ -85,7 +96,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3774,
+      "archive_count": 3775,
       "display_name": "Radio Afera",
       "public_name": "Radio Afera",
       "slug": "afera",
