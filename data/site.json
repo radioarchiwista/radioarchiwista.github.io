@@ -1,28 +1,15 @@
 {
-  "archive_count": 194899,
+  "archive_count": 194900,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-09-14T01:38:40.720720+00:00",
+  "generated_at": "2026-09-14T02:04:23.891789+00:00",
   "latest_archive_hour_expected_station_count": 43,
-  "latest_archive_hour_started_at": "2026-09-14T00:00:00+00:00",
+  "latest_archive_hour_started_at": "2026-09-14T01:00:00+00:00",
   "latest_archive_hour_stations": [
-    "Program 1",
-    "Program 2",
-    "Program 3",
-    "Polskie Radio 24",
-    "Radio 357",
-    "Polskie Radio Dzieciom",
-    "Radio Afera",
-    "Radio Akadera",
-    "Radio Centrum Lublin",
-    "Radio Centrum Rzeszów",
-    "Radio Gdańsk",
-    "Radio Gdańsk Regiony",
-    "Radio Index",
-    "Radio Kampus"
+    "Polskie Radio Dzieciom"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-09-14T01:38:40.720720+00:00",
+  "published_at": "2026-09-14T02:04:23.891789+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
