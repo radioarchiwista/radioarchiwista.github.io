@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-09-14T01:31:25.897698+00:00",
+  "generated_at": "2026-09-14T01:35:47.834652+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-09-14T00:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -12,6 +12,7 @@
     "Radio 357",
     "Polskie Radio Dzieciom",
     "Radio Afera",
+    "Radio Akadera",
     "Radio Centrum Lublin",
     "Radio Centrum Rzeszów",
     "Radio Gdańsk",
@@ -20,7 +21,7 @@
     "Radio Kampus"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-09-14T01:31:25.897698+00:00",
+  "published_at": "2026-09-14T01:35:47.834652+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -137,14 +138,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3800,
+      "archive_count": 3801,
       "display_name": "Radio Gdańsk",
       "public_name": "Radio Gdańsk",
       "slug": "radiogdansk",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1271,
+      "archive_count": 1272,
       "display_name": "Radio Gdańsk Regiony",
       "public_name": "Radio Gdańsk Regiony",
       "slug": "radiogdanskregiony",
@@ -158,14 +159,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3736,
+      "archive_count": 3737,
       "display_name": "Radio Index",
       "public_name": "Radio Index",
       "slug": "radioindex",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3507,
+      "archive_count": 3508,
       "display_name": "Radio Kampus",
       "public_name": "Radio Kampus",
       "slug": "radiokampus",
