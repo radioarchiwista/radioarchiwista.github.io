@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-09-15T03:51:22.553390+00:00",
+  "generated_at": "2026-09-15T03:57:05.528665+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-09-15T02:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -47,7 +47,7 @@
     "RMF24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-09-15T03:51:22.553390+00:00",
+  "published_at": "2026-09-15T03:57:05.528665+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -206,14 +206,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3785,
+      "archive_count": 3786,
       "display_name": "Radio Kielce",
       "public_name": "Radio Kielce",
       "slug": "radiokielce",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3718,
+      "archive_count": 3719,
       "display_name": "Radio Koszalin",
       "public_name": "Radio Koszalin",
       "slug": "radiokoszalin",
@@ -339,14 +339,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 2356,
+      "archive_count": 2357,
       "display_name": "RMF Classic",
       "public_name": "RMF Classic",
       "slug": "rmfclassic",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 2356,
+      "archive_count": 2357,
       "display_name": "RMF24",
       "public_name": "RMF24",
       "slug": "rmf24",
