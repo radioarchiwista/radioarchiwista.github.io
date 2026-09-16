@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-09-16T01:56:41.735487+00:00",
+  "generated_at": "2026-09-16T02:01:12.980894+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-09-16T00:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -21,11 +21,13 @@
     "Radio Index",
     "Radio Kampus",
     "Radio Katowice",
+    "Radio Kraków",
+    "Radio Lublin",
     "Radio UWM FM",
     "Radio Łódź"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-09-16T01:56:41.735487+00:00",
+  "published_at": "2026-09-16T02:01:12.980894+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -198,14 +200,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3844,
+      "archive_count": 3845,
       "display_name": "Radio Kraków",
       "public_name": "Radio Kraków",
       "slug": "radiokrakow",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3847,
+      "archive_count": 3848,
       "display_name": "Radio Lublin",
       "public_name": "Radio Lublin",
       "slug": "radiolublin",
@@ -303,7 +305,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3848,
+      "archive_count": 3849,
       "display_name": "Radio Łódź",
       "public_name": "Radio Łódź",
       "slug": "radiolodz",
