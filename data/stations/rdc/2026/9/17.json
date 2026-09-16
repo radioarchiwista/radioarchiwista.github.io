@@ -4,10 +4,10 @@
   "hour_slots": [
     {
       "archive_status": "ready",
-      "completeness_ratio": 0.9987,
+      "completeness_ratio": 0.9999,
       "day": 17,
       "hour": 0,
-      "hourly_archive_id": 198445,
+      "hourly_archive_id": 198458,
       "local_date_label": "17.09.2026",
       "local_hour_label": "00:00",
       "local_label": "2026-09-17 00:00 czasu polskiego",
@@ -24,9 +24,9 @@
   ],
   "month": 9,
   "station": {
-    "display_name": "Radio Maryja",
-    "public_name": "Radio Maryja",
-    "slug": "radiomaryja",
+    "display_name": "Radio Dla Ciebie",
+    "public_name": "Radio Dla Ciebie",
+    "slug": "rdc",
     "timezone": "Europe/Warsaw"
   },
   "year": 2026
