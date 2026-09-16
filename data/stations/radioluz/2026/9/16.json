@@ -1,0 +1,77 @@
+{
+  "archives": [
+    {
+      "archive_item_identifier": "radioluz-2026-09-15",
+      "audio_url": "https://archive.org/download/radioluz-2026-09-15/radioluz_2026-09-15T23-00-00Z.mp3",
+      "completeness_ratio": 0.9997,
+      "day": 16,
+      "download_url": "https://archive.org/download/radioluz-2026-09-15/radioluz_2026-09-15T23-00-00Z.mp3",
+      "duration_seconds": 3599.928,
+      "hour": 1,
+      "hourly_archive_id": 197456,
+      "local_date_label": "16.09.2026",
+      "local_hour_label": "01:00",
+      "local_label": "2026-09-16 01:00 czasu polskiego",
+      "local_started_at": "2026-09-16T01:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 9,
+      "published_at": "2026-09-16T00:32:37.243059+00:00",
+      "published_local_label": "2026-09-16 02:32 czasu polskiego",
+      "remote_filename": "radioluz_2026-09-15T23-00-00Z.mp3",
+      "station_slug": "radioluz",
+      "status": "published",
+      "utc_label": "2026-09-15 23:00 UTC",
+      "utc_started_at": "2026-09-15T23:00:00+00:00",
+      "year": 2026
+    }
+  ],
+  "day": 16,
+  "hour_slots": [
+    {
+      "archive_status": "ready",
+      "completeness_ratio": 1.0,
+      "day": 16,
+      "hour": 0,
+      "hourly_archive_id": 197413,
+      "local_date_label": "16.09.2026",
+      "local_hour_label": "00:00",
+      "local_label": "2026-09-16 00:00 czasu polskiego",
+      "local_started_at": "2026-09-16T00:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 9,
+      "playable": false,
+      "state": "publishing",
+      "status_label": "Czeka w kolejce do publikacji",
+      "utc_label": "2026-09-15 22:00 UTC",
+      "utc_started_at": "2026-09-15T22:00:00+00:00",
+      "year": 2026
+    },
+    {
+      "archive_status": "published",
+      "completeness_ratio": 0.9997,
+      "day": 16,
+      "hour": 1,
+      "hourly_archive_id": 197456,
+      "local_date_label": "16.09.2026",
+      "local_hour_label": "01:00",
+      "local_label": "2026-09-16 01:00 czasu polskiego",
+      "local_started_at": "2026-09-16T01:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 9,
+      "playable": true,
+      "state": "available",
+      "status_label": null,
+      "utc_label": "2026-09-15 23:00 UTC",
+      "utc_started_at": "2026-09-15T23:00:00+00:00",
+      "year": 2026
+    }
+  ],
+  "month": 9,
+  "station": {
+    "display_name": "Radio Luz",
+    "public_name": "Radio Luz",
+    "slug": "radioluz",
+    "timezone": "Europe/Warsaw"
+  },
+  "year": 2026
+}
