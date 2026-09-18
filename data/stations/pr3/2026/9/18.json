@@ -1,6 +1,30 @@
 {
   "archives": [
     {
+      "archive_item_identifier": "pr3-2026-09-17",
+      "audio_url": "https://archive.org/download/pr3-2026-09-17/pr3_2026-09-17T22-00-00Z.mp3",
+      "completeness_ratio": 0.9965,
+      "day": 18,
+      "download_url": "https://archive.org/download/pr3-2026-09-17/pr3_2026-09-17T22-00-00Z.mp3",
+      "duration_seconds": 3599.64,
+      "hour": 0,
+      "hourly_archive_id": 199458,
+      "local_date_label": "18.09.2026",
+      "local_hour_label": "00:00",
+      "local_label": "2026-09-18 00:00 czasu polskiego",
+      "local_started_at": "2026-09-18T00:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 9,
+      "published_at": "2026-09-18T02:01:35.446465+00:00",
+      "published_local_label": "2026-09-18 04:01 czasu polskiego",
+      "remote_filename": "pr3_2026-09-17T22-00-00Z.mp3",
+      "station_slug": "pr3",
+      "status": "published",
+      "utc_label": "2026-09-17 22:00 UTC",
+      "utc_started_at": "2026-09-17T22:00:00+00:00",
+      "year": 2026
+    },
+    {
       "archive_item_identifier": "pr3-2026-09-18",
       "audio_url": "https://archive.org/download/pr3-2026-09-18/pr3_2026-09-18T00-00-00Z.mp3",
       "completeness_ratio": 1.0,
@@ -28,7 +52,7 @@
   "day": 18,
   "hour_slots": [
     {
-      "archive_status": "ready",
+      "archive_status": "published",
       "completeness_ratio": 0.9965,
       "day": 18,
       "hour": 0,
@@ -39,9 +63,9 @@
       "local_started_at": "2026-09-18T00:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 9,
-      "playable": false,
-      "state": "publishing",
-      "status_label": "Czeka w kolejce do publikacji",
+      "playable": true,
+      "state": "available",
+      "status_label": null,
       "utc_label": "2026-09-17 22:00 UTC",
       "utc_started_at": "2026-09-17T22:00:00+00:00",
       "year": 2026
@@ -82,6 +106,25 @@
       "status_label": null,
       "utc_label": "2026-09-18 00:00 UTC",
       "utc_started_at": "2026-09-18T00:00:00+00:00",
+      "year": 2026
+    },
+    {
+      "archive_status": null,
+      "completeness_ratio": null,
+      "day": 18,
+      "hour": 3,
+      "hourly_archive_id": null,
+      "local_date_label": "18.09.2026",
+      "local_hour_label": "03:00",
+      "local_label": "2026-09-18 03:00 czasu polskiego",
+      "local_started_at": "2026-09-18T03:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 9,
+      "playable": false,
+      "state": "recorded",
+      "status_label": "Nagranie czeka na złożenie",
+      "utc_label": "2026-09-18 01:00 UTC",
+      "utc_started_at": "2026-09-18T01:00:00+00:00",
       "year": 2026
     }
   ],
