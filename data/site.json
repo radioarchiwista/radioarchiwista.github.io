@@ -1,8 +1,8 @@
 {
-  "archive_count": 198986,
+  "archive_count": 198998,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-09-18T00:41:32.007136+00:00",
+  "generated_at": "2026-09-18T00:51:10.612083+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-09-17T23:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -13,7 +13,6 @@
     "Radio Nowy Świat",
     "TOK FM",
     "Radio Wnet",
-    "Radio Republika",
     "Polskie Radio Dzieciom",
     "Radio Akadera",
     "Radio Białystok",
@@ -48,7 +47,7 @@
     "RMF24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-09-18T00:41:32.007136+00:00",
+  "published_at": "2026-09-18T00:51:10.612083+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
