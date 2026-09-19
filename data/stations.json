@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-09-19T10:42:03.223306+00:00",
+  "generated_at": "2026-09-19T10:44:27.332051+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-09-19T09:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -50,7 +50,7 @@
     "RMF24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-09-19T10:42:03.223306+00:00",
+  "published_at": "2026-09-19T10:44:27.332051+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -321,7 +321,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3929,
+      "archive_count": 3930,
       "display_name": "Radio Zielona Góra",
       "public_name": "Radio Zielona Góra",
       "slug": "radiozielonagora",
