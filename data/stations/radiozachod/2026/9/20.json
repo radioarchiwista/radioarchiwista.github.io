@@ -1,0 +1,58 @@
+{
+  "archives": [
+    {
+      "archive_item_identifier": "radiozachod-2026-09-19",
+      "audio_url": "https://archive.org/download/radiozachod-2026-09-19/radiozachod_2026-09-19T22-00-00Z.mp3",
+      "completeness_ratio": 0.9989,
+      "day": 20,
+      "download_url": "https://archive.org/download/radiozachod-2026-09-19/radiozachod_2026-09-19T22-00-00Z.mp3",
+      "duration_seconds": 3597.72,
+      "hour": 0,
+      "hourly_archive_id": 201551,
+      "local_date_label": "20.09.2026",
+      "local_hour_label": "00:00",
+      "local_label": "2026-09-20 00:00 czasu polskiego",
+      "local_started_at": "2026-09-20T00:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 9,
+      "published_at": "2026-09-19T23:28:03.865121+00:00",
+      "published_local_label": "2026-09-20 01:28 czasu polskiego",
+      "remote_filename": "radiozachod_2026-09-19T22-00-00Z.mp3",
+      "station_slug": "radiozachod",
+      "status": "published",
+      "utc_label": "2026-09-19 22:00 UTC",
+      "utc_started_at": "2026-09-19T22:00:00+00:00",
+      "year": 2026
+    }
+  ],
+  "day": 20,
+  "hour_slots": [
+    {
+      "archive_status": "published",
+      "completeness_ratio": 0.9989,
+      "day": 20,
+      "hour": 0,
+      "hourly_archive_id": 201551,
+      "local_date_label": "20.09.2026",
+      "local_hour_label": "00:00",
+      "local_label": "2026-09-20 00:00 czasu polskiego",
+      "local_started_at": "2026-09-20T00:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 9,
+      "playable": true,
+      "state": "available",
+      "status_label": null,
+      "utc_label": "2026-09-19 22:00 UTC",
+      "utc_started_at": "2026-09-19T22:00:00+00:00",
+      "year": 2026
+    }
+  ],
+  "month": 9,
+  "station": {
+    "display_name": "Radio Zachód",
+    "public_name": "Radio Zachód",
+    "slug": "radiozachod",
+    "timezone": "Europe/Warsaw"
+  },
+  "year": 2026
+}
