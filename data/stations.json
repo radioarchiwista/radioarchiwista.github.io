@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-09-19T02:11:03.844634+00:00",
+  "generated_at": "2026-09-19T02:27:22.224832+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-09-19T01:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -13,10 +13,22 @@
     "Polskie Radio Dzieciom",
     "Radio Afera",
     "Radio Akadera",
-    "Radio Białystok"
+    "Radio Białystok",
+    "Radio Centrum Lublin",
+    "Radio Centrum Rzeszów",
+    "Radio Gdańsk",
+    "Radio Gdańsk Regiony",
+    "Radio Gorzów",
+    "Radio Index",
+    "Radio Kampus",
+    "Radio Katowice",
+    "Radio Koszalin",
+    "Radio Lublin",
+    "Radio Luz",
+    "Radio Łódź"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-09-19T02:11:03.844634+00:00",
+  "published_at": "2026-09-19T02:27:22.224832+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -35,21 +47,21 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 44357,
+      "archive_count": 44358,
       "display_name": "Program 3",
       "public_name": "Polskie Radio Program 3",
       "slug": "pr3",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3934,
+      "archive_count": 3935,
       "display_name": "Polskie Radio 24",
       "public_name": "Polskie Radio 24",
       "slug": "pr24",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3917,
+      "archive_count": 3918,
       "display_name": "Radio 357",
       "public_name": "Radio 357",
       "slug": "radio357",
@@ -91,70 +103,70 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3918,
+      "archive_count": 3919,
       "display_name": "Radio Afera",
       "public_name": "Radio Afera",
       "slug": "afera",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3918,
+      "archive_count": 3919,
       "display_name": "Radio Akadera",
       "public_name": "Radio Akadera",
       "slug": "radioakadera",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3916,
+      "archive_count": 3917,
       "display_name": "Radio Białystok",
       "public_name": "Radio Białystok",
       "slug": "radiobialystok",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3918,
+      "archive_count": 3919,
       "display_name": "Radio Centrum Lublin",
       "public_name": "Radio Centrum Lublin",
       "slug": "radiocentrumlublin",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3891,
+      "archive_count": 3892,
       "display_name": "Radio Centrum Rzeszów",
       "public_name": "Radio Centrum Rzeszów",
       "slug": "radiocentrumrzeszow",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3920,
+      "archive_count": 3921,
       "display_name": "Radio Dla Ciebie",
       "public_name": "Radio Dla Ciebie",
       "slug": "rdc",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3921,
+      "archive_count": 3922,
       "display_name": "Radio Gdańsk",
       "public_name": "Radio Gdańsk",
       "slug": "radiogdansk",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1392,
+      "archive_count": 1393,
       "display_name": "Radio Gdańsk Regiony",
       "public_name": "Radio Gdańsk Regiony",
       "slug": "radiogdanskregiony",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3921,
+      "archive_count": 3922,
       "display_name": "Radio Gorzów",
       "public_name": "Radio Gorzów",
       "slug": "radiogorzow",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3857,
+      "archive_count": 3858,
       "display_name": "Radio Index",
       "public_name": "Radio Index",
       "slug": "radioindex",
@@ -175,7 +187,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3879,
+      "archive_count": 3880,
       "display_name": "Radio Kielce",
       "public_name": "Radio Kielce",
       "slug": "radiokielce",
