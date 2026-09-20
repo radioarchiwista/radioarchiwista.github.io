@@ -1,6 +1,30 @@
 {
   "archives": [
     {
+      "archive_item_identifier": "rmfclassic-2026-09-19",
+      "audio_url": "https://archive.org/download/rmfclassic-2026-09-19/rmfclassic_2026-09-19T22-00-00Z.mp3",
+      "completeness_ratio": 0.9997,
+      "day": 20,
+      "download_url": "https://archive.org/download/rmfclassic-2026-09-19/rmfclassic_2026-09-19T22-00-00Z.mp3",
+      "duration_seconds": 3599.64,
+      "hour": 0,
+      "hourly_archive_id": 201557,
+      "local_date_label": "20.09.2026",
+      "local_hour_label": "00:00",
+      "local_label": "2026-09-20 00:00 czasu polskiego",
+      "local_started_at": "2026-09-20T00:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 9,
+      "published_at": "2026-09-20T03:46:51.986545+00:00",
+      "published_local_label": "2026-09-20 05:46 czasu polskiego",
+      "remote_filename": "rmfclassic_2026-09-19T22-00-00Z.mp3",
+      "station_slug": "rmfclassic",
+      "status": "published",
+      "utc_label": "2026-09-19 22:00 UTC",
+      "utc_started_at": "2026-09-19T22:00:00+00:00",
+      "year": 2026
+    },
+    {
       "archive_item_identifier": "rmfclassic-2026-09-20",
       "audio_url": "https://archive.org/download/rmfclassic-2026-09-20/rmfclassic_2026-09-20T00-00-00Z.mp3",
       "completeness_ratio": 1.0,
@@ -63,8 +87,8 @@
       "local_started_at": "2026-09-20T04:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 9,
-      "published_at": "2026-09-20T03:29:49.731210+00:00",
-      "published_local_label": "2026-09-20 05:29 czasu polskiego",
+      "published_at": "2026-09-20T03:40:19.920719+00:00",
+      "published_local_label": "2026-09-20 05:40 czasu polskiego",
       "remote_filename": "rmfclassic_2026-09-20T02-00-00Z.mp3",
       "station_slug": "rmfclassic",
       "status": "published",
@@ -76,7 +100,7 @@
   "day": 20,
   "hour_slots": [
     {
-      "archive_status": "ready",
+      "archive_status": "published",
       "completeness_ratio": 0.9997,
       "day": 20,
       "hour": 0,
@@ -87,9 +111,9 @@
       "local_started_at": "2026-09-20T00:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 9,
-      "playable": false,
-      "state": "publishing",
-      "status_label": "Czeka w kolejce do publikacji",
+      "playable": true,
+      "state": "available",
+      "status_label": null,
       "utc_label": "2026-09-19 22:00 UTC",
       "utc_started_at": "2026-09-19T22:00:00+00:00",
       "year": 2026

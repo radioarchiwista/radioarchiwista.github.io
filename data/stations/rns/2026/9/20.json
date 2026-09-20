@@ -1,6 +1,30 @@
 {
   "archives": [
     {
+      "archive_item_identifier": "rns-2026-09-19",
+      "audio_url": "https://archive.org/download/rns-2026-09-19/rns_2026-09-19T22-00-00Z.mp3",
+      "completeness_ratio": 1.0,
+      "day": 20,
+      "download_url": "https://archive.org/download/rns-2026-09-19/rns_2026-09-19T22-00-00Z.mp3",
+      "duration_seconds": 3599.935,
+      "hour": 0,
+      "hourly_archive_id": 201558,
+      "local_date_label": "20.09.2026",
+      "local_hour_label": "00:00",
+      "local_label": "2026-09-20 00:00 czasu polskiego",
+      "local_started_at": "2026-09-20T00:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 9,
+      "published_at": "2026-09-20T03:38:23.661841+00:00",
+      "published_local_label": "2026-09-20 05:38 czasu polskiego",
+      "remote_filename": "rns_2026-09-19T22-00-00Z.mp3",
+      "station_slug": "rns",
+      "status": "published",
+      "utc_label": "2026-09-19 22:00 UTC",
+      "utc_started_at": "2026-09-19T22:00:00+00:00",
+      "year": 2026
+    },
+    {
       "archive_item_identifier": "rns-2026-09-20",
       "audio_url": "https://archive.org/download/rns-2026-09-20/rns_2026-09-20T00-00-00Z.mp3",
       "completeness_ratio": 1.0,
@@ -63,8 +87,8 @@
       "local_started_at": "2026-09-20T04:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 9,
-      "published_at": "2026-09-20T03:29:55.995654+00:00",
-      "published_local_label": "2026-09-20 05:29 czasu polskiego",
+      "published_at": "2026-09-20T03:40:23.465473+00:00",
+      "published_local_label": "2026-09-20 05:40 czasu polskiego",
       "remote_filename": "rns_2026-09-20T02-00-00Z.mp3",
       "station_slug": "rns",
       "status": "published",
@@ -76,7 +100,7 @@
   "day": 20,
   "hour_slots": [
     {
-      "archive_status": "ready",
+      "archive_status": "published",
       "completeness_ratio": 1.0,
       "day": 20,
       "hour": 0,
@@ -87,9 +111,9 @@
       "local_started_at": "2026-09-20T00:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 9,
-      "playable": false,
-      "state": "publishing",
-      "status_label": "Czeka w kolejce do publikacji",
+      "playable": true,
+      "state": "available",
+      "status_label": null,
       "utc_label": "2026-09-19 22:00 UTC",
       "utc_started_at": "2026-09-19T22:00:00+00:00",
       "year": 2026
