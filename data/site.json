@@ -1,8 +1,8 @@
 {
-  "archive_count": 202144,
+  "archive_count": 202145,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-09-21T02:34:48.465550+00:00",
+  "generated_at": "2026-09-21T02:41:48.924475+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-09-21T01:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -19,10 +19,11 @@
     "Radio Lublin",
     "Radio Luz",
     "Radio Maryja",
+    "Radio Zachód",
     "Radio Łódź"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-09-21T02:34:48.465550+00:00",
+  "published_at": "2026-09-21T02:41:48.924475+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
