@@ -455,30 +455,6 @@
       "utc_label": "2026-09-21 16:00 UTC",
       "utc_started_at": "2026-09-21T16:00:00+00:00",
       "year": 2026
-    },
-    {
-      "archive_item_identifier": "radioslupsk-2026-09-21",
-      "audio_url": "https://archive.org/download/radioslupsk-2026-09-21/radioslupsk_2026-09-21T17-00-00Z.mp3",
-      "completeness_ratio": 1.0,
-      "day": 21,
-      "download_url": "https://archive.org/download/radioslupsk-2026-09-21/radioslupsk_2026-09-21T17-00-00Z.mp3",
-      "duration_seconds": 3599.882,
-      "hour": 19,
-      "hourly_archive_id": 203395,
-      "local_date_label": "21.09.2026",
-      "local_hour_label": "19:00",
-      "local_label": "2026-09-21 19:00 czasu polskiego",
-      "local_started_at": "2026-09-21T19:00:00+02:00",
-      "local_timezone_label": "czasu polskiego",
-      "month": 9,
-      "published_at": "2026-09-21T18:21:01.269216+00:00",
-      "published_local_label": "2026-09-21 20:21 czasu polskiego",
-      "remote_filename": "radioslupsk_2026-09-21T17-00-00Z.mp3",
-      "station_slug": "radioslupsk",
-      "status": "published",
-      "utc_label": "2026-09-21 17:00 UTC",
-      "utc_started_at": "2026-09-21T17:00:00+00:00",
-      "year": 2026
     }
   ],
   "day": 21,
@@ -845,7 +821,7 @@
       "year": 2026
     },
     {
-      "archive_status": "published",
+      "archive_status": "ready",
       "completeness_ratio": 1.0,
       "day": 21,
       "hour": 19,
@@ -856,9 +832,9 @@
       "local_started_at": "2026-09-21T19:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 9,
-      "playable": true,
-      "state": "available",
-      "status_label": null,
+      "playable": false,
+      "state": "publishing",
+      "status_label": "Czeka w kolejce do publikacji",
       "utc_label": "2026-09-21 17:00 UTC",
       "utc_started_at": "2026-09-21T17:00:00+00:00",
       "year": 2026
