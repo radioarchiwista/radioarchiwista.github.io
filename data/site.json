@@ -1,8 +1,8 @@
 {
-  "archive_count": 202153,
+  "archive_count": 202152,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-09-21T02:47:48.304707+00:00",
+  "generated_at": "2026-09-21T02:59:23.765810+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-09-21T01:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -19,11 +19,11 @@
     "Radio Afera",
     "Radio Akadera",
     "Radio Białystok",
-    "Radio Dla Ciebie",
     "Radio Gdańsk Regiony",
     "Radio Lublin",
     "Radio Luz",
     "Radio Maryja",
+    "Radio Słupsk",
     "Radio Zachód",
     "Radio Zielona Góra",
     "Radio Łódź",
@@ -31,7 +31,7 @@
     "RMF Classic"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-09-21T02:47:48.304707+00:00",
+  "published_at": "2026-09-21T02:59:23.765810+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
