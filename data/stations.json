@@ -1,9 +1,9 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-09-21T02:02:41.794026+00:00",
+  "generated_at": "2026-09-21T02:19:05.146159+00:00",
   "latest_archive_hour_expected_station_count": 43,
-  "latest_archive_hour_started_at": "2026-09-21T00:00:00+00:00",
+  "latest_archive_hour_started_at": "2026-09-21T01:00:00+00:00",
   "latest_archive_hour_stations": [
     "Program 1",
     "Program 2",
@@ -14,41 +14,36 @@
     "Radio Afera",
     "Radio Akadera",
     "Radio Białystok",
-    "Radio Dla Ciebie",
-    "Radio Gdańsk Regiony",
-    "Radio Zachód",
-    "Radio Zielona Góra",
-    "Radio Łódź",
-    "Radio Żak"
+    "Radio Gdańsk Regiony"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-09-21T02:02:41.794026+00:00",
+  "published_at": "2026-09-21T02:19:05.146159+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
     {
-      "archive_count": 3964,
+      "archive_count": 3965,
       "display_name": "Program 1",
       "public_name": "Polskie Radio Program 1",
       "slug": "pr1",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3965,
+      "archive_count": 3966,
       "display_name": "Program 2",
       "public_name": "Polskie Radio Program 2",
       "slug": "pr2",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 44405,
+      "archive_count": 44406,
       "display_name": "Program 3",
       "public_name": "Polskie Radio Program 3",
       "slug": "pr3",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3982,
+      "archive_count": 3983,
       "display_name": "Polskie Radio 24",
       "public_name": "Polskie Radio 24",
       "slug": "pr24",
@@ -62,14 +57,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3983,
+      "archive_count": 3984,
       "display_name": "Radio Nowy Świat",
       "public_name": "Radio Nowy Świat",
       "slug": "rns",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3972,
+      "archive_count": 3973,
       "display_name": "TOK FM",
       "public_name": "TOK FM",
       "slug": "tokfm",
@@ -83,14 +78,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3984,
+      "archive_count": 3985,
       "display_name": "Radio Republika",
       "public_name": "Radio Republika",
       "slug": "republika",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1441,
+      "archive_count": 1442,
       "display_name": "Polskie Radio Dzieciom",
       "public_name": "Polskie Radio Dzieciom",
       "slug": "polskieradiodzieciom",
@@ -202,14 +197,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3967,
+      "archive_count": 3968,
       "display_name": "Radio Lublin",
       "public_name": "Radio Lublin",
       "slug": "radiolublin",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3968,
+      "archive_count": 3969,
       "display_name": "Radio Luz",
       "public_name": "Radio Luz",
       "slug": "radioluz",
@@ -314,7 +309,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 2498,
+      "archive_count": 2499,
       "display_name": "RMF Classic",
       "public_name": "RMF Classic",
       "slug": "rmfclassic",
