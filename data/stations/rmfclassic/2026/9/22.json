@@ -1,0 +1,33 @@
+{
+  "archives": [],
+  "day": 22,
+  "hour_slots": [
+    {
+      "archive_status": "ready",
+      "completeness_ratio": 0.8426,
+      "day": 22,
+      "hour": 0,
+      "hourly_archive_id": 203620,
+      "local_date_label": "22.09.2026",
+      "local_hour_label": "00:00",
+      "local_label": "2026-09-22 00:00 czasu polskiego",
+      "local_started_at": "2026-09-22T00:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 9,
+      "playable": false,
+      "state": "publishing",
+      "status_label": "Czeka w kolejce do publikacji",
+      "utc_label": "2026-09-21 22:00 UTC",
+      "utc_started_at": "2026-09-21T22:00:00+00:00",
+      "year": 2026
+    }
+  ],
+  "month": 9,
+  "station": {
+    "display_name": "RMF Classic",
+    "public_name": "RMF Classic",
+    "slug": "rmfclassic",
+    "timezone": "Europe/Warsaw"
+  },
+  "year": 2026
+}
