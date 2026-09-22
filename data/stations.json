@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-09-22T02:57:09.110029+00:00",
+  "generated_at": "2026-09-22T03:02:51.732476+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-09-22T01:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -25,6 +25,7 @@
     "Radio Kampus",
     "Radio Katowice",
     "Radio Kielce",
+    "Radio Kraków",
     "Radio Luz",
     "Radio Maryja",
     "Radio Olsztyn",
@@ -35,10 +36,11 @@
     "Radio Szczecin",
     "Radio Słupsk",
     "Radio Zielona Góra",
+    "Radio Łódź",
     "RMF Classic"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-09-22T02:57:09.110029+00:00",
+  "published_at": "2026-09-22T03:02:51.732476+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -211,7 +213,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3988,
+      "archive_count": 3989,
       "display_name": "Radio Kraków",
       "public_name": "Radio Kraków",
       "slug": "radiokrakow",
@@ -316,14 +318,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3992,
+      "archive_count": 3994,
       "display_name": "Radio Łódź",
       "public_name": "Radio Łódź",
       "slug": "radiolodz",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3976,
+      "archive_count": 3977,
       "display_name": "Radio Żak",
       "public_name": "Radio Żak",
       "slug": "radiozak",
