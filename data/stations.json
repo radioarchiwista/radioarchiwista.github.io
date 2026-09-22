@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-09-22T22:34:43.666805+00:00",
+  "generated_at": "2026-09-22T22:39:42.586073+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-09-22T21:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -12,6 +12,7 @@
     "Radio 357",
     "Radio Nowy Świat",
     "TOK FM",
+    "Radio Wnet",
     "Radio Republika",
     "Polskie Radio Dzieciom",
     "Radio Afera",
@@ -45,11 +46,10 @@
     "Radio Zielona Góra",
     "Radio Łódź",
     "Radio Żak",
-    "RMF Classic",
-    "RMF24"
+    "RMF Classic"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-09-22T22:34:43.666805+00:00",
+  "published_at": "2026-09-22T22:39:42.586073+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -96,14 +96,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4017,
+      "archive_count": 4018,
       "display_name": "TOK FM",
       "public_name": "TOK FM",
       "slug": "tokfm",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4030,
+      "archive_count": 4031,
       "display_name": "Radio Wnet",
       "public_name": "Radio Wnet",
       "slug": "wnet",
@@ -348,7 +348,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 2540,
+      "archive_count": 2538,
       "display_name": "RMF24",
       "public_name": "RMF24",
       "slug": "rmf24",
