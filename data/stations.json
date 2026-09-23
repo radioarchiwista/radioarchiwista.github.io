@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-09-23T01:23:57.168802+00:00",
+  "generated_at": "2026-09-23T01:26:34.626798+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-09-23T00:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -17,7 +17,7 @@
     "Radio Gdańsk Regiony"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-09-23T01:23:57.168802+00:00",
+  "published_at": "2026-09-23T01:26:34.626798+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -106,7 +106,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4011,
+      "archive_count": 4012,
       "display_name": "Radio Białystok",
       "public_name": "Radio Białystok",
       "slug": "radiobialystok",
@@ -141,7 +141,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1487,
+      "archive_count": 1488,
       "display_name": "Radio Gdańsk Regiony",
       "public_name": "Radio Gdańsk Regiony",
       "slug": "radiogdanskregiony",
