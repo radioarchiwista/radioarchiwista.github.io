@@ -1,8 +1,8 @@
 {
-  "archive_count": 204181,
+  "archive_count": 204189,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-09-23T01:26:34.626798+00:00",
+  "generated_at": "2026-09-23T02:03:40.690255+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-09-23T00:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -15,10 +15,19 @@
     "Radio Afera",
     "Radio Akadera",
     "Radio Białystok",
-    "Radio Gdańsk Regiony"
+    "Radio Gdańsk",
+    "Radio Gdańsk Regiony",
+    "Radio Kampus",
+    "Radio Katowice",
+    "Radio Lublin",
+    "Radio Szczecin",
+    "Radio Wrocław",
+    "Radio Zachód",
+    "Radio Zielona Góra",
+    "Radio Żak"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-09-23T01:26:34.626798+00:00",
+  "published_at": "2026-09-23T02:03:40.690255+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
