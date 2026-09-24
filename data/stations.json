@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-09-24T16:43:37.852976+00:00",
+  "generated_at": "2026-09-24T16:51:55.237296+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-09-24T15:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -35,6 +35,7 @@
     "Radio Opole",
     "Radio PiK",
     "Radio Poznań",
+    "Radio Rzeszów",
     "Radio Szczecin",
     "Radio Słupsk",
     "Radio Wrocław",
@@ -46,7 +47,7 @@
     "RMF24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-09-24T16:43:37.852976+00:00",
+  "published_at": "2026-09-24T16:51:55.237296+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -107,7 +108,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4072,
+      "archive_count": 4071,
       "display_name": "Radio Republika",
       "public_name": "Radio Republika",
       "slug": "republika",
@@ -275,7 +276,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4050,
+      "archive_count": 4051,
       "display_name": "Radio Rzeszów",
       "public_name": "Radio Rzeszów",
       "slug": "radiorzeszow",
