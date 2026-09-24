@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-09-24T02:34:27.053057+00:00",
+  "generated_at": "2026-09-24T02:41:14.016142+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-09-24T01:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -10,10 +10,12 @@
     "Program 3",
     "Polskie Radio 24",
     "Radio 357",
+    "Radio Republika",
     "Polskie Radio Dzieciom",
     "Radio Afera",
     "Radio Akadera",
     "Radio Białystok",
+    "Radio Dla Ciebie",
     "Radio Gdańsk",
     "Radio Gdańsk Regiony",
     "Radio Gorzów",
@@ -25,10 +27,14 @@
     "Radio Szczecin",
     "Radio Słupsk",
     "Radio Wrocław",
-    "Radio Łódź"
+    "Radio Zachód",
+    "Radio Zielona Góra",
+    "Radio Łódź",
+    "Radio Żak",
+    "RMF Classic"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-09-24T02:34:27.053057+00:00",
+  "published_at": "2026-09-24T02:41:14.016142+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -89,7 +95,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4057,
+      "archive_count": 4058,
       "display_name": "Radio Republika",
       "public_name": "Radio Republika",
       "slug": "republika",
@@ -138,7 +144,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4034,
+      "archive_count": 4035,
       "display_name": "Radio Dla Ciebie",
       "public_name": "Radio Dla Ciebie",
       "slug": "rdc",
@@ -201,7 +207,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4037,
+      "archive_count": 4038,
       "display_name": "Radio Kraków",
       "public_name": "Radio Kraków",
       "slug": "radiokrakow",
@@ -264,7 +270,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4035,
+      "archive_count": 4036,
       "display_name": "Radio Szczecin",
       "public_name": "Radio Szczecin",
       "slug": "radioszczecin",
@@ -285,21 +291,21 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4041,
+      "archive_count": 4042,
       "display_name": "Radio Wrocław",
       "public_name": "Radio Wrocław",
       "slug": "radiowroclaw",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4041,
+      "archive_count": 4042,
       "display_name": "Radio Zachód",
       "public_name": "Radio Zachód",
       "slug": "radiozachod",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4041,
+      "archive_count": 4042,
       "display_name": "Radio Zielona Góra",
       "public_name": "Radio Zielona Góra",
       "slug": "radiozielonagora",
@@ -313,14 +319,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4025,
+      "archive_count": 4026,
       "display_name": "Radio Żak",
       "public_name": "Radio Żak",
       "slug": "radiozak",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 2571,
+      "archive_count": 2572,
       "display_name": "RMF Classic",
       "public_name": "RMF Classic",
       "slug": "rmfclassic",
