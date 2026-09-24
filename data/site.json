@@ -1,8 +1,8 @@
 {
-  "archive_count": 205231,
+  "archive_count": 205237,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-09-24T02:28:19.009631+00:00",
+  "generated_at": "2026-09-24T02:34:27.053057+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-09-24T01:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -17,13 +17,19 @@
     "Radio Białystok",
     "Radio Gdańsk",
     "Radio Gdańsk Regiony",
+    "Radio Gorzów",
     "Radio Koszalin",
     "Radio Kraków",
     "Radio Lublin",
+    "Radio Poznań",
+    "Radio Rzeszów",
+    "Radio Szczecin",
+    "Radio Słupsk",
+    "Radio Wrocław",
     "Radio Łódź"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-09-24T02:28:19.009631+00:00",
+  "published_at": "2026-09-24T02:34:27.053057+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
