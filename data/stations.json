@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-09-25T02:49:02.761892+00:00",
+  "generated_at": "2026-09-25T02:56:11.687781+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-09-25T01:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -30,12 +30,14 @@
     "Radio Luz",
     "Radio Poznań",
     "Radio Rzeszów",
+    "Radio Szczecin",
     "Radio Słupsk",
+    "Radio Wrocław",
     "Radio Zachód",
     "Radio Żak"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-09-25T02:49:02.761892+00:00",
+  "published_at": "2026-09-25T02:56:11.687781+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -187,7 +189,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4064,
+      "archive_count": 4063,
       "display_name": "Radio Katowice",
       "public_name": "Radio Katowice",
       "slug": "radiokatowice",
