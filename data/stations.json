@@ -1,18 +1,32 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-09-25T00:46:43.659511+00:00",
+  "generated_at": "2026-09-25T00:53:45.949951+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-09-24T23:00:00+00:00",
   "latest_archive_hour_stations": [
+    "Radio Nowy Świat",
+    "TOK FM",
+    "Radio Wnet",
+    "Radio Republika",
+    "Radio Dla Ciebie",
+    "Radio Kampus",
     "Radio Katowice",
+    "Radio Opole",
     "Radio PiK",
     "Radio Rzeszów",
+    "Radio Szczecin",
     "Radio Słupsk",
-    "Radio Zielona Góra"
+    "Radio UWM FM",
+    "Radio Wrocław",
+    "Radio Zachód",
+    "Radio Zielona Góra",
+    "Radio Żak",
+    "RMF Classic",
+    "RMF24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-09-25T00:46:43.659511+00:00",
+  "published_at": "2026-09-25T00:53:45.949951+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -227,7 +241,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4017,
+      "archive_count": 4018,
       "display_name": "Radio PiK",
       "public_name": "Radio PiK",
       "slug": "radiopik",
@@ -241,21 +255,21 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4058,
+      "archive_count": 4059,
       "display_name": "Radio Rzeszów",
       "public_name": "Radio Rzeszów",
       "slug": "radiorzeszow",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4057,
+      "archive_count": 4058,
       "display_name": "Radio Szczecin",
       "public_name": "Radio Szczecin",
       "slug": "radioszczecin",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3954,
+      "archive_count": 3955,
       "display_name": "Radio Słupsk",
       "public_name": "Radio Słupsk",
       "slug": "radioslupsk",
@@ -276,7 +290,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4063,
+      "archive_count": 4064,
       "display_name": "Radio Zachód",
       "public_name": "Radio Zachód",
       "slug": "radiozachod",
