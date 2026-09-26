@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-09-26T01:30:46.063559+00:00",
+  "generated_at": "2026-09-26T01:35:17.405529+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-09-26T00:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -21,7 +21,7 @@
     "Radio Gorzów"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-09-26T01:30:46.063559+00:00",
+  "published_at": "2026-09-26T01:35:17.405529+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -131,7 +131,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4088,
+      "archive_count": 4085,
       "display_name": "Radio Dla Ciebie",
       "public_name": "Radio Dla Ciebie",
       "slug": "rdc",
@@ -152,7 +152,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4088,
+      "archive_count": 4089,
       "display_name": "Radio Gorzów",
       "public_name": "Radio Gorzów",
       "slug": "radiogorzow",
@@ -264,7 +264,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3968,
+      "archive_count": 3966,
       "display_name": "Radio Słupsk",
       "public_name": "Radio Słupsk",
       "slug": "radioslupsk",
