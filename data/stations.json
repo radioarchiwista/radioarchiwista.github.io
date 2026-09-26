@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-09-26T02:53:25.731202+00:00",
+  "generated_at": "2026-09-26T02:59:47.128875+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-09-26T01:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -10,6 +10,8 @@
     "Program 3",
     "Polskie Radio 24",
     "Radio 357",
+    "TOK FM",
+    "Radio Wnet",
     "Polskie Radio Dzieciom",
     "Radio Afera",
     "Radio Akadera",
@@ -33,7 +35,7 @@
     "Radio Łódź"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-09-26T02:53:25.731202+00:00",
+  "published_at": "2026-09-26T02:59:47.128875+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -80,14 +82,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4093,
+      "archive_count": 4094,
       "display_name": "TOK FM",
       "public_name": "TOK FM",
       "slug": "tokfm",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4106,
+      "archive_count": 4107,
       "display_name": "Radio Wnet",
       "public_name": "Radio Wnet",
       "slug": "wnet",
@@ -276,7 +278,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3968,
+      "archive_count": 3971,
       "display_name": "Radio Słupsk",
       "public_name": "Radio Słupsk",
       "slug": "radioslupsk",
