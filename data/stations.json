@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-09-26T06:42:54.589508+00:00",
+  "generated_at": "2026-09-26T06:51:19.643892+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-09-26T05:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -49,7 +49,7 @@
     "RMF24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-09-26T06:42:54.589508+00:00",
+  "published_at": "2026-09-26T06:51:19.643892+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -103,7 +103,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4110,
+      "archive_count": 4111,
       "display_name": "Radio Wnet",
       "public_name": "Radio Wnet",
       "slug": "wnet",
@@ -292,7 +292,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3981,
+      "archive_count": 3974,
       "display_name": "Radio Słupsk",
       "public_name": "Radio Słupsk",
       "slug": "radioslupsk",
