@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-09-26T18:37:43.250155+00:00",
+  "generated_at": "2026-09-26T18:43:34.250536+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-09-26T17:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -42,12 +42,13 @@
     "Radio UWM FM",
     "Radio Wrocław",
     "Radio Zielona Góra",
+    "Radio Łódź",
     "Radio Żak",
     "RMF Classic",
     "RMF24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-09-26T18:37:43.250155+00:00",
+  "published_at": "2026-09-26T18:43:34.250536+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -311,7 +312,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4106,
+      "archive_count": 4105,
       "display_name": "Radio Zachód",
       "public_name": "Radio Zachód",
       "slug": "radiozachod",
@@ -325,7 +326,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4104,
+      "archive_count": 4105,
       "display_name": "Radio Łódź",
       "public_name": "Radio Łódź",
       "slug": "radiolodz",
