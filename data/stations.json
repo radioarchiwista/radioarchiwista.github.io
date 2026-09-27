@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-09-27T04:43:41.680538+00:00",
+  "generated_at": "2026-09-27T04:49:28.305417+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-09-27T03:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -45,7 +45,7 @@
     "RMF Classic"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-09-27T04:43:41.680538+00:00",
+  "published_at": "2026-09-27T04:49:28.305417+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -162,7 +162,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4114,
+      "archive_count": 4116,
       "display_name": "Radio Gdańsk",
       "public_name": "Radio Gdańsk",
       "slug": "radiogdansk",
@@ -288,7 +288,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4006,
+      "archive_count": 4005,
       "display_name": "Radio Słupsk",
       "public_name": "Radio Słupsk",
       "slug": "radioslupsk",
