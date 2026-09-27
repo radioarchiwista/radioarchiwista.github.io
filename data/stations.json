@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-09-27T19:39:33.787369+00:00",
+  "generated_at": "2026-09-27T19:48:34.608430+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-09-27T18:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -16,6 +16,7 @@
     "Radio Republika",
     "Polskie Radio Dzieciom",
     "Radio Afera",
+    "Radio Akadera",
     "Radio Białystok",
     "Radio Centrum Lublin",
     "Radio Centrum Rzeszów",
@@ -47,7 +48,7 @@
     "RMF24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-09-27T19:39:33.787369+00:00",
+  "published_at": "2026-09-27T19:48:34.608430+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -129,7 +130,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4127,
+      "archive_count": 4128,
       "display_name": "Radio Akadera",
       "public_name": "Radio Akadera",
       "slug": "radioakadera",
@@ -283,7 +284,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4114,
+      "archive_count": 4112,
       "display_name": "Radio Szczecin",
       "public_name": "Radio Szczecin",
       "slug": "radioszczecin",
