@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-09-27T05:43:45.935054+00:00",
+  "generated_at": "2026-09-27T05:52:00.438834+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-09-27T04:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -39,6 +39,7 @@
     "Radio Rzeszów",
     "Radio Szczecin",
     "Radio Słupsk",
+    "Radio UWM FM",
     "Radio Wrocław",
     "Radio Zachód",
     "Radio Zielona Góra",
@@ -48,7 +49,7 @@
     "RMF24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-09-27T05:43:45.935054+00:00",
+  "published_at": "2026-09-27T05:52:00.438834+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -151,7 +152,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4086,
+      "archive_count": 4087,
       "display_name": "Radio Centrum Rzeszów",
       "public_name": "Radio Centrum Rzeszów",
       "slug": "radiocentrumrzeszow",
