@@ -1,10 +1,10 @@
 {
-  "archive_count": 209310,
+  "archive_count": 209315,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-09-28T01:39:35.488135+00:00",
+  "generated_at": "2026-09-28T02:22:44.867529+00:00",
   "latest_archive_hour_expected_station_count": 43,
-  "latest_archive_hour_started_at": "2026-09-28T00:00:00+00:00",
+  "latest_archive_hour_started_at": "2026-09-28T01:00:00+00:00",
   "latest_archive_hour_stations": [
     "Program 1",
     "Program 2",
@@ -19,10 +19,13 @@
     "Radio Centrum Rzeszów",
     "Radio Gdańsk",
     "Radio Gdańsk Regiony",
-    "Radio Gorzów"
+    "Radio Gorzów",
+    "Radio Kampus",
+    "Radio Katowice",
+    "Radio Koszalin"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-09-28T01:39:35.488135+00:00",
+  "published_at": "2026-09-28T02:22:44.867529+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
