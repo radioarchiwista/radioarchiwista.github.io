@@ -1,8 +1,8 @@
 {
-  "archive_count": 209345,
+  "archive_count": 209349,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-09-28T02:50:38.559622+00:00",
+  "generated_at": "2026-09-28T02:55:54.708214+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-09-28T01:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -11,6 +11,9 @@
     "Program 3",
     "Polskie Radio 24",
     "Radio 357",
+    "Radio Nowy Świat",
+    "TOK FM",
+    "Radio Wnet",
     "Polskie Radio Dzieciom",
     "Radio Afera",
     "Radio Akadera",
@@ -29,10 +32,11 @@
     "Radio Opole",
     "Radio PiK",
     "Radio Poznań",
-    "Radio Łódź"
+    "Radio Łódź",
+    "RMF Classic"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-09-28T02:50:38.559622+00:00",
+  "published_at": "2026-09-28T02:55:54.708214+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
