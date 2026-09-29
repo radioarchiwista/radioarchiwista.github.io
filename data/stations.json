@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-09-29T14:38:36.106215+00:00",
+  "generated_at": "2026-09-29T14:46:59.673801+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-09-29T13:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -22,6 +22,7 @@
     "Radio Dla Ciebie",
     "Radio Gdańsk",
     "Radio Gdańsk Regiony",
+    "Radio Gorzów",
     "Radio Index",
     "Radio Kampus",
     "Radio Katowice",
@@ -48,7 +49,7 @@
     "RMF24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-09-29T14:38:36.106215+00:00",
+  "published_at": "2026-09-29T14:46:59.673801+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -102,7 +103,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4190,
+      "archive_count": 4191,
       "display_name": "Radio Wnet",
       "public_name": "Radio Wnet",
       "slug": "wnet",
@@ -179,7 +180,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4173,
+      "archive_count": 4174,
       "display_name": "Radio Gorzów",
       "public_name": "Radio Gorzów",
       "slug": "radiogorzow",
@@ -228,7 +229,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4172,
+      "archive_count": 4173,
       "display_name": "Radio Lublin",
       "public_name": "Radio Lublin",
       "slug": "radiolublin",
