@@ -1,49 +1,14 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-09-29T03:59:38.741190+00:00",
+  "generated_at": "2026-09-29T04:05:09.637343+00:00",
   "latest_archive_hour_expected_station_count": 43,
-  "latest_archive_hour_started_at": "2026-09-29T02:00:00+00:00",
+  "latest_archive_hour_started_at": "2026-09-29T03:00:00+00:00",
   "latest_archive_hour_stations": [
-    "Program 1",
-    "Program 2",
-    "Program 3",
-    "Polskie Radio 24",
-    "Radio 357",
-    "Radio Wnet",
-    "Radio Republika",
-    "Polskie Radio Dzieciom",
-    "Radio Afera",
-    "Radio Akadera",
-    "Radio Białystok",
-    "Radio Centrum Lublin",
-    "Radio Centrum Rzeszów",
-    "Radio Dla Ciebie",
-    "Radio Gdańsk",
-    "Radio Gorzów",
-    "Radio Index",
-    "Radio Kampus",
-    "Radio Katowice",
-    "Radio Kielce",
-    "Radio Koszalin",
-    "Radio Kraków",
-    "Radio Lublin",
-    "Radio Maryja",
-    "Radio Olsztyn",
-    "Radio Opole",
-    "Radio PiK",
-    "Radio Poznań",
-    "Radio Rzeszów",
-    "Radio Szczecin",
-    "Radio Słupsk",
-    "Radio UWM FM",
-    "Radio Wrocław",
-    "Radio Zachód",
-    "Radio Zielona Góra",
-    "Radio Łódź"
+    "Polskie Radio Dzieciom"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-09-29T03:59:38.741190+00:00",
+  "published_at": "2026-09-29T04:05:09.637343+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -97,7 +62,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4180,
+      "archive_count": 4179,
       "display_name": "Radio Wnet",
       "public_name": "Radio Wnet",
       "slug": "wnet",
@@ -111,7 +76,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1635,
+      "archive_count": 1636,
       "display_name": "Polskie Radio Dzieciom",
       "public_name": "Polskie Radio Dzieciom",
       "slug": "polskieradiodzieciom",
@@ -209,7 +174,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4054,
+      "archive_count": 4055,
       "display_name": "Radio Koszalin",
       "public_name": "Radio Koszalin",
       "slug": "radiokoszalin",
@@ -279,7 +244,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4156,
+      "archive_count": 4157,
       "display_name": "Radio Szczecin",
       "public_name": "Radio Szczecin",
       "slug": "radioszczecin",
@@ -300,7 +265,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4162,
+      "archive_count": 4163,
       "display_name": "Radio Wrocław",
       "public_name": "Radio Wrocław",
       "slug": "radiowroclaw",
