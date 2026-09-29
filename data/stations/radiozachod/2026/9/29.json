@@ -71,6 +71,30 @@
       "utc_label": "2026-09-29 00:00 UTC",
       "utc_started_at": "2026-09-29T00:00:00+00:00",
       "year": 2026
+    },
+    {
+      "archive_item_identifier": "radiozachod-2026-09-29",
+      "audio_url": "https://archive.org/download/radiozachod-2026-09-29/radiozachod_2026-09-29T01-00-00Z.mp3",
+      "completeness_ratio": 0.9984,
+      "day": 29,
+      "download_url": "https://archive.org/download/radiozachod-2026-09-29/radiozachod_2026-09-29T01-00-00Z.mp3",
+      "duration_seconds": 3596.952,
+      "hour": 3,
+      "hourly_archive_id": 210906,
+      "local_date_label": "29.09.2026",
+      "local_hour_label": "03:00",
+      "local_label": "2026-09-29 03:00 czasu polskiego",
+      "local_started_at": "2026-09-29T03:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 9,
+      "published_at": "2026-09-29T02:30:10.445168+00:00",
+      "published_local_label": "2026-09-29 04:30 czasu polskiego",
+      "remote_filename": "radiozachod_2026-09-29T01-00-00Z.mp3",
+      "station_slug": "radiozachod",
+      "status": "published",
+      "utc_label": "2026-09-29 01:00 UTC",
+      "utc_started_at": "2026-09-29T01:00:00+00:00",
+      "year": 2026
     }
   ],
   "day": 29,
@@ -133,7 +157,7 @@
       "year": 2026
     },
     {
-      "archive_status": "ready",
+      "archive_status": "published",
       "completeness_ratio": 0.9984,
       "day": 29,
       "hour": 3,
@@ -144,9 +168,9 @@
       "local_started_at": "2026-09-29T03:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 9,
-      "playable": false,
-      "state": "publishing",
-      "status_label": "Czeka w kolejce do publikacji",
+      "playable": true,
+      "state": "available",
+      "status_label": null,
       "utc_label": "2026-09-29 01:00 UTC",
       "utc_started_at": "2026-09-29T01:00:00+00:00",
       "year": 2026
