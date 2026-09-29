@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-09-29T06:31:50.793221+00:00",
+  "generated_at": "2026-09-29T06:36:25.130421+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-09-29T05:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -49,7 +49,7 @@
     "RMF24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-09-29T06:31:50.793221+00:00",
+  "published_at": "2026-09-29T06:36:25.130421+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -187,7 +187,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4101,
+      "archive_count": 4102,
       "display_name": "Radio Index",
       "public_name": "Radio Index",
       "slug": "radioindex",
@@ -215,14 +215,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4057,
+      "archive_count": 4058,
       "display_name": "Radio Koszalin",
       "public_name": "Radio Koszalin",
       "slug": "radiokoszalin",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4161,
+      "archive_count": 4162,
       "display_name": "Radio Kraków",
       "public_name": "Radio Kraków",
       "slug": "radiokrakow",
