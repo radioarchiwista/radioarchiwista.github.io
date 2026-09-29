@@ -1,15 +1,26 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-09-29T01:08:16.557438+00:00",
+  "generated_at": "2026-09-29T01:23:49.352981+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-09-29T00:00:00+00:00",
   "latest_archive_hour_stations": [
     "Program 1",
-    "Polskie Radio Dzieciom"
+    "Program 2",
+    "Program 3",
+    "Radio 357",
+    "Polskie Radio Dzieciom",
+    "Radio Afera",
+    "Radio Akadera",
+    "Radio Centrum Lublin",
+    "Radio Centrum Rzeszów",
+    "Radio Gdańsk Regiony",
+    "Radio Gorzów",
+    "Radio Index",
+    "Radio Kampus"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-09-29T01:08:16.557438+00:00",
+  "published_at": "2026-09-29T01:23:49.352981+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -21,21 +32,21 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4156,
+      "archive_count": 4157,
       "display_name": "Program 2",
       "public_name": "Polskie Radio Program 2",
       "slug": "pr2",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 44596,
+      "archive_count": 44597,
       "display_name": "Program 3",
       "public_name": "Polskie Radio Program 3",
       "slug": "pr3",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4173,
+      "archive_count": 4174,
       "display_name": "Polskie Radio 24",
       "public_name": "Polskie Radio 24",
       "slug": "pr24",
@@ -77,14 +88,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1632,
+      "archive_count": 1633,
       "display_name": "Polskie Radio Dzieciom",
       "public_name": "Polskie Radio Dzieciom",
       "slug": "polskieradiodzieciom",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4157,
+      "archive_count": 4158,
       "display_name": "Radio Afera",
       "public_name": "Radio Afera",
       "slug": "afera",
