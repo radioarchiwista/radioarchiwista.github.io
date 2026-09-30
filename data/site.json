@@ -1,8 +1,8 @@
 {
-  "archive_count": 212037,
+  "archive_count": 212057,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-09-30T17:28:57.526403+00:00",
+  "generated_at": "2026-09-30T17:36:03.239953+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-09-30T16:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -13,6 +13,7 @@
     "Radio 357",
     "Radio Nowy Świat",
     "TOK FM",
+    "Radio Wnet",
     "Radio Republika",
     "Polskie Radio Dzieciom",
     "Radio Afera",
@@ -33,6 +34,7 @@
     "Radio Lublin",
     "Radio Luz",
     "Radio Maryja",
+    "Radio Olsztyn",
     "Radio Opole",
     "Radio PiK",
     "Radio Poznań",
@@ -49,7 +51,7 @@
     "RMF24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-09-30T17:28:57.526403+00:00",
+  "published_at": "2026-09-30T17:36:03.239953+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
