@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-09-30T02:41:08.754899+00:00",
+  "generated_at": "2026-09-30T02:47:02.741375+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-09-30T01:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -29,10 +29,11 @@
     "Radio Luz",
     "Radio Maryja",
     "Radio Opole",
+    "Radio Poznań",
     "Radio Łódź"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-09-30T02:41:08.754899+00:00",
+  "published_at": "2026-09-30T02:47:02.741375+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -254,7 +255,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4183,
+      "archive_count": 4184,
       "display_name": "Radio Poznań",
       "public_name": "Radio Poznań",
       "slug": "radiopoznan",
