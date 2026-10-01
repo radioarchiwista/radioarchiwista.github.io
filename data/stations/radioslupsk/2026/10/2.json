@@ -1,0 +1,58 @@
+{
+  "archives": [
+    {
+      "archive_item_identifier": "radioslupsk-2026-10-01",
+      "audio_url": "https://archive.org/download/radioslupsk-2026-10-01/radioslupsk_2026-10-01T22-00-00Z.mp3",
+      "completeness_ratio": 0.9959,
+      "day": 2,
+      "download_url": "https://archive.org/download/radioslupsk-2026-10-01/radioslupsk_2026-10-01T22-00-00Z.mp3",
+      "duration_seconds": 3599.568,
+      "hour": 0,
+      "hourly_archive_id": 213846,
+      "local_date_label": "02.10.2026",
+      "local_hour_label": "00:00",
+      "local_label": "2026-10-02 00:00 czasu polskiego",
+      "local_started_at": "2026-10-02T00:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 10,
+      "published_at": "2026-10-01T23:19:04.752587+00:00",
+      "published_local_label": "2026-10-02 01:19 czasu polskiego",
+      "remote_filename": "radioslupsk_2026-10-01T22-00-00Z.mp3",
+      "station_slug": "radioslupsk",
+      "status": "published",
+      "utc_label": "2026-10-01 22:00 UTC",
+      "utc_started_at": "2026-10-01T22:00:00+00:00",
+      "year": 2026
+    }
+  ],
+  "day": 2,
+  "hour_slots": [
+    {
+      "archive_status": "published",
+      "completeness_ratio": 0.9959,
+      "day": 2,
+      "hour": 0,
+      "hourly_archive_id": 213846,
+      "local_date_label": "02.10.2026",
+      "local_hour_label": "00:00",
+      "local_label": "2026-10-02 00:00 czasu polskiego",
+      "local_started_at": "2026-10-02T00:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 10,
+      "playable": true,
+      "state": "available",
+      "status_label": null,
+      "utc_label": "2026-10-01 22:00 UTC",
+      "utc_started_at": "2026-10-01T22:00:00+00:00",
+      "year": 2026
+    }
+  ],
+  "month": 10,
+  "station": {
+    "display_name": "Radio Słupsk",
+    "public_name": "Radio Słupsk",
+    "slug": "radioslupsk",
+    "timezone": "Europe/Warsaw"
+  },
+  "year": 2026
+}
