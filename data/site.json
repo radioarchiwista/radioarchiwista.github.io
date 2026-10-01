@@ -2,7 +2,7 @@
   "archive_count": 212373,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-10-01T01:29:37.831678+00:00",
+  "generated_at": "2026-10-01T01:38:27.899691+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-10-01T00:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -23,7 +23,7 @@
     "Radio Index"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-10-01T01:29:37.831678+00:00",
+  "published_at": "2026-10-01T01:38:27.899691+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
