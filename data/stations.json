@@ -1,19 +1,28 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-10-02T03:11:10.420959+00:00",
+  "generated_at": "2026-10-02T03:29:59.932985+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-10-02T02:00:00+00:00",
   "latest_archive_hour_stations": [
-    "Program 2"
+    "Program 1",
+    "Program 2",
+    "Program 3",
+    "Polskie Radio 24",
+    "Radio 357",
+    "Polskie Radio Dzieciom",
+    "Radio Afera",
+    "Radio Akadera",
+    "Radio Centrum Lublin",
+    "Radio UWM FM"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-10-02T03:11:10.420959+00:00",
+  "published_at": "2026-10-02T03:29:59.932985+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
     {
-      "archive_count": 4229,
+      "archive_count": 4230,
       "display_name": "Program 1",
       "public_name": "Polskie Radio Program 1",
       "slug": "pr1",
@@ -27,14 +36,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 44669,
+      "archive_count": 44670,
       "display_name": "Program 3",
       "public_name": "Polskie Radio Program 3",
       "slug": "pr3",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4246,
+      "archive_count": 4247,
       "display_name": "Polskie Radio 24",
       "public_name": "Polskie Radio 24",
       "slug": "pr24",
@@ -76,7 +85,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1705,
+      "archive_count": 1707,
       "display_name": "Polskie Radio Dzieciom",
       "public_name": "Polskie Radio Dzieciom",
       "slug": "polskieradiodzieciom",
@@ -167,7 +176,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4189,
+      "archive_count": 4190,
       "display_name": "Radio Kielce",
       "public_name": "Radio Kielce",
       "slug": "radiokielce",
@@ -223,14 +232,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4186,
+      "archive_count": 4187,
       "display_name": "Radio PiK",
       "public_name": "Radio PiK",
       "slug": "radiopik",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4231,
+      "archive_count": 4232,
       "display_name": "Radio Poznań",
       "public_name": "Radio Poznań",
       "slug": "radiopoznan",
