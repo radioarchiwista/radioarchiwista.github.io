@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-10-02T04:24:31.489680+00:00",
+  "generated_at": "2026-10-02T04:31:58.342742+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-10-02T03:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -17,10 +17,13 @@
     "Radio Centrum Rzeszów",
     "Radio Gdańsk",
     "Radio Gdańsk Regiony",
-    "Radio UWM FM"
+    "Radio Gorzów",
+    "Radio Kampus",
+    "Radio Katowice",
+    "Radio Koszalin"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-10-02T04:24:31.489680+00:00",
+  "published_at": "2026-10-02T04:31:58.342742+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -109,21 +112,21 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4230,
+      "archive_count": 4231,
       "display_name": "Radio Białystok",
       "public_name": "Radio Białystok",
       "slug": "radiobialystok",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4231,
+      "archive_count": 4232,
       "display_name": "Radio Centrum Lublin",
       "public_name": "Radio Centrum Lublin",
       "slug": "radiocentrumlublin",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4204,
+      "archive_count": 4205,
       "display_name": "Radio Centrum Rzeszów",
       "public_name": "Radio Centrum Rzeszów",
       "slug": "radiocentrumrzeszow",
@@ -137,21 +140,21 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4234,
+      "archive_count": 4235,
       "display_name": "Radio Gdańsk",
       "public_name": "Radio Gdańsk",
       "slug": "radiogdansk",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1706,
+      "archive_count": 1707,
       "display_name": "Radio Gdańsk Regiony",
       "public_name": "Radio Gdańsk Regiony",
       "slug": "radiogdanskregiony",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4234,
+      "archive_count": 4235,
       "display_name": "Radio Gorzów",
       "public_name": "Radio Gorzów",
       "slug": "radiogorzow",
@@ -165,7 +168,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3941,
+      "archive_count": 3943,
       "display_name": "Radio Kampus",
       "public_name": "Radio Kampus",
       "slug": "radiokampus",
@@ -235,7 +238,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4188,
+      "archive_count": 4187,
       "display_name": "Radio PiK",
       "public_name": "Radio PiK",
       "slug": "radiopik",
