@@ -551,6 +551,30 @@
       "utc_label": "2026-10-02 20:00 UTC",
       "utc_started_at": "2026-10-02T20:00:00+00:00",
       "year": 2026
+    },
+    {
+      "archive_item_identifier": "radiogdansk-2026-10-02",
+      "audio_url": "https://archive.org/download/radiogdansk-2026-10-02/radiogdansk_2026-10-02T21-00-00Z.mp3",
+      "completeness_ratio": 0.9997,
+      "day": 2,
+      "download_url": "https://archive.org/download/radiogdansk-2026-10-02/radiogdansk_2026-10-02T21-00-00Z.mp3",
+      "duration_seconds": 3599.64,
+      "hour": 23,
+      "hourly_archive_id": 214817,
+      "local_date_label": "02.10.2026",
+      "local_hour_label": "23:00",
+      "local_label": "2026-10-02 23:00 czasu polskiego",
+      "local_started_at": "2026-10-02T23:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 10,
+      "published_at": "2026-10-02T23:10:12.206791+00:00",
+      "published_local_label": "2026-10-03 01:10 czasu polskiego",
+      "remote_filename": "radiogdansk_2026-10-02T21-00-00Z.mp3",
+      "station_slug": "radiogdansk",
+      "status": "published",
+      "utc_label": "2026-10-02 21:00 UTC",
+      "utc_started_at": "2026-10-02T21:00:00+00:00",
+      "year": 2026
     }
   ],
   "day": 2,
@@ -993,7 +1017,7 @@
       "year": 2026
     },
     {
-      "archive_status": "ready",
+      "archive_status": "published",
       "completeness_ratio": 0.9997,
       "day": 2,
       "hour": 23,
@@ -1004,9 +1028,9 @@
       "local_started_at": "2026-10-02T23:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 10,
-      "playable": false,
-      "state": "publishing",
-      "status_label": "Czeka w kolejce do publikacji",
+      "playable": true,
+      "state": "available",
+      "status_label": null,
       "utc_label": "2026-10-02 21:00 UTC",
       "utc_started_at": "2026-10-02T21:00:00+00:00",
       "year": 2026
