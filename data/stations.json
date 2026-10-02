@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-10-02T01:55:39.552781+00:00",
+  "generated_at": "2026-10-02T02:02:34.990374+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-10-02T00:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -14,10 +14,14 @@
     "Radio Afera",
     "Radio Akadera",
     "Radio Białystok",
-    "Radio Gdańsk Regiony"
+    "Radio Gdańsk Regiony",
+    "Radio Kampus",
+    "Radio Kielce",
+    "Radio Luz",
+    "Radio Maryja"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-10-02T01:55:39.552781+00:00",
+  "published_at": "2026-10-02T02:02:34.990374+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -162,7 +166,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3939,
+      "archive_count": 3940,
       "display_name": "Radio Kampus",
       "public_name": "Radio Kampus",
       "slug": "radiokampus",
@@ -204,14 +208,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4168,
+      "archive_count": 4169,
       "display_name": "Radio Luz",
       "public_name": "Radio Luz",
       "slug": "radioluz",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4082,
+      "archive_count": 4083,
       "display_name": "Radio Maryja",
       "public_name": "Radio Maryja",
       "slug": "radiomaryja",
