@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-10-03T03:46:59.727731+00:00",
+  "generated_at": "2026-10-03T03:53:46.351543+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-10-03T02:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -10,6 +10,8 @@
     "Program 3",
     "Polskie Radio 24",
     "Radio 357",
+    "Radio Nowy Świat",
+    "Radio Wnet",
     "Radio Republika",
     "Polskie Radio Dzieciom",
     "Radio Afera",
@@ -39,10 +41,12 @@
     "Radio Zachód",
     "Radio Zielona Góra",
     "Radio Łódź",
-    "Radio Żak"
+    "Radio Żak",
+    "RMF Classic",
+    "RMF24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-10-03T03:46:59.727731+00:00",
+  "published_at": "2026-10-03T03:53:46.351543+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -82,7 +86,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4273,
+      "archive_count": 4274,
       "display_name": "Radio Nowy Świat",
       "public_name": "Radio Nowy Świat",
       "slug": "rns",
@@ -96,14 +100,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4274,
+      "archive_count": 4276,
       "display_name": "Radio Wnet",
       "public_name": "Radio Wnet",
       "slug": "wnet",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4274,
+      "archive_count": 4275,
       "display_name": "Radio Republika",
       "public_name": "Radio Republika",
       "slug": "republika",
@@ -334,14 +338,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 2787,
+      "archive_count": 2788,
       "display_name": "RMF Classic",
       "public_name": "RMF Classic",
       "slug": "rmfclassic",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 2787,
+      "archive_count": 2788,
       "display_name": "RMF24",
       "public_name": "RMF24",
       "slug": "rmf24",
