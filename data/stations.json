@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-10-03T20:36:01.618222+00:00",
+  "generated_at": "2026-10-03T20:38:02.602022+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-10-03T19:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -48,7 +48,7 @@
     "RMF24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-10-03T20:36:01.618222+00:00",
+  "published_at": "2026-10-03T20:38:02.602022+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -109,7 +109,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4291,
+      "archive_count": 4292,
       "display_name": "Radio Republika",
       "public_name": "Radio Republika",
       "slug": "republika",
@@ -158,7 +158,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4275,
+      "archive_count": 4276,
       "display_name": "Radio Dla Ciebie",
       "public_name": "Radio Dla Ciebie",
       "slug": "rdc",
@@ -333,7 +333,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4259,
+      "archive_count": 4260,
       "display_name": "Radio Żak",
       "public_name": "Radio Żak",
       "slug": "radiozak",
@@ -347,7 +347,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 2805,
+      "archive_count": 2806,
       "display_name": "RMF24",
       "public_name": "RMF24",
       "slug": "rmf24",
