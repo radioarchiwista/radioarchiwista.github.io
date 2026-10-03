@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-10-03T12:32:08.979792+00:00",
+  "generated_at": "2026-10-03T12:37:47.488144+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-10-03T11:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -50,7 +50,7 @@
     "RMF24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-10-03T12:32:08.979792+00:00",
+  "published_at": "2026-10-03T12:37:47.488144+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -104,7 +104,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4284,
+      "archive_count": 4285,
       "display_name": "Radio Wnet",
       "public_name": "Radio Wnet",
       "slug": "wnet",
@@ -181,7 +181,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4267,
+      "archive_count": 4268,
       "display_name": "Radio Gorzów",
       "public_name": "Radio Gorzów",
       "slug": "radiogorzow",
