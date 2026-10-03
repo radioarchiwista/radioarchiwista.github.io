@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-10-03T02:32:57.488965+00:00",
+  "generated_at": "2026-10-03T02:41:39.712896+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-10-03T01:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -22,10 +22,11 @@
     "Radio Kampus",
     "Radio Katowice",
     "Radio Kielce",
-    "Radio Luz"
+    "Radio Luz",
+    "Radio Poznań"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-10-03T02:32:57.488965+00:00",
+  "published_at": "2026-10-03T02:41:39.712896+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -212,7 +213,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4193,
+      "archive_count": 4194,
       "display_name": "Radio Luz",
       "public_name": "Radio Luz",
       "slug": "radioluz",
@@ -247,7 +248,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4256,
+      "archive_count": 4257,
       "display_name": "Radio Poznań",
       "public_name": "Radio Poznań",
       "slug": "radiopoznan",
