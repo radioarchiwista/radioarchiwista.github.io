@@ -407,6 +407,30 @@
       "utc_label": "2026-10-03 14:00 UTC",
       "utc_started_at": "2026-10-03T14:00:00+00:00",
       "year": 2026
+    },
+    {
+      "archive_item_identifier": "rns-2026-10-03",
+      "audio_url": "https://archive.org/download/rns-2026-10-03/rns_2026-10-03T15-00-00Z.mp3",
+      "completeness_ratio": 1.0,
+      "day": 3,
+      "download_url": "https://archive.org/download/rns-2026-10-03/rns_2026-10-03T15-00-00Z.mp3",
+      "duration_seconds": 3599.935,
+      "hour": 17,
+      "hourly_archive_id": 215620,
+      "local_date_label": "03.10.2026",
+      "local_hour_label": "17:00",
+      "local_label": "2026-10-03 17:00 czasu polskiego",
+      "local_started_at": "2026-10-03T17:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 10,
+      "published_at": "2026-10-03T16:24:54.768315+00:00",
+      "published_local_label": "2026-10-03 18:24 czasu polskiego",
+      "remote_filename": "rns_2026-10-03T15-00-00Z.mp3",
+      "station_slug": "rns",
+      "status": "published",
+      "utc_label": "2026-10-03 15:00 UTC",
+      "utc_started_at": "2026-10-03T15:00:00+00:00",
+      "year": 2026
     }
   ],
   "day": 3,
@@ -735,7 +759,7 @@
       "year": 2026
     },
     {
-      "archive_status": "ready",
+      "archive_status": "published",
       "completeness_ratio": 1.0,
       "day": 3,
       "hour": 17,
@@ -746,9 +770,9 @@
       "local_started_at": "2026-10-03T17:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 10,
-      "playable": false,
-      "state": "publishing",
-      "status_label": "Czeka w kolejce do publikacji",
+      "playable": true,
+      "state": "available",
+      "status_label": null,
       "utc_label": "2026-10-03 15:00 UTC",
       "utc_started_at": "2026-10-03T15:00:00+00:00",
       "year": 2026
