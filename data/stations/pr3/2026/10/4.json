@@ -1,6 +1,30 @@
 {
   "archives": [
     {
+      "archive_item_identifier": "pr3-2026-10-03",
+      "audio_url": "https://archive.org/download/pr3-2026-10-03/pr3_2026-10-03T23-00-00Z.mp3",
+      "completeness_ratio": 0.9932,
+      "day": 4,
+      "download_url": "https://archive.org/download/pr3-2026-10-03/pr3_2026-10-03T23-00-00Z.mp3",
+      "duration_seconds": 3599.88,
+      "hour": 1,
+      "hourly_archive_id": 215928,
+      "local_date_label": "04.10.2026",
+      "local_hour_label": "01:00",
+      "local_label": "2026-10-04 01:00 czasu polskiego",
+      "local_started_at": "2026-10-04T01:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 10,
+      "published_at": "2026-10-04T05:49:26.038153+00:00",
+      "published_local_label": "2026-10-04 07:49 czasu polskiego",
+      "remote_filename": "pr3_2026-10-03T23-00-00Z.mp3",
+      "station_slug": "pr3",
+      "status": "published",
+      "utc_label": "2026-10-03 23:00 UTC",
+      "utc_started_at": "2026-10-03T23:00:00+00:00",
+      "year": 2026
+    },
+    {
       "archive_item_identifier": "pr3-2026-10-04",
       "audio_url": "https://archive.org/download/pr3-2026-10-04/pr3_2026-10-04T00-00-00Z.mp3",
       "completeness_ratio": 1.0,
@@ -143,7 +167,7 @@
       "year": 2026
     },
     {
-      "archive_status": "ready",
+      "archive_status": "published",
       "completeness_ratio": 0.9932,
       "day": 4,
       "hour": 1,
@@ -154,9 +178,9 @@
       "local_started_at": "2026-10-04T01:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 10,
-      "playable": false,
-      "state": "publishing",
-      "status_label": "Czeka w kolejce do publikacji",
+      "playable": true,
+      "state": "available",
+      "status_label": null,
       "utc_label": "2026-10-03 23:00 UTC",
       "utc_started_at": "2026-10-03T23:00:00+00:00",
       "year": 2026
