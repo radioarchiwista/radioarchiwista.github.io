@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-10-04T08:51:54.571144+00:00",
+  "generated_at": "2026-10-04T08:58:20.155158+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-10-04T07:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -49,7 +49,7 @@
     "RMF24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-10-04T08:51:54.571144+00:00",
+  "published_at": "2026-10-04T08:58:20.155158+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -124,7 +124,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4284,
+      "archive_count": 4283,
       "display_name": "Radio Afera",
       "public_name": "Radio Afera",
       "slug": "afera",
@@ -320,7 +320,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4281,
+      "archive_count": 4283,
       "display_name": "Radio Zielona Góra",
       "public_name": "Radio Zielona Góra",
       "slug": "radiozielonagora",
