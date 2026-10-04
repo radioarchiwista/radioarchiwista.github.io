@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-10-04T16:40:17.560613+00:00",
+  "generated_at": "2026-10-04T16:54:29.985206+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-10-04T15:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -49,7 +49,7 @@
     "RMF24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-10-04T16:40:17.560613+00:00",
+  "published_at": "2026-10-04T16:54:29.985206+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -61,7 +61,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4286,
+      "archive_count": 4285,
       "display_name": "Program 2",
       "public_name": "Polskie Radio Program 2",
       "slug": "pr2",
