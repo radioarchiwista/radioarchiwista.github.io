@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-10-05T16:38:10.627944+00:00",
+  "generated_at": "2026-10-05T16:43:30.947289+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-10-05T15:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -19,7 +19,7 @@
     "Radio Akadera",
     "Radio Białystok",
     "Radio Centrum Lublin",
-    "Radio Dla Ciebie",
+    "Radio Centrum Rzeszów",
     "Radio Gdańsk",
     "Radio Gdańsk Regiony",
     "Radio Gorzów",
@@ -38,14 +38,16 @@
     "Radio Rzeszów",
     "Radio Szczecin",
     "Radio Słupsk",
+    "Radio UWM FM",
     "Radio Wrocław",
     "Radio Zielona Góra",
     "Radio Łódź",
+    "Radio Żak",
     "RMF Classic",
     "RMF24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-10-05T16:38:10.627944+00:00",
+  "published_at": "2026-10-05T16:43:30.947289+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -155,7 +157,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4320,
+      "archive_count": 4319,
       "display_name": "Radio Dla Ciebie",
       "public_name": "Radio Dla Ciebie",
       "slug": "rdc",
@@ -295,7 +297,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4314,
+      "archive_count": 4315,
       "display_name": "Radio UWM FM",
       "public_name": "Radio UWM FM",
       "slug": "radiouwmfm",
@@ -309,7 +311,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4314,
+      "archive_count": 4312,
       "display_name": "Radio Zachód",
       "public_name": "Radio Zachód",
       "slug": "radiozachod",
@@ -330,7 +332,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4304,
+      "archive_count": 4303,
       "display_name": "Radio Żak",
       "public_name": "Radio Żak",
       "slug": "radiozak",
