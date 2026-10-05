@@ -503,6 +503,30 @@
       "utc_label": "2026-10-05 18:00 UTC",
       "utc_started_at": "2026-10-05T18:00:00+00:00",
       "year": 2026
+    },
+    {
+      "archive_item_identifier": "radioslupsk-2026-10-05",
+      "audio_url": "https://archive.org/download/radioslupsk-2026-10-05/radioslupsk_2026-10-05T19-00-00Z.mp3",
+      "completeness_ratio": 1.0,
+      "day": 5,
+      "download_url": "https://archive.org/download/radioslupsk-2026-10-05/radioslupsk_2026-10-05T19-00-00Z.mp3",
+      "duration_seconds": 3599.726,
+      "hour": 21,
+      "hourly_archive_id": 217845,
+      "local_date_label": "05.10.2026",
+      "local_hour_label": "21:00",
+      "local_label": "2026-10-05 21:00 czasu polskiego",
+      "local_started_at": "2026-10-05T21:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 10,
+      "published_at": "2026-10-05T22:25:12.212096+00:00",
+      "published_local_label": "2026-10-06 00:25 czasu polskiego",
+      "remote_filename": "radioslupsk_2026-10-05T19-00-00Z.mp3",
+      "station_slug": "radioslupsk",
+      "status": "published",
+      "utc_label": "2026-10-05 19:00 UTC",
+      "utc_started_at": "2026-10-05T19:00:00+00:00",
+      "year": 2026
     }
   ],
   "day": 5,
@@ -907,7 +931,7 @@
       "year": 2026
     },
     {
-      "archive_status": "ready",
+      "archive_status": "published",
       "completeness_ratio": 1.0,
       "day": 5,
       "hour": 21,
@@ -918,9 +942,9 @@
       "local_started_at": "2026-10-05T21:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 10,
-      "playable": false,
-      "state": "publishing",
-      "status_label": "Czeka w kolejce do publikacji",
+      "playable": true,
+      "state": "available",
+      "status_label": null,
       "utc_label": "2026-10-05 19:00 UTC",
       "utc_started_at": "2026-10-05T19:00:00+00:00",
       "year": 2026
@@ -945,11 +969,11 @@
       "year": 2026
     },
     {
-      "archive_status": null,
-      "completeness_ratio": null,
+      "archive_status": "ready",
+      "completeness_ratio": 1.0,
       "day": 5,
       "hour": 23,
-      "hourly_archive_id": null,
+      "hourly_archive_id": 217931,
       "local_date_label": "05.10.2026",
       "local_hour_label": "23:00",
       "local_label": "2026-10-05 23:00 czasu polskiego",
@@ -957,8 +981,8 @@
       "local_timezone_label": "czasu polskiego",
       "month": 10,
       "playable": false,
-      "state": "recorded",
-      "status_label": "Nagranie czeka na złożenie",
+      "state": "publishing",
+      "status_label": "Czeka w kolejce do publikacji",
       "utc_label": "2026-10-05 21:00 UTC",
       "utc_started_at": "2026-10-05T21:00:00+00:00",
       "year": 2026
