@@ -1,8 +1,8 @@
 {
-  "archive_count": 217317,
+  "archive_count": 217341,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-10-05T21:24:39.580129+00:00",
+  "generated_at": "2026-10-05T21:33:07.572590+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-10-05T20:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -24,10 +24,19 @@
     "Radio Katowice",
     "Radio Kielce",
     "Radio Koszalin",
-    "Radio UWM FM"
+    "Radio Kraków",
+    "Radio Lublin",
+    "Radio Luz",
+    "Radio Maryja",
+    "Radio Olsztyn",
+    "Radio Opole",
+    "Radio PiK",
+    "Radio Poznań",
+    "Radio UWM FM",
+    "Radio Łódź"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-10-05T21:24:39.580129+00:00",
+  "published_at": "2026-10-05T21:33:07.572590+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
