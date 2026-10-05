@@ -239,30 +239,6 @@
       "utc_label": "2026-10-05 07:00 UTC",
       "utc_started_at": "2026-10-05T07:00:00+00:00",
       "year": 2026
-    },
-    {
-      "archive_item_identifier": "radiozachod-2026-10-05",
-      "audio_url": "https://archive.org/download/radiozachod-2026-10-05/radiozachod_2026-10-05T18-00-00Z.mp3",
-      "completeness_ratio": 0.9962,
-      "day": 5,
-      "download_url": "https://archive.org/download/radiozachod-2026-10-05/radiozachod_2026-10-05T18-00-00Z.mp3",
-      "duration_seconds": 3597.336,
-      "hour": 20,
-      "hourly_archive_id": 217806,
-      "local_date_label": "05.10.2026",
-      "local_hour_label": "20:00",
-      "local_label": "2026-10-05 20:00 czasu polskiego",
-      "local_started_at": "2026-10-05T20:00:00+02:00",
-      "local_timezone_label": "czasu polskiego",
-      "month": 10,
-      "published_at": "2026-10-05T19:30:55.364378+00:00",
-      "published_local_label": "2026-10-05 21:30 czasu polskiego",
-      "remote_filename": "radiozachod_2026-10-05T18-00-00Z.mp3",
-      "station_slug": "radiozachod",
-      "status": "published",
-      "utc_label": "2026-10-05 18:00 UTC",
-      "utc_started_at": "2026-10-05T18:00:00+00:00",
-      "year": 2026
     }
   ],
   "day": 5,
@@ -648,7 +624,7 @@
       "year": 2026
     },
     {
-      "archive_status": "published",
+      "archive_status": "ready",
       "completeness_ratio": 0.9962,
       "day": 5,
       "hour": 20,
@@ -659,9 +635,9 @@
       "local_started_at": "2026-10-05T20:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 10,
-      "playable": true,
-      "state": "available",
-      "status_label": null,
+      "playable": false,
+      "state": "publishing",
+      "status_label": "Czeka w kolejce do publikacji",
       "utc_label": "2026-10-05 18:00 UTC",
       "utc_started_at": "2026-10-05T18:00:00+00:00",
       "year": 2026
