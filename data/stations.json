@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-10-06T01:26:46.422704+00:00",
+  "generated_at": "2026-10-06T01:33:47.827939+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-10-06T00:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -13,7 +13,7 @@
     "Radio UWM FM"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-10-06T01:26:46.422704+00:00",
+  "published_at": "2026-10-06T01:33:47.827939+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -95,7 +95,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4323,
+      "archive_count": 4321,
       "display_name": "Radio Akadera",
       "public_name": "Radio Akadera",
       "slug": "radioakadera",
@@ -130,7 +130,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4327,
+      "archive_count": 4326,
       "display_name": "Radio Gdańsk",
       "public_name": "Radio Gdańsk",
       "slug": "radiogdansk",
@@ -200,7 +200,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4257,
+      "archive_count": 4259,
       "display_name": "Radio Luz",
       "public_name": "Radio Luz",
       "slug": "radioluz",
@@ -214,7 +214,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4302,
+      "archive_count": 4305,
       "display_name": "Radio Olsztyn",
       "public_name": "Radio Olsztyn",
       "slug": "radioolsztyn",
@@ -256,14 +256,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4214,
+      "archive_count": 4217,
       "display_name": "Radio Słupsk",
       "public_name": "Radio Słupsk",
       "slug": "radioslupsk",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4323,
+      "archive_count": 4324,
       "display_name": "Radio UWM FM",
       "public_name": "Radio UWM FM",
       "slug": "radiouwmfm",
@@ -277,7 +277,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4312,
+      "archive_count": 4318,
       "display_name": "Radio Zachód",
       "public_name": "Radio Zachód",
       "slug": "radiozachod",
