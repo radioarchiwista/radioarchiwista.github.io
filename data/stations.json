@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-10-06T22:42:30.721260+00:00",
+  "generated_at": "2026-10-06T22:44:25.516380+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-10-06T21:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -41,7 +41,6 @@
     "Radio Szczecin",
     "Radio Słupsk",
     "Radio UWM FM",
-    "Radio Wrocław",
     "Radio Zachód",
     "Radio Zielona Góra",
     "Radio Łódź",
@@ -50,7 +49,7 @@
     "RMF24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-10-06T22:42:30.721260+00:00",
+  "published_at": "2026-10-06T22:44:25.516380+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
