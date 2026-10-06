@@ -1,54 +1,14 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-10-06T03:59:24.936277+00:00",
+  "generated_at": "2026-10-06T04:07:18.110021+00:00",
   "latest_archive_hour_expected_station_count": 43,
-  "latest_archive_hour_started_at": "2026-10-06T02:00:00+00:00",
+  "latest_archive_hour_started_at": "2026-10-06T03:00:00+00:00",
   "latest_archive_hour_stations": [
-    "Program 1",
-    "Program 2",
-    "Program 3",
-    "Polskie Radio 24",
-    "Radio 357",
-    "Radio Nowy Świat",
-    "TOK FM",
-    "Radio Republika",
-    "Polskie Radio Dzieciom",
-    "Radio Afera",
-    "Radio Białystok",
-    "Radio Centrum Lublin",
-    "Radio Centrum Rzeszów",
-    "Radio Dla Ciebie",
-    "Radio Gdańsk",
-    "Radio Gdańsk Regiony",
-    "Radio Gorzów",
-    "Radio Index",
-    "Radio Kampus",
-    "Radio Katowice",
-    "Radio Kielce",
-    "Radio Koszalin",
-    "Radio Kraków",
-    "Radio Lublin",
-    "Radio Luz",
-    "Radio Maryja",
-    "Radio Olsztyn",
-    "Radio Opole",
-    "Radio PiK",
-    "Radio Poznań",
-    "Radio Rzeszów",
-    "Radio Szczecin",
-    "Radio Słupsk",
-    "Radio UWM FM",
-    "Radio Wrocław",
-    "Radio Zachód",
-    "Radio Zielona Góra",
-    "Radio Łódź",
-    "Radio Żak",
-    "RMF Classic",
-    "RMF24"
+    "Polskie Radio Dzieciom"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-10-06T03:59:24.936277+00:00",
+  "published_at": "2026-10-06T04:07:18.110021+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -88,7 +48,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4344,
+      "archive_count": 4345,
       "display_name": "Radio Nowy Świat",
       "public_name": "Radio Nowy Świat",
       "slug": "rns",
@@ -102,21 +62,21 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4345,
+      "archive_count": 4346,
       "display_name": "Radio Wnet",
       "public_name": "Radio Wnet",
       "slug": "wnet",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4345,
+      "archive_count": 4346,
       "display_name": "Radio Republika",
       "public_name": "Radio Republika",
       "slug": "republika",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1803,
+      "archive_count": 1804,
       "display_name": "Polskie Radio Dzieciom",
       "public_name": "Polskie Radio Dzieciom",
       "slug": "polskieradiodzieciom",
@@ -130,7 +90,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4323,
+      "archive_count": 4322,
       "display_name": "Radio Akadera",
       "public_name": "Radio Akadera",
       "slug": "radioakadera",
@@ -165,7 +125,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4330,
+      "archive_count": 4329,
       "display_name": "Radio Gdańsk",
       "public_name": "Radio Gdańsk",
       "slug": "radiogdansk",
@@ -249,7 +209,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4305,
+      "archive_count": 4306,
       "display_name": "Radio Olsztyn",
       "public_name": "Radio Olsztyn",
       "slug": "radioolsztyn",
@@ -284,14 +244,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4323,
+      "archive_count": 4324,
       "display_name": "Radio Szczecin",
       "public_name": "Radio Szczecin",
       "slug": "radioszczecin",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4216,
+      "archive_count": 4218,
       "display_name": "Radio Słupsk",
       "public_name": "Radio Słupsk",
       "slug": "radioslupsk",
@@ -340,14 +300,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 2859,
+      "archive_count": 2860,
       "display_name": "RMF Classic",
       "public_name": "RMF Classic",
       "slug": "rmfclassic",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 2859,
+      "archive_count": 2860,
       "display_name": "RMF24",
       "public_name": "RMF24",
       "slug": "rmf24",
