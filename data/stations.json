@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-10-06T02:32:33.453402+00:00",
+  "generated_at": "2026-10-06T02:39:50.928539+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-10-06T01:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -20,10 +20,14 @@
     "Radio Index",
     "Radio Kampus",
     "Radio Katowice",
-    "Radio UWM FM"
+    "Radio Kielce",
+    "Radio Koszalin",
+    "Radio Kraków",
+    "Radio UWM FM",
+    "Radio Łódź"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-10-06T02:32:33.453402+00:00",
+  "published_at": "2026-10-06T02:39:50.928539+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -168,28 +172,28 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4035,
+      "archive_count": 4036,
       "display_name": "Radio Kampus",
       "public_name": "Radio Kampus",
       "slug": "radiokampus",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4327,
+      "archive_count": 4328,
       "display_name": "Radio Katowice",
       "public_name": "Radio Katowice",
       "slug": "radiokatowice",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4286,
+      "archive_count": 4287,
       "display_name": "Radio Kielce",
       "public_name": "Radio Kielce",
       "slug": "radiokielce",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4206,
+      "archive_count": 4207,
       "display_name": "Radio Koszalin",
       "public_name": "Radio Koszalin",
       "slug": "radiokoszalin",
@@ -301,7 +305,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4329,
+      "archive_count": 4330,
       "display_name": "Radio Łódź",
       "public_name": "Radio Łódź",
       "slug": "radiolodz",
