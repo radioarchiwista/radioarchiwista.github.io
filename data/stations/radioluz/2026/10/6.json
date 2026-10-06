@@ -1,6 +1,30 @@
 {
   "archives": [
     {
+      "archive_item_identifier": "radioluz-2026-10-05",
+      "audio_url": "https://archive.org/download/radioluz-2026-10-05/radioluz_2026-10-05T22-00-00Z.mp3",
+      "completeness_ratio": 0.9997,
+      "day": 6,
+      "download_url": "https://archive.org/download/radioluz-2026-10-05/radioluz_2026-10-05T22-00-00Z.mp3",
+      "duration_seconds": 3599.88,
+      "hour": 0,
+      "hourly_archive_id": 217967,
+      "local_date_label": "06.10.2026",
+      "local_hour_label": "00:00",
+      "local_label": "2026-10-06 00:00 czasu polskiego",
+      "local_started_at": "2026-10-06T00:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 10,
+      "published_at": "2026-10-06T05:46:31.014298+00:00",
+      "published_local_label": "2026-10-06 07:46 czasu polskiego",
+      "remote_filename": "radioluz_2026-10-05T22-00-00Z.mp3",
+      "station_slug": "radioluz",
+      "status": "published",
+      "utc_label": "2026-10-05 22:00 UTC",
+      "utc_started_at": "2026-10-05T22:00:00+00:00",
+      "year": 2026
+    },
+    {
       "archive_item_identifier": "radioluz-2026-10-06",
       "audio_url": "https://archive.org/download/radioluz-2026-10-06/radioluz_2026-10-06T00-00-00Z.mp3",
       "completeness_ratio": 1.0,
@@ -111,8 +135,8 @@
       "local_started_at": "2026-10-06T06:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 10,
-      "published_at": "2026-10-06T05:28:48.528139+00:00",
-      "published_local_label": "2026-10-06 07:28 czasu polskiego",
+      "published_at": "2026-10-06T05:41:43.521620+00:00",
+      "published_local_label": "2026-10-06 07:41 czasu polskiego",
       "remote_filename": "radioluz_2026-10-06T04-00-00Z.mp3",
       "station_slug": "radioluz",
       "status": "published",
@@ -124,7 +148,7 @@
   "day": 6,
   "hour_slots": [
     {
-      "archive_status": "ready",
+      "archive_status": "published",
       "completeness_ratio": 0.9997,
       "day": 6,
       "hour": 0,
@@ -135,9 +159,9 @@
       "local_started_at": "2026-10-06T00:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 10,
-      "playable": false,
-      "state": "publishing",
-      "status_label": "Czeka w kolejce do publikacji",
+      "playable": true,
+      "state": "available",
+      "status_label": null,
       "utc_label": "2026-10-05 22:00 UTC",
       "utc_started_at": "2026-10-05T22:00:00+00:00",
       "year": 2026
