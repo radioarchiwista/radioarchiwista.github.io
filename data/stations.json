@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-10-06T06:52:06.738520+00:00",
+  "generated_at": "2026-10-06T07:01:23.628007+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-10-06T05:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -13,7 +13,6 @@
     "Radio Nowy Świat",
     "TOK FM",
     "Radio Wnet",
-    "Radio Republika",
     "Polskie Radio Dzieciom",
     "Radio Afera",
     "Radio Białystok",
@@ -44,11 +43,12 @@
     "Radio Zachód",
     "Radio Zielona Góra",
     "Radio Łódź",
+    "Radio Żak",
     "RMF Classic",
     "RMF24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-10-06T06:52:06.738520+00:00",
+  "published_at": "2026-10-06T07:01:23.628007+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -109,7 +109,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4350,
+      "archive_count": 4349,
       "display_name": "Radio Republika",
       "public_name": "Radio Republika",
       "slug": "republika",
@@ -158,7 +158,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4333,
+      "archive_count": 4334,
       "display_name": "Radio Dla Ciebie",
       "public_name": "Radio Dla Ciebie",
       "slug": "rdc",
@@ -291,7 +291,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4220,
+      "archive_count": 4223,
       "display_name": "Radio Słupsk",
       "public_name": "Radio Słupsk",
       "slug": "radioslupsk",
