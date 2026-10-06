@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-10-06T16:44:28.829896+00:00",
+  "generated_at": "2026-10-06T16:50:35.937232+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-10-06T15:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -38,7 +38,6 @@
     "Radio PiK",
     "Radio Rzeszów",
     "Radio Szczecin",
-    "Radio Słupsk",
     "Radio UWM FM",
     "Radio Wrocław",
     "Radio Zachód",
@@ -49,7 +48,7 @@
     "RMF24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-10-06T16:44:28.829896+00:00",
+  "published_at": "2026-10-06T16:50:35.937232+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -187,7 +186,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4279,
+      "archive_count": 4280,
       "display_name": "Radio Index",
       "public_name": "Radio Index",
       "slug": "radioindex",
@@ -222,7 +221,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4340,
+      "archive_count": 4339,
       "display_name": "Radio Kraków",
       "public_name": "Radio Kraków",
       "slug": "radiokrakow",
@@ -292,7 +291,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4235,
+      "archive_count": 4234,
       "display_name": "Radio Słupsk",
       "public_name": "Radio Słupsk",
       "slug": "radioslupsk",
