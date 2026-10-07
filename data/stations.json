@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-10-07T13:51:27.854391+00:00",
+  "generated_at": "2026-10-07T13:58:23.785384+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-10-07T12:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -28,11 +28,14 @@
     "Radio Lublin",
     "Radio Luz",
     "Radio Maryja",
+    "Radio Olsztyn",
+    "Radio Opole",
+    "Radio PiK",
     "Radio UWM FM",
     "Radio Łódź"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-10-07T13:51:27.854391+00:00",
+  "published_at": "2026-10-07T13:58:23.785384+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -233,21 +236,21 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4342,
+      "archive_count": 4343,
       "display_name": "Radio Olsztyn",
       "public_name": "Radio Olsztyn",
       "slug": "radioolsztyn",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4260,
+      "archive_count": 4261,
       "display_name": "Radio Opole",
       "public_name": "Radio Opole",
       "slug": "radioopole",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4313,
+      "archive_count": 4314,
       "display_name": "Radio PiK",
       "public_name": "Radio PiK",
       "slug": "radiopik",
