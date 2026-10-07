@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-10-07T02:25:09.096947+00:00",
+  "generated_at": "2026-10-07T02:30:51.863155+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-10-07T01:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -24,7 +24,7 @@
     "Radio Katowice"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-10-07T02:25:09.096947+00:00",
+  "published_at": "2026-10-07T02:30:51.863155+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -85,7 +85,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4368,
+      "archive_count": 4369,
       "display_name": "Radio Republika",
       "public_name": "Radio Republika",
       "slug": "republika",
@@ -148,35 +148,35 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1824,
+      "archive_count": 1825,
       "display_name": "Radio Gdańsk Regiony",
       "public_name": "Radio Gdańsk Regiony",
       "slug": "radiogdanskregiony",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4353,
+      "archive_count": 4354,
       "display_name": "Radio Gorzów",
       "public_name": "Radio Gorzów",
       "slug": "radiogorzow",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4289,
+      "archive_count": 4290,
       "display_name": "Radio Index",
       "public_name": "Radio Index",
       "slug": "radioindex",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4059,
+      "archive_count": 4060,
       "display_name": "Radio Kampus",
       "public_name": "Radio Kampus",
       "slug": "radiokampus",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4351,
+      "archive_count": 4352,
       "display_name": "Radio Katowice",
       "public_name": "Radio Katowice",
       "slug": "radiokatowice",
@@ -225,7 +225,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4335,
+      "archive_count": 4336,
       "display_name": "Radio Olsztyn",
       "public_name": "Radio Olsztyn",
       "slug": "radioolsztyn",
@@ -316,7 +316,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 2882,
+      "archive_count": 2883,
       "display_name": "RMF Classic",
       "public_name": "RMF Classic",
       "slug": "rmfclassic",
