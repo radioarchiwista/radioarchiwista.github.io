@@ -1,8 +1,8 @@
 {
-  "archive_count": 219020,
+  "archive_count": 219021,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-10-07T19:01:44.007349+00:00",
+  "generated_at": "2026-10-07T19:06:02.939954+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-10-07T17:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -28,11 +28,12 @@
     "Radio Kraków",
     "Radio Lublin",
     "Radio Olsztyn",
+    "Radio PiK",
     "Radio UWM FM",
     "Radio Łódź"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-10-07T19:01:44.007349+00:00",
+  "published_at": "2026-10-07T19:06:02.939954+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
