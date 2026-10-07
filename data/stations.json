@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-10-07T18:54:04.639673+00:00",
+  "generated_at": "2026-10-07T19:01:44.007349+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-10-07T17:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -26,11 +26,12 @@
     "Radio Koszalin",
     "Radio Kraków",
     "Radio Lublin",
+    "Radio Olsztyn",
     "Radio UWM FM",
     "Radio Łódź"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-10-07T18:54:04.639673+00:00",
+  "published_at": "2026-10-07T19:01:44.007349+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -210,7 +211,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4361,
+      "archive_count": 4362,
       "display_name": "Radio Lublin",
       "public_name": "Radio Lublin",
       "slug": "radiolublin",
@@ -231,7 +232,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4345,
+      "archive_count": 4346,
       "display_name": "Radio Olsztyn",
       "public_name": "Radio Olsztyn",
       "slug": "radioolsztyn",
