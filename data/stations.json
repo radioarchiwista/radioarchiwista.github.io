@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-10-07T09:50:51.620048+00:00",
+  "generated_at": "2026-10-07T10:00:14.435039+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-10-07T08:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -13,6 +13,7 @@
     "Polskie Radio Dzieciom",
     "Radio Afera",
     "Radio Akadera",
+    "Radio Białystok",
     "Radio Centrum Lublin",
     "Radio Centrum Rzeszów",
     "Radio Gdańsk",
@@ -24,11 +25,14 @@
     "Radio Kielce",
     "Radio Koszalin",
     "Radio Kraków",
+    "Radio Lublin",
+    "Radio Luz",
+    "Radio Maryja",
     "Radio UWM FM",
     "Radio Łódź"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-10-07T09:50:51.620048+00:00",
+  "published_at": "2026-10-07T10:00:14.435039+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -117,7 +121,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4353,
+      "archive_count": 4354,
       "display_name": "Radio Białystok",
       "public_name": "Radio Białystok",
       "slug": "radiobialystok",
@@ -187,14 +191,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4313,
+      "archive_count": 4314,
       "display_name": "Radio Kielce",
       "public_name": "Radio Kielce",
       "slug": "radiokielce",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4234,
+      "archive_count": 4235,
       "display_name": "Radio Koszalin",
       "public_name": "Radio Koszalin",
       "slug": "radiokoszalin",
@@ -208,14 +212,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4353,
+      "archive_count": 4354,
       "display_name": "Radio Lublin",
       "public_name": "Radio Lublin",
       "slug": "radiolublin",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4289,
+      "archive_count": 4291,
       "display_name": "Radio Luz",
       "public_name": "Radio Luz",
       "slug": "radioluz",
