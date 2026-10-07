@@ -1,8 +1,8 @@
 {
-  "archive_count": 218912,
+  "archive_count": 218915,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-10-07T13:58:23.785384+00:00",
+  "generated_at": "2026-10-07T14:03:40.834613+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-10-07T12:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -32,11 +32,14 @@
     "Radio Olsztyn",
     "Radio Opole",
     "Radio PiK",
+    "Radio Poznań",
+    "Radio Szczecin",
     "Radio UWM FM",
+    "Radio Wrocław",
     "Radio Łódź"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-10-07T13:58:23.785384+00:00",
+  "published_at": "2026-10-07T14:03:40.834613+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
