@@ -1,9 +1,9 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-10-07T01:42:02.462679+00:00",
+  "generated_at": "2026-10-07T02:10:16.504850+00:00",
   "latest_archive_hour_expected_station_count": 43,
-  "latest_archive_hour_started_at": "2026-10-07T00:00:00+00:00",
+  "latest_archive_hour_started_at": "2026-10-07T01:00:00+00:00",
   "latest_archive_hour_stations": [
     "Program 1",
     "Program 2",
@@ -12,29 +12,22 @@
     "Radio 357",
     "Polskie Radio Dzieciom",
     "Radio Afera",
-    "Radio Akadera",
-    "Radio Białystok",
-    "Radio Centrum Lublin",
-    "Radio Centrum Rzeszów",
-    "Radio Gdańsk",
-    "Radio Gdańsk Regiony",
-    "Radio Gorzów",
-    "Radio Index"
+    "Radio Akadera"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-10-07T01:42:02.462679+00:00",
+  "published_at": "2026-10-07T02:10:16.504850+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
     {
-      "archive_count": 4348,
+      "archive_count": 4349,
       "display_name": "Program 1",
       "public_name": "Polskie Radio Program 1",
       "slug": "pr1",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4349,
+      "archive_count": 4350,
       "display_name": "Program 2",
       "public_name": "Polskie Radio Program 2",
       "slug": "pr2",
@@ -90,7 +83,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1825,
+      "archive_count": 1826,
       "display_name": "Polskie Radio Dzieciom",
       "public_name": "Polskie Radio Dzieciom",
       "slug": "polskieradiodzieciom",
