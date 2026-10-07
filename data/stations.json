@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-10-07T17:32:02.936223+00:00",
+  "generated_at": "2026-10-07T17:41:52.627830+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-10-07T16:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -12,10 +12,12 @@
     "Radio 357",
     "Polskie Radio Dzieciom",
     "Radio Afera",
-    "Radio Białystok"
+    "Radio Białystok",
+    "Radio Centrum Lublin",
+    "Radio Gdańsk"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-10-07T17:32:02.936223+00:00",
+  "published_at": "2026-10-07T17:41:52.627830+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -27,7 +29,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4364,
+      "archive_count": 4365,
       "display_name": "Program 2",
       "public_name": "Polskie Radio Program 2",
       "slug": "pr2",
@@ -48,7 +50,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4361,
+      "archive_count": 4362,
       "display_name": "Radio 357",
       "public_name": "Radio 357",
       "slug": "radio357",
@@ -76,7 +78,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4372,
+      "archive_count": 4371,
       "display_name": "Radio Republika",
       "public_name": "Radio Republika",
       "slug": "republika",
@@ -90,7 +92,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4362,
+      "archive_count": 4363,
       "display_name": "Radio Afera",
       "public_name": "Radio Afera",
       "slug": "afera",
@@ -104,14 +106,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4360,
+      "archive_count": 4361,
       "display_name": "Radio Białystok",
       "public_name": "Radio Białystok",
       "slug": "radiobialystok",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4362,
+      "archive_count": 4363,
       "display_name": "Radio Centrum Lublin",
       "public_name": "Radio Centrum Lublin",
       "slug": "radiocentrumlublin",
