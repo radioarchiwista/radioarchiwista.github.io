@@ -1,14 +1,15 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-10-07T04:27:16.323733+00:00",
+  "generated_at": "2026-10-07T04:41:51.480488+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-10-07T03:00:00+00:00",
   "latest_archive_hour_stations": [
+    "Program 3",
     "Radio UWM FM"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-10-07T04:27:16.323733+00:00",
+  "published_at": "2026-10-07T04:41:51.480488+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -27,7 +28,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 44790,
+      "archive_count": 44791,
       "display_name": "Program 3",
       "public_name": "Polskie Radio Program 3",
       "slug": "pr3",
