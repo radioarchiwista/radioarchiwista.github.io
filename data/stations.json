@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-10-07T08:36:53.435025+00:00",
+  "generated_at": "2026-10-07T08:46:21.920382+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-10-07T07:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -14,10 +14,14 @@
     "Radio Afera",
     "Radio Akadera",
     "Radio Centrum Lublin",
+    "Radio Centrum Rzeszów",
+    "Radio Gdańsk",
+    "Radio Gdańsk Regiony",
+    "Radio Gorzów",
     "Radio UWM FM"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-10-07T08:36:53.435025+00:00",
+  "published_at": "2026-10-07T08:46:21.920382+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -113,14 +117,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4354,
+      "archive_count": 4355,
       "display_name": "Radio Centrum Lublin",
       "public_name": "Radio Centrum Lublin",
       "slug": "radiocentrumlublin",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4326,
+      "archive_count": 4327,
       "display_name": "Radio Centrum Rzeszów",
       "public_name": "Radio Centrum Rzeszów",
       "slug": "radiocentrumrzeszow",
@@ -134,14 +138,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4357,
+      "archive_count": 4358,
       "display_name": "Radio Gdańsk",
       "public_name": "Radio Gdańsk",
       "slug": "radiogdansk",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1828,
+      "archive_count": 1829,
       "display_name": "Radio Gdańsk Regiony",
       "public_name": "Radio Gdańsk Regiony",
       "slug": "radiogdanskregiony",
@@ -253,7 +257,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4346,
+      "archive_count": 4347,
       "display_name": "Radio Szczecin",
       "public_name": "Radio Szczecin",
       "slug": "radioszczecin",
@@ -274,14 +278,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4352,
+      "archive_count": 4353,
       "display_name": "Radio Wrocław",
       "public_name": "Radio Wrocław",
       "slug": "radiowroclaw",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4352,
+      "archive_count": 4353,
       "display_name": "Radio Zachód",
       "public_name": "Radio Zachód",
       "slug": "radiozachod",
