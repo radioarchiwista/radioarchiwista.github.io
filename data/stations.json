@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-10-07T08:52:53.446981+00:00",
+  "generated_at": "2026-10-07T08:58:12.896847+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-10-07T07:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -21,10 +21,12 @@
     "Radio Gorzów",
     "Radio Index",
     "Radio Kampus",
+    "Radio Katowice",
+    "Radio Kielce",
     "Radio UWM FM"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-10-07T08:52:53.446981+00:00",
+  "published_at": "2026-10-07T08:58:12.896847+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -169,21 +171,21 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4062,
+      "archive_count": 4063,
       "display_name": "Radio Kampus",
       "public_name": "Radio Kampus",
       "slug": "radiokampus",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4354,
+      "archive_count": 4355,
       "display_name": "Radio Katowice",
       "public_name": "Radio Katowice",
       "slug": "radiokatowice",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4311,
+      "archive_count": 4312,
       "display_name": "Radio Kielce",
       "public_name": "Radio Kielce",
       "slug": "radiokielce",
@@ -232,14 +234,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4254,
+      "archive_count": 4255,
       "display_name": "Radio Opole",
       "public_name": "Radio Opole",
       "slug": "radioopole",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4307,
+      "archive_count": 4308,
       "display_name": "Radio PiK",
       "public_name": "Radio PiK",
       "slug": "radiopik",

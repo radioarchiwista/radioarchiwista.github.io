@@ -95,6 +95,30 @@
       "utc_label": "2026-10-07 06:00 UTC",
       "utc_started_at": "2026-10-07T06:00:00+00:00",
       "year": 2026
+    },
+    {
+      "archive_item_identifier": "radiokielce-2026-10-07",
+      "audio_url": "https://archive.org/download/radiokielce-2026-10-07/radiokielce_2026-10-07T07-00-00Z.mp3",
+      "completeness_ratio": 0.9993,
+      "day": 7,
+      "download_url": "https://archive.org/download/radiokielce-2026-10-07/radiokielce_2026-10-07T07-00-00Z.mp3",
+      "duration_seconds": 3589.584,
+      "hour": 9,
+      "hourly_archive_id": 219381,
+      "local_date_label": "07.10.2026",
+      "local_hour_label": "09:00",
+      "local_label": "2026-10-07 09:00 czasu polskiego",
+      "local_started_at": "2026-10-07T09:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 10,
+      "published_at": "2026-10-07T08:58:12.896847+00:00",
+      "published_local_label": "2026-10-07 10:58 czasu polskiego",
+      "remote_filename": "radiokielce_2026-10-07T07-00-00Z.mp3",
+      "station_slug": "radiokielce",
+      "status": "published",
+      "utc_label": "2026-10-07 07:00 UTC",
+      "utc_started_at": "2026-10-07T07:00:00+00:00",
+      "year": 2026
     }
   ],
   "day": 7,
@@ -271,7 +295,7 @@
       "year": 2026
     },
     {
-      "archive_status": "ready",
+      "archive_status": "published",
       "completeness_ratio": 0.9993,
       "day": 7,
       "hour": 9,
@@ -282,9 +306,9 @@
       "local_started_at": "2026-10-07T09:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 10,
-      "playable": false,
-      "state": "publishing",
-      "status_label": "Czeka w kolejce do publikacji",
+      "playable": true,
+      "state": "available",
+      "status_label": null,
       "utc_label": "2026-10-07 07:00 UTC",
       "utc_started_at": "2026-10-07T07:00:00+00:00",
       "year": 2026
