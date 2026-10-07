@@ -1,14 +1,14 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-10-07T21:51:12.415368+00:00",
+  "generated_at": "2026-10-07T22:01:50.884237+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-10-07T20:00:00+00:00",
   "latest_archive_hour_stations": [
     "Radio UWM FM"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-10-07T21:51:12.415368+00:00",
+  "published_at": "2026-10-07T22:01:50.884237+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
