@@ -1,40 +1,14 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-10-07T17:01:40.662616+00:00",
+  "generated_at": "2026-10-07T17:08:01.349342+00:00",
   "latest_archive_hour_expected_station_count": 43,
-  "latest_archive_hour_started_at": "2026-10-07T15:00:00+00:00",
+  "latest_archive_hour_started_at": "2026-10-07T16:00:00+00:00",
   "latest_archive_hour_stations": [
-    "Program 1",
-    "Program 2",
-    "Program 3",
-    "Polskie Radio 24",
-    "Radio 357",
-    "Polskie Radio Dzieciom",
-    "Radio Afera",
-    "Radio Akadera",
-    "Radio Białystok",
-    "Radio Centrum Lublin",
-    "Radio Centrum Rzeszów",
-    "Radio Gdańsk",
-    "Radio Gdańsk Regiony",
-    "Radio Gorzów",
-    "Radio Index",
-    "Radio Kampus",
-    "Radio Katowice",
-    "Radio Kielce",
-    "Radio Lublin",
-    "Radio Luz",
-    "Radio Maryja",
-    "Radio Opole",
-    "Radio Poznań",
-    "Radio Rzeszów",
-    "Radio Słupsk",
-    "Radio UWM FM",
-    "Radio Łódź"
+    "Polskie Radio Dzieciom"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-10-07T17:01:40.662616+00:00",
+  "published_at": "2026-10-07T17:08:01.349342+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -102,7 +76,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1840,
+      "archive_count": 1841,
       "display_name": "Polskie Radio Dzieciom",
       "public_name": "Polskie Radio Dzieciom",
       "slug": "polskieradiodzieciom",
@@ -207,7 +181,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4358,
+      "archive_count": 4359,
       "display_name": "Radio Kraków",
       "public_name": "Radio Kraków",
       "slug": "radiokrakow",
@@ -249,7 +223,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4314,
+      "archive_count": 4315,
       "display_name": "Radio PiK",
       "public_name": "Radio PiK",
       "slug": "radiopik",
