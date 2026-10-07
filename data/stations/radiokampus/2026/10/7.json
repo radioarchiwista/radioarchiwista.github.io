@@ -143,6 +143,30 @@
       "utc_label": "2026-10-07 07:00 UTC",
       "utc_started_at": "2026-10-07T07:00:00+00:00",
       "year": 2026
+    },
+    {
+      "archive_item_identifier": "radiokampus-2026-10-07",
+      "audio_url": "https://archive.org/download/radiokampus-2026-10-07/radiokampus_2026-10-07T08-00-00Z.mp3",
+      "completeness_ratio": 1.0,
+      "day": 7,
+      "download_url": "https://archive.org/download/radiokampus-2026-10-07/radiokampus_2026-10-07T08-00-00Z.mp3",
+      "duration_seconds": 3600.274,
+      "hour": 10,
+      "hourly_archive_id": 219422,
+      "local_date_label": "07.10.2026",
+      "local_hour_label": "10:00",
+      "local_label": "2026-10-07 10:00 czasu polskiego",
+      "local_started_at": "2026-10-07T10:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 10,
+      "published_at": "2026-10-07T09:34:47.022215+00:00",
+      "published_local_label": "2026-10-07 11:34 czasu polskiego",
+      "remote_filename": "radiokampus_2026-10-07T08-00-00Z.mp3",
+      "station_slug": "radiokampus",
+      "status": "published",
+      "utc_label": "2026-10-07 08:00 UTC",
+      "utc_started_at": "2026-10-07T08:00:00+00:00",
+      "year": 2026
     }
   ],
   "day": 7,
@@ -338,7 +362,7 @@
       "year": 2026
     },
     {
-      "archive_status": "ready",
+      "archive_status": "published",
       "completeness_ratio": 1.0,
       "day": 7,
       "hour": 10,
@@ -349,9 +373,9 @@
       "local_started_at": "2026-10-07T10:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 10,
-      "playable": false,
-      "state": "publishing",
-      "status_label": "Czeka w kolejce do publikacji",
+      "playable": true,
+      "state": "available",
+      "status_label": null,
       "utc_label": "2026-10-07 08:00 UTC",
       "utc_started_at": "2026-10-07T08:00:00+00:00",
       "year": 2026
