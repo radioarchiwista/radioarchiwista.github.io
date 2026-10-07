@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-10-07T07:34:30.247360+00:00",
+  "generated_at": "2026-10-07T07:49:42.795648+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-10-07T06:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -16,10 +16,17 @@
     "Radio Białystok",
     "Radio Centrum Lublin",
     "Radio Centrum Rzeszów",
+    "Radio Gdańsk",
+    "Radio Gdańsk Regiony",
+    "Radio Gorzów",
+    "Radio Index",
+    "Radio Kampus",
+    "Radio Katowice",
+    "Radio Kielce",
     "Radio UWM FM"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-10-07T07:34:30.247360+00:00",
+  "published_at": "2026-10-07T07:49:42.795648+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -38,7 +45,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 44794,
+      "archive_count": 44795,
       "display_name": "Program 3",
       "public_name": "Polskie Radio Program 3",
       "slug": "pr3",
@@ -136,14 +143,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4356,
+      "archive_count": 4357,
       "display_name": "Radio Gdańsk",
       "public_name": "Radio Gdańsk",
       "slug": "radiogdansk",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1827,
+      "archive_count": 1828,
       "display_name": "Radio Gdańsk Regiony",
       "public_name": "Radio Gdańsk Regiony",
       "slug": "radiogdanskregiony",
@@ -206,14 +213,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4288,
+      "archive_count": 4289,
       "display_name": "Radio Luz",
       "public_name": "Radio Luz",
       "slug": "radioluz",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4202,
+      "archive_count": 4203,
       "display_name": "Radio Maryja",
       "public_name": "Radio Maryja",
       "slug": "radiomaryja",
