@@ -143,6 +143,30 @@
       "utc_label": "2026-10-07 09:00 UTC",
       "utc_started_at": "2026-10-07T09:00:00+00:00",
       "year": 2026
+    },
+    {
+      "archive_item_identifier": "radioszczecin-2026-10-07",
+      "audio_url": "https://archive.org/download/radioszczecin-2026-10-07/radioszczecin_2026-10-07T10-00-00Z.mp3",
+      "completeness_ratio": 1.0,
+      "day": 7,
+      "download_url": "https://archive.org/download/radioszczecin-2026-10-07/radioszczecin_2026-10-07T10-00-00Z.mp3",
+      "duration_seconds": 3599.935,
+      "hour": 12,
+      "hourly_archive_id": 219523,
+      "local_date_label": "07.10.2026",
+      "local_hour_label": "12:00",
+      "local_label": "2026-10-07 12:00 czasu polskiego",
+      "local_started_at": "2026-10-07T12:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 10,
+      "published_at": "2026-10-07T11:49:03.473089+00:00",
+      "published_local_label": "2026-10-07 13:49 czasu polskiego",
+      "remote_filename": "radioszczecin_2026-10-07T10-00-00Z.mp3",
+      "station_slug": "radioszczecin",
+      "status": "published",
+      "utc_label": "2026-10-07 10:00 UTC",
+      "utc_started_at": "2026-10-07T10:00:00+00:00",
+      "year": 2026
     }
   ],
   "day": 7,
@@ -376,7 +400,7 @@
       "year": 2026
     },
     {
-      "archive_status": "ready",
+      "archive_status": "published",
       "completeness_ratio": 1.0,
       "day": 7,
       "hour": 12,
@@ -387,9 +411,9 @@
       "local_started_at": "2026-10-07T12:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 10,
-      "playable": false,
-      "state": "publishing",
-      "status_label": "Czeka w kolejce do publikacji",
+      "playable": true,
+      "state": "available",
+      "status_label": null,
       "utc_label": "2026-10-07 10:00 UTC",
       "utc_started_at": "2026-10-07T10:00:00+00:00",
       "year": 2026
