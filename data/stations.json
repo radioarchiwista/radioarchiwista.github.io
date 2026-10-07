@@ -1,26 +1,29 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-10-07T14:12:16.152229+00:00",
+  "generated_at": "2026-10-07T14:20:46.697486+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-10-07T13:00:00+00:00",
   "latest_archive_hour_stations": [
+    "Program 1",
+    "Program 2",
+    "Program 3",
     "Polskie Radio Dzieciom"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-10-07T14:12:16.152229+00:00",
+  "published_at": "2026-10-07T14:20:46.697486+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
     {
-      "archive_count": 4360,
+      "archive_count": 4361,
       "display_name": "Program 1",
       "public_name": "Polskie Radio Program 1",
       "slug": "pr1",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4361,
+      "archive_count": 4362,
       "display_name": "Program 2",
       "public_name": "Polskie Radio Program 2",
       "slug": "pr2",
