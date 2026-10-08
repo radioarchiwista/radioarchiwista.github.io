@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-10-08T18:43:13.022010+00:00",
+  "generated_at": "2026-10-08T18:48:54.144987+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-10-08T17:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -13,12 +13,13 @@
     "Polskie Radio Dzieciom",
     "Radio Afera",
     "Radio Akadera",
+    "Radio Białystok",
     "Radio Centrum Rzeszów",
     "Radio Gdańsk",
     "Radio Gdańsk Regiony"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-10-08T18:43:13.022010+00:00",
+  "published_at": "2026-10-08T18:48:54.144987+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -107,7 +108,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4369,
+      "archive_count": 4370,
       "display_name": "Radio Białystok",
       "public_name": "Radio Białystok",
       "slug": "radiobialystok",
@@ -142,7 +143,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1850,
+      "archive_count": 1851,
       "display_name": "Radio Gdańsk Regiony",
       "public_name": "Radio Gdańsk Regiony",
       "slug": "radiogdanskregiony",
