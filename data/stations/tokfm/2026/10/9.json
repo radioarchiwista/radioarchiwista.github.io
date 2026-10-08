@@ -1,0 +1,58 @@
+{
+  "archives": [
+    {
+      "archive_item_identifier": "tokfm-2026-10-08",
+      "audio_url": "https://archive.org/download/tokfm-2026-10-08/tokfm_2026-10-08T22-00-00Z.mp3",
+      "completeness_ratio": 0.9983,
+      "day": 9,
+      "download_url": "https://archive.org/download/tokfm-2026-10-08/tokfm_2026-10-08T22-00-00Z.mp3",
+      "duration_seconds": 3599.112,
+      "hour": 0,
+      "hourly_archive_id": 221082,
+      "local_date_label": "09.10.2026",
+      "local_hour_label": "00:00",
+      "local_label": "2026-10-09 00:00 czasu polskiego",
+      "local_started_at": "2026-10-09T00:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 10,
+      "published_at": "2026-10-08T23:28:04.769376+00:00",
+      "published_local_label": "2026-10-09 01:28 czasu polskiego",
+      "remote_filename": "tokfm_2026-10-08T22-00-00Z.mp3",
+      "station_slug": "tokfm",
+      "status": "published",
+      "utc_label": "2026-10-08 22:00 UTC",
+      "utc_started_at": "2026-10-08T22:00:00+00:00",
+      "year": 2026
+    }
+  ],
+  "day": 9,
+  "hour_slots": [
+    {
+      "archive_status": "published",
+      "completeness_ratio": 0.9983,
+      "day": 9,
+      "hour": 0,
+      "hourly_archive_id": 221082,
+      "local_date_label": "09.10.2026",
+      "local_hour_label": "00:00",
+      "local_label": "2026-10-09 00:00 czasu polskiego",
+      "local_started_at": "2026-10-09T00:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 10,
+      "playable": true,
+      "state": "available",
+      "status_label": null,
+      "utc_label": "2026-10-08 22:00 UTC",
+      "utc_started_at": "2026-10-08T22:00:00+00:00",
+      "year": 2026
+    }
+  ],
+  "month": 10,
+  "station": {
+    "display_name": "TOK FM",
+    "public_name": "TOK FM",
+    "slug": "tokfm",
+    "timezone": "Europe/Warsaw"
+  },
+  "year": 2026
+}
