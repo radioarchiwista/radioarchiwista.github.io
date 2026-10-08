@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-10-08T15:43:29.179425+00:00",
+  "generated_at": "2026-10-08T15:50:23.409898+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-10-08T14:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -13,10 +13,13 @@
     "Polskie Radio Dzieciom",
     "Radio Afera",
     "Radio Akadera",
-    "Radio Centrum Lublin"
+    "Radio Białystok",
+    "Radio Centrum Lublin",
+    "Radio Gdańsk Regiony",
+    "Radio Gorzów"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-10-08T15:43:29.179425+00:00",
+  "published_at": "2026-10-08T15:50:23.409898+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -98,14 +101,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4373,
+      "archive_count": 4374,
       "display_name": "Radio Akadera",
       "public_name": "Radio Akadera",
       "slug": "radioakadera",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4367,
+      "archive_count": 4368,
       "display_name": "Radio Białystok",
       "public_name": "Radio Białystok",
       "slug": "radiobialystok",
@@ -140,7 +143,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1847,
+      "archive_count": 1848,
       "display_name": "Radio Gdańsk Regiony",
       "public_name": "Radio Gdańsk Regiony",
       "slug": "radiogdanskregiony",
