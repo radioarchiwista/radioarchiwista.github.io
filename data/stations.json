@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-10-08T06:40:57.519340+00:00",
+  "generated_at": "2026-10-08T06:48:01.310147+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-10-08T05:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -12,10 +12,12 @@
     "Radio 357",
     "Polskie Radio Dzieciom",
     "Radio Afera",
+    "Radio Akadera",
+    "Radio Białystok",
     "Radio UWM FM"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-10-08T06:40:57.519340+00:00",
+  "published_at": "2026-10-08T06:48:01.310147+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -48,7 +50,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4363,
+      "archive_count": 4364,
       "display_name": "Radio 357",
       "public_name": "Radio 357",
       "slug": "radio357",
@@ -90,14 +92,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4365,
+      "archive_count": 4366,
       "display_name": "Radio Afera",
       "public_name": "Radio Afera",
       "slug": "afera",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4365,
+      "archive_count": 4366,
       "display_name": "Radio Akadera",
       "public_name": "Radio Akadera",
       "slug": "radioakadera",
@@ -265,7 +267,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4370,
+      "archive_count": 4372,
       "display_name": "Radio UWM FM",
       "public_name": "Radio UWM FM",
       "slug": "radiouwmfm",
