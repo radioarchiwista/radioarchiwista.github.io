@@ -1,16 +1,19 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-10-08T16:18:12.685341+00:00",
+  "generated_at": "2026-10-08T16:34:36.973237+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-10-08T15:00:00+00:00",
   "latest_archive_hour_stations": [
     "Program 1",
     "Program 2",
-    "Polskie Radio Dzieciom"
+    "Program 3",
+    "Polskie Radio 24",
+    "Polskie Radio Dzieciom",
+    "Radio Afera"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-10-08T16:18:12.685341+00:00",
+  "published_at": "2026-10-08T16:34:36.973237+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -29,7 +32,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 44825,
+      "archive_count": 44826,
       "display_name": "Program 3",
       "public_name": "Polskie Radio Program 3",
       "slug": "pr3",
@@ -106,7 +109,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4375,
+      "archive_count": 4374,
       "display_name": "Radio Centrum Lublin",
       "public_name": "Radio Centrum Lublin",
       "slug": "radiocentrumlublin",
@@ -183,7 +186,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4362,
+      "archive_count": 4361,
       "display_name": "Radio Kraków",
       "public_name": "Radio Kraków",
       "slug": "radiokrakow",
