@@ -2,7 +2,7 @@
   "archive_count": 219284,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-10-08T16:39:25.391889+00:00",
+  "generated_at": "2026-10-08T16:54:12.511799+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-10-08T15:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -17,7 +17,7 @@
     "Radio Białystok"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-10-08T16:39:25.391889+00:00",
+  "published_at": "2026-10-08T16:54:12.511799+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
