@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-10-08T17:51:02.509957+00:00",
+  "generated_at": "2026-10-08T17:57:09.724041+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-10-08T16:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -12,15 +12,17 @@
     "Radio 357",
     "Polskie Radio Dzieciom",
     "Radio Afera",
+    "Radio Akadera",
     "Radio Białystok",
     "Radio Centrum Lublin",
     "Radio Centrum Rzeszów",
     "Radio Gdańsk",
     "Radio Gdańsk Regiony",
-    "Radio Gorzów"
+    "Radio Gorzów",
+    "Radio Kampus"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-10-08T17:51:02.509957+00:00",
+  "published_at": "2026-10-08T17:57:09.724041+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -102,7 +104,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4375,
+      "archive_count": 4376,
       "display_name": "Radio Akadera",
       "public_name": "Radio Akadera",
       "slug": "radioakadera",
@@ -151,7 +153,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4377,
+      "archive_count": 4378,
       "display_name": "Radio Gorzów",
       "public_name": "Radio Gorzów",
       "slug": "radiogorzow",
@@ -165,7 +167,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4078,
+      "archive_count": 4079,
       "display_name": "Radio Kampus",
       "public_name": "Radio Kampus",
       "slug": "radiokampus",
