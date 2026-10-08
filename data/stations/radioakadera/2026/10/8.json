@@ -119,6 +119,30 @@
       "utc_label": "2026-10-08 10:00 UTC",
       "utc_started_at": "2026-10-08T10:00:00+00:00",
       "year": 2026
+    },
+    {
+      "archive_item_identifier": "radioakadera-2026-10-08",
+      "audio_url": "https://archive.org/download/radioakadera-2026-10-08/radioakadera_2026-10-08T11-00-00Z.mp3",
+      "completeness_ratio": 1.0,
+      "day": 8,
+      "download_url": "https://archive.org/download/radioakadera-2026-10-08/radioakadera_2026-10-08T11-00-00Z.mp3",
+      "duration_seconds": 3599.935,
+      "hour": 13,
+      "hourly_archive_id": 220575,
+      "local_date_label": "08.10.2026",
+      "local_hour_label": "13:00",
+      "local_label": "2026-10-08 13:00 czasu polskiego",
+      "local_started_at": "2026-10-08T13:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 10,
+      "published_at": "2026-10-08T12:18:52.998427+00:00",
+      "published_local_label": "2026-10-08 14:18 czasu polskiego",
+      "remote_filename": "radioakadera_2026-10-08T11-00-00Z.mp3",
+      "station_slug": "radioakadera",
+      "status": "published",
+      "utc_label": "2026-10-08 11:00 UTC",
+      "utc_started_at": "2026-10-08T11:00:00+00:00",
+      "year": 2026
     }
   ],
   "day": 8,
@@ -371,7 +395,7 @@
       "year": 2026
     },
     {
-      "archive_status": "ready",
+      "archive_status": "published",
       "completeness_ratio": 1.0,
       "day": 8,
       "hour": 13,
@@ -382,9 +406,9 @@
       "local_started_at": "2026-10-08T13:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 10,
-      "playable": false,
-      "state": "publishing",
-      "status_label": "Czeka w kolejce do publikacji",
+      "playable": true,
+      "state": "available",
+      "status_label": null,
       "utc_label": "2026-10-08 11:00 UTC",
       "utc_started_at": "2026-10-08T11:00:00+00:00",
       "year": 2026
