@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-10-08T12:30:24.735149+00:00",
+  "generated_at": "2026-10-08T12:43:00.405735+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-10-08T11:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -14,11 +14,13 @@
     "Radio Afera",
     "Radio Akadera",
     "Radio Centrum Lublin",
+    "Radio Centrum Rzeszów",
     "Radio Gdańsk",
-    "Radio Gdańsk Regiony"
+    "Radio Gdańsk Regiony",
+    "Radio Kampus"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-10-08T12:30:24.735149+00:00",
+  "published_at": "2026-10-08T12:43:00.405735+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -114,14 +116,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4371,
+      "archive_count": 4372,
       "display_name": "Radio Centrum Lublin",
       "public_name": "Radio Centrum Lublin",
       "slug": "radiocentrumlublin",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4344,
+      "archive_count": 4345,
       "display_name": "Radio Centrum Rzeszów",
       "public_name": "Radio Centrum Rzeszów",
       "slug": "radiocentrumrzeszow",
@@ -135,14 +137,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4372,
+      "archive_count": 4373,
       "display_name": "Radio Gdańsk",
       "public_name": "Radio Gdańsk",
       "slug": "radiogdansk",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1844,
+      "archive_count": 1845,
       "display_name": "Radio Gdańsk Regiony",
       "public_name": "Radio Gdańsk Regiony",
       "slug": "radiogdanskregiony",
@@ -226,7 +228,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4264,
+      "archive_count": 4265,
       "display_name": "Radio Opole",
       "public_name": "Radio Opole",
       "slug": "radioopole",
