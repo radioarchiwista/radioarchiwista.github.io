@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-10-08T14:35:56.219435+00:00",
+  "generated_at": "2026-10-08T14:36:01.293067+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-10-08T13:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -17,7 +17,7 @@
     "Radio Gdańsk"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-10-08T14:35:56.219435+00:00",
+  "published_at": "2026-10-08T14:36:01.293067+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -113,7 +113,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4373,
+      "archive_count": 4374,
       "display_name": "Radio Centrum Lublin",
       "public_name": "Radio Centrum Lublin",
       "slug": "radiocentrumlublin",
