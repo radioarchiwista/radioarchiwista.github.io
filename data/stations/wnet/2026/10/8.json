@@ -2,6 +2,30 @@
   "archives": [
     {
       "archive_item_identifier": "wnet-2026-10-08",
+      "audio_url": "https://archive.org/download/wnet-2026-10-08/wnet_2026-10-08T17-00-00Z.mp3",
+      "completeness_ratio": 1.0,
+      "day": 8,
+      "download_url": "https://archive.org/download/wnet-2026-10-08/wnet_2026-10-08T17-00-00Z.mp3",
+      "duration_seconds": 3600.013,
+      "hour": 19,
+      "hourly_archive_id": 220868,
+      "local_date_label": "08.10.2026",
+      "local_hour_label": "19:00",
+      "local_label": "2026-10-08 19:00 czasu polskiego",
+      "local_started_at": "2026-10-08T19:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 10,
+      "published_at": "2026-10-08T20:05:12.493384+00:00",
+      "published_local_label": "2026-10-08 22:05 czasu polskiego",
+      "remote_filename": "wnet_2026-10-08T17-00-00Z.mp3",
+      "station_slug": "wnet",
+      "status": "published",
+      "utc_label": "2026-10-08 17:00 UTC",
+      "utc_started_at": "2026-10-08T17:00:00+00:00",
+      "year": 2026
+    },
+    {
+      "archive_item_identifier": "wnet-2026-10-08",
       "audio_url": "https://archive.org/download/wnet-2026-10-08/wnet_2026-10-08T18-00-00Z.mp3",
       "completeness_ratio": 1.0,
       "day": 8,
@@ -389,7 +413,7 @@
       "year": 2026
     },
     {
-      "archive_status": "ready",
+      "archive_status": "published",
       "completeness_ratio": 1.0,
       "day": 8,
       "hour": 19,
@@ -400,9 +424,9 @@
       "local_started_at": "2026-10-08T19:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 10,
-      "playable": false,
-      "state": "publishing",
-      "status_label": "Czeka w kolejce do publikacji",
+      "playable": true,
+      "state": "available",
+      "status_label": null,
       "utc_label": "2026-10-08 17:00 UTC",
       "utc_started_at": "2026-10-08T17:00:00+00:00",
       "year": 2026
@@ -424,6 +448,25 @@
       "status_label": null,
       "utc_label": "2026-10-08 18:00 UTC",
       "utc_started_at": "2026-10-08T18:00:00+00:00",
+      "year": 2026
+    },
+    {
+      "archive_status": null,
+      "completeness_ratio": null,
+      "day": 8,
+      "hour": 21,
+      "hourly_archive_id": null,
+      "local_date_label": "08.10.2026",
+      "local_hour_label": "21:00",
+      "local_label": "2026-10-08 21:00 czasu polskiego",
+      "local_started_at": "2026-10-08T21:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 10,
+      "playable": false,
+      "state": "recorded",
+      "status_label": "Nagranie czeka na złożenie",
+      "utc_label": "2026-10-08 19:00 UTC",
+      "utc_started_at": "2026-10-08T19:00:00+00:00",
       "year": 2026
     }
   ],
