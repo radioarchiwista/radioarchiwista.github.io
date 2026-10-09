@@ -2,30 +2,6 @@
   "archives": [
     {
       "archive_item_identifier": "radiobialystok-2026-10-08",
-      "audio_url": "https://archive.org/download/radiobialystok-2026-10-08/radiobialystok_2026-10-08T22-00-00Z.mp3",
-      "completeness_ratio": 0.9992,
-      "day": 9,
-      "download_url": "https://archive.org/download/radiobialystok-2026-10-08/radiobialystok_2026-10-08T22-00-00Z.mp3",
-      "duration_seconds": 3597.768,
-      "hour": 0,
-      "hourly_archive_id": 221049,
-      "local_date_label": "09.10.2026",
-      "local_hour_label": "00:00",
-      "local_label": "2026-10-09 00:00 czasu polskiego",
-      "local_started_at": "2026-10-09T00:00:00+02:00",
-      "local_timezone_label": "czasu polskiego",
-      "month": 10,
-      "published_at": "2026-10-08T23:27:11.963703+00:00",
-      "published_local_label": "2026-10-09 01:27 czasu polskiego",
-      "remote_filename": "radiobialystok_2026-10-08T22-00-00Z.mp3",
-      "station_slug": "radiobialystok",
-      "status": "published",
-      "utc_label": "2026-10-08 22:00 UTC",
-      "utc_started_at": "2026-10-08T22:00:00+00:00",
-      "year": 2026
-    },
-    {
-      "archive_item_identifier": "radiobialystok-2026-10-08",
       "audio_url": "https://archive.org/download/radiobialystok-2026-10-08/radiobialystok_2026-10-08T23-00-00Z.mp3",
       "completeness_ratio": 0.9992,
       "day": 9,
@@ -460,7 +436,7 @@
   "day": 9,
   "hour_slots": [
     {
-      "archive_status": "published",
+      "archive_status": "error",
       "completeness_ratio": 0.9992,
       "day": 9,
       "hour": 0,
@@ -471,9 +447,9 @@
       "local_started_at": "2026-10-09T00:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 10,
-      "playable": true,
-      "state": "available",
-      "status_label": null,
+      "playable": false,
+      "state": "failed",
+      "status_label": "Nie udało się przygotować nagrania",
       "utc_label": "2026-10-08 22:00 UTC",
       "utc_started_at": "2026-10-08T22:00:00+00:00",
       "year": 2026

@@ -2,7 +2,7 @@
   "archive_count": 220112,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-10-09T22:58:00.364126+00:00",
+  "generated_at": "2026-10-09T23:15:16.723432+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-10-09T21:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -19,7 +19,7 @@
     "Radio Gdańsk Regiony"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-10-09T22:58:00.364126+00:00",
+  "published_at": "2026-10-09T23:15:16.723432+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
