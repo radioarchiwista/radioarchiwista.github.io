@@ -1,14 +1,15 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-10-09T14:12:05.522071+00:00",
+  "generated_at": "2026-10-09T14:22:48.776001+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-10-09T13:00:00+00:00",
   "latest_archive_hour_stations": [
+    "Polskie Radio 24",
     "Polskie Radio Dzieciom"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-10-09T14:12:05.522071+00:00",
+  "published_at": "2026-10-09T14:22:48.776001+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -34,7 +35,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4424,
+      "archive_count": 4425,
       "display_name": "Polskie Radio 24",
       "public_name": "Polskie Radio 24",
       "slug": "pr24",
