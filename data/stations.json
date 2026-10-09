@@ -1,21 +1,24 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-10-09T21:19:48.099768+00:00",
+  "generated_at": "2026-10-09T21:30:59.545051+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-10-09T20:00:00+00:00",
   "latest_archive_hour_stations": [
+    "Program 1",
     "Program 2",
+    "Program 3",
     "Polskie Radio 24",
+    "Polskie Radio Dzieciom",
     "Radio UWM FM"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-10-09T21:19:48.099768+00:00",
+  "published_at": "2026-10-09T21:30:59.545051+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
     {
-      "archive_count": 4413,
+      "archive_count": 4414,
       "display_name": "Program 1",
       "public_name": "Polskie Radio Program 1",
       "slug": "pr1",
@@ -78,7 +81,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1890,
+      "archive_count": 1891,
       "display_name": "Polskie Radio Dzieciom",
       "public_name": "Polskie Radio Dzieciom",
       "slug": "polskieradiodzieciom",
@@ -197,7 +200,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4318,
+      "archive_count": 4317,
       "display_name": "Radio Luz",
       "public_name": "Radio Luz",
       "slug": "radioluz",
@@ -260,7 +263,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4402,
+      "archive_count": 4403,
       "display_name": "Radio UWM FM",
       "public_name": "Radio UWM FM",
       "slug": "radiouwmfm",
