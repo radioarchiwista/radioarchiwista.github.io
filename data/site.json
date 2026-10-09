@@ -1,8 +1,8 @@
 {
-  "archive_count": 219991,
+  "archive_count": 219994,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-10-09T11:42:39.022459+00:00",
+  "generated_at": "2026-10-09T11:48:44.727769+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-10-09T10:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -22,10 +22,14 @@
     "Radio Gorzów",
     "Radio Kampus",
     "Radio Katowice",
-    "Radio Kielce"
+    "Radio Kielce",
+    "Radio Koszalin",
+    "Radio Kraków",
+    "Radio Luz",
+    "Radio Łódź"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-10-09T11:42:39.022459+00:00",
+  "published_at": "2026-10-09T11:48:44.727769+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"

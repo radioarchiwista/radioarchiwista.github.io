@@ -263,6 +263,30 @@
       "utc_label": "2026-10-09 09:00 UTC",
       "utc_started_at": "2026-10-09T09:00:00+00:00",
       "year": 2026
+    },
+    {
+      "archive_item_identifier": "radiokrakow-2026-10-09",
+      "audio_url": "https://archive.org/download/radiokrakow-2026-10-09/radiokrakow_2026-10-09T10-00-00Z.mp3",
+      "completeness_ratio": 1.0,
+      "day": 9,
+      "download_url": "https://archive.org/download/radiokrakow-2026-10-09/radiokrakow_2026-10-09T10-00-00Z.mp3",
+      "duration_seconds": 3600.0,
+      "hour": 12,
+      "hourly_archive_id": 221576,
+      "local_date_label": "09.10.2026",
+      "local_hour_label": "12:00",
+      "local_label": "2026-10-09 12:00 czasu polskiego",
+      "local_started_at": "2026-10-09T12:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 10,
+      "published_at": "2026-10-09T11:44:45.470789+00:00",
+      "published_local_label": "2026-10-09 13:44 czasu polskiego",
+      "remote_filename": "radiokrakow_2026-10-09T10-00-00Z.mp3",
+      "station_slug": "radiokrakow",
+      "status": "published",
+      "utc_label": "2026-10-09 10:00 UTC",
+      "utc_started_at": "2026-10-09T10:00:00+00:00",
+      "year": 2026
     }
   ],
   "day": 9,
@@ -496,7 +520,7 @@
       "year": 2026
     },
     {
-      "archive_status": "ready",
+      "archive_status": "published",
       "completeness_ratio": 1.0,
       "day": 9,
       "hour": 12,
@@ -507,9 +531,9 @@
       "local_started_at": "2026-10-09T12:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 10,
-      "playable": false,
-      "state": "publishing",
-      "status_label": "Czeka w kolejce do publikacji",
+      "playable": true,
+      "state": "available",
+      "status_label": null,
       "utc_label": "2026-10-09 10:00 UTC",
       "utc_started_at": "2026-10-09T10:00:00+00:00",
       "year": 2026
