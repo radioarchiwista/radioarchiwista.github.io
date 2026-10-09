@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-10-09T01:57:20.783928+00:00",
+  "generated_at": "2026-10-09T02:03:36.812040+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-10-09T00:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -19,10 +19,13 @@
     "Radio Gdańsk",
     "Radio Gdańsk Regiony",
     "Radio Index",
-    "Radio Kampus"
+    "Radio Kampus",
+    "Radio Katowice",
+    "Radio Koszalin",
+    "Radio Kraków"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-10-09T01:57:20.783928+00:00",
+  "published_at": "2026-10-09T02:03:36.812040+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -174,7 +177,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4382,
+      "archive_count": 4383,
       "display_name": "Radio Katowice",
       "public_name": "Radio Katowice",
       "slug": "radiokatowice",
@@ -188,14 +191,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4256,
+      "archive_count": 4257,
       "display_name": "Radio Koszalin",
       "public_name": "Radio Koszalin",
       "slug": "radiokoszalin",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4370,
+      "archive_count": 4371,
       "display_name": "Radio Kraków",
       "public_name": "Radio Kraków",
       "slug": "radiokrakow",
