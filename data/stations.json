@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-10-09T08:45:30.092620+00:00",
+  "generated_at": "2026-10-09T08:51:56.036269+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-10-09T07:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -17,14 +17,16 @@
     "Radio Centrum Lublin",
     "Radio Centrum Rzeszów",
     "Radio Gdańsk",
+    "Radio Gdańsk Regiony",
     "Radio Gorzów",
     "Radio Index",
     "Radio Kampus",
     "Radio Kielce",
-    "Radio Koszalin"
+    "Radio Koszalin",
+    "Radio Kraków"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-10-09T08:45:30.092620+00:00",
+  "published_at": "2026-10-09T08:51:56.036269+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -148,7 +150,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1864,
+      "archive_count": 1865,
       "display_name": "Radio Gdańsk Regiony",
       "public_name": "Radio Gdańsk Regiony",
       "slug": "radiogdanskregiony",
@@ -162,7 +164,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4324,
+      "archive_count": 4325,
       "display_name": "Radio Index",
       "public_name": "Radio Index",
       "slug": "radioindex",
@@ -190,14 +192,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4263,
+      "archive_count": 4264,
       "display_name": "Radio Koszalin",
       "public_name": "Radio Koszalin",
       "slug": "radiokoszalin",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4377,
+      "archive_count": 4378,
       "display_name": "Radio Kraków",
       "public_name": "Radio Kraków",
       "slug": "radiokrakow",
