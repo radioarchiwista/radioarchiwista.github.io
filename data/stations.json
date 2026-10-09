@@ -1,20 +1,19 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-10-09T16:59:20.997410+00:00",
+  "generated_at": "2026-10-09T17:17:08.544006+00:00",
   "latest_archive_hour_expected_station_count": 43,
-  "latest_archive_hour_started_at": "2026-10-09T15:00:00+00:00",
+  "latest_archive_hour_started_at": "2026-10-09T16:00:00+00:00",
   "latest_archive_hour_stations": [
-    "Polskie Radio 24",
-    "Polskie Radio Dzieciom"
+    "Program 1"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-10-09T16:59:20.997410+00:00",
+  "published_at": "2026-10-09T17:17:08.544006+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
     {
-      "archive_count": 4408,
+      "archive_count": 4409,
       "display_name": "Program 1",
       "public_name": "Polskie Radio Program 1",
       "slug": "pr1",
@@ -91,7 +90,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4397,
+      "archive_count": 4396,
       "display_name": "Radio Akadera",
       "public_name": "Radio Akadera",
       "slug": "radioakadera",
