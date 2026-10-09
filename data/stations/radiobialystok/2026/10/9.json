@@ -359,6 +359,30 @@
       "utc_label": "2026-10-09 13:00 UTC",
       "utc_started_at": "2026-10-09T13:00:00+00:00",
       "year": 2026
+    },
+    {
+      "archive_item_identifier": "radiobialystok-2026-10-09",
+      "audio_url": "https://archive.org/download/radiobialystok-2026-10-09/radiobialystok_2026-10-09T17-00-00Z.mp3",
+      "completeness_ratio": 0.9986,
+      "day": 9,
+      "download_url": "https://archive.org/download/radiobialystok-2026-10-09/radiobialystok_2026-10-09T17-00-00Z.mp3",
+      "duration_seconds": 3599.064,
+      "hour": 19,
+      "hourly_archive_id": 221866,
+      "local_date_label": "09.10.2026",
+      "local_hour_label": "19:00",
+      "local_label": "2026-10-09 19:00 czasu polskiego",
+      "local_started_at": "2026-10-09T19:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 10,
+      "published_at": "2026-10-09T18:43:14.567803+00:00",
+      "published_local_label": "2026-10-09 20:43 czasu polskiego",
+      "remote_filename": "radiobialystok_2026-10-09T17-00-00Z.mp3",
+      "station_slug": "radiobialystok",
+      "status": "published",
+      "utc_label": "2026-10-09 17:00 UTC",
+      "utc_started_at": "2026-10-09T17:00:00+00:00",
+      "year": 2026
     }
   ],
   "day": 9,
@@ -725,7 +749,7 @@
       "year": 2026
     },
     {
-      "archive_status": "ready",
+      "archive_status": "published",
       "completeness_ratio": 0.9986,
       "day": 9,
       "hour": 19,
@@ -736,9 +760,9 @@
       "local_started_at": "2026-10-09T19:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 10,
-      "playable": false,
-      "state": "publishing",
-      "status_label": "Czeka w kolejce do publikacji",
+      "playable": true,
+      "state": "available",
+      "status_label": null,
       "utc_label": "2026-10-09 17:00 UTC",
       "utc_started_at": "2026-10-09T17:00:00+00:00",
       "year": 2026
