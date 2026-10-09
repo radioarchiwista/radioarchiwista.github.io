@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-10-09T05:44:44.261824+00:00",
+  "generated_at": "2026-10-09T05:51:43.458536+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-10-09T04:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -24,10 +24,13 @@
     "Radio Kielce",
     "Radio Koszalin",
     "Radio Kraków",
+    "Radio Lublin",
+    "Radio Luz",
+    "Radio Maryja",
     "Radio Łódź"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-10-09T05:44:44.261824+00:00",
+  "published_at": "2026-10-09T05:51:43.458536+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -74,7 +77,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4370,
+      "archive_count": 4371,
       "display_name": "TOK FM",
       "public_name": "TOK FM",
       "slug": "tokfm",
@@ -165,7 +168,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4324,
+      "archive_count": 4323,
       "display_name": "Radio Index",
       "public_name": "Radio Index",
       "slug": "radioindex",
@@ -207,14 +210,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4380,
+      "archive_count": 4381,
       "display_name": "Radio Lublin",
       "public_name": "Radio Lublin",
       "slug": "radiolublin",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4312,
+      "archive_count": 4313,
       "display_name": "Radio Luz",
       "public_name": "Radio Luz",
       "slug": "radioluz",
