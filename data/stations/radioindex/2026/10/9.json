@@ -239,30 +239,6 @@
       "utc_label": "2026-10-09 07:00 UTC",
       "utc_started_at": "2026-10-09T07:00:00+00:00",
       "year": 2026
-    },
-    {
-      "archive_item_identifier": "radioindex-2026-10-09",
-      "audio_url": "https://archive.org/download/radioindex-2026-10-09/radioindex_2026-10-09T09-00-00Z.mp3",
-      "completeness_ratio": 1.0,
-      "day": 9,
-      "download_url": "https://archive.org/download/radioindex-2026-10-09/radioindex_2026-10-09T09-00-00Z.mp3",
-      "duration_seconds": 3599.856,
-      "hour": 11,
-      "hourly_archive_id": 221528,
-      "local_date_label": "09.10.2026",
-      "local_hour_label": "11:00",
-      "local_label": "2026-10-09 11:00 czasu polskiego",
-      "local_started_at": "2026-10-09T11:00:00+02:00",
-      "local_timezone_label": "czasu polskiego",
-      "month": 10,
-      "published_at": "2026-10-09T12:03:42.265395+00:00",
-      "published_local_label": "2026-10-09 14:03 czasu polskiego",
-      "remote_filename": "radioindex_2026-10-09T09-00-00Z.mp3",
-      "station_slug": "radioindex",
-      "status": "published",
-      "utc_label": "2026-10-09 09:00 UTC",
-      "utc_started_at": "2026-10-09T09:00:00+00:00",
-      "year": 2026
     }
   ],
   "day": 9,
@@ -477,7 +453,7 @@
       "year": 2026
     },
     {
-      "archive_status": "published",
+      "archive_status": "ready",
       "completeness_ratio": 1.0,
       "day": 9,
       "hour": 11,
@@ -488,9 +464,9 @@
       "local_started_at": "2026-10-09T11:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 10,
-      "playable": true,
-      "state": "available",
-      "status_label": null,
+      "playable": false,
+      "state": "publishing",
+      "status_label": "Czeka w kolejce do publikacji",
       "utc_label": "2026-10-09 09:00 UTC",
       "utc_started_at": "2026-10-09T09:00:00+00:00",
       "year": 2026
@@ -515,11 +491,11 @@
       "year": 2026
     },
     {
-      "archive_status": null,
-      "completeness_ratio": null,
+      "archive_status": "ready",
+      "completeness_ratio": 1.0,
       "day": 9,
       "hour": 13,
-      "hourly_archive_id": null,
+      "hourly_archive_id": 221614,
       "local_date_label": "09.10.2026",
       "local_hour_label": "13:00",
       "local_label": "2026-10-09 13:00 czasu polskiego",
@@ -527,8 +503,8 @@
       "local_timezone_label": "czasu polskiego",
       "month": 10,
       "playable": false,
-      "state": "recorded",
-      "status_label": "Nagranie czeka na złożenie",
+      "state": "publishing",
+      "status_label": "Czeka w kolejce do publikacji",
       "utc_label": "2026-10-09 11:00 UTC",
       "utc_started_at": "2026-10-09T11:00:00+00:00",
       "year": 2026
