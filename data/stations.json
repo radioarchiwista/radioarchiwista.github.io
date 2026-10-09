@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-10-09T22:41:02.375938+00:00",
+  "generated_at": "2026-10-09T22:53:26.665545+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-10-09T21:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -13,10 +13,11 @@
     "Polskie Radio Dzieciom",
     "Radio Afera",
     "Radio Akadera",
-    "Radio Centrum Lublin"
+    "Radio Centrum Lublin",
+    "Radio Centrum Rzeszów"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-10-09T22:41:02.375938+00:00",
+  "published_at": "2026-10-09T22:53:26.665545+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -119,7 +120,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4372,
+      "archive_count": 4373,
       "display_name": "Radio Centrum Rzeszów",
       "public_name": "Radio Centrum Rzeszów",
       "slug": "radiocentrumrzeszow",
