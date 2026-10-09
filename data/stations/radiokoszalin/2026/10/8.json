@@ -263,30 +263,6 @@
       "utc_label": "2026-10-08 20:00 UTC",
       "utc_started_at": "2026-10-08T20:00:00+00:00",
       "year": 2026
-    },
-    {
-      "archive_item_identifier": "radiokoszalin-2026-10-08",
-      "audio_url": "https://archive.org/download/radiokoszalin-2026-10-08/radiokoszalin_2026-10-08T21-00-00Z.mp3",
-      "completeness_ratio": 0.9997,
-      "day": 8,
-      "download_url": "https://archive.org/download/radiokoszalin-2026-10-08/radiokoszalin_2026-10-08T21-00-00Z.mp3",
-      "duration_seconds": 3599.616,
-      "hour": 23,
-      "hourly_archive_id": 221016,
-      "local_date_label": "08.10.2026",
-      "local_hour_label": "23:00",
-      "local_label": "2026-10-08 23:00 czasu polskiego",
-      "local_started_at": "2026-10-08T23:00:00+02:00",
-      "local_timezone_label": "czasu polskiego",
-      "month": 10,
-      "published_at": "2026-10-08T23:01:09.307157+00:00",
-      "published_local_label": "2026-10-09 01:01 czasu polskiego",
-      "remote_filename": "radiokoszalin_2026-10-08T21-00-00Z.mp3",
-      "station_slug": "radiokoszalin",
-      "status": "published",
-      "utc_label": "2026-10-08 21:00 UTC",
-      "utc_started_at": "2026-10-08T21:00:00+00:00",
-      "year": 2026
     }
   ],
   "day": 8,
@@ -729,7 +705,7 @@
       "year": 2026
     },
     {
-      "archive_status": "published",
+      "archive_status": "error",
       "completeness_ratio": 0.9997,
       "day": 8,
       "hour": 23,
@@ -740,9 +716,9 @@
       "local_started_at": "2026-10-08T23:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 10,
-      "playable": true,
-      "state": "available",
-      "status_label": null,
+      "playable": false,
+      "state": "failed",
+      "status_label": "Nie udało się przygotować nagrania",
       "utc_label": "2026-10-08 21:00 UTC",
       "utc_started_at": "2026-10-08T21:00:00+00:00",
       "year": 2026
