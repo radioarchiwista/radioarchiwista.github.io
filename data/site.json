@@ -1,8 +1,8 @@
 {
-  "archive_count": 219918,
+  "archive_count": 219921,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-10-09T08:26:19.147168+00:00",
+  "generated_at": "2026-10-09T08:39:49.606923+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-10-09T07:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -17,10 +17,11 @@
     "Radio Białystok",
     "Radio Centrum Lublin",
     "Radio Centrum Rzeszów",
-    "Radio Gdańsk"
+    "Radio Gdańsk",
+    "Radio Gorzów"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-10-09T08:26:19.147168+00:00",
+  "published_at": "2026-10-09T08:39:49.606923+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
