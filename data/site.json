@@ -1,8 +1,8 @@
 {
-  "archive_count": 220461,
+  "archive_count": 220464,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-10-10T21:54:55.015059+00:00",
+  "generated_at": "2026-10-10T22:00:52.731618+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-10-10T20:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -32,10 +32,13 @@
     "Radio Opole",
     "Radio PiK",
     "Radio Poznań",
+    "Radio Rzeszów",
+    "Radio Szczecin",
+    "Radio Słupsk",
     "Radio Łódź"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-10-10T21:54:55.015059+00:00",
+  "published_at": "2026-10-10T22:00:52.731618+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
