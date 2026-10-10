@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-10-10T18:25:27.873818+00:00",
+  "generated_at": "2026-10-10T18:41:35.686662+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-10-10T17:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -9,11 +9,14 @@
     "Program 2",
     "Program 3",
     "Polskie Radio 24",
+    "Radio 357",
     "Polskie Radio Dzieciom",
-    "Radio Afera"
+    "Radio Afera",
+    "Radio Akadera",
+    "Radio Białystok"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-10-10T18:25:27.873818+00:00",
+  "published_at": "2026-10-10T18:41:35.686662+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -32,7 +35,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 44874,
+      "archive_count": 44875,
       "display_name": "Program 3",
       "public_name": "Polskie Radio Program 3",
       "slug": "pr3",
@@ -46,7 +49,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4409,
+      "archive_count": 4410,
       "display_name": "Radio 357",
       "public_name": "Radio 357",
       "slug": "radio357",
@@ -88,14 +91,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4414,
+      "archive_count": 4415,
       "display_name": "Radio Afera",
       "public_name": "Radio Afera",
       "slug": "afera",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4412,
+      "archive_count": 4413,
       "display_name": "Radio Akadera",
       "public_name": "Radio Akadera",
       "slug": "radioakadera",
