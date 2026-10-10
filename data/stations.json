@@ -1,22 +1,14 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-10-10T11:02:59.395257+00:00",
+  "generated_at": "2026-10-10T11:10:11.127543+00:00",
   "latest_archive_hour_expected_station_count": 43,
-  "latest_archive_hour_started_at": "2026-10-10T09:00:00+00:00",
+  "latest_archive_hour_started_at": "2026-10-10T10:00:00+00:00",
   "latest_archive_hour_stations": [
-    "Program 1",
-    "Program 2",
-    "Program 3",
-    "Polskie Radio 24",
-    "Radio 357",
-    "Polskie Radio Dzieciom",
-    "Radio Afera",
-    "Radio Akadera",
-    "Radio Białystok"
+    "Polskie Radio Dzieciom"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-10-10T11:02:59.395257+00:00",
+  "published_at": "2026-10-10T11:10:11.127543+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -294,7 +286,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4387,
+      "archive_count": 4388,
       "display_name": "Radio Łódź",
       "public_name": "Radio Łódź",
       "slug": "radiolodz",
