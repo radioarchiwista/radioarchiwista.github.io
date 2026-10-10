@@ -47,30 +47,6 @@
       "utc_label": "2026-10-10 10:00 UTC",
       "utc_started_at": "2026-10-10T10:00:00+00:00",
       "year": 2026
-    },
-    {
-      "archive_item_identifier": "radiogorzow-2026-10-10",
-      "audio_url": "https://archive.org/download/radiogorzow-2026-10-10/radiogorzow_2026-10-10T11-00-00Z.mp3",
-      "completeness_ratio": 0.9994,
-      "day": 10,
-      "download_url": "https://archive.org/download/radiogorzow-2026-10-10/radiogorzow_2026-10-10T11-00-00Z.mp3",
-      "duration_seconds": 3590.376,
-      "hour": 13,
-      "hourly_archive_id": 222645,
-      "local_date_label": "10.10.2026",
-      "local_hour_label": "13:00",
-      "local_label": "2026-10-10 13:00 czasu polskiego",
-      "local_started_at": "2026-10-10T13:00:00+02:00",
-      "local_timezone_label": "czasu polskiego",
-      "month": 10,
-      "published_at": "2026-10-10T12:51:36.086434+00:00",
-      "published_local_label": "2026-10-10 14:51 czasu polskiego",
-      "remote_filename": "radiogorzow_2026-10-10T11-00-00Z.mp3",
-      "station_slug": "radiogorzow",
-      "status": "published",
-      "utc_label": "2026-10-10 11:00 UTC",
-      "utc_started_at": "2026-10-10T11:00:00+00:00",
-      "year": 2026
     }
   ],
   "day": 10,
@@ -323,7 +299,7 @@
       "year": 2026
     },
     {
-      "archive_status": "published",
+      "archive_status": "ready",
       "completeness_ratio": 0.9994,
       "day": 10,
       "hour": 13,
@@ -334,9 +310,9 @@
       "local_started_at": "2026-10-10T13:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 10,
-      "playable": true,
-      "state": "available",
-      "status_label": null,
+      "playable": false,
+      "state": "publishing",
+      "status_label": "Czeka w kolejce do publikacji",
       "utc_label": "2026-10-10 11:00 UTC",
       "utc_started_at": "2026-10-10T11:00:00+00:00",
       "year": 2026
