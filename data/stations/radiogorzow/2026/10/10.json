@@ -47,6 +47,30 @@
       "utc_label": "2026-10-10 11:00 UTC",
       "utc_started_at": "2026-10-10T11:00:00+00:00",
       "year": 2026
+    },
+    {
+      "archive_item_identifier": "radiogorzow-2026-10-10",
+      "audio_url": "https://archive.org/download/radiogorzow-2026-10-10/radiogorzow_2026-10-10T14-00-00Z.mp3",
+      "completeness_ratio": 0.9957,
+      "day": 10,
+      "download_url": "https://archive.org/download/radiogorzow-2026-10-10/radiogorzow_2026-10-10T14-00-00Z.mp3",
+      "duration_seconds": 3589.32,
+      "hour": 16,
+      "hourly_archive_id": 222774,
+      "local_date_label": "10.10.2026",
+      "local_hour_label": "16:00",
+      "local_label": "2026-10-10 16:00 czasu polskiego",
+      "local_started_at": "2026-10-10T16:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 10,
+      "published_at": "2026-10-10T17:30:41.521213+00:00",
+      "published_local_label": "2026-10-10 19:30 czasu polskiego",
+      "remote_filename": "radiogorzow_2026-10-10T14-00-00Z.mp3",
+      "station_slug": "radiogorzow",
+      "status": "published",
+      "utc_label": "2026-10-10 14:00 UTC",
+      "utc_started_at": "2026-10-10T14:00:00+00:00",
+      "year": 2026
     }
   ],
   "day": 10,
@@ -356,7 +380,7 @@
       "year": 2026
     },
     {
-      "archive_status": "ready",
+      "archive_status": "published",
       "completeness_ratio": 0.9957,
       "day": 10,
       "hour": 16,
@@ -367,9 +391,9 @@
       "local_started_at": "2026-10-10T16:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 10,
-      "playable": false,
-      "state": "publishing",
-      "status_label": "Czeka w kolejce do publikacji",
+      "playable": true,
+      "state": "available",
+      "status_label": null,
       "utc_label": "2026-10-10 14:00 UTC",
       "utc_started_at": "2026-10-10T14:00:00+00:00",
       "year": 2026
@@ -394,11 +418,11 @@
       "year": 2026
     },
     {
-      "archive_status": null,
-      "completeness_ratio": null,
+      "archive_status": "ready",
+      "completeness_ratio": 0.9981,
       "day": 10,
       "hour": 18,
-      "hourly_archive_id": null,
+      "hourly_archive_id": 222860,
       "local_date_label": "10.10.2026",
       "local_hour_label": "18:00",
       "local_label": "2026-10-10 18:00 czasu polskiego",
@@ -406,8 +430,8 @@
       "local_timezone_label": "czasu polskiego",
       "month": 10,
       "playable": false,
-      "state": "recorded",
-      "status_label": "Nagranie czeka na złożenie",
+      "state": "publishing",
+      "status_label": "Czeka w kolejce do publikacji",
       "utc_label": "2026-10-10 16:00 UTC",
       "utc_started_at": "2026-10-10T16:00:00+00:00",
       "year": 2026
