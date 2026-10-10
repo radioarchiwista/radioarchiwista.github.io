@@ -1,8 +1,8 @@
 {
-  "archive_count": 220377,
+  "archive_count": 220384,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-10-10T19:41:06.808129+00:00",
+  "generated_at": "2026-10-10T19:46:46.404939+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-10-10T18:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -23,10 +23,13 @@
     "Radio Index",
     "Radio Kampus",
     "Radio Koszalin",
-    "Radio Kraków"
+    "Radio Kraków",
+    "Radio Lublin",
+    "Radio Luz",
+    "Radio Łódź"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-10-10T19:41:06.808129+00:00",
+  "published_at": "2026-10-10T19:46:46.404939+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
