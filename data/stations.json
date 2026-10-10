@@ -1,19 +1,14 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-10-10T07:54:32.233783+00:00",
+  "generated_at": "2026-10-10T08:05:41.828667+00:00",
   "latest_archive_hour_expected_station_count": 43,
-  "latest_archive_hour_started_at": "2026-10-10T06:00:00+00:00",
+  "latest_archive_hour_started_at": "2026-10-10T07:00:00+00:00",
   "latest_archive_hour_stations": [
-    "Program 1",
-    "Program 2",
-    "Program 3",
-    "Polskie Radio 24",
-    "Polskie Radio Dzieciom",
-    "Radio UWM FM"
+    "Polskie Radio Dzieciom"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-10-10T07:54:32.233783+00:00",
+  "published_at": "2026-10-10T08:05:41.828667+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -39,7 +34,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4440,
+      "archive_count": 4439,
       "display_name": "Polskie Radio 24",
       "public_name": "Polskie Radio 24",
       "slug": "pr24",
@@ -81,7 +76,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1900,
+      "archive_count": 1901,
       "display_name": "Polskie Radio Dzieciom",
       "public_name": "Polskie Radio Dzieciom",
       "slug": "polskieradiodzieciom",
@@ -263,7 +258,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4408,
+      "archive_count": 4409,
       "display_name": "Radio UWM FM",
       "public_name": "Radio UWM FM",
       "slug": "radiouwmfm",
