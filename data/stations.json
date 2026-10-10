@@ -1,26 +1,29 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-10-10T23:07:47.359916+00:00",
+  "generated_at": "2026-10-10T23:14:26.309629+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-10-10T22:00:00+00:00",
   "latest_archive_hour_stations": [
+    "Program 1",
+    "Program 2",
+    "Polskie Radio 24",
     "Polskie Radio Dzieciom"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-10-10T23:07:47.359916+00:00",
+  "published_at": "2026-10-10T23:14:26.309629+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
     {
-      "archive_count": 4437,
+      "archive_count": 4438,
       "display_name": "Program 1",
       "public_name": "Polskie Radio Program 1",
       "slug": "pr1",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4438,
+      "archive_count": 4439,
       "display_name": "Program 2",
       "public_name": "Polskie Radio Program 2",
       "slug": "pr2",
@@ -34,7 +37,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4455,
+      "archive_count": 4456,
       "display_name": "Polskie Radio 24",
       "public_name": "Polskie Radio 24",
       "slug": "pr24",
@@ -188,7 +191,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4393,
+      "archive_count": 4392,
       "display_name": "Radio Lublin",
       "public_name": "Radio Lublin",
       "slug": "radiolublin",
