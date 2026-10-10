@@ -1,13 +1,12 @@
 {
-  "archive_count": 220424,
+  "archive_count": 220425,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-10-10T20:49:33.113628+00:00",
+  "generated_at": "2026-10-10T20:58:26.052536+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-10-10T19:00:00+00:00",
   "latest_archive_hour_stations": [
     "Program 1",
-    "Program 2",
     "Program 3",
     "Polskie Radio 24",
     "Radio 357",
@@ -17,6 +16,7 @@
     "Radio Białystok",
     "Radio Centrum Lublin",
     "Radio Centrum Rzeszów",
+    "Radio Gdańsk",
     "Radio Gdańsk Regiony",
     "Radio Index",
     "Radio Kampus",
@@ -32,11 +32,13 @@
     "Radio PiK",
     "Radio Poznań",
     "Radio Rzeszów",
+    "Radio Szczecin",
     "Radio Słupsk",
+    "Radio Zachód",
     "Radio Łódź"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-10-10T20:49:33.113628+00:00",
+  "published_at": "2026-10-10T20:58:26.052536+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
