@@ -1,8 +1,8 @@
 {
-  "archive_count": 220255,
+  "archive_count": 220262,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-10-10T14:32:44.351031+00:00",
+  "generated_at": "2026-10-10T14:41:00.479881+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-10-10T13:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -16,10 +16,12 @@
     "Radio Akadera",
     "Radio Centrum Lublin",
     "Radio Centrum Rzeszów",
-    "Radio Gdańsk"
+    "Radio Gdańsk",
+    "Radio Gdańsk Regiony",
+    "Radio Gorzów"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-10-10T14:32:44.351031+00:00",
+  "published_at": "2026-10-10T14:41:00.479881+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
