@@ -1,16 +1,19 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-10-10T18:16:40.744996+00:00",
+  "generated_at": "2026-10-10T18:25:27.873818+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-10-10T17:00:00+00:00",
   "latest_archive_hour_stations": [
     "Program 1",
     "Program 2",
-    "Polskie Radio Dzieciom"
+    "Program 3",
+    "Polskie Radio 24",
+    "Polskie Radio Dzieciom",
+    "Radio Afera"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-10-10T18:16:40.744996+00:00",
+  "published_at": "2026-10-10T18:25:27.873818+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -22,7 +25,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4433,
+      "archive_count": 4434,
       "display_name": "Program 2",
       "public_name": "Polskie Radio Program 2",
       "slug": "pr2",
@@ -36,7 +39,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4450,
+      "archive_count": 4451,
       "display_name": "Polskie Radio 24",
       "public_name": "Polskie Radio 24",
       "slug": "pr24",
