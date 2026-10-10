@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-10-10T11:57:02.364582+00:00",
+  "generated_at": "2026-10-10T12:02:21.822986+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-10-10T10:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -16,10 +16,12 @@
     "Radio Białystok",
     "Radio Centrum Lublin",
     "Radio Centrum Rzeszów",
-    "Radio Gdańsk"
+    "Radio Gdańsk",
+    "Radio Gdańsk Regiony",
+    "Radio Kampus"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-10-10T11:57:02.364582+00:00",
+  "published_at": "2026-10-10T12:02:21.822986+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -101,28 +103,28 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4405,
+      "archive_count": 4406,
       "display_name": "Radio Akadera",
       "public_name": "Radio Akadera",
       "slug": "radioakadera",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4391,
+      "archive_count": 4392,
       "display_name": "Radio Białystok",
       "public_name": "Radio Białystok",
       "slug": "radiobialystok",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4401,
+      "archive_count": 4402,
       "display_name": "Radio Centrum Lublin",
       "public_name": "Radio Centrum Lublin",
       "slug": "radiocentrumlublin",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4374,
+      "archive_count": 4375,
       "display_name": "Radio Centrum Rzeszów",
       "public_name": "Radio Centrum Rzeszów",
       "slug": "radiocentrumrzeszow",
@@ -136,14 +138,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4404,
+      "archive_count": 4405,
       "display_name": "Radio Gdańsk",
       "public_name": "Radio Gdańsk",
       "slug": "radiogdansk",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1875,
+      "archive_count": 1876,
       "display_name": "Radio Gdańsk Regiony",
       "public_name": "Radio Gdańsk Regiony",
       "slug": "radiogdanskregiony",
@@ -164,7 +166,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4100,
+      "archive_count": 4101,
       "display_name": "Radio Kampus",
       "public_name": "Radio Kampus",
       "slug": "radiokampus",
@@ -199,7 +201,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4385,
+      "archive_count": 4386,
       "display_name": "Radio Lublin",
       "public_name": "Radio Lublin",
       "slug": "radiolublin",
@@ -220,7 +222,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4367,
+      "archive_count": 4368,
       "display_name": "Radio Olsztyn",
       "public_name": "Radio Olsztyn",
       "slug": "radioolsztyn",
@@ -269,7 +271,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4412,
+      "archive_count": 4413,
       "display_name": "Radio UWM FM",
       "public_name": "Radio UWM FM",
       "slug": "radiouwmfm",
