@@ -1,27 +1,14 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-10-10T12:02:21.822986+00:00",
+  "generated_at": "2026-10-10T12:11:14.810766+00:00",
   "latest_archive_hour_expected_station_count": 43,
-  "latest_archive_hour_started_at": "2026-10-10T10:00:00+00:00",
+  "latest_archive_hour_started_at": "2026-10-10T11:00:00+00:00",
   "latest_archive_hour_stations": [
-    "Program 1",
-    "Program 2",
-    "Program 3",
-    "Polskie Radio 24",
-    "Radio 357",
-    "Polskie Radio Dzieciom",
-    "Radio Afera",
-    "Radio Akadera",
-    "Radio Białystok",
-    "Radio Centrum Lublin",
-    "Radio Centrum Rzeszów",
-    "Radio Gdańsk",
-    "Radio Gdańsk Regiony",
-    "Radio Kampus"
+    "Polskie Radio Dzieciom"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-10-10T12:02:21.822986+00:00",
+  "published_at": "2026-10-10T12:11:14.810766+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -89,7 +76,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1904,
+      "archive_count": 1905,
       "display_name": "Polskie Radio Dzieciom",
       "public_name": "Polskie Radio Dzieciom",
       "slug": "polskieradiodzieciom",
@@ -173,7 +160,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4394,
+      "archive_count": 4395,
       "display_name": "Radio Katowice",
       "public_name": "Radio Katowice",
       "slug": "radiokatowice",
