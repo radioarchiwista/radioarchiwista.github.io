@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-10-10T22:00:52.731618+00:00",
+  "generated_at": "2026-10-10T22:05:03.607123+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-10-10T20:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -13,6 +13,7 @@
     "Polskie Radio Dzieciom",
     "Radio Afera",
     "Radio Akadera",
+    "Radio Białystok",
     "Radio Centrum Lublin",
     "Radio Centrum Rzeszów",
     "Radio Gdańsk",
@@ -37,7 +38,7 @@
     "Radio Łódź"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-10-10T22:00:52.731618+00:00",
+  "published_at": "2026-10-10T22:05:03.607123+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -126,7 +127,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4401,
+      "archive_count": 4402,
       "display_name": "Radio Białystok",
       "public_name": "Radio Białystok",
       "slug": "radiobialystok",
@@ -168,7 +169,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4409,
+      "archive_count": 4410,
       "display_name": "Radio Gorzów",
       "public_name": "Radio Gorzów",
       "slug": "radiogorzow",
@@ -273,7 +274,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4370,
+      "archive_count": 4371,
       "display_name": "Radio Szczecin",
       "public_name": "Radio Szczecin",
       "slug": "radioszczecin",
