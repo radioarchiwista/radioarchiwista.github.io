@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-10-10T23:42:57.018983+00:00",
+  "generated_at": "2026-10-10T23:49:40.340597+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-10-10T22:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -18,10 +18,17 @@
     "Radio Centrum Rzeszów",
     "Radio Gdańsk Regiony",
     "Radio Gorzów",
-    "Radio Katowice"
+    "Radio Kampus",
+    "Radio Katowice",
+    "Radio Kielce",
+    "Radio Koszalin",
+    "Radio Lublin",
+    "Radio Luz",
+    "Radio Maryja",
+    "Radio Łódź"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-10-10T23:42:57.018983+00:00",
+  "published_at": "2026-10-10T23:49:40.340597+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -152,7 +159,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4410,
+      "archive_count": 4411,
       "display_name": "Radio Gorzów",
       "public_name": "Radio Gorzów",
       "slug": "radiogorzow",
@@ -166,28 +173,28 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4112,
+      "archive_count": 4113,
       "display_name": "Radio Kampus",
       "public_name": "Radio Kampus",
       "slug": "radiokampus",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4406,
+      "archive_count": 4407,
       "display_name": "Radio Katowice",
       "public_name": "Radio Katowice",
       "slug": "radiokatowice",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4350,
+      "archive_count": 4351,
       "display_name": "Radio Kielce",
       "public_name": "Radio Kielce",
       "slug": "radiokielce",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4275,
+      "archive_count": 4276,
       "display_name": "Radio Koszalin",
       "public_name": "Radio Koszalin",
       "slug": "radiokoszalin",
@@ -271,7 +278,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4417,
+      "archive_count": 4418,
       "display_name": "Radio UWM FM",
       "public_name": "Radio UWM FM",
       "slug": "radiouwmfm",
@@ -299,7 +306,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4396,
+      "archive_count": 4397,
       "display_name": "Radio Łódź",
       "public_name": "Radio Łódź",
       "slug": "radiolodz",
