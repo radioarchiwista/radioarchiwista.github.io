@@ -218,6 +218,30 @@
     },
     {
       "archive_item_identifier": "radiokielce-2026-10-09",
+      "audio_url": "https://archive.org/download/radiokielce-2026-10-09/radiokielce_2026-10-09T17-00-00Z.mp3",
+      "completeness_ratio": 0.9993,
+      "day": 9,
+      "download_url": "https://archive.org/download/radiokielce-2026-10-09/radiokielce_2026-10-09T17-00-00Z.mp3",
+      "duration_seconds": 3596.28,
+      "hour": 19,
+      "hourly_archive_id": 221875,
+      "local_date_label": "09.10.2026",
+      "local_hour_label": "19:00",
+      "local_label": "2026-10-09 19:00 czasu polskiego",
+      "local_started_at": "2026-10-09T19:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 10,
+      "published_at": "2026-10-11T08:31:14.690822+00:00",
+      "published_local_label": "2026-10-11 10:31 czasu polskiego",
+      "remote_filename": "radiokielce_2026-10-09T17-00-00Z.mp3",
+      "station_slug": "radiokielce",
+      "status": "published",
+      "utc_label": "2026-10-09 17:00 UTC",
+      "utc_started_at": "2026-10-09T17:00:00+00:00",
+      "year": 2026
+    },
+    {
+      "archive_item_identifier": "radiokielce-2026-10-09",
       "audio_url": "https://archive.org/download/radiokielce-2026-10-09/radiokielce_2026-10-09T18-00-00Z.mp3",
       "completeness_ratio": 0.9987,
       "day": 9,
@@ -525,7 +549,7 @@
       "year": 2026
     },
     {
-      "archive_status": "error",
+      "archive_status": "ready",
       "completeness_ratio": 0.9996,
       "day": 9,
       "hour": 11,
@@ -537,8 +561,8 @@
       "local_timezone_label": "czasu polskiego",
       "month": 10,
       "playable": false,
-      "state": "failed",
-      "status_label": "Nie udało się przygotować nagrania",
+      "state": "publishing",
+      "status_label": "Czeka w kolejce do publikacji",
       "utc_label": "2026-10-09 09:00 UTC",
       "utc_started_at": "2026-10-09T09:00:00+00:00",
       "year": 2026
@@ -677,7 +701,7 @@
       "year": 2026
     },
     {
-      "archive_status": "ready",
+      "archive_status": "published",
       "completeness_ratio": 0.9993,
       "day": 9,
       "hour": 19,
@@ -688,9 +712,9 @@
       "local_started_at": "2026-10-09T19:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 10,
-      "playable": false,
-      "state": "publishing",
-      "status_label": "Czeka w kolejce do publikacji",
+      "playable": true,
+      "state": "available",
+      "status_label": null,
       "utc_label": "2026-10-09 17:00 UTC",
       "utc_started_at": "2026-10-09T17:00:00+00:00",
       "year": 2026
