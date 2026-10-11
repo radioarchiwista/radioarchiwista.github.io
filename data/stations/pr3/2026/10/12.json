@@ -1,0 +1,33 @@
+{
+  "archives": [],
+  "day": 12,
+  "hour_slots": [
+    {
+      "archive_status": "ready",
+      "completeness_ratio": 1.0,
+      "day": 12,
+      "hour": 0,
+      "hourly_archive_id": 224141,
+      "local_date_label": "12.10.2026",
+      "local_hour_label": "00:00",
+      "local_label": "2026-10-12 00:00 czasu polskiego",
+      "local_started_at": "2026-10-12T00:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 10,
+      "playable": false,
+      "state": "publishing",
+      "status_label": "Czeka w kolejce do publikacji",
+      "utc_label": "2026-10-11 22:00 UTC",
+      "utc_started_at": "2026-10-11T22:00:00+00:00",
+      "year": 2026
+    }
+  ],
+  "month": 10,
+  "station": {
+    "display_name": "Program 3",
+    "public_name": "Polskie Radio Program 3",
+    "slug": "pr3",
+    "timezone": "Europe/Warsaw"
+  },
+  "year": 2026
+}
