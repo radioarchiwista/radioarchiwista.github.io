@@ -1,8 +1,8 @@
 {
-  "archive_count": 220756,
+  "archive_count": 220758,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-10-11T02:38:15.234698+00:00",
+  "generated_at": "2026-10-11T03:00:19.895988+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-10-11T01:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -23,9 +23,12 @@
     "Radio Gdańsk",
     "Radio Gdańsk Regiony",
     "Radio Gorzów",
+    "Radio Index",
+    "Radio Kampus",
     "Radio Katowice",
     "Radio Kielce",
     "Radio Kraków",
+    "Radio PiK",
     "Radio Rzeszów",
     "Radio Zachód",
     "Radio Zielona Góra",
@@ -33,7 +36,7 @@
     "RMF Classic"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-10-11T02:38:15.234698+00:00",
+  "published_at": "2026-10-11T03:00:19.895988+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
