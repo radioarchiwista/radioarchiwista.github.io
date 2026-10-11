@@ -143,6 +143,30 @@
       "utc_label": "2026-10-09 06:00 UTC",
       "utc_started_at": "2026-10-09T06:00:00+00:00",
       "year": 2026
+    },
+    {
+      "archive_item_identifier": "radiopoznan-2026-10-09",
+      "audio_url": "https://archive.org/download/radiopoznan-2026-10-09/radiopoznan_2026-10-09T21-00-00Z.mp3",
+      "completeness_ratio": 1.0,
+      "day": 9,
+      "download_url": "https://archive.org/download/radiopoznan-2026-10-09/radiopoznan_2026-10-09T21-00-00Z.mp3",
+      "duration_seconds": 3600.036,
+      "hour": 23,
+      "hourly_archive_id": 222057,
+      "local_date_label": "09.10.2026",
+      "local_hour_label": "23:00",
+      "local_label": "2026-10-09 23:00 czasu polskiego",
+      "local_started_at": "2026-10-09T23:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 10,
+      "published_at": "2026-10-11T07:29:18.039658+00:00",
+      "published_local_label": "2026-10-11 09:29 czasu polskiego",
+      "remote_filename": "radiopoznan_2026-10-09T21-00-00Z.mp3",
+      "station_slug": "radiopoznan",
+      "status": "published",
+      "utc_label": "2026-10-09 21:00 UTC",
+      "utc_started_at": "2026-10-09T21:00:00+00:00",
+      "year": 2026
     }
   ],
   "day": 9,
@@ -585,7 +609,7 @@
       "year": 2026
     },
     {
-      "archive_status": "ready",
+      "archive_status": "published",
       "completeness_ratio": 1.0,
       "day": 9,
       "hour": 23,
@@ -596,9 +620,9 @@
       "local_started_at": "2026-10-09T23:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 10,
-      "playable": false,
-      "state": "publishing",
-      "status_label": "Czeka w kolejce do publikacji",
+      "playable": true,
+      "state": "available",
+      "status_label": null,
       "utc_label": "2026-10-09 21:00 UTC",
       "utc_started_at": "2026-10-09T21:00:00+00:00",
       "year": 2026
