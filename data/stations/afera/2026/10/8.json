@@ -2,6 +2,30 @@
   "archives": [
     {
       "archive_item_identifier": "afera-2026-10-07",
+      "audio_url": "https://archive.org/download/afera-2026-10-07/afera_2026-10-07T22-00-00Z.mp3",
+      "completeness_ratio": 0.9999,
+      "day": 8,
+      "download_url": "https://archive.org/download/afera-2026-10-07/afera_2026-10-07T22-00-00Z.mp3",
+      "duration_seconds": 3596.931,
+      "hour": 0,
+      "hourly_archive_id": 220014,
+      "local_date_label": "08.10.2026",
+      "local_hour_label": "00:00",
+      "local_label": "2026-10-08 00:00 czasu polskiego",
+      "local_started_at": "2026-10-08T00:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 10,
+      "published_at": "2026-10-11T14:54:30.131112+00:00",
+      "published_local_label": "2026-10-11 16:54 czasu polskiego",
+      "remote_filename": "afera_2026-10-07T22-00-00Z.mp3",
+      "station_slug": "afera",
+      "status": "published",
+      "utc_label": "2026-10-07 22:00 UTC",
+      "utc_started_at": "2026-10-07T22:00:00+00:00",
+      "year": 2026
+    },
+    {
+      "archive_item_identifier": "afera-2026-10-07",
       "audio_url": "https://archive.org/download/afera-2026-10-07/afera_2026-10-07T23-00-00Z.mp3",
       "completeness_ratio": 0.9999,
       "day": 8,
@@ -556,7 +580,7 @@
   "day": 8,
   "hour_slots": [
     {
-      "archive_status": "ready",
+      "archive_status": "published",
       "completeness_ratio": 0.9999,
       "day": 8,
       "hour": 0,
@@ -567,9 +591,9 @@
       "local_started_at": "2026-10-08T00:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 10,
-      "playable": false,
-      "state": "publishing",
-      "status_label": "Czeka w kolejce do publikacji",
+      "playable": true,
+      "state": "available",
+      "status_label": null,
       "utc_label": "2026-10-07 22:00 UTC",
       "utc_started_at": "2026-10-07T22:00:00+00:00",
       "year": 2026
