@@ -242,6 +242,30 @@
     },
     {
       "archive_item_identifier": "radioszczecin-2026-10-07",
+      "audio_url": "https://archive.org/download/radioszczecin-2026-10-07/radioszczecin_2026-10-07T20-00-00Z.mp3",
+      "completeness_ratio": 1.0,
+      "day": 7,
+      "download_url": "https://archive.org/download/radioszczecin-2026-10-07/radioszczecin_2026-10-07T20-00-00Z.mp3",
+      "duration_seconds": 3600.091,
+      "hour": 22,
+      "hourly_archive_id": 219953,
+      "local_date_label": "07.10.2026",
+      "local_hour_label": "22:00",
+      "local_label": "2026-10-07 22:00 czasu polskiego",
+      "local_started_at": "2026-10-07T22:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 10,
+      "published_at": "2026-10-11T15:44:34.908939+00:00",
+      "published_local_label": "2026-10-11 17:44 czasu polskiego",
+      "remote_filename": "radioszczecin_2026-10-07T20-00-00Z.mp3",
+      "station_slug": "radioszczecin",
+      "status": "published",
+      "utc_label": "2026-10-07 20:00 UTC",
+      "utc_started_at": "2026-10-07T20:00:00+00:00",
+      "year": 2026
+    },
+    {
+      "archive_item_identifier": "radioszczecin-2026-10-07",
       "audio_url": "https://archive.org/download/radioszczecin-2026-10-07/radioszczecin_2026-10-07T21-00-00Z.mp3",
       "completeness_ratio": 1.0,
       "day": 7,
@@ -401,7 +425,7 @@
       "year": 2026
     },
     {
-      "archive_status": "error",
+      "archive_status": "ready",
       "completeness_ratio": 0.9997,
       "day": 7,
       "hour": 7,
@@ -413,8 +437,8 @@
       "local_timezone_label": "czasu polskiego",
       "month": 10,
       "playable": false,
-      "state": "failed",
-      "status_label": "Nie udało się przygotować nagrania",
+      "state": "publishing",
+      "status_label": "Czeka w kolejce do publikacji",
       "utc_label": "2026-10-07 05:00 UTC",
       "utc_started_at": "2026-10-07T05:00:00+00:00",
       "year": 2026
@@ -686,7 +710,7 @@
       "year": 2026
     },
     {
-      "archive_status": "ready",
+      "archive_status": "published",
       "completeness_ratio": 1.0,
       "day": 7,
       "hour": 22,
@@ -697,9 +721,9 @@
       "local_started_at": "2026-10-07T22:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 10,
-      "playable": false,
-      "state": "publishing",
-      "status_label": "Czeka w kolejce do publikacji",
+      "playable": true,
+      "state": "available",
+      "status_label": null,
       "utc_label": "2026-10-07 20:00 UTC",
       "utc_started_at": "2026-10-07T20:00:00+00:00",
       "year": 2026
