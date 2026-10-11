@@ -2,6 +2,30 @@
   "archives": [
     {
       "archive_item_identifier": "rmfclassic-2026-10-08",
+      "audio_url": "https://archive.org/download/rmfclassic-2026-10-08/rmfclassic_2026-10-08T08-00-00Z.mp3",
+      "completeness_ratio": 1.0,
+      "day": 8,
+      "download_url": "https://archive.org/download/rmfclassic-2026-10-08/rmfclassic_2026-10-08T08-00-00Z.mp3",
+      "duration_seconds": 3599.7,
+      "hour": 10,
+      "hourly_archive_id": 220478,
+      "local_date_label": "08.10.2026",
+      "local_hour_label": "10:00",
+      "local_label": "2026-10-08 10:00 czasu polskiego",
+      "local_started_at": "2026-10-08T10:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 10,
+      "published_at": "2026-10-11T12:42:46.166675+00:00",
+      "published_local_label": "2026-10-11 14:42 czasu polskiego",
+      "remote_filename": "rmfclassic_2026-10-08T08-00-00Z.mp3",
+      "station_slug": "rmfclassic",
+      "status": "published",
+      "utc_label": "2026-10-08 08:00 UTC",
+      "utc_started_at": "2026-10-08T08:00:00+00:00",
+      "year": 2026
+    },
+    {
+      "archive_item_identifier": "rmfclassic-2026-10-08",
       "audio_url": "https://archive.org/download/rmfclassic-2026-10-08/rmfclassic_2026-10-08T09-00-00Z.mp3",
       "completeness_ratio": 1.0,
       "day": 8,
@@ -506,7 +530,7 @@
       "year": 2026
     },
     {
-      "archive_status": "ready",
+      "archive_status": "published",
       "completeness_ratio": 1.0,
       "day": 8,
       "hour": 10,
@@ -517,9 +541,9 @@
       "local_started_at": "2026-10-08T10:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 10,
-      "playable": false,
-      "state": "publishing",
-      "status_label": "Czeka w kolejce do publikacji",
+      "playable": true,
+      "state": "available",
+      "status_label": null,
       "utc_label": "2026-10-08 08:00 UTC",
       "utc_started_at": "2026-10-08T08:00:00+00:00",
       "year": 2026
