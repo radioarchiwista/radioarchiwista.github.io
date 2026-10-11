@@ -26,6 +26,30 @@
     },
     {
       "archive_item_identifier": "radioopole-2026-10-10",
+      "audio_url": "https://archive.org/download/radioopole-2026-10-10/radioopole_2026-10-10T08-00-00Z.mp3",
+      "completeness_ratio": 1.0,
+      "day": 10,
+      "download_url": "https://archive.org/download/radioopole-2026-10-10/radioopole_2026-10-10T08-00-00Z.mp3",
+      "duration_seconds": 3599.88,
+      "hour": 10,
+      "hourly_archive_id": 222528,
+      "local_date_label": "10.10.2026",
+      "local_hour_label": "10:00",
+      "local_label": "2026-10-10 10:00 czasu polskiego",
+      "local_started_at": "2026-10-10T10:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 10,
+      "published_at": "2026-10-11T04:51:30.056247+00:00",
+      "published_local_label": "2026-10-11 06:51 czasu polskiego",
+      "remote_filename": "radioopole_2026-10-10T08-00-00Z.mp3",
+      "station_slug": "radioopole",
+      "status": "published",
+      "utc_label": "2026-10-10 08:00 UTC",
+      "utc_started_at": "2026-10-10T08:00:00+00:00",
+      "year": 2026
+    },
+    {
+      "archive_item_identifier": "radioopole-2026-10-10",
       "audio_url": "https://archive.org/download/radioopole-2026-10-10/radioopole_2026-10-10T09-00-00Z.mp3",
       "completeness_ratio": 0.9999,
       "day": 10,
@@ -397,7 +421,7 @@
       "year": 2026
     },
     {
-      "archive_status": "error",
+      "archive_status": "ready",
       "completeness_ratio": 0.9997,
       "day": 10,
       "hour": 3,
@@ -409,8 +433,8 @@
       "local_timezone_label": "czasu polskiego",
       "month": 10,
       "playable": false,
-      "state": "failed",
-      "status_label": "Nie udało się przygotować nagrania",
+      "state": "publishing",
+      "status_label": "Czeka w kolejce do publikacji",
       "utc_label": "2026-10-10 01:00 UTC",
       "utc_started_at": "2026-10-10T01:00:00+00:00",
       "year": 2026
@@ -530,7 +554,7 @@
       "year": 2026
     },
     {
-      "archive_status": "ready",
+      "archive_status": "published",
       "completeness_ratio": 1.0,
       "day": 10,
       "hour": 10,
@@ -541,9 +565,9 @@
       "local_started_at": "2026-10-10T10:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 10,
-      "playable": false,
-      "state": "publishing",
-      "status_label": "Czeka w kolejce do publikacji",
+      "playable": true,
+      "state": "available",
+      "status_label": null,
       "utc_label": "2026-10-10 08:00 UTC",
       "utc_started_at": "2026-10-10T08:00:00+00:00",
       "year": 2026
