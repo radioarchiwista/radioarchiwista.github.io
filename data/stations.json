@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-10-12T19:00:15.996444+00:00",
+  "generated_at": "2026-10-12T19:06:51.607156+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-10-12T17:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -26,6 +26,7 @@
     "Radio Gorzów",
     "Radio Index",
     "Radio Kampus",
+    "Radio Katowice",
     "Radio Kielce",
     "Radio Koszalin",
     "Radio Kraków",
@@ -40,6 +41,7 @@
     "Radio Słupsk",
     "Radio UWM FM",
     "Radio Wrocław",
+    "Radio Zachód",
     "Radio Zielona Góra",
     "Radio Łódź",
     "Radio Żak",
@@ -47,7 +49,7 @@
     "RMF24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-10-12T19:00:15.996444+00:00",
+  "published_at": "2026-10-12T19:06:51.607156+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -199,7 +201,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4485,
+      "archive_count": 4486,
       "display_name": "Radio Katowice",
       "public_name": "Radio Katowice",
       "slug": "radiokatowice",
@@ -213,14 +215,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4365,
+      "archive_count": 4366,
       "display_name": "Radio Koszalin",
       "public_name": "Radio Koszalin",
       "slug": "radiokoszalin",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4483,
+      "archive_count": 4484,
       "display_name": "Radio Kraków",
       "public_name": "Radio Kraków",
       "slug": "radiokrakow",
