@@ -23,6 +23,30 @@
       "utc_label": "2026-10-11 22:00 UTC",
       "utc_started_at": "2026-10-11T22:00:00+00:00",
       "year": 2026
+    },
+    {
+      "archive_item_identifier": "radiolodz-2026-10-11",
+      "audio_url": "https://archive.org/download/radiolodz-2026-10-11/radiolodz_2026-10-11T23-00-00Z.mp3",
+      "completeness_ratio": 1.0,
+      "day": 12,
+      "download_url": "https://archive.org/download/radiolodz-2026-10-11/radiolodz_2026-10-11T23-00-00Z.mp3",
+      "duration_seconds": 3599.987,
+      "hour": 1,
+      "hourly_archive_id": 224200,
+      "local_date_label": "12.10.2026",
+      "local_hour_label": "01:00",
+      "local_label": "2026-10-12 01:00 czasu polskiego",
+      "local_started_at": "2026-10-12T01:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 10,
+      "published_at": "2026-10-12T00:33:10.155259+00:00",
+      "published_local_label": "2026-10-12 02:33 czasu polskiego",
+      "remote_filename": "radiolodz_2026-10-11T23-00-00Z.mp3",
+      "station_slug": "radiolodz",
+      "status": "published",
+      "utc_label": "2026-10-11 23:00 UTC",
+      "utc_started_at": "2026-10-11T23:00:00+00:00",
+      "year": 2026
     }
   ],
   "day": 12,
@@ -47,7 +71,7 @@
       "year": 2026
     },
     {
-      "archive_status": "ready",
+      "archive_status": "published",
       "completeness_ratio": 1.0,
       "day": 12,
       "hour": 1,
@@ -58,9 +82,9 @@
       "local_started_at": "2026-10-12T01:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 10,
-      "playable": false,
-      "state": "publishing",
-      "status_label": "Czeka w kolejce do publikacji",
+      "playable": true,
+      "state": "available",
+      "status_label": null,
       "utc_label": "2026-10-11 23:00 UTC",
       "utc_started_at": "2026-10-11T23:00:00+00:00",
       "year": 2026
