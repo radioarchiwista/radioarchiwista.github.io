@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-10-13T15:38:06.587982+00:00",
+  "generated_at": "2026-10-13T15:41:40.146947+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-10-13T14:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -10,10 +10,8 @@
     "Program 3",
     "Polskie Radio 24",
     "Radio 357",
-    "Radio Nowy Świat",
     "TOK FM",
     "Radio Wnet",
-    "Radio Republika",
     "Polskie Radio Dzieciom",
     "Radio Afera",
     "Radio Akadera",
@@ -33,6 +31,7 @@
     "Radio Lublin",
     "Radio Luz",
     "Radio Maryja",
+    "Radio Olsztyn",
     "Radio Opole",
     "Radio PiK",
     "Radio Poznań",
@@ -48,7 +47,7 @@
     "RMF24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-10-13T15:38:06.587982+00:00",
+  "published_at": "2026-10-13T15:41:40.146947+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -95,21 +94,21 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4512,
+      "archive_count": 4513,
       "display_name": "TOK FM",
       "public_name": "TOK FM",
       "slug": "tokfm",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4522,
+      "archive_count": 4523,
       "display_name": "Radio Wnet",
       "public_name": "Radio Wnet",
       "slug": "wnet",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4524,
+      "archive_count": 4523,
       "display_name": "Radio Republika",
       "public_name": "Radio Republika",
       "slug": "republika",
@@ -207,7 +206,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4464,
+      "archive_count": 4465,
       "display_name": "Radio Kielce",
       "public_name": "Radio Kielce",
       "slug": "radiokielce",
@@ -235,7 +234,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4425,
+      "archive_count": 4426,
       "display_name": "Radio Luz",
       "public_name": "Radio Luz",
       "slug": "radioluz",
@@ -312,7 +311,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4509,
+      "archive_count": 4508,
       "display_name": "Radio Zachód",
       "public_name": "Radio Zachód",
       "slug": "radiozachod",
@@ -340,14 +339,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3038,
+      "archive_count": 3039,
       "display_name": "RMF Classic",
       "public_name": "RMF Classic",
       "slug": "rmfclassic",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3037,
+      "archive_count": 3038,
       "display_name": "RMF24",
       "public_name": "RMF24",
       "slug": "rmf24",
