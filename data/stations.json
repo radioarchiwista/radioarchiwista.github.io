@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-10-13T09:57:42.989611+00:00",
+  "generated_at": "2026-10-13T10:03:03.558889+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-10-13T08:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -47,7 +47,7 @@
     "RMF24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-10-13T09:57:42.989611+00:00",
+  "published_at": "2026-10-13T10:03:03.558889+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -108,7 +108,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4511,
+      "archive_count": 4513,
       "display_name": "Radio Republika",
       "public_name": "Radio Republika",
       "slug": "republika",
@@ -248,7 +248,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4480,
+      "archive_count": 4482,
       "display_name": "Radio Olsztyn",
       "public_name": "Radio Olsztyn",
       "slug": "radioolsztyn",
