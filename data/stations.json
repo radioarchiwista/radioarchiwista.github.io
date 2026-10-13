@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-10-13T05:34:16.997265+00:00",
+  "generated_at": "2026-10-13T05:40:15.369953+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-10-13T04:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -13,7 +13,6 @@
     "Radio Nowy Świat",
     "TOK FM",
     "Radio Wnet",
-    "Radio Republika",
     "Polskie Radio Dzieciom",
     "Radio Afera",
     "Radio Akadera",
@@ -46,7 +45,7 @@
     "RMF24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-10-13T05:34:16.997265+00:00",
+  "published_at": "2026-10-13T05:40:15.369953+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -107,7 +106,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4512,
+      "archive_count": 4511,
       "display_name": "Radio Republika",
       "public_name": "Radio Republika",
       "slug": "republika",
@@ -338,14 +337,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3029,
+      "archive_count": 3028,
       "display_name": "RMF Classic",
       "public_name": "RMF Classic",
       "slug": "rmfclassic",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3024,
+      "archive_count": 3027,
       "display_name": "RMF24",
       "public_name": "RMF24",
       "slug": "rmf24",
