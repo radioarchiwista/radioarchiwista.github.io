@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-10-13T05:46:14.528012+00:00",
+  "generated_at": "2026-10-13T05:52:40.545999+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-10-13T04:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -37,6 +37,7 @@
     "Radio Rzeszów",
     "Radio Szczecin",
     "Radio Słupsk",
+    "Radio UWM FM",
     "Radio Wrocław",
     "Radio Zachód",
     "Radio Zielona Góra",
@@ -45,7 +46,7 @@
     "RMF24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-10-13T05:46:14.528012+00:00",
+  "published_at": "2026-10-13T05:52:40.545999+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -295,7 +296,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4484,
+      "archive_count": 4486,
       "display_name": "Radio UWM FM",
       "public_name": "Radio UWM FM",
       "slug": "radiouwmfm",
@@ -344,7 +345,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3027,
+      "archive_count": 3026,
       "display_name": "RMF24",
       "public_name": "RMF24",
       "slug": "rmf24",
