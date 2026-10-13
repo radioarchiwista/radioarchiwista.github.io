@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-10-13T01:15:31.688215+00:00",
+  "generated_at": "2026-10-13T01:22:31.185398+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-10-13T00:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -17,7 +17,7 @@
     "Radio Gdańsk Regiony"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-10-13T01:15:31.688215+00:00",
+  "published_at": "2026-10-13T01:22:31.185398+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -50,7 +50,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4492,
+      "archive_count": 4493,
       "display_name": "Radio 357",
       "public_name": "Radio 357",
       "slug": "radio357",
@@ -92,14 +92,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4492,
+      "archive_count": 4493,
       "display_name": "Radio Afera",
       "public_name": "Radio Afera",
       "slug": "afera",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4492,
+      "archive_count": 4493,
       "display_name": "Radio Akadera",
       "public_name": "Radio Akadera",
       "slug": "radioakadera",
@@ -113,7 +113,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4492,
+      "archive_count": 4493,
       "display_name": "Radio Centrum Lublin",
       "public_name": "Radio Centrum Lublin",
       "slug": "radiocentrumlublin",
@@ -141,7 +141,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 1965,
+      "archive_count": 1966,
       "display_name": "Radio Gdańsk Regiony",
       "public_name": "Radio Gdańsk Regiony",
       "slug": "radiogdanskregiony",
@@ -267,7 +267,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4486,
+      "archive_count": 4484,
       "display_name": "Radio UWM FM",
       "public_name": "Radio UWM FM",
       "slug": "radiouwmfm",
