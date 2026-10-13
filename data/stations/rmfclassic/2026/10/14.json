@@ -1,0 +1,58 @@
+{
+  "archives": [
+    {
+      "archive_item_identifier": "rmfclassic-2026-10-13",
+      "audio_url": "https://archive.org/download/rmfclassic-2026-10-13/rmfclassic_2026-10-13T22-00-00Z.mp3",
+      "completeness_ratio": 0.9999,
+      "day": 14,
+      "download_url": "https://archive.org/download/rmfclassic-2026-10-13/rmfclassic_2026-10-13T22-00-00Z.mp3",
+      "duration_seconds": 3599.595,
+      "hour": 0,
+      "hourly_archive_id": 226220,
+      "local_date_label": "14.10.2026",
+      "local_hour_label": "00:00",
+      "local_label": "2026-10-14 00:00 czasu polskiego",
+      "local_started_at": "2026-10-14T00:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 10,
+      "published_at": "2026-10-13T23:24:17.394107+00:00",
+      "published_local_label": "2026-10-14 01:24 czasu polskiego",
+      "remote_filename": "rmfclassic_2026-10-13T22-00-00Z.mp3",
+      "station_slug": "rmfclassic",
+      "status": "published",
+      "utc_label": "2026-10-13 22:00 UTC",
+      "utc_started_at": "2026-10-13T22:00:00+00:00",
+      "year": 2026
+    }
+  ],
+  "day": 14,
+  "hour_slots": [
+    {
+      "archive_status": "published",
+      "completeness_ratio": 0.9999,
+      "day": 14,
+      "hour": 0,
+      "hourly_archive_id": 226220,
+      "local_date_label": "14.10.2026",
+      "local_hour_label": "00:00",
+      "local_label": "2026-10-14 00:00 czasu polskiego",
+      "local_started_at": "2026-10-14T00:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 10,
+      "playable": true,
+      "state": "available",
+      "status_label": null,
+      "utc_label": "2026-10-13 22:00 UTC",
+      "utc_started_at": "2026-10-13T22:00:00+00:00",
+      "year": 2026
+    }
+  ],
+  "month": 10,
+  "station": {
+    "display_name": "RMF Classic",
+    "public_name": "RMF Classic",
+    "slug": "rmfclassic",
+    "timezone": "Europe/Warsaw"
+  },
+  "year": 2026
+}
