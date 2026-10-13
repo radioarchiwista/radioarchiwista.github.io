@@ -1,10 +1,10 @@
 {
-  "archive_count": 225051,
+  "archive_count": 225059,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-10-13T10:47:37.239670+00:00",
+  "generated_at": "2026-10-13T11:22:46.998761+00:00",
   "latest_archive_hour_expected_station_count": 43,
-  "latest_archive_hour_started_at": "2026-10-13T09:00:00+00:00",
+  "latest_archive_hour_started_at": "2026-10-13T10:00:00+00:00",
   "latest_archive_hour_stations": [
     "Program 1",
     "Program 2",
@@ -12,8 +12,6 @@
     "Polskie Radio 24",
     "Radio 357",
     "Radio Nowy Świat",
-    "TOK FM",
-    "Radio Wnet",
     "Radio Republika",
     "Polskie Radio Dzieciom",
     "Radio Afera",
@@ -51,7 +49,7 @@
     "RMF24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-10-13T10:47:37.239670+00:00",
+  "published_at": "2026-10-13T11:22:46.998761+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
