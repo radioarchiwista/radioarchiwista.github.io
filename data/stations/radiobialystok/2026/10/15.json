@@ -1,0 +1,33 @@
+{
+  "archives": [],
+  "day": 15,
+  "hour_slots": [
+    {
+      "archive_status": "ready",
+      "completeness_ratio": 0.9997,
+      "day": 15,
+      "hour": 0,
+      "hourly_archive_id": 227221,
+      "local_date_label": "15.10.2026",
+      "local_hour_label": "00:00",
+      "local_label": "2026-10-15 00:00 czasu polskiego",
+      "local_started_at": "2026-10-15T00:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 10,
+      "playable": false,
+      "state": "publishing",
+      "status_label": "Czeka w kolejce do publikacji",
+      "utc_label": "2026-10-14 22:00 UTC",
+      "utc_started_at": "2026-10-14T22:00:00+00:00",
+      "year": 2026
+    }
+  ],
+  "month": 10,
+  "station": {
+    "display_name": "Radio Białystok",
+    "public_name": "Radio Białystok",
+    "slug": "radiobialystok",
+    "timezone": "Europe/Warsaw"
+  },
+  "year": 2026
+}
