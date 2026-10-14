@@ -1,8 +1,8 @@
 {
-  "archive_count": 225707,
+  "archive_count": 225716,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-10-14T03:48:05.039025+00:00",
+  "generated_at": "2026-10-14T03:54:46.071948+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-10-14T02:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -11,6 +11,9 @@
     "Program 3",
     "Polskie Radio 24",
     "Radio 357",
+    "Radio Nowy Świat",
+    "TOK FM",
+    "Radio Republika",
     "Polskie Radio Dzieciom",
     "Radio Afera",
     "Radio Akadera",
@@ -27,11 +30,18 @@
     "Radio Kielce",
     "Radio Koszalin",
     "Radio Kraków",
+    "Radio Maryja",
+    "Radio Olsztyn",
+    "Radio Opole",
+    "Radio PiK",
+    "Radio Szczecin",
     "Radio Słupsk",
-    "Radio Łódź"
+    "Radio Wrocław",
+    "Radio Łódź",
+    "RMF Classic"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-10-14T03:48:05.039025+00:00",
+  "published_at": "2026-10-14T03:54:46.071948+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
