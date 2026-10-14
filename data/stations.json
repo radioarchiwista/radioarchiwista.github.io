@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-10-14T16:43:21.444753+00:00",
+  "generated_at": "2026-10-14T16:49:31.803088+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-10-14T15:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -10,6 +10,8 @@
     "Program 3",
     "Polskie Radio 24",
     "Radio 357",
+    "TOK FM",
+    "Radio Wnet",
     "Radio Republika",
     "Polskie Radio Dzieciom",
     "Radio Afera",
@@ -26,15 +28,17 @@
     "Radio Olsztyn",
     "Radio PiK",
     "Radio Poznań",
+    "Radio Rzeszów",
     "Radio Szczecin",
     "Radio UWM FM",
     "Radio Wrocław",
+    "Radio Zachód",
     "Radio Łódź",
     "Radio Żak",
     "RMF24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-10-14T16:43:21.444753+00:00",
+  "published_at": "2026-10-14T16:49:31.803088+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -81,7 +85,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4537,
+      "archive_count": 4538,
       "display_name": "TOK FM",
       "public_name": "TOK FM",
       "slug": "tokfm",
@@ -263,7 +267,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4526,
+      "archive_count": 4528,
       "display_name": "Radio Rzeszów",
       "public_name": "Radio Rzeszów",
       "slug": "radiorzeszow",
@@ -284,7 +288,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4527,
+      "archive_count": 4529,
       "display_name": "Radio UWM FM",
       "public_name": "Radio UWM FM",
       "slug": "radiouwmfm",
