@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-10-14T01:53:04.888100+00:00",
+  "generated_at": "2026-10-14T01:57:34.940285+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-10-14T00:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -9,15 +9,17 @@
     "Program 2",
     "Program 3",
     "Polskie Radio 24",
+    "Radio 357",
     "Polskie Radio Dzieciom",
     "Radio Afera",
     "Radio Akadera",
     "Radio Białystok",
     "Radio Centrum Lublin",
-    "Radio Centrum Rzeszów"
+    "Radio Centrum Rzeszów",
+    "Radio Gdańsk"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-10-14T01:53:04.888100+00:00",
+  "published_at": "2026-10-14T01:57:34.940285+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -50,7 +52,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4516,
+      "archive_count": 4517,
       "display_name": "Radio 357",
       "public_name": "Radio 357",
       "slug": "radio357",
@@ -134,7 +136,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4519,
+      "archive_count": 4520,
       "display_name": "Radio Gdańsk",
       "public_name": "Radio Gdańsk",
       "slug": "radiogdansk",
