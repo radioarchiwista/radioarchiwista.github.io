@@ -1,0 +1,58 @@
+{
+  "archives": [
+    {
+      "archive_item_identifier": "radiozielonagora-2026-10-15",
+      "audio_url": "https://archive.org/download/radiozielonagora-2026-10-15/radiozielonagora_2026-10-15T22-00-00Z.mp3",
+      "completeness_ratio": 0.9982,
+      "day": 16,
+      "download_url": "https://archive.org/download/radiozielonagora-2026-10-15/radiozielonagora_2026-10-15T22-00-00Z.mp3",
+      "duration_seconds": 3589.416,
+      "hour": 0,
+      "hourly_archive_id": 228268,
+      "local_date_label": "16.10.2026",
+      "local_hour_label": "00:00",
+      "local_label": "2026-10-16 00:00 czasu polskiego",
+      "local_started_at": "2026-10-16T00:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 10,
+      "published_at": "2026-10-15T23:18:03.709264+00:00",
+      "published_local_label": "2026-10-16 01:18 czasu polskiego",
+      "remote_filename": "radiozielonagora_2026-10-15T22-00-00Z.mp3",
+      "station_slug": "radiozielonagora",
+      "status": "published",
+      "utc_label": "2026-10-15 22:00 UTC",
+      "utc_started_at": "2026-10-15T22:00:00+00:00",
+      "year": 2026
+    }
+  ],
+  "day": 16,
+  "hour_slots": [
+    {
+      "archive_status": "published",
+      "completeness_ratio": 0.9982,
+      "day": 16,
+      "hour": 0,
+      "hourly_archive_id": 228268,
+      "local_date_label": "16.10.2026",
+      "local_hour_label": "00:00",
+      "local_label": "2026-10-16 00:00 czasu polskiego",
+      "local_started_at": "2026-10-16T00:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 10,
+      "playable": true,
+      "state": "available",
+      "status_label": null,
+      "utc_label": "2026-10-15 22:00 UTC",
+      "utc_started_at": "2026-10-15T22:00:00+00:00",
+      "year": 2026
+    }
+  ],
+  "month": 10,
+  "station": {
+    "display_name": "Radio Zielona Góra",
+    "public_name": "Radio Zielona Góra",
+    "slug": "radiozielonagora",
+    "timezone": "Europe/Warsaw"
+  },
+  "year": 2026
+}
