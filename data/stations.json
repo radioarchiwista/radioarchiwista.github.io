@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-10-15T17:53:02.811932+00:00",
+  "generated_at": "2026-10-15T17:59:44.538001+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-10-15T16:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -18,11 +18,13 @@
     "Radio Akadera",
     "Radio Centrum Lublin",
     "Radio Centrum Rzeszów",
+    "Radio Dla Ciebie",
     "Radio Gdańsk",
     "Radio Gdańsk Regiony",
     "Radio Gorzów",
     "Radio Index",
     "Radio Kampus",
+    "Radio Katowice",
     "Radio Kielce",
     "Radio Koszalin",
     "Radio Kraków",
@@ -41,10 +43,11 @@
     "Radio Zielona Góra",
     "Radio Łódź",
     "Radio Żak",
+    "RMF Classic",
     "RMF24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-10-15T17:53:02.811932+00:00",
+  "published_at": "2026-10-15T17:59:44.538001+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -154,7 +157,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4555,
+      "archive_count": 4556,
       "display_name": "Radio Dla Ciebie",
       "public_name": "Radio Dla Ciebie",
       "slug": "rdc",
@@ -196,7 +199,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4556,
+      "archive_count": 4557,
       "display_name": "Radio Katowice",
       "public_name": "Radio Katowice",
       "slug": "radiokatowice",
@@ -266,7 +269,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4555,
+      "archive_count": 4556,
       "display_name": "Radio Poznań",
       "public_name": "Radio Poznań",
       "slug": "radiopoznan",
