@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-10-15T00:35:11.938570+00:00",
+  "generated_at": "2026-10-15T00:57:29.533354+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-10-14T23:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -48,7 +48,7 @@
     "RMF24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-10-15T00:35:11.938570+00:00",
+  "published_at": "2026-10-15T00:57:29.533354+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -88,28 +88,28 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4549,
+      "archive_count": 4548,
       "display_name": "Radio Nowy Świat",
       "public_name": "Radio Nowy Świat",
       "slug": "rns",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4545,
+      "archive_count": 4546,
       "display_name": "TOK FM",
       "public_name": "TOK FM",
       "slug": "tokfm",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4555,
+      "archive_count": 4556,
       "display_name": "Radio Wnet",
       "public_name": "Radio Wnet",
       "slug": "wnet",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4556,
+      "archive_count": 4557,
       "display_name": "Radio Republika",
       "public_name": "Radio Republika",
       "slug": "republika",
@@ -235,7 +235,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4452,
+      "archive_count": 4453,
       "display_name": "Radio Luz",
       "public_name": "Radio Luz",
       "slug": "radioluz",
