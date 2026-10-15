@@ -1,13 +1,14 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-10-15T03:52:58.008786+00:00",
+  "generated_at": "2026-10-15T04:00:38.696541+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-10-15T02:00:00+00:00",
   "latest_archive_hour_stations": [
     "Program 1",
     "Program 2",
     "Radio Nowy Świat",
+    "TOK FM",
     "Radio Wnet",
     "Radio Republika",
     "Polskie Radio Dzieciom",
@@ -21,6 +22,9 @@
     "Radio Gorzów",
     "Radio Index",
     "Radio Kampus",
+    "Radio Katowice",
+    "Radio Kielce",
+    "Radio Kraków",
     "Radio Lublin",
     "Radio Luz",
     "Radio Maryja",
@@ -38,7 +42,7 @@
     "RMF Classic"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-10-15T03:52:58.008786+00:00",
+  "published_at": "2026-10-15T04:00:38.696541+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -78,14 +82,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4551,
+      "archive_count": 4553,
       "display_name": "Radio Nowy Świat",
       "public_name": "Radio Nowy Świat",
       "slug": "rns",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4548,
+      "archive_count": 4549,
       "display_name": "TOK FM",
       "public_name": "TOK FM",
       "slug": "tokfm",
@@ -176,7 +180,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4479,
+      "archive_count": 4480,
       "display_name": "Radio Index",
       "public_name": "Radio Index",
       "slug": "radioindex",
@@ -190,42 +194,42 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4540,
+      "archive_count": 4542,
       "display_name": "Radio Katowice",
       "public_name": "Radio Katowice",
       "slug": "radiokatowice",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4497,
+      "archive_count": 4499,
       "display_name": "Radio Kielce",
       "public_name": "Radio Kielce",
       "slug": "radiokielce",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4420,
+      "archive_count": 4421,
       "display_name": "Radio Koszalin",
       "public_name": "Radio Koszalin",
       "slug": "radiokoszalin",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4538,
+      "archive_count": 4540,
       "display_name": "Radio Kraków",
       "public_name": "Radio Kraków",
       "slug": "radiokrakow",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4542,
+      "archive_count": 4543,
       "display_name": "Radio Lublin",
       "public_name": "Radio Lublin",
       "slug": "radiolublin",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4454,
+      "archive_count": 4457,
       "display_name": "Radio Luz",
       "public_name": "Radio Luz",
       "slug": "radioluz",
@@ -316,14 +320,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4542,
+      "archive_count": 4543,
       "display_name": "Radio Łódź",
       "public_name": "Radio Łódź",
       "slug": "radiolodz",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4529,
+      "archive_count": 4530,
       "display_name": "Radio Żak",
       "public_name": "Radio Żak",
       "slug": "radiozak",
