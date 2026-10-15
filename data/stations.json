@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-10-15T01:21:29.207228+00:00",
+  "generated_at": "2026-10-15T01:31:33.033452+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-10-15T00:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -13,7 +13,7 @@
     "Radio Afera"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-10-15T01:21:29.207228+00:00",
+  "published_at": "2026-10-15T01:31:33.033452+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -53,7 +53,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4550,
+      "archive_count": 4548,
       "display_name": "Radio Nowy Świat",
       "public_name": "Radio Nowy Świat",
       "slug": "rns",
