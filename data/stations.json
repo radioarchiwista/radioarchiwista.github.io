@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-10-15T15:37:17.830639+00:00",
+  "generated_at": "2026-10-15T15:45:10.546816+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-10-15T14:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -19,6 +19,7 @@
     "Radio Gdańsk",
     "Radio Gorzów",
     "Radio Index",
+    "Radio Kampus",
     "Radio Katowice",
     "Radio Kielce",
     "Radio Kraków",
@@ -28,10 +29,12 @@
     "Radio Olsztyn",
     "Radio Poznań",
     "Radio Słupsk",
+    "Radio Zielona Góra",
+    "RMF Classic",
     "RMF24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-10-15T15:37:17.830639+00:00",
+  "published_at": "2026-10-15T15:45:10.546816+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -302,7 +305,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4553,
+      "archive_count": 4554,
       "display_name": "Radio Zielona Góra",
       "public_name": "Radio Zielona Góra",
       "slug": "radiozielonagora",
@@ -323,7 +326,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3086,
+      "archive_count": 3087,
       "display_name": "RMF Classic",
       "public_name": "RMF Classic",
       "slug": "rmfclassic",
