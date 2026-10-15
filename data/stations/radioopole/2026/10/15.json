@@ -383,6 +383,30 @@
       "utc_label": "2026-10-15 13:00 UTC",
       "utc_started_at": "2026-10-15T13:00:00+00:00",
       "year": 2026
+    },
+    {
+      "archive_item_identifier": "radioopole-2026-10-15",
+      "audio_url": "https://archive.org/download/radioopole-2026-10-15/radioopole_2026-10-15T14-00-00Z.mp3",
+      "completeness_ratio": 0.9998,
+      "day": 15,
+      "download_url": "https://archive.org/download/radioopole-2026-10-15/radioopole_2026-10-15T14-00-00Z.mp3",
+      "duration_seconds": 3587.328,
+      "hour": 16,
+      "hourly_archive_id": 227922,
+      "local_date_label": "15.10.2026",
+      "local_hour_label": "16:00",
+      "local_label": "2026-10-15 16:00 czasu polskiego",
+      "local_started_at": "2026-10-15T16:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 10,
+      "published_at": "2026-10-15T15:52:36.287554+00:00",
+      "published_local_label": "2026-10-15 17:52 czasu polskiego",
+      "remote_filename": "radioopole_2026-10-15T14-00-00Z.mp3",
+      "station_slug": "radioopole",
+      "status": "published",
+      "utc_label": "2026-10-15 14:00 UTC",
+      "utc_started_at": "2026-10-15T14:00:00+00:00",
+      "year": 2026
     }
   ],
   "day": 15,
@@ -692,7 +716,7 @@
       "year": 2026
     },
     {
-      "archive_status": "ready",
+      "archive_status": "published",
       "completeness_ratio": 0.9998,
       "day": 15,
       "hour": 16,
@@ -703,9 +727,9 @@
       "local_started_at": "2026-10-15T16:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 10,
-      "playable": false,
-      "state": "publishing",
-      "status_label": "Czeka w kolejce do publikacji",
+      "playable": true,
+      "state": "available",
+      "status_label": null,
       "utc_label": "2026-10-15 14:00 UTC",
       "utc_started_at": "2026-10-15T14:00:00+00:00",
       "year": 2026

@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-10-15T15:50:54.540621+00:00",
+  "generated_at": "2026-10-15T15:54:24.641304+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-10-15T14:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -28,15 +28,17 @@
     "Radio Luz",
     "Radio Maryja",
     "Radio Olsztyn",
+    "Radio Opole",
     "Radio Poznań",
     "Radio Słupsk",
     "Radio Wrocław",
     "Radio Zielona Góra",
+    "Radio Żak",
     "RMF Classic",
     "RMF24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-10-15T15:50:54.540621+00:00",
+  "published_at": "2026-10-15T15:54:24.641304+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -244,7 +246,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4456,
+      "archive_count": 4457,
       "display_name": "Radio Opole",
       "public_name": "Radio Opole",
       "slug": "radioopole",
@@ -321,7 +323,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4541,
+      "archive_count": 4542,
       "display_name": "Radio Żak",
       "public_name": "Radio Żak",
       "slug": "radiozak",
