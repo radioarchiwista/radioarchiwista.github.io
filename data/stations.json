@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-10-15T16:29:24.077796+00:00",
+  "generated_at": "2026-10-15T16:36:58.409737+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-10-15T15:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -10,13 +10,17 @@
     "Program 3",
     "Polskie Radio Dzieciom",
     "Radio Akadera",
+    "Radio Centrum Lublin",
     "Radio Centrum Rzeszów",
     "Radio Index",
     "Radio Lublin",
-    "Radio Luz"
+    "Radio Luz",
+    "Radio UWM FM",
+    "Radio Wrocław",
+    "Radio Zachód"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-10-15T16:29:24.077796+00:00",
+  "published_at": "2026-10-15T16:36:58.409737+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -98,7 +102,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4555,
+      "archive_count": 4556,
       "display_name": "Radio Akadera",
       "public_name": "Radio Akadera",
       "slug": "radioakadera",
@@ -112,14 +116,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4555,
+      "archive_count": 4556,
       "display_name": "Radio Centrum Lublin",
       "public_name": "Radio Centrum Lublin",
       "slug": "radiocentrumlublin",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4528,
+      "archive_count": 4529,
       "display_name": "Radio Centrum Rzeszów",
       "public_name": "Radio Centrum Rzeszów",
       "slug": "radiocentrumrzeszow",
@@ -154,7 +158,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4492,
+      "archive_count": 4493,
       "display_name": "Radio Index",
       "public_name": "Radio Index",
       "slug": "radioindex",
@@ -196,14 +200,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4555,
+      "archive_count": 4556,
       "display_name": "Radio Lublin",
       "public_name": "Radio Lublin",
       "slug": "radiolublin",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4468,
+      "archive_count": 4469,
       "display_name": "Radio Luz",
       "public_name": "Radio Luz",
       "slug": "radioluz",
@@ -273,14 +277,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4558,
+      "archive_count": 4559,
       "display_name": "Radio Wrocław",
       "public_name": "Radio Wrocław",
       "slug": "radiowroclaw",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4556,
+      "archive_count": 4557,
       "display_name": "Radio Zachód",
       "public_name": "Radio Zachód",
       "slug": "radiozachod",
