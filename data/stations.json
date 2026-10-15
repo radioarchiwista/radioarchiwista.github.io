@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-10-15T18:48:22.059393+00:00",
+  "generated_at": "2026-10-15T18:54:08.171981+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-10-15T17:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -45,12 +45,12 @@
     "RMF24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-10-15T18:48:22.059393+00:00",
+  "published_at": "2026-10-15T18:54:08.171981+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
     {
-      "archive_count": 4556,
+      "archive_count": 4555,
       "display_name": "Program 1",
       "public_name": "Polskie Radio Program 1",
       "slug": "pr1",
@@ -85,7 +85,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4570,
+      "archive_count": 4568,
       "display_name": "Radio Nowy Świat",
       "public_name": "Radio Nowy Świat",
       "slug": "rns",
@@ -225,14 +225,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4557,
+      "archive_count": 4556,
       "display_name": "Radio Lublin",
       "public_name": "Radio Lublin",
       "slug": "radiolublin",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4472,
+      "archive_count": 4471,
       "display_name": "Radio Luz",
       "public_name": "Radio Luz",
       "slug": "radioluz",
