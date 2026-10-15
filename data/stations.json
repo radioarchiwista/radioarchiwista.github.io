@@ -1,33 +1,41 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-10-15T16:04:00.487949+00:00",
+  "generated_at": "2026-10-15T16:29:24.077796+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-10-15T15:00:00+00:00",
   "latest_archive_hour_stations": [
-    "Polskie Radio Dzieciom"
+    "Program 1",
+    "Program 2",
+    "Program 3",
+    "Polskie Radio Dzieciom",
+    "Radio Akadera",
+    "Radio Centrum Rzeszów",
+    "Radio Index",
+    "Radio Lublin",
+    "Radio Luz"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-10-15T16:04:00.487949+00:00",
+  "published_at": "2026-10-15T16:29:24.077796+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
     {
-      "archive_count": 4554,
+      "archive_count": 4555,
       "display_name": "Program 1",
       "public_name": "Polskie Radio Program 1",
       "slug": "pr1",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4554,
+      "archive_count": 4555,
       "display_name": "Program 2",
       "public_name": "Polskie Radio Program 2",
       "slug": "pr2",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 44995,
+      "archive_count": 44996,
       "display_name": "Program 3",
       "public_name": "Polskie Radio Program 3",
       "slug": "pr3",
@@ -195,7 +203,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4469,
+      "archive_count": 4468,
       "display_name": "Radio Luz",
       "public_name": "Radio Luz",
       "slug": "radioluz",
