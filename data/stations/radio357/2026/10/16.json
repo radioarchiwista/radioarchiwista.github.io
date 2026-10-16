@@ -431,30 +431,6 @@
       "utc_label": "2026-10-16 15:00 UTC",
       "utc_started_at": "2026-10-16T15:00:00+00:00",
       "year": 2026
-    },
-    {
-      "archive_item_identifier": "radio357-2026-10-16",
-      "audio_url": "https://archive.org/download/radio357-2026-10-16/radio357_2026-10-16T16-00-00Z.mp3",
-      "completeness_ratio": 1.0,
-      "day": 16,
-      "download_url": "https://archive.org/download/radio357-2026-10-16/radio357_2026-10-16T16-00-00Z.mp3",
-      "duration_seconds": 3600.013,
-      "hour": 18,
-      "hourly_archive_id": 229013,
-      "local_date_label": "16.10.2026",
-      "local_hour_label": "18:00",
-      "local_label": "2026-10-16 18:00 czasu polskiego",
-      "local_started_at": "2026-10-16T18:00:00+02:00",
-      "local_timezone_label": "czasu polskiego",
-      "month": 10,
-      "published_at": "2026-10-16T17:04:52.294156+00:00",
-      "published_local_label": "2026-10-16 19:04 czasu polskiego",
-      "remote_filename": "radio357_2026-10-16T16-00-00Z.mp3",
-      "station_slug": "radio357",
-      "status": "published",
-      "utc_label": "2026-10-16 16:00 UTC",
-      "utc_started_at": "2026-10-16T16:00:00+00:00",
-      "year": 2026
     }
   ],
   "day": 16,
@@ -802,7 +778,7 @@
       "year": 2026
     },
     {
-      "archive_status": "published",
+      "archive_status": "ready",
       "completeness_ratio": 1.0,
       "day": 16,
       "hour": 18,
@@ -813,9 +789,9 @@
       "local_started_at": "2026-10-16T18:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 10,
-      "playable": true,
-      "state": "available",
-      "status_label": null,
+      "playable": false,
+      "state": "publishing",
+      "status_label": "Czeka w kolejce do publikacji",
       "utc_label": "2026-10-16 16:00 UTC",
       "utc_started_at": "2026-10-16T16:00:00+00:00",
       "year": 2026
