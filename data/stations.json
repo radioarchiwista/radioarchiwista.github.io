@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-10-16T20:31:18.509712+00:00",
+  "generated_at": "2026-10-16T20:45:04.889172+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-10-16T19:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -47,7 +47,7 @@
     "RMF24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-10-16T20:31:18.509712+00:00",
+  "published_at": "2026-10-16T20:45:04.889172+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -227,7 +227,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4583,
+      "archive_count": 4584,
       "display_name": "Radio Lublin",
       "public_name": "Radio Lublin",
       "slug": "radiolublin",
@@ -339,7 +339,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3114,
+      "archive_count": 3115,
       "display_name": "RMF Classic",
       "public_name": "RMF Classic",
       "slug": "rmfclassic",
