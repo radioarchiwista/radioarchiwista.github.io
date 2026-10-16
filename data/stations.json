@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-10-16T01:45:47.073010+00:00",
+  "generated_at": "2026-10-16T02:04:51.888003+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-10-16T00:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -14,10 +14,15 @@
     "Radio Afera",
     "Radio Akadera",
     "Radio Białystok",
-    "Radio Gdańsk Regiony"
+    "Radio Gdańsk Regiony",
+    "Radio Index",
+    "Radio Szczecin",
+    "Radio Wrocław",
+    "Radio Zachód",
+    "Radio Żak"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-10-16T01:45:47.073010+00:00",
+  "published_at": "2026-10-16T02:04:51.888003+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -253,7 +258,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4560,
+      "archive_count": 4561,
       "display_name": "Radio Szczecin",
       "public_name": "Radio Szczecin",
       "slug": "radioszczecin",
@@ -274,14 +279,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4566,
+      "archive_count": 4567,
       "display_name": "Radio Wrocław",
       "public_name": "Radio Wrocław",
       "slug": "radiowroclaw",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4566,
+      "archive_count": 4567,
       "display_name": "Radio Zachód",
       "public_name": "Radio Zachód",
       "slug": "radiozachod",
@@ -302,7 +307,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4551,
+      "archive_count": 4552,
       "display_name": "Radio Żak",
       "public_name": "Radio Żak",
       "slug": "radiozak",
