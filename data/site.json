@@ -1,8 +1,8 @@
 {
-  "archive_count": 228489,
+  "archive_count": 228521,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-10-16T19:27:00.193769+00:00",
+  "generated_at": "2026-10-16T19:44:55.583013+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-10-16T18:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -12,6 +12,7 @@
     "Polskie Radio 24",
     "Radio 357",
     "Radio Nowy Świat",
+    "Radio Wnet",
     "Radio Republika",
     "Polskie Radio Dzieciom",
     "Radio Afera",
@@ -43,11 +44,12 @@
     "Radio Wrocław",
     "Radio Zielona Góra",
     "Radio Łódź",
+    "Radio Żak",
     "RMF Classic",
     "RMF24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-10-16T19:27:00.193769+00:00",
+  "published_at": "2026-10-16T19:44:55.583013+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
