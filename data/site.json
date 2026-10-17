@@ -1,8 +1,8 @@
 {
-  "archive_count": 229516,
+  "archive_count": 229542,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-10-17T19:28:32.602711+00:00",
+  "generated_at": "2026-10-17T19:39:49.365780+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-10-17T18:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -11,6 +11,9 @@
     "Program 3",
     "Polskie Radio 24",
     "Radio 357",
+    "Radio Nowy Świat",
+    "TOK FM",
+    "Radio Wnet",
     "Radio Republika",
     "Polskie Radio Dzieciom",
     "Radio Afera",
@@ -21,8 +24,10 @@
     "Radio Dla Ciebie",
     "Radio Gdańsk Regiony",
     "Radio Index",
+    "Radio Kampus",
     "Radio Katowice",
     "Radio Kielce",
+    "Radio Kraków",
     "Radio Luz",
     "Radio Olsztyn",
     "Radio Opole",
@@ -41,7 +46,7 @@
     "RMF24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-10-17T19:28:32.602711+00:00",
+  "published_at": "2026-10-17T19:39:49.365780+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
