@@ -1,8 +1,8 @@
 {
-  "archive_count": 229261,
+  "archive_count": 229286,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-10-17T13:31:45.658654+00:00",
+  "generated_at": "2026-10-17T13:39:00.510403+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-10-17T12:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -28,6 +28,7 @@
     "Radio Kielce",
     "Radio Koszalin",
     "Radio Kraków",
+    "Radio Lublin",
     "Radio Luz",
     "Radio Olsztyn",
     "Radio Opole",
@@ -46,7 +47,7 @@
     "RMF24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-10-17T13:31:45.658654+00:00",
+  "published_at": "2026-10-17T13:39:00.510403+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
