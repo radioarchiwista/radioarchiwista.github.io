@@ -1,8 +1,8 @@
 {
-  "archive_count": 229542,
+  "archive_count": 229543,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-10-17T19:39:49.365780+00:00",
+  "generated_at": "2026-10-17T19:44:29.610515+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-10-17T18:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -27,6 +27,7 @@
     "Radio Kampus",
     "Radio Katowice",
     "Radio Kielce",
+    "Radio Koszalin",
     "Radio Kraków",
     "Radio Luz",
     "Radio Olsztyn",
@@ -46,7 +47,7 @@
     "RMF24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-10-17T19:39:49.365780+00:00",
+  "published_at": "2026-10-17T19:44:29.610515+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
