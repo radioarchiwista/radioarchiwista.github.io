@@ -1,23 +1,14 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-10-17T01:59:23.726435+00:00",
+  "generated_at": "2026-10-17T02:05:40.406501+00:00",
   "latest_archive_hour_expected_station_count": 43,
-  "latest_archive_hour_started_at": "2026-10-17T00:00:00+00:00",
+  "latest_archive_hour_started_at": "2026-10-17T01:00:00+00:00",
   "latest_archive_hour_stations": [
-    "Program 1",
-    "Program 2",
-    "Program 3",
-    "Polskie Radio 24",
-    "Radio 357",
-    "Polskie Radio Dzieciom",
-    "Radio Afera",
-    "Radio Akadera",
-    "Radio Białystok",
-    "Radio Gdańsk Regiony"
+    "Polskie Radio Dzieciom"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-10-17T01:59:23.726435+00:00",
+  "published_at": "2026-10-17T02:05:40.406501+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -78,14 +69,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4605,
+      "archive_count": 4606,
       "display_name": "Radio Republika",
       "public_name": "Radio Republika",
       "slug": "republika",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 2065,
+      "archive_count": 2066,
       "display_name": "Polskie Radio Dzieciom",
       "public_name": "Polskie Radio Dzieciom",
       "slug": "polskieradiodzieciom",
@@ -120,14 +111,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4561,
+      "archive_count": 4562,
       "display_name": "Radio Centrum Rzeszów",
       "public_name": "Radio Centrum Rzeszów",
       "slug": "radiocentrumrzeszow",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4587,
+      "archive_count": 4588,
       "display_name": "Radio Dla Ciebie",
       "public_name": "Radio Dla Ciebie",
       "slug": "rdc",
@@ -148,7 +139,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4591,
+      "archive_count": 4592,
       "display_name": "Radio Gorzów",
       "public_name": "Radio Gorzów",
       "slug": "radiogorzow",
@@ -288,7 +279,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4587,
+      "archive_count": 4588,
       "display_name": "Radio Zielona Góra",
       "public_name": "Radio Zielona Góra",
       "slug": "radiozielonagora",
@@ -302,14 +293,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4575,
+      "archive_count": 4576,
       "display_name": "Radio Żak",
       "public_name": "Radio Żak",
       "slug": "radiozak",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3119,
+      "archive_count": 3120,
       "display_name": "RMF Classic",
       "public_name": "RMF Classic",
       "slug": "rmfclassic",
