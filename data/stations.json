@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-10-17T14:38:31.566184+00:00",
+  "generated_at": "2026-10-17T14:47:21.118079+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-10-17T13:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -10,6 +10,7 @@
     "Program 3",
     "Polskie Radio 24",
     "Radio 357",
+    "Radio Nowy Świat",
     "TOK FM",
     "Radio Wnet",
     "Radio Republika",
@@ -26,7 +27,9 @@
     "Radio Kampus",
     "Radio Katowice",
     "Radio Kielce",
+    "Radio Koszalin",
     "Radio Kraków",
+    "Radio Lublin",
     "Radio Luz",
     "Radio Olsztyn",
     "Radio Opole",
@@ -35,6 +38,7 @@
     "Radio Rzeszów",
     "Radio Szczecin",
     "Radio Słupsk",
+    "Radio Wrocław",
     "Radio Zachód",
     "Radio Zielona Góra",
     "Radio Łódź",
@@ -43,7 +47,7 @@
     "RMF24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-10-17T14:38:31.566184+00:00",
+  "published_at": "2026-10-17T14:47:21.118079+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -83,7 +87,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4616,
+      "archive_count": 4617,
       "display_name": "Radio Nowy Świat",
       "public_name": "Radio Nowy Świat",
       "slug": "rns",
@@ -209,7 +213,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4477,
+      "archive_count": 4478,
       "display_name": "Radio Koszalin",
       "public_name": "Radio Koszalin",
       "slug": "radiokoszalin",
@@ -223,7 +227,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4601,
+      "archive_count": 4602,
       "display_name": "Radio Lublin",
       "public_name": "Radio Lublin",
       "slug": "radiolublin",
@@ -300,7 +304,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4603,
+      "archive_count": 4604,
       "display_name": "Radio Wrocław",
       "public_name": "Radio Wrocław",
       "slug": "radiowroclaw",
