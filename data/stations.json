@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-10-17T13:53:40.992925+00:00",
+  "generated_at": "2026-10-17T14:01:21.783805+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-10-17T12:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -14,6 +14,7 @@
     "TOK FM",
     "Radio Wnet",
     "Radio Republika",
+    "Polskie Radio Dzieciom",
     "Radio Afera",
     "Radio Akadera",
     "Radio Białystok",
@@ -46,7 +47,7 @@
     "RMF24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-10-17T13:53:40.992925+00:00",
+  "published_at": "2026-10-17T14:01:21.783805+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -114,7 +115,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 2076,
+      "archive_count": 2077,
       "display_name": "Polskie Radio Dzieciom",
       "public_name": "Polskie Radio Dzieciom",
       "slug": "polskieradiodzieciom",
@@ -240,7 +241,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4444,
+      "archive_count": 4446,
       "display_name": "Radio Maryja",
       "public_name": "Radio Maryja",
       "slug": "radiomaryja",
