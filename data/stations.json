@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-10-17T05:34:07.855162+00:00",
+  "generated_at": "2026-10-17T05:41:49.609581+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-10-17T04:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -13,6 +13,7 @@
     "Radio Nowy Świat",
     "TOK FM",
     "Radio Wnet",
+    "Radio Republika",
     "Polskie Radio Dzieciom",
     "Radio Afera",
     "Radio Akadera",
@@ -46,7 +47,7 @@
     "RMF24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-10-17T05:34:07.855162+00:00",
+  "published_at": "2026-10-17T05:41:49.609581+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -142,7 +143,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4591,
+      "archive_count": 4593,
       "display_name": "Radio Centrum Lublin",
       "public_name": "Radio Centrum Lublin",
       "slug": "radiocentrumlublin",
@@ -254,7 +255,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4492,
+      "archive_count": 4490,
       "display_name": "Radio Opole",
       "public_name": "Radio Opole",
       "slug": "radioopole",
