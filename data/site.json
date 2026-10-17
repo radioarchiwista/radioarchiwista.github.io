@@ -1,8 +1,8 @@
 {
-  "archive_count": 228788,
+  "archive_count": 228791,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-10-17T02:46:38.966261+00:00",
+  "generated_at": "2026-10-17T03:01:54.591903+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-10-17T01:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -28,12 +28,17 @@
     "Radio Katowice",
     "Radio Kielce",
     "Radio Koszalin",
+    "Radio Lublin",
+    "Radio Poznań",
+    "Radio Rzeszów",
+    "Radio Szczecin",
+    "Radio Słupsk",
     "Radio Zielona Góra",
     "Radio Żak",
     "RMF Classic"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-10-17T02:46:38.966261+00:00",
+  "published_at": "2026-10-17T03:01:54.591903+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
