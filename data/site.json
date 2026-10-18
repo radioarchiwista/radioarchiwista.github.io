@@ -1,10 +1,10 @@
 {
-  "archive_count": 229807,
+  "archive_count": 229821,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-10-18T02:56:55.775597+00:00",
+  "generated_at": "2026-10-18T03:25:45.848071+00:00",
   "latest_archive_hour_expected_station_count": 43,
-  "latest_archive_hour_started_at": "2026-10-18T01:00:00+00:00",
+  "latest_archive_hour_started_at": "2026-10-18T02:00:00+00:00",
   "latest_archive_hour_stations": [
     "Program 1",
     "Program 2",
@@ -24,6 +24,7 @@
     "Radio Kampus",
     "Radio Katowice",
     "Radio Kielce",
+    "Radio Koszalin",
     "Radio Kraków",
     "Radio Lublin",
     "Radio Luz",
@@ -33,10 +34,16 @@
     "Radio PiK",
     "Radio Poznań",
     "Radio Rzeszów",
-    "Radio Łódź"
+    "Radio Szczecin",
+    "Radio Słupsk",
+    "Radio UWM FM",
+    "Radio Wrocław",
+    "Radio Zachód",
+    "Radio Łódź",
+    "Radio Żak"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-10-18T02:56:55.775597+00:00",
+  "published_at": "2026-10-18T03:25:45.848071+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
