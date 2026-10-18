@@ -1,8 +1,8 @@
 {
-  "archive_count": 230335,
+  "archive_count": 230360,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-10-18T14:29:26.149671+00:00",
+  "generated_at": "2026-10-18T14:37:56.301856+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-10-18T13:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -45,10 +45,12 @@
     "Radio Zachód",
     "Radio Zielona Góra",
     "Radio Łódź",
-    "Radio Żak"
+    "Radio Żak",
+    "RMF Classic",
+    "RMF24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-10-18T14:29:26.149671+00:00",
+  "published_at": "2026-10-18T14:37:56.301856+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
