@@ -1,8 +1,8 @@
 {
-  "archive_count": 231252,
+  "archive_count": 231264,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-10-19T11:35:32.450373+00:00",
+  "generated_at": "2026-10-19T11:41:08.284992+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-10-19T10:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -36,10 +36,12 @@
     "Radio Rzeszów",
     "Radio Szczecin",
     "Radio Słupsk",
+    "Radio UWM FM",
+    "Radio Zachód",
     "Radio Łódź"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-10-19T11:35:32.450373+00:00",
+  "published_at": "2026-10-19T11:41:08.284992+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
