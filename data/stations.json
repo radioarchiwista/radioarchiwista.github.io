@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-10-19T11:58:59.703854+00:00",
+  "generated_at": "2026-10-19T12:04:47.499926+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-10-19T10:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -10,6 +10,7 @@
     "Program 3",
     "Polskie Radio 24",
     "Radio 357",
+    "Radio Republika",
     "Polskie Radio Dzieciom",
     "Radio Afera",
     "Radio Akadera",
@@ -44,7 +45,7 @@
     "Radio Żak"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-10-19T11:58:59.703854+00:00",
+  "published_at": "2026-10-19T12:04:47.499926+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -105,7 +106,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4663,
+      "archive_count": 4664,
       "display_name": "Radio Republika",
       "public_name": "Radio Republika",
       "slug": "republika",
@@ -182,7 +183,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4584,
+      "archive_count": 4585,
       "display_name": "Radio Index",
       "public_name": "Radio Index",
       "slug": "radioindex",
