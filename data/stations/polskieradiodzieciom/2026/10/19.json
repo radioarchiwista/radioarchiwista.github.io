@@ -455,6 +455,30 @@
       "utc_label": "2026-10-19 16:00 UTC",
       "utc_started_at": "2026-10-19T16:00:00+00:00",
       "year": 2026
+    },
+    {
+      "archive_item_identifier": "polskieradiodzieciom-2026-10-19",
+      "audio_url": "https://archive.org/download/polskieradiodzieciom-2026-10-19/polskieradiodzieciom_2026-10-19T17-00-00Z.mp3",
+      "completeness_ratio": 1.0,
+      "day": 19,
+      "download_url": "https://archive.org/download/polskieradiodzieciom-2026-10-19/polskieradiodzieciom_2026-10-19T17-00-00Z.mp3",
+      "duration_seconds": 3600.648,
+      "hour": 19,
+      "hourly_archive_id": 232145,
+      "local_date_label": "19.10.2026",
+      "local_hour_label": "19:00",
+      "local_label": "2026-10-19 19:00 czasu polskiego",
+      "local_started_at": "2026-10-19T19:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 10,
+      "published_at": "2026-10-19T18:11:33.989986+00:00",
+      "published_local_label": "2026-10-19 20:11 czasu polskiego",
+      "remote_filename": "polskieradiodzieciom_2026-10-19T17-00-00Z.mp3",
+      "station_slug": "polskieradiodzieciom",
+      "status": "published",
+      "utc_label": "2026-10-19 17:00 UTC",
+      "utc_started_at": "2026-10-19T17:00:00+00:00",
+      "year": 2026
     }
   ],
   "day": 19,
@@ -821,7 +845,7 @@
       "year": 2026
     },
     {
-      "archive_status": "ready",
+      "archive_status": "published",
       "completeness_ratio": 1.0,
       "day": 19,
       "hour": 19,
@@ -832,9 +856,9 @@
       "local_started_at": "2026-10-19T19:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 10,
-      "playable": false,
-      "state": "publishing",
-      "status_label": "Czeka w kolejce do publikacji",
+      "playable": true,
+      "state": "available",
+      "status_label": null,
       "utc_label": "2026-10-19 17:00 UTC",
       "utc_started_at": "2026-10-19T17:00:00+00:00",
       "year": 2026
