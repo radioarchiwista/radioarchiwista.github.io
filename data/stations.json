@@ -1,15 +1,17 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-10-19T12:13:26.283349+00:00",
+  "generated_at": "2026-10-19T12:21:34.265059+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-10-19T11:00:00+00:00",
   "latest_archive_hour_stations": [
     "Program 1",
+    "Program 2",
+    "Polskie Radio 24",
     "Polskie Radio Dzieciom"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-10-19T12:13:26.283349+00:00",
+  "published_at": "2026-10-19T12:21:34.265059+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -21,7 +23,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4647,
+      "archive_count": 4648,
       "display_name": "Program 2",
       "public_name": "Polskie Radio Program 2",
       "slug": "pr2",
@@ -161,14 +163,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4646,
+      "archive_count": 4647,
       "display_name": "Radio Katowice",
       "public_name": "Radio Katowice",
       "slug": "radiokatowice",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4603,
+      "archive_count": 4604,
       "display_name": "Radio Kielce",
       "public_name": "Radio Kielce",
       "slug": "radiokielce",
