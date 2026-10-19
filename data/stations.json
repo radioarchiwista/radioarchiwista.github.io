@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-10-19T11:41:08.284992+00:00",
+  "generated_at": "2026-10-19T11:50:14.814763+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-10-19T10:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -36,11 +36,13 @@
     "Radio Szczecin",
     "Radio Słupsk",
     "Radio UWM FM",
+    "Radio Wrocław",
     "Radio Zachód",
-    "Radio Łódź"
+    "Radio Łódź",
+    "Radio Żak"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-10-19T11:41:08.284992+00:00",
+  "published_at": "2026-10-19T11:50:14.814763+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -262,7 +264,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4646,
+      "archive_count": 4647,
       "display_name": "Radio Poznań",
       "public_name": "Radio Poznań",
       "slug": "radiopoznan",
@@ -283,7 +285,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4540,
+      "archive_count": 4541,
       "display_name": "Radio Słupsk",
       "public_name": "Radio Słupsk",
       "slug": "radioslupsk",
@@ -297,7 +299,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4648,
+      "archive_count": 4649,
       "display_name": "Radio Wrocław",
       "public_name": "Radio Wrocław",
       "slug": "radiowroclaw",
