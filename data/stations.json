@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-10-19T16:56:04.469332+00:00",
+  "generated_at": "2026-10-19T16:59:04.026645+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-10-19T15:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -16,10 +16,11 @@
     "Radio Białystok",
     "Radio Centrum Lublin",
     "Radio Centrum Rzeszów",
+    "Radio Gdańsk",
     "Radio UWM FM"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-10-19T16:56:04.469332+00:00",
+  "published_at": "2026-10-19T16:59:04.026645+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -136,7 +137,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4654,
+      "archive_count": 4655,
       "display_name": "Radio Gdańsk",
       "public_name": "Radio Gdańsk",
       "slug": "radiogdansk",
