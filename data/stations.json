@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-10-19T02:50:55.432030+00:00",
+  "generated_at": "2026-10-19T02:59:32.876941+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-10-19T01:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -36,7 +36,7 @@
     "RMF Classic"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-10-19T02:50:55.432030+00:00",
+  "published_at": "2026-10-19T02:59:32.876941+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -132,7 +132,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4637,
+      "archive_count": 4638,
       "display_name": "Radio Centrum Lublin",
       "public_name": "Radio Centrum Lublin",
       "slug": "radiocentrumlublin",
