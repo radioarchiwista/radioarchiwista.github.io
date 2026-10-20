@@ -1,8 +1,8 @@
 {
-  "archive_count": 232061,
+  "archive_count": 232062,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-10-20T05:02:13.841396+00:00",
+  "generated_at": "2026-10-20T05:10:45.394645+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-10-20T03:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -19,10 +19,11 @@
     "Radio Gdańsk",
     "Radio Gdańsk Regiony",
     "Radio Gorzów",
+    "Radio Index",
     "Radio UWM FM"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-10-20T05:02:13.841396+00:00",
+  "published_at": "2026-10-20T05:10:45.394645+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
