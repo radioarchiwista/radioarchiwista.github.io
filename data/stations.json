@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-10-20T06:59:08.704097+00:00",
+  "generated_at": "2026-10-20T07:03:56.834050+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-10-20T05:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -17,10 +17,11 @@
     "Radio Centrum Rzeszów",
     "Radio Gdańsk",
     "Radio Gdańsk Regiony",
+    "Radio Gorzów",
     "Radio UWM FM"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-10-20T06:59:08.704097+00:00",
+  "published_at": "2026-10-20T07:03:56.834050+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -151,7 +152,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4669,
+      "archive_count": 4670,
       "display_name": "Radio Gorzów",
       "public_name": "Radio Gorzów",
       "slug": "radiogorzow",
