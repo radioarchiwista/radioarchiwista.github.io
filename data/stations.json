@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-10-20T02:46:52.507383+00:00",
+  "generated_at": "2026-10-20T02:57:02.093144+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-10-20T01:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -47,7 +47,7 @@
     "RMF Classic"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-10-20T02:46:52.507383+00:00",
+  "published_at": "2026-10-20T02:57:02.093144+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -59,7 +59,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4662,
+      "archive_count": 4661,
       "display_name": "Program 2",
       "public_name": "Polskie Radio Program 2",
       "slug": "pr2",
@@ -108,14 +108,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4682,
+      "archive_count": 4681,
       "display_name": "Radio Republika",
       "public_name": "Radio Republika",
       "slug": "republika",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 2138,
+      "archive_count": 2137,
       "display_name": "Polskie Radio Dzieciom",
       "public_name": "Polskie Radio Dzieciom",
       "slug": "polskieradiodzieciom",
@@ -157,7 +157,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4665,
+      "archive_count": 4664,
       "display_name": "Radio Dla Ciebie",
       "public_name": "Radio Dla Ciebie",
       "slug": "rdc",
@@ -213,7 +213,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4539,
+      "archive_count": 4538,
       "display_name": "Radio Koszalin",
       "public_name": "Radio Koszalin",
       "slug": "radiokoszalin",
@@ -241,7 +241,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4516,
+      "archive_count": 4515,
       "display_name": "Radio Maryja",
       "public_name": "Radio Maryja",
       "slug": "radiomaryja",
@@ -290,7 +290,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4557,
+      "archive_count": 4556,
       "display_name": "Radio Słupsk",
       "public_name": "Radio Słupsk",
       "slug": "radioslupsk",
@@ -346,7 +346,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3193,
+      "archive_count": 3192,
       "display_name": "RMF24",
       "public_name": "RMF24",
       "slug": "rmf24",
