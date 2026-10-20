@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-10-20T21:34:35.557041+00:00",
+  "generated_at": "2026-10-20T21:40:48.654756+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-10-20T20:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -18,7 +18,6 @@
     "Radio Akadera",
     "Radio Białystok",
     "Radio Centrum Lublin",
-    "Radio Dla Ciebie",
     "Radio Gdańsk",
     "Radio Gdańsk Regiony",
     "Radio Gorzów",
@@ -46,7 +45,7 @@
     "RMF24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-10-20T21:34:35.557041+00:00",
+  "published_at": "2026-10-20T21:40:48.654756+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -156,7 +155,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4684,
+      "archive_count": 4683,
       "display_name": "Radio Dla Ciebie",
       "public_name": "Radio Dla Ciebie",
       "slug": "rdc",
@@ -254,14 +253,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4586,
+      "archive_count": 4585,
       "display_name": "Radio Opole",
       "public_name": "Radio Opole",
       "slug": "radioopole",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4639,
+      "archive_count": 4638,
       "display_name": "Radio PiK",
       "public_name": "Radio PiK",
       "slug": "radiopik",
