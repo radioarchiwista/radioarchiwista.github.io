@@ -167,6 +167,30 @@
       "utc_label": "2026-10-20 04:00 UTC",
       "utc_started_at": "2026-10-20T04:00:00+00:00",
       "year": 2026
+    },
+    {
+      "archive_item_identifier": "radiozak-2026-10-20",
+      "audio_url": "https://archive.org/download/radiozak-2026-10-20/radiozak_2026-10-20T06-00-00Z.mp3",
+      "completeness_ratio": 1.0,
+      "day": 20,
+      "download_url": "https://archive.org/download/radiozak-2026-10-20/radiozak_2026-10-20T06-00-00Z.mp3",
+      "duration_seconds": 3599.961,
+      "hour": 8,
+      "hourly_archive_id": 232738,
+      "local_date_label": "20.10.2026",
+      "local_hour_label": "08:00",
+      "local_label": "2026-10-20 08:00 czasu polskiego",
+      "local_started_at": "2026-10-20T08:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 10,
+      "published_at": "2026-10-20T08:05:55.105067+00:00",
+      "published_local_label": "2026-10-20 10:05 czasu polskiego",
+      "remote_filename": "radiozak_2026-10-20T06-00-00Z.mp3",
+      "station_slug": "radiozak",
+      "status": "published",
+      "utc_label": "2026-10-20 06:00 UTC",
+      "utc_started_at": "2026-10-20T06:00:00+00:00",
+      "year": 2026
     }
   ],
   "day": 20,
@@ -324,7 +348,7 @@
       "year": 2026
     },
     {
-      "archive_status": "ready",
+      "archive_status": "published",
       "completeness_ratio": 1.0,
       "day": 20,
       "hour": 8,
@@ -335,9 +359,9 @@
       "local_started_at": "2026-10-20T08:00:00+02:00",
       "local_timezone_label": "czasu polskiego",
       "month": 10,
-      "playable": false,
-      "state": "publishing",
-      "status_label": "Czeka w kolejce do publikacji",
+      "playable": true,
+      "state": "available",
+      "status_label": null,
       "utc_label": "2026-10-20 06:00 UTC",
       "utc_started_at": "2026-10-20T06:00:00+00:00",
       "year": 2026
