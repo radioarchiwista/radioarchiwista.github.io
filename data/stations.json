@@ -1,28 +1,23 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-10-21T01:47:34.041411+00:00",
+  "generated_at": "2026-10-21T02:09:33.915057+00:00",
   "latest_archive_hour_expected_station_count": 43,
-  "latest_archive_hour_started_at": "2026-10-21T00:00:00+00:00",
+  "latest_archive_hour_started_at": "2026-10-21T01:00:00+00:00",
   "latest_archive_hour_stations": [
     "Program 1",
     "Program 2",
-    "Program 3",
-    "Polskie Radio 24",
-    "Radio 357",
     "Polskie Radio Dzieciom",
     "Radio Afera",
-    "Radio Akadera",
-    "Radio Białystok",
-    "Radio Gdańsk Regiony"
+    "Radio Akadera"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-10-21T01:47:34.041411+00:00",
+  "published_at": "2026-10-21T02:09:33.915057+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
     {
-      "archive_count": 4684,
+      "archive_count": 4685,
       "display_name": "Program 1",
       "public_name": "Polskie Radio Program 1",
       "slug": "pr1",
@@ -57,7 +52,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4703,
+      "archive_count": 4704,
       "display_name": "Radio Nowy Świat",
       "public_name": "Radio Nowy Świat",
       "slug": "rns",
@@ -78,14 +73,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4704,
+      "archive_count": 4705,
       "display_name": "Radio Republika",
       "public_name": "Radio Republika",
       "slug": "republika",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 2161,
+      "archive_count": 2162,
       "display_name": "Polskie Radio Dzieciom",
       "public_name": "Polskie Radio Dzieciom",
       "slug": "polskieradiodzieciom",
@@ -113,14 +108,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4685,
+      "archive_count": 4686,
       "display_name": "Radio Centrum Lublin",
       "public_name": "Radio Centrum Lublin",
       "slug": "radiocentrumlublin",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4658,
+      "archive_count": 4659,
       "display_name": "Radio Centrum Rzeszów",
       "public_name": "Radio Centrum Rzeszów",
       "slug": "radiocentrumrzeszow",
@@ -309,7 +304,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3217,
+      "archive_count": 3218,
       "display_name": "RMF Classic",
       "public_name": "RMF Classic",
       "slug": "rmfclassic",
