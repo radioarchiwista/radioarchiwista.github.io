@@ -1,21 +1,28 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-10-21T16:35:23.811663+00:00",
+  "generated_at": "2026-10-21T16:47:14.056569+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-10-21T15:00:00+00:00",
   "latest_archive_hour_stations": [
+    "Program 1",
+    "Program 2",
+    "Polskie Radio Dzieciom",
     "Radio Akadera",
     "Radio Kielce",
-    "Radio Koszalin"
+    "Radio Koszalin",
+    "Radio Kraków",
+    "Radio Lublin",
+    "Radio Luz",
+    "Radio Łódź"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-10-21T16:35:23.811663+00:00",
+  "published_at": "2026-10-21T16:47:14.056569+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
     {
-      "archive_count": 4697,
+      "archive_count": 4698,
       "display_name": "Program 1",
       "public_name": "Polskie Radio Program 1",
       "slug": "pr1",
@@ -78,7 +85,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 2174,
+      "archive_count": 2175,
       "display_name": "Polskie Radio Dzieciom",
       "public_name": "Polskie Radio Dzieciom",
       "slug": "polskieradiodzieciom",
@@ -183,7 +190,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4697,
+      "archive_count": 4698,
       "display_name": "Radio Kraków",
       "public_name": "Radio Kraków",
       "slug": "radiokrakow",
@@ -288,7 +295,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4701,
+      "archive_count": 4702,
       "display_name": "Radio Łódź",
       "public_name": "Radio Łódź",
       "slug": "radiolodz",
