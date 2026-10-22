@@ -1,8 +1,8 @@
 {
-  "archive_count": 233975,
+  "archive_count": 233981,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-10-22T01:14:17.347598+00:00",
+  "generated_at": "2026-10-22T01:24:29.465478+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-10-22T00:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -13,10 +13,17 @@
     "Radio 357",
     "Polskie Radio Dzieciom",
     "Radio Afera",
-    "Radio Akadera"
+    "Radio Akadera",
+    "Radio Białystok",
+    "Radio Centrum Lublin",
+    "Radio Centrum Rzeszów",
+    "Radio Gdańsk",
+    "Radio Gdańsk Regiony",
+    "Radio Gorzów",
+    "Radio Index"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-10-22T01:14:17.347598+00:00",
+  "published_at": "2026-10-22T01:24:29.465478+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
