@@ -1,0 +1,58 @@
+{
+  "archives": [
+    {
+      "archive_item_identifier": "radiokielce-2026-10-23",
+      "audio_url": "https://archive.org/download/radiokielce-2026-10-23/radiokielce_2026-10-23T22-00-00Z.mp3",
+      "completeness_ratio": 0.998,
+      "day": 24,
+      "download_url": "https://archive.org/download/radiokielce-2026-10-23/radiokielce_2026-10-23T22-00-00Z.mp3",
+      "duration_seconds": 3597.504,
+      "hour": 0,
+      "hourly_archive_id": 236488,
+      "local_date_label": "24.10.2026",
+      "local_hour_label": "00:00",
+      "local_label": "2026-10-24 00:00 czasu polskiego",
+      "local_started_at": "2026-10-24T00:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 10,
+      "published_at": "2026-10-23T23:22:27.414458+00:00",
+      "published_local_label": "2026-10-24 01:22 czasu polskiego",
+      "remote_filename": "radiokielce_2026-10-23T22-00-00Z.mp3",
+      "station_slug": "radiokielce",
+      "status": "published",
+      "utc_label": "2026-10-23 22:00 UTC",
+      "utc_started_at": "2026-10-23T22:00:00+00:00",
+      "year": 2026
+    }
+  ],
+  "day": 24,
+  "hour_slots": [
+    {
+      "archive_status": "published",
+      "completeness_ratio": 0.998,
+      "day": 24,
+      "hour": 0,
+      "hourly_archive_id": 236488,
+      "local_date_label": "24.10.2026",
+      "local_hour_label": "00:00",
+      "local_label": "2026-10-24 00:00 czasu polskiego",
+      "local_started_at": "2026-10-24T00:00:00+02:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 10,
+      "playable": true,
+      "state": "available",
+      "status_label": null,
+      "utc_label": "2026-10-23 22:00 UTC",
+      "utc_started_at": "2026-10-23T22:00:00+00:00",
+      "year": 2026
+    }
+  ],
+  "month": 10,
+  "station": {
+    "display_name": "Radio Kielce",
+    "public_name": "Radio Kielce",
+    "slug": "radiokielce",
+    "timezone": "Europe/Warsaw"
+  },
+  "year": 2026
+}
