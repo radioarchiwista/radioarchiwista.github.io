@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-10-23T02:53:03.603467+00:00",
+  "generated_at": "2026-10-23T03:00:58.769483+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-10-23T01:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -41,7 +41,7 @@
     "Radio Żak"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-10-23T02:53:03.603467+00:00",
+  "published_at": "2026-10-23T03:00:58.769483+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -200,7 +200,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4691,
+      "archive_count": 4692,
       "display_name": "Radio Kielce",
       "public_name": "Radio Kielce",
       "slug": "radiokielce",
@@ -214,28 +214,28 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4733,
+      "archive_count": 4734,
       "display_name": "Radio Kraków",
       "public_name": "Radio Kraków",
       "slug": "radiokrakow",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4736,
+      "archive_count": 4737,
       "display_name": "Radio Lublin",
       "public_name": "Radio Lublin",
       "slug": "radiolublin",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4655,
+      "archive_count": 4656,
       "display_name": "Radio Luz",
       "public_name": "Radio Luz",
       "slug": "radioluz",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4587,
+      "archive_count": 4588,
       "display_name": "Radio Maryja",
       "public_name": "Radio Maryja",
       "slug": "radiomaryja",
@@ -319,7 +319,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4737,
+      "archive_count": 4738,
       "display_name": "Radio Łódź",
       "public_name": "Radio Łódź",
       "slug": "radiolodz",
