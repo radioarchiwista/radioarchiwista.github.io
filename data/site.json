@@ -1,8 +1,8 @@
 {
-  "archive_count": 235269,
+  "archive_count": 235298,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-10-23T07:28:24.295857+00:00",
+  "generated_at": "2026-10-23T07:39:52.050290+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-10-23T06:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -14,9 +14,9 @@
     "Radio Nowy Świat",
     "TOK FM",
     "Radio Wnet",
-    "Radio Republika",
     "Polskie Radio Dzieciom",
     "Radio Afera",
+    "Radio Akadera",
     "Radio Białystok",
     "Radio Centrum Lublin",
     "Radio Centrum Rzeszów",
@@ -50,7 +50,7 @@
     "RMF24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-10-23T07:28:24.295857+00:00",
+  "published_at": "2026-10-23T07:39:52.050290+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
