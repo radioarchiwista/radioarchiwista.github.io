@@ -167,30 +167,6 @@
       "utc_label": "2026-10-25 04:00 UTC",
       "utc_started_at": "2026-10-25T04:00:00+00:00",
       "year": 2026
-    },
-    {
-      "archive_item_identifier": "wnet-2026-10-25",
-      "audio_url": "https://archive.org/download/wnet-2026-10-25/wnet_2026-10-25T05-00-00Z.mp3",
-      "completeness_ratio": 1.0,
-      "day": 25,
-      "download_url": "https://archive.org/download/wnet-2026-10-25/wnet_2026-10-25T05-00-00Z.mp3",
-      "duration_seconds": 3599.88,
-      "hour": 6,
-      "hourly_archive_id": 237846,
-      "local_date_label": "25.10.2026",
-      "local_hour_label": "06:00",
-      "local_label": "2026-10-25 06:00 czasu polskiego",
-      "local_started_at": "2026-10-25T06:00:00+01:00",
-      "local_timezone_label": "czasu polskiego",
-      "month": 10,
-      "published_at": "2026-10-25T06:23:08.316552+00:00",
-      "published_local_label": "2026-10-25 07:23 czasu polskiego",
-      "remote_filename": "wnet_2026-10-25T05-00-00Z.mp3",
-      "station_slug": "wnet",
-      "status": "published",
-      "utc_label": "2026-10-25 05:00 UTC",
-      "utc_started_at": "2026-10-25T05:00:00+00:00",
-      "year": 2026
     }
   ],
   "day": 25,
@@ -329,7 +305,7 @@
       "year": 2026
     },
     {
-      "archive_status": "published",
+      "archive_status": "ready",
       "completeness_ratio": 1.0,
       "day": 25,
       "hour": 6,
@@ -340,9 +316,9 @@
       "local_started_at": "2026-10-25T06:00:00+01:00",
       "local_timezone_label": "czasu polskiego",
       "month": 10,
-      "playable": true,
-      "state": "available",
-      "status_label": null,
+      "playable": false,
+      "state": "publishing",
+      "status_label": "Czeka w kolejce do publikacji",
       "utc_label": "2026-10-25 05:00 UTC",
       "utc_started_at": "2026-10-25T05:00:00+00:00",
       "year": 2026
