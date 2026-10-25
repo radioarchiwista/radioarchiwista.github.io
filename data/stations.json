@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-10-25T01:53:19.034288+00:00",
+  "generated_at": "2026-10-25T02:03:31.314099+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-10-25T00:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -10,15 +10,23 @@
     "Program 3",
     "Polskie Radio 24",
     "Radio 357",
+    "Radio Nowy Świat",
+    "Radio Republika",
     "Polskie Radio Dzieciom",
     "Radio Afera",
     "Radio Akadera",
     "Radio Białystok",
     "Radio Centrum Lublin",
-    "Radio Gdańsk Regiony"
+    "Radio Dla Ciebie",
+    "Radio Gdańsk",
+    "Radio Gdańsk Regiony",
+    "Radio Kielce",
+    "Radio Luz",
+    "Radio Zielona Góra",
+    "RMF Classic"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-10-25T01:53:19.034288+00:00",
+  "published_at": "2026-10-25T02:03:31.314099+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -79,7 +87,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4800,
+      "archive_count": 4801,
       "display_name": "Radio Republika",
       "public_name": "Radio Republika",
       "slug": "republika",
@@ -128,14 +136,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4783,
+      "archive_count": 4784,
       "display_name": "Radio Dla Ciebie",
       "public_name": "Radio Dla Ciebie",
       "slug": "rdc",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4784,
+      "archive_count": 4785,
       "display_name": "Radio Gdańsk",
       "public_name": "Radio Gdańsk",
       "slug": "radiogdansk",
@@ -177,7 +185,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4738,
+      "archive_count": 4739,
       "display_name": "Radio Kielce",
       "public_name": "Radio Kielce",
       "slug": "radiokielce",
@@ -205,7 +213,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4702,
+      "archive_count": 4703,
       "display_name": "Radio Luz",
       "public_name": "Radio Luz",
       "slug": "radioluz",
@@ -289,7 +297,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4784,
+      "archive_count": 4785,
       "display_name": "Radio Zielona Góra",
       "public_name": "Radio Zielona Góra",
       "slug": "radiozielonagora",
@@ -310,7 +318,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3313,
+      "archive_count": 3314,
       "display_name": "RMF Classic",
       "public_name": "RMF Classic",
       "slug": "rmfclassic",
