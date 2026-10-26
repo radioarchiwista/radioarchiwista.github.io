@@ -1,0 +1,58 @@
+{
+  "archives": [
+    {
+      "archive_item_identifier": "radiogorzow-2026-10-25",
+      "audio_url": "https://archive.org/download/radiogorzow-2026-10-25/radiogorzow_2026-10-25T23-00-00Z.mp3",
+      "completeness_ratio": 0.9975,
+      "day": 26,
+      "download_url": "https://archive.org/download/radiogorzow-2026-10-25/radiogorzow_2026-10-25T23-00-00Z.mp3",
+      "duration_seconds": 3587.04,
+      "hour": 0,
+      "hourly_archive_id": 238591,
+      "local_date_label": "26.10.2026",
+      "local_hour_label": "00:00",
+      "local_label": "2026-10-26 00:00 czasu polskiego",
+      "local_started_at": "2026-10-26T00:00:00+01:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 10,
+      "published_at": "2026-10-26T00:23:31.016173+00:00",
+      "published_local_label": "2026-10-26 01:23 czasu polskiego",
+      "remote_filename": "radiogorzow_2026-10-25T23-00-00Z.mp3",
+      "station_slug": "radiogorzow",
+      "status": "published",
+      "utc_label": "2026-10-25 23:00 UTC",
+      "utc_started_at": "2026-10-25T23:00:00+00:00",
+      "year": 2026
+    }
+  ],
+  "day": 26,
+  "hour_slots": [
+    {
+      "archive_status": "published",
+      "completeness_ratio": 0.9975,
+      "day": 26,
+      "hour": 0,
+      "hourly_archive_id": 238591,
+      "local_date_label": "26.10.2026",
+      "local_hour_label": "00:00",
+      "local_label": "2026-10-26 00:00 czasu polskiego",
+      "local_started_at": "2026-10-26T00:00:00+01:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 10,
+      "playable": true,
+      "state": "available",
+      "status_label": null,
+      "utc_label": "2026-10-25 23:00 UTC",
+      "utc_started_at": "2026-10-25T23:00:00+00:00",
+      "year": 2026
+    }
+  ],
+  "month": 10,
+  "station": {
+    "display_name": "Radio Gorzów",
+    "public_name": "Radio Gorzów",
+    "slug": "radiogorzow",
+    "timezone": "Europe/Warsaw"
+  },
+  "year": 2026
+}
