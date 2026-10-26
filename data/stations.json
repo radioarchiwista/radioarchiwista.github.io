@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-10-26T01:15:00.638684+00:00",
+  "generated_at": "2026-10-26T01:21:36.365114+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-10-26T00:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -13,10 +13,15 @@
     "Polskie Radio Dzieciom",
     "Radio Afera",
     "Radio Akadera",
-    "Radio Centrum Lublin"
+    "Radio Centrum Lublin",
+    "Radio Centrum Rzeszów",
+    "Radio Gdańsk",
+    "Radio Gdańsk Regiony",
+    "Radio Gorzów",
+    "Radio Index"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-10-26T01:15:00.638684+00:00",
+  "published_at": "2026-10-26T01:21:36.365114+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -35,7 +40,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 45244,
+      "archive_count": 45245,
       "display_name": "Program 3",
       "public_name": "Polskie Radio Program 3",
       "slug": "pr3",
@@ -49,7 +54,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4803,
+      "archive_count": 4804,
       "display_name": "Radio 357",
       "public_name": "Radio 357",
       "slug": "radio357",
@@ -91,14 +96,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4805,
+      "archive_count": 4806,
       "display_name": "Radio Afera",
       "public_name": "Radio Afera",
       "slug": "afera",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4805,
+      "archive_count": 4806,
       "display_name": "Radio Akadera",
       "public_name": "Radio Akadera",
       "slug": "radioakadera",
@@ -112,14 +117,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4805,
+      "archive_count": 4806,
       "display_name": "Radio Centrum Lublin",
       "public_name": "Radio Centrum Lublin",
       "slug": "radiocentrumlublin",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4778,
+      "archive_count": 4779,
       "display_name": "Radio Centrum Rzeszów",
       "public_name": "Radio Centrum Rzeszów",
       "slug": "radiocentrumrzeszow",
@@ -133,28 +138,28 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4808,
+      "archive_count": 4809,
       "display_name": "Radio Gdańsk",
       "public_name": "Radio Gdańsk",
       "slug": "radiogdansk",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 2279,
+      "archive_count": 2280,
       "display_name": "Radio Gdańsk Regiony",
       "public_name": "Radio Gdańsk Regiony",
       "slug": "radiogdanskregiony",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4808,
+      "archive_count": 4809,
       "display_name": "Radio Gorzów",
       "public_name": "Radio Gorzów",
       "slug": "radiogorzow",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4744,
+      "archive_count": 4745,
       "display_name": "Radio Index",
       "public_name": "Radio Index",
       "slug": "radioindex",
