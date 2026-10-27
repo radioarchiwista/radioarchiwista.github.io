@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-10-27T09:39:00.791738+00:00",
+  "generated_at": "2026-10-27T09:51:54.179152+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-10-27T08:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -10,7 +10,6 @@
     "Program 3",
     "Polskie Radio 24",
     "Radio 357",
-    "Radio Nowy Świat",
     "TOK FM",
     "Radio Wnet",
     "Radio Republika",
@@ -42,6 +41,7 @@
     "Radio Słupsk",
     "Radio UWM FM",
     "Radio Wrocław",
+    "Radio Zachód",
     "Radio Zielona Góra",
     "Radio Łódź",
     "Radio Żak",
@@ -49,7 +49,7 @@
     "RMF24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-10-27T09:39:00.791738+00:00",
+  "published_at": "2026-10-27T09:51:54.179152+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -89,7 +89,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4856,
+      "archive_count": 4854,
       "display_name": "Radio Nowy Świat",
       "public_name": "Radio Nowy Świat",
       "slug": "rns",
