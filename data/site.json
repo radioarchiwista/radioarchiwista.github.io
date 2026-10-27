@@ -1,8 +1,8 @@
 {
-  "archive_count": 239323,
+  "archive_count": 239326,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-10-27T05:49:37.983841+00:00",
+  "generated_at": "2026-10-27T05:57:12.086402+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-10-27T04:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -11,7 +11,6 @@
     "Program 3",
     "Polskie Radio 24",
     "Radio 357",
-    "Radio Nowy Świat",
     "TOK FM",
     "Radio Republika",
     "Polskie Radio Dzieciom",
@@ -38,6 +37,7 @@
     "Radio Poznań",
     "Radio Rzeszów",
     "Radio Słupsk",
+    "Radio UWM FM",
     "Radio Zachód",
     "Radio Zielona Góra",
     "Radio Łódź",
@@ -46,7 +46,7 @@
     "RMF24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-10-27T05:49:37.983841+00:00",
+  "published_at": "2026-10-27T05:57:12.086402+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
