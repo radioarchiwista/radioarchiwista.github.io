@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-10-27T04:49:52.497353+00:00",
+  "generated_at": "2026-10-27T04:56:24.050347+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-10-27T03:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -46,7 +46,7 @@
     "RMF Classic"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-10-27T04:49:52.497353+00:00",
+  "published_at": "2026-10-27T04:56:24.050347+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -86,14 +86,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4850,
+      "archive_count": 4851,
       "display_name": "Radio Nowy Świat",
       "public_name": "Radio Nowy Świat",
       "slug": "rns",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4839,
+      "archive_count": 4840,
       "display_name": "TOK FM",
       "public_name": "TOK FM",
       "slug": "tokfm",
@@ -107,7 +107,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4850,
+      "archive_count": 4852,
       "display_name": "Radio Republika",
       "public_name": "Radio Republika",
       "slug": "republika",
@@ -324,7 +324,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4833,
+      "archive_count": 4828,
       "display_name": "Radio Łódź",
       "public_name": "Radio Łódź",
       "slug": "radiolodz",
@@ -338,7 +338,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3364,
+      "archive_count": 3365,
       "display_name": "RMF Classic",
       "public_name": "RMF Classic",
       "slug": "rmfclassic",
