@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-10-28T11:34:34.379428+00:00",
+  "generated_at": "2026-10-28T11:39:15.995488+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-10-28T10:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -50,7 +50,7 @@
     "RMF24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-10-28T11:34:34.379428+00:00",
+  "published_at": "2026-10-28T11:39:15.995488+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -279,7 +279,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4861,
+      "archive_count": 4862,
       "display_name": "Radio Rzeszów",
       "public_name": "Radio Rzeszów",
       "slug": "radiorzeszow",
@@ -300,7 +300,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4843,
+      "archive_count": 4844,
       "display_name": "Radio UWM FM",
       "public_name": "Radio UWM FM",
       "slug": "radiouwmfm",
