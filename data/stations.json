@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-10-29T02:45:26.391947+00:00",
+  "generated_at": "2026-10-29T03:02:39.960808+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-10-29T01:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -10,6 +10,8 @@
     "Program 3",
     "Polskie Radio 24",
     "Radio 357",
+    "TOK FM",
+    "Radio Wnet",
     "Polskie Radio Dzieciom",
     "Radio Afera",
     "Radio Akadera",
@@ -22,17 +24,20 @@
     "Radio Index",
     "Radio Kampus",
     "Radio Katowice",
+    "Radio Kraków",
     "Radio Maryja",
     "Radio Olsztyn",
     "Radio Opole",
     "Radio PiK",
     "Radio Poznań",
     "Radio Rzeszów",
+    "Radio Szczecin",
     "Radio Słupsk",
-    "Radio Wrocław"
+    "Radio Wrocław",
+    "Radio Łódź"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-10-29T02:45:26.391947+00:00",
+  "published_at": "2026-10-29T03:02:39.960808+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -79,7 +84,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4884,
+      "archive_count": 4885,
       "display_name": "TOK FM",
       "public_name": "TOK FM",
       "slug": "tokfm",
@@ -205,7 +210,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4876,
+      "archive_count": 4877,
       "display_name": "Radio Kraków",
       "public_name": "Radio Kraków",
       "slug": "radiokrakow",
@@ -310,7 +315,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4880,
+      "archive_count": 4881,
       "display_name": "Radio Łódź",
       "public_name": "Radio Łódź",
       "slug": "radiolodz",
