@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-10-29T13:32:52.456627+00:00",
+  "generated_at": "2026-10-29T13:40:05.608274+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-10-29T12:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -10,6 +10,7 @@
     "Program 3",
     "Polskie Radio 24",
     "Radio 357",
+    "Radio Republika",
     "Polskie Radio Dzieciom",
     "Radio Afera",
     "Radio Akadera",
@@ -19,14 +20,18 @@
     "Radio Gdańsk Regiony",
     "Radio Gorzów",
     "Radio Kampus",
+    "Radio Katowice",
     "Radio Kielce",
     "Radio Koszalin",
     "Radio Kraków",
     "Radio Lublin",
     "Radio Luz",
     "Radio Maryja",
+    "Radio Olsztyn",
     "Radio PiK",
     "Radio Poznań",
+    "Radio Rzeszów",
+    "Radio Szczecin",
     "Radio Słupsk",
     "Radio UWM FM",
     "Radio Wrocław",
@@ -36,7 +41,7 @@
     "RMF24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-10-29T13:32:52.456627+00:00",
+  "published_at": "2026-10-29T13:40:05.608274+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -97,7 +102,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4908,
+      "archive_count": 4909,
       "display_name": "Radio Republika",
       "public_name": "Radio Republika",
       "slug": "republika",
@@ -188,7 +193,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4889,
+      "archive_count": 4890,
       "display_name": "Radio Katowice",
       "public_name": "Radio Katowice",
       "slug": "radiokatowice",
@@ -237,7 +242,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4874,
+      "archive_count": 4875,
       "display_name": "Radio Olsztyn",
       "public_name": "Radio Olsztyn",
       "slug": "radioolsztyn",
@@ -265,14 +270,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4887,
+      "archive_count": 4888,
       "display_name": "Radio Rzeszów",
       "public_name": "Radio Rzeszów",
       "slug": "radiorzeszow",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4886,
+      "archive_count": 4887,
       "display_name": "Radio Szczecin",
       "public_name": "Radio Szczecin",
       "slug": "radioszczecin",
@@ -335,7 +340,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3421,
+      "archive_count": 3422,
       "display_name": "RMF24",
       "public_name": "RMF24",
       "slug": "rmf24",
