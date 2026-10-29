@@ -1,8 +1,8 @@
 {
-  "archive_count": 241454,
+  "archive_count": 241470,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-10-29T07:21:46.264083+00:00",
+  "generated_at": "2026-10-29T07:30:40.860933+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-10-29T06:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -19,13 +19,20 @@
     "Radio Centrum Rzeszów",
     "Radio Gdańsk",
     "Radio Gdańsk Regiony",
-    "Radio Index",
     "Radio Kampus",
     "Radio Katowice",
-    "Radio UWM FM"
+    "Radio Kielce",
+    "Radio Koszalin",
+    "Radio Kraków",
+    "Radio Lublin",
+    "Radio Luz",
+    "Radio Maryja",
+    "Radio Olsztyn",
+    "Radio UWM FM",
+    "Radio Łódź"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-10-29T07:21:46.264083+00:00",
+  "published_at": "2026-10-29T07:30:40.860933+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
