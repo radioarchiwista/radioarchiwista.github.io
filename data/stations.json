@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-10-30T14:44:38.792631+00:00",
+  "generated_at": "2026-10-30T14:52:59.790393+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-10-30T13:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -46,7 +46,7 @@
     "RMF24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-10-30T14:44:38.792631+00:00",
+  "published_at": "2026-10-30T14:52:59.790393+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -79,14 +79,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4912,
+      "archive_count": 4913,
       "display_name": "Radio 357",
       "public_name": "Radio 357",
       "slug": "radio357",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4932,
+      "archive_count": 4933,
       "display_name": "Radio Nowy Świat",
       "public_name": "Radio Nowy Świat",
       "slug": "rns",
@@ -135,7 +135,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4913,
+      "archive_count": 4914,
       "display_name": "Radio Białystok",
       "public_name": "Radio Białystok",
       "slug": "radiobialystok",
@@ -156,7 +156,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4916,
+      "archive_count": 4917,
       "display_name": "Radio Dla Ciebie",
       "public_name": "Radio Dla Ciebie",
       "slug": "rdc",
@@ -275,7 +275,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4912,
+      "archive_count": 4913,
       "display_name": "Radio Rzeszów",
       "public_name": "Radio Rzeszów",
       "slug": "radiorzeszow",
@@ -289,7 +289,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4807,
+      "archive_count": 4809,
       "display_name": "Radio Słupsk",
       "public_name": "Radio Słupsk",
       "slug": "radioslupsk",
@@ -310,14 +310,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4917,
+      "archive_count": 4918,
       "display_name": "Radio Zachód",
       "public_name": "Radio Zachód",
       "slug": "radiozachod",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4917,
+      "archive_count": 4916,
       "display_name": "Radio Zielona Góra",
       "public_name": "Radio Zielona Góra",
       "slug": "radiozielonagora",
@@ -338,7 +338,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3446,
+      "archive_count": 3447,
       "display_name": "RMF Classic",
       "public_name": "RMF Classic",
       "slug": "rmfclassic",
