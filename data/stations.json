@@ -1,21 +1,28 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-10-30T13:25:17.823428+00:00",
+  "generated_at": "2026-10-30T13:38:52.845647+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-10-30T12:00:00+00:00",
   "latest_archive_hour_stations": [
     "Program 1",
+    "Program 2",
     "Program 3",
     "Polskie Radio 24",
-    "Polskie Radio Dzieciom",
+    "Radio Afera",
     "Radio Białystok",
     "Radio Centrum Lublin",
     "Radio Centrum Rzeszów",
-    "Radio Gdańsk"
+    "Radio Gdańsk",
+    "Radio Index",
+    "Radio Kampus",
+    "Radio Katowice",
+    "Radio Koszalin",
+    "Radio Kraków",
+    "Radio Łódź"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-10-30T13:25:17.823428+00:00",
+  "published_at": "2026-10-30T13:38:52.845647+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -27,7 +34,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4912,
+      "archive_count": 4913,
       "display_name": "Program 2",
       "public_name": "Polskie Radio Program 2",
       "slug": "pr2",
@@ -41,7 +48,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4929,
+      "archive_count": 4930,
       "display_name": "Polskie Radio 24",
       "public_name": "Polskie Radio 24",
       "slug": "pr24",
@@ -104,21 +111,21 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4911,
+      "archive_count": 4912,
       "display_name": "Radio Białystok",
       "public_name": "Radio Białystok",
       "slug": "radiobialystok",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4913,
+      "archive_count": 4914,
       "display_name": "Radio Centrum Lublin",
       "public_name": "Radio Centrum Lublin",
       "slug": "radiocentrumlublin",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4886,
+      "archive_count": 4887,
       "display_name": "Radio Centrum Rzeszów",
       "public_name": "Radio Centrum Rzeszów",
       "slug": "radiocentrumrzeszow",
@@ -132,7 +139,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4916,
+      "archive_count": 4917,
       "display_name": "Radio Gdańsk",
       "public_name": "Radio Gdańsk",
       "slug": "radiogdansk",
@@ -153,14 +160,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4852,
+      "archive_count": 4853,
       "display_name": "Radio Index",
       "public_name": "Radio Index",
       "slug": "radioindex",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4622,
+      "archive_count": 4623,
       "display_name": "Radio Kampus",
       "public_name": "Radio Kampus",
       "slug": "radiokampus",
