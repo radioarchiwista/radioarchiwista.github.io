@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-10-30T20:32:43.263267+00:00",
+  "generated_at": "2026-10-30T20:37:26.930209+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-10-30T19:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -12,6 +12,7 @@
     "Radio 357",
     "Radio Nowy Świat",
     "TOK FM",
+    "Radio Wnet",
     "Radio Republika",
     "Polskie Radio Dzieciom",
     "Radio Afera",
@@ -23,6 +24,7 @@
     "Radio Gdańsk Regiony",
     "Radio Gorzów",
     "Radio Index",
+    "Radio Kampus",
     "Radio Katowice",
     "Radio Kielce",
     "Radio Koszalin",
@@ -31,6 +33,7 @@
     "Radio Maryja",
     "Radio Opole",
     "Radio PiK",
+    "Radio Poznań",
     "Radio Rzeszów",
     "Radio Szczecin",
     "Radio Słupsk",
@@ -43,7 +46,7 @@
     "RMF24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-10-30T20:32:43.263267+00:00",
+  "published_at": "2026-10-30T20:37:26.930209+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -90,14 +93,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4927,
+      "archive_count": 4928,
       "display_name": "TOK FM",
       "public_name": "TOK FM",
       "slug": "tokfm",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4940,
+      "archive_count": 4941,
       "display_name": "Radio Wnet",
       "public_name": "Radio Wnet",
       "slug": "wnet",
@@ -188,7 +191,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4629,
+      "archive_count": 4630,
       "display_name": "Radio Kampus",
       "public_name": "Radio Kampus",
       "slug": "radiokampus",
