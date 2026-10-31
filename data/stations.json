@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-10-31T13:50:15.546185+00:00",
+  "generated_at": "2026-10-31T14:02:17.014559+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-10-31T12:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -11,6 +11,7 @@
     "Polskie Radio 24",
     "Radio 357",
     "Radio Nowy Świat",
+    "TOK FM",
     "Radio Wnet",
     "Polskie Radio Dzieciom",
     "Radio Afera",
@@ -18,9 +19,12 @@
     "Radio Białystok",
     "Radio Centrum Lublin",
     "Radio Centrum Rzeszów",
+    "Radio Gdańsk",
     "Radio Gdańsk Regiony",
     "Radio Gorzów",
     "Radio Index",
+    "Radio Kampus",
+    "Radio Katowice",
     "Radio Kielce",
     "Radio Koszalin",
     "Radio Kraków",
@@ -29,7 +33,9 @@
     "Radio Maryja",
     "Radio Olsztyn",
     "Radio Opole",
+    "Radio PiK",
     "Radio Poznań",
+    "Radio Rzeszów",
     "Radio Szczecin",
     "Radio Słupsk",
     "Radio UWM FM",
@@ -42,7 +48,7 @@
     "RMF24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-10-31T13:50:15.546185+00:00",
+  "published_at": "2026-10-31T14:02:17.014559+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -89,7 +95,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4944,
+      "archive_count": 4945,
       "display_name": "TOK FM",
       "public_name": "TOK FM",
       "slug": "tokfm",
@@ -159,7 +165,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4940,
+      "archive_count": 4941,
       "display_name": "Radio Gdańsk",
       "public_name": "Radio Gdańsk",
       "slug": "radiogdansk",
@@ -187,14 +193,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4646,
+      "archive_count": 4647,
       "display_name": "Radio Kampus",
       "public_name": "Radio Kampus",
       "slug": "radiokampus",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4935,
+      "archive_count": 4936,
       "display_name": "Radio Katowice",
       "public_name": "Radio Katowice",
       "slug": "radiokatowice",
@@ -257,7 +263,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4894,
+      "archive_count": 4895,
       "display_name": "Radio PiK",
       "public_name": "Radio PiK",
       "slug": "radiopik",
