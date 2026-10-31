@@ -1,9 +1,9 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-10-31T01:53:46.252074+00:00",
+  "generated_at": "2026-10-31T02:14:26.767973+00:00",
   "latest_archive_hour_expected_station_count": 43,
-  "latest_archive_hour_started_at": "2026-10-31T00:00:00+00:00",
+  "latest_archive_hour_started_at": "2026-10-31T01:00:00+00:00",
   "latest_archive_hour_stations": [
     "Program 1",
     "Program 2",
@@ -20,22 +20,25 @@
     "Radio Gdańsk Regiony",
     "Radio Gorzów",
     "Radio Index",
-    "Radio Kampus"
+    "Radio Kampus",
+    "Radio Katowice",
+    "Radio Kielce",
+    "Radio Koszalin"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-10-31T01:53:46.252074+00:00",
+  "published_at": "2026-10-31T02:14:26.767973+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
     {
-      "archive_count": 4924,
+      "archive_count": 4925,
       "display_name": "Program 1",
       "public_name": "Polskie Radio Program 1",
       "slug": "pr1",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4925,
+      "archive_count": 4926,
       "display_name": "Program 2",
       "public_name": "Polskie Radio Program 2",
       "slug": "pr2",
@@ -49,7 +52,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4942,
+      "archive_count": 4943,
       "display_name": "Polskie Radio 24",
       "public_name": "Polskie Radio 24",
       "slug": "pr24",
@@ -91,7 +94,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 2401,
+      "archive_count": 2402,
       "display_name": "Polskie Radio Dzieciom",
       "public_name": "Polskie Radio Dzieciom",
       "slug": "polskieradiodzieciom",
