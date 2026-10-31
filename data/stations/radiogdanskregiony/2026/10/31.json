@@ -119,6 +119,30 @@
       "utc_label": "2026-10-31 03:00 UTC",
       "utc_started_at": "2026-10-31T03:00:00+00:00",
       "year": 2026
+    },
+    {
+      "archive_item_identifier": "radiogdanskregiony-2026-10-31",
+      "audio_url": "https://archive.org/download/radiogdanskregiony-2026-10-31/radiogdanskregiony_2026-10-31T04-00-00Z.mp3",
+      "completeness_ratio": 1.0,
+      "day": 31,
+      "download_url": "https://archive.org/download/radiogdanskregiony-2026-10-31/radiogdanskregiony_2026-10-31T04-00-00Z.mp3",
+      "duration_seconds": 3599.804,
+      "hour": 5,
+      "hourly_archive_id": 243963,
+      "local_date_label": "31.10.2026",
+      "local_hour_label": "05:00",
+      "local_label": "2026-10-31 05:00 czasu polskiego",
+      "local_started_at": "2026-10-31T05:00:00+01:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 10,
+      "published_at": "2026-10-31T05:25:09.520040+00:00",
+      "published_local_label": "2026-10-31 06:25 czasu polskiego",
+      "remote_filename": "radiogdanskregiony_2026-10-31T04-00-00Z.mp3",
+      "station_slug": "radiogdanskregiony",
+      "status": "published",
+      "utc_label": "2026-10-31 04:00 UTC",
+      "utc_started_at": "2026-10-31T04:00:00+00:00",
+      "year": 2026
     }
   ],
   "day": 31,
@@ -219,7 +243,7 @@
       "year": 2026
     },
     {
-      "archive_status": "ready",
+      "archive_status": "published",
       "completeness_ratio": 1.0,
       "day": 31,
       "hour": 5,
@@ -230,9 +254,9 @@
       "local_started_at": "2026-10-31T05:00:00+01:00",
       "local_timezone_label": "czasu polskiego",
       "month": 10,
-      "playable": false,
-      "state": "publishing",
-      "status_label": "Czeka w kolejce do publikacji",
+      "playable": true,
+      "state": "available",
+      "status_label": null,
       "utc_label": "2026-10-31 04:00 UTC",
       "utc_started_at": "2026-10-31T04:00:00+00:00",
       "year": 2026
