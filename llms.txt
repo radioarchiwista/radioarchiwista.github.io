@@ -1,0 +1,17 @@
+# Radio Archiwista
+
+Publiczne archiwum godzinowych nagrań polskich stacji radiowych.
+Serwis udostępnia statyczny katalog HTML oraz publiczne pliki JSON.
+
+## Primary URLs
+- Home: https://radioarchiwista.github.io/
+- About: https://radioarchiwista.github.io/about/
+- Data guide: https://radioarchiwista.github.io/data/
+- Station index JSON: https://radioarchiwista.github.io/data/stations.json
+- Sitemap: https://radioarchiwista.github.io/sitemap.xml
+
+## Notes for crawlers and AI systems
+- Odtwarzanie i pobieranie plików audio odbywa się przez archive.org.
+- Strony stacji znajdują się pod /stations/<slug>/.
+- Publiczne JSON-y znajdują się pod /data/ i opisują katalog godzin oraz statusy publikacji.
+- Godziny oznaczone jako oczekujące lub przygotowywane mogą jeszcze nie być dostępne do odtworzenia.
