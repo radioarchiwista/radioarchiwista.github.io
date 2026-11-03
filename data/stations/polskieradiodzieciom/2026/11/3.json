@@ -455,30 +455,6 @@
       "utc_label": "2026-11-03 17:00 UTC",
       "utc_started_at": "2026-11-03T17:00:00+00:00",
       "year": 2026
-    },
-    {
-      "archive_item_identifier": "polskieradiodzieciom-2026-11-03",
-      "audio_url": "https://archive.org/download/polskieradiodzieciom-2026-11-03/polskieradiodzieciom_2026-11-03T19-00-00Z.mp3",
-      "completeness_ratio": 1.0,
-      "day": 3,
-      "download_url": "https://archive.org/download/polskieradiodzieciom-2026-11-03/polskieradiodzieciom_2026-11-03T19-00-00Z.mp3",
-      "duration_seconds": 3598.896,
-      "hour": 20,
-      "hourly_archive_id": 247672,
-      "local_date_label": "03.11.2026",
-      "local_hour_label": "20:00",
-      "local_label": "2026-11-03 20:00 czasu polskiego",
-      "local_started_at": "2026-11-03T20:00:00+01:00",
-      "local_timezone_label": "czasu polskiego",
-      "month": 11,
-      "published_at": "2026-11-03T20:05:53.505734+00:00",
-      "published_local_label": "2026-11-03 21:05 czasu polskiego",
-      "remote_filename": "polskieradiodzieciom_2026-11-03T19-00-00Z.mp3",
-      "station_slug": "polskieradiodzieciom",
-      "status": "published",
-      "utc_label": "2026-11-03 19:00 UTC",
-      "utc_started_at": "2026-11-03T19:00:00+00:00",
-      "year": 2026
     }
   ],
   "day": 3,
@@ -864,7 +840,7 @@
       "year": 2026
     },
     {
-      "archive_status": "published",
+      "archive_status": "ready",
       "completeness_ratio": 1.0,
       "day": 3,
       "hour": 20,
@@ -875,9 +851,9 @@
       "local_started_at": "2026-11-03T20:00:00+01:00",
       "local_timezone_label": "czasu polskiego",
       "month": 11,
-      "playable": true,
-      "state": "available",
-      "status_label": null,
+      "playable": false,
+      "state": "publishing",
+      "status_label": "Czeka w kolejce do publikacji",
       "utc_label": "2026-11-03 19:00 UTC",
       "utc_started_at": "2026-11-03T19:00:00+00:00",
       "year": 2026
