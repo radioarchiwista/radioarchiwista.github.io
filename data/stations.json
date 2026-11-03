@@ -1,15 +1,17 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-11-03T21:31:29.122254+00:00",
+  "generated_at": "2026-11-03T21:49:52.695490+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-11-03T20:00:00+00:00",
   "latest_archive_hour_stations": [
-    "Radio Gorzów",
-    "Radio Katowice"
+    "Radio Lublin",
+    "Radio Luz",
+    "Radio Maryja",
+    "Radio Łódź"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-11-03T21:31:29.122254+00:00",
+  "published_at": "2026-11-03T21:49:52.695490+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -21,7 +23,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5015,
+      "archive_count": 5014,
       "display_name": "Program 2",
       "public_name": "Polskie Radio Program 2",
       "slug": "pr2",
@@ -140,7 +142,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5019,
+      "archive_count": 5018,
       "display_name": "Radio Gorzów",
       "public_name": "Radio Gorzów",
       "slug": "radiogorzow",
@@ -189,14 +191,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5017,
+      "archive_count": 5018,
       "display_name": "Radio Lublin",
       "public_name": "Radio Lublin",
       "slug": "radiolublin",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4912,
+      "archive_count": 4913,
       "display_name": "Radio Luz",
       "public_name": "Radio Luz",
       "slug": "radioluz",
@@ -287,7 +289,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5018,
+      "archive_count": 5019,
       "display_name": "Radio Łódź",
       "public_name": "Radio Łódź",
       "slug": "radiolodz",
