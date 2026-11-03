@@ -1,26 +1,26 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-11-03T19:53:50.676234+00:00",
+  "generated_at": "2026-11-03T20:05:53.505734+00:00",
   "latest_archive_hour_expected_station_count": 43,
-  "latest_archive_hour_started_at": "2026-11-03T18:00:00+00:00",
+  "latest_archive_hour_started_at": "2026-11-03T19:00:00+00:00",
   "latest_archive_hour_stations": [
-    "Radio Słupsk"
+    "Polskie Radio Dzieciom"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-11-03T19:53:50.676234+00:00",
+  "published_at": "2026-11-03T20:05:53.505734+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
     {
-      "archive_count": 5013,
+      "archive_count": 5014,
       "display_name": "Program 1",
       "public_name": "Polskie Radio Program 1",
       "slug": "pr1",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5014,
+      "archive_count": 5015,
       "display_name": "Program 2",
       "public_name": "Polskie Radio Program 2",
       "slug": "pr2",
@@ -34,7 +34,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5031,
+      "archive_count": 5032,
       "display_name": "Polskie Radio 24",
       "public_name": "Polskie Radio 24",
       "slug": "pr24",
@@ -251,7 +251,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4910,
+      "archive_count": 4909,
       "display_name": "Radio Słupsk",
       "public_name": "Radio Słupsk",
       "slug": "radioslupsk",
