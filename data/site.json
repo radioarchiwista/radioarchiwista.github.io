@@ -1,22 +1,15 @@
 {
-  "archive_count": 247060,
+  "archive_count": 247052,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-11-03T20:25:56.987201+00:00",
+  "generated_at": "2026-11-03T20:45:45.851885+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-11-03T19:00:00+00:00",
   "latest_archive_hour_stations": [
-    "Program 1",
-    "Program 3",
-    "Radio 357",
-    "Radio Gdańsk",
-    "Radio Kampus",
-    "Radio Lublin",
-    "Radio Olsztyn",
-    "Radio Rzeszów"
+    "Radio Łódź"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-11-03T20:25:56.987201+00:00",
+  "published_at": "2026-11-03T20:45:45.851885+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
