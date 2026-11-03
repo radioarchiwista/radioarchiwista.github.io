@@ -1,15 +1,14 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-11-03T19:47:25.369146+00:00",
+  "generated_at": "2026-11-03T19:53:50.676234+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-11-03T18:00:00+00:00",
   "latest_archive_hour_stations": [
-    "TOK FM",
     "Radio Słupsk"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-11-03T19:47:25.369146+00:00",
+  "published_at": "2026-11-03T19:53:50.676234+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -56,7 +55,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5023,
+      "archive_count": 5022,
       "display_name": "TOK FM",
       "public_name": "TOK FM",
       "slug": "tokfm",
@@ -119,7 +118,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5018,
+      "archive_count": 5017,
       "display_name": "Radio Dla Ciebie",
       "public_name": "Radio Dla Ciebie",
       "slug": "rdc",
@@ -252,7 +251,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4909,
+      "archive_count": 4910,
       "display_name": "Radio Słupsk",
       "public_name": "Radio Słupsk",
       "slug": "radioslupsk",
@@ -294,7 +293,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5002,
+      "archive_count": 5001,
       "display_name": "Radio Żak",
       "public_name": "Radio Żak",
       "slug": "radiozak",
