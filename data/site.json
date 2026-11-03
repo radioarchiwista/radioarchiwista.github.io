@@ -1,18 +1,18 @@
 {
-  "archive_count": 247054,
+  "archive_count": 247059,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-11-03T21:49:52.695490+00:00",
+  "generated_at": "2026-11-03T22:01:28.973340+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-11-03T20:00:00+00:00",
   "latest_archive_hour_stations": [
-    "Radio Lublin",
-    "Radio Luz",
-    "Radio Maryja",
-    "Radio Łódź"
+    "Radio Rzeszów",
+    "Radio Szczecin",
+    "Radio Zachód",
+    "Radio Żak"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-11-03T21:49:52.695490+00:00",
+  "published_at": "2026-11-03T22:01:28.973340+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"

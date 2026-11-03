@@ -1,22 +1,22 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-11-03T21:49:52.695490+00:00",
+  "generated_at": "2026-11-03T22:01:28.973340+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-11-03T20:00:00+00:00",
   "latest_archive_hour_stations": [
-    "Radio Lublin",
-    "Radio Luz",
-    "Radio Maryja",
-    "Radio Łódź"
+    "Radio Rzeszów",
+    "Radio Szczecin",
+    "Radio Zachód",
+    "Radio Żak"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-11-03T21:49:52.695490+00:00",
+  "published_at": "2026-11-03T22:01:28.973340+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
     {
-      "archive_count": 5013,
+      "archive_count": 5014,
       "display_name": "Program 1",
       "public_name": "Polskie Radio Program 1",
       "slug": "pr1",
@@ -37,7 +37,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5031,
+      "archive_count": 5032,
       "display_name": "Polskie Radio 24",
       "public_name": "Polskie Radio 24",
       "slug": "pr24",
@@ -205,7 +205,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4856,
+      "archive_count": 4857,
       "display_name": "Radio Maryja",
       "public_name": "Radio Maryja",
       "slug": "radiomaryja",
@@ -240,14 +240,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5013,
+      "archive_count": 5014,
       "display_name": "Radio Rzeszów",
       "public_name": "Radio Rzeszów",
       "slug": "radiorzeszow",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5012,
+      "archive_count": 5013,
       "display_name": "Radio Szczecin",
       "public_name": "Radio Szczecin",
       "slug": "radioszczecin",
