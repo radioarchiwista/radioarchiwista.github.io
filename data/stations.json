@@ -1,12 +1,11 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-11-04T01:38:36.801460+00:00",
+  "generated_at": "2026-11-04T01:57:30.737767+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-11-04T00:00:00+00:00",
   "latest_archive_hour_stations": [
     "Program 1",
-    "Program 2",
     "Program 3",
     "Polskie Radio 24",
     "Radio 357",
@@ -22,7 +21,7 @@
     "Radio Kampus"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-11-04T01:38:36.801460+00:00",
+  "published_at": "2026-11-04T01:57:30.737767+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -34,7 +33,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5021,
+      "archive_count": 5020,
       "display_name": "Program 2",
       "public_name": "Polskie Radio Program 2",
       "slug": "pr2",
