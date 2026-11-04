@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-11-04T01:28:23.614815+00:00",
+  "generated_at": "2026-11-04T01:38:36.801460+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-11-04T00:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -22,7 +22,7 @@
     "Radio Kampus"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-11-04T01:28:23.614815+00:00",
+  "published_at": "2026-11-04T01:38:36.801460+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -48,7 +48,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5037,
+      "archive_count": 5038,
       "display_name": "Polskie Radio 24",
       "public_name": "Polskie Radio 24",
       "slug": "pr24",
@@ -139,35 +139,35 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5024,
+      "archive_count": 5025,
       "display_name": "Radio Gdańsk",
       "public_name": "Radio Gdańsk",
       "slug": "radiogdansk",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 2494,
+      "archive_count": 2495,
       "display_name": "Radio Gdańsk Regiony",
       "public_name": "Radio Gdańsk Regiony",
       "slug": "radiogdanskregiony",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5023,
+      "archive_count": 5024,
       "display_name": "Radio Gorzów",
       "public_name": "Radio Gorzów",
       "slug": "radiogorzow",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4959,
+      "archive_count": 4960,
       "display_name": "Radio Index",
       "public_name": "Radio Index",
       "slug": "radioindex",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 4730,
+      "archive_count": 4731,
       "display_name": "Radio Kampus",
       "public_name": "Radio Kampus",
       "slug": "radiokampus",
@@ -272,7 +272,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5000,
+      "archive_count": 5001,
       "display_name": "Radio UWM FM",
       "public_name": "Radio UWM FM",
       "slug": "radiouwmfm",
