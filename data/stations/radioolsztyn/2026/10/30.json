@@ -313,7 +313,7 @@
       "year": 2026
     },
     {
-      "archive_status": "error",
+      "archive_status": "ready",
       "completeness_ratio": 1.0,
       "day": 30,
       "hour": 15,
@@ -325,8 +325,8 @@
       "local_timezone_label": "czasu polskiego",
       "month": 10,
       "playable": false,
-      "state": "failed",
-      "status_label": "Nie udało się przygotować nagrania",
+      "state": "publishing",
+      "status_label": "Czeka w kolejce do publikacji",
       "utc_label": "2026-10-30 14:00 UTC",
       "utc_started_at": "2026-10-30T14:00:00+00:00",
       "year": 2026
@@ -389,7 +389,7 @@
       "year": 2026
     },
     {
-      "archive_status": "error",
+      "archive_status": "ready",
       "completeness_ratio": 1.0,
       "day": 30,
       "hour": 19,
@@ -401,8 +401,8 @@
       "local_timezone_label": "czasu polskiego",
       "month": 10,
       "playable": false,
-      "state": "failed",
-      "status_label": "Nie udało się przygotować nagrania",
+      "state": "publishing",
+      "status_label": "Czeka w kolejce do publikacji",
       "utc_label": "2026-10-30 18:00 UTC",
       "utc_started_at": "2026-10-30T18:00:00+00:00",
       "year": 2026
