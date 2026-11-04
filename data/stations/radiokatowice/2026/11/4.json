@@ -1,0 +1,58 @@
+{
+  "archives": [
+    {
+      "archive_item_identifier": "radiokatowice-2026-11-03",
+      "audio_url": "https://archive.org/download/radiokatowice-2026-11-03/radiokatowice_2026-11-03T23-00-00Z.mp3",
+      "completeness_ratio": 1.0,
+      "day": 4,
+      "download_url": "https://archive.org/download/radiokatowice-2026-11-03/radiokatowice_2026-11-03T23-00-00Z.mp3",
+      "duration_seconds": 3600.12,
+      "hour": 0,
+      "hourly_archive_id": 247859,
+      "local_date_label": "04.11.2026",
+      "local_hour_label": "00:00",
+      "local_label": "2026-11-04 00:00 czasu polskiego",
+      "local_started_at": "2026-11-04T00:00:00+01:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 11,
+      "published_at": "2026-11-04T00:28:00.854188+00:00",
+      "published_local_label": "2026-11-04 01:28 czasu polskiego",
+      "remote_filename": "radiokatowice_2026-11-03T23-00-00Z.mp3",
+      "station_slug": "radiokatowice",
+      "status": "published",
+      "utc_label": "2026-11-03 23:00 UTC",
+      "utc_started_at": "2026-11-03T23:00:00+00:00",
+      "year": 2026
+    }
+  ],
+  "day": 4,
+  "hour_slots": [
+    {
+      "archive_status": "published",
+      "completeness_ratio": 1.0,
+      "day": 4,
+      "hour": 0,
+      "hourly_archive_id": 247859,
+      "local_date_label": "04.11.2026",
+      "local_hour_label": "00:00",
+      "local_label": "2026-11-04 00:00 czasu polskiego",
+      "local_started_at": "2026-11-04T00:00:00+01:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 11,
+      "playable": true,
+      "state": "available",
+      "status_label": null,
+      "utc_label": "2026-11-03 23:00 UTC",
+      "utc_started_at": "2026-11-03T23:00:00+00:00",
+      "year": 2026
+    }
+  ],
+  "month": 11,
+  "station": {
+    "display_name": "Radio Katowice",
+    "public_name": "Radio Katowice",
+    "slug": "radiokatowice",
+    "timezone": "Europe/Warsaw"
+  },
+  "year": 2026
+}
