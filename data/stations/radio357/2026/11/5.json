@@ -1,6 +1,30 @@
 {
   "archives": [
     {
+      "archive_item_identifier": "radio357-2026-11-04",
+      "audio_url": "https://archive.org/download/radio357-2026-11-04/radio357_2026-11-04T23-00-00Z.mp3",
+      "completeness_ratio": 1.0,
+      "day": 5,
+      "download_url": "https://archive.org/download/radio357-2026-11-04/radio357_2026-11-04T23-00-00Z.mp3",
+      "duration_seconds": 3600.118,
+      "hour": 0,
+      "hourly_archive_id": 248880,
+      "local_date_label": "05.11.2026",
+      "local_hour_label": "00:00",
+      "local_label": "2026-11-05 00:00 czasu polskiego",
+      "local_started_at": "2026-11-05T00:00:00+01:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 11,
+      "published_at": "2026-11-05T04:34:01.959777+00:00",
+      "published_local_label": "2026-11-05 05:34 czasu polskiego",
+      "remote_filename": "radio357_2026-11-04T23-00-00Z.mp3",
+      "station_slug": "radio357",
+      "status": "published",
+      "utc_label": "2026-11-04 23:00 UTC",
+      "utc_started_at": "2026-11-04T23:00:00+00:00",
+      "year": 2026
+    },
+    {
       "archive_item_identifier": "radio357-2026-11-05",
       "audio_url": "https://archive.org/download/radio357-2026-11-05/radio357_2026-11-05T00-00-00Z.mp3",
       "completeness_ratio": 1.0,
@@ -87,8 +111,8 @@
       "local_started_at": "2026-11-05T04:00:00+01:00",
       "local_timezone_label": "czasu polskiego",
       "month": 11,
-      "published_at": "2026-11-05T04:09:32.237598+00:00",
-      "published_local_label": "2026-11-05 05:09 czasu polskiego",
+      "published_at": "2026-11-05T04:34:48.795116+00:00",
+      "published_local_label": "2026-11-05 05:34 czasu polskiego",
       "remote_filename": "radio357_2026-11-05T03-00-00Z.mp3",
       "station_slug": "radio357",
       "status": "published",
@@ -100,7 +124,7 @@
   "day": 5,
   "hour_slots": [
     {
-      "archive_status": "ready",
+      "archive_status": "published",
       "completeness_ratio": 1.0,
       "day": 5,
       "hour": 0,
@@ -111,9 +135,9 @@
       "local_started_at": "2026-11-05T00:00:00+01:00",
       "local_timezone_label": "czasu polskiego",
       "month": 11,
-      "playable": false,
-      "state": "publishing",
-      "status_label": "Czeka w kolejce do publikacji",
+      "playable": true,
+      "state": "available",
+      "status_label": null,
       "utc_label": "2026-11-04 23:00 UTC",
       "utc_started_at": "2026-11-04T23:00:00+00:00",
       "year": 2026
