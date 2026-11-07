@@ -1,16 +1,21 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-11-07T01:05:52.973747+00:00",
+  "generated_at": "2026-11-07T01:23:20.518673+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-11-07T00:00:00+00:00",
   "latest_archive_hour_stations": [
     "Program 1",
     "Program 2",
-    "Polskie Radio Dzieciom"
+    "Program 3",
+    "Polskie Radio 24",
+    "Radio 357",
+    "Polskie Radio Dzieciom",
+    "Radio Afera",
+    "Radio Akadera"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-11-07T01:05:52.973747+00:00",
+  "published_at": "2026-11-07T01:23:20.518673+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -22,21 +27,21 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5092,
+      "archive_count": 5093,
       "display_name": "Program 2",
       "public_name": "Polskie Radio Program 2",
       "slug": "pr2",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 45532,
+      "archive_count": 45533,
       "display_name": "Program 3",
       "public_name": "Polskie Radio Program 3",
       "slug": "pr3",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5109,
+      "archive_count": 5110,
       "display_name": "Polskie Radio 24",
       "public_name": "Polskie Radio 24",
       "slug": "pr24",
@@ -85,7 +90,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5093,
+      "archive_count": 5094,
       "display_name": "Radio Afera",
       "public_name": "Radio Afera",
       "slug": "afera",
