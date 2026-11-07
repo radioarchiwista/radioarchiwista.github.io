@@ -167,30 +167,6 @@
       "utc_label": "2026-11-07 05:00 UTC",
       "utc_started_at": "2026-11-07T05:00:00+00:00",
       "year": 2026
-    },
-    {
-      "archive_item_identifier": "radioindex-2026-11-07",
-      "audio_url": "https://archive.org/download/radioindex-2026-11-07/radioindex_2026-11-07T07-00-00Z.mp3",
-      "completeness_ratio": 1.0,
-      "day": 7,
-      "download_url": "https://archive.org/download/radioindex-2026-11-07/radioindex_2026-11-07T07-00-00Z.mp3",
-      "duration_seconds": 3600.039,
-      "hour": 8,
-      "hourly_archive_id": 251296,
-      "local_date_label": "07.11.2026",
-      "local_hour_label": "08:00",
-      "local_label": "2026-11-07 08:00 czasu polskiego",
-      "local_started_at": "2026-11-07T08:00:00+01:00",
-      "local_timezone_label": "czasu polskiego",
-      "month": 11,
-      "published_at": "2026-11-07T10:20:58.966770+00:00",
-      "published_local_label": "2026-11-07 11:20 czasu polskiego",
-      "remote_filename": "radioindex_2026-11-07T07-00-00Z.mp3",
-      "station_slug": "radioindex",
-      "status": "published",
-      "utc_label": "2026-11-07 07:00 UTC",
-      "utc_started_at": "2026-11-07T07:00:00+00:00",
-      "year": 2026
     }
   ],
   "day": 7,
@@ -348,7 +324,7 @@
       "year": 2026
     },
     {
-      "archive_status": "published",
+      "archive_status": "ready",
       "completeness_ratio": 1.0,
       "day": 7,
       "hour": 8,
@@ -359,9 +335,9 @@
       "local_started_at": "2026-11-07T08:00:00+01:00",
       "local_timezone_label": "czasu polskiego",
       "month": 11,
-      "playable": true,
-      "state": "available",
-      "status_label": null,
+      "playable": false,
+      "state": "publishing",
+      "status_label": "Czeka w kolejce do publikacji",
       "utc_label": "2026-11-07 07:00 UTC",
       "utc_started_at": "2026-11-07T07:00:00+00:00",
       "year": 2026
