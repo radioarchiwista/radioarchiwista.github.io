@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-11-07T18:48:51.450065+00:00",
+  "generated_at": "2026-11-07T18:57:53.538037+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-11-07T17:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -48,7 +48,7 @@
     "RMF Classic"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-11-07T18:48:51.450065+00:00",
+  "published_at": "2026-11-07T18:57:53.538037+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -158,7 +158,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5112,
+      "archive_count": 5113,
       "display_name": "Radio Dla Ciebie",
       "public_name": "Radio Dla Ciebie",
       "slug": "rdc",
@@ -319,7 +319,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5113,
+      "archive_count": 5114,
       "display_name": "Radio Zielona Góra",
       "public_name": "Radio Zielona Góra",
       "slug": "radiozielonagora",
@@ -347,7 +347,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3633,
+      "archive_count": 3632,
       "display_name": "RMF24",
       "public_name": "RMF24",
       "slug": "rmf24",
