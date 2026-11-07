@@ -1,8 +1,8 @@
 {
-  "archive_count": 250869,
+  "archive_count": 250871,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-11-07T11:52:57.403195+00:00",
+  "generated_at": "2026-11-07T12:01:06.696057+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-11-07T10:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -49,7 +49,7 @@
     "RMF Classic"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-11-07T11:52:57.403195+00:00",
+  "published_at": "2026-11-07T12:01:06.696057+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
