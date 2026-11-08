@@ -479,6 +479,30 @@
       "utc_label": "2026-11-08 19:00 UTC",
       "utc_started_at": "2026-11-08T19:00:00+00:00",
       "year": 2026
+    },
+    {
+      "archive_item_identifier": "rmf24-2026-11-08",
+      "audio_url": "https://archive.org/download/rmf24-2026-11-08/rmf24_2026-11-08T20-00-00Z.mp3",
+      "completeness_ratio": 1.0,
+      "day": 8,
+      "download_url": "https://archive.org/download/rmf24-2026-11-08/rmf24_2026-11-08T20-00-00Z.mp3",
+      "duration_seconds": 3600.144,
+      "hour": 21,
+      "hourly_archive_id": 252911,
+      "local_date_label": "08.11.2026",
+      "local_hour_label": "21:00",
+      "local_label": "2026-11-08 21:00 czasu polskiego",
+      "local_started_at": "2026-11-08T21:00:00+01:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 11,
+      "published_at": "2026-11-08T21:42:37.213427+00:00",
+      "published_local_label": "2026-11-08 22:42 czasu polskiego",
+      "remote_filename": "rmf24_2026-11-08T20-00-00Z.mp3",
+      "station_slug": "rmf24",
+      "status": "published",
+      "utc_label": "2026-11-08 20:00 UTC",
+      "utc_started_at": "2026-11-08T20:00:00+00:00",
+      "year": 2026
     }
   ],
   "day": 8,
@@ -883,7 +907,7 @@
       "year": 2026
     },
     {
-      "archive_status": "ready",
+      "archive_status": "published",
       "completeness_ratio": 1.0,
       "day": 8,
       "hour": 21,
@@ -894,9 +918,9 @@
       "local_started_at": "2026-11-08T21:00:00+01:00",
       "local_timezone_label": "czasu polskiego",
       "month": 11,
-      "playable": false,
-      "state": "publishing",
-      "status_label": "Czeka w kolejce do publikacji",
+      "playable": true,
+      "state": "available",
+      "status_label": null,
       "utc_label": "2026-11-08 20:00 UTC",
       "utc_started_at": "2026-11-08T20:00:00+00:00",
       "year": 2026
