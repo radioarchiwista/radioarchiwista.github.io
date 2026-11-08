@@ -1,8 +1,8 @@
 {
-  "archive_count": 251426,
+  "archive_count": 251444,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-11-08T02:25:14.505226+00:00",
+  "generated_at": "2026-11-08T02:37:18.685861+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-11-08T01:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -29,10 +29,11 @@
     "Radio Lublin",
     "Radio Luz",
     "Radio Maryja",
-    "Radio Łódź"
+    "Radio Łódź",
+    "RMF Classic"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-11-08T02:25:14.505226+00:00",
+  "published_at": "2026-11-08T02:37:18.685861+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
