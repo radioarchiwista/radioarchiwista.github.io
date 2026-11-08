@@ -1,30 +1,6 @@
 {
   "archives": [
     {
-      "archive_item_identifier": "radiokielce-2026-11-06",
-      "audio_url": "https://archive.org/download/radiokielce-2026-11-06/radiokielce_2026-11-06T23-00-00Z.mp3",
-      "completeness_ratio": 0.9997,
-      "day": 7,
-      "download_url": "https://archive.org/download/radiokielce-2026-11-06/radiokielce_2026-11-06T23-00-00Z.mp3",
-      "duration_seconds": 3596.664,
-      "hour": 0,
-      "hourly_archive_id": 250955,
-      "local_date_label": "07.11.2026",
-      "local_hour_label": "00:00",
-      "local_label": "2026-11-07 00:00 czasu polskiego",
-      "local_started_at": "2026-11-07T00:00:00+01:00",
-      "local_timezone_label": "czasu polskiego",
-      "month": 11,
-      "published_at": "2026-11-07T00:33:04.765336+00:00",
-      "published_local_label": "2026-11-07 01:33 czasu polskiego",
-      "remote_filename": "radiokielce_2026-11-06T23-00-00Z.mp3",
-      "station_slug": "radiokielce",
-      "status": "published",
-      "utc_label": "2026-11-06 23:00 UTC",
-      "utc_started_at": "2026-11-06T23:00:00+00:00",
-      "year": 2026
-    },
-    {
       "archive_item_identifier": "radiokielce-2026-11-07",
       "audio_url": "https://archive.org/download/radiokielce-2026-11-07/radiokielce_2026-11-07T00-00-00Z.mp3",
       "completeness_ratio": 0.9988,
@@ -580,7 +556,7 @@
   "day": 7,
   "hour_slots": [
     {
-      "archive_status": "published",
+      "archive_status": "error",
       "completeness_ratio": 0.9997,
       "day": 7,
       "hour": 0,
@@ -591,9 +567,9 @@
       "local_started_at": "2026-11-07T00:00:00+01:00",
       "local_timezone_label": "czasu polskiego",
       "month": 11,
-      "playable": true,
-      "state": "available",
-      "status_label": null,
+      "playable": false,
+      "state": "failed",
+      "status_label": "Nie udało się przygotować nagrania",
       "utc_label": "2026-11-06 23:00 UTC",
       "utc_started_at": "2026-11-06T23:00:00+00:00",
       "year": 2026
