@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-11-08T08:38:31.364616+00:00",
+  "generated_at": "2026-11-08T08:55:48.600934+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-11-08T07:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -50,7 +50,7 @@
     "RMF24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-11-08T08:38:31.364616+00:00",
+  "published_at": "2026-11-08T08:55:48.600934+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -83,7 +83,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5123,
+      "archive_count": 5122,
       "display_name": "Radio 357",
       "public_name": "Radio 357",
       "slug": "radio357",
@@ -188,7 +188,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5060,
+      "archive_count": 5056,
       "display_name": "Radio Index",
       "public_name": "Radio Index",
       "slug": "radioindex",
