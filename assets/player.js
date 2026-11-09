@@ -96,6 +96,11 @@
   let activePlaybackState = null;
   let allStations = extractStationsFromSelectOptions();
   let catalogVersionToken = "";
+  let isScrubbingSeek = false;
+  let pendingSeekSeconds = null;
+  let lastSeekCommitAt = 0;
+  let lastTransferUpdateAt = 0;
+  let statusIsTransient = false;
   const yearIndexCache = new Map();
   const monthIndexCache = new Map();
   const dayCatalogCache = new Map();
@@ -253,14 +258,38 @@
     audio.playbackRate = Number.isFinite(nextRate) ? nextRate : 1;
   });
 
+  seekInput.addEventListener("pointerdown", () => {
+    isScrubbingSeek = true;
+  });
+
   seekInput.addEventListener("input", () => {
     if (!Number.isFinite(audio.duration)) {
       return;
     }
-    audio.currentTime = Number(seekInput.value);
+    isScrubbingSeek = true;
+    pendingSeekSeconds = Number(seekInput.value);
+    updateSeekPreview(pendingSeekSeconds);
+    // Przeciąganie suwaka generuje kilkadziesiąt zdarzeń na sekundę.
+    // Każde ustawienie currentTime przerywa pobieranie i startuje nowe,
+    // więc wysyłamy je najwyżej raz na 900 ms, a po zwolnieniu suwaka zawsze.
+    if (performance.now() - lastSeekCommitAt >= 900) {
+      commitPendingSeek();
+    }
+  });
+
+  seekInput.addEventListener("change", () => {
+    isScrubbingSeek = false;
+    pendingSeekSeconds = Number(seekInput.value);
+    commitPendingSeek();
+  });
+
+  seekInput.addEventListener("blur", () => {
+    isScrubbingSeek = false;
   });
 
   audio.addEventListener("loadedmetadata", () => {
+    pendingSeekSeconds = null;
+    isScrubbingSeek = false;
     seekInput.disabled = false;
     seekInput.max = String(Math.floor(audio.duration || 0));
     durationNode.textContent = formatDuration(audio.duration);
@@ -285,6 +314,28 @@
 
   audio.addEventListener("error", () => {
     void handleAudioPlaybackError();
+  });
+
+  audio.addEventListener("waiting", () => {
+    if (!audio.paused) {
+      setStatus("Ładuję dane nagrania z archive.org...", { transient: true });
+    }
+  });
+
+  audio.addEventListener("stalled", () => {
+    if (!audio.paused) {
+      setStatus("archive.org wolno wysyła dane. Czekam na kolejny fragment...", {
+        transient: true,
+      });
+    }
+  });
+
+  audio.addEventListener("playing", () => {
+    restorePlaybackStatus();
+  });
+
+  audio.addEventListener("seeked", () => {
+    restorePlaybackStatus();
   });
 
   if (navigator.mediaDevices && typeof navigator.mediaDevices.addEventListener === "function") {
@@ -1003,12 +1054,37 @@
     return Array.from(new Set(values));
   }
 
+  function updateSeekPreview(seconds) {
+    const label = formatDuration(seconds);
+    currentTimeNode.textContent = label;
+    const valueText = `${label} z ${formatDuration(audio.duration || 0)}`;
+    seekInput.setAttribute("aria-valuetext", valueText);
+    seekInput.setAttribute("title", valueText);
+  }
+
+  function commitPendingSeek() {
+    if (pendingSeekSeconds === null) {
+      return;
+    }
+    const target = Number(pendingSeekSeconds);
+    pendingSeekSeconds = null;
+    lastSeekCommitAt = performance.now();
+    if (!Number.isFinite(target) || !Number.isFinite(audio.duration)) {
+      return;
+    }
+    const safeTarget = Math.max(0, Math.min(target, Math.max(audio.duration - 1, 0)));
+    if (Math.abs(audio.currentTime - safeTarget) < 1) {
+      return;
+    }
+    audio.currentTime = safeTarget;
+  }
+
   function updateTimeReadout() {
     const currentTime = formatDuration(audio.currentTime || 0);
     const duration = formatDuration(audio.duration || 0);
     currentTimeNode.textContent = currentTime;
     durationNode.textContent = duration;
-    if (!seekInput.disabled) {
+    if (!seekInput.disabled && !isScrubbingSeek && pendingSeekSeconds === null) {
       seekInput.value = String(Math.floor(audio.currentTime || 0));
     }
     const valueText = `${currentTime} z ${duration}`;
@@ -1032,8 +1108,17 @@
     return `${String(minutes).padStart(2, "0")}:${String(seconds).padStart(2, "0")}`;
   }
 
-  function setStatus(message) {
+  function setStatus(message, options = {}) {
+    statusIsTransient = Boolean(options.transient);
     statusNode.textContent = message;
+  }
+
+  function restorePlaybackStatus() {
+    if (!statusIsTransient) {
+      return;
+    }
+    statusIsTransient = false;
+    statusNode.textContent = "Odtwarzanie z archive.org.";
   }
 
   function setTransferStatus(message, options = {}) {
@@ -1247,6 +1332,9 @@
     if (!canWarmPlaybackSource(sourceUrl)) {
       return;
     }
+    if (navigator.connection && navigator.connection.saveData === true) {
+      return;
+    }
     const cacheKey = buildLocalAudioCacheKey(archive, sourceUrl);
     playbackState.backgroundFetchKey = cacheKey;
 
@@ -1264,20 +1352,17 @@
     const controller = new AbortController();
     playbackState.backgroundFetchController = controller;
     try {
-      const response = await fetch(sourceUrl, {
-        cache: "force-cache",
-        credentials: "omit",
-        mode: "cors",
-        signal: controller.signal,
+      const blob = await downloadPlaybackCopy(playbackState, sourceUrl, controller.signal);
+      if (!blob || !isActivePlaybackState(playbackState)) {
+        return;
+      }
+      const response = new Response(blob, {
+        headers: { "content-type": blob.type || "audio/mpeg" },
+        status: 200,
+        statusText: "OK",
       });
-      if (!response.ok) {
-        return;
-      }
-      const blob = await response.blob();
-      if (!isActivePlaybackState(playbackState)) {
-        return;
-      }
       await persistLocalPlaybackCopy(cacheKey, response, blob);
+      clearTransferStatus();
       if (!isActivePlaybackState(playbackState)) {
         return;
       }
@@ -1286,6 +1371,7 @@
         announce: true,
       });
     } catch (error) {
+      clearTransferStatus();
       if (error?.name !== "AbortError") {
         console.warn("Nie udało się dociągnąć pliku audio w tle.", error);
       }
@@ -1294,6 +1380,127 @@
         playbackState.backgroundFetchController = null;
       }
     }
+  }
+
+  // Media element i kopia w tle nie mogą jednocześnie wyczerpywać łącza.
+  // Pobieramy porcjami i czekamy, gdy odtwarzanie nie ma zapasu bufora.
+  async function downloadPlaybackCopy(playbackState, sourceUrl, signal) {
+    const chunks = [];
+    let received = 0;
+    let totalBytes = 0;
+
+    while (isActivePlaybackState(playbackState) && !signal.aborted) {
+      const headers = received > 0 ? { Range: `bytes=${received}-` } : {};
+      const response = await fetch(sourceUrl, {
+        headers,
+        cache: "default",
+        credentials: "omit",
+        mode: "cors",
+        signal,
+      });
+      if (!response.ok) {
+        return null;
+      }
+      if (received > 0 && response.status !== 206) {
+        // Serwer zignorował zakres. Kończymy bez kopii, zamiast sklejać zły plik.
+        return null;
+      }
+      if (received === 0) {
+        totalBytes = Number(response.headers.get("content-length") || 0);
+      }
+      const reader = response.body?.getReader();
+      if (!reader) {
+        return null;
+      }
+      while (true) {
+        if (signal.aborted) {
+          await reader.cancel().catch(() => {});
+          return null;
+        }
+        const { done, value } = await reader.read();
+        if (done) {
+          break;
+        }
+        chunks.push(value);
+        received += value.length;
+        reportTransferProgress(received, totalBytes);
+        if (isPlaybackStarving()) {
+          await waitForPlaybackHeadroom(signal);
+        }
+      }
+      if (!totalBytes || received >= totalBytes) {
+        break;
+      }
+      await pauseFor(signal, 120);
+    }
+
+    if (!received) {
+      return null;
+    }
+    return new Blob(chunks, { type: "audio/mpeg" });
+  }
+
+  function reportTransferProgress(receivedBytes, totalBytes) {
+    const now = performance.now();
+    if (now - lastTransferUpdateAt < 300 && receivedBytes !== totalBytes) {
+      return;
+    }
+    lastTransferUpdateAt = now;
+    if (!totalBytes) {
+      setTransferStatus(`Pobieram kopię nagrania: ${formatByteCount(receivedBytes)}`, {
+        indeterminate: true,
+      });
+      return;
+    }
+    const percent = Math.round((receivedBytes / totalBytes) * 100);
+    setTransferStatus(
+      `Pobieram kopię nagrania w tle: ${percent}% (${formatByteCount(receivedBytes)} z ${formatByteCount(totalBytes)})`,
+      { percent },
+    );
+  }
+
+  function isPlaybackStarving() {
+    if (audio.paused || !audio.src) {
+      return false;
+    }
+    if (audio.readyState < 3) {
+      return true;
+    }
+    return bufferedAheadSeconds() < 12;
+  }
+
+  function bufferedAheadSeconds() {
+    const position = audio.currentTime;
+    for (let index = 0; index < audio.buffered.length; index += 1) {
+      if (audio.buffered.start(index) <= position && audio.buffered.end(index) >= position) {
+        return audio.buffered.end(index) - position;
+      }
+    }
+    return 0;
+  }
+
+  async function waitForPlaybackHeadroom(signal) {
+    const deadline = performance.now() + 60_000;
+    while (!signal.aborted && performance.now() < deadline) {
+      if (!isPlaybackStarving()) {
+        return;
+      }
+      await pauseFor(signal, 400);
+    }
+  }
+
+  function pauseFor(signal, milliseconds) {
+    return new Promise((resolve) => {
+      const handleAbort = () => {
+        window.clearTimeout(timerId);
+        resolve();
+      };
+      const timerId = window.setTimeout(() => {
+        signal.removeEventListener("abort", handleAbort);
+        resolve();
+      }, milliseconds);
+      signal.addEventListener("abort", handleAbort, { once: true });
+    });
   }
 
   function canWarmPlaybackSource(sourceUrl) {
@@ -1906,10 +2113,14 @@
     if (!Number.isFinite(audio.duration) || audio.duration <= 0) {
       return;
     }
+    pendingSeekSeconds = null;
+    isScrubbingSeek = false;
     audio.currentTime = Math.max(0, Math.min(audio.currentTime + deltaSeconds, audio.duration));
   }
 
   function seekToPercent(percent) {
+    pendingSeekSeconds = null;
+    isScrubbingSeek = false;
     const normalizedPercent = Math.max(0, Math.min(percent, 100));
     const targetTime =
       normalizedPercent === 0 ? 0 : audio.duration * (normalizedPercent / 100);
