@@ -1426,7 +1426,12 @@
           await reader.cancel().catch(() => {});
           return null;
         }
-        const { done, value } = await reader.read();
+        const result = await readWithStallTimeout(reader, 25000);
+        if (result.stalled || result.failed) {
+          await reader.cancel().catch(() => {});
+          return null;
+        }
+        const { done, value } = result;
         if (done) {
           break;
         }
@@ -1443,10 +1448,29 @@
       await pauseFor(signal, 120);
     }
 
-    if (!received) {
+    if (!received || (totalBytes && received < totalBytes)) {
       return null;
     }
     return new Blob(chunks, { type: "audio/mpeg" });
+  }
+
+  // archive.org potrafi zawiesić odpowiedź na dłużej niż minutę. Kopia jest
+  // dodatkiem, więc po 25 s ciszy przestajemy ją ciągnąć i zostawiamy
+  // odtwarzanie elementowi audio.
+  function readWithStallTimeout(reader, timeoutMs) {
+    return new Promise((resolve) => {
+      const timer = setTimeout(() => resolve({ stalled: true }), timeoutMs);
+      reader.read().then(
+        (result) => {
+          clearTimeout(timer);
+          resolve(result);
+        },
+        (error) => {
+          clearTimeout(timer);
+          resolve({ failed: error });
+        },
+      );
+    });
   }
 
   function reportTransferProgress(receivedBytes, totalBytes) {
