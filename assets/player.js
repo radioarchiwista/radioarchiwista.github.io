@@ -48,6 +48,12 @@
   // tyle samo żądań do archive.org. Pozycję pokazujemy od razu, a skok wysyłamy
   // jedną decyzją, gdy słuchacz przestanie naciskać.
   const shortcutSeekCoalesceMs = 220;
+  // Przy trzymaniu klawisza przeglądarka wysyła powtórzenia co ~30 ms. Gdyby
+  // każde z nich podmieniało tekst statusu, region aria-live dostawałby lawinę
+  // zmian i czytnik nie powiedziałby nic. Mówimy więc pierwsze naciśnięcie od
+  // razu, a kolejne nie częściej niż co 800 ms, za każdym razem z sumą całej
+  // serii: "wstecz o 50 sekund".
+  const seekAnnounceIntervalMs = 800;
 
   // Dwie kopie w cache i jedna godzina w pamięci to maksimum.
   const maxLocalAudioCacheEntries = 2;
@@ -125,6 +131,11 @@
   let shortSeekIntent = null;
   let shortSeekLabel = null;
   let previewSeekTarget = null;
+  // Początek bieżącej serii skrótów i czas ostatniego ogłoszenia. Służą do
+  // tego, żeby przy trzymaniu klawisza słuchacz słyszał narastającą sumę,
+  // a nie kilkadziesiąt podmian tekstu na sekundę.
+  let seekSeriesBase = null;
+  let seekAnnouncedAt = -Infinity;
   // Ile razy zawróciliśmy spóźnione "seeked" starego skoku. Jedno ponowienie
   // wystarczy; bez tego ograniczenia plik o zaniżonej długości mógłby pętlić.
   let staleSeekRetries = 0;
@@ -2323,6 +2334,14 @@
     if (shortSeekTimerId !== null) {
       window.clearTimeout(shortSeekTimerId);
     }
+    // Początek serii: miejsce, od którego liczy się suma "o ile" pokazywana
+    // przy trzymaniu klawisza. Bierzemy pozycję, którą słuchacz widzi teraz.
+    // Zerujemy też zegar ogłoszeń, żeby pierwsze naciśnięcie nowej serii
+    // zawsze było słyszalne, nawet gdy poprzednia skończyła się przed chwilą.
+    if (seekSeriesBase === null) {
+      seekSeriesBase = currentSeekPosition();
+      seekAnnouncedAt = -Infinity;
+    }
     shortSeekIntent = requested;
     shortSeekLabel = label || null;
     // Pokaz docelowej pozycji: odczyt czasu i suwak ruszają natychmiast,
@@ -2334,6 +2353,7 @@
       shortSeekTimerId = null;
       shortSeekIntent = null;
       shortSeekLabel = null;
+      seekSeriesBase = null;
       if (Number.isFinite(target)) {
         seekTo(target, targetLabel || undefined);
       }
@@ -2347,16 +2367,66 @@
     }
     shortSeekIntent = null;
     shortSeekLabel = null;
+    seekSeriesBase = null;
   }
 
-  // Upiększa od razu odczyt czasu i suwak, zanim poleci prawdziwy skok.
+  // Upiękcza od razu odczyt czasu i suwak, zanim poleci prawdziwy skok.
+  //
+  // Ogłoszenie dla czytnika ma własny rytm. Przy trzymaniu klawisza funkcja
+  // bywa wołana kilkadziesiąt razy na sekundę, a region aria-live z
+  // aria-atomic ogłasza całą treść od nowa przy każdej podmianie. Czytnik
+  // dostawał wtedy strumień zmian i milkł. Dlatego pierwsze naciśnięcie mówi
+  // od razu, a kolejne nie częściej niż co seekAnnounceIntervalMs, i zamiast
+  // samego celu podają sumę przesunięcia od początku serii.
   function peekSeekTarget(targetSeconds, label) {
     previewSeekTarget = Math.max(0, Number(targetSeconds) || 0);
     updateTimeReadout();
+    const now = performance.now();
+    if (now - seekAnnouncedAt < seekAnnounceIntervalMs) {
+      return;
+    }
+    seekAnnouncedAt = now;
     const positionLabel = label || formatDuration(previewSeekTarget);
-    setStatus(`Przewijam na ${positionLabel}. Czekam na dane z archive.org...`, {
+    const shift = seekSeriesBase === null ? 0 : previewSeekTarget - seekSeriesBase;
+    const shiftLabel =
+      Math.abs(shift) >= 1
+        ? `${shift < 0 ? "wstecz" : "do przodu"} o ${formatSecondsInWords(Math.abs(shift))}, `
+        : "";
+    setStatus(`Przewijam ${shiftLabel}na ${positionLabel}. Czekam na dane z archive.org...`, {
       transient: true,
     });
+  }
+
+  // Odmiana sekund i minut do komunikatów czytanych na głos. Liczby w formacie
+  // zegara (00:50) czytnik potrafi przeczytać jako "zero zero pięćdziesiąt",
+  // a słuchacz przy trzymaniu klawisza chce wiedzieć po prostu, o ile poszło.
+  function formatSecondsInWords(totalSeconds) {
+    const rounded = Math.max(0, Math.round(totalSeconds));
+    if (rounded < 60) {
+      return `${rounded} ${pluralPl(rounded, "sekundę", "sekundy", "sekund")}`;
+    }
+    const minutes = Math.floor(rounded / 60);
+    const seconds = rounded % 60;
+    const minuteLabel = `${minutes} ${pluralPl(minutes, "minutę", "minuty", "minut")}`;
+    if (seconds === 0) {
+      return minuteLabel;
+    }
+    return `${minuteLabel} ${formatSecondsInWords(seconds)}`;
+  }
+
+  // Polska odmiana po liczbie: 1 sekundę, 2 sekundy, 5 sekund, 12 sekund,
+  // 22 sekundy. Bez tego komunikaty brzmiały "5 minuty" albo "22 sekund".
+  function pluralPl(count, one, few, many) {
+    const rounded = Math.abs(Math.round(count));
+    if (rounded === 1) {
+      return one;
+    }
+    const last = rounded % 10;
+    const lastTwo = rounded % 100;
+    if (last >= 2 && last <= 4 && (lastTwo < 12 || lastTwo > 14)) {
+      return few;
+    }
+    return many;
   }
 
   // Jedno miejsce, w którym player zmienia pozycję. Po przewinięciu pilnujemy,
