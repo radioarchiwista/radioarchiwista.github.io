@@ -98,7 +98,6 @@
   let catalogVersionToken = "";
   let isScrubbingSeek = false;
   let pendingSeekSeconds = null;
-  let lastSeekCommitAt = 0;
   let lastTransferUpdateAt = 0;
   let statusIsTransient = false;
   const yearIndexCache = new Map();
@@ -269,12 +268,17 @@
     isScrubbingSeek = true;
     pendingSeekSeconds = Number(seekInput.value);
     updateSeekPreview(pendingSeekSeconds);
-    // Przeciąganie suwaka generuje kilkadziesiąt zdarzeń na sekundę.
-    // Każde ustawienie currentTime przerywa pobieranie i startuje nowe,
-    // więc wysyłamy je najwyżej raz na 900 ms, a po zwolnieniu suwaka zawsze.
-    if (performance.now() - lastSeekCommitAt >= 900) {
-      commitPendingSeek();
+    // Przeciąganie generuje kilkadziesiąt zdarzeń na sekundę, a każde
+    // ustawienie currentTime przerywa pobieranie i zleca nowe. Przewijamy
+    // dopiero po zwolnieniu suwaka; w trakcie tylko pokazujemy podgląd czasu.
+  });
+
+  seekInput.addEventListener("pointerup", () => {
+    if (pendingSeekSeconds === null) {
+      return;
     }
+    isScrubbingSeek = false;
+    commitPendingSeek();
   });
 
   seekInput.addEventListener("change", () => {
@@ -1068,7 +1072,6 @@
     }
     const target = Number(pendingSeekSeconds);
     pendingSeekSeconds = null;
-    lastSeekCommitAt = performance.now();
     if (!Number.isFinite(target) || !Number.isFinite(audio.duration)) {
       return;
     }
@@ -1080,6 +1083,12 @@
   }
 
   function updateTimeReadout() {
+    if (isScrubbingSeek && pendingSeekSeconds !== null) {
+      // W trakcie przeciągania odczyt pokazuje pozycję z suwaka,
+      // a nie tę, z której akurat gra odtwarzacz.
+      updateSeekPreview(pendingSeekSeconds);
+      return;
+    }
     const currentTime = formatDuration(audio.currentTime || 0);
     const duration = formatDuration(audio.duration || 0);
     currentTimeNode.textContent = currentTime;
