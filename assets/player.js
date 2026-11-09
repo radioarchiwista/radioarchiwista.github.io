@@ -48,6 +48,13 @@
   // tyle samo żądań do archive.org. Pozycję pokazujemy od razu, a skok wysyłamy
   // jedną decyzją, gdy słuchacz przestanie naciskać.
   const shortcutSeekCoalesceMs = 220;
+  // Przy trzymaniu klawisza słuchacz chce słyszeć, jak nagranie przelatuje:
+  // każdy skok odtwarza krótki fragment i dopiero następny go przerywa. Gdy
+  // skoków jest kilkadziesiąt na sekundę, przeglądarka nie zdąża odtworzyć
+  // ani jednego i zostaje cisza. Ten odstęp daje około czterech skoków na
+  // sekundę, czyli słyszalne porcje, a przy okazji ogranicza liczbę zapytań
+  // do archive.org.
+  const shortcutSeekThrottleMs = 240;
   // Przy trzymaniu klawisza przeglądarka wysyła powtórzenia co ~30 ms. Gdyby
   // każde z nich podmieniało tekst statusu, region aria-live dostawałby lawinę
   // zmian i czytnik nie powiedziałby nic. Mówimy więc pierwsze naciśnięcie od
@@ -135,6 +142,8 @@
   let shortSeekIntent = null;
   let shortSeekLabel = null;
   let previewSeekTarget = null;
+  // Tempo prawdziwych skoków przy trzymaniu klawisza: kiedy poszedł ostatni.
+  let lastIssuedSeekAt = -Infinity;
   // Początek bieżącej serii skrótów i czas ostatniego ogłoszenia. Służą do
   // tego, żeby przy trzymaniu klawisza słuchacz słyszał narastającą sumę,
   // a nie kilkadziesiąt podmian tekstu na sekundę.
@@ -2365,32 +2374,44 @@
     // Pokaz docelowej pozycji: odczyt czasu i suwak ruszają natychmiast,
     // choć zadania do archive.org jeszcze nie ma.
     peekSeekTarget(requested, label, { waiting: !playingLocalCopy });
-    if (playingLocalCopy) {
-      // Lokalna kopia: skoki są darmowe, więc nie ma czego scalać. Zdejmujemy
-      // tylko ewentualny timer sieciowy, nie ruszając bazy serii.
-      if (shortSeekTimerId !== null) {
-        window.clearTimeout(shortSeekTimerId);
-        shortSeekTimerId = null;
-      }
-      shortSeekIntent = null;
-      shortSeekLabel = null;
-      seekTo(requested, label);
-      return;
-    }
+    // Jedna reguła tempa dla obu ścieżek: prawdziwy skok nie częściej niż co
+    // shortcutSeekThrottleMs, a ostatnia intencja serii nie może przepaść.
+    //
+    // Po co odstęp: przy trzymaniu klawisza przychodzi kilkadziesiąt zdarzeń
+    // na sekundę. Bez odstępu każde ustawienie currentTime przerywało
+    // odtwarzanie, zanim zabrzmiał choćby fragment, i trzymanie brzmiało jak
+    // cisza. Przy odstępie nagranie gra krótką porcję, następny skok ją
+    // przerywa, więc słychać przelatywanie. Na kopii lokalnej dane są
+    // w pamięci, więc porcje są wyraźne; na archive.org dodatkowo ogranicza
+    // to liczbę zapytań z kilkudziesięciu na sekundę do kilku.
+    //
+    // shortSeekIntent trzyma ostatnią intencję do chwili wykonania, bo
+    // currentSeekPosition liczy od niej. Bez tego kolejne naciśnięcia w
+    // trakcie odstępu liczyłyby od pozycji poprzedniego skoku i cofały się.
     if (shortSeekTimerId !== null) {
       window.clearTimeout(shortSeekTimerId);
-    }
-    shortSeekTimerId = window.setTimeout(() => {
-      const target = shortSeekIntent;
-      const targetLabel = shortSeekLabel;
       shortSeekTimerId = null;
-      shortSeekIntent = null;
-      shortSeekLabel = null;
-      seekSeriesBase = null;
-      if (Number.isFinite(target)) {
-        seekTo(target, targetLabel || undefined);
-      }
-    }, shortcutSeekCoalesceMs);
+    }
+    const now = performance.now();
+    const wait = shortcutSeekThrottleMs - (now - lastIssuedSeekAt);
+    if (wait > 0) {
+      shortSeekTimerId = window.setTimeout(() => {
+        shortSeekTimerId = null;
+        const target = shortSeekIntent;
+        const targetLabel = shortSeekLabel;
+        shortSeekIntent = null;
+        shortSeekLabel = null;
+        if (Number.isFinite(target)) {
+          lastIssuedSeekAt = performance.now();
+          seekTo(target, targetLabel || undefined);
+        }
+      }, wait);
+      return;
+    }
+    shortSeekIntent = null;
+    shortSeekLabel = null;
+    lastIssuedSeekAt = now;
+    seekTo(requested, label);
   }
 
   function clearShortSeekTimer() {
@@ -2400,170 +2421,12 @@
     }
     shortSeekIntent = null;
     shortSeekLabel = null;
+    lastIssuedSeekAt = -Infinity;
     seekSeriesBase = null;
     if (seekSeriesExpireId !== null) {
       window.clearTimeout(seekSeriesExpireId);
       seekSeriesExpireId = null;
     }
-  }
-
-  // Słyszalny tik przy przewijaniu. Czytnik tu nie wystarcza: przy trzymaniu
-  // klawisza słuchacz chce słyszeć, że pozycja się zmienia, a nie tylko
-  // przeczytać o tym w statusie. Tik leci do tego samego wyjścia co nagranie
-  // (jeśli przeglądarka pozwala ustawić sink dla AudioContext).
-  //
-  // Wysokość narasta w serii naciśnięć, więc przy trzymaniu słychać ruch,
-  // a nie serię identycznych pisków. Odstęp seekCueMinGapMs chroni przed
-  // zlaniem się tików w jeden warkot przy powtarzaniu klawisza.
-  const seekCueMinGapMs = 90;
-  const seekCueStorageKey = "radioarchiwista.seekCue";
-  let seekCueContext = null;
-  let seekCueLastAt = -Infinity;
-  let seekCueSeriesCount = 0;
-  let seekCueSeriesAt = 0;
-  let seekCueEnabled = readSeekCuePreference();
-
-  function readSeekCuePreference() {
-    try {
-      const stored = window.localStorage.getItem(seekCueStorageKey);
-      return stored === null ? true : stored === "1";
-    } catch (error) {
-      // Prywatne okno bez dostępu do magazynu: zostaje domyślnie włączone.
-      return true;
-    }
-  }
-
-  function storeSeekCuePreference(enabled) {
-    try {
-      window.localStorage.setItem(seekCueStorageKey, enabled ? "1" : "0");
-    } catch (error) {
-      // Brak dostępu do magazynu nie jest powodem, żeby psuć przewijanie.
-    }
-  }
-
-  function toggleSeekCue() {
-    seekCueEnabled = !seekCueEnabled;
-    storeSeekCuePreference(seekCueEnabled);
-    if (seekCueToggle) {
-      seekCueToggle.textContent = seekCueEnabled
-        ? "Dźwięk przewijania: włączony"
-        : "Dźwięk przewijania: wyłączony";
-      seekCueToggle.setAttribute("aria-pressed", seekCueEnabled ? "true" : "false");
-    }
-    setStatus(
-      seekCueEnabled
-        ? "Dźwięk przewijania włączony."
-        : "Dźwięk przewijania wyłączony.",
-    );
-  }
-
-  // Przełącznik tworzymy z kodu, żeby nie dokładać go do statycznego HTML.
-  // Dźwięk w nagraniu jest inwazyjny, więc słuchacz musi móc go wyłączyć.
-  let seekCueToggle = null;
-
-  function ensureSeekCueToggle() {
-    if (seekCueToggle) {
-      return;
-    }
-    // Wstawiamy obok przycisków odtwarzania, nie obok ukrytego elementu audio.
-    const bar = document.getElementById("player-control-bar") ||
-      document.querySelector(".player-control-bar");
-    if (!bar) {
-      return;
-    }
-    const button = document.createElement("button");
-    button.type = "button";
-    button.id = "player-seek-cue-toggle";
-    button.className = "button button-secondary player-button player-seek-cue-toggle";
-    button.setAttribute("aria-pressed", seekCueEnabled ? "true" : "false");
-    button.textContent = seekCueEnabled
-      ? "Dźwięk przewijania: włączony"
-      : "Dźwięk przewijania: wyłączony";
-    button.addEventListener("click", toggleSeekCue);
-    bar.appendChild(button);
-    seekCueToggle = button;
-  }
-
-  function ensureSeekCueContext() {
-    if (seekCueContext) {
-      return seekCueContext;
-    }
-    const Ctor = window.AudioContext || window.webkitAudioContext;
-    if (!Ctor) {
-      return null;
-    }
-    try {
-      seekCueContext = new Ctor();
-    } catch (error) {
-      return null;
-    }
-    syncSeekCueSink();
-    return seekCueContext;
-  }
-
-  // Tik ma iść tam, gdzie nagranie. Bez tego przy wybranym innym urządzeniu
-  // sygnał poleciałby na domyślne wyjście systemu i słuchacz by go nie usłyszał.
-  function syncSeekCueSink() {
-    if (!seekCueContext || typeof seekCueContext.setSinkId !== "function") {
-      return;
-    }
-    try {
-      const sinkId = getCurrentSinkId();
-      if (sinkId && sinkId !== "default") {
-        void seekCueContext.setSinkId(sinkId).catch(() => {});
-      }
-    } catch (error) {
-      // Brak zgody albo starsza przeglądarka: tik pójdzie na domyślne wyjście.
-    }
-  }
-
-  function playSeekCue(forward) {
-    if (!seekCueEnabled || audio.muted) {
-      return;
-    }
-    const now = performance.now();
-    if (now - seekCueLastAt < seekCueMinGapMs) {
-      return;
-    }
-    seekCueLastAt = now;
-    seekCueSeriesCount =
-      now - seekCueSeriesAt < 500 ? Math.min(12, seekCueSeriesCount + 1) : 0;
-    seekCueSeriesAt = now;
-
-    const context = ensureSeekCueContext();
-    if (!context) {
-      return;
-    }
-    const base = forward ? 620 : 430;
-    const frequency = Math.max(
-      170,
-      forward ? base + seekCueSeriesCount * 45 : base - seekCueSeriesCount * 30,
-    );
-    const schedule = () => {
-      const start = context.currentTime + 0.001;
-      const oscillator = context.createOscillator();
-      const gain = context.createGain();
-      oscillator.type = "triangle";
-      oscillator.frequency.setValueAtTime(frequency, start);
-      gain.gain.setValueAtTime(0.0001, start);
-      gain.gain.exponentialRampToValueAtTime(0.09, start + 0.008);
-      gain.gain.exponentialRampToValueAtTime(0.0001, start + 0.055);
-      oscillator.connect(gain);
-      gain.connect(context.destination);
-      oscillator.start(start);
-      oscillator.stop(start + 0.07);
-    };
-    // Po wejściu na stronę kontekst jest zawieszony do pierwszego gestu.
-    // Zaplanowany w zawieszonym kontekście dźwięk nie zagrałby, więc pierwszy
-    // tik czekamy na wznowienie. Kolejne lecą już bez opóźnienia.
-    if (context.state === "suspended") {
-      void context
-        .resume()
-        .then(schedule)
-        .catch(() => {});
-      return;
-    }
-    schedule();
   }
 
   // Upiękcza od razu odczyt czasu i suwak, zanim poleci prawdziwy skok.
@@ -2786,13 +2649,11 @@
   }
 
   function seekBySeconds(deltaSeconds) {
-    playSeekCue(Number(deltaSeconds) > 0);
     requestSeek(currentSeekPosition() + deltaSeconds);
   }
 
   function seekToPercent(percent) {
     const normalizedPercent = Math.max(0, Math.min(percent, 100));
-    playSeekCue(true);
     if (!Number.isFinite(audio.duration) || audio.duration <= 0) {
       // Brak metadanych: zapamiętujemy procent i wykonamy go po wczytaniu.
       queuedSeekPercent = normalizedPercent;
@@ -3421,7 +3282,6 @@
   void bootstrapPlayer();
 
   async function bootstrapPlayer() {
-    ensureSeekCueToggle();
     await initializeAudioOutputSelection();
     const stationIndexLoaded = await loadStationIndex();
     if (!stationIndexLoaded) {
