@@ -104,6 +104,23 @@
   let swappingSource = false;
   let lastSeekTarget = 0;
   let lastSeekAt = 0;
+  // Pozycja, o którą poprosiliśmy element audio i na której jeszcze nie
+  // jesteśmy. Dopóki skok się nie skończy, audio.currentTime pokazuje starą
+  // wartość, więc kolejne skróty muszą liczyć od tej pozycji.
+  let seekPendingTarget = null;
+  // Ile razy zawróciliśmy spóźnione "seeked" starego skoku. Jedno ponowienie
+  // wystarczy; bez tego ograniczenia plik o zaniżonej długości mógłby pętlić.
+  let staleSeekRetries = 0;
+  // Ostatnia znana dobra pozycja. Po podmianie źródła element pokazuje zero,
+  // a słuchacz dalej myśli o miejscu, w którym przerwał.
+  let lastKnownPosition = 0;
+  // Pozycja, o którą poprosił słuchacz, ale nie dało się jej jeszcze ustawić
+  // (trwa podmiana źródła albo nie ma metadanych). Wykonujemy ją po metadanych
+  // albo po zakończeniu bieżącego skoku.
+  let queuedSeekIntent = null;
+  // To samo dla skoku procentowego, gdy nie znamy jeszcze długości nagrania
+  // (po podmianie źródła duration jest NaN i nie da się przeliczyć procentu).
+  let queuedSeekPercent = null;
   let seekWatchdogId = null;
   let seekRetryCount = 0;
   let lastTransferUpdateAt = 0;
@@ -306,6 +323,12 @@
     seekInput.max = String(Math.floor(audio.duration || 0));
     durationNode.textContent = formatDuration(audio.duration);
     updateTimeReadout();
+    // Podczas podmiany źródła pozycję odtwarza applyPlaybackSource. Dopiero
+    // potem wolno wykonać odroczony skok, żeby nie cofnąć nowszej intencji.
+    if (swappingSource) {
+      return;
+    }
+    applyDeferredSeek();
   });
 
   audio.addEventListener("timeupdate", () => {
@@ -353,11 +376,26 @@
   });
 
   audio.addEventListener("seeked", () => {
+    // Przeglądarka potrafi wysłać "seeked" od starszego skoku, gdy słuchacz
+    // zdążył już poprosić o inną pozycję. Nie zamykamy wtedy pilnowania:
+    // ponawiamy skok na pozycję, o którą prosił słuchacz.
+    const landed = Number(audio.currentTime) || 0;
+    // Tolerancja 2 s: przeglądarka trafia w cel z dokładnością ułamka sekundy,
+    // a pojedyncze "j" to 10 s, więc różnica oznacza skok od starszej pozycji.
+    if (seekPendingTarget !== null && Math.abs(landed - seekPendingTarget) > 2) {
+      if (!audio.seeking && staleSeekRetries === 0) {
+        staleSeekRetries = 1;
+        audio.currentTime = seekPendingTarget;
+      }
+      return;
+    }
     clearSeekWatchdog();
+    seekPendingTarget = null;
     restorePlaybackStatus();
     if (wantsPlayback && audio.paused) {
       void audio.play().catch(() => {});
     }
+    applyDeferredSeek();
   });
 
   audio.addEventListener("canplay", () => {
@@ -381,9 +419,6 @@
     }
     const digit = extractDigitShortcut(event);
     if (digit !== null) {
-      if (!Number.isFinite(audio.duration) || audio.duration <= 0) {
-        return;
-      }
       event.preventDefault();
       event.stopPropagation();
       seekToPercent(digit * 10);
@@ -398,13 +433,14 @@
     event.preventDefault();
     event.stopPropagation();
     if (key === "j") {
+      // Komunikat wystawia seekTo: mówi, na którą pozycję idziemy i czy
+      // czekamy na dane. Wcześniej nadpisywaliśmy go zdaniem "Przewinięto",
+      // nawet gdy element nie ruszył z miejsca.
       seekBySeconds(-youtubeSeekStepSeconds);
-      setStatus("Przewinięto o 10 sekund w tył.");
       return;
     }
     if (key === "l") {
       seekBySeconds(youtubeSeekStepSeconds);
-      setStatus("Przewinięto o 10 sekund do przodu.");
       return;
     }
     if (key === "k") {
@@ -683,6 +719,11 @@
   async function loadArchiveIntoPlayer(archive) {
     disposeActivePlaybackState();
     clearTransferStatus();
+    // Nowe nagranie: żadna stara pozycja ani stary skok nie mają znaczenia.
+    seekPendingTarget = null;
+    queuedSeekIntent = null;
+    queuedSeekPercent = null;
+    lastKnownPosition = 0;
     selectedArchive = archive;
     const playbackState = {
       archiveId: archive.hourly_archive_id,
@@ -1113,12 +1154,16 @@
       updateSeekPreview(pendingSeekSeconds);
       return;
     }
-    const currentTime = formatDuration(audio.currentTime || 0);
+    // Gdy skok się jeszcze wczytuje, element pokazuje starą pozycję. Czytnik
+    // i suwak mają mówić o miejscu, o które poprosił słuchacz.
+    const displayedTime =
+      seekPendingTarget !== null ? seekPendingTarget : audio.currentTime || 0;
+    const currentTime = formatDuration(displayedTime);
     const duration = formatDuration(audio.duration || 0);
     currentTimeNode.textContent = currentTime;
     durationNode.textContent = duration;
     if (!seekInput.disabled && !isScrubbingSeek && pendingSeekSeconds === null) {
-      seekInput.value = String(Math.floor(audio.currentTime || 0));
+      seekInput.value = String(Math.floor(displayedTime));
     }
     const valueText = `${currentTime} z ${duration}`;
     seekInput.setAttribute("aria-valuetext", valueText);
@@ -1310,8 +1355,10 @@
     const { preservePosition = false } = options;
     const resumePlayback = preservePosition && wantsPlayback;
     const swapStartedAt = performance.now();
-    const previousTime =
-      preservePosition && Number.isFinite(audio.currentTime) ? audio.currentTime : 0;
+    // Pozycja, o którą prosił słuchacz, a nie ta, którą element zdążył pokazać.
+    // W trakcie skoku currentTime jeszcze stoi w starym miejscu, a po podmianie
+    // źródła spada do zera.
+    const previousTime = preservePosition ? currentSeekPosition() : 0;
     const previousRate = audio.playbackRate || Number(rateSelect.value) || 1;
     swappingSource = true;
     audio.src = sourceUrl;
@@ -1329,7 +1376,9 @@
         const safeTarget = Number.isFinite(audio.duration)
           ? Math.min(intendedTime, Math.max(0, audio.duration - 0.25))
           : intendedTime;
-        audio.currentTime = Math.max(0, safeTarget);
+        seekPendingTarget = Math.max(0, safeTarget);
+        lastKnownPosition = seekPendingTarget;
+        audio.currentTime = seekPendingTarget;
       }
       if (resumePlayback || wantsPlayback) {
         await audio.play();
@@ -1343,6 +1392,7 @@
       if (wantsPlayback && audio.paused) {
         void audio.play().catch(() => {});
       }
+      applyDeferredSeek();
     }
   }
 
@@ -2225,22 +2275,80 @@
   // Jedno miejsce, w którym player zmienia pozycję. Po przewinięciu pilnujemy,
   // czy archive.org przysłało dane, i mówimy, na co czekamy.
   function seekTo(targetSeconds, label) {
-    if (!Number.isFinite(audio.duration) || audio.duration <= 0) {
+    const requested = Number(targetSeconds);
+    if (!Number.isFinite(requested)) {
       return;
     }
-    const target = Math.max(0, Math.min(targetSeconds, Math.max(audio.duration - 1, 0)));
+    if (!Number.isFinite(audio.duration) || audio.duration <= 0) {
+      // Nie ma metadanych, bo trwa podmiana źródła albo plik jeszcze się
+      // wczytuje. W takim stanie ustawienie currentTime przepada. Zapamiętujemy
+      // intencję i wykonamy ją, gdy element będzie gotowy.
+      queuedSeekIntent = Math.max(0, requested);
+      lastKnownPosition = queuedSeekIntent;
+      setStatus("Nagranie jeszcze się wczytuje. Przewinę, gdy będą dane.", {
+        transient: true,
+      });
+      return;
+    }
+    queuedSeekIntent = null;
+    queuedSeekPercent = null;
+    const target = Math.max(0, Math.min(requested, Math.max(audio.duration - 1, 0)));
     pendingSeekSeconds = null;
     isScrubbingSeek = false;
     lastSeekTarget = target;
     lastSeekAt = performance.now();
+    seekPendingTarget = target;
+    lastKnownPosition = target;
     seekRetryCount = 0;
+    staleSeekRetries = 0;
     audio.currentTime = target;
+    // Odczyt czasu i suwak mają od razu pokazywać nową pozycję, a nie tę,
+    // w której element stoi do czasu przysłania danych.
+    updateTimeReadout();
     const positionLabel = label || formatDuration(target);
     setStatus(`Przewijam na ${positionLabel}. Czekam na dane z archive.org...`, {
       transient: true,
     });
     clearSeekWatchdog();
     seekWatchdogId = window.setTimeout(() => checkSeekProgress(target), 20000);
+  }
+
+  // Pozycja, od której liczą skróty. Gdy skok jeszcze się wczytuje, element
+  // audio pokazuje starą pozycję, a słuchacz myśli już o nowej. Gdy trwa
+  // podmiana źródła, element pokazuje zero, więc wracamy do ostatniej dobrej.
+  function currentSeekPosition() {
+    if (seekPendingTarget !== null) {
+      return seekPendingTarget;
+    }
+    if (queuedSeekIntent !== null) {
+      return queuedSeekIntent;
+    }
+    if (!Number.isFinite(audio.duration) || audio.duration <= 0) {
+      return lastKnownPosition;
+    }
+    const position = Number.isFinite(audio.currentTime) ? audio.currentTime : 0;
+    if (position > 0) {
+      lastKnownPosition = position;
+      return position;
+    }
+    return lastKnownPosition;
+  }
+
+  function applyDeferredSeek() {
+    if (queuedSeekPercent !== null) {
+      const percent = queuedSeekPercent;
+      queuedSeekPercent = null;
+      if (Number.isFinite(audio.duration) && audio.duration > 0) {
+        seekToPercent(percent);
+      }
+      return;
+    }
+    if (queuedSeekIntent === null) {
+      return;
+    }
+    const target = queuedSeekIntent;
+    queuedSeekIntent = null;
+    seekTo(target);
   }
 
   function checkSeekProgress(target) {
@@ -2256,25 +2364,31 @@
       setStatus("archive.org jeszcze nie przysłało danych. Próbuję ponownie...", {
         transient: true,
       });
-      audio.currentTime = Math.max(0, target + 0.5);
+      seekPendingTarget = Math.max(0, target + 0.5);
+      audio.currentTime = seekPendingTarget;
       seekWatchdogId = window.setTimeout(() => checkSeekProgress(target), 20000);
       return;
     }
+    seekPendingTarget = null;
     setStatus("archive.org nie odpowiada na to przewinięcie. Spróbuj przewinąć ponownie za chwilę.");
   }
 
   function seekBySeconds(deltaSeconds) {
-    if (!Number.isFinite(audio.duration) || audio.duration <= 0) {
-      return;
-    }
-    seekTo(audio.currentTime + deltaSeconds);
+    seekTo(currentSeekPosition() + deltaSeconds);
   }
 
   function seekToPercent(percent) {
+    const normalizedPercent = Math.max(0, Math.min(percent, 100));
     if (!Number.isFinite(audio.duration) || audio.duration <= 0) {
+      // Brak metadanych: zapamiętujemy procent i wykonamy go po wczytaniu.
+      queuedSeekPercent = normalizedPercent;
+      queuedSeekIntent = null;
+      setStatus("Nagranie jeszcze się wczytuje. Przewinę, gdy będą dane.", {
+        transient: true,
+      });
       return;
     }
-    const normalizedPercent = Math.max(0, Math.min(percent, 100));
+    queuedSeekPercent = null;
     const targetTime =
       normalizedPercent === 0 ? 0 : audio.duration * (normalizedPercent / 100);
     seekTo(targetTime, `${normalizedPercent}%`);
