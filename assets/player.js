@@ -54,6 +54,10 @@
   // razu, a kolejne nie częściej niż co 800 ms, za każdym razem z sumą całej
   // serii: "wstecz o 50 sekund".
   const seekAnnounceIntervalMs = 800;
+  // Seria skrótów wygasa po tej przerwie w naciskaniu. Bez tego baza serii
+  // żyłaby w nieskończoność i kolejne kliknięcia sumowałyby się od dawna
+  // porzuconej pozycji. Wygasanie jest wspólne dla archive.org i kopii lokalnej.
+  const seekSeriesExpireMs = 600;
 
   // Dwie kopie w cache i jedna godzina w pamięci to maksimum.
   const maxLocalAudioCacheEntries = 2;
@@ -136,6 +140,7 @@
   // a nie kilkadziesiąt podmian tekstu na sekundę.
   let seekSeriesBase = null;
   let seekAnnouncedAt = -Infinity;
+  let seekSeriesExpireId = null;
   // Ile razy zawróciliśmy spóźnione "seeked" starego skoku. Jedno ponowienie
   // wystarczy; bez tego ograniczenia plik o zaniżonej długości mógłby pętlić.
   let staleSeekRetries = 0;
@@ -420,7 +425,12 @@
     clearSeekWatchdog();
     seekPendingTarget = null;
     previewSeekTarget = null;
-    restorePlaybackStatus();
+    // Podczas trzymania klawisza czytnik ma słyszeć sumę serii, a nie
+    // naprzemienne "Przewinięto" i "Odtwarzanie...". Przywrócenie zwykłego
+    // statusu robi koniec serii (seekSeriesExpireMs) albo zwykłe seeked.
+    if (seekSeriesBase === null) {
+      restorePlaybackStatus();
+    }
     if (wantsPlayback && audio.paused) {
       void audio.play().catch(() => {});
     }
@@ -2325,15 +2335,7 @@
     if (!Number.isFinite(requested)) {
       return;
     }
-    if (playbackStatePlayingLocalCopy()) {
-      // Lokalna kopia: skoki są darmowe, więc żadnego zbędnego czekania.
-      clearShortSeekTimer();
-      seekTo(requested, label);
-      return;
-    }
-    if (shortSeekTimerId !== null) {
-      window.clearTimeout(shortSeekTimerId);
-    }
+    const playingLocalCopy = playbackStatePlayingLocalCopy();
     // Początek serii: miejsce, od którego liczy się suma "o ile" pokazywana
     // przy trzymaniu klawisza. Bierzemy pozycję, którą słuchacz widzi teraz.
     // Zerujemy też zegar ogłoszeń, żeby pierwsze naciśnięcie nowej serii
@@ -2342,11 +2344,42 @@
       seekSeriesBase = currentSeekPosition();
       seekAnnouncedAt = -Infinity;
     }
+    // Każde naciśnięcie przedłuża życie serii. Po przerwie baza wraca do
+    // bieżącej pozycji, więc pojedyncze kliknięcia nie sumują się w nieskończoność.
+    if (seekSeriesExpireId !== null) {
+      window.clearTimeout(seekSeriesExpireId);
+    }
+    seekSeriesExpireId = window.setTimeout(() => {
+      seekSeriesExpireId = null;
+      seekSeriesBase = null;
+      seekAnnouncedAt = -Infinity;
+      // Gdy skok jeszcze czeka na dane, komunikat o czekaniu ma zostać;
+      // zwykły status wróci po "seeked". Na lokalnej kopii dane są z pamięci,
+      // więc nie ma na co czekać i status wraca od razu.
+      if (seekPendingTarget === null || playbackStatePlayingLocalCopy()) {
+        restorePlaybackStatus();
+      }
+    }, seekSeriesExpireMs);
     shortSeekIntent = requested;
     shortSeekLabel = label || null;
     // Pokaz docelowej pozycji: odczyt czasu i suwak ruszają natychmiast,
     // choć zadania do archive.org jeszcze nie ma.
-    peekSeekTarget(requested, label);
+    peekSeekTarget(requested, label, { waiting: !playingLocalCopy });
+    if (playingLocalCopy) {
+      // Lokalna kopia: skoki są darmowe, więc nie ma czego scalać. Zdejmujemy
+      // tylko ewentualny timer sieciowy, nie ruszając bazy serii.
+      if (shortSeekTimerId !== null) {
+        window.clearTimeout(shortSeekTimerId);
+        shortSeekTimerId = null;
+      }
+      shortSeekIntent = null;
+      shortSeekLabel = null;
+      seekTo(requested, label);
+      return;
+    }
+    if (shortSeekTimerId !== null) {
+      window.clearTimeout(shortSeekTimerId);
+    }
     shortSeekTimerId = window.setTimeout(() => {
       const target = shortSeekIntent;
       const targetLabel = shortSeekLabel;
@@ -2368,6 +2401,10 @@
     shortSeekIntent = null;
     shortSeekLabel = null;
     seekSeriesBase = null;
+    if (seekSeriesExpireId !== null) {
+      window.clearTimeout(seekSeriesExpireId);
+      seekSeriesExpireId = null;
+    }
   }
 
   // Upiękcza od razu odczyt czasu i suwak, zanim poleci prawdziwy skok.
@@ -2378,23 +2415,49 @@
   // dostawał wtedy strumień zmian i milkł. Dlatego pierwsze naciśnięcie mówi
   // od razu, a kolejne nie częściej niż co seekAnnounceIntervalMs, i zamiast
   // samego celu podają sumę przesunięcia od początku serii.
-  function peekSeekTarget(targetSeconds, label) {
+  function peekSeekTarget(targetSeconds, label, options = {}) {
     previewSeekTarget = Math.max(0, Number(targetSeconds) || 0);
     updateTimeReadout();
+    announceSeekPosition(previewSeekTarget, label, options);
+  }
+
+  // Ogłoszenie dla czytnika ma własny rytm, wspólny dla archive.org i kopii
+  // lokalnej. Przy trzymaniu klawisza przeglądarka woła nas kilkadziesiąt razy
+  // na sekundę; pierwsze naciśnięcie serii mówi od razu, kolejne nie częściej
+  // niż co seekAnnounceIntervalMs. Zwraca true, gdy komunikat poszedł.
+  function announceSeekPosition(targetSeconds, label, options = {}) {
     const now = performance.now();
     if (now - seekAnnouncedAt < seekAnnounceIntervalMs) {
-      return;
+      return false;
     }
     seekAnnouncedAt = now;
-    const positionLabel = label || formatDuration(previewSeekTarget);
-    const shift = seekSeriesBase === null ? 0 : previewSeekTarget - seekSeriesBase;
+    const position = Math.max(0, Number(targetSeconds) || 0);
+    const positionLabel = label || formatDuration(position);
+    const shift = seekSeriesBase === null ? 0 : position - seekSeriesBase;
     const shiftLabel =
       Math.abs(shift) >= 1
         ? `${shift < 0 ? "wstecz" : "do przodu"} o ${formatSecondsInWords(Math.abs(shift))}, `
         : "";
-    setStatus(`Przewijam ${shiftLabel}na ${positionLabel}. Czekam na dane z archive.org...`, {
+    const waiting = options.waiting === false ? "" : " Czekam na dane z archive.org...";
+    setStatus(`Przewijam ${shiftLabel}na ${positionLabel}.${waiting}`, {
       transient: true,
     });
+    return true;
+  }
+
+  // Komunikat o braku metadanych idzie tym samym rytmem co ogłoszenia pozycji.
+  // Bez tego trzymanie klawisza przed wczytaniem nagrania podmieniało region
+  // aria-live kilkadziesiąt razy na sekundę i czytnik milkł.
+  function announceWaitingForMetadata() {
+    const now = performance.now();
+    if (now - seekAnnouncedAt < seekAnnounceIntervalMs) {
+      return false;
+    }
+    seekAnnouncedAt = now;
+    setStatus("Nagranie jeszcze się wczytuje. Przewinę, gdy będą dane.", {
+      transient: true,
+    });
+    return true;
   }
 
   // Odmiana sekund i minut do komunikatów czytanych na głos. Liczby w formacie
@@ -2439,12 +2502,11 @@
     if (!Number.isFinite(audio.duration) || audio.duration <= 0) {
       // Nie ma metadanych, bo trwa podmiana źródła albo plik jeszcze się
       // wczytuje. W takim stanie ustawienie currentTime przepada. Zapamiętujemy
-      // intencję i wykonamy ją, gdy element będzie gotowy.
+      // intencję i wykonamy ją, gdy element będzie gotowy. Komunikat ma ten sam
+      // rytm co reszta ogłoszeń, inaczej trzymanie klawisza zalewa czytnik.
       queuedSeekIntent = Math.max(0, requested);
       lastKnownPosition = queuedSeekIntent;
-      setStatus("Nagranie jeszcze się wczytuje. Przewinę, gdy będą dane.", {
-        transient: true,
-      });
+      announceWaitingForMetadata();
       return;
     }
     queuedSeekIntent = null;
@@ -2466,8 +2528,10 @@
     const positionLabel = label || formatDuration(target);
     if (playbackStatePlayingLocalCopy()) {
       // Gra lokalna kopia: dane są na dysku, więc nie straszymy archive.org
-      // i nie kasujemy postępu dociągania innych nagrań w tle.
-      setStatus(`Przewinięto na ${positionLabel}.`, { transient: true });
+      // i nie kasujemy postępu dociągania innych nagrań w tle. Ogłoszenie ma
+      // ten sam rytm co przy archive.org, inaczej trzymanie klawisza zalewa
+      // czytnik dziesiątkami komunikatów na sekundę.
+      announceSeekPosition(target, label, { waiting: false });
     } else {
       setStatus(`Przewijam na ${positionLabel}. Czekam na dane z archive.org...`, {
         transient: true,
