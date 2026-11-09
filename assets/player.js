@@ -98,6 +98,14 @@
   let catalogVersionToken = "";
   let isScrubbingSeek = false;
   let pendingSeekSeconds = null;
+  // Czy słuchacz chce odtwarzania. Element audio wstrzymuje się sam przy
+  // podmianie źródła, a to nie jest decyzja użytkownika.
+  let wantsPlayback = false;
+  let swappingSource = false;
+  let lastSeekTarget = 0;
+  let lastSeekAt = 0;
+  let seekWatchdogId = null;
+  let seekRetryCount = 0;
   let lastTransferUpdateAt = 0;
   let statusIsTransient = false;
   const yearIndexCache = new Map();
@@ -305,14 +313,20 @@
   });
 
   audio.addEventListener("play", () => {
+    wantsPlayback = true;
     playButton.textContent = "Pauza";
   });
 
   audio.addEventListener("pause", () => {
+    // Podmiana źródła też wstrzymuje element. To nie jest pauza słuchacza.
+    if (!swappingSource) {
+      wantsPlayback = false;
+    }
     playButton.textContent = "Odtwórz";
   });
 
   audio.addEventListener("ended", () => {
+    wantsPlayback = false;
     playButton.textContent = "Odtwórz";
   });
 
@@ -339,7 +353,17 @@
   });
 
   audio.addEventListener("seeked", () => {
+    clearSeekWatchdog();
     restorePlaybackStatus();
+    if (wantsPlayback && audio.paused) {
+      void audio.play().catch(() => {});
+    }
+  });
+
+  audio.addEventListener("canplay", () => {
+    if (wantsPlayback && audio.paused && !swappingSource) {
+      void audio.play().catch(() => {});
+    }
   });
 
   if (navigator.mediaDevices && typeof navigator.mediaDevices.addEventListener === "function") {
@@ -1079,7 +1103,7 @@
     if (Math.abs(audio.currentTime - safeTarget) < 1) {
       return;
     }
-    audio.currentTime = safeTarget;
+    seekTo(safeTarget);
   }
 
   function updateTimeReadout() {
@@ -1284,29 +1308,41 @@
 
   async function applyPlaybackSource(playbackState, sourceUrl, options = {}) {
     const { preservePosition = false } = options;
-    const resumePlayback = preservePosition && !audio.paused;
+    const resumePlayback = preservePosition && wantsPlayback;
+    const swapStartedAt = performance.now();
     const previousTime =
       preservePosition && Number.isFinite(audio.currentTime) ? audio.currentTime : 0;
     const previousRate = audio.playbackRate || Number(rateSelect.value) || 1;
+    swappingSource = true;
     audio.src = sourceUrl;
     audio.load();
     audio.playbackRate = previousRate;
     if (!preservePosition) {
+      swappingSource = false;
       return;
     }
     try {
       await waitForAudioEvent(audio, "loadedmetadata");
-      if (Number.isFinite(previousTime) && previousTime > 0) {
+      // Jeśli słuchacz przewinął w trakcie podmiany, liczy się jego nowsza pozycja.
+      const intendedTime = lastSeekAt > swapStartedAt ? lastSeekTarget : previousTime;
+      if (Number.isFinite(intendedTime) && intendedTime > 0) {
         const safeTarget = Number.isFinite(audio.duration)
-          ? Math.min(previousTime, Math.max(0, audio.duration - 0.25))
-          : previousTime;
+          ? Math.min(intendedTime, Math.max(0, audio.duration - 0.25))
+          : intendedTime;
         audio.currentTime = Math.max(0, safeTarget);
       }
-      if (resumePlayback) {
+      if (resumePlayback || wantsPlayback) {
         await audio.play();
       }
     } catch (_error) {
       // Keep the loaded source even if metadata restoration was interrupted.
+    } finally {
+      swappingSource = false;
+      // Element mógł zostać wstrzymany przez podmianę źródła albo przez błąd
+      // przejściowy. Jeśli słuchacz chce odtwarzania, wracamy do niego.
+      if (wantsPlayback && audio.paused) {
+        void audio.play().catch(() => {});
+      }
     }
   }
 
@@ -1397,6 +1433,8 @@
     const chunks = [];
     let received = 0;
     let totalBytes = 0;
+    // Nie zabieramy łącza, zanim odtwarzanie nie stanie na nogi.
+    await waitForPlaybackHeadroom(signal);
 
     while (isActivePlaybackState(playbackState) && !signal.aborted) {
       const headers = received > 0 ? { Range: `bytes=${received}-` } : {};
@@ -1421,13 +1459,28 @@
       if (!reader) {
         return null;
       }
+      let silentFor = 0;
       while (true) {
         if (signal.aborted) {
           await reader.cancel().catch(() => {});
           return null;
         }
-        const result = await readWithStallTimeout(reader, 25000);
-        if (result.stalled || result.failed) {
+        if (!copyMayProceed()) {
+          // Odtwarzanie potrzebuje łącza: zamykamy połączenie i wracamy później.
+          await reader.cancel().catch(() => {});
+          break;
+        }
+        const result = await readWithStallTimeout(reader, 8000);
+        if (result.stalled) {
+          silentFor += 8000;
+          if (silentFor >= 24000) {
+            await reader.cancel().catch(() => {});
+            return null;
+          }
+          await reader.cancel().catch(() => {});
+          break;
+        }
+        if (result.failed) {
           await reader.cancel().catch(() => {});
           return null;
         }
@@ -1435,15 +1488,20 @@
         if (done) {
           break;
         }
+        silentFor = 0;
         chunks.push(value);
         received += value.length;
         reportTransferProgress(received, totalBytes);
-        if (isPlaybackStarving()) {
-          await waitForPlaybackHeadroom(signal);
+        if (!copyMayProceed()) {
+          await reader.cancel().catch(() => {});
+          break;
         }
       }
       if (!totalBytes || received >= totalBytes) {
         break;
+      }
+      if (!copyMayProceed()) {
+        await waitForPlaybackHeadroom(signal);
       }
       await pauseFor(signal, 120);
     }
@@ -1502,6 +1560,21 @@
     return bufferedAheadSeconds() < 12;
   }
 
+  // Kopia w tle jest dodatkiem: ma ustąpić odtwarzaniu, a nie z nim konkurować.
+  // Świeżo po przewinięciu oddajemy łącze elementowi audio na kilka sekund.
+  function copyMayProceed() {
+    if (performance.now() - lastSeekAt < 4000) {
+      return false;
+    }
+    if (audio.paused || !audio.src) {
+      return true;
+    }
+    if (audio.readyState < 3) {
+      return false;
+    }
+    return bufferedAheadSeconds() >= 20;
+  }
+
   function bufferedAheadSeconds() {
     const position = audio.currentTime;
     for (let index = 0; index < audio.buffered.length; index += 1) {
@@ -1515,7 +1588,7 @@
   async function waitForPlaybackHeadroom(signal) {
     const deadline = performance.now() + 60_000;
     while (!signal.aborted && performance.now() < deadline) {
-      if (!isPlaybackStarving()) {
+      if (copyMayProceed()) {
         return;
       }
       await pauseFor(signal, 400);
@@ -2142,23 +2215,69 @@
     audio.pause();
   }
 
+  function clearSeekWatchdog() {
+    if (seekWatchdogId !== null) {
+      window.clearTimeout(seekWatchdogId);
+      seekWatchdogId = null;
+    }
+  }
+
+  // Jedno miejsce, w którym player zmienia pozycję. Po przewinięciu pilnujemy,
+  // czy archive.org przysłało dane, i mówimy, na co czekamy.
+  function seekTo(targetSeconds, label) {
+    if (!Number.isFinite(audio.duration) || audio.duration <= 0) {
+      return;
+    }
+    const target = Math.max(0, Math.min(targetSeconds, Math.max(audio.duration - 1, 0)));
+    pendingSeekSeconds = null;
+    isScrubbingSeek = false;
+    lastSeekTarget = target;
+    lastSeekAt = performance.now();
+    seekRetryCount = 0;
+    audio.currentTime = target;
+    const positionLabel = label || formatDuration(target);
+    setStatus(`Przewijam na ${positionLabel}. Czekam na dane z archive.org...`, {
+      transient: true,
+    });
+    clearSeekWatchdog();
+    seekWatchdogId = window.setTimeout(() => checkSeekProgress(target), 20000);
+  }
+
+  function checkSeekProgress(target) {
+    seekWatchdogId = null;
+    if (!audio.src || !wantsPlayback) {
+      return;
+    }
+    if (audio.readyState >= 2 && Math.abs(audio.currentTime - target) <= 2) {
+      return;
+    }
+    if (seekRetryCount === 0) {
+      seekRetryCount = 1;
+      setStatus("archive.org jeszcze nie przysłało danych. Próbuję ponownie...", {
+        transient: true,
+      });
+      audio.currentTime = Math.max(0, target + 0.5);
+      seekWatchdogId = window.setTimeout(() => checkSeekProgress(target), 20000);
+      return;
+    }
+    setStatus("archive.org nie odpowiada na to przewinięcie. Spróbuj przewinąć ponownie za chwilę.");
+  }
+
   function seekBySeconds(deltaSeconds) {
     if (!Number.isFinite(audio.duration) || audio.duration <= 0) {
       return;
     }
-    pendingSeekSeconds = null;
-    isScrubbingSeek = false;
-    audio.currentTime = Math.max(0, Math.min(audio.currentTime + deltaSeconds, audio.duration));
+    seekTo(audio.currentTime + deltaSeconds);
   }
 
   function seekToPercent(percent) {
-    pendingSeekSeconds = null;
-    isScrubbingSeek = false;
+    if (!Number.isFinite(audio.duration) || audio.duration <= 0) {
+      return;
+    }
     const normalizedPercent = Math.max(0, Math.min(percent, 100));
     const targetTime =
       normalizedPercent === 0 ? 0 : audio.duration * (normalizedPercent / 100);
-    audio.currentTime = targetTime;
-    setStatus(`Przeskoczono do ${normalizedPercent}% nagrania.`);
+    seekTo(targetTime, `${normalizedPercent}%`);
   }
 
   function toggleMute() {
