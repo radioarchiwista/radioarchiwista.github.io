@@ -2429,6 +2429,166 @@
     }
   }
 
+  // Słyszalny tik przy przewijaniu. Czytnik tu nie wystarcza: przy trzymaniu
+  // klawisza słuchacz chce słyszeć, że pozycja się zmienia, a nie tylko
+  // przeczytać o tym w statusie. Tik leci do tego samego wyjścia co nagranie
+  // (jeśli przeglądarka pozwala ustawić sink dla AudioContext).
+  //
+  // Wysokość narasta w serii naciśnięć, więc przy trzymaniu słychać ruch,
+  // a nie serię identycznych pisków. Odstęp seekCueMinGapMs chroni przed
+  // zlaniem się tików w jeden warkot przy powtarzaniu klawisza.
+  const seekCueMinGapMs = 90;
+  const seekCueStorageKey = "radioarchiwista.seekCue";
+  let seekCueContext = null;
+  let seekCueLastAt = -Infinity;
+  let seekCueSeriesCount = 0;
+  let seekCueSeriesAt = 0;
+  let seekCueEnabled = readSeekCuePreference();
+
+  function readSeekCuePreference() {
+    try {
+      const stored = window.localStorage.getItem(seekCueStorageKey);
+      return stored === null ? true : stored === "1";
+    } catch (error) {
+      // Prywatne okno bez dostępu do magazynu: zostaje domyślnie włączone.
+      return true;
+    }
+  }
+
+  function storeSeekCuePreference(enabled) {
+    try {
+      window.localStorage.setItem(seekCueStorageKey, enabled ? "1" : "0");
+    } catch (error) {
+      // Brak dostępu do magazynu nie jest powodem, żeby psuć przewijanie.
+    }
+  }
+
+  function toggleSeekCue() {
+    seekCueEnabled = !seekCueEnabled;
+    storeSeekCuePreference(seekCueEnabled);
+    if (seekCueToggle) {
+      seekCueToggle.textContent = seekCueEnabled
+        ? "Dźwięk przewijania: włączony"
+        : "Dźwięk przewijania: wyłączony";
+      seekCueToggle.setAttribute("aria-pressed", seekCueEnabled ? "true" : "false");
+    }
+    setStatus(
+      seekCueEnabled
+        ? "Dźwięk przewijania włączony."
+        : "Dźwięk przewijania wyłączony.",
+    );
+  }
+
+  // Przełącznik tworzymy z kodu, żeby nie dokładać go do statycznego HTML.
+  // Dźwięk w nagraniu jest inwazyjny, więc słuchacz musi móc go wyłączyć.
+  let seekCueToggle = null;
+
+  function ensureSeekCueToggle() {
+    if (seekCueToggle) {
+      return;
+    }
+    // Wstawiamy obok przycisków odtwarzania, nie obok ukrytego elementu audio.
+    const bar = document.getElementById("player-control-bar") ||
+      document.querySelector(".player-control-bar");
+    if (!bar) {
+      return;
+    }
+    const button = document.createElement("button");
+    button.type = "button";
+    button.id = "player-seek-cue-toggle";
+    button.className = "button button-secondary player-button player-seek-cue-toggle";
+    button.setAttribute("aria-pressed", seekCueEnabled ? "true" : "false");
+    button.textContent = seekCueEnabled
+      ? "Dźwięk przewijania: włączony"
+      : "Dźwięk przewijania: wyłączony";
+    button.addEventListener("click", toggleSeekCue);
+    bar.appendChild(button);
+    seekCueToggle = button;
+  }
+
+  function ensureSeekCueContext() {
+    if (seekCueContext) {
+      return seekCueContext;
+    }
+    const Ctor = window.AudioContext || window.webkitAudioContext;
+    if (!Ctor) {
+      return null;
+    }
+    try {
+      seekCueContext = new Ctor();
+    } catch (error) {
+      return null;
+    }
+    syncSeekCueSink();
+    return seekCueContext;
+  }
+
+  // Tik ma iść tam, gdzie nagranie. Bez tego przy wybranym innym urządzeniu
+  // sygnał poleciałby na domyślne wyjście systemu i słuchacz by go nie usłyszał.
+  function syncSeekCueSink() {
+    if (!seekCueContext || typeof seekCueContext.setSinkId !== "function") {
+      return;
+    }
+    try {
+      const sinkId = getCurrentSinkId();
+      if (sinkId && sinkId !== "default") {
+        void seekCueContext.setSinkId(sinkId).catch(() => {});
+      }
+    } catch (error) {
+      // Brak zgody albo starsza przeglądarka: tik pójdzie na domyślne wyjście.
+    }
+  }
+
+  function playSeekCue(forward) {
+    if (!seekCueEnabled || audio.muted) {
+      return;
+    }
+    const now = performance.now();
+    if (now - seekCueLastAt < seekCueMinGapMs) {
+      return;
+    }
+    seekCueLastAt = now;
+    seekCueSeriesCount =
+      now - seekCueSeriesAt < 500 ? Math.min(12, seekCueSeriesCount + 1) : 0;
+    seekCueSeriesAt = now;
+
+    const context = ensureSeekCueContext();
+    if (!context) {
+      return;
+    }
+    const base = forward ? 620 : 430;
+    const frequency = Math.max(
+      170,
+      forward ? base + seekCueSeriesCount * 45 : base - seekCueSeriesCount * 30,
+    );
+    const schedule = () => {
+      const start = context.currentTime + 0.001;
+      const oscillator = context.createOscillator();
+      const gain = context.createGain();
+      oscillator.type = "triangle";
+      oscillator.frequency.setValueAtTime(frequency, start);
+      gain.gain.setValueAtTime(0.0001, start);
+      gain.gain.exponentialRampToValueAtTime(0.09, start + 0.008);
+      gain.gain.exponentialRampToValueAtTime(0.0001, start + 0.055);
+      oscillator.connect(gain);
+      gain.connect(context.destination);
+      oscillator.start(start);
+      oscillator.stop(start + 0.07);
+    };
+    // Po wejściu na stronę kontekst jest zawieszony do pierwszego gestu.
+    // Zaplanowany w zawieszonym kontekście dźwięk nie zagrałby, więc pierwszy
+    // tik czekamy na wznowienie. Kolejne lecą już bez opóźnienia.
+    if (context.state === "suspended") {
+      void context
+        .resume()
+        .then(schedule)
+        .catch(() => {});
+      return;
+    }
+    schedule();
+  }
+
+
   // Upiękcza od razu odczyt czasu i suwak, zanim poleci prawdziwy skok.
   //
   // Ogłoszenie dla czytnika ma własny rytm. Przy trzymaniu klawisza funkcja
@@ -2521,6 +2681,9 @@
     if (!Number.isFinite(requested)) {
       return;
     }
+    // Kierunek liczymy przed zmianą stanu: tick ma być wysoki w przód,
+    // niski w tył, także przy trzymaniu klawisza.
+    const cueForward = requested > currentSeekPosition();
     if (!Number.isFinite(audio.duration) || audio.duration <= 0) {
       // Nie ma metadanych, bo trwa podmiana źródła albo plik jeszcze się
       // wczytuje. W takim stanie ustawienie currentTime przepada. Zapamiętujemy
@@ -2543,6 +2706,10 @@
     lastKnownPosition = target;
     seekRetryCount = 0;
     staleSeekRetries = 0;
+    // Tik leci tylko przy prawdziwym skoku, czyli najwyżej raz na
+    // shortcutSeekThrottleMs. Dzięki temu jego rytm odpowiada porcjom
+    // nagrania, które słychać między skokami.
+    playSeekCue(cueForward);
     audio.currentTime = target;
     // Odczyt czasu i suwak mają od razu pokazywać nową pozycję, a nie tę,
     // w której element stoi do czasu przysłania danych.
@@ -3283,6 +3450,7 @@
 
   async function bootstrapPlayer() {
     await initializeAudioOutputSelection();
+    ensureSeekCueToggle();
     const stationIndexLoaded = await loadStationIndex();
     if (!stationIndexLoaded) {
       return;
