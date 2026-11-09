@@ -39,6 +39,17 @@
   const seekStepSeconds = 15;
   const youtubeSeekStepSeconds = 10;
   const localAudioCacheName = "radio-archiwista-player-audio-v1";
+  // Po archive.org odpowiada zwykle po 1,2 do 1,5 s (pomiar 09.11.2026), a nowe
+  // dane dla skoku wstecz przychodzą po 0,6 s. Czekanie 20 s na pierwszy sygnał
+  // przedłużało zawieszkę; 6 s zostawia zapas na wolne łącze, a ponowienie
+  // i tak ratuje sytuację szybciej niż stary limit.
+  const seekWatchdogMs = 6000;
+  // Kilka skrótów pod rząd, typowych przy cofaniu, nie ma sensu zamieniać na
+  // tyle samo żądań do archive.org. Pozycję pokazujemy od razu, a skok wysyłamy
+  // jedną decyzją, gdy słuchacz przestanie naciskać.
+  const shortcutSeekCoalesceMs = 220;
+
+  // Dwie kopie w cache i jedna godzina w pamięci to maksimum.
   const maxLocalAudioCacheEntries = 2;
   const displayTimeZone = "Europe/Warsaw";
   const stationsEndpoint =
@@ -108,6 +119,12 @@
   // jesteśmy. Dopóki skok się nie skończy, audio.currentTime pokazuje starą
   // wartość, więc kolejne skróty muszą liczyć od tej pozycji.
   let seekPendingTarget = null;
+  // Scalanie serii skrótów: cel, którym zajmie się seekTo po krótkiej pauzie,
+  // oraz pozycja pokazywana słuchaczowi, zanim skok naprawdę poleci.
+  let shortSeekTimerId = null;
+  let shortSeekIntent = null;
+  let shortSeekLabel = null;
+  let previewSeekTarget = null;
   // Ile razy zawróciliśmy spóźnione "seeked" starego skoku. Jedno ponowienie
   // wystarczy; bez tego ograniczenia plik o zaniżonej długości mógłby pętlić.
   let staleSeekRetries = 0;
@@ -391,6 +408,7 @@
     }
     clearSeekWatchdog();
     seekPendingTarget = null;
+    previewSeekTarget = null;
     restorePlaybackStatus();
     if (wantsPlayback && audio.paused) {
       void audio.play().catch(() => {});
@@ -721,9 +739,12 @@
     clearTransferStatus();
     // Nowe nagranie: żadna stara pozycja ani stary skok nie mają znaczenia.
     seekPendingTarget = null;
+    clearShortSeekTimer();
+    previewSeekTarget = null;
     queuedSeekIntent = null;
     queuedSeekPercent = null;
     lastKnownPosition = 0;
+    clearSeekWatchdog();
     selectedArchive = archive;
     const playbackState = {
       archiveId: archive.hourly_archive_id,
@@ -1155,9 +1176,19 @@
       return;
     }
     // Gdy skok się jeszcze wczytuje, element pokazuje starą pozycję. Czytnik
-    // i suwak mają mówić o miejscu, o które poprosił słuchacz.
-    const displayedTime =
-      seekPendingTarget !== null ? seekPendingTarget : audio.currentTime || 0;
+    // i suwak mają mówić o miejscu, o które poprosił słuchacz. Nowsza intencja
+    // wygrywa: skrót w trakcie scalania jest świeższy niż wysłany już skok,
+    // który czeka na dane (test D: 9, potem dwa j mają liczyć 3240-10-10).
+    let displayedTime = shortSeekIntent;
+    if (displayedTime === null) {
+      displayedTime = previewSeekTarget;
+    }
+    if (displayedTime === null) {
+      displayedTime = seekPendingTarget;
+    }
+    if (displayedTime === null) {
+      displayedTime = audio.currentTime || 0;
+    }
     const currentTime = formatDuration(displayedTime);
     const duration = formatDuration(audio.duration || 0);
     currentTimeNode.textContent = currentTime;
@@ -1196,7 +1227,9 @@
       return;
     }
     statusIsTransient = false;
-    statusNode.textContent = "Odtwarzanie z archive.org.";
+    statusNode.textContent = activePlaybackState && activePlaybackState.cachedLocally
+      ? "Odtwarzanie z kopii w pamięci przeglądarki."
+      : "Odtwarzanie z archive.org.";
   }
 
   function setTransferStatus(message, options = {}) {
@@ -2272,6 +2305,60 @@
     }
   }
 
+  // Seria szybkich j/l albo klików w przyciski zamieniamy w jeden skok.
+  // Każde naciśnięcie aktualizuje pozycję pokazywaną słuchaczowi, a prawdziwe
+  // żądanie do archive.org wysyła się raz, chwilę po ostatnim naciśnięciu.
+  // Bez tego pięć j pod rząd znaczyło pięć osobnych zapytań po 0,6 s każde.
+  function requestSeek(targetSeconds, label) {
+    const requested = Number(targetSeconds);
+    if (!Number.isFinite(requested)) {
+      return;
+    }
+    if (playbackStatePlayingLocalCopy()) {
+      // Lokalna kopia: skoki są darmowe, więc żadnego zbędnego czekania.
+      clearShortSeekTimer();
+      seekTo(requested, label);
+      return;
+    }
+    if (shortSeekTimerId !== null) {
+      window.clearTimeout(shortSeekTimerId);
+    }
+    shortSeekIntent = requested;
+    shortSeekLabel = label || null;
+    // Pokaz docelowej pozycji: odczyt czasu i suwak ruszają natychmiast,
+    // choć zadania do archive.org jeszcze nie ma.
+    peekSeekTarget(requested, label);
+    shortSeekTimerId = window.setTimeout(() => {
+      const target = shortSeekIntent;
+      const targetLabel = shortSeekLabel;
+      shortSeekTimerId = null;
+      shortSeekIntent = null;
+      shortSeekLabel = null;
+      if (Number.isFinite(target)) {
+        seekTo(target, targetLabel || undefined);
+      }
+    }, shortcutSeekCoalesceMs);
+  }
+
+  function clearShortSeekTimer() {
+    if (shortSeekTimerId !== null) {
+      window.clearTimeout(shortSeekTimerId);
+      shortSeekTimerId = null;
+    }
+    shortSeekIntent = null;
+    shortSeekLabel = null;
+  }
+
+  // Upiększa od razu odczyt czasu i suwak, zanim poleci prawdziwy skok.
+  function peekSeekTarget(targetSeconds, label) {
+    previewSeekTarget = Math.max(0, Number(targetSeconds) || 0);
+    updateTimeReadout();
+    const positionLabel = label || formatDuration(previewSeekTarget);
+    setStatus(`Przewijam na ${positionLabel}. Czekam na dane z archive.org...`, {
+      transient: true,
+    });
+  }
+
   // Jedno miejsce, w którym player zmienia pozycję. Po przewinięciu pilnujemy,
   // czy archive.org przysłało dane, i mówimy, na co czekamy.
   function seekTo(targetSeconds, label) {
@@ -2298,6 +2385,7 @@
     lastSeekTarget = target;
     lastSeekAt = performance.now();
     seekPendingTarget = target;
+    previewSeekTarget = null;
     lastKnownPosition = target;
     seekRetryCount = 0;
     staleSeekRetries = 0;
@@ -2306,17 +2394,40 @@
     // w której element stoi do czasu przysłania danych.
     updateTimeReadout();
     const positionLabel = label || formatDuration(target);
-    setStatus(`Przewijam na ${positionLabel}. Czekam na dane z archive.org...`, {
-      transient: true,
-    });
+    if (playbackStatePlayingLocalCopy()) {
+      // Gra lokalna kopia: dane są na dysku, więc nie straszymy archive.org
+      // i nie kasujemy postępu dociągania innych nagrań w tle.
+      setStatus(`Przewinięto na ${positionLabel}.`, { transient: true });
+    } else {
+      setStatus(`Przewijam na ${positionLabel}. Czekam na dane z archive.org...`, {
+        transient: true,
+      });
+    }
+    // Lokalna kopia: dane są na dysku, więc pilnowanie archive.org tylko
+    // opóźniałoby ponowienie i straszyło komunikatem. Element i tak donosi
+    // o skoku zdarzeniem seeked.
+    if (playbackStatePlayingLocalCopy()) {
+      return;
+    }
     clearSeekWatchdog();
-    seekWatchdogId = window.setTimeout(() => checkSeekProgress(target), 20000);
+    seekWatchdogId = window.setTimeout(() => checkSeekProgress(target), seekWatchdogMs);
+  }
+
+  // Gra ta sama godzina z lokalnej kopii (blob z pamięci), więc skoki nie
+  // zależą od archive.org i watchdog nie ma czego pilnować.
+  function playbackStatePlayingLocalCopy() {
+    return Boolean(activePlaybackState && activePlaybackState.cachedLocally);
   }
 
   // Pozycja, od której liczą skróty. Gdy skok jeszcze się wczytuje, element
   // audio pokazuje starą pozycję, a słuchacz myśli już o nowej. Gdy trwa
   // podmiana źródła, element pokazuje zero, więc wracamy do ostatniej dobrej.
   function currentSeekPosition() {
+    // Nowsza intencja wygrywa: skrót w trakcie scalania jest świeższy niż
+    // skok wysłany już do archive.org, który wciąż czeka na dane.
+    if (shortSeekIntent !== null) {
+      return shortSeekIntent;
+    }
     if (seekPendingTarget !== null) {
       return seekPendingTarget;
     }
@@ -2366,15 +2477,23 @@
       });
       seekPendingTarget = Math.max(0, target + 0.5);
       audio.currentTime = seekPendingTarget;
-      seekWatchdogId = window.setTimeout(() => checkSeekProgress(target), 20000);
+      seekWatchdogId = window.setTimeout(() => checkSeekProgress(target), seekWatchdogMs);
       return;
     }
+    // Druga próba nie pomogła. Zostawiamy element tam, gdzie stoi, i mówimy
+    // wprost, że dane nie doszły. Pilnowanie celu zdejmujemy, żeby odczyt czasu
+    // i skróty liczyły od pozycji, która naprawdę gra, a nie od nieosiągniętej.
     seekPendingTarget = null;
-    setStatus("archive.org nie odpowiada na to przewinięcie. Spróbuj przewinąć ponownie za chwilę.");
+    previewSeekTarget = null;
+    if (Number.isFinite(audio.currentTime)) {
+      lastKnownPosition = audio.currentTime;
+    }
+    updateTimeReadout();
+    setStatus("archive.org nie odpowiada na to przewinięcie. Spróbuj przewinić ponownie za chwilę.");
   }
 
   function seekBySeconds(deltaSeconds) {
-    seekTo(currentSeekPosition() + deltaSeconds);
+    requestSeek(currentSeekPosition() + deltaSeconds);
   }
 
   function seekToPercent(percent) {
