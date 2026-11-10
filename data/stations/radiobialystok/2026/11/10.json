@@ -1,0 +1,58 @@
+{
+  "archives": [
+    {
+      "archive_item_identifier": "radiobialystok-2026-11-09",
+      "audio_url": "https://archive.org/download/radiobialystok-2026-11-09/radiobialystok_2026-11-09T23-00-00Z.mp3",
+      "completeness_ratio": 0.9998,
+      "day": 10,
+      "download_url": "https://archive.org/download/radiobialystok-2026-11-09/radiobialystok_2026-11-09T23-00-00Z.mp3",
+      "duration_seconds": 3598.296,
+      "hour": 0,
+      "hourly_archive_id": 254028,
+      "local_date_label": "10.11.2026",
+      "local_hour_label": "00:00",
+      "local_label": "2026-11-10 00:00 czasu polskiego",
+      "local_started_at": "2026-11-10T00:00:00+01:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 11,
+      "published_at": "2026-11-10T00:22:52.095086+00:00",
+      "published_local_label": "2026-11-10 01:22 czasu polskiego",
+      "remote_filename": "radiobialystok_2026-11-09T23-00-00Z.mp3",
+      "station_slug": "radiobialystok",
+      "status": "published",
+      "utc_label": "2026-11-09 23:00 UTC",
+      "utc_started_at": "2026-11-09T23:00:00+00:00",
+      "year": 2026
+    }
+  ],
+  "day": 10,
+  "hour_slots": [
+    {
+      "archive_status": "published",
+      "completeness_ratio": 0.9998,
+      "day": 10,
+      "hour": 0,
+      "hourly_archive_id": 254028,
+      "local_date_label": "10.11.2026",
+      "local_hour_label": "00:00",
+      "local_label": "2026-11-10 00:00 czasu polskiego",
+      "local_started_at": "2026-11-10T00:00:00+01:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 11,
+      "playable": true,
+      "state": "available",
+      "status_label": null,
+      "utc_label": "2026-11-09 23:00 UTC",
+      "utc_started_at": "2026-11-09T23:00:00+00:00",
+      "year": 2026
+    }
+  ],
+  "month": 11,
+  "station": {
+    "display_name": "Radio Białystok",
+    "public_name": "Radio Białystok",
+    "slug": "radiobialystok",
+    "timezone": "Europe/Warsaw"
+  },
+  "year": 2026
+}
