@@ -1,36 +1,31 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-11-11T01:57:46.611534+00:00",
+  "generated_at": "2026-11-11T02:12:53.829093+00:00",
   "latest_archive_hour_expected_station_count": 43,
-  "latest_archive_hour_started_at": "2026-11-11T00:00:00+00:00",
+  "latest_archive_hour_started_at": "2026-11-11T01:00:00+00:00",
   "latest_archive_hour_stations": [
     "Program 1",
     "Program 2",
     "Program 3",
     "Polskie Radio 24",
-    "Radio 357",
     "Polskie Radio Dzieciom",
-    "Radio Afera",
-    "Radio Akadera",
-    "Radio Białystok",
-    "Radio Centrum Lublin",
-    "Radio Gdańsk Regiony"
+    "Radio Afera"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-11-11T01:57:46.611534+00:00",
+  "published_at": "2026-11-11T02:12:53.829093+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
     {
-      "archive_count": 5188,
+      "archive_count": 5189,
       "display_name": "Program 1",
       "public_name": "Polskie Radio Program 1",
       "slug": "pr1",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5189,
+      "archive_count": 5190,
       "display_name": "Program 2",
       "public_name": "Polskie Radio Program 2",
       "slug": "pr2",
@@ -44,7 +39,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5206,
+      "archive_count": 5207,
       "display_name": "Polskie Radio 24",
       "public_name": "Polskie Radio 24",
       "slug": "pr24",
@@ -72,7 +67,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5209,
+      "archive_count": 5210,
       "display_name": "Radio Wnet",
       "public_name": "Radio Wnet",
       "slug": "wnet",
@@ -86,7 +81,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 2665,
+      "archive_count": 2666,
       "display_name": "Polskie Radio Dzieciom",
       "public_name": "Polskie Radio Dzieciom",
       "slug": "polskieradiodzieciom",
@@ -170,28 +165,28 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5187,
+      "archive_count": 5188,
       "display_name": "Radio Katowice",
       "public_name": "Radio Katowice",
       "slug": "radiokatowice",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5145,
+      "archive_count": 5146,
       "display_name": "Radio Kielce",
       "public_name": "Radio Kielce",
       "slug": "radiokielce",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5065,
+      "archive_count": 5066,
       "display_name": "Radio Koszalin",
       "public_name": "Radio Koszalin",
       "slug": "radiokoszalin",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5181,
+      "archive_count": 5182,
       "display_name": "Radio Kraków",
       "public_name": "Radio Kraków",
       "slug": "radiokrakow",
@@ -296,7 +291,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5192,
+      "archive_count": 5193,
       "display_name": "Radio Łódź",
       "public_name": "Radio Łódź",
       "slug": "radiolodz",
