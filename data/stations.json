@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-11-11T05:33:02.933137+00:00",
+  "generated_at": "2026-11-11T05:34:09.960301+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-11-11T04:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -50,7 +50,7 @@
     "RMF24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-11-11T05:33:02.933137+00:00",
+  "published_at": "2026-11-11T05:34:09.960301+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -90,28 +90,28 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5211,
+      "archive_count": 5212,
       "display_name": "Radio Nowy Świat",
       "public_name": "Radio Nowy Świat",
       "slug": "rns",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5199,
+      "archive_count": 5200,
       "display_name": "TOK FM",
       "public_name": "TOK FM",
       "slug": "tokfm",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5213,
+      "archive_count": 5214,
       "display_name": "Radio Wnet",
       "public_name": "Radio Wnet",
       "slug": "wnet",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5212,
+      "archive_count": 5213,
       "display_name": "Radio Republika",
       "public_name": "Radio Republika",
       "slug": "republika",
@@ -160,7 +160,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5195,
+      "archive_count": 5196,
       "display_name": "Radio Dla Ciebie",
       "public_name": "Radio Dla Ciebie",
       "slug": "rdc",
@@ -300,7 +300,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5173,
+      "archive_count": 5174,
       "display_name": "Radio UWM FM",
       "public_name": "Radio UWM FM",
       "slug": "radiouwmfm",
@@ -321,7 +321,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5196,
+      "archive_count": 5197,
       "display_name": "Radio Zielona Góra",
       "public_name": "Radio Zielona Góra",
       "slug": "radiozielonagora",
@@ -342,14 +342,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3725,
+      "archive_count": 3726,
       "display_name": "RMF Classic",
       "public_name": "RMF Classic",
       "slug": "rmfclassic",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3725,
+      "archive_count": 3726,
       "display_name": "RMF24",
       "public_name": "RMF24",
       "slug": "rmf24",
