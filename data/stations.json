@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-11-11T02:43:32.998418+00:00",
+  "generated_at": "2026-11-11T02:45:52.945404+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-11-11T01:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -10,6 +10,7 @@
     "Program 3",
     "Polskie Radio 24",
     "Radio 357",
+    "Radio Wnet",
     "Polskie Radio Dzieciom",
     "Radio Afera",
     "Radio Akadera",
@@ -29,7 +30,7 @@
     "Radio Łódź"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-11-11T02:43:32.998418+00:00",
+  "published_at": "2026-11-11T02:45:52.945404+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -83,7 +84,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5210,
+      "archive_count": 5211,
       "display_name": "Radio Wnet",
       "public_name": "Radio Wnet",
       "slug": "wnet",
