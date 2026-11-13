@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-11-13T02:23:48.279730+00:00",
+  "generated_at": "2026-11-13T02:33:40.005713+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-11-13T01:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -32,7 +32,7 @@
     "Radio Łódź"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-11-13T02:23:48.279730+00:00",
+  "published_at": "2026-11-13T02:33:40.005713+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -205,35 +205,35 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5229,
+      "archive_count": 5230,
       "display_name": "Radio Kraków",
       "public_name": "Radio Kraków",
       "slug": "radiokrakow",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5239,
+      "archive_count": 5240,
       "display_name": "Radio Lublin",
       "public_name": "Radio Lublin",
       "slug": "radiolublin",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5158,
+      "archive_count": 5159,
       "display_name": "Radio Luz",
       "public_name": "Radio Luz",
       "slug": "radioluz",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5078,
+      "archive_count": 5079,
       "display_name": "Radio Maryja",
       "public_name": "Radio Maryja",
       "slug": "radiomaryja",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5222,
+      "archive_count": 5223,
       "display_name": "Radio Olsztyn",
       "public_name": "Radio Olsztyn",
       "slug": "radioolsztyn",
@@ -310,7 +310,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5240,
+      "archive_count": 5241,
       "display_name": "Radio Łódź",
       "public_name": "Radio Łódź",
       "slug": "radiolodz",
