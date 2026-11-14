@@ -1,17 +1,19 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-11-14T21:43:11.961234+00:00",
+  "generated_at": "2026-11-14T21:46:53.527743+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-11-14T20:00:00+00:00",
   "latest_archive_hour_stations": [
     "Program 2",
     "Radio 357",
     "Radio Białystok",
-    "Radio Lublin"
+    "Radio Gorzów",
+    "Radio Lublin",
+    "Radio Opole"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-11-14T21:43:11.961234+00:00",
+  "published_at": "2026-11-14T21:46:53.527743+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -142,7 +144,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5283,
+      "archive_count": 5285,
       "display_name": "Radio Gorzów",
       "public_name": "Radio Gorzów",
       "slug": "radiogorzow",
@@ -219,7 +221,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5183,
+      "archive_count": 5184,
       "display_name": "Radio Opole",
       "public_name": "Radio Opole",
       "slug": "radioopole",
