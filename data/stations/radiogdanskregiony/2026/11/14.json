@@ -1,0 +1,58 @@
+{
+  "archives": [
+    {
+      "archive_item_identifier": "radiogdanskregiony-2026-11-13",
+      "audio_url": "https://archive.org/download/radiogdanskregiony-2026-11-13/radiogdanskregiony_2026-11-13T23-00-00Z.mp3",
+      "completeness_ratio": 1.0,
+      "day": 14,
+      "download_url": "https://archive.org/download/radiogdanskregiony-2026-11-13/radiogdanskregiony_2026-11-13T23-00-00Z.mp3",
+      "duration_seconds": 3599.882,
+      "hour": 0,
+      "hourly_archive_id": 258160,
+      "local_date_label": "14.11.2026",
+      "local_hour_label": "00:00",
+      "local_label": "2026-11-14 00:00 czasu polskiego",
+      "local_started_at": "2026-11-14T00:00:00+01:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 11,
+      "published_at": "2026-11-14T00:13:00.413504+00:00",
+      "published_local_label": "2026-11-14 01:13 czasu polskiego",
+      "remote_filename": "radiogdanskregiony_2026-11-13T23-00-00Z.mp3",
+      "station_slug": "radiogdanskregiony",
+      "status": "published",
+      "utc_label": "2026-11-13 23:00 UTC",
+      "utc_started_at": "2026-11-13T23:00:00+00:00",
+      "year": 2026
+    }
+  ],
+  "day": 14,
+  "hour_slots": [
+    {
+      "archive_status": "published",
+      "completeness_ratio": 1.0,
+      "day": 14,
+      "hour": 0,
+      "hourly_archive_id": 258160,
+      "local_date_label": "14.11.2026",
+      "local_hour_label": "00:00",
+      "local_label": "2026-11-14 00:00 czasu polskiego",
+      "local_started_at": "2026-11-14T00:00:00+01:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 11,
+      "playable": true,
+      "state": "available",
+      "status_label": null,
+      "utc_label": "2026-11-13 23:00 UTC",
+      "utc_started_at": "2026-11-13T23:00:00+00:00",
+      "year": 2026
+    }
+  ],
+  "month": 11,
+  "station": {
+    "display_name": "Radio Gdańsk Regiony",
+    "public_name": "Radio Gdańsk Regiony",
+    "slug": "radiogdanskregiony",
+    "timezone": "Europe/Warsaw"
+  },
+  "year": 2026
+}
