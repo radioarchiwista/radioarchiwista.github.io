@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-11-14T20:49:49.763945+00:00",
+  "generated_at": "2026-11-14T20:56:20.601111+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-11-14T19:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -17,6 +17,7 @@
     "Radio Dla Ciebie",
     "Radio Gdańsk",
     "Radio Gdańsk Regiony",
+    "Radio Gorzów",
     "Radio Index",
     "Radio Katowice",
     "Radio Koszalin",
@@ -24,11 +25,13 @@
     "Radio Lublin",
     "Radio Luz",
     "Radio Maryja",
+    "Radio PiK",
     "Radio Słupsk",
-    "Radio Wrocław"
+    "Radio Wrocław",
+    "Radio Żak"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-11-14T20:49:49.763945+00:00",
+  "published_at": "2026-11-14T20:56:20.601111+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -159,7 +162,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5283,
+      "archive_count": 5284,
       "display_name": "Radio Gorzów",
       "public_name": "Radio Gorzów",
       "slug": "radiogorzow",
@@ -243,7 +246,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5235,
+      "archive_count": 5236,
       "display_name": "Radio PiK",
       "public_name": "Radio PiK",
       "slug": "radiopik",
@@ -313,7 +316,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5266,
+      "archive_count": 5267,
       "display_name": "Radio Żak",
       "public_name": "Radio Żak",
       "slug": "radiozak",
