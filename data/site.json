@@ -1,21 +1,27 @@
 {
-  "archive_count": 258471,
+  "archive_count": 258480,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-11-14T20:13:20.791888+00:00",
+  "generated_at": "2026-11-14T20:19:52.347521+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-11-14T19:00:00+00:00",
   "latest_archive_hour_stations": [
+    "Program 1",
     "Program 2",
     "Polskie Radio 24",
     "Radio 357",
     "Radio Afera",
     "Radio Akadera",
     "Radio Białystok",
-    "Radio Centrum Rzeszów"
+    "Radio Centrum Rzeszów",
+    "Radio Gdańsk",
+    "Radio Katowice",
+    "Radio Koszalin",
+    "Radio Kraków",
+    "Radio Luz"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-11-14T20:13:20.791888+00:00",
+  "published_at": "2026-11-14T20:19:52.347521+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
