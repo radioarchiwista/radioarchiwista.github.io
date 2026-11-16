@@ -2,7 +2,7 @@
   "archive_count": 260070,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-11-16T08:44:28.562088+00:00",
+  "generated_at": "2026-11-16T08:49:31.476894+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-11-16T07:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -25,6 +25,7 @@
     "Radio Gdańsk",
     "Radio Gdańsk Regiony",
     "Radio Gorzów",
+    "Radio Index",
     "Radio Kampus",
     "Radio Katowice",
     "Radio Kielce",
@@ -50,7 +51,7 @@
     "RMF24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-11-16T08:44:28.562088+00:00",
+  "published_at": "2026-11-16T08:49:31.476894+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
