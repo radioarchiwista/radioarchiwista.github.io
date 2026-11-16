@@ -551,6 +551,30 @@
       "utc_label": "2026-11-15 21:00 UTC",
       "utc_started_at": "2026-11-15T21:00:00+00:00",
       "year": 2026
+    },
+    {
+      "archive_item_identifier": "radiocentrumlublin-2026-11-15",
+      "audio_url": "https://archive.org/download/radiocentrumlublin-2026-11-15/radiocentrumlublin_2026-11-15T22-00-00Z.mp3",
+      "completeness_ratio": 1.0,
+      "day": 15,
+      "download_url": "https://archive.org/download/radiocentrumlublin-2026-11-15/radiocentrumlublin_2026-11-15T22-00-00Z.mp3",
+      "duration_seconds": 3600.379,
+      "hour": 23,
+      "hourly_archive_id": 260177,
+      "local_date_label": "15.11.2026",
+      "local_hour_label": "23:00",
+      "local_label": "2026-11-15 23:00 czasu polskiego",
+      "local_started_at": "2026-11-15T23:00:00+01:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 11,
+      "published_at": "2026-11-16T00:32:05.531304+00:00",
+      "published_local_label": "2026-11-16 01:32 czasu polskiego",
+      "remote_filename": "radiocentrumlublin_2026-11-15T22-00-00Z.mp3",
+      "station_slug": "radiocentrumlublin",
+      "status": "published",
+      "utc_label": "2026-11-15 22:00 UTC",
+      "utc_started_at": "2026-11-15T22:00:00+00:00",
+      "year": 2026
     }
   ],
   "day": 15,
@@ -993,7 +1017,7 @@
       "year": 2026
     },
     {
-      "archive_status": "ready",
+      "archive_status": "published",
       "completeness_ratio": 1.0,
       "day": 15,
       "hour": 23,
@@ -1004,9 +1028,9 @@
       "local_started_at": "2026-11-15T23:00:00+01:00",
       "local_timezone_label": "czasu polskiego",
       "month": 11,
-      "playable": false,
-      "state": "publishing",
-      "status_label": "Czeka w kolejce do publikacji",
+      "playable": true,
+      "state": "available",
+      "status_label": null,
       "utc_label": "2026-11-15 22:00 UTC",
       "utc_started_at": "2026-11-15T22:00:00+00:00",
       "year": 2026
