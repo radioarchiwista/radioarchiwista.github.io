@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-11-16T02:26:55.776315+00:00",
+  "generated_at": "2026-11-16T02:32:41.670196+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-11-16T01:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -33,7 +33,7 @@
     "Radio Łódź"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-11-16T02:26:55.776315+00:00",
+  "published_at": "2026-11-16T02:32:41.670196+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -157,7 +157,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 2784,
+      "archive_count": 2785,
       "display_name": "Radio Gdańsk Regiony",
       "public_name": "Radio Gdańsk Regiony",
       "slug": "radiogdanskregiony",
@@ -199,42 +199,42 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5185,
+      "archive_count": 5186,
       "display_name": "Radio Koszalin",
       "public_name": "Radio Koszalin",
       "slug": "radiokoszalin",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5301,
+      "archive_count": 5302,
       "display_name": "Radio Kraków",
       "public_name": "Radio Kraków",
       "slug": "radiokrakow",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5311,
+      "archive_count": 5312,
       "display_name": "Radio Lublin",
       "public_name": "Radio Lublin",
       "slug": "radiolublin",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5230,
+      "archive_count": 5231,
       "display_name": "Radio Luz",
       "public_name": "Radio Luz",
       "slug": "radioluz",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5150,
+      "archive_count": 5151,
       "display_name": "Radio Maryja",
       "public_name": "Radio Maryja",
       "slug": "radiomaryja",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5294,
+      "archive_count": 5295,
       "display_name": "Radio Olsztyn",
       "public_name": "Radio Olsztyn",
       "slug": "radioolsztyn",
@@ -248,7 +248,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5264,
+      "archive_count": 5265,
       "display_name": "Radio PiK",
       "public_name": "Radio PiK",
       "slug": "radiopik",
@@ -311,7 +311,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5312,
+      "archive_count": 5313,
       "display_name": "Radio Łódź",
       "public_name": "Radio Łódź",
       "slug": "radiolodz",
