@@ -311,30 +311,6 @@
       "utc_label": "2026-11-16 11:00 UTC",
       "utc_started_at": "2026-11-16T11:00:00+00:00",
       "year": 2026
-    },
-    {
-      "archive_item_identifier": "pr1-2026-11-16",
-      "audio_url": "https://archive.org/download/pr1-2026-11-16/pr1_2026-11-16T12-00-00Z.mp3",
-      "completeness_ratio": 1.0,
-      "day": 16,
-      "download_url": "https://archive.org/download/pr1-2026-11-16/pr1_2026-11-16T12-00-00Z.mp3",
-      "duration_seconds": 3600.6,
-      "hour": 13,
-      "hourly_archive_id": 260771,
-      "local_date_label": "16.11.2026",
-      "local_hour_label": "13:00",
-      "local_label": "2026-11-16 13:00 czasu polskiego",
-      "local_started_at": "2026-11-16T13:00:00+01:00",
-      "local_timezone_label": "czasu polskiego",
-      "month": 11,
-      "published_at": "2026-11-16T13:04:37.406772+00:00",
-      "published_local_label": "2026-11-16 14:04 czasu polskiego",
-      "remote_filename": "pr1_2026-11-16T12-00-00Z.mp3",
-      "station_slug": "pr1",
-      "status": "published",
-      "utc_label": "2026-11-16 12:00 UTC",
-      "utc_started_at": "2026-11-16T12:00:00+00:00",
-      "year": 2026
     }
   ],
   "day": 16,
@@ -587,7 +563,7 @@
       "year": 2026
     },
     {
-      "archive_status": "published",
+      "archive_status": "ready",
       "completeness_ratio": 1.0,
       "day": 16,
       "hour": 13,
@@ -598,9 +574,9 @@
       "local_started_at": "2026-11-16T13:00:00+01:00",
       "local_timezone_label": "czasu polskiego",
       "month": 11,
-      "playable": true,
-      "state": "available",
-      "status_label": null,
+      "playable": false,
+      "state": "publishing",
+      "status_label": "Czeka w kolejce do publikacji",
       "utc_label": "2026-11-16 12:00 UTC",
       "utc_started_at": "2026-11-16T12:00:00+00:00",
       "year": 2026
