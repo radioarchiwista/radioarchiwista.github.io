@@ -1,15 +1,22 @@
 {
-  "archive_count": 260501,
+  "archive_count": 260506,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-11-16T20:09:12.352472+00:00",
+  "generated_at": "2026-11-16T20:19:07.759299+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-11-16T19:00:00+00:00",
   "latest_archive_hour_stations": [
-    "Radio Afera"
+    "Radio Afera",
+    "Radio Centrum Lublin",
+    "Radio Gdańsk Regiony",
+    "Radio Gorzów",
+    "Radio Index",
+    "Radio Kampus",
+    "Radio Kielce",
+    "Radio Koszalin"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-11-16T20:09:12.352472+00:00",
+  "published_at": "2026-11-16T20:19:07.759299+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
