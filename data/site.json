@@ -1,11 +1,15 @@
 {
-  "archive_count": 260510,
+  "archive_count": 260517,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-11-16T20:29:47.907645+00:00",
+  "generated_at": "2026-11-16T20:40:54.664121+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-11-16T19:00:00+00:00",
   "latest_archive_hour_stations": [
+    "Radio Republika",
+    "Radio Afera",
+    "Radio Centrum Lublin",
+    "Radio Dla Ciebie",
     "Radio Gdańsk Regiony",
     "Radio Gorzów",
     "Radio Index",
@@ -18,10 +22,13 @@
     "Radio PiK",
     "Radio Szczecin",
     "Radio Słupsk",
-    "Radio Zachód"
+    "Radio Zachód",
+    "Radio Zielona Góra",
+    "RMF Classic",
+    "RMF24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-11-16T20:29:47.907645+00:00",
+  "published_at": "2026-11-16T20:40:54.664121+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
