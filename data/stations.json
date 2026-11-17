@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-11-17T17:37:10.454075+00:00",
+  "generated_at": "2026-11-17T17:41:30.100733+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-11-17T16:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -34,6 +34,7 @@
     "Radio Luz",
     "Radio Maryja",
     "Radio Olsztyn",
+    "Radio Opole",
     "Radio PiK",
     "Radio Poznań",
     "Radio Rzeszów",
@@ -49,7 +50,7 @@
     "RMF24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-11-17T17:37:10.454075+00:00",
+  "published_at": "2026-11-17T17:41:30.100733+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -89,7 +90,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5367,
+      "archive_count": 5368,
       "display_name": "Radio Nowy Świat",
       "public_name": "Radio Nowy Świat",
       "slug": "rns",
@@ -103,7 +104,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5369,
+      "archive_count": 5370,
       "display_name": "Radio Wnet",
       "public_name": "Radio Wnet",
       "slug": "wnet",
@@ -236,7 +237,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5270,
+      "archive_count": 5271,
       "display_name": "Radio Luz",
       "public_name": "Radio Luz",
       "slug": "radioluz",
