@@ -1,16 +1,18 @@
 {
-  "archive_count": 261648,
+  "archive_count": 261629,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-11-17T23:27:44.279820+00:00",
+  "generated_at": "2026-11-17T23:53:58.053757+00:00",
   "latest_archive_hour_expected_station_count": 43,
-  "latest_archive_hour_started_at": "2026-11-17T22:00:00+00:00",
+  "latest_archive_hour_started_at": "2026-11-17T21:00:00+00:00",
   "latest_archive_hour_stations": [
     "Radio Nowy Świat",
-    "Radio Wnet"
+    "Radio Dla Ciebie",
+    "Radio Zielona Góra",
+    "RMF24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-11-17T23:27:44.279820+00:00",
+  "published_at": "2026-11-17T23:53:58.053757+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
