@@ -1,8 +1,8 @@
 {
-  "archive_count": 261560,
+  "archive_count": 261553,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-11-17T19:45:55.764305+00:00",
+  "generated_at": "2026-11-17T19:56:18.196758+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-11-17T18:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -24,11 +24,12 @@
     "Radio Lublin",
     "Radio Maryja",
     "Radio UWM FM",
+    "Radio Zielona Góra",
     "Radio Łódź",
     "Radio Żak"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-11-17T19:45:55.764305+00:00",
+  "published_at": "2026-11-17T19:56:18.196758+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
