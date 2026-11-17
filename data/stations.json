@@ -1,29 +1,42 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-11-17T23:02:33.513970+00:00",
+  "generated_at": "2026-11-17T23:15:52.745725+00:00",
   "latest_archive_hour_expected_station_count": 43,
-  "latest_archive_hour_started_at": "2026-11-17T21:00:00+00:00",
+  "latest_archive_hour_started_at": "2026-11-17T22:00:00+00:00",
   "latest_archive_hour_stations": [
-    "Radio Nowy Świat",
-    "Radio Dla Ciebie",
-    "Radio Zielona Góra",
-    "RMF24"
+    "Program 1",
+    "Program 2",
+    "Program 3",
+    "Polskie Radio 24",
+    "Radio 357",
+    "Radio Akadera",
+    "Radio Białystok",
+    "Radio Centrum Lublin",
+    "Radio Centrum Rzeszów",
+    "Radio Gdańsk Regiony",
+    "Radio Gorzów",
+    "Radio Kampus",
+    "Radio Katowice",
+    "Radio Kielce",
+    "Radio Koszalin",
+    "Radio Kraków",
+    "Radio Łódź"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-11-17T23:02:33.513970+00:00",
+  "published_at": "2026-11-17T23:15:52.745725+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
     {
-      "archive_count": 5351,
+      "archive_count": 5352,
       "display_name": "Program 1",
       "public_name": "Polskie Radio Program 1",
       "slug": "pr1",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5352,
+      "archive_count": 5353,
       "display_name": "Program 2",
       "public_name": "Polskie Radio Program 2",
       "slug": "pr2",
@@ -37,7 +50,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5369,
+      "archive_count": 5370,
       "display_name": "Polskie Radio 24",
       "public_name": "Polskie Radio 24",
       "slug": "pr24",
@@ -51,7 +64,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5373,
+      "archive_count": 5372,
       "display_name": "Radio Nowy Świat",
       "public_name": "Radio Nowy Świat",
       "slug": "rns",
@@ -65,7 +78,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5375,
+      "archive_count": 5374,
       "display_name": "Radio Wnet",
       "public_name": "Radio Wnet",
       "slug": "wnet",
