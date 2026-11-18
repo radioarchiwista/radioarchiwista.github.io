@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-11-18T22:29:21.605973+00:00",
+  "generated_at": "2026-11-18T22:40:36.639516+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-11-18T21:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -10,6 +10,8 @@
     "Program 3",
     "Polskie Radio 24",
     "Radio 357",
+    "TOK FM",
+    "Radio Wnet",
     "Radio Republika",
     "Polskie Radio Dzieciom",
     "Radio Afera",
@@ -41,12 +43,13 @@
     "Radio Wrocław",
     "Radio Zachód",
     "Radio Zielona Góra",
+    "Radio Łódź",
     "Radio Żak",
     "RMF Classic",
     "RMF24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-11-18T22:29:21.605973+00:00",
+  "published_at": "2026-11-18T22:40:36.639516+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -86,28 +89,28 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5396,
+      "archive_count": 5397,
       "display_name": "Radio Nowy Świat",
       "public_name": "Radio Nowy Świat",
       "slug": "rns",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5385,
+      "archive_count": 5386,
       "display_name": "TOK FM",
       "public_name": "TOK FM",
       "slug": "tokfm",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5398,
+      "archive_count": 5399,
       "display_name": "Radio Wnet",
       "public_name": "Radio Wnet",
       "slug": "wnet",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5397,
+      "archive_count": 5398,
       "display_name": "Radio Republika",
       "public_name": "Radio Republika",
       "slug": "republika",
@@ -156,7 +159,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5380,
+      "archive_count": 5381,
       "display_name": "Radio Dla Ciebie",
       "public_name": "Radio Dla Ciebie",
       "slug": "rdc",
@@ -275,21 +278,21 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5376,
+      "archive_count": 5377,
       "display_name": "Radio Rzeszów",
       "public_name": "Radio Rzeszów",
       "slug": "radiorzeszow",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5375,
+      "archive_count": 5376,
       "display_name": "Radio Szczecin",
       "public_name": "Radio Szczecin",
       "slug": "radioszczecin",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5272,
+      "archive_count": 5273,
       "display_name": "Radio Słupsk",
       "public_name": "Radio Słupsk",
       "slug": "radioslupsk",
@@ -303,21 +306,21 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5380,
+      "archive_count": 5381,
       "display_name": "Radio Wrocław",
       "public_name": "Radio Wrocław",
       "slug": "radiowroclaw",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5381,
+      "archive_count": 5382,
       "display_name": "Radio Zachód",
       "public_name": "Radio Zachód",
       "slug": "radiozachod",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5381,
+      "archive_count": 5382,
       "display_name": "Radio Zielona Góra",
       "public_name": "Radio Zielona Góra",
       "slug": "radiozielonagora",
@@ -331,21 +334,21 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5364,
+      "archive_count": 5365,
       "display_name": "Radio Żak",
       "public_name": "Radio Żak",
       "slug": "radiozak",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3910,
+      "archive_count": 3911,
       "display_name": "RMF Classic",
       "public_name": "RMF Classic",
       "slug": "rmfclassic",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3910,
+      "archive_count": 3911,
       "display_name": "RMF24",
       "public_name": "RMF24",
       "slug": "rmf24",
