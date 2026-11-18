@@ -551,6 +551,30 @@
       "utc_label": "2026-11-18 21:00 UTC",
       "utc_started_at": "2026-11-18T21:00:00+00:00",
       "year": 2026
+    },
+    {
+      "archive_item_identifier": "radioindex-2026-11-18",
+      "audio_url": "https://archive.org/download/radioindex-2026-11-18/radioindex_2026-11-18T22-00-00Z.mp3",
+      "completeness_ratio": 0.9998,
+      "day": 18,
+      "download_url": "https://archive.org/download/radioindex-2026-11-18/radioindex_2026-11-18T22-00-00Z.mp3",
+      "duration_seconds": 3598.632,
+      "hour": 23,
+      "hourly_archive_id": 263278,
+      "local_date_label": "18.11.2026",
+      "local_hour_label": "23:00",
+      "local_label": "2026-11-18 23:00 czasu polskiego",
+      "local_started_at": "2026-11-18T23:00:00+01:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 11,
+      "published_at": "2026-11-18T23:46:14.951534+00:00",
+      "published_local_label": "2026-11-19 00:46 czasu polskiego",
+      "remote_filename": "radioindex_2026-11-18T22-00-00Z.mp3",
+      "station_slug": "radioindex",
+      "status": "published",
+      "utc_label": "2026-11-18 22:00 UTC",
+      "utc_started_at": "2026-11-18T22:00:00+00:00",
+      "year": 2026
     }
   ],
   "day": 18,
@@ -993,7 +1017,7 @@
       "year": 2026
     },
     {
-      "archive_status": "ready",
+      "archive_status": "published",
       "completeness_ratio": 0.9998,
       "day": 18,
       "hour": 23,
@@ -1004,9 +1028,9 @@
       "local_started_at": "2026-11-18T23:00:00+01:00",
       "local_timezone_label": "czasu polskiego",
       "month": 11,
-      "playable": false,
-      "state": "publishing",
-      "status_label": "Czeka w kolejce do publikacji",
+      "playable": true,
+      "state": "available",
+      "status_label": null,
       "utc_label": "2026-11-18 22:00 UTC",
       "utc_started_at": "2026-11-18T22:00:00+00:00",
       "year": 2026
