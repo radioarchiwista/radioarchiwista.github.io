@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-11-18T14:48:54.302750+00:00",
+  "generated_at": "2026-11-18T14:52:48.053347+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-11-18T13:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -42,6 +42,7 @@
     "Radio Słupsk",
     "Radio UWM FM",
     "Radio Wrocław",
+    "Radio Zachód",
     "Radio Zielona Góra",
     "Radio Łódź",
     "Radio Żak",
@@ -49,7 +50,7 @@
     "RMF24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-11-18T14:48:54.302750+00:00",
+  "published_at": "2026-11-18T14:52:48.053347+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -313,7 +314,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5373,
+      "archive_count": 5374,
       "display_name": "Radio Zachód",
       "public_name": "Radio Zachód",
       "slug": "radiozachod",
