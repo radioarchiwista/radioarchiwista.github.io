@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-11-19T00:48:50.008000+00:00",
+  "generated_at": "2026-11-19T00:56:06.174932+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-11-18T23:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -45,11 +45,12 @@
     "Radio Zachód",
     "Radio Zielona Góra",
     "Radio Łódź",
+    "Radio Żak",
     "RMF Classic",
     "RMF24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-11-19T00:48:50.008000+00:00",
+  "published_at": "2026-11-19T00:56:06.174932+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -334,7 +335,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5366,
+      "archive_count": 5367,
       "display_name": "Radio Żak",
       "public_name": "Radio Żak",
       "slug": "radiozak",
