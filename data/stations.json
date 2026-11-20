@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-11-20T09:51:22.892326+00:00",
+  "generated_at": "2026-11-20T09:57:26.271725+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-11-20T08:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -11,6 +11,7 @@
     "Radio 357",
     "Polskie Radio Dzieciom",
     "Radio Afera",
+    "Radio Akadera",
     "Radio Białystok",
     "Radio Centrum Lublin",
     "Radio Centrum Rzeszów",
@@ -19,10 +20,11 @@
     "Radio Gorzów",
     "Radio Index",
     "Radio Kampus",
+    "Radio Katowice",
     "Radio UWM FM"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-11-20T09:51:22.892326+00:00",
+  "published_at": "2026-11-20T09:57:26.271725+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -104,7 +106,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5413,
+      "archive_count": 5414,
       "display_name": "Radio Akadera",
       "public_name": "Radio Akadera",
       "slug": "radioakadera",
@@ -174,7 +176,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5410,
+      "archive_count": 5411,
       "display_name": "Radio Katowice",
       "public_name": "Radio Katowice",
       "slug": "radiokatowice",
