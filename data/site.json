@@ -1,8 +1,8 @@
 {
-  "archive_count": 263949,
+  "archive_count": 263954,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-11-20T06:34:20.031618+00:00",
+  "generated_at": "2026-11-20T06:41:30.938032+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-11-20T05:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -15,10 +15,12 @@
     "Radio Afera",
     "Radio Akadera",
     "Radio Białystok",
+    "Radio Centrum Lublin",
+    "Radio Centrum Rzeszów",
     "Radio UWM FM"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-11-20T06:34:20.031618+00:00",
+  "published_at": "2026-11-20T06:41:30.938032+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
