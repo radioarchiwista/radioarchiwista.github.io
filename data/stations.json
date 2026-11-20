@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-11-20T18:35:43.140663+00:00",
+  "generated_at": "2026-11-20T18:46:16.722517+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-11-20T17:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -13,10 +13,12 @@
     "Polskie Radio Dzieciom",
     "Radio Afera",
     "Radio Akadera",
+    "Radio Białystok",
+    "Radio Centrum Lublin",
     "Radio UWM FM"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-11-20T18:35:43.140663+00:00",
+  "published_at": "2026-11-20T18:46:16.722517+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -49,7 +51,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5417,
+      "archive_count": 5418,
       "display_name": "Radio 357",
       "public_name": "Radio 357",
       "slug": "radio357",
@@ -98,21 +100,21 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5422,
+      "archive_count": 5423,
       "display_name": "Radio Akadera",
       "public_name": "Radio Akadera",
       "slug": "radioakadera",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5419,
+      "archive_count": 5420,
       "display_name": "Radio Białystok",
       "public_name": "Radio Białystok",
       "slug": "radiobialystok",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5421,
+      "archive_count": 5422,
       "display_name": "Radio Centrum Lublin",
       "public_name": "Radio Centrum Lublin",
       "slug": "radiocentrumlublin",
