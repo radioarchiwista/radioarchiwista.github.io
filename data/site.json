@@ -1,15 +1,19 @@
 {
-  "archive_count": 264242,
+  "archive_count": 264243,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-11-20T23:06:58.474161+00:00",
+  "generated_at": "2026-11-20T23:18:56.713507+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-11-20T22:00:00+00:00",
   "latest_archive_hour_stations": [
-    "Polskie Radio Dzieciom"
+    "Program 1",
+    "Program 2",
+    "Polskie Radio 24",
+    "Polskie Radio Dzieciom",
+    "Radio UWM FM"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-11-20T23:06:58.474161+00:00",
+  "published_at": "2026-11-20T23:18:56.713507+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
