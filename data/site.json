@@ -1,8 +1,8 @@
 {
-  "archive_count": 264059,
+  "archive_count": 264061,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-11-20T11:49:04.125938+00:00",
+  "generated_at": "2026-11-20T11:52:09.810742+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-11-20T10:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -13,6 +13,7 @@
     "Polskie Radio Dzieciom",
     "Radio Afera",
     "Radio Akadera",
+    "Radio Białystok",
     "Radio Centrum Lublin",
     "Radio Centrum Rzeszów",
     "Radio Gdańsk",
@@ -24,7 +25,7 @@
     "Radio UWM FM"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-11-20T11:49:04.125938+00:00",
+  "published_at": "2026-11-20T11:52:09.810742+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
