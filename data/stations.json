@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-11-20T16:42:58.526391+00:00",
+  "generated_at": "2026-11-20T16:47:31.883823+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-11-20T15:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -9,6 +9,7 @@
     "Program 2",
     "Program 3",
     "Polskie Radio 24",
+    "Radio 357",
     "Polskie Radio Dzieciom",
     "Radio Afera",
     "Radio Akadera",
@@ -20,7 +21,7 @@
     "Radio UWM FM"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-11-20T16:42:58.526391+00:00",
+  "published_at": "2026-11-20T16:47:31.883823+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -53,7 +54,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5417,
+      "archive_count": 5418,
       "display_name": "Radio 357",
       "public_name": "Radio 357",
       "slug": "radio357",
@@ -144,7 +145,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 2894,
+      "archive_count": 2895,
       "display_name": "Radio Gdańsk Regiony",
       "public_name": "Radio Gdańsk Regiony",
       "slug": "radiogdanskregiony",
