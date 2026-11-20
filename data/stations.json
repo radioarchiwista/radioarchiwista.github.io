@@ -1,18 +1,24 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-11-20T21:16:34.270832+00:00",
+  "generated_at": "2026-11-20T21:34:06.820614+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-11-20T20:00:00+00:00",
   "latest_archive_hour_stations": [
     "Program 1",
     "Program 2",
+    "Program 3",
     "Polskie Radio 24",
     "Polskie Radio Dzieciom",
+    "Radio Afera",
+    "Radio Akadera",
+    "Radio Białystok",
+    "Radio Centrum Lublin",
+    "Radio Centrum Rzeszów",
     "Radio UWM FM"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-11-20T21:16:34.270832+00:00",
+  "published_at": "2026-11-20T21:34:06.820614+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -31,14 +37,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 45864,
+      "archive_count": 45865,
       "display_name": "Program 3",
       "public_name": "Polskie Radio Program 3",
       "slug": "pr3",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5441,
+      "archive_count": 5442,
       "display_name": "Polskie Radio 24",
       "public_name": "Polskie Radio 24",
       "slug": "pr24",
@@ -87,7 +93,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5425,
+      "archive_count": 5426,
       "display_name": "Radio Afera",
       "public_name": "Radio Afera",
       "slug": "afera",
@@ -262,7 +268,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5405,
+      "archive_count": 5406,
       "display_name": "Radio UWM FM",
       "public_name": "Radio UWM FM",
       "slug": "radiouwmfm",
