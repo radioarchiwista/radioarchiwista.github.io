@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-11-20T07:00:30.137835+00:00",
+  "generated_at": "2026-11-20T07:04:32.299561+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-11-20T05:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -16,16 +16,18 @@
     "Radio Białystok",
     "Radio Centrum Lublin",
     "Radio Centrum Rzeszów",
+    "Radio Gdańsk",
     "Radio Gdańsk Regiony",
     "Radio Gorzów",
     "Radio Index",
     "Radio Kampus",
     "Radio Katowice",
     "Radio Koszalin",
+    "Radio Kraków",
     "Radio UWM FM"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-11-20T07:00:30.137835+00:00",
+  "published_at": "2026-11-20T07:04:32.299561+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -142,7 +144,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5413,
+      "archive_count": 5414,
       "display_name": "Radio Gdańsk",
       "public_name": "Radio Gdańsk",
       "slug": "radiogdansk",
@@ -198,7 +200,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5399,
+      "archive_count": 5400,
       "display_name": "Radio Kraków",
       "public_name": "Radio Kraków",
       "slug": "radiokrakow",
