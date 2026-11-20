@@ -1,15 +1,18 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-11-20T19:11:48.558198+00:00",
+  "generated_at": "2026-11-20T19:19:15.162583+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-11-20T18:00:00+00:00",
   "latest_archive_hour_stations": [
     "Program 1",
-    "Polskie Radio Dzieciom"
+    "Program 2",
+    "Polskie Radio 24",
+    "Polskie Radio Dzieciom",
+    "Radio UWM FM"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-11-20T19:11:48.558198+00:00",
+  "published_at": "2026-11-20T19:19:15.162583+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -21,7 +24,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5422,
+      "archive_count": 5423,
       "display_name": "Program 2",
       "public_name": "Polskie Radio Program 2",
       "slug": "pr2",
@@ -35,14 +38,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5439,
+      "archive_count": 5440,
       "display_name": "Polskie Radio 24",
       "public_name": "Polskie Radio 24",
       "slug": "pr24",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5418,
+      "archive_count": 5417,
       "display_name": "Radio 357",
       "public_name": "Radio 357",
       "slug": "radio357",
@@ -259,7 +262,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5403,
+      "archive_count": 5404,
       "display_name": "Radio UWM FM",
       "public_name": "Radio UWM FM",
       "slug": "radiouwmfm",
