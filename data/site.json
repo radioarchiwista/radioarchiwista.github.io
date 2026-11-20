@@ -1,14 +1,15 @@
 {
-  "archive_count": 264042,
+  "archive_count": 264044,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-11-20T10:53:07.079696+00:00",
+  "generated_at": "2026-11-20T10:58:55.763326+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-11-20T09:00:00+00:00",
   "latest_archive_hour_stations": [
     "Program 1",
     "Program 2",
     "Program 3",
+    "Radio 357",
     "Polskie Radio Dzieciom",
     "Radio Afera",
     "Radio Akadera",
@@ -22,10 +23,11 @@
     "Radio Kampus",
     "Radio Katowice",
     "Radio Kielce",
+    "Radio Koszalin",
     "Radio UWM FM"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-11-20T10:53:07.079696+00:00",
+  "published_at": "2026-11-20T10:58:55.763326+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
