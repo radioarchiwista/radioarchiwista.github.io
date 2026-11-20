@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-11-20T10:40:22.682658+00:00",
+  "generated_at": "2026-11-20T10:47:31.641554+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-11-20T09:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -17,10 +17,12 @@
     "Radio Gdańsk",
     "Radio Gdańsk Regiony",
     "Radio Gorzów",
+    "Radio Index",
+    "Radio Kampus",
     "Radio UWM FM"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-11-20T10:40:22.682658+00:00",
+  "published_at": "2026-11-20T10:47:31.641554+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -151,14 +153,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5417,
+      "archive_count": 5418,
       "display_name": "Radio Gorzów",
       "public_name": "Radio Gorzów",
       "slug": "radiogorzow",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5350,
+      "archive_count": 5351,
       "display_name": "Radio Index",
       "public_name": "Radio Index",
       "slug": "radioindex",
