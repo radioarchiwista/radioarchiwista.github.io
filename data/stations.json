@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-11-20T01:42:00.817108+00:00",
+  "generated_at": "2026-11-20T01:49:46.470759+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-11-20T00:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -12,10 +12,12 @@
     "Polskie Radio Dzieciom",
     "Radio Afera",
     "Radio Akadera",
+    "Radio Białystok",
+    "Radio Centrum Lublin",
     "Radio UWM FM"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-11-20T01:42:00.817108+00:00",
+  "published_at": "2026-11-20T01:49:46.470759+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -97,14 +99,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5405,
+      "archive_count": 5406,
       "display_name": "Radio Akadera",
       "public_name": "Radio Akadera",
       "slug": "radioakadera",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5404,
+      "archive_count": 5405,
       "display_name": "Radio Białystok",
       "public_name": "Radio Białystok",
       "slug": "radiobialystok",
