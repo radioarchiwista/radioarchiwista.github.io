@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-11-20T21:53:59.686809+00:00",
+  "generated_at": "2026-11-20T21:59:53.826536+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-11-20T20:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -21,10 +21,12 @@
     "Radio Gorzów",
     "Radio Index",
     "Radio Kampus",
+    "Radio Katowice",
+    "Radio Kielce",
     "Radio UWM FM"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-11-20T21:53:59.686809+00:00",
+  "published_at": "2026-11-20T21:59:53.826536+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -176,14 +178,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5417,
+      "archive_count": 5418,
       "display_name": "Radio Katowice",
       "public_name": "Radio Katowice",
       "slug": "radiokatowice",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5367,
+      "archive_count": 5368,
       "display_name": "Radio Kielce",
       "public_name": "Radio Kielce",
       "slug": "radiokielce",
