@@ -50,6 +50,30 @@
     },
     {
       "archive_item_identifier": "radioluz-2026-11-20",
+      "audio_url": "https://archive.org/download/radioluz-2026-11-20/radioluz_2026-11-20T20-00-00Z.mp3",
+      "completeness_ratio": 1.0,
+      "day": 20,
+      "download_url": "https://archive.org/download/radioluz-2026-11-20/radioluz_2026-11-20T20-00-00Z.mp3",
+      "duration_seconds": 3600.12,
+      "hour": 21,
+      "hourly_archive_id": 265264,
+      "local_date_label": "20.11.2026",
+      "local_hour_label": "21:00",
+      "local_label": "2026-11-20 21:00 czasu polskiego",
+      "local_started_at": "2026-11-20T21:00:00+01:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 11,
+      "published_at": "2026-11-21T13:54:08.158537+00:00",
+      "published_local_label": "2026-11-21 14:54 czasu polskiego",
+      "remote_filename": "radioluz_2026-11-20T20-00-00Z.mp3",
+      "station_slug": "radioluz",
+      "status": "published",
+      "utc_label": "2026-11-20 20:00 UTC",
+      "utc_started_at": "2026-11-20T20:00:00+00:00",
+      "year": 2026
+    },
+    {
+      "archive_item_identifier": "radioluz-2026-11-20",
       "audio_url": "https://archive.org/download/radioluz-2026-11-20/radioluz_2026-11-20T21-00-00Z.mp3",
       "completeness_ratio": 1.0,
       "day": 20,
@@ -328,7 +352,7 @@
       "year": 2026
     },
     {
-      "archive_status": "error",
+      "archive_status": "ready",
       "completeness_ratio": 0.9997,
       "day": 20,
       "hour": 12,
@@ -340,8 +364,8 @@
       "local_timezone_label": "czasu polskiego",
       "month": 11,
       "playable": false,
-      "state": "failed",
-      "status_label": "Nie udało się przygotować nagrania",
+      "state": "publishing",
+      "status_label": "Czeka w kolejce do publikacji",
       "utc_label": "2026-11-20 11:00 UTC",
       "utc_started_at": "2026-11-20T11:00:00+00:00",
       "year": 2026
@@ -499,7 +523,7 @@
       "year": 2026
     },
     {
-      "archive_status": "ready",
+      "archive_status": "published",
       "completeness_ratio": 1.0,
       "day": 20,
       "hour": 21,
@@ -510,9 +534,9 @@
       "local_started_at": "2026-11-20T21:00:00+01:00",
       "local_timezone_label": "czasu polskiego",
       "month": 11,
-      "playable": false,
-      "state": "publishing",
-      "status_label": "Czeka w kolejce do publikacji",
+      "playable": true,
+      "state": "available",
+      "status_label": null,
       "utc_label": "2026-11-20 20:00 UTC",
       "utc_started_at": "2026-11-20T20:00:00+00:00",
       "year": 2026
