@@ -2,6 +2,30 @@
   "archives": [
     {
       "archive_item_identifier": "wnet-2026-11-20",
+      "audio_url": "https://archive.org/download/wnet-2026-11-20/wnet_2026-11-20T14-00-00Z.mp3",
+      "completeness_ratio": 0.9998,
+      "day": 20,
+      "download_url": "https://archive.org/download/wnet-2026-11-20/wnet_2026-11-20T14-00-00Z.mp3",
+      "duration_seconds": 3599.568,
+      "hour": 15,
+      "hourly_archive_id": 265026,
+      "local_date_label": "20.11.2026",
+      "local_hour_label": "15:00",
+      "local_label": "2026-11-20 15:00 czasu polskiego",
+      "local_started_at": "2026-11-20T15:00:00+01:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 11,
+      "published_at": "2026-11-21T17:25:32.822510+00:00",
+      "published_local_label": "2026-11-21 18:25 czasu polskiego",
+      "remote_filename": "wnet_2026-11-20T14-00-00Z.mp3",
+      "station_slug": "wnet",
+      "status": "published",
+      "utc_label": "2026-11-20 14:00 UTC",
+      "utc_started_at": "2026-11-20T14:00:00+00:00",
+      "year": 2026
+    },
+    {
+      "archive_item_identifier": "wnet-2026-11-20",
       "audio_url": "https://archive.org/download/wnet-2026-11-20/wnet_2026-11-20T15-00-00Z.mp3",
       "completeness_ratio": 1.0,
       "day": 20,
@@ -253,7 +277,7 @@
       "year": 2026
     },
     {
-      "archive_status": "error",
+      "archive_status": "ready",
       "completeness_ratio": 0.9997,
       "day": 20,
       "hour": 3,
@@ -265,8 +289,8 @@
       "local_timezone_label": "czasu polskiego",
       "month": 11,
       "playable": false,
-      "state": "failed",
-      "status_label": "Nie udało się przygotować nagrania",
+      "state": "publishing",
+      "status_label": "Czeka w kolejce do publikacji",
       "utc_label": "2026-11-20 02:00 UTC",
       "utc_started_at": "2026-11-20T02:00:00+00:00",
       "year": 2026
@@ -481,7 +505,7 @@
       "year": 2026
     },
     {
-      "archive_status": "ready",
+      "archive_status": "published",
       "completeness_ratio": 0.9998,
       "day": 20,
       "hour": 15,
@@ -492,9 +516,9 @@
       "local_started_at": "2026-11-20T15:00:00+01:00",
       "local_timezone_label": "czasu polskiego",
       "month": 11,
-      "playable": false,
-      "state": "publishing",
-      "status_label": "Czeka w kolejce do publikacji",
+      "playable": true,
+      "state": "available",
+      "status_label": null,
       "utc_label": "2026-11-20 14:00 UTC",
       "utc_started_at": "2026-11-20T14:00:00+00:00",
       "year": 2026
