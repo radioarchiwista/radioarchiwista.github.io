@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-11-20T23:57:59.030270+00:00",
+  "generated_at": "2026-11-21T00:01:49.564654+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-11-20T22:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -21,10 +21,11 @@
     "Radio Index",
     "Radio Kampus",
     "Radio Katowice",
+    "Radio Koszalin",
     "Radio UWM FM"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-11-20T23:57:59.030270+00:00",
+  "published_at": "2026-11-21T00:01:49.564654+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -176,7 +177,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5419,
+      "archive_count": 5420,
       "display_name": "Radio Katowice",
       "public_name": "Radio Katowice",
       "slug": "radiokatowice",
@@ -190,7 +191,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5291,
+      "archive_count": 5292,
       "display_name": "Radio Koszalin",
       "public_name": "Radio Koszalin",
       "slug": "radiokoszalin",
