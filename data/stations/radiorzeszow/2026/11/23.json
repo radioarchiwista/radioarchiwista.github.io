@@ -263,30 +263,6 @@
       "utc_label": "2026-11-23 09:00 UTC",
       "utc_started_at": "2026-11-23T09:00:00+00:00",
       "year": 2026
-    },
-    {
-      "archive_item_identifier": "radiorzeszow-2026-11-23",
-      "audio_url": "https://archive.org/download/radiorzeszow-2026-11-23/radiorzeszow_2026-11-23T12-00-00Z.mp3",
-      "completeness_ratio": 1.0,
-      "day": 23,
-      "download_url": "https://archive.org/download/radiorzeszow-2026-11-23/radiorzeszow_2026-11-23T12-00-00Z.mp3",
-      "duration_seconds": 3600.065,
-      "hour": 13,
-      "hourly_archive_id": 268022,
-      "local_date_label": "23.11.2026",
-      "local_hour_label": "13:00",
-      "local_label": "2026-11-23 13:00 czasu polskiego",
-      "local_started_at": "2026-11-23T13:00:00+01:00",
-      "local_timezone_label": "czasu polskiego",
-      "month": 11,
-      "published_at": "2026-11-23T13:24:56.609753+00:00",
-      "published_local_label": "2026-11-23 14:24 czasu polskiego",
-      "remote_filename": "radiorzeszow_2026-11-23T12-00-00Z.mp3",
-      "station_slug": "radiorzeszow",
-      "status": "published",
-      "utc_label": "2026-11-23 12:00 UTC",
-      "utc_started_at": "2026-11-23T12:00:00+00:00",
-      "year": 2026
     }
   ],
   "day": 23,
@@ -539,7 +515,7 @@
       "year": 2026
     },
     {
-      "archive_status": "published",
+      "archive_status": "ready",
       "completeness_ratio": 1.0,
       "day": 23,
       "hour": 13,
@@ -550,9 +526,9 @@
       "local_started_at": "2026-11-23T13:00:00+01:00",
       "local_timezone_label": "czasu polskiego",
       "month": 11,
-      "playable": true,
-      "state": "available",
-      "status_label": null,
+      "playable": false,
+      "state": "publishing",
+      "status_label": "Czeka w kolejce do publikacji",
       "utc_label": "2026-11-23 12:00 UTC",
       "utc_started_at": "2026-11-23T12:00:00+00:00",
       "year": 2026
