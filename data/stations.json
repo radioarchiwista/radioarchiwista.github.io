@@ -1,66 +1,35 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-11-23T07:55:45.529912+00:00",
+  "generated_at": "2026-11-23T08:13:06.577779+00:00",
   "latest_archive_hour_expected_station_count": 43,
-  "latest_archive_hour_started_at": "2026-11-23T06:00:00+00:00",
+  "latest_archive_hour_started_at": "2026-11-23T07:00:00+00:00",
   "latest_archive_hour_stations": [
+    "Program 1",
     "Program 2",
     "Program 3",
     "Polskie Radio 24",
     "Radio 357",
-    "Radio Nowy Świat",
-    "TOK FM",
-    "Radio Wnet",
-    "Radio Republika",
     "Polskie Radio Dzieciom",
     "Radio Afera",
     "Radio Akadera",
     "Radio Białystok",
-    "Radio Centrum Lublin",
-    "Radio Centrum Rzeszów",
-    "Radio Dla Ciebie",
-    "Radio Gdańsk",
-    "Radio Gdańsk Regiony",
-    "Radio Gorzów",
-    "Radio Index",
-    "Radio Kampus",
-    "Radio Katowice",
-    "Radio Kielce",
-    "Radio Koszalin",
-    "Radio Kraków",
-    "Radio Lublin",
-    "Radio Luz",
-    "Radio Maryja",
-    "Radio Olsztyn",
-    "Radio Opole",
-    "Radio PiK",
-    "Radio Poznań",
-    "Radio Szczecin",
-    "Radio Słupsk",
-    "Radio UWM FM",
-    "Radio Wrocław",
-    "Radio Zachód",
-    "Radio Zielona Góra",
-    "Radio Łódź",
-    "Radio Żak",
-    "RMF Classic",
-    "RMF24"
+    "Radio Centrum Lublin"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-11-23T07:55:45.529912+00:00",
+  "published_at": "2026-11-23T08:13:06.577779+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
     {
-      "archive_count": 5480,
+      "archive_count": 5481,
       "display_name": "Program 1",
       "public_name": "Polskie Radio Program 1",
       "slug": "pr1",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5483,
+      "archive_count": 5484,
       "display_name": "Program 2",
       "public_name": "Polskie Radio Program 2",
       "slug": "pr2",
@@ -74,7 +43,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5500,
+      "archive_count": 5501,
       "display_name": "Polskie Radio 24",
       "public_name": "Polskie Radio 24",
       "slug": "pr24",
@@ -116,7 +85,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 2959,
+      "archive_count": 2960,
       "display_name": "Polskie Radio Dzieciom",
       "public_name": "Polskie Radio Dzieciom",
       "slug": "polskieradiodzieciom",
@@ -165,7 +134,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5486,
+      "archive_count": 5487,
       "display_name": "Radio Gdańsk",
       "public_name": "Radio Gdańsk",
       "slug": "radiogdansk",
@@ -228,7 +197,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5485,
+      "archive_count": 5486,
       "display_name": "Radio Lublin",
       "public_name": "Radio Lublin",
       "slug": "radiolublin",
@@ -333,7 +302,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5469,
+      "archive_count": 5470,
       "display_name": "Radio Żak",
       "public_name": "Radio Żak",
       "slug": "radiozak",
