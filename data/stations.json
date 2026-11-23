@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-11-23T20:49:50.494453+00:00",
+  "generated_at": "2026-11-23T20:53:40.800141+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-11-23T19:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -47,7 +47,7 @@
     "RMF24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-11-23T20:49:50.494453+00:00",
+  "published_at": "2026-11-23T20:53:40.800141+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -101,7 +101,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5516,
+      "archive_count": 5517,
       "display_name": "Radio Wnet",
       "public_name": "Radio Wnet",
       "slug": "wnet",
@@ -129,7 +129,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5496,
+      "archive_count": 5497,
       "display_name": "Radio Akadera",
       "public_name": "Radio Akadera",
       "slug": "radioakadera",
@@ -157,7 +157,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5498,
+      "archive_count": 5497,
       "display_name": "Radio Dla Ciebie",
       "public_name": "Radio Dla Ciebie",
       "slug": "rdc",
