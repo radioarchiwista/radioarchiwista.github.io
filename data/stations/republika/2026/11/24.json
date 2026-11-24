@@ -479,30 +479,6 @@
       "utc_label": "2026-11-24 18:00 UTC",
       "utc_started_at": "2026-11-24T18:00:00+00:00",
       "year": 2026
-    },
-    {
-      "archive_item_identifier": "republika-2026-11-24",
-      "audio_url": "https://archive.org/download/republika-2026-11-24/republika_2026-11-24T19-00-00Z.mp3",
-      "completeness_ratio": 1.0,
-      "day": 24,
-      "download_url": "https://archive.org/download/republika-2026-11-24/republika_2026-11-24T19-00-00Z.mp3",
-      "duration_seconds": 3599.935,
-      "hour": 20,
-      "hourly_archive_id": 269364,
-      "local_date_label": "24.11.2026",
-      "local_hour_label": "20:00",
-      "local_label": "2026-11-24 20:00 czasu polskiego",
-      "local_started_at": "2026-11-24T20:00:00+01:00",
-      "local_timezone_label": "czasu polskiego",
-      "month": 11,
-      "published_at": "2026-11-24T20:25:02.802899+00:00",
-      "published_local_label": "2026-11-24 21:25 czasu polskiego",
-      "remote_filename": "republika_2026-11-24T19-00-00Z.mp3",
-      "station_slug": "republika",
-      "status": "published",
-      "utc_label": "2026-11-24 19:00 UTC",
-      "utc_started_at": "2026-11-24T19:00:00+00:00",
-      "year": 2026
     }
   ],
   "day": 24,
@@ -888,7 +864,7 @@
       "year": 2026
     },
     {
-      "archive_status": "published",
+      "archive_status": "ready",
       "completeness_ratio": 1.0,
       "day": 24,
       "hour": 20,
@@ -899,9 +875,9 @@
       "local_started_at": "2026-11-24T20:00:00+01:00",
       "local_timezone_label": "czasu polskiego",
       "month": 11,
-      "playable": true,
-      "state": "available",
-      "status_label": null,
+      "playable": false,
+      "state": "publishing",
+      "status_label": "Czeka w kolejce do publikacji",
       "utc_label": "2026-11-24 19:00 UTC",
       "utc_started_at": "2026-11-24T19:00:00+00:00",
       "year": 2026
