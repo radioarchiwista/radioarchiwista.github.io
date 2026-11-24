@@ -1,8 +1,8 @@
 {
-  "archive_count": 268013,
+  "archive_count": 268021,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-11-24T02:32:00.643222+00:00",
+  "generated_at": "2026-11-24T02:35:28.904823+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-11-24T01:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -21,17 +21,19 @@
     "Radio Gorzów",
     "Radio Kampus",
     "Radio Katowice",
+    "Radio Kielce",
     "Radio Koszalin",
     "Radio Kraków",
     "Radio Lublin",
     "Radio Luz",
     "Radio Maryja",
     "Radio Olsztyn",
+    "Radio PiK",
     "Radio UWM FM",
     "Radio Łódź"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-11-24T02:32:00.643222+00:00",
+  "published_at": "2026-11-24T02:35:28.904823+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
