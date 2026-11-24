@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-11-24T02:18:02.350084+00:00",
+  "generated_at": "2026-11-24T02:32:00.643222+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-11-24T01:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -11,14 +11,26 @@
     "Polskie Radio 24",
     "Polskie Radio Dzieciom",
     "Radio Afera",
+    "Radio Akadera",
     "Radio Białystok",
     "Radio Centrum Lublin",
     "Radio Centrum Rzeszów",
     "Radio Gdańsk",
-    "Radio Gdańsk Regiony"
+    "Radio Gdańsk Regiony",
+    "Radio Gorzów",
+    "Radio Kampus",
+    "Radio Katowice",
+    "Radio Koszalin",
+    "Radio Kraków",
+    "Radio Lublin",
+    "Radio Luz",
+    "Radio Maryja",
+    "Radio Olsztyn",
+    "Radio UWM FM",
+    "Radio Łódź"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-11-24T02:18:02.350084+00:00",
+  "published_at": "2026-11-24T02:32:00.643222+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -37,7 +49,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 45941,
+      "archive_count": 45942,
       "display_name": "Program 3",
       "public_name": "Polskie Radio Program 3",
       "slug": "pr3",
@@ -93,35 +105,35 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5502,
+      "archive_count": 5503,
       "display_name": "Radio Afera",
       "public_name": "Radio Afera",
       "slug": "afera",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5502,
+      "archive_count": 5503,
       "display_name": "Radio Akadera",
       "public_name": "Radio Akadera",
       "slug": "radioakadera",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5501,
+      "archive_count": 5502,
       "display_name": "Radio Białystok",
       "public_name": "Radio Białystok",
       "slug": "radiobialystok",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5502,
+      "archive_count": 5503,
       "display_name": "Radio Centrum Lublin",
       "public_name": "Radio Centrum Lublin",
       "slug": "radiocentrumlublin",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5461,
+      "archive_count": 5462,
       "display_name": "Radio Centrum Rzeszów",
       "public_name": "Radio Centrum Rzeszów",
       "slug": "radiocentrumrzeszow",
@@ -135,21 +147,21 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5505,
+      "archive_count": 5506,
       "display_name": "Radio Gdańsk",
       "public_name": "Radio Gdańsk",
       "slug": "radiogdansk",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 2976,
+      "archive_count": 2977,
       "display_name": "Radio Gdańsk Regiony",
       "public_name": "Radio Gdańsk Regiony",
       "slug": "radiogdanskregiony",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5505,
+      "archive_count": 5506,
       "display_name": "Radio Gorzów",
       "public_name": "Radio Gorzów",
       "slug": "radiogorzow",
@@ -163,14 +175,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5210,
+      "archive_count": 5211,
       "display_name": "Radio Kampus",
       "public_name": "Radio Kampus",
       "slug": "radiokampus",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5499,
+      "archive_count": 5500,
       "display_name": "Radio Katowice",
       "public_name": "Radio Katowice",
       "slug": "radiokatowice",
@@ -184,7 +196,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5377,
+      "archive_count": 5378,
       "display_name": "Radio Koszalin",
       "public_name": "Radio Koszalin",
       "slug": "radiokoszalin",
@@ -268,7 +280,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5482,
+      "archive_count": 5483,
       "display_name": "Radio UWM FM",
       "public_name": "Radio UWM FM",
       "slug": "radiouwmfm",
