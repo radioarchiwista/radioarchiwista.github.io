@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-11-25T06:51:46.991026+00:00",
+  "generated_at": "2026-11-25T06:56:26.773847+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-11-25T05:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -49,7 +49,7 @@
     "RMF24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-11-25T06:51:46.991026+00:00",
+  "published_at": "2026-11-25T06:56:26.773847+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -103,7 +103,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5549,
+      "archive_count": 5550,
       "display_name": "Radio Wnet",
       "public_name": "Radio Wnet",
       "slug": "wnet",
@@ -229,7 +229,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5532,
+      "archive_count": 5533,
       "display_name": "Radio Lublin",
       "public_name": "Radio Lublin",
       "slug": "radiolublin",
@@ -327,7 +327,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5533,
+      "archive_count": 5534,
       "display_name": "Radio Łódź",
       "public_name": "Radio Łódź",
       "slug": "radiolodz",
