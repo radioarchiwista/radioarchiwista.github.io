@@ -119,6 +119,30 @@
       "utc_label": "2026-11-25 04:00 UTC",
       "utc_started_at": "2026-11-25T04:00:00+00:00",
       "year": 2026
+    },
+    {
+      "archive_item_identifier": "tokfm-2026-11-25",
+      "audio_url": "https://archive.org/download/tokfm-2026-11-25/tokfm_2026-11-25T05-00-00Z.mp3",
+      "completeness_ratio": 0.9956,
+      "day": 25,
+      "download_url": "https://archive.org/download/tokfm-2026-11-25/tokfm_2026-11-25T05-00-00Z.mp3",
+      "duration_seconds": 3598.296,
+      "hour": 6,
+      "hourly_archive_id": 269798,
+      "local_date_label": "25.11.2026",
+      "local_hour_label": "06:00",
+      "local_label": "2026-11-25 06:00 czasu polskiego",
+      "local_started_at": "2026-11-25T06:00:00+01:00",
+      "local_timezone_label": "czasu polskiego",
+      "month": 11,
+      "published_at": "2026-11-25T06:44:42.251518+00:00",
+      "published_local_label": "2026-11-25 07:44 czasu polskiego",
+      "remote_filename": "tokfm_2026-11-25T05-00-00Z.mp3",
+      "station_slug": "tokfm",
+      "status": "published",
+      "utc_label": "2026-11-25 05:00 UTC",
+      "utc_started_at": "2026-11-25T05:00:00+00:00",
+      "year": 2026
     }
   ],
   "day": 25,
@@ -238,7 +262,7 @@
       "year": 2026
     },
     {
-      "archive_status": "ready",
+      "archive_status": "published",
       "completeness_ratio": 0.9956,
       "day": 25,
       "hour": 6,
@@ -249,9 +273,9 @@
       "local_started_at": "2026-11-25T06:00:00+01:00",
       "local_timezone_label": "czasu polskiego",
       "month": 11,
-      "playable": false,
-      "state": "publishing",
-      "status_label": "Czeka w kolejce do publikacji",
+      "playable": true,
+      "state": "available",
+      "status_label": null,
       "utc_label": "2026-11-25 05:00 UTC",
       "utc_started_at": "2026-11-25T05:00:00+00:00",
       "year": 2026
