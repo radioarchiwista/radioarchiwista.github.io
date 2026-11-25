@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-11-25T04:56:07.392225+00:00",
+  "generated_at": "2026-11-25T05:01:52.068473+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-11-25T03:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -31,11 +31,13 @@
     "Radio Opole",
     "Radio PiK",
     "Radio Poznań",
+    "Radio Rzeszów",
+    "Radio Słupsk",
     "Radio UWM FM",
     "Radio Łódź"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-11-25T04:56:07.392225+00:00",
+  "published_at": "2026-11-25T05:01:52.068473+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -257,14 +259,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5530,
+      "archive_count": 5531,
       "display_name": "Radio Poznań",
       "public_name": "Radio Poznań",
       "slug": "radiopoznan",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5525,
+      "archive_count": 5526,
       "display_name": "Radio Rzeszów",
       "public_name": "Radio Rzeszów",
       "slug": "radiorzeszow",
