@@ -1,12 +1,11 @@
 {
-  "archive_count": 269102,
+  "archive_count": 269112,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-11-25T04:28:55.341104+00:00",
+  "generated_at": "2026-11-25T04:36:36.496434+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-11-25T03:00:00+00:00",
   "latest_archive_hour_stations": [
-    "Program 1",
     "Program 2",
     "Program 3",
     "Polskie Radio 24",
@@ -22,10 +21,13 @@
     "Radio Gorzów",
     "Radio Kampus",
     "Radio Katowice",
+    "Radio Kielce",
+    "Radio Koszalin",
+    "Radio Kraków",
     "Radio UWM FM"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-11-25T04:28:55.341104+00:00",
+  "published_at": "2026-11-25T04:36:36.496434+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
