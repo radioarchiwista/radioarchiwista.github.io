@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-11-25T04:40:42.991423+00:00",
+  "generated_at": "2026-11-25T04:49:49.645968+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-11-25T03:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -18,6 +18,7 @@
     "Radio Gdańsk",
     "Radio Gdańsk Regiony",
     "Radio Gorzów",
+    "Radio Index",
     "Radio Kampus",
     "Radio Katowice",
     "Radio Kielce",
@@ -25,11 +26,14 @@
     "Radio Kraków",
     "Radio Lublin",
     "Radio Luz",
+    "Radio Maryja",
+    "Radio Olsztyn",
+    "Radio Opole",
     "Radio UWM FM",
     "Radio Łódź"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-11-25T04:40:42.991423+00:00",
+  "published_at": "2026-11-25T04:49:49.645968+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -167,7 +171,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5465,
+      "archive_count": 5466,
       "display_name": "Radio Index",
       "public_name": "Radio Index",
       "slug": "radioindex",
@@ -223,14 +227,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5368,
+      "archive_count": 5369,
       "display_name": "Radio Maryja",
       "public_name": "Radio Maryja",
       "slug": "radiomaryja",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5512,
+      "archive_count": 5513,
       "display_name": "Radio Olsztyn",
       "public_name": "Radio Olsztyn",
       "slug": "radioolsztyn",
