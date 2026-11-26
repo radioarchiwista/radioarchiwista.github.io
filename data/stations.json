@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-11-26T20:46:44.863032+00:00",
+  "generated_at": "2026-11-26T20:56:19.844899+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-11-26T19:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -10,8 +10,10 @@
     "Program 3",
     "Polskie Radio 24",
     "Radio 357",
+    "Radio Nowy Świat",
     "TOK FM",
     "Radio Wnet",
+    "Radio Republika",
     "Polskie Radio Dzieciom",
     "Radio Afera",
     "Radio Akadera",
@@ -19,6 +21,7 @@
     "Radio Centrum Lublin",
     "Radio Centrum Rzeszów",
     "Radio Dla Ciebie",
+    "Radio Gdańsk",
     "Radio Gdańsk Regiony",
     "Radio Gorzów",
     "Radio Index",
@@ -37,7 +40,6 @@
     "Radio Rzeszów",
     "Radio Szczecin",
     "Radio Słupsk",
-    "Radio UWM FM",
     "Radio Wrocław",
     "Radio Zachód",
     "Radio Zielona Góra",
@@ -47,7 +49,7 @@
     "RMF24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-11-26T20:46:44.863032+00:00",
+  "published_at": "2026-11-26T20:56:19.844899+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -87,7 +89,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5586,
+      "archive_count": 5587,
       "display_name": "Radio Nowy Świat",
       "public_name": "Radio Nowy Świat",
       "slug": "rns",
@@ -108,7 +110,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5587,
+      "archive_count": 5588,
       "display_name": "Radio Republika",
       "public_name": "Radio Republika",
       "slug": "republika",
@@ -164,7 +166,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5571,
+      "archive_count": 5572,
       "display_name": "Radio Gdańsk",
       "public_name": "Radio Gdańsk",
       "slug": "radiogdansk",
@@ -290,14 +292,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5463,
+      "archive_count": 5462,
       "display_name": "Radio Słupsk",
       "public_name": "Radio Słupsk",
       "slug": "radioslupsk",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5549,
+      "archive_count": 5548,
       "display_name": "Radio UWM FM",
       "public_name": "Radio UWM FM",
       "slug": "radiouwmfm",
