@@ -1,8 +1,8 @@
 {
-  "archive_count": 271108,
+  "archive_count": 271117,
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-11-27T02:38:20.118711+00:00",
+  "generated_at": "2026-11-27T02:43:00.549252+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-11-27T01:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -25,10 +25,12 @@
     "Radio Katowice",
     "Radio Kielce",
     "Radio Koszalin",
-    "Radio Kraków"
+    "Radio Kraków",
+    "Radio Lublin",
+    "Radio Łódź"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-11-27T02:38:20.118711+00:00",
+  "published_at": "2026-11-27T02:43:00.549252+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "year_index_path_template": "./data/stations/{slug}/{year}/index.json"
