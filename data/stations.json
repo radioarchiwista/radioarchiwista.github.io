@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-11-27T09:36:41.497429+00:00",
+  "generated_at": "2026-11-27T09:41:34.015392+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-11-27T08:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -25,11 +25,12 @@
     "Radio Kielce",
     "Radio Koszalin",
     "Radio Lublin",
+    "Radio Luz",
     "Radio UWM FM",
     "Radio Łódź"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-11-27T09:36:41.497429+00:00",
+  "published_at": "2026-11-27T09:41:34.015392+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -195,7 +196,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5457,
+      "archive_count": 5458,
       "display_name": "Radio Koszalin",
       "public_name": "Radio Koszalin",
       "slug": "radiokoszalin",
@@ -209,14 +210,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5583,
+      "archive_count": 5584,
       "display_name": "Radio Lublin",
       "public_name": "Radio Lublin",
       "slug": "radiolublin",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5502,
+      "archive_count": 5503,
       "display_name": "Radio Luz",
       "public_name": "Radio Luz",
       "slug": "radioluz",
@@ -307,7 +308,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5584,
+      "archive_count": 5585,
       "display_name": "Radio Łódź",
       "public_name": "Radio Łódź",
       "slug": "radiolodz",
