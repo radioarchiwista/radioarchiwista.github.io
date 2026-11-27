@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-11-27T22:50:19.510741+00:00",
+  "generated_at": "2026-11-27T22:56:08.604264+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-11-27T21:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -15,6 +15,7 @@
     "Radio Akadera",
     "Radio Białystok",
     "Radio Centrum Lublin",
+    "Radio Centrum Rzeszów",
     "Radio Gdańsk",
     "Radio Gdańsk Regiony",
     "Radio Gorzów",
@@ -29,7 +30,7 @@
     "Radio Łódź"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-11-27T22:50:19.510741+00:00",
+  "published_at": "2026-11-27T22:56:08.604264+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -132,7 +133,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5549,
+      "archive_count": 5550,
       "display_name": "Radio Centrum Rzeszów",
       "public_name": "Radio Centrum Rzeszów",
       "slug": "radiocentrumrzeszow",
