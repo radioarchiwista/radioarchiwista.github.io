@@ -1,22 +1,15 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-11-27T14:10:20.963060+00:00",
+  "generated_at": "2026-11-27T14:23:38.243306+00:00",
   "latest_archive_hour_expected_station_count": 43,
-  "latest_archive_hour_started_at": "2026-11-27T12:00:00+00:00",
+  "latest_archive_hour_started_at": "2026-11-27T13:00:00+00:00",
   "latest_archive_hour_stations": [
-    "Program 1",
-    "Program 2",
-    "Program 3",
-    "Polskie Radio 24",
-    "Radio 357",
     "Polskie Radio Dzieciom",
-    "Radio Afera",
-    "Radio Akadera",
     "Radio UWM FM"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-11-27T14:10:20.963060+00:00",
+  "published_at": "2026-11-27T14:23:38.243306+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -84,7 +77,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3061,
+      "archive_count": 3062,
       "display_name": "Polskie Radio Dzieciom",
       "public_name": "Polskie Radio Dzieciom",
       "slug": "polskieradiodzieciom",
@@ -105,7 +98,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5583,
+      "archive_count": 5584,
       "display_name": "Radio Białystok",
       "public_name": "Radio Białystok",
       "slug": "radiobialystok",
@@ -266,7 +259,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5566,
+      "archive_count": 5567,
       "display_name": "Radio UWM FM",
       "public_name": "Radio UWM FM",
       "slug": "radiouwmfm",
