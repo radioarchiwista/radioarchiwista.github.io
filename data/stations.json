@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-11-27T01:53:37.023635+00:00",
+  "generated_at": "2026-11-27T01:58:11.098626+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-11-27T00:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -20,10 +20,13 @@
     "Radio Gorzów",
     "Radio Kampus",
     "Radio Kielce",
-    "Radio Koszalin"
+    "Radio Koszalin",
+    "Radio Lublin",
+    "Radio Luz",
+    "Radio Łódź"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-11-27T01:53:37.023635+00:00",
+  "published_at": "2026-11-27T01:58:11.098626+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -203,14 +206,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5575,
+      "archive_count": 5576,
       "display_name": "Radio Lublin",
       "public_name": "Radio Lublin",
       "slug": "radiolublin",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5494,
+      "archive_count": 5495,
       "display_name": "Radio Luz",
       "public_name": "Radio Luz",
       "slug": "radioluz",
@@ -301,7 +304,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5576,
+      "archive_count": 5577,
       "display_name": "Radio Łódź",
       "public_name": "Radio Łódź",
       "slug": "radiolodz",
