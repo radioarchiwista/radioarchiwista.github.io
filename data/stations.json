@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-11-27T07:57:54.338177+00:00",
+  "generated_at": "2026-11-27T08:03:48.346819+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-11-27T06:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -33,6 +33,8 @@
     "Radio Lublin",
     "Radio Maryja",
     "Radio Olsztyn",
+    "Radio Opole",
+    "Radio PiK",
     "Radio Poznań",
     "Radio Szczecin",
     "Radio Słupsk",
@@ -46,7 +48,7 @@
     "RMF24"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-11-27T07:57:54.338177+00:00",
+  "published_at": "2026-11-27T08:03:48.346819+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -247,14 +249,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5565,
+      "archive_count": 5564,
       "display_name": "Radio Olsztyn",
       "public_name": "Radio Olsztyn",
       "slug": "radioolsztyn",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5484,
+      "archive_count": 5483,
       "display_name": "Radio Opole",
       "public_name": "Radio Opole",
       "slug": "radioopole",
