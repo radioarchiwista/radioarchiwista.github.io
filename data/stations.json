@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-11-28T10:45:44.458926+00:00",
+  "generated_at": "2026-11-28T11:00:42.436649+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-11-28T09:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -15,21 +15,24 @@
     "Radio Akadera",
     "Radio Białystok",
     "Radio Centrum Lublin",
+    "Radio Centrum Rzeszów",
     "Radio Gdańsk",
     "Radio Gdańsk Regiony",
     "Radio Gorzów",
     "Radio Index",
+    "Radio Kampus",
     "Radio Katowice",
-    "Radio Kielce",
-    "Radio Koszalin",
     "Radio Kraków",
     "Radio Lublin",
     "Radio Luz",
+    "Radio Maryja",
+    "Radio Olsztyn",
+    "Radio Opole",
     "Radio UWM FM",
     "Radio Łódź"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-11-28T10:45:44.458926+00:00",
+  "published_at": "2026-11-28T11:00:42.436649+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -132,7 +135,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5559,
+      "archive_count": 5560,
       "display_name": "Radio Centrum Rzeszów",
       "public_name": "Radio Centrum Rzeszów",
       "slug": "radiocentrumrzeszow",
@@ -174,7 +177,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5303,
+      "archive_count": 5304,
       "display_name": "Radio Kampus",
       "public_name": "Radio Kampus",
       "slug": "radiokampus",
@@ -188,14 +191,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5543,
+      "archive_count": 5542,
       "display_name": "Radio Kielce",
       "public_name": "Radio Kielce",
       "slug": "radiokielce",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5468,
+      "archive_count": 5467,
       "display_name": "Radio Koszalin",
       "public_name": "Radio Koszalin",
       "slug": "radiokoszalin",
@@ -223,7 +226,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5431,
+      "archive_count": 5432,
       "display_name": "Radio Maryja",
       "public_name": "Radio Maryja",
       "slug": "radiomaryja",
