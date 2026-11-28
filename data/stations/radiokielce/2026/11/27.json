@@ -635,7 +635,7 @@
       "year": 2026
     },
     {
-      "archive_status": "ready",
+      "archive_status": "error",
       "completeness_ratio": 0.9996,
       "day": 27,
       "hour": 13,
@@ -647,8 +647,8 @@
       "local_timezone_label": "czasu polskiego",
       "month": 11,
       "playable": false,
-      "state": "publishing",
-      "status_label": "Czeka w kolejce do publikacji",
+      "state": "failed",
+      "status_label": "Nie udało się przygotować nagrania",
       "utc_label": "2026-11-27 12:00 UTC",
       "utc_started_at": "2026-11-27T12:00:00+00:00",
       "year": 2026
