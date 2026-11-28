@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-11-28T01:49:56.566186+00:00",
+  "generated_at": "2026-11-28T02:02:55.655170+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-11-28T00:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -11,10 +11,18 @@
     "Polskie Radio 24",
     "Polskie Radio Dzieciom",
     "Radio Afera",
+    "Radio Akadera",
+    "Radio Centrum Lublin",
+    "Radio Centrum Rzeszów",
+    "Radio Gdańsk",
+    "Radio Gdańsk Regiony",
+    "Radio Gorzów",
+    "Radio Kampus",
+    "Radio Katowice",
     "Radio UWM FM"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-11-28T01:49:56.566186+00:00",
+  "published_at": "2026-11-28T02:02:55.655170+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -89,14 +97,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5595,
+      "archive_count": 5596,
       "display_name": "Radio Afera",
       "public_name": "Radio Afera",
       "slug": "afera",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5594,
+      "archive_count": 5595,
       "display_name": "Radio Akadera",
       "public_name": "Radio Akadera",
       "slug": "radioakadera",
@@ -110,14 +118,14 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5593,
+      "archive_count": 5594,
       "display_name": "Radio Centrum Lublin",
       "public_name": "Radio Centrum Lublin",
       "slug": "radiocentrumlublin",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5552,
+      "archive_count": 5553,
       "display_name": "Radio Centrum Rzeszów",
       "public_name": "Radio Centrum Rzeszów",
       "slug": "radiocentrumrzeszow",
