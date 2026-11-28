@@ -1,7 +1,7 @@
 {
   "catalog_version": 2,
   "day_catalog_path_template": "./data/stations/{slug}/{year}/{month}/{day}.json",
-  "generated_at": "2026-11-28T09:55:11.119482+00:00",
+  "generated_at": "2026-11-28T09:55:59.317081+00:00",
   "latest_archive_hour_expected_station_count": 43,
   "latest_archive_hour_started_at": "2026-11-28T08:00:00+00:00",
   "latest_archive_hour_stations": [
@@ -17,10 +17,12 @@
     "Radio Centrum Lublin",
     "Radio Centrum Rzeszów",
     "Radio Gdańsk",
+    "Radio Gdańsk Regiony",
+    "Radio Gorzów",
     "Radio UWM FM"
   ],
   "month_index_path_template": "./data/stations/{slug}/{year}/{month}/index.json",
-  "published_at": "2026-11-28T09:55:11.119482+00:00",
+  "published_at": "2026-11-28T09:55:59.317081+00:00",
   "station_count": 43,
   "station_index_path_template": "./data/stations/{slug}/index.json",
   "stations": [
@@ -53,7 +55,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5598,
+      "archive_count": 5599,
       "display_name": "Radio 357",
       "public_name": "Radio 357",
       "slug": "radio357",
@@ -137,21 +139,21 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5600,
+      "archive_count": 5601,
       "display_name": "Radio Gdańsk",
       "public_name": "Radio Gdańsk",
       "slug": "radiogdansk",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 3072,
+      "archive_count": 3073,
       "display_name": "Radio Gdańsk Regiony",
       "public_name": "Radio Gdańsk Regiony",
       "slug": "radiogdanskregiony",
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5601,
+      "archive_count": 5602,
       "display_name": "Radio Gorzów",
       "public_name": "Radio Gorzów",
       "slug": "radiogorzow",
@@ -228,7 +230,7 @@
       "timezone": "Europe/Warsaw"
     },
     {
-      "archive_count": 5491,
+      "archive_count": 5492,
       "display_name": "Radio Opole",
       "public_name": "Radio Opole",
       "slug": "radioopole",
