@@ -2,30 +2,6 @@
   "archives": [
     {
       "archive_item_identifier": "wnet-2026-11-27",
-      "audio_url": "https://archive.org/download/wnet-2026-11-27/wnet_2026-11-27T03-00-00Z.mp3",
-      "completeness_ratio": 0.9997,
-      "day": 27,
-      "download_url": "https://archive.org/download/wnet-2026-11-27/wnet_2026-11-27T03-00-00Z.mp3",
-      "duration_seconds": 3599.736,
-      "hour": 4,
-      "hourly_archive_id": 271777,
-      "local_date_label": "27.11.2026",
-      "local_hour_label": "04:00",
-      "local_label": "2026-11-27 04:00 czasu polskiego",
-      "local_started_at": "2026-11-27T04:00:00+01:00",
-      "local_timezone_label": "czasu polskiego",
-      "month": 11,
-      "published_at": "2026-11-27T05:11:28.815571+00:00",
-      "published_local_label": "2026-11-27 06:11 czasu polskiego",
-      "remote_filename": "wnet_2026-11-27T03-00-00Z.mp3",
-      "station_slug": "wnet",
-      "status": "published",
-      "utc_label": "2026-11-27 03:00 UTC",
-      "utc_started_at": "2026-11-27T03:00:00+00:00",
-      "year": 2026
-    },
-    {
-      "archive_item_identifier": "wnet-2026-11-27",
       "audio_url": "https://archive.org/download/wnet-2026-11-27/wnet_2026-11-27T04-00-00Z.mp3",
       "completeness_ratio": 0.9992,
       "day": 27,
@@ -200,7 +176,7 @@
       "year": 2026
     },
     {
-      "archive_status": "published",
+      "archive_status": "error",
       "completeness_ratio": 0.9997,
       "day": 27,
       "hour": 4,
@@ -211,9 +187,9 @@
       "local_started_at": "2026-11-27T04:00:00+01:00",
       "local_timezone_label": "czasu polskiego",
       "month": 11,
-      "playable": true,
-      "state": "available",
-      "status_label": null,
+      "playable": false,
+      "state": "failed",
+      "status_label": "Nie udało się przygotować nagrania",
       "utc_label": "2026-11-27 03:00 UTC",
       "utc_started_at": "2026-11-27T03:00:00+00:00",
       "year": 2026
